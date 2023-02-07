@@ -1,4 +1,3 @@
-import styled from "styled-components";
 import { useState } from "react";
 import { useRouter } from "next/router";
 
@@ -9,12 +8,14 @@ import {
   MenuList,
   MenuContainer,
   Menu,
-  MenuBox,
   MenuItem,
   DropDownContainer,
   DropDownMenu,
   DropDownSubContainer,
   DropDownSubMenu,
+  DropDownMenuItem,
+  BtnContainer,
+  Btn,
 } from "./HeaderElements";
 
 import { headerTabData } from "@/constants/data/headerTabData";
@@ -23,8 +24,6 @@ export default function Header() {
   const [display, setDisplay] = useState<Number>();
   const [display2, setDisplay2] = useState<Number>();
   const router = useRouter();
-
-  //   console.log(display);
 
   return (
     <Container>
@@ -35,21 +34,15 @@ export default function Header() {
         <MenuContainer>
           {headerTabData.map((item, index) => (
             <Menu key={index}>
-              {/* <MenuBox> */}
-                <MenuItem
-                  onMouseOver={() => setDisplay(index)}
-                  onMouseOut={() => setDisplay(9999)}
-                >
-                  {item.main_item}
-                </MenuItem>
-              {/* </MenuBox> */}
-
+              <MenuItem
+                onMouseOver={() => setDisplay(index)}
+                onMouseOut={() => setDisplay(9999)}
+              >
+                {item.main_item}
+              </MenuItem>
               {item.subItem ? (
                 <DropDownContainer
-                  // style={{ display: display == index ? "block" : "none" }}
-                  style={{
-                    visibility: display == index ? "visible" : "hidden",
-                  }}
+                  style={{ display: display == index ? "block" : "none" }}
                   onMouseOver={() => setDisplay(index)}
                   onMouseOut={() => setDisplay(9999)}
                 >
@@ -63,30 +56,31 @@ export default function Header() {
                           item.link ? router.push(item.link) : "";
                         }}
                       >
-                        {item.sub_item}
+                        <DropDownMenuItem>{item.sub_item}</DropDownMenuItem>
+                        {item.subItem2 ? (
+                          <DropDownSubContainer
+                            style={{
+                              display: display2 === index ? "block" : "none",
+                              visibility:
+                                display2 === index ? "visible" : "hidden",
+                            }}
+                            onMouseOver={() => setDisplay2(index)}
+                            onMouseOut={() => setDisplay2(9999)}
+                          >
+                            {item.subItem2.map((item, index) => (
+                              <>
+                                <DropDownSubMenu
+                                  key={index}
+                                  onMouseOver={() => setDisplay2(index)}
+                                  onMouseOut={() => setDisplay2(0)}
+                                >
+                                  {item.sub_item2}
+                                </DropDownSubMenu>
+                              </>
+                            ))}
+                          </DropDownSubContainer>
+                        ) : null}
                       </DropDownMenu>
-                      {item.subItem2 ? (
-                        <DropDownSubContainer
-                        // style={{
-                        //   display: display2 == index ? "block" : "none",
-                        // }}
-                        // style={{ visibility: display == index ? "visible" : "hidden" }}
-                        // onMouseOver={() => setDisplay2(index)}
-                        // onMouseOut={() => setDisplay2(9999)}
-                        >
-                          {item.subItem2.map((item, index) => (
-                            <>
-                              <DropDownSubMenu
-                                key={index}
-                                onMouseOver={() => setDisplay2(index)}
-                                onMouseOut={() => setDisplay2(0)}
-                              >
-                                {item.sub_item2}
-                              </DropDownSubMenu>
-                            </>
-                          ))}
-                        </DropDownSubContainer>
-                      ) : null}
                     </>
                   ))}
                 </DropDownContainer>
@@ -95,6 +89,10 @@ export default function Header() {
           ))}
         </MenuContainer>
       </MenuList>
+      <BtnContainer>
+        <Btn>로그인</Btn>
+        <Btn>회원가입</Btn>
+      </BtnContainer>
     </Container>
   );
 }

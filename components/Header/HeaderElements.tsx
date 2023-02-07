@@ -29,16 +29,14 @@ const MenuContainer = styled.div`
   display: flex;
 `;
 
-const MenuList = styled.ul`
-
-`
+const MenuList = styled.ul``;
 
 const Menu = styled.li`
   display: flex;
   flex-direction: column;
 `;
 
-const MenuItem = styled.div`
+const MenuItem = styled.a`
   color: #fff;
   color: #000;
   display: flex;
@@ -48,55 +46,51 @@ const MenuItem = styled.div`
   padding: 0 45px;
 `;
 
-const MenuBox = styled.div`
-  display: flex;
-  align-items: center;
-`;
-
 const DropDownContainer = styled.ul`
   display: block;
-  /* visibility: hidden; */
+  visibility: visible;
   justify-content: center;
   flex-direction: column;
   width: 100%;
   background: #000;
   color: #fff;
   position: relative;
+  display: flex;
 `;
 
 const DropDownMenu = styled.li`
   padding: 20px;
   cursor: pointer;
   position: relative;
+`;
 
+const DropDownMenuItem = styled.a`
+  display: block;
 `;
 
 const DropDownSubContainer = styled.ul`
-  display: block;
   flex-direction: column;
   background: #000;
   color: #fff;
-  /* position: absolute;
-  left: 159px;
-  top: 0; */
   left: 100%;
   top: 0;
-  position: relative;
-  /* width: inherit; */
+  position: absolute;
+  display: none;
+  width: 160px;
 `;
 
 const DropDownSubMenu = styled.li`
   padding: 20px;
 `;
 
-const HeaderBtnContainer = styled.div`
+const BtnContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
   width: 210px;
 `;
 
-const HeaderBtn = styled.div`
+const Btn = styled.div`
   color: #fff;
   color: #000;
   font-size: 20px;
@@ -111,9 +105,11 @@ export {
   MenuContainer,
   Menu,
   MenuItem,
-  MenuBox,
   DropDownContainer,
   DropDownMenu,
   DropDownSubContainer,
-  DropDownSubMenu
+  DropDownSubMenu,
+  DropDownMenuItem,
+  BtnContainer,
+  Btn,
 };

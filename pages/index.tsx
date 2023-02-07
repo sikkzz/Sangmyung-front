@@ -1,11 +1,4 @@
 import Head from 'next/head'
-import {
-  Container,
-  Main,
-  Title,
-  Description,
-  CodeTag,
-} from '../components/sharedstyles'
 import Header from '@/components/Header/Header'
 
 export default function Home() {
