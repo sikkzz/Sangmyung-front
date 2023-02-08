@@ -1,6 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+  :root{
+    --main-blue: #003d91;
+    --sub-blue: rgb(16,46,108);
+  }
   html,
   body {
     color: ${({ theme }) => theme.colors.primary};

@@ -47,41 +47,37 @@ export default function Header() {
                   onMouseOut={() => setDisplay(9999)}
                 >
                   {item.subItem.map((item, index) => (
-                    <>
-                      <DropDownMenu
-                        key={index}
-                        onMouseOver={() => setDisplay2(index)}
-                        onMouseOut={() => setDisplay2(9999)}
-                        onClick={() => {
-                          item.link ? router.push(item.link) : "";
-                        }}
-                      >
-                        <DropDownMenuItem>{item.sub_item}</DropDownMenuItem>
-                        {item.subItem2 ? (
-                          <DropDownSubContainer
-                            style={{
-                              display: display2 === index ? "block" : "none",
-                              visibility:
-                                display2 === index ? "visible" : "hidden",
-                            }}
-                            onMouseOver={() => setDisplay2(index)}
-                            onMouseOut={() => setDisplay2(9999)}
-                          >
-                            {item.subItem2.map((item, index) => (
-                              <>
-                                <DropDownSubMenu
-                                  key={index}
-                                  onMouseOver={() => setDisplay2(index)}
-                                  onMouseOut={() => setDisplay2(0)}
-                                >
-                                  {item.sub_item2}
-                                </DropDownSubMenu>
-                              </>
-                            ))}
-                          </DropDownSubContainer>
-                        ) : null}
-                      </DropDownMenu>
-                    </>
+                    <DropDownMenu
+                      key={index}
+                      onMouseOver={() => setDisplay2(index)}
+                      onMouseOut={() => setDisplay2(9999)}
+                      onClick={() => {
+                        item.link ? router.push(item.link) : "";
+                      }}
+                    >
+                      <DropDownMenuItem>{item.sub_item}</DropDownMenuItem>
+                      {item.subItem2 ? (
+                        <DropDownSubContainer
+                          style={{
+                            display: display2 === index ? "block" : "none",
+                            visibility:
+                              display2 === index ? "visible" : "hidden",
+                          }}
+                          onMouseOver={() => setDisplay2(index)}
+                          onMouseOut={() => setDisplay2(9999)}
+                        >
+                          {item.subItem2.map((item, index) => (
+                            <DropDownSubMenu
+                              key={index}
+                              onMouseOver={() => setDisplay2(index)}
+                              onMouseOut={() => setDisplay2(0)}
+                            >
+                              {item.sub_item2}
+                            </DropDownSubMenu>
+                          ))}
+                        </DropDownSubContainer>
+                      ) : null}
+                    </DropDownMenu>
                   ))}
                 </DropDownContainer>
               ) : null}
