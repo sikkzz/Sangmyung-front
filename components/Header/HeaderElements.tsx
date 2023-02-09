@@ -10,6 +10,14 @@ const Container = styled.div`
   padding: 0 100px;
   position: fixed;
   z-index: 100;
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+
+
+  &:hover{
+    background: #fff;
+    color: #000;
+  }
 `;
 
 const LogoContainer = styled.div`
@@ -20,8 +28,8 @@ const LogoContainer = styled.div`
 `;
 
 const Logo = styled.div`
-  color: #fff;
-  color: #000;
+  /* color: #fff; */
+  /* color: #000; */
   font-size: 24px;
 `;
 
@@ -37,8 +45,8 @@ const Menu = styled.li`
 `;
 
 const MenuItem = styled.a`
-  color: #fff;
-  color: #000;
+  /* color: #fff; */
+  /* color: #000; */
   display: flex;
   align-items: center;
   height: 80px;
@@ -91,8 +99,8 @@ const BtnContainer = styled.div`
 `;
 
 const Btn = styled.div`
-  color: #fff;
-  color: #000;
+  /* color: #fff; */
+  /* color: #000; */
   font-size: 20px;
   padding-left: 20px;
 `;

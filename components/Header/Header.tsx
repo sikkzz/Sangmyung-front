@@ -37,6 +37,7 @@ export default function Header() {
               <MenuItem
                 onMouseOver={() => setDisplay(index)}
                 onMouseOut={() => setDisplay(9999)}
+                href={item.link}
               >
                 {item.main_item}
               </MenuItem>
@@ -71,6 +72,9 @@ export default function Header() {
                               key={index}
                               onMouseOver={() => setDisplay2(index)}
                               onMouseOut={() => setDisplay2(0)}
+                              onClick={() => {
+                                item.link ? router.push(item.link) : "";
+                              }}
                             >
                               {item.sub_item2}
                             </DropDownSubMenu>
