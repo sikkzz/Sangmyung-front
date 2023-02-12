@@ -14,17 +14,75 @@ const InnerContainer = styled.div`
   background-color: rgb(255 255 255);
 `;
 
-const GreetingContainer = styled.div``;
+const Wrapper = styled.div``;
 
 const ImgContainer = styled.div`
-    max-width: 1120px;
-    /* background-color: #000; */
-    display: flex;
-    justify-content: space-between;
-`
+  max-width: 1120px;
+  /* background-color: #000; */
+  display: flex;
+  justify-content: space-between;
+`;
 
 const ImgWrapper = styled.div`
-    /* width: 350px; */
-`
+  display: flex;
+  flex-direction: column;
+  /* width: 350px; */
+`;
 
-export { Container, InnerContainer, GreetingContainer, ImgContainer,ImgWrapper };
+const TitleContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+
+  &:first-of-type {
+    margin-top: 20px;
+  }
+`;
+
+const Title = styled.p``;
+
+const GreetingContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+`;
+
+const LogoContainer = styled.div`
+  display: flex;
+  align-items: center;
+`;
+
+const TextContainer = styled.div`
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  margin-left: 50px;
+`;
+
+const TextWrapper = styled.div`
+  max-width: 620px;
+  &:not(:first-of-type) {
+    margin-top: 30px;
+  }
+`;
+
+const Text = styled.div`
+  text-align: left;
+  font-size: 16px;
+  line-height: 24px;
+`;
+
+export {
+  Container,
+  InnerContainer,
+  Wrapper,
+  ImgContainer,
+  ImgWrapper,
+  TitleContainer,
+  Title,
+  GreetingContainer,
+  LogoContainer,
+  TextContainer,
+  TextWrapper,
+  Text,
+};
