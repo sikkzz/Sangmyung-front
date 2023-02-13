@@ -6,4 +6,7 @@ const Container = styled.div`
     background-color: #fff;
 `
 
-export {Container}
+const Inner = styled.div`
+`
+
+export {Container, Inner}
