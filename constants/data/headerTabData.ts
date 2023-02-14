@@ -1,6 +1,7 @@
 export const headerTabData = [
   {
     main_item: "홈",
+    link: "/"
   },
   {
     main_item: "총학생회",
@@ -22,24 +23,31 @@ export const headerTabData = [
       },
       {
         sub_item: "집행부 소개",
+        link: "#!",
         subItem2: [
           {
             sub_item2: "집행부1",
+            link: "#!",
           },
           {
             sub_item2: "집행부2",
+            link: "#!",
           },
           {
             sub_item2: "집행부3",
+            link: "#!",
           },
           {
             sub_item2: "집행부4",
+            link: "#!",
           },
           {
             sub_item2: "집행부5",
+            link: "#!",
           },
           {
             sub_item2: "집행부6",
+            link: "#!",
           },
         ],
       },
@@ -49,62 +57,80 @@ export const headerTabData = [
       },
       {
         sub_item: "공약",
+        link: "#!",
       },
       {
         sub_item: "예결산 목록",
+        link: "#!",
       },
       {
         sub_item: "활동사진",
+        link: "#!",
       },
     ],
   },
   {
     main_item: "공지사항",
+    link: "#!",
   },
   {
     main_item: "산하기구",
+    link: "#!",
     subItem: [
       {
         sub_item: "공대",
+        link: "#!",
         subItem2: [
           {
             sub_item2: "부1",
+            link: "#!",
           },
           {
             sub_item2: "부2",
+            link: "#!",
           },
           {
             sub_item2: "부3",
+            link: "#!",
           },
           {
             sub_item2: "집행부4",
+            link: "#!",
           },
           {
             sub_item2: "집행부5",
+            link: "#!",
           },
           {
             sub_item2: "집행부6",
+            link: "#!",
           },
         ],
       },
       {
         sub_item: "인사대",
+        link: "#!",
       },
       {
         sub_item: "사대",
+        link: "#!",
       },
       {
         sub_item: "문예대",
+        link: "#!",
       },
       {
         sub_item: "경경대",
+        link: "#!",
       },
     ],
   },
   {
     main_item: "학교시설",
+    link: "#!",
   },
   {
     main_item: "건의/청원게시판",
+    link: "#!",
   },
 ];
