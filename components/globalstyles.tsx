@@ -4,6 +4,7 @@ const GlobalStyle = createGlobalStyle`
   :root{
     --main-blue: #003d91;
     --sub-blue: rgb(16,46,108);
+    --main-color: #0312A3;
   }
   html,
   body {
