@@ -25,8 +25,8 @@ import {
   SubMajor,
 } from "./OrganiElements";
 
-import Img from "@/assets/chart.jpeg";
-import Img2 from "@/assets/test.jpg";
+import Img from "../../assets/chart.jpeg";
+import Img2 from "../../assets/test.jpg";
 
 export default function Organization() {
   return (

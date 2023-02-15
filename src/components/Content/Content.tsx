@@ -14,8 +14,8 @@ import {
   Text,
 } from "./ContentElements";
 
-import Img from "@/assets/test.jpg";
-import Img2 from "@/assets/logo.jpeg";
+import Img from "../../assets/test.jpg";
+import Img2 from "../../assets/logo.jpeg";
 
 export default function Content() {
   return (

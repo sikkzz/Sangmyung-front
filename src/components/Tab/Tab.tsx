@@ -9,7 +9,7 @@ export default function Tab() {
   const params = useParams()
   const [active, setActive] = useState<String | []>();
 
-  console.log(params)
+  // console.log(params)
 
   return (
     <Container>

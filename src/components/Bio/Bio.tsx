@@ -1,7 +1,7 @@
 
 import { ImageContainer, Image, TextContainer, Title, Text } from "./BioElements";
 
-import Img from "@/assets/test3.webp";
+import Img from "../../assets/test3.webp";
 export default function Bio() {
   return (
     <ImageContainer>

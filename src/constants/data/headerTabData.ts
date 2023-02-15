@@ -1,7 +1,7 @@
 export const headerTabData = [
   {
     main_item: "홈",
-    link: "/"
+    link: "/",
   },
   {
     main_item: "총학생회",
@@ -9,7 +9,7 @@ export const headerTabData = [
     subItem: [
       {
         sub_item: "소개",
-        link: "/introduce/greeting",
+        // link: "/introduce/greeting",
         subItem2: [
           {
             sub_item2: "회장단 인사말",
@@ -17,7 +17,7 @@ export const headerTabData = [
           },
           {
             sub_item2: "조직도",
-            link: "/introduce/organizationchart"
+            link: "/introduce/organizationchart",
           },
         ],
       },
