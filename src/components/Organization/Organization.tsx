@@ -16,21 +16,15 @@ import {
   Position,
   Name,
   Major,
-  SubProfileContainer,
-  SubProfileInner,
-  SubProfile,
-  SubImage,
-  SubProfileTextBox,
-  SubGroup,
-  SubPosition,
-  SubName,
-  SubMajor,
 } from "./OrganiElements";
 
 import Img from "../../assets/chart.jpeg";
 import Img2 from "../../assets/test.jpg";
 
 export default function Organization() {
+  const count3 = [1, 2];
+  const count = [1, 2, 3];
+  const count2 = [1, 2, 3, 4];
   return (
     <Container>
       <OrganiContainer>
@@ -43,312 +37,81 @@ export default function Organization() {
         </TextContainer>
         <ImageContainer>
           <Title>총학생회 선</Title>
-          <ProfileContainer>
-            <ProfileInner>
-              <Profile>
-                <Image
-                  src={Img2}
-                  alt="Img"
-                  width={120}
-                  height={120}
-                  style={{ borderRadius: "50%" }}
-                />
-              </Profile>
-              <ProfileTextBox>
-                <Group>회장단</Group>
-                <Position>학생회장</Position>
-                <Name>이&nbsp;&nbsp;&nbsp;진</Name>
-                <Major>지적재산권전공 20</Major>
-              </ProfileTextBox>
-            </ProfileInner>
-            <ProfileInner>
-              <Profile>
-                <Image
-                  src={Img2}
-                  alt="Img"
-                  width={120}
-                  height={120}
-                  style={{ borderRadius: "50%" }}
-                />
-              </Profile>
-              <ProfileTextBox>
-                <Group>회장단</Group>
-                <Position>부학생회장</Position>
-                <Name>이사랑</Name>
-                <Major>국어교육과 20</Major>
-              </ProfileTextBox>
-            </ProfileInner>
+
+          <ProfileContainer marginTop="50px">
+            {count3.map((index) => (
+              <ProfileInner key={index}>
+                <Profile width="160px" height="160px">
+                  <Image src={Img2} alt="Img" width="120px" height="120px" />
+                </Profile>
+                <ProfileTextBox>
+                  <Group fontSize="24px">회장단</Group>
+                  <Position fontSize="30px">학생회장</Position>
+                  <Name>이&nbsp;&nbsp;&nbsp;진</Name>
+                  <Major fontSize="24px">지적재산권전공 20</Major>
+                </ProfileTextBox>
+              </ProfileInner>
+            ))}
           </ProfileContainer>
 
-          <ProfileContainer>
-            <ProfileInner>
-              <Profile style={{ margin: "0 250px" }}>
-                <Image
-                  src={Img2}
-                  alt="Img"
-                  width={120}
-                  height={120}
-                  style={{ borderRadius: "50%" }}
-                />
-              </Profile>
-              <ProfileTextBox>
-                <Group>기획국</Group>
-                <Position>국장</Position>
-                <Name>김준식</Name>
-                <Major>컴퓨터과학전공 17</Major>
-              </ProfileTextBox>
+          <ProfileContainer marginTop="50px">
+            {count3.map((index) => (
+              <ProfileInner key={index}>
+                <Profile
+                  width="160px"
+                  height="160px"
+                  style={{ margin: "0 250px" }}
+                >
+                  <Image src={Img2} alt="Img" width="120px" height="120px" />
+                </Profile>
+                <ProfileTextBox>
+                  <Group fontSize="24px">기획국</Group>
+                  <Position fontSize="30px">국장</Position>
+                  <Name>김준식</Name>
+                  <Major fontSize="24px">컴퓨터과학전공 17</Major>
+                </ProfileTextBox>
 
-              <SubProfileContainer>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-              </SubProfileContainer>
-              <SubProfileContainer>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-              </SubProfileContainer>
-            </ProfileInner>
+                <ProfileContainer marginTop="30px">
+                  {count.map((index) => (
+                    <ProfileInner key={index}>
+                      <Profile width="100px" height="100px">
+                        <Image
+                          src={Img2}
+                          alt="Img"
+                          width="70px"
+                          height="70px"
+                        />
+                      </Profile>
+                      <ProfileTextBox>
+                        <Group fontSize="16px">기획국</Group>
+                        <Position fontSize="22px">국원 박주현</Position>
+                        <Major fontSize="16px">컴퓨터과학전공 17</Major>
+                      </ProfileTextBox>
+                    </ProfileInner>
+                  ))}
+                </ProfileContainer>
 
-            <ProfileInner>
-              <Profile style={{ margin: "0 250px" }}>
-                <Image
-                  src={Img2}
-                  alt="Img"
-                  width={120}
-                  height={120}
-                  style={{ borderRadius: "50%" }}
-                />
-              </Profile>
-              <ProfileTextBox>
-                <Group>재정사무국</Group>
-                <Position>국장</Position>
-                <Name>우윤기</Name>
-                <Major>휴먼지능정보공학전공 20</Major>
-              </ProfileTextBox>
-              <SubProfileContainer>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-              </SubProfileContainer>
-              <SubProfileContainer>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-                <SubProfileInner>
-                  <SubProfile>
-                    <SubImage
-                      src={Img2}
-                      alt="Img"
-                      width={70}
-                      height={70}
-                      style={{ borderRadius: "50%" }}
-                    />
-                  </SubProfile>
-                  <SubProfileTextBox>
-                    <SubGroup>기획국</SubGroup>
-                    <SubPosition>국원 박주현</SubPosition>
-                    <SubMajor>컴퓨터과학전공 17</SubMajor>
-                  </SubProfileTextBox>
-                </SubProfileInner>
-              </SubProfileContainer>
-            </ProfileInner>
+                <ProfileContainer marginTop="30px">
+                  {count2.map((index) => (
+                    <ProfileInner key={index}>
+                      <Profile width="100px" height="100px">
+                        <Image
+                          src={Img2}
+                          alt="Img"
+                          width="70px"
+                          height="70px"
+                        />
+                      </Profile>
+                      <ProfileTextBox>
+                        <Group fontSize="16px">기획국</Group>
+                        <Position fontSize="22px">국원 박주현</Position>
+                        <Major fontSize="16px">컴퓨터과학전공 17</Major>
+                      </ProfileTextBox>
+                    </ProfileInner>
+                  ))}
+                </ProfileContainer>
+              </ProfileInner>
+            ))}
           </ProfileContainer>
         </ImageContainer>
       </ChartContainer>

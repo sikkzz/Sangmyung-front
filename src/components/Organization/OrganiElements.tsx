@@ -39,23 +39,23 @@ const Line = styled.div`
 
 const ImageContainer = styled.div``;
 
-const Image = styled.img`
-  width: 120px;
-  height: 120px;
+const Image = styled.img<{ width: string; height: string }>`
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
   border-radius: 50%;
 `;
 
-const ProfileContainer = styled.div`
-  margin-top: 50px;
+const ProfileContainer = styled.div<{ marginTop: string }>`
+  margin-top: ${(props) => props.marginTop};
   display: flex;
   justify-content: center;
 `;
 
 const ProfileInner = styled.div``;
 
-const Profile = styled.div`
-  width: 160px;
-  height: 160px;
+const Profile = styled.div<{ width: string; height: string }>`
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
   border-radius: 50%;
   background-color: var(--main-color);
   margin: 0 30px;
@@ -70,13 +70,13 @@ const ProfileTextBox = styled.div`
   align-items: center;
 `;
 
-const Group = styled.div`
-  font-size: 24px;
+const Group = styled.div<{ fontSize: string }>`
+  font-size: ${(props) => props.fontSize};
   margin-top: 14px;
 `;
 
-const Position = styled.div`
-  font-size: 30px;
+const Position = styled.div<{ fontSize: string }>`
+  font-size: ${(props) => props.fontSize};
   margin-top: 10px;
 `;
 
@@ -84,57 +84,8 @@ const Name = styled.div`
   font-size: 30px;
 `;
 
-const Major = styled.div`
-  font-size: 24px;
-  color: #aaa;
-`;
-
-const SubProfileContainer = styled.div`
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-`;
-
-const SubProfileInner = styled.div``;
-
-const SubProfile = styled.div`
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-color: var(--main-color);
-  margin: 0 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
-const SubImage = styled.img`
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-`;
-
-const SubProfileTextBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
-const SubGroup = styled.div`
-  font-size: 16px;
-  margin-top: 14px;
-`;
-
-const SubPosition = styled.div`
-  font-size: 22px;
-`;
-
-const SubName = styled.div`
-  font-size: 22px;
-`;
-
-const SubMajor = styled.div`
-  font-size: 16px;
+const Major = styled.div<{ fontSize: string }>`
+  font-size: ${(props) => props.fontSize};
   color: #aaa;
 `;
 
@@ -156,13 +107,4 @@ export {
   Position,
   Name,
   Major,
-  SubProfileContainer,
-  SubProfileInner,
-  SubProfile,
-  SubImage,
-  SubProfileTextBox,
-  SubGroup,
-  SubPosition,
-  SubName,
-  SubMajor,
 };
