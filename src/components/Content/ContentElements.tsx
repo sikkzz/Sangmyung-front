@@ -57,6 +57,11 @@ const LogoContainer = styled.div`
   align-items: center;
 `;
 
+const Logo = styled.img`
+  width: 500px;
+  height: 500px;
+`
+
 const TextContainer = styled.div`
   display: flex;
   /* align-items: center; */
@@ -88,6 +93,7 @@ export {
   Title,
   GreetingContainer,
   LogoContainer,
+  Logo,
   TextContainer,
   TextWrapper,
   Text,

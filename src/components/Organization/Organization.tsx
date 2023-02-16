@@ -1,6 +1,7 @@
 import {
   Container,
   OrganiContainer,
+  OrganiImage,
   ChartContainer,
   TextContainer,
   Title,
@@ -18,6 +19,7 @@ import {
   SubProfileContainer,
   SubProfileInner,
   SubProfile,
+  SubImage,
   SubProfileTextBox,
   SubGroup,
   SubPosition,
@@ -32,7 +34,7 @@ export default function Organization() {
   return (
     <Container>
       <OrganiContainer>
-        <Image src={Img} alt="chart" width={1250} height={850} />
+        <OrganiImage src={Img} alt="chart" />
       </OrganiContainer>
       <ChartContainer>
         <TextContainer>
@@ -99,7 +101,7 @@ export default function Organization() {
               <SubProfileContainer>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}
@@ -115,7 +117,7 @@ export default function Organization() {
                 </SubProfileInner>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}
@@ -131,7 +133,7 @@ export default function Organization() {
                 </SubProfileInner>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}
@@ -149,7 +151,7 @@ export default function Organization() {
               <SubProfileContainer>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}
@@ -165,7 +167,7 @@ export default function Organization() {
                 </SubProfileInner>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}
@@ -181,7 +183,7 @@ export default function Organization() {
                 </SubProfileInner>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}
@@ -197,7 +199,7 @@ export default function Organization() {
                 </SubProfileInner>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}
@@ -233,7 +235,7 @@ export default function Organization() {
               <SubProfileContainer>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}
@@ -249,7 +251,7 @@ export default function Organization() {
                 </SubProfileInner>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}
@@ -265,7 +267,7 @@ export default function Organization() {
                 </SubProfileInner>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}
@@ -283,7 +285,7 @@ export default function Organization() {
               <SubProfileContainer>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}
@@ -299,7 +301,7 @@ export default function Organization() {
                 </SubProfileInner>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}
@@ -315,7 +317,7 @@ export default function Organization() {
                 </SubProfileInner>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}
@@ -331,7 +333,7 @@ export default function Organization() {
                 </SubProfileInner>
                 <SubProfileInner>
                   <SubProfile>
-                    <Image
+                    <SubImage
                       src={Img2}
                       alt="Img"
                       width={70}

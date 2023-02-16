@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from "react-router-dom";
 
 import {
   Container,
@@ -23,7 +23,7 @@ import { headerTabData } from "../../constants/data/headerTabData";
 export default function Header() {
   const [display, setDisplay] = useState<Number>();
   const [display2, setDisplay2] = useState<Number>();
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
     <Container>
@@ -37,7 +37,9 @@ export default function Header() {
               <MenuItem
                 onMouseOver={() => setDisplay(index)}
                 onMouseOut={() => setDisplay(9999)}
-                href={item.link}
+                onClick={() => {
+                  return item.link ? navigate(item.link) : "";
+                }}
               >
                 {item.main_item}
               </MenuItem>
@@ -52,13 +54,14 @@ export default function Header() {
                       key={index}
                       onMouseOver={() => setDisplay2(index)}
                       onMouseOut={() => setDisplay2(9999)}
-                      onClick={() => {
-                        return(
-                          item.link ? navigate(item.link) : ""
-                        )
-                      }}
                     >
-                      <DropDownMenuItem>{item.sub_item}</DropDownMenuItem>
+                      <DropDownMenuItem
+                        onClick={() => {
+                          return item.link ? navigate(item.link) : "";
+                        }}
+                      >
+                        {item.sub_item}
+                      </DropDownMenuItem>
                       {item.subItem2 ? (
                         <DropDownSubContainer
                           style={{
@@ -75,9 +78,7 @@ export default function Header() {
                               onMouseOver={() => setDisplay2(index)}
                               onMouseOut={() => setDisplay2(0)}
                               onClick={() => {
-                                return(
-                                  item.link ? navigate(item.link) : ""
-                                )
+                                return item.link ? navigate(item.link) : "";
                               }}
                             >
                               {item.sub_item2}

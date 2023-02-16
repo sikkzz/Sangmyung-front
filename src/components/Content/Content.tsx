@@ -9,6 +9,7 @@ import {
   Title,
   GreetingContainer,
   LogoContainer,
+  Logo,
   TextContainer,
   TextWrapper,
   Text,
@@ -40,8 +41,6 @@ export default function Content() {
               <Image
                 src={Img}
                 alt="profile"
-                width={500}
-                height={700}
                 // style={{ paddingRight: "100px" } }
               />
               <TitleContainer>
@@ -55,7 +54,7 @@ export default function Content() {
 
           <GreetingContainer>
             <LogoContainer>
-              <Image src={Img2} alt="Logo" width={500} height={500} />
+              <Logo src={Img2} alt="Logo" width={500} height={500} />
             </LogoContainer>
             <TextContainer>
               <TextWrapper>

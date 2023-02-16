@@ -9,7 +9,7 @@ export const headerTabData = [
     subItem: [
       {
         sub_item: "소개",
-        // link: "/introduce/greeting",
+        link: "/introduce/greeting",
         subItem2: [
           {
             sub_item2: "회장단 인사말",

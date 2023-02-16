@@ -14,7 +14,7 @@ const IntroducePage = () => {
     <>
       <Header />
       <Bio />
-      <Tab />
+      <Tab state="introduce"/>
       {param.param === "greeting" ? <Content /> : <Organization />}
       <Footer />
     </>

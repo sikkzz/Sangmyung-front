@@ -11,6 +11,7 @@ const Routing = () => {
       <Route path="/introduce" element={<IntroducePage />} />
       <Route path="/introduce/:param" element={<IntroducePage />} />
       <Route path="/department" element={<DepartmentPage />} />
+      <Route path="/department/:param" element={<DepartmentPage />} />
     </Routes>
   );
 };

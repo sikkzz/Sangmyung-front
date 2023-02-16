@@ -13,6 +13,11 @@ const OrganiContainer = styled.div`
   justify-content: center;
 `;
 
+const OrganiImage = styled.img`
+  width: 1250px;
+  height: 850px;
+`;
+
 const ChartContainer = styled.div`
   margin-bottom: 200px;
 `;
@@ -38,7 +43,7 @@ const Image = styled.img`
   width: 120px;
   height: 120px;
   border-radius: 50%;
-`
+`;
 
 const ProfileContainer = styled.div`
   margin-top: 50px;
@@ -103,6 +108,12 @@ const SubProfile = styled.div`
   align-items: center;
 `;
 
+const SubImage = styled.img`
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+`;
+
 const SubProfileTextBox = styled.div`
   display: flex;
   flex-direction: column;
@@ -130,6 +141,7 @@ const SubMajor = styled.div`
 export {
   Container,
   OrganiContainer,
+  OrganiImage,
   ChartContainer,
   TextContainer,
   Title,
@@ -147,6 +159,7 @@ export {
   SubProfileContainer,
   SubProfileInner,
   SubProfile,
+  SubImage,
   SubProfileTextBox,
   SubGroup,
   SubPosition,

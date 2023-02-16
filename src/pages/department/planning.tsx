@@ -8,7 +8,7 @@ export default function Planning() {
     <>
       <Header />
       <Bio />
-      <Tab />
+      {/* <Tab /> */}
       <Footer />
     </>
   );
