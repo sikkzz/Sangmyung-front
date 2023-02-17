@@ -16,7 +16,7 @@ const Col = styled.div`
 const Box = styled.div`
   display: flex;
   padding-bottom: 90px;
-  border-bottom: 1px solid rgb(217,217,217);
+  border-bottom: 1px solid rgb(217, 217, 217);
 `;
 
 const BoxLeft = styled.div`
@@ -25,9 +25,9 @@ const BoxLeft = styled.div`
 `;
 
 const BoxRight = styled.div`
-    margin-left: 100px;
-    display: flex;
-    align-items: center;
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
 `;
 
 const ImageBox = styled.div`

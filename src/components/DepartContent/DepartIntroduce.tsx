@@ -8,11 +8,17 @@ import {
   ImageBox,
   Image,
   TextBox,
-} from "./DepartContentElements";
+} from "./DepartIntroduceElements";
 
 import Img from "../../assets/test.jpg";
 
-const DepartIntroduce = () => {
+
+type Props = {
+  state: string | undefined
+};
+
+
+const DepartIntroduce: React.FC<Props> = ({state}) => {
   return (
     <Layout>
       <Col>

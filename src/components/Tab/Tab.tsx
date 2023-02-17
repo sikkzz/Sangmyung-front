@@ -32,6 +32,8 @@ const Tab: React.FC<Props> = ({ state }) => {
               <Item href="/department/educationsupporting">교육지원국</Item>
               <Item href="/department/promotion">홍보국</Item>
             </>
+          ) : state === "map" ? (
+            <Item href="/map">캠퍼스맵</Item>
           ) : (
             ""
           )}
