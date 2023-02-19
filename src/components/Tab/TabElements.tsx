@@ -1,9 +1,19 @@
 import styled from "styled-components";
 
+const Box = styled.div`
+  top: 80px;
+  z-index: 99;
+  right: 0;
+  left: 0;
+  position: sticky;
+`;
+
+const InnerBox = styled.div``;
+
 const Container = styled.div`
   /* width: 100%; */
   /* height: 64px; */
-  position: sticky;
+  /* position: sticky; */
   background-color: rgb(255 255 255);
   z-index: 10;
 `;
@@ -38,4 +48,4 @@ const Item = styled.a`
   }
 `;
 
-export { Container, InnerContainer, Wrapper, Item };
+export { Box, InnerBox, Container, InnerContainer, Wrapper, Item };

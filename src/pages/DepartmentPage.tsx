@@ -14,7 +14,6 @@ const DepartmentPage = () => {
     <>
       <Header />
       <Bio />
-      <Tab state="department" />
       <DepartContent state={param.param}/>
       <Footer />
     </>

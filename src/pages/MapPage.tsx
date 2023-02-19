@@ -10,7 +10,6 @@ const MapPage = () => {
     <>
       <Header />
       <Bio />
-      <Tab state="map" />
       <Map />
       <Footer />
     </>

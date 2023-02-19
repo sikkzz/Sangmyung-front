@@ -1,5 +1,21 @@
 import styled from "styled-components";
 
+const Box = styled.div`
+  z-index: 100;
+  top: 0;
+  right: 0;
+  left: 0;
+  position: sticky;
+`;
+
+const InnerBox = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+`;
+
 const Container = styled.div`
   display: flex;
   justify-content: space-between;
@@ -8,16 +24,9 @@ const Container = styled.div`
   background: var(--main-blue);
   background: transparent;
   padding: 0 100px;
-  position: fixed;
   z-index: 100;
   color: #fff;
-  border-bottom: 1px solid rgba(255,255,255,0.3);
-
-
-  &:hover{
-    background: #fff;
-    color: #000;
-  }
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 `;
 
 const LogoContainer = styled.div`
@@ -106,6 +115,8 @@ const Btn = styled.div`
 `;
 
 export {
+  Box,
+  InnerBox,
   Container,
   LogoContainer,
   Logo,
