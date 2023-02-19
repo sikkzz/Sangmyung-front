@@ -1,7 +1,5 @@
 import { Container, InnerContainer, Wrapper, Item } from "./TabElements";
-import { useNavigate, useParams } from "react-router";
-import { useState } from "react";
-import { headerTabData } from "../../constants/data/headerTabData";
+import { useLocation, useNavigate, useParams } from "react-router";
 import { TabData } from "../../constants/data/TabData";
 
 type Props = {
@@ -10,33 +8,41 @@ type Props = {
 
 const Tab: React.FC<Props> = ({ state }) => {
   const navigate = useNavigate();
-  const params = useParams();
-  const [active, setActive] = useState<String>();
+  const param = useParams();
+  const location = useLocation();
 
   return (
     <Container>
       <InnerContainer>
         <Wrapper>
-          {state === "introduce" ? (
+          {TabData.map((item, index) => (
             <>
-              <Item href="/introduce/greeting">회장단 인사말</Item>
-              <Item href="/introduce/organizationchart">조직도</Item>
+              {item.id === state
+                ? item.sub_item.map((item, index) => (
+                    <Item
+                      onClick={() => {
+                        navigate(item.link);
+                      }}
+                      style={{
+                        color:
+                          param.param === item.id ||
+                          location.pathname.split("/")[1] === item.id
+                            ? "rgb(32,71,137)"
+                            : "rgb(132,134,134)",
+
+                        borderBottom:
+                          param.param === item.id ||
+                          location.pathname.split("/")[1] === item.id
+                            ? "2px solid rgb(32,71,137)"
+                            : "none",
+                      }}
+                    >
+                      {item.item}
+                    </Item>
+                  ))
+                : ""}
             </>
-          ) : state === "department" ? (
-            <>
-              <Item href="/department/planning">기획국</Item>
-              <Item href="/department/financialofficework">재정사무국</Item>
-              <Item href="/department/foreigncooperation">대외협력국</Item>
-              <Item href="/department/internalcommunication">대내교류국</Item>
-              <Item href="/department/welfarework">복지사업국</Item>
-              <Item href="/department/educationsupporting">교육지원국</Item>
-              <Item href="/department/promotion">홍보국</Item>
-            </>
-          ) : state === "map" ? (
-            <Item href="/map">캠퍼스맵</Item>
-          ) : (
-            ""
-          )}
+          ))}
         </Wrapper>
       </InnerContainer>
     </Container>

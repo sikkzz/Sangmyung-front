@@ -1,6 +1,6 @@
 export const TabData = [
   {
-    id: "/introduce/greeting",
+    id: "introduce",
     sub_item: [
       {
         id: "greeting",
@@ -19,38 +19,48 @@ export const TabData = [
     sub_item: [
       {
         id: "planning",
-        link: "/planning",
+        link: "/department/planning",
         item: "기획국",
       },
       {
         id: "financialofficework",
-        link: "/financialofficework",
+        link: "/department/financialofficework",
         item: "재정사무국",
       },
       {
         id: "foreigncooperation",
-        link: "/foreigncooperation",
+        link: "/department/foreigncooperation",
         item: "대외협력국",
       },
       {
         id: "internalcommunication",
-        link: "/internalcommunication",
+        link: "/department/internalcommunication",
         item: "대내교류국",
       },
       {
         id: "welfarework",
-        link: "/welfarework",
+        link: "/department/welfarework",
         item: "복지사업국",
       },
       {
         id: "educationsupporting",
-        link: "/educationsupporting",
+        link: "/department/educationsupporting",
         item: "교육지원국",
       },
       {
         id: "promotion",
-        link: "/promotion",
+        link: "/department/promotion",
         item: "홍보국",
+      },
+    ],
+  },
+  {
+    id: "map",
+    sub_item: [
+      {
+        id: "map",
+        link: "/map",
+        item: "캠퍼스맵",
       },
     ],
   },

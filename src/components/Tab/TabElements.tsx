@@ -35,15 +35,17 @@ const Wrapper = styled.div`
   height: 64px;
 `;
 
-const Item = styled.a`
+const Item = styled.div`
   padding: 20px 0;
-  color: rgb(32, 71, 137);
+  /* color: rgb(32, 71, 137); */
+  color: rgb(132, 134, 134);
   font-size: 15px;
   line-height: 24px;
-  border-bottom: 2px solid rgb(32, 71, 137);
+  /* border-bottom: 2px solid rgb(32, 71, 137); */
+  cursor: pointer;
 
   :not(:first-of-type) {
-    color: rgb(132, 134, 134);
+    /* color: rgb(132, 134, 134); */
     margin-left: 24px;
   }
 `;

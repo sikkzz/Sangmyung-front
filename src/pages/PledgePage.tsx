@@ -1,18 +1,18 @@
 import React from "react";
 import Header from "../components/Header/Header";
 import Bio from "../components/Bio/Bio";
-import Map from "../components/Map/Map";
+import Pledge from "../components/Pledge/Pledge";
 import Footer from "../components/Footer/Footer";
 
-const MapPage = () => {
+const PledgePage = () => {
   return (
     <>
       <Header />
       <Bio />
-      <Map />
+      <Pledge />
       <Footer />
     </>
   );
 };
 
-export default MapPage;
+export default PledgePage;

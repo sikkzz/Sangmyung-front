@@ -60,8 +60,8 @@ export const headerTabData = [
         link: "/map",
       },
       {
-        sub_item: "공약",
-        link: "#!",
+        sub_item: "공약집",
+        link: "/pledge",
       },
       {
         sub_item: "예결산 목록",
