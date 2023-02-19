@@ -15,7 +15,9 @@ import {
 
 import Icons from "../../constants/icon";
 
-const DepartPromiss = () => {
+import { Props } from "./DepartContent";
+
+const DepartPromiss: React.FC<Props> = ({ state }) => {
   const count = [1, 2, 3, 4];
   return (
     <Layout>

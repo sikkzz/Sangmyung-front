@@ -9,7 +9,7 @@ import { useParams } from "react-router-dom";
 
 const DepartmentPage = () => {
   const param = useParams();
-  console.log(param.param)
+  // console.log(param.param)
   return (
     <>
       <Header />

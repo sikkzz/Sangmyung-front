@@ -12,29 +12,31 @@ import {
   WorkContent,
 } from "./DepartWorkElements";
 
-import Icons from "../../constants/icon";
+import { DepartWorkData } from "../../constants/data/DepartData";
 
-const DepartWork = () => {
-  const count = [1, 2, 3, 4];
+import { Props } from "./DepartContent";
+
+const DepartWork: React.FC<Props> = ({ state }) => {
   return (
     <Layout>
       <Col>
         <Box>
           <Title>주요업무</Title>
           <WorkBox>
-            {count.map((index) => (
-              <WorkInnerBox key={index}>
-                <ItemBox>
-                  <IconBox>
-                    <Icons.MdWorkOutline size={48} color="#fff" />
-                  </IconBox>
-                </ItemBox>
-                <WorkTitle>행사 기획</WorkTitle>
-                <WorkContent>
-                  학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를
-                  맡아서 합니다.
-                </WorkContent>
-              </WorkInnerBox>
+            {DepartWorkData.map((item, index) => (
+              <>
+                {item.id === state
+                  ? item.work.map((item, index) => (
+                      <WorkInnerBox key={index}>
+                        <ItemBox>
+                          <IconBox>{item.workIcon}</IconBox>
+                        </ItemBox>
+                        <WorkTitle>{item.workTitle}</WorkTitle>
+                        <WorkContent>{item.workContent}</WorkContent>
+                      </WorkInnerBox>
+                    ))
+                  : ""}
+              </>
             ))}
           </WorkBox>
         </Box>

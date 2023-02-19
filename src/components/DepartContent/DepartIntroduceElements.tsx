@@ -42,11 +42,12 @@ const Image = styled.img`
   object-fit: cover;
 `;
 
-const TextBox = styled.div<{ fontSize: string }>`
+const TextBox = styled.div<{ fontSize: string, lineHeight: string, textAlign: string }>`
   display: flex;
   justify-content: center;
   font-size: ${(props) => props.fontSize};
-  line-height: 36px;
+  line-height: ${(props) => props.lineHeight};
+  text-align: ${(props) => props.textAlign};
 `;
 
 export { Layout, Col, Box, BoxLeft, BoxRight, ImageBox, Image, TextBox };

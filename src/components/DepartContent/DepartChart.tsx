@@ -17,7 +17,9 @@ import {
 
 import Img from "../../assets/test.jpg";
 
-const DepartChart = () => {
+import { Props } from "./DepartContent";
+
+const DepartChart: React.FC<Props> = ({ state }) => {
   const count = [1, 2, 3, 4, 5, 6, 7];
   return (
     <Layout>

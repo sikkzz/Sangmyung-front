@@ -6,19 +6,20 @@ import DepartChart from "./DepartChart";
 
 import { useParams } from "react-router-dom";
 
-type Props = {
-  state: string | undefined
+export type Props = {
+  state: string | undefined;
 };
 
-const DepartContent: React.FC<Props> = ({state}) => {
-  const param = useParams()
-  console.log(param.param)
+const DepartContent: React.FC<Props> = ({ state }) => {
+  // const param = useParams()
+  // console.log(param.param)
+  // console.log(state)
   return (
     <>
-      <DepartIntroduce state={param.param} />
-      <DepartWork />
-      <DepartChart />
-      <DepartPromiss />
+      <DepartIntroduce state={state} />
+      <DepartWork state={state} />
+      <DepartChart state={state} />
+      <DepartPromiss state={state} />
     </>
   );
 };
