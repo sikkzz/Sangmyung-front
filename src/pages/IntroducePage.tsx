@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useParams, useLocation } from "react-router-dom";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import Bio from "../components/Bio/Bio";
@@ -7,12 +7,14 @@ import Organization from "../components/Organization/Organization";
 
 const IntroducePage = () => {
   const param = useParams();
+  const location = useLocation()
+  // console.log(param.param)
+  // console.log(location.pathname.split('/')[1])
 
   return (
     <>
       <Header />
-      <Bio />
-      {/* <Tab state="introduce"/> */}
+      <Bio state={location.pathname.split('/')[1]}/>
       {param.param === "greeting" ? <Content /> : <Organization />}
       <Footer />
     </>

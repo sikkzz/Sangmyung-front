@@ -61,7 +61,17 @@ export const headerTabData = [
       },
       {
         sub_item: "공약집",
-        link: "/pledge",
+        link: "/pledge/simple",
+        subItem2: [
+          {
+            sub_item2: "공약집",
+            link: "/pledge/simple",
+          },
+          {
+            sub_item2: "공약 상세보기",
+            link: "/pledge/detail",
+          },
+        ],
       },
       {
         sub_item: "예결산 목록",
@@ -131,7 +141,35 @@ export const headerTabData = [
   },
   {
     main_item: "학교시설",
-    link: "#!",
+    link: "/partnership/all",
+    subItem: [
+      {
+        sub_item: "제휴",
+        link: "/partnership/all",
+        subItem2: [
+          {
+            sub_item2: "전체",
+            link: "/partnership/all",
+          },
+          {
+            sub_item2: "의료",
+            link: "/partnership/medical",
+          },
+          {
+            sub_item2: "학업",
+            link: "/partnership/study",
+          },
+          {
+            sub_item2: "편의시설",
+            link: "/partnership/convenience",
+          },
+          {
+            sub_item2: "음식점",
+            link: "/partnership/restaurant",
+          },
+        ],
+      },
+    ],
   },
   {
     main_item: "건의/청원게시판",

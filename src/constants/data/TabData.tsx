@@ -64,4 +64,49 @@ export const TabData = [
       },
     ],
   },
+  {
+    id: "pledge",
+    sub_item: [
+      {
+        id: "simple",
+        link: "/pledge/simple",
+        item: "공약집",
+      },
+      {
+        id: "detail",
+        link: "/pledge/detail",
+        item: "공약 상세보기",
+      },
+    ],
+  },
+  {
+    id: "partnership",
+    sub_item: [
+      {
+        id: "all",
+        link: "/partnership/all",
+        item: "전체",
+      },
+      {
+        id: "medical",
+        link: "/partnership/medical",
+        item: "의료",
+      },
+      {
+        id: "study",
+        link: "/partnership/study",
+        item: "학업",
+      },
+      {
+        id: "convenience",
+        link: "/partnership/convenience",
+        item: "편의시설",
+      },
+      {
+        id: "restaurant",
+        link: "/partnership/restaurant",
+        item: "음식점",
+      },
+    ],
+  },
 ];

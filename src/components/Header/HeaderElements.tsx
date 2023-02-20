@@ -63,6 +63,14 @@ const MenuItem = styled.a`
   padding: 0 45px;
 `;
 
+const MenuIcon = styled.div`
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+
 const DropDownContainer = styled.ul`
   display: block;
   visibility: visible;
@@ -82,7 +90,8 @@ const DropDownMenu = styled.li`
 `;
 
 const DropDownMenuItem = styled.a`
-  display: block;
+  display: flex;
+  justify-content: space-between;
 `;
 
 const DropDownSubContainer = styled.ul`
@@ -124,6 +133,7 @@ export {
   MenuContainer,
   Menu,
   MenuItem,
+  MenuIcon,
   DropDownContainer,
   DropDownMenu,
   DropDownSubContainer,

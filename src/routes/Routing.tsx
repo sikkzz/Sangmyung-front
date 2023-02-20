@@ -4,6 +4,7 @@ import IntroducePage from "../pages/IntroducePage";
 import DepartmentPage from "../pages/DepartmentPage";
 import MapPage from "../pages/MapPage";
 import PledgePage from "../pages/PledgePage";
+import PartnerPage from "../pages/PartnerPage";
 
 const Routing = () => {
   return (
@@ -15,6 +16,9 @@ const Routing = () => {
       <Route path="/department/:param" element={<DepartmentPage />} />
       <Route path="/map" element={<MapPage />} />
       <Route path="/pledge" element={<PledgePage />} />
+      <Route path="/pledge/:param" element={<PledgePage />} />
+      <Route path="/partnership" element={<PartnerPage />} />
+      <Route path="/partnership/:param" element={<PartnerPage />} />
     </Routes>
   );
 };

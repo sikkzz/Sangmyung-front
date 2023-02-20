@@ -11,30 +11,38 @@ import Tab from "../Tab/Tab";
 
 import { useParams, useLocation } from "react-router-dom";
 
-import Img from "../../assets/test3.webp";
+import { Props } from "../DepartContent/DepartContent";
+import { BioData } from "../../constants/data/BioData";
 
-export default function Bio() {
-  const param = useParams()
+const Bio: React.FC<Props> = ({ state }) => {
+  const param = useParams();
   // console.log(param.param)
 
-  const location = useLocation()
-  // console.log(location.pathname.split('/')[1])
+  const location = useLocation();
+  // console.log(location.pathname.split("/")[1]);
 
   return (
     <>
-      <ImageContainer>
-        <Image src={Img} alt="Bio" />
-        <TextContainer>
-          <Title>총학생회 소개</Title>
-          <Text>상명대학교 제57대 총학생회 선</Text>
-          <Text>항상 학생들을 위해 먼저 나서는 총학생회가 되겠습니다.</Text>
-        </TextContainer>
-      </ImageContainer>
+      {BioData.map(
+        (item, index) =>
+          state === item.id && (
+            <ImageContainer key={index}>
+              <Image src={item.img} alt="Bio" />
+              <TextContainer>
+                <Title>{item.title}</Title>
+                <Text>{item.sub && item.sub}</Text>
+                <Text>{item.content}</Text>
+              </TextContainer>
+            </ImageContainer>
+          )
+      )}
       <Box>
         <InnerBox>
-          <Tab state={location.pathname.split('/')[1]} />
+          <Tab state={location.pathname.split("/")[1]} />
         </InnerBox>
       </Box>
     </>
   );
-}
+};
+
+export default Bio;

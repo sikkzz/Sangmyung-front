@@ -11,6 +11,7 @@ import {
   MenuContainer,
   Menu,
   MenuItem,
+  MenuIcon,
   DropDownContainer,
   DropDownMenu,
   DropDownSubContainer,
@@ -21,6 +22,8 @@ import {
 } from "./HeaderElements";
 
 import { headerTabData } from "../../constants/data/headerTabData";
+
+import Icons from "../../constants/icon";
 
 export default function Header() {
   const [display, setDisplay] = useState<Number>();
@@ -80,6 +83,16 @@ export default function Header() {
                             }}
                           >
                             {item.sub_item}
+                            {item.subItem2 ? (
+                              <MenuIcon>
+                                <Icons.MdKeyboardArrowRight
+                                  size={18}
+                                  color="#fff"
+                                />
+                              </MenuIcon>
+                            ) : (
+                              ""
+                            )}
                           </DropDownMenuItem>
                           {item.subItem2 ? (
                             <DropDownSubContainer

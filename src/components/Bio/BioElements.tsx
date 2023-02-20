@@ -10,7 +10,7 @@ const Image = styled.img`
   width: 100vw;
   height: 434px;
   object-fit: cover;
-  opacity: 0.9;
+  /* opacity: 0.6; */
 `;
 
 const TextContainer = styled.div`

@@ -3,7 +3,7 @@ import { BsInstagram, BsCheckCircle } from "react-icons/bs";
 import { RiKakaoTalkFill } from "react-icons/ri";
 import { FaYoutube } from "react-icons/fa";
 import { AiFillCaretDown } from "react-icons/ai";
-import { MdWorkOutline } from "react-icons/md";
+import { MdWorkOutline, MdKeyboardArrowRight } from "react-icons/md";
 import { BiLoaderCircle } from "react-icons/bi";
 
 const Icons = {
@@ -15,6 +15,7 @@ const Icons = {
   MdWorkOutline,
   BsCheckCircle,
   BiLoaderCircle,
+  MdKeyboardArrowRight,
 };
 
 export default Icons;
