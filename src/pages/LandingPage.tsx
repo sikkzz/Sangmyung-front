@@ -1,6 +1,8 @@
 import React from 'react'
 import Header from '../components/Header/Header'
 import Slider from '../components/Slider/Slider'
+import Landing from '../components/Landing/Landing'
+import Promiss from '../components/Promiss/Promiss'
 import Footer from '../components/Footer/Footer'
 
 const LandingPage = () => {
@@ -8,6 +10,8 @@ const LandingPage = () => {
     <>
         <Header />
         <Slider />
+        <Landing />
+        <Promiss />
         <Footer />
     </>
   )

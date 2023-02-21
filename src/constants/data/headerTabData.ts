@@ -56,10 +56,6 @@ export const headerTabData = [
         ],
       },
       {
-        sub_item: "캠퍼스맵",
-        link: "/map",
-      },
-      {
         sub_item: "공약집",
         link: "/pledge/simple",
         subItem2: [
@@ -88,11 +84,11 @@ export const headerTabData = [
     link: "#!",
   },
   {
-    main_item: "산하기구",
+    main_item: "학교정보",
     link: "#!",
     subItem: [
       {
-        sub_item: "공대",
+        sub_item: "예결산 목록",
         link: "#!",
         subItem2: [
           {
@@ -103,38 +99,18 @@ export const headerTabData = [
             sub_item2: "부2",
             link: "#!",
           },
-          {
-            sub_item2: "부3",
-            link: "#!",
-          },
-          {
-            sub_item2: "집행부4",
-            link: "#!",
-          },
-          {
-            sub_item2: "집행부5",
-            link: "#!",
-          },
-          {
-            sub_item2: "집행부6",
-            link: "#!",
-          },
         ],
       },
       {
-        sub_item: "인사대",
+        sub_item: "학생회칙",
         link: "#!",
       },
       {
-        sub_item: "사대",
+        sub_item: "회의록",
         link: "#!",
       },
       {
-        sub_item: "문예대",
-        link: "#!",
-      },
-      {
-        sub_item: "경경대",
+        sub_item: "학사일정",
         link: "#!",
       },
     ],
@@ -169,6 +145,9 @@ export const headerTabData = [
           },
         ],
       },
+      {
+        sub_item: "캠퍼스맵"
+      }
     ],
   },
   {
