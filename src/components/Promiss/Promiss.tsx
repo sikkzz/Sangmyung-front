@@ -6,7 +6,7 @@ import {
   Box,
   InnerBox,
   TitleBox,
-  TitleBoxAnimation,
+  TitleBoxAni,
   Title,
   Sub,
   ImageBox,
@@ -16,7 +16,12 @@ import {
 
 import Img from "../../assets/test.jpg";
 
-const Promiss = () => {
+type Props = {
+  primary: boolean;
+  scroll: number;
+};
+
+const Promiss: React.FC<Props> = ({ primary, scroll }) => {
   const [position, setPosition] = useState(0);
 
   function onScroll() {
@@ -31,32 +36,45 @@ const Promiss = () => {
   }, []);
 
   console.log(position);
+  //   console.log(primary);
 
   return (
     <Layout>
       <Col>
         <Box>
           <InnerBox>
-            {position < 1000 ? (
-              <TitleBox>
-                <Title>총학생회 선</Title>
-                <Sub>먼저 나서는 학생회가 되겠습니다.</Sub>
-              </TitleBox>
+            {primary === true ? (
+              <>
+                {position > scroll ? (
+                  <>
+                    <TitleBoxAni>
+                      <Title>총학생회 선</Title>
+                      <Sub>먼저 나서는 학생회가 되겠습니다.</Sub>
+                    </TitleBoxAni>
+                    <ImageBoxAni>
+                      <Image src={Img} alt="img" />
+                    </ImageBoxAni>
+                  </>
+                ) : (
+                  ""
+                )}
+              </>
             ) : (
-              <TitleBoxAnimation>
-                <Title>총학생회 선</Title>
-                <Sub>먼저 나서는 학생회가 되겠습니다.</Sub>
-              </TitleBoxAnimation>
-            )}
-
-            {position < 1000 ? (
-              <ImageBox>
-                <Image src={Img} alt="img" />
-              </ImageBox>
-            ) : (
-              <ImageBoxAni>
-                <Image src={Img} alt="img" />
-              </ImageBoxAni>
+              <>
+                {position > scroll ? (
+                  <>
+                    <ImageBoxAni>
+                      <Image src={Img} alt="img" />
+                    </ImageBoxAni>
+                    <TitleBoxAni>
+                      <Title>총학생회 선</Title>
+                      <Sub>먼저 나서는 학생회가 되겠습니다.</Sub>
+                    </TitleBoxAni>
+                  </>
+                ) : (
+                  ""
+                )}
+              </>
             )}
           </InnerBox>
         </Box>

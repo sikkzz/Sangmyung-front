@@ -25,12 +25,15 @@ const Box = styled.div`
 
 const InnerBox = styled.div`
   position: relative;
-  height: 1272px;
+  /* height: 1272px; */
   display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
 `;
 
 const move = keyframes`
-    0% {
+0% {
     opacity: 0;
     transform: translate3d(0px, 50px, 0px);
 }
@@ -42,12 +45,10 @@ const move = keyframes`
 `;
 
 const TitleBox = styled.div`
-  position: relative;
-  z-index: 1;
-  visibility: hidden;
+  /* visibility: hidden; */
 `;
 
-const TitleBoxAnimation = styled.div`
+const TitleBoxAni = styled.div`
   position: relative;
   visibility: visible;
   z-index: 1;
@@ -82,6 +83,7 @@ const ImageBox = styled.div`
 const Image = styled.img`
   width: 100%;
   height: 100%;
+  border-radius: 50%;
 `;
 
 const ImageBoxAni = styled.div`
@@ -101,7 +103,7 @@ export {
   Box,
   InnerBox,
   TitleBox,
-  TitleBoxAnimation,
+  TitleBoxAni,
   Title,
   Sub,
   ImageBox,
