@@ -54,7 +54,7 @@ const TitleBoxAni = styled.div`
   z-index: 1;
   opacity: 0;
   transform: translate3d(0px, 50px, 0px);
-  animation: 1s ease-in-out 0s 1 normal forwards running ${move};
+  animation: 1.5s ease-in-out 0s 1 normal forwards running ${move};
 `;
 
 const Title = styled.h1`
@@ -94,7 +94,7 @@ const ImageBoxAni = styled.div`
   z-index: 1;
   opacity: 0;
   transform: translate3d(0px, 50px, 0px);
-  animation: 1s ease-in-out 0s 1 normal forwards running ${move};
+  animation: 1.5s ease-in-out 0s 1 normal forwards running ${move};
 `;
 
 export {

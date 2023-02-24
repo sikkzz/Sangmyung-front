@@ -24,6 +24,8 @@ type Props = {
 const Promiss: React.FC<Props> = ({ primary, scroll }) => {
   const [position, setPosition] = useState(0);
 
+  //   const [animate, setAnimate] = useState(false);
+
   function onScroll() {
     setPosition(window.scrollY);
   }
@@ -35,7 +37,13 @@ const Promiss: React.FC<Props> = ({ primary, scroll }) => {
     };
   }, []);
 
-  console.log(position);
+  //   useEffect(() => {
+  //     if (position > scroll) {
+  //       setAnimate(true);
+  //     }
+  //   }, [position, scroll]);
+
+  //   console.log(animate);
   //   console.log(primary);
 
   return (
