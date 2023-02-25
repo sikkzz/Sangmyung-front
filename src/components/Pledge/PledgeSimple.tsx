@@ -14,6 +14,8 @@ import {
 import { PledgeData } from "../../constants/data/PledgeData";
 
 const PledgeSimple = () => {
+
+
   return (
     <Layout>
       <Col>

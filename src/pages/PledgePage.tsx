@@ -10,8 +10,6 @@ import { useLocation } from "react-router-dom";
 const PledgePage = () => {
   const location = useLocation();
 
-  console.log(location.pathname.split("/")[2]);
-
   return (
     <>
       <Header />

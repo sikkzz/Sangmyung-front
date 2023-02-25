@@ -35,6 +35,7 @@ const PledgeCircle = styled.div`
   align-items: center;
 `;
 
+
 const Text = styled.div<{ fontSize: string }>`
   font-size: ${(props) => props.fontSize};
   color: #fff;
