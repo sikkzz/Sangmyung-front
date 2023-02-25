@@ -1,6 +1,12 @@
 import React from "react";
 
 import {
+  CommunicationBox,
+  CommunicationItemBox,
+  CommunicationItem,
+  CommunicationText,
+  Title,
+  Content,
   Layout,
   Col,
   Box,
@@ -9,24 +15,78 @@ import {
   Text,
   DetailBox,
   DetailCircle,
+  Test,
 } from "./PledgeSimpleElements";
 
 import { PledgeData } from "../../constants/data/PledgeData";
 
+import Icons from "../../constants/icon";
+
 const PledgeSimple = () => {
-
-
+  const count = [1, 2, 3, 4];
+  const count2 = [1, 2, 3];
   return (
     <Layout>
       <Col>
         <Box>
           <PledgeBox>
-            <PledgeCircle>
-              <Text fontSize="48px">소통</Text>
-            </PledgeCircle>
+            <Title>소통</Title>
+            <Content>학생들이 소통할 수 있는 창구를 만들겠습니다.</Content>
+            <CommunicationBox>
+              {count.map((index) => (
+                <CommunicationItemBox key={index}>
+                  <CommunicationItem>
+                    <Icons.MdWorkOutline size={80} color="#000" />
+                  </CommunicationItem>
+                  <CommunicationText>
+                    교내 행정처와의 소통 창구 마련
+                  </CommunicationText>
+                </CommunicationItemBox>
+              ))}
+            </CommunicationBox>
+
+            <CommunicationBox style={{ padding: "0 120px" }}>
+              {count2.map((index) => (
+                <CommunicationItemBox key={index}>
+                  <CommunicationItem>
+                    <Icons.MdWorkOutline size={80} color="#000" />
+                  </CommunicationItem>
+                  <CommunicationText>
+                    교내 행정처와의 소통 창구 마련
+                  </CommunicationText>
+                </CommunicationItemBox>
+              ))}
+            </CommunicationBox>
+            <Test></Test>
+            <Title>문화 행사</Title>
+            <Content>학생들이 즐길 수 있는 행사들을 만들겠습니다.</Content>
+
+            <CommunicationBox style={{ padding: "0 120px" }}>
+              {count2.map((index) => (
+                <CommunicationItemBox key={index}>
+                  <CommunicationItem>
+                    <Icons.MdWorkOutline size={80} color="#000" />
+                  </CommunicationItem>
+                  <CommunicationText>대동제 시행</CommunicationText>
+                </CommunicationItemBox>
+              ))}
+            </CommunicationBox>
+
+            <CommunicationBox>
+              {count.map((index) => (
+                <CommunicationItemBox key={index}>
+                  <CommunicationItem>
+                    <Icons.MdWorkOutline size={80} color="#000" />
+                  </CommunicationItem>
+                  <CommunicationText>
+                    동아리 문화제 활성화
+                  </CommunicationText>
+                </CommunicationItemBox>
+              ))}
+            </CommunicationBox>
           </PledgeBox>
 
-          {PledgeData.map((item, index) => (
+          {/* {PledgeData.map((item, index) => (
             <DetailBox key={index}>
               <DetailCircle style={{ backgroundColor: item.color }}>
                 <Text fontSize="24px">{item.text}</Text>
@@ -35,89 +95,7 @@ const PledgeSimple = () => {
                 <Text fontSize="24px">{item.text2}</Text>
               </DetailCircle>
             </DetailBox>
-          ))}
-
-          {/* <DetailBox>
-            <DetailCircle>
-              <Text fontSize="24px">1. 교내 행정처와의 소통처 마련</Text>
-            </DetailCircle>
-            <DetailCircle style={{ backgroundColor: "#B5E4FD" }}>
-              <Text fontSize="24px">
-                2. 학생 총회를 통한 학생과의 소통처 마련
-              </Text>
-            </DetailCircle>
-          </DetailBox>
-
-          <DetailBox>
-            <DetailCircle style={{ backgroundColor: "#A4DFFF" }}>
-              <Text fontSize="24px">1. 교내 행정처와의 소통처 마련</Text>
-            </DetailCircle>
-            <DetailCircle style={{ backgroundColor: "#8AD6FF" }}>
-              <Text fontSize="24px">
-                2. 학생 총회를 통한 학생과의 소통처 마련
-              </Text>
-            </DetailCircle>
-          </DetailBox>
-          <DetailBox>
-            <DetailCircle style={{ backgroundColor: "#74CEFF" }}>
-              <Text fontSize="24px">1. 교내 행정처와의 소통처 마련</Text>
-            </DetailCircle>
-            <DetailCircle style={{ backgroundColor: "#5AC5FF" }}>
-              <Text fontSize="24px">
-                2. 학생 총회를 통한 학생과의 소통처 마련
-              </Text>
-            </DetailCircle>
-          </DetailBox>
-          <DetailBox>
-            <DetailCircle style={{ backgroundColor: "#3DBAFF" }}>
-              <Text fontSize="24px">1. 교내 행정처와의 소통처 마련</Text>
-            </DetailCircle>
-            <DetailCircle style={{ backgroundColor: "#81BDDE" }}>
-              <Text fontSize="24px">
-                2. 학생 총회를 통한 학생과의 소통처 마련
-              </Text>
-            </DetailCircle>
-          </DetailBox>
-          <DetailBox>
-            <DetailCircle style={{ backgroundColor: "#62AED7" }}>
-              <Text fontSize="24px">1. 교내 행정처와의 소통처 마련</Text>
-            </DetailCircle>
-            <DetailCircle style={{ backgroundColor: "#4BA2D2" }}>
-              <Text fontSize="24px">
-                2. 학생 총회를 통한 학생과의 소통처 마련
-              </Text>
-            </DetailCircle>
-          </DetailBox>
-          <DetailBox>
-            <DetailCircle style={{ backgroundColor: "#248FCA" }}>
-              <Text fontSize="24px">1. 교내 행정처와의 소통처 마련</Text>
-            </DetailCircle>
-            <DetailCircle style={{ backgroundColor: "#020C5E" }}>
-              <Text fontSize="24px">
-                2. 학생 총회를 통한 학생과의 소통처 마련
-              </Text>
-            </DetailCircle>
-          </DetailBox>
-          <DetailBox>
-            <DetailCircle style={{ backgroundColor: "#020A4E" }}>
-              <Text fontSize="24px">1. 교내 행정처와의 소통처 마련</Text>
-            </DetailCircle>
-            <DetailCircle style={{ backgroundColor: "#0517B6" }}>
-              <Text fontSize="24px">
-                2. 학생 총회를 통한 학생과의 소통처 마련
-              </Text>
-            </DetailCircle>
-          </DetailBox>
-          <DetailBox>
-            <DetailCircle style={{ backgroundColor: "#051BD8" }}>
-              <Text fontSize="24px">1. 교내 행정처와의 소통처 마련</Text>
-            </DetailCircle>
-            <DetailCircle style={{ backgroundColor: "#131B60" }}>
-              <Text fontSize="24px">
-                2. 학생 총회를 통한 학생과의 소통처 마련
-              </Text>
-            </DetailCircle>
-          </DetailBox> */}
+          ))} */}
         </Box>
       </Col>
     </Layout>

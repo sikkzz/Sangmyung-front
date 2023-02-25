@@ -15,6 +15,29 @@ const Col = styled.div`
 
 const Box = styled.div``;
 
+const TabBox = styled.div``;
+
+const TabInnerBox = styled.div`
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: center;
+`;
+
+const TabList = styled.ul`
+  width: auto;
+  display: inline-block;
+`;
+
+const TabItem = styled.li`
+  display: inline-block;
+  color: rgb(132, 134, 134);
+  border-bottom: 1px solid rgb(32, 71, 137);
+  margin: 0 20px;
+  padding-bottom: 10px;
+  font-size: 20px;
+`;
+
 const PldegeBox = styled.div`
   display: flex;
   flex-direction: row;
@@ -48,11 +71,19 @@ const SubCircle = styled.div`
   z-index: 2;
 `;
 
+const ContentBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  padding-left: 100px;
+`;
+
 const Text = styled.div<{ fontSize: string }>`
   font-size: ${(props) => props.fontSize};
-  color: #fff;
-  text-align: center;
-  max-width: 120px;
+  color: #000;
+  font-weight: 700;
+  /* text-align: center; */
+  /* max-width: 120px; */
 `;
 
 const PledgeContent = styled.div`
@@ -62,10 +93,9 @@ const PledgeContent = styled.div`
   /* position: absolute;
   left: 190px; */
   /* padding-left: 200px; */
-  max-width: 900px;
-  padding-left: 100px;
-  padding-top: 30px;
-  font-size: 24px;
+  padding-top: 20px;
+  
+  font-size: 20px;
   color: #000;
   font-weight: 700;
   line-height: 40px;
@@ -81,4 +111,9 @@ export {
   SubCircle,
   Text,
   PledgeContent,
+  TabBox,
+  TabInnerBox,
+  TabList,
+  TabItem,
+  ContentBox,
 };
