@@ -1,83 +1,42 @@
-button {
-    cursor: pointer;
-}
-
-.container {
-    width: 500px;
-    height: 400px;
-    margin: auto;
-    padding: 20px 20px;
-    border: 1px solid rgba(128, 128, 128, 0.267);
-    /* position: absolute;
-    left: 50%;
-    top: 50%; */
-    margin-top: 300px;
-    transform: translate(-50%, -50%);
-}
-
-.container .title {
+.App {
+    font-size: 1.5vh;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.container .title>button {
-    border: none;
-    margin-left: 5px;
-    height: 20px;
-    align-self: center;
-    background: none;
-}
-
-.container .title .pagination {
-    margin-left: auto;
-    align-self: center;
-}
-
-.container .title .pagination button {
-    margin: 0 10px;
-    border: none;
-    background: none;
-}
-
-.container .week {
+.App .control {
     display: flex;
+    flex-direction: row;
 }
 
-.container .week .weekday {
-    width: calc(500px / 7);
-    text-align: center;
+.App table {
+    display: flex;
+    width: 50vw;
+    height: 50vh;
+    justify-content: center;
 }
 
-.container .week .sunday {
-    color: red;
+.App table tbody {
+    display: flex;
+    flex-direction: column;
 }
 
-.container .week .saturday {
-    color: blue;
+.App tr {
+    display: flex;
+    flex-direction: row;
 }
 
-.container .date {
-    margin-top: 20px;
+.App td {
+    display: flex;
+    border: 1px solid gray;
+    width: 5vw;
+    height: 5vh;
 }
 
-.container .date .weekday {
-    width: calc(500px / 7);
-    float: left;
-    text-align: center;
-    height: 50px;
-    line-height: 50px;
-}
-
-.container .date .sunday {
-    color: red;
-}
-
-.container .date .saturday {
-    color: blue;
-}
-
-.container .date .today {
-    background-color: rgb(88, 111, 187);
-    color: white;
-    font-weight: 700;
-    border-radius: 50%;
+.App td span {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
