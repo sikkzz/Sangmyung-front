@@ -111,7 +111,7 @@ export const headerTabData = [
       },
       {
         sub_item: "학사일정",
-        link: "#!",
+        link: "/schedule",
       },
     ],
   },
@@ -147,6 +147,9 @@ export const headerTabData = [
       },
       {
         sub_item: "캠퍼스맵"
+      },
+      {
+        sub_item: "물품대여현황"
       }
     ],
   },

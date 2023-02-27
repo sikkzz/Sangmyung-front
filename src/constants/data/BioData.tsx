@@ -36,4 +36,11 @@ export const BioData = [
     sub: "상명대학교 제57대 총학생회 선 제휴사업",
     content: "총학생회 선의 제휴사업을 소개합니다.",
   },
+  {
+    img: Img,
+    id: "schedule",
+    title: "학사일정 소개",
+    sub: "상명대학교 학사일정",
+    content: "학교 학사일정을 소개합니다.",
+  },
 ];

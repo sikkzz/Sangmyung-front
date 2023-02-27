@@ -109,4 +109,14 @@ export const TabData = [
       },
     ],
   },
+  {
+    id: "schedule",
+    sub_item: [
+      {
+        id: "schedule",
+        link: "/schedule",
+        item: "학사일정"
+      }
+    ]
+  }
 ];
