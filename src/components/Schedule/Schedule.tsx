@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import moment from "moment";
 
 import {
@@ -6,12 +6,18 @@ import {
   Col,
   Box,
   ControlBox,
+  ControlLeftBox,
+  ControlRightBox,
+  SelectBox,
+  //   Select,
+  //   Option,
   Table,
   TBody,
   Tr,
   Td,
-  Button,
   Span,
+  LeftArrows,
+  RightArrows,
 } from "./ScheduleElements";
 
 const Schedule = () => {
@@ -24,9 +30,15 @@ const Schedule = () => {
       ? 53
       : today.clone().endOf("month").week();
 
+  //   const [selectedYear, setSelectedYear] = useState<string>(
+  //     today.format("YYYY")
+  //   );
+  //   const [selectedMonth, setSelectedMonth] = useState<string>(
+  //     today.format("MM")
+  //   );
+
   const calendarArr = () => {
     let result: any[] = [];
-    // let week = firstWeek;
     for (let week = firstWeek; week <= lastWeek; week++) {
       result = result.concat(
         <Tr key={week}>
@@ -49,7 +61,7 @@ const Schedule = () => {
               } else if (days.format("MM") !== today.format("MM")) {
                 return (
                   <Td key={index} style={{ backgroundColor: "gray" }}>
-                    <Span>{days.format("D")}</Span>
+                    {/* <Span>{days.format("D")}</Span> */}
                   </Td>
                 );
               } else {
@@ -66,26 +78,83 @@ const Schedule = () => {
     return result;
   };
 
+  //   const monthControl = useCallback(() => {
+  //     //달 선택박스에서 고르기
+  //     let monthArr = [];
+  //     for (let i = 0; i < 12; i++) {
+  //       monthArr.push(
+  //         <Option key={i + 1} value={i + 1}>
+  //           {i + 1}월
+  //         </Option>
+  //       );
+  //     }
+  //     console.log(monthArr);
+  //     return (
+  //       <select
+  //         // className="monthSelect"
+  //         onChange={changeSelectMonth}
+  //         value={selectedMonth}
+  //       >
+  //         {monthArr}
+  //       </select>
+  //     );
+  //   }, [selectedMonth]);
+
+  //   const yearControl = useCallback(() => {
+  //     let yearArr = [];
+  //     const startYear = Number(today.format("YYYY")) - 10;
+  //     const endYear = Number(today.format("YYYY")) + 10;
+
+  //     console.log(endYear);
+
+  //     for (let i = startYear; i < endYear + 1; i++) {
+  //       yearArr.push(
+  //         <option key={i} value={i}>
+  //           {i}년
+  //         </option>
+  //       );
+  //     }
+  //     return (
+  //       <select
+  //         // className="yearSelect"
+  //         onChange={changeSelectYear}
+  //         value={selectedYear}
+  //       >
+  //         {yearArr}
+  //       </select>
+  //     );
+  //   }, [selectedYear]);
+
+  //   const changeSelectMonth = (e: React.ChangeEvent<HTMLSelectElement>) => {
+  //     setSelectedMonth(String(e.target.value));
+  //   };
+
+  //   const changeSelectYear = (e: React.ChangeEvent<HTMLSelectElement>) => {
+  //     setSelectedYear(String(e.target.value));
+  //   };
+
   return (
     <Layout>
       <Col>
         <Box>
           <ControlBox>
-            <Button
-              onClick={() => {
-                setMoment(getMoment.clone().subtract(1, "month"));
-              }}
-            >
-              이전달
-            </Button>
-            <Span>{today.format("YYYY 년 MM 월")}</Span>
-            <Button
-              onClick={() => {
-                setMoment(getMoment.clone().add(1, "month"));
-              }}
-            >
-              다음달
-            </Button>
+            <ControlLeftBox>
+              {/* {yearControl()}년 {monthControl()}월 */}
+              <LeftArrows
+                onClick={() => {
+                  setMoment(getMoment.clone().subtract(1, "month"));
+                }}
+              />
+              <Span>{today.format("YYYY 년 MM 월")}</Span>
+              <RightArrows
+                onClick={() => {
+                  setMoment(getMoment.clone().add(1, "month"));
+                }}
+              />
+            </ControlLeftBox>
+            <ControlRightBox>
+              <SelectBox></SelectBox>
+            </ControlRightBox>
           </ControlBox>
           <Table>
             <TBody>{calendarArr()}</TBody>
