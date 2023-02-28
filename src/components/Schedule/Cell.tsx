@@ -29,7 +29,7 @@ const Cell: React.FC<Props> = ({ currentMonth, selectedDate, onDateClick }) => {
       days.push(
         <ColCell
           style={{
-            background: isSameDay(day, selectedDate) ? "#f3c5b6" : "#fff",
+            background: isSameDay(day, selectedDate) ? "#f3c5b6" : "",
           }}
         >
           <ColSpan

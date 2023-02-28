@@ -14,13 +14,14 @@ const Row = styled.div`
   height: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 `;
 
 const ColCell = styled.div`
-  width: 13.5%;
+  width: 14.28%;
   height: 93%;
+  height: 100px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -28,6 +29,13 @@ const ColCell = styled.div`
   border: 0.4px solid rgba(128, 128, 128, 0.6);
   border-radius: 3px;
   font-size: 0.8em;
+
+  &:hover {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    transform: scale(1.01);
+    background-color: #f3c5b6;
+  }
 `;
 
 const ColSpan = styled.span`
