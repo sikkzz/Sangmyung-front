@@ -1,23 +1,44 @@
-import React from "react";
-
-import { Layout, Col, Box, Text } from "./LandingElements";
+import { Layout, Col, Box, Title, Text } from "./LandingElements";
 
 const Landing = () => {
   return (
     <Layout>
       <Col>
         <Box>
-          <Text fontSize="48px">총학생회 선</Text>
-          <Text fontSize="18px">
-            학생회가 ‘그들만의 리그’가 아닌, 학우 여러분들의 실질적인 목소리를
-            대변하고 학우 여러분들을 위해 일하는 모습을 보여드리겠습니다.
-            지금까지 멈춰있던 우리의 일상이 다시 시작되고 있습니다. 우리
-            건국대학교도 새로운 국면을 맞이하고 있습니다. 우리가 꾸려가는
-            건국대학교의 모습이 새로운 시작이자 새로운 출발이 될 것입니다.
-            다양한 소통 창구를 통해 여러분들에게 먼저 다가가겠습니다. 저희가
-            잘한다면 함께 해주시고, 못한다면 비판해주시고 조언해주십시오. 과거에
-            얽매이지 않고, 변화에 두려워하지 않겠습니다. 항상 저희 REBOOT와
-            건국대학교의 학생 자치에 많은 관심 부탁드립니다. 감사합니다.
+          <Title fontSize="48px" fontWeight="700">
+            상명대학교 제46대 총학생회 '선[先]'
+          </Title>
+          <Text fontSize="20px" fontWeight="500">
+            안녕하십니까, 상명대학교 학우 여러분. 제46대 총학생회
+            '선[先]'입니다.
+          </Text>
+          <Text fontSize="20px" fontWeight="500">
+            온전한 학생사회의 실현을 위해 그 누구보다 먼저 나서 노력하겠습니다.
+          </Text>
+          <Text fontSize="20px" fontWeight="500">
+            학생자치의 재활성화를 통해 학우분들의 목소리가 명확히 변영될 수
+            있도록 가장 최전선에서 주체적으로 활동하겠습니다.
+          </Text>
+          <Text fontSize="20px" fontWeight="500">
+            학우들이 원하는, 학우들을 위한 학생회를 만들기위해 노력하겠습니다.
+          </Text>
+          <Text fontSize="20px" fontWeight="500">
+            저희를 지켜봐 주시고 부족함이 있다면 언제든 꾸짖어 주십시오.
+          </Text>
+          <Text fontSize="20px" fontWeight="500">
+            학우들의 목소리를 가슴 깊이 새기고 발전해나가며, 성장하는
+            학생자치기구를 만들어 나가겠습니다.
+          </Text>
+          <Text fontSize="20px" fontWeight="500">
+            희망과 행복이 가득한 청춘의 대학생활과 학우 여러분의 당연한 권리를
+            위해 달려나가겠습니다.
+          </Text>
+          <Text fontSize="20px" fontWeight="900">
+            학우분들의 외침이 큰 울림이 되어 다시 메아리칠 때까지, 항상 한 걸음
+            앞에 서있겠습니다.
+          </Text>
+          <Text fontSize="20px" fontWeight="500">
+            감사합니다.
           </Text>
         </Box>
       </Col>

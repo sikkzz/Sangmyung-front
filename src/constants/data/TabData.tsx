@@ -120,3 +120,167 @@ export const TabData = [
     ]
   }
 ];
+
+export const MTabData = [
+  {
+    id: "headquarters",
+    sub_item: [
+      {
+        id: "headquarters",
+        title: "선거운동본부 소개",
+        link: '/headquarters'
+      },
+      {
+        id: "basis",
+        title: "기조",
+        link: '/basis'
+      },
+      {
+        id: "symbol",
+        title: "상징",
+        link: "/symbol"
+      }
+    ]
+  },
+  {
+    id: "basis",
+    sub_item: [
+      {
+        id: "headquarters",
+        title: "선거운동본부 소개",
+        link: '/headquarters'
+      },
+      {
+        id: "basis",
+        title: "기조",
+        link: '/basis'
+      },
+      {
+        id: "symbol",
+        title: "상징",
+        link: "/symbol"
+      }
+    ]
+  },
+  {
+    id: "symbol",
+    sub_item: [
+      {
+        id: "headquarters",
+        title: "선거운동본부 소개",
+        link: '/headquarters'
+      },
+      {
+        id: "basis",
+        title: "기조",
+        link: '/basis'
+      },
+      {
+        id: "symbol",
+        title: "상징",
+        link: "/symbol"
+      }
+    ]
+  },
+  {
+    id: "political",
+    sub_item: [
+      {
+        id: "political",
+        link: "/political",
+        title: "정후보 소개",
+      },
+      {
+        id: "deputy",
+        link: "/deputy",
+        title: "부후보 소개",
+      },
+      {
+        id: "electionhead",
+        link: "/electionhead",
+        title: "선거운동본부장 소개",
+      },
+    ],
+  },
+  {
+    id: "deputy",
+    sub_item: [
+      {
+        id: "political",
+        link: "/political",
+        title: "정후보 소개",
+      },
+      {
+        id: "deputy",
+        link: "/deputy",
+        title: "부후보 소개",
+      },
+      {
+        id: "electionhead",
+        link: "/electionhead",
+        title: "선거운동본부장 소개",
+      },
+    ],
+  },
+  {
+    id: "electionhead",
+    sub_item: [
+      {
+        id: "political",
+        link: "/political",
+        title: "정후보 소개",
+      },
+      {
+        id: "deputy",
+        link: "/deputy",
+        title: "부후보 소개",
+      },
+      {
+        id: "electionhead",
+        link: "/electionhead",
+        title: "선거운동본부장 소개",
+      },
+    ],
+  },
+  {
+    id: "simple",
+    sub_item: [
+      {
+        id: "simple",
+        link: "/simple",
+        title: "공약집",
+      },
+      {
+        id: "detail",
+        link: "/detail/communication",
+        title: "공약 상세보기",
+      },
+    ],
+  },
+  {
+    id: "detail",
+    sub_item: [
+      {
+        id: "simple",
+        link: "/simple",
+        title: "공약집",
+      },
+      {
+        id: "detail",
+        link: "/detail/communication",
+        title: "공약 상세보기",
+      },
+    ],
+  },
+  {
+    id: "schedule",
+    sub_item: [
+      {
+        id: "schedule",
+        link: "/schedule",
+        title: "선거일정",
+      },
+    ],
+  },
+  
+]

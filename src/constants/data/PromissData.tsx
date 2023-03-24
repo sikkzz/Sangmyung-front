@@ -6,7 +6,7 @@ export const PromissData = [
       sub2: "가장 앞에 선 학생회가 되겠습니다.",
       mark: "先",
       primary: true,
-      scroll: 1700,
+      scroll: 2300,
     },
     {
       id: 2,
@@ -15,7 +15,7 @@ export const PromissData = [
       sub2: "베풀고 봉사하는 학생회가 되겠습니다.",
       mark: "宣",
       primary: false,
-      scroll: 2400,
+      scroll: 3000,
     },
     {
       id: 3,
@@ -24,7 +24,7 @@ export const PromissData = [
       sub2: "학생자치의 연혁을 이어주는 학생회가 되겠습니다.",
       mark: "線",
       primary: true,
-      scroll: 3100,
+      scroll: 3700,
     },
     {
       id: 4,
@@ -33,7 +33,7 @@ export const PromissData = [
       sub2: "따뜻한 마음을 전하는 학생회가 되겠습니다.",
       mark: "善",
       primary: false,
-      scroll: 3800,
+      scroll: 4400,
     },
     {
       id: 5,
@@ -42,7 +42,7 @@ export const PromissData = [
       sub2: "신의 성실을 갖춘 학생회가 되겠습니다.",
       mark: "僎",
       primary: true,
-      scroll: 3800,
+      scroll: 5100,
     },
   ];
   

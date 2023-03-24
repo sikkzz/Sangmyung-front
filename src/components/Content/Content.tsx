@@ -17,6 +17,7 @@ import {
 
 import Img from "../../assets/test.jpg";
 import Img2 from "../../assets/logo.jpeg";
+import Abc from '../../assets/뭘봐.jpeg'
 
 export default function Content() {
   return (
@@ -26,7 +27,7 @@ export default function Content() {
           <ImgContainer>
             <ImgWrapper>
               <Image
-                src={Img}
+                src={Abc}
                 alt="profile"
                 // style={{ paddingLeft: "100px" }}
               />
@@ -37,11 +38,10 @@ export default function Content() {
                 <Title>이진</Title>
               </TitleContainer>
             </ImgWrapper>
-            <ImgWrapper>
+            {/* <ImgWrapper>
               <Image
                 src={Img}
                 alt="profile"
-                // style={{ paddingRight: "100px" } }
               />
               <TitleContainer>
                 <Title>상명대학교 부총학생회장</Title>
@@ -49,7 +49,7 @@ export default function Content() {
               <TitleContainer>
                 <Title>이사랑</Title>
               </TitleContainer>
-            </ImgWrapper>
+            </ImgWrapper> */}
           </ImgContainer>
 
           <GreetingContainer>

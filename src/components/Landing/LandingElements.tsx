@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Layout = styled.div`
   position: relative;
   width: 100%;
@@ -22,19 +24,26 @@ const Box = styled.div`
   justify-content: flex-start;
   align-items: center;
   padding: 200px 0;
+
+  ${media.tablet`padding: 60px 0;`};
+  ${media.mobile`padding: 30px 0;`};
 `;
 
-const Text = styled.p<{fontSize: string}>`
-    max-width: 760px;
-  font-size: 32px;
+const Title = styled.div<{ fontSize: string; fontWeight: string }>`
+  max-width: 1080px;
   font-size: ${(props) => props.fontSize};
-  font-weight: 700;
-  line-height: 1.6;
+  font-weight: ${(props) => props.fontWeight};
   color: #191f28;
   text-align: center;
-  margin-bottom: 50px;
-  word-break: keep-all;
-  white-space: pre-wrap;
+  margin-bottom: 30px;
 `;
 
-export { Layout, Col, Box, Text };
+const Text = styled(Title)`
+  margin-top: 30px;
+  margin-bottom: 0;
+
+  ${media.tablet`font-size: 18px; margin-bottom: 20px;color:#000;`};
+  ${media.mobile`font-size: 10px; margin-bottom: 20px;color:#000;`};
+`;
+
+export { Layout, Col, Box, Title, Text };

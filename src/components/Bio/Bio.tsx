@@ -4,22 +4,23 @@ import {
   TextContainer,
   Title,
   Text,
+  MTabBox,
+  MTabList,
+  MTabItem,
 } from "./BioElements";
+
 import { Box, InnerBox } from "../Tab/TabElements";
 
 import Tab from "../Tab/Tab";
 
-import { useParams, useLocation } from "react-router-dom";
-
+import { useLocation, useNavigate } from "react-router-dom";
 import { Props } from "../DepartContent/DepartContent";
 import { BioData } from "../../constants/data/BioData";
+import { MTabData } from "../../constants/data/TabData";
 
-const Bio: React.FC<Props> = ({ state }) => {
-  const param = useParams();
-  // console.log(param.param)
-
+const Bio = ({ state }: Props) => {
   const location = useLocation();
-  // console.log(location.pathname.split("/")[1]);
+  const navigate = useNavigate();
 
   return (
     <>
@@ -41,6 +42,37 @@ const Bio: React.FC<Props> = ({ state }) => {
           <Tab state={location.pathname.split("/")[1]} />
         </InnerBox>
       </Box>
+
+      <MTabBox>
+        <MTabList>
+          {MTabData.map((item, index) => (
+            <>
+              {item.id === state
+                ? item.sub_item.map((item, index) => (
+                    <MTabItem
+                      onClick={() => {
+                        navigate(item.link);
+                      }}
+                      key={index}
+                      style={{
+                        color:
+                          location.pathname.split("/")[1] === item.id
+                            ? "rgb(32,71,137)"
+                            : "rgb(132,134,134)",
+                        borderBottom:
+                          location.pathname.split("/")[1] === item.id
+                            ? "1px solid rgb(32,71,137)"
+                            : "none",
+                      }}
+                    >
+                      {item.title}
+                    </MTabItem>
+                  ))
+                : ""}
+            </>
+          ))}
+        </MTabList>
+      </MTabBox>
     </>
   );
 };

@@ -1,10 +1,14 @@
 import styled from "styled-components";
+import { media } from "../../styles/MediaQuery";
 
 const Container = styled.div`
   display: flex;
   width: 100%;
   background: var(--main-blue);
   flex-direction: column;
+
+  ${media.mobile`display: none;`};
+  ${media.tablet`display: none;`};
 `;
 
 const MenuContainer = styled.div`
@@ -39,6 +43,7 @@ const MenuListItem = styled.li`
     height: 13px;
     background: #fff;
   }
+
   :last-child::after {
     content: none;
   }
@@ -65,12 +70,18 @@ const LogoContainer = styled.div`
   padding-bottom: 15px;
 `;
 
-const Image = styled.img`
+const LogoInnerBox = styled.div`
   width: 120px;
   height: 120px;
-`
+  border-radius: 50%;
+  background-color: #fff;
+`;
 
-const LogoTitle = styled.div``;
+const Logo = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+`;
 
 const CenterContainer = styled.div`
   display: flex;
@@ -87,6 +98,7 @@ const Detail = styled.div`
   padding-right: 17px;
   margin-right: 16px;
   position: relative;
+
   ::after {
     content: "";
     position: absolute;
@@ -129,7 +141,7 @@ const ArrowImage = styled.div`
 const SelectList = styled.ul`
   display: none;
   position: absolute;
-  top: -240px;
+  top: -230px;
   left: -1px;
   width: 180px;
   background: var(--main-blue);
@@ -140,6 +152,8 @@ const SelectList = styled.ul`
 const SelectListItem = styled.li`
   padding: 8px 0;
 `;
+
+const SelectListLink = styled.a``;
 
 const SocialContainer = styled.div`
   display: flex;
@@ -156,6 +170,10 @@ const SocialIcon = styled.div`
   padding: 5px;
 `;
 
+const SocialLink = styled.a`
+  
+`
+
 export {
   Container,
   MenuContainer,
@@ -165,10 +183,10 @@ export {
   LeftContainer,
   CenterContainer,
   LogoContainer,
-  Image,
+  LogoInnerBox,
+  Logo,
   DetailContainer,
   Detail,
-  LogoTitle,
   RightContainer,
   SelectContainer,
   SelectBox,
@@ -177,4 +195,6 @@ export {
   SelectListItem,
   SocialContainer,
   SocialIcon,
+  SocialLink,
+  SelectListLink,
 };

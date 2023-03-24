@@ -8,7 +8,7 @@ import {
   Content,
   CopyRight,
 } from "./SliderElements";
-import { SliderData } from "../../constants/data/sliderData";
+import { SliderData } from "../../constants/data/SliderData";
 
 export default function Slider() {
   const [current, setCurrent] = useState(0);
