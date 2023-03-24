@@ -1,9 +1,14 @@
 import styled, { keyframes } from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Layout = styled.div`
   position: relative;
   width: 100%;
   overflow: hidden;
+
+  ${media.mobile`display: none;`};
+  ${media.tablet`display: none;`};
 `;
 
 const Col = styled.div`
@@ -25,7 +30,6 @@ const Box = styled.div`
 
 const InnerBox = styled.div`
   position: relative;
-  /* height: 1272px; */
   display: flex;
   align-items: center;
   width: 100%;
@@ -44,10 +48,6 @@ const move = keyframes`
 }
 `;
 
-const TitleBox = styled.div`
-  /* visibility: hidden; */
-`;
-
 const TitleBoxAni = styled.div`
   position: relative;
   visibility: visible;
@@ -55,6 +55,7 @@ const TitleBoxAni = styled.div`
   opacity: 0;
   transform: translate3d(0px, 50px, 0px);
   animation: 1.5s ease-in-out 0s 1 normal forwards running ${move};
+  max-width: 650px;
 `;
 
 const Title = styled.h1`
@@ -66,7 +67,8 @@ const Title = styled.h1`
 `;
 
 const Sub = styled.h2`
-  font-size: 50px;
+  font-size: 36px;
+  font-family: "pre bold";
   font-weight: 700;
   line-height: 1.4;
   color: #191f28;
@@ -76,37 +78,21 @@ const ImageBox = styled.div`
   width: 300px;
   height: 300px;
   position: relative;
-  z-index: 1;
-  visibility: hidden;
-`;
-
-const Image = styled.img`
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-`;
-
-const ImageBoxAni = styled.div`
-  width: 300px;
-  height: 300px;
-  position: relative;
   visibility: visible;
   z-index: 1;
   opacity: 0;
   transform: translate3d(0px, 50px, 0px);
   animation: 1.5s ease-in-out 0s 1 normal forwards running ${move};
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  border-radius: 50%;
 `;
 
-export {
-  Layout,
-  Col,
-  Box,
-  InnerBox,
-  TitleBox,
-  TitleBoxAni,
-  Title,
-  Sub,
-  ImageBox,
-  Image,
-  ImageBoxAni,
-};
+const Text = styled.div`
+  font-size: 100px;
+  color: #fff;
+`;
+
+export { Layout, Col, Box, InnerBox, TitleBoxAni, Title, Sub, ImageBox, Text };

@@ -21,9 +21,11 @@ import {
   Btn,
 } from "./HeaderElements";
 
-import { headerTabData } from "../../constants/data/headerTabData";
+import { HeaderTabData } from "../../constants/data/HeaderTabData";
 
 import Icons from "../../constants/icon";
+
+import logo from "../../assets/logo1.png";
 
 export default function Header() {
   const [display, setDisplay] = useState<Number>();
@@ -50,11 +52,17 @@ export default function Header() {
           }}
         >
           <LogoContainer>
-            <Logo>선거운동본부</Logo>
+            <Logo
+              src={logo}
+              alt="logo"
+              onClick={() => {
+                navigate("/");
+              }}
+            />
           </LogoContainer>
           <MenuList>
             <MenuContainer>
-              {headerTabData.map((item, index) => (
+              {HeaderTabData.map((item, index) => (
                 <Menu key={index}>
                   <MenuItem
                     onMouseOver={() => setDisplay(index)}
@@ -126,10 +134,10 @@ export default function Header() {
               ))}
             </MenuContainer>
           </MenuList>
-          <BtnContainer>
+          {/* <BtnContainer>
             <Btn>로그인</Btn>
             <Btn>회원가입</Btn>
-          </BtnContainer>
+          </BtnContainer> */}
         </Container>
       </InnerBox>
     </Box>

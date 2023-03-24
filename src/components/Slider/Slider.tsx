@@ -1,5 +1,13 @@
 import { useState, useEffect, useRef } from "react";
-import { Container, Wrapper, ImageContainer, Image } from "./SliderElements";
+import {
+  Container,
+  Wrapper,
+  ImageContainer,
+  Image,
+  Title,
+  Content,
+  CopyRight,
+} from "./SliderElements";
 import { SliderData } from "../../constants/data/sliderData";
 
 export default function Slider() {
@@ -33,32 +41,14 @@ export default function Slider() {
             <ImageContainer>
               {
                 {
-                  0: (
-                    <Image
-                      src={item.image}
-                      alt={item.alt}
-                    />
-                  ),
-                  1: (
-                    <Image
-                      src={item.image}
-                      alt={item.alt}
-                    />
-                  ),
-                  2: (
-                    <Image
-                      src={item.image}
-                      alt={item.alt}
-                    />
-                  ),
-                  3: (
-                    <Image
-                      src={item.image}
-                      alt={item.alt}
-                    />
-                  ),
+                  0: <Image src={item.image} alt={item.alt} />,
+                  1: <Image src={item.image} alt={item.alt} />,
+                  2: <Image src={item.image} alt={item.alt} />,
                 }[current]
               }
+              <Title>smu_1st</Title>
+              <Content>제46대 총학생회 '선[先]'</Content>
+              <CopyRight>Photo by 교육학과 19학번 박준호</CopyRight>
             </ImageContainer>
           )}
         </Wrapper>

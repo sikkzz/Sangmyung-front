@@ -33,13 +33,15 @@ const LogoContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 210px;
+  width: 80px;
+  height: 80px;
 `;
 
-const Logo = styled.div`
-  /* color: #fff; */
-  /* color: #000; */
-  font-size: 24px;
+const Logo = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
 `;
 
 const MenuContainer = styled.div`
@@ -54,8 +56,6 @@ const Menu = styled.li`
 `;
 
 const MenuItem = styled.a`
-  /* color: #fff; */
-  /* color: #000; */
   display: flex;
   align-items: center;
   height: 80px;
@@ -117,8 +117,6 @@ const BtnContainer = styled.div`
 `;
 
 const Btn = styled.div`
-  /* color: #fff; */
-  /* color: #000; */
   font-size: 20px;
   padding-left: 20px;
 `;

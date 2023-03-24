@@ -1,4 +1,4 @@
-export const headerTabData = [
+export const HeaderTabData = [
   {
     main_item: "홈",
     link: "/",

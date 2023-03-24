@@ -5,26 +5,33 @@ import {
   Col,
   Box,
   InnerBox,
-  TitleBox,
   TitleBoxAni,
   Title,
   Sub,
   ImageBox,
-  Image,
-  ImageBoxAni,
+  Text,
 } from "./PromissElements";
 
-import Img from "../../assets/test.jpg";
-
-type Props = {
+type PromissProps = {
   primary: boolean;
   scroll: number;
+  id: number;
+  title: string;
+  sub: string;
+  mark: string;
+  sub2: string;
 };
 
-const Promiss: React.FC<Props> = ({ primary, scroll }) => {
+const Promiss = ({
+  primary,
+  scroll,
+  id,
+  title,
+  sub,
+  mark,
+  sub2,
+}: PromissProps) => {
   const [position, setPosition] = useState(0);
-
-  //   const [animate, setAnimate] = useState(false);
 
   function onScroll() {
     setPosition(window.scrollY);
@@ -37,15 +44,6 @@ const Promiss: React.FC<Props> = ({ primary, scroll }) => {
     };
   }, []);
 
-  //   useEffect(() => {
-  //     if (position > scroll) {
-  //       setAnimate(true);
-  //     }
-  //   }, [position, scroll]);
-
-  //   console.log(animate);
-  //   console.log(primary);
-
   return (
     <Layout>
       <Col>
@@ -56,12 +54,13 @@ const Promiss: React.FC<Props> = ({ primary, scroll }) => {
                 {position > scroll ? (
                   <>
                     <TitleBoxAni>
-                      <Title>총학생회 선</Title>
-                      <Sub>먼저 나서는 학생회가 되겠습니다.</Sub>
+                      <Title>{title}</Title>
+                      <Sub>{sub}</Sub>
+                      <Sub>{sub2}</Sub>
                     </TitleBoxAni>
-                    <ImageBoxAni>
-                      <Image src={Img} alt="img" />
-                    </ImageBoxAni>
+                    <ImageBox>
+                      <Text>{mark}</Text>
+                    </ImageBox>
                   </>
                 ) : (
                   ""
@@ -71,12 +70,13 @@ const Promiss: React.FC<Props> = ({ primary, scroll }) => {
               <>
                 {position > scroll ? (
                   <>
-                    <ImageBoxAni>
-                      <Image src={Img} alt="img" />
-                    </ImageBoxAni>
+                    <ImageBox>
+                      <Text>{mark}</Text>
+                    </ImageBox>
                     <TitleBoxAni>
-                      <Title>총학생회 선</Title>
-                      <Sub>먼저 나서는 학생회가 되겠습니다.</Sub>
+                      <Title>{title}</Title>
+                      <Sub>{sub}</Sub>
+                      <Sub>{sub2}</Sub>
                     </TitleBoxAni>
                   </>
                 ) : (

@@ -1,19 +1,32 @@
 import React from "react";
 import Header from "../components/Header/Header";
 import Slider from "../components/Slider/Slider";
+import TimeLapse from "../components/Timelapse/Timelapse";
 import Landing from "../components/Landing/Landing";
 import Promiss from "../components/Promiss/Promiss";
 import Footer from "../components/Footer/Footer";
+
+import { PromissData } from "../constants/data/PromissData";
 
 const LandingPage = () => {
   return (
     <>
       <Header />
       <Slider />
+      <TimeLapse />
       <Landing />
-      <Promiss primary={true} scroll={1000} />
-      <Promiss primary={false} scroll={1700} />
-      <Promiss primary={true} scroll={2400} />
+      {PromissData.map((item, index) => (
+        <Promiss
+          key={index}
+          primary={item.primary}
+          scroll={item.scroll}
+          id={item.id}
+          title={item.title}
+          sub={item.sub}
+          sub2={item.sub2}
+          mark={item.mark}
+        />
+      ))}
       <Footer />
     </>
   );
