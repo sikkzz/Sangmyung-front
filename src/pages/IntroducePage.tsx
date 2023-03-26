@@ -2,7 +2,7 @@ import { useParams, useLocation } from "react-router-dom";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import Bio from "../components/Bio/Bio";
-import Content from "../components/Content/Content";
+import Greeting from "../components/Greeting/Greeting";
 import Organization from "../components/Organization/Organization";
 
 const IntroducePage = () => {
@@ -15,7 +15,7 @@ const IntroducePage = () => {
     <>
       <Header />
       <Bio state={location.pathname.split('/')[1]}/>
-      {param.param === "greeting" ? <Content /> : <Organization />}
+      {param.param === "greeting" ? <Greeting /> : <Organization />}
       <Footer />
     </>
   );

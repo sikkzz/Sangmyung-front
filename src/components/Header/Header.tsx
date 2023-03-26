@@ -24,7 +24,6 @@ import {
 import { HeaderTabData } from "../../constants/data/HeaderTabData";
 
 import Icons from "../../constants/icon";
-
 import logo from "../../assets/logo1.png";
 
 export default function Header() {

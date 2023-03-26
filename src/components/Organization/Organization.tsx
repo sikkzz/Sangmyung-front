@@ -20,6 +20,8 @@ import {
 
 import Img from "../../assets/chart.jpeg";
 import Img2 from "../../assets/test.jpg";
+import Img3 from '../../assets/political.jpeg'
+import Img4 from '../../assets/deputy.jpeg'
 
 export default function Organization() {
   const count3 = [1, 2];
@@ -42,7 +44,7 @@ export default function Organization() {
             {count3.map((index) => (
               <ProfileInner key={index}>
                 <Profile width="160px" height="160px">
-                  <Image src={Img2} alt="Img" width="120px" height="120px" />
+                  <Image src={Img3} alt="Img" width="110px" height="140px" />
                 </Profile>
                 <ProfileTextBox>
                   <Group fontSize="24px">회장단</Group>
@@ -62,7 +64,7 @@ export default function Organization() {
                   height="160px"
                   style={{ margin: "0 250px" }}
                 >
-                  <Image src={Img2} alt="Img" width="120px" height="120px" />
+                  <Image src={Img4} alt="Img" width="120px" height="120px" />
                 </Profile>
                 <ProfileTextBox>
                   <Group fontSize="24px">기획국</Group>

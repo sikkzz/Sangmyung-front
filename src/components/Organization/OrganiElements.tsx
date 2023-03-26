@@ -42,7 +42,9 @@ const ImageContainer = styled.div``;
 const Image = styled.img<{ width: string; height: string }>`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
-  border-radius: 50%;
+  border-radius: 50px;
+  /* border-radius: 50%; */
+  /* object-fit: contain; */
 `;
 
 const ProfileContainer = styled.div<{ marginTop: string }>`
