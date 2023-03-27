@@ -74,7 +74,7 @@ export const TabData = [
       },
       {
         id: "detail",
-        link: "/pledge/detail",
+        link: "/pledge/detail/communication",
         item: "공약 상세보기",
       },
     ],

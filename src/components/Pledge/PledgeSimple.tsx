@@ -1,9 +1,8 @@
-import React from "react";
-
 import {
   CommunicationBox,
   CommunicationItemBox,
   CommunicationItem,
+  CommunicationInner,
   CommunicationText,
   Title,
   Content,
@@ -11,91 +10,158 @@ import {
   Col,
   Box,
   PledgeBox,
-  PledgeCircle,
-  Text,
-  DetailBox,
-  DetailCircle,
-  Test,
+  Line,
 } from "./PledgeSimpleElements";
 
-import { PledgeData } from "../../constants/data/PledgeData";
-
-import Icons from "../../constants/icon";
+import {
+  PledgeCommunicationData1,
+  PledgeCommunicationData2,
+  PledgeCultureData1,
+  PledgeCultureData2,
+  PledgWelfareData1,
+  PledgWelfareData2,
+  PledgWelfareData3,
+  PledgeBachelorData1,
+  PledgeBachelorData2,
+} from "../../constants/data/PledgeSimpleData";
 
 const PledgeSimple = () => {
-  const count = [1, 2, 3, 4];
-  const count2 = [1, 2, 3];
   return (
     <Layout>
       <Col>
         <Box>
           <PledgeBox>
+            <Line />
             <Title>소통</Title>
-            <Content>학생들이 소통할 수 있는 창구를 만들겠습니다.</Content>
-            <CommunicationBox>
-              {count.map((index) => (
+            <Content>
+              '선[先]'이 원활하게 소통하고자 다짐하고 마련한 소통 공약
+            </Content>
+            <CommunicationBox padding="0 270px">
+              {PledgeCommunicationData1.map((item, index) => (
                 <CommunicationItemBox key={index}>
                   <CommunicationItem>
-                    <Icons.MdWorkOutline size={80} color="#000" />
+                    <CommunicationInner>{item.icon}</CommunicationInner>
                   </CommunicationItem>
-                  <CommunicationText>
-                    교내 행정처와의 소통 창구 마련
-                  </CommunicationText>
+                  <CommunicationText>{item.content}</CommunicationText>
+                  <CommunicationText>{item.content2}</CommunicationText>
                 </CommunicationItemBox>
               ))}
             </CommunicationBox>
 
-            <CommunicationBox style={{ padding: "0 120px" }}>
-              {count2.map((index) => (
+            <CommunicationBox padding="0 120px">
+              {PledgeCommunicationData2.map((item, index) => (
                 <CommunicationItemBox key={index}>
                   <CommunicationItem>
-                    <Icons.MdWorkOutline size={80} color="#000" />
+                    <CommunicationInner>{item.icon}</CommunicationInner>
                   </CommunicationItem>
-                  <CommunicationText>
-                    교내 행정처와의 소통 창구 마련
-                  </CommunicationText>
-                </CommunicationItemBox>
-              ))}
-            </CommunicationBox>
-            <Test></Test>
-            <Title>문화 행사</Title>
-            <Content>학생들이 즐길 수 있는 행사들을 만들겠습니다.</Content>
-
-            <CommunicationBox style={{ padding: "0 120px" }}>
-              {count2.map((index) => (
-                <CommunicationItemBox key={index}>
-                  <CommunicationItem>
-                    <Icons.MdWorkOutline size={80} color="#000" />
-                  </CommunicationItem>
-                  <CommunicationText>대동제 시행</CommunicationText>
+                  <CommunicationText>{item.content}</CommunicationText>
+                  <CommunicationText>{item.content2}</CommunicationText>
                 </CommunicationItemBox>
               ))}
             </CommunicationBox>
 
-            <CommunicationBox>
-              {count.map((index) => (
+            <Line />
+            <Title>문화</Title>
+            <Content>
+              '선[先]'이 즐거운 학교생활을 위해 마련한 문화 공약
+            </Content>
+
+            <CommunicationBox padding="0 120px">
+              {PledgeCultureData1.map((item, index) => (
                 <CommunicationItemBox key={index}>
                   <CommunicationItem>
-                    <Icons.MdWorkOutline size={80} color="#000" />
+                    <CommunicationInner>{item.icon}</CommunicationInner>
                   </CommunicationItem>
-                  <CommunicationText>
-                    동아리 문화제 활성화
-                  </CommunicationText>
+                  <CommunicationText>{item.content}</CommunicationText>
+                  <CommunicationText>{item.content2}</CommunicationText>
+                </CommunicationItemBox>
+              ))}
+            </CommunicationBox>
+
+            <CommunicationBox padding="0 120px">
+              {PledgeCultureData2.map((item, index) => (
+                <CommunicationItemBox key={index}>
+                  <CommunicationItem>
+                    <CommunicationInner>{item.icon}</CommunicationInner>
+                  </CommunicationItem>
+                  <CommunicationText>{item.content}</CommunicationText>
+                  <CommunicationText>{item.content2}</CommunicationText>
+                </CommunicationItemBox>
+              ))}
+            </CommunicationBox>
+
+            <Line />
+            <Title>복지</Title>
+            <Content>
+              '선[先]'이 더 나은 학교생활을 책임지고자 마련한 복지 공약
+            </Content>
+
+            <CommunicationBox padding="0 120px">
+              {PledgWelfareData1.map((item, index) => (
+                <CommunicationItemBox key={index}>
+                  <CommunicationItem>
+                    <CommunicationInner>{item.icon}</CommunicationInner>
+                  </CommunicationItem>
+                  <CommunicationText>{item.content}</CommunicationText>
+                  <CommunicationText>{item.content2}</CommunicationText>
+                </CommunicationItemBox>
+              ))}
+            </CommunicationBox>
+
+            <CommunicationBox padding="0 120px">
+              {PledgWelfareData2.map((item, index) => (
+                <CommunicationItemBox key={index}>
+                  <CommunicationItem>
+                    <CommunicationInner>{item.icon}</CommunicationInner>
+                  </CommunicationItem>
+                  <CommunicationText>{item.content}</CommunicationText>
+                  <CommunicationText>{item.content2}</CommunicationText>
+                </CommunicationItemBox>
+              ))}
+            </CommunicationBox>
+
+            <CommunicationBox padding="0 120px">
+              {PledgWelfareData3.map((item, index) => (
+                <CommunicationItemBox key={index}>
+                  <CommunicationItem>
+                    <CommunicationInner>{item.icon}</CommunicationInner>
+                  </CommunicationItem>
+                  <CommunicationText>{item.content}</CommunicationText>
+                  <CommunicationText>{item.content2}</CommunicationText>
+                </CommunicationItemBox>
+              ))}
+            </CommunicationBox>
+
+            <Line />
+            <Title>학사</Title>
+            <Content>
+              '선[先]'이 학사활동 및 진로지원을 위해 마련한 학사 공약
+            </Content>
+
+            <CommunicationBox padding="0 270px">
+              {PledgeBachelorData1.map((item, index) => (
+                <CommunicationItemBox key={index}>
+                  <CommunicationItem>
+                    <CommunicationInner>{item.icon}</CommunicationInner>
+                  </CommunicationItem>
+                  <CommunicationText>{item.content}</CommunicationText>
+                  <CommunicationText>{item.content2}</CommunicationText>
+                </CommunicationItemBox>
+              ))}
+            </CommunicationBox>
+
+            <CommunicationBox padding="0 270px">
+              {PledgeBachelorData2.map((item, index) => (
+                <CommunicationItemBox key={index}>
+                  <CommunicationItem>
+                    <CommunicationInner>{item.icon}</CommunicationInner>
+                  </CommunicationItem>
+                  <CommunicationText>{item.content}</CommunicationText>
+                  <CommunicationText>{item.content2}</CommunicationText>
                 </CommunicationItemBox>
               ))}
             </CommunicationBox>
           </PledgeBox>
-
-          {/* {PledgeData.map((item, index) => (
-            <DetailBox key={index}>
-              <DetailCircle style={{ backgroundColor: item.color }}>
-                <Text fontSize="24px">{item.text}</Text>
-              </DetailCircle>
-              <DetailCircle style={{ backgroundColor: item.color2 }}>
-                <Text fontSize="24px">{item.text2}</Text>
-              </DetailCircle>
-            </DetailBox>
-          ))} */}
         </Box>
       </Col>
     </Layout>

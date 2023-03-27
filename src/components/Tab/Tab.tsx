@@ -26,13 +26,13 @@ const Tab: React.FC<Props> = ({ state }) => {
                       style={{
                         color:
                           param.param === item.id ||
-                          location.pathname.split("/")[1] === item.id
+                          location.pathname.split("/")[2] === item.id
                             ? "rgb(32,71,137)"
                             : "rgb(132,134,134)",
 
                         borderBottom:
                           param.param === item.id ||
-                          location.pathname.split("/")[1] === item.id
+                          location.pathname.split("/")[2] === item.id
                             ? "2px solid rgb(32,71,137)"
                             : "none",
                       }}

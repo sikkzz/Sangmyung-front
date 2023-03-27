@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Layout = styled.div`
-  /* padding-top: 30px; */
   padding-bottom: 100px;
 `;
 
@@ -15,101 +16,90 @@ const Col = styled.div`
 
 const Box = styled.div``;
 
+const PledgeBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  justify-content: center;
+  position: relative;
+  ${media.tablet`margin-top: 60px;`}
+  ${media.mobile`margin-top: 30px;`}
+`;
+
 const Title = styled.div`
-  /* border-top: 1px solid #000; */
   font-size: 30px;
   font-weight: 700;
-  /* margin-top: 50px; */
   margin-top: 10px;
-`
+  ${media.tablet`font-size: 24px;`}
+  ${media.mobile`font-size: 18px;`}
+`;
 
-const Test = styled.hr`
-  margin-top: 100px;
-  width: 110px;
+const Line = styled.hr`
+  width: 50px;
   height: 5px;
   border: none;
   outline: none;
   background-color: #000;
-`
+  ${media.tablet`width: 40px;`}
+  ${media.mobile`width: 31px;`}
+
+  &:not(:first-of-type) {
+    margin-top: 100px;
+  }
+`;
 
 const Content = styled.div`
   font-size: 24px;
   font-weight: 700;
   margin-top: 30px;
-`
+  ${media.tablet`font-size: 18px;`}
+  ${media.mobile`font-size: 14px;`}
+`;
 
-const CommunicationBox = styled.div`
+const CommunicationBox = styled.div<{ padding: string }>`
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
-`
+  padding: ${(props) => props.padding};
+  ${media.tablet`padding:0;margin-top:30px;justify-content: center;`}
+  ${media.mobile`padding:0;margin-top:30px;justify-content: center;`}
+`;
 
 const CommunicationItemBox = styled.div`
   display: flex;
   flex-direction: column;
-`
+  ${media.tablet`align-items:center;padding: 0 36px;`}
+  ${media.mobile`align-items:center;padding: 0 16px;`}
+`;
 
 const CommunicationItem = styled.div`
-      background: #dfdfdf;
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    /* margin-right: 25px; */
-    /* margin-bottom: 75px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-`
+  background: #dfdfdf;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  ${media.tablet`width:120px;height:120px;margin-bottom: 20px;`}
+  ${media.mobile`width:50px;height:50px;margin-bottom: 10px;`}
+`;
+
+const CommunicationInner = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  ${media.tablet`width:70px;height:70px;`}
+  ${media.mobile`width:30px;height:30px;`}
+`;
 
 const CommunicationText = styled.div`
   font-size: 20px;
   font-weight: 700;
-  margin-top: 20px;
   max-width: 180px;
   text-align: center;
   line-height: 30px;
-`
-
-const PledgeBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  margin-top: 100px;
-  /* align-items: center; */
-  justify-content: center;
-  position: relative;
-  /* justify-content: center; */
-`;
-
-const PledgeCircle = styled.div`
-  width: 240px;
-  height: 240px;
-  border-radius: 50%;
-  background-color: #000d80;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
-
-const Text = styled.div<{ fontSize: string }>`
-  font-size: ${(props) => props.fontSize};
-  color: #fff;
-`;
-
-const DetailBox = styled.div`
-  display: flex;
-  justify-content: space-between;
-  /* margin-top: 100px; */
-`;
-
-const DetailCircle = styled.div`
-  display: flex;
-  width: 500px;
-  height: 140px;
-  border-radius: 90px;
-  justify-content: center;
-  align-items: center;
+  ${media.mobile`font-size:12px;line-height:18px;width:100px;`}
 `;
 
 export {
@@ -117,15 +107,12 @@ export {
   Col,
   Box,
   PledgeBox,
-  PledgeCircle,
-  Text,
-  DetailBox,
-  DetailCircle,
   Title,
   Content,
   CommunicationBox,
   CommunicationItemBox,
   CommunicationItem,
+  CommunicationInner,
   CommunicationText,
-  Test
+  Line,
 };
