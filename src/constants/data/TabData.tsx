@@ -115,10 +115,20 @@ export const TabData = [
       {
         id: "schedule",
         link: "/schedule",
-        item: "학사일정"
-      }
-    ]
-  }
+        item: "학사일정",
+      },
+    ],
+  },
+  {
+    id: "notice",
+    sub_item: [
+      {
+        id: "notice",
+        link: "/notice",
+        item: "공지사항",
+      },
+    ],
+  },
 ];
 
 export const MTabData = [
@@ -128,19 +138,19 @@ export const MTabData = [
       {
         id: "headquarters",
         title: "선거운동본부 소개",
-        link: '/headquarters'
+        link: "/headquarters",
       },
       {
         id: "basis",
         title: "기조",
-        link: '/basis'
+        link: "/basis",
       },
       {
         id: "symbol",
         title: "상징",
-        link: "/symbol"
-      }
-    ]
+        link: "/symbol",
+      },
+    ],
   },
   {
     id: "basis",
@@ -148,19 +158,19 @@ export const MTabData = [
       {
         id: "headquarters",
         title: "선거운동본부 소개",
-        link: '/headquarters'
+        link: "/headquarters",
       },
       {
         id: "basis",
         title: "기조",
-        link: '/basis'
+        link: "/basis",
       },
       {
         id: "symbol",
         title: "상징",
-        link: "/symbol"
-      }
-    ]
+        link: "/symbol",
+      },
+    ],
   },
   {
     id: "symbol",
@@ -168,19 +178,19 @@ export const MTabData = [
       {
         id: "headquarters",
         title: "선거운동본부 소개",
-        link: '/headquarters'
+        link: "/headquarters",
       },
       {
         id: "basis",
         title: "기조",
-        link: '/basis'
+        link: "/basis",
       },
       {
         id: "symbol",
         title: "상징",
-        link: "/symbol"
-      }
-    ]
+        link: "/symbol",
+      },
+    ],
   },
   {
     id: "political",
@@ -282,5 +292,4 @@ export const MTabData = [
       },
     ],
   },
-  
-]
+];

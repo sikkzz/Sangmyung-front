@@ -1,22 +1,21 @@
 import Header from "../components/Header/Header";
 import Bio from "../components/Bio/Bio";
-import PledgeSimple from "../components/Pledge/PledgeSimple";
-import PledgeDetail from "../components/Pledge/PledgeDetail";
+import Notice from "../components/Notice/Notice";
 import Footer from "../components/Footer/Footer";
 
 import { useLocation } from "react-router-dom";
 
-const PledgeDetailPage = () => {
+const NoticePage = () => {
   const location = useLocation();
 
   return (
     <>
       <Header />
       <Bio state={location.pathname.split("/")[1]} />
-      <PledgeDetail state={location.pathname.split("/")[3]} />
+      <Notice />
       <Footer />
     </>
   );
 };
 
-export default PledgeDetailPage;
+export default NoticePage;

@@ -43,4 +43,11 @@ export const BioData = [
     sub: "상명대학교 학사일정",
     content: "학교 학사일정을 소개합니다.",
   },
+  {
+    img: Img,
+    id: "notice",
+    title: "공지사항",
+    sub: "총학생회 공지사항",
+    content: "총학생회 공지사항을 소개합니다.",
+  },
 ];
