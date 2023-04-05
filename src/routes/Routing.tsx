@@ -7,7 +7,6 @@ import PledgeSimplePage from "../pages/PledgeSimplePage";
 import PledgeDetailPage from '../pages/PledgeDetailPage'
 import PartnerPage from "../pages/PartnerPage";
 import SchedulePage from "../pages/SchedulePage";
-import CalendarPage from "../pages/CalendarPage";
 import NoticePage from "../pages/NoticePage";
 
 const Routing = () => {
@@ -25,7 +24,6 @@ const Routing = () => {
       <Route path="/partnership" element={<PartnerPage />} />
       <Route path="/partnership/:param" element={<PartnerPage />} />
       <Route path="/schedule" element={<SchedulePage />} />
-      <Route path="/calendar" element={<CalendarPage />} />
       <Route path="/notice" element={<NoticePage />} />
     </Routes>
   );

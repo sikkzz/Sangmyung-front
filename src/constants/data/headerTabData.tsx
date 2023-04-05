@@ -81,7 +81,7 @@ export const HeaderTabData = [
   },
   {
     main_item: "공지사항",
-    link: "#!",
+    link: "/notice",
   },
   {
     main_item: "학교정보",

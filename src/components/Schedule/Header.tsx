@@ -2,9 +2,7 @@ import React from "react";
 
 import { format } from "date-fns";
 
-import { Icon } from "@iconify/react";
-
-import { Layout, Start, End, Text } from "./HeaderElements";
+import { Layout, Start, Text } from "./HeaderElements";
 
 type Props = {
   currentMonth: Date;
@@ -17,13 +15,9 @@ const Header: React.FC<Props> = ({ currentMonth, prevMonth, nextMonth }) => {
     <Layout>
       <Start>
         <Text>
-          {format(currentMonth, "M")}월 {format(currentMonth, "yyyy")}
+          {format(currentMonth, "yyyy")}년 {format(currentMonth, "M")}월
         </Text>
       </Start>
-      <End>
-        <Icon icon="bi:arrow-left-circle-fill" onClick={prevMonth} />
-        <Icon icon="bi:arrow-right-circle-fill" onClick={nextMonth} />
-      </End>
     </Layout>
   );
 };

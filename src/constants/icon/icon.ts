@@ -6,7 +6,8 @@ import {
   BsFillCalendarCheckFill,
   BsCartPlusFill,
   BsInfoSquareFill,
-  BsPersonPlusFill
+  BsPersonPlusFill,
+  BsSearch
 } from "react-icons/bs";
 import { RiKakaoTalkFill,RiHomeGearLine } from "react-icons/ri";
 import {
@@ -40,7 +41,7 @@ import { GiPartyPopper, GiClothes } from "react-icons/gi";
 import { SiGooglecolab } from "react-icons/si";
 import { CgDanger } from "react-icons/cg";
 import { GrSystem } from "react-icons/gr";
-import { ImLibrary } from "react-icons/im";
+import { ImLibrary, ImSearch } from "react-icons/im";
 import { HiOutlineReceiptRefund } from "react-icons/hi";
 
 const Icons = {
@@ -81,7 +82,9 @@ const Icons = {
   MdCorporateFare,
   HiOutlineReceiptRefund,
   RiHomeGearLine,
-  BsPersonPlusFill
+  BsPersonPlusFill,
+  BsSearch,
+  ImSearch
 };
 
 export default Icons;
