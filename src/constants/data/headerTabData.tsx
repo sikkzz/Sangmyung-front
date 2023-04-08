@@ -107,7 +107,7 @@ export const HeaderTabData = [
       },
       {
         sub_item: "회의록",
-        link: "#!",
+        link: "/minute",
       },
       {
         sub_item: "학사일정",

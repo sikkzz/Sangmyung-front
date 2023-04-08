@@ -129,6 +129,16 @@ export const TabData = [
       },
     ],
   },
+  {
+    id: "minute",
+    sub_item: [
+      {
+        id: "minute",
+        link: "/minute",
+        item: "회의록",
+      },
+    ],
+  },
 ];
 
 export const MTabData = [
