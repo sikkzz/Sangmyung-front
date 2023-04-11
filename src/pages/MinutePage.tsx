@@ -12,7 +12,7 @@ const MinutePage = () => {
     <>
       <Header />
       <Bio state={location.pathname.split("/")[1]} />
-      <Minute />
+      <Minute state={location.pathname.split("/")[2]}/>
       <Footer />
     </>
   );

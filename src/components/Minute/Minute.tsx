@@ -22,13 +22,58 @@ import {
   TdLink,
 } from "./MinuteElements";
 
+import {
+  TabBox,
+  TabInnerBox,
+  TabList,
+  TabItem,
+  TabItemActive,
+} from "../Pledge/PledgeDetailElements";
+
 import Icons from "../../constants/icon";
 
-const Minute = () => {
+import { MinuteTabData } from "../../constants/data/MinuteData";
+
+import { useNavigate } from "react-router-dom";
+
+type Props = {
+  state: string;
+};
+
+const Minute = ({ state }: Props) => {
+  const navigate = useNavigate();
+  
   return (
     <Layout>
       <Col>
         <Box>
+          <TabBox>
+            <TabInnerBox>
+              <TabList>
+                {MinuteTabData.map((item, index) => (
+                  <>
+                    {state === item.id ? (
+                      <TabItemActive
+                        onClick={() => {
+                          navigate(item.link);
+                        }}
+                      >
+                        {item.title}
+                      </TabItemActive>
+                    ) : (
+                      <TabItem
+                        onClick={() => {
+                          navigate(item.link);
+                        }}
+                      >
+                        {item.title}
+                      </TabItem>
+                    )}
+                  </>
+                ))}
+              </TabList>
+            </TabInnerBox>
+          </TabBox>
           <Title>중앙운영위원회 회의록</Title>
           <SearchBox>
             <ListBox>

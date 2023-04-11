@@ -27,6 +27,7 @@ const Routing = () => {
       <Route path="/schedule" element={<SchedulePage />} />
       <Route path="/notice" element={<NoticePage />} />
       <Route path="/minute" element={<MinutePage />} />
+      <Route path="/minute/:param" element={<MinutePage />} />
     </Routes>
   );
 };

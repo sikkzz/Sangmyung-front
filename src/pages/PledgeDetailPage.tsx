@@ -1,6 +1,5 @@
 import Header from "../components/Header/Header";
 import Bio from "../components/Bio/Bio";
-import PledgeSimple from "../components/Pledge/PledgeSimple";
 import PledgeDetail from "../components/Pledge/PledgeDetail";
 import Footer from "../components/Footer/Footer";
 
