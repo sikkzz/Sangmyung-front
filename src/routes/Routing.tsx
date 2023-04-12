@@ -9,6 +9,7 @@ import PartnerPage from "../pages/PartnerPage";
 import SchedulePage from "../pages/SchedulePage";
 import NoticePage from "../pages/NoticePage";
 import MinutePage from "../pages/MinutePage";
+import RulePage from "../pages/RulePage";
 
 const Routing = () => {
   return (
@@ -28,6 +29,7 @@ const Routing = () => {
       <Route path="/notice" element={<NoticePage />} />
       <Route path="/minute" element={<MinutePage />} />
       <Route path="/minute/:param" element={<MinutePage />} />
+      <Route path="/rule" element={<RulePage />} />
     </Routes>
   );
 };

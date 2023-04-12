@@ -20,8 +20,8 @@ export const MinuteTabData = [
         link: "/minute/council"
     },
     {
-        id: "",
+        id: "administrative",
         title: "행정부처 간담회 회의록",
-        link: "/minute/test"
+        link: "/minute/administrative"
     }
 ]

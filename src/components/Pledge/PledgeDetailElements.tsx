@@ -38,7 +38,7 @@ const TabItem = styled.li`
   color: rgb(132, 134, 134);
   margin: 0 20px;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 16px;
   cursor: pointer;
   ${media.tablet`font-size:16px;`}
   ${media.mobile`font-size:12px;`}

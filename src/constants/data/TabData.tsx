@@ -139,6 +139,16 @@ export const TabData = [
       },
     ],
   },
+  {
+    id: "rule",
+    sub_item: [
+      {
+        id: "rule",
+        link: "/rule",
+        item: "회칙 및 세칙",
+      },
+    ],
+  },
 ];
 
 export const MTabData = [

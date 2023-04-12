@@ -103,11 +103,11 @@ export const HeaderTabData = [
       },
       {
         sub_item: "학생회칙",
-        link: "#!",
+        link: "/rule",
       },
       {
         sub_item: "회의록",
-        link: "/minute",
+        link: "/minute/center",
       },
       {
         sub_item: "학사일정",
@@ -146,11 +146,11 @@ export const HeaderTabData = [
         ],
       },
       {
-        sub_item: "캠퍼스맵"
+        sub_item: "캠퍼스맵",
       },
       {
-        sub_item: "물품대여현황"
-      }
+        sub_item: "물품대여현황",
+      },
     ],
   },
   {
