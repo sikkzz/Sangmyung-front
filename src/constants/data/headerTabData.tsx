@@ -88,20 +88,6 @@ export const HeaderTabData = [
     link: "#!",
     subItem: [
       {
-        sub_item: "예결산 목록",
-        link: "#!",
-        subItem2: [
-          {
-            sub_item2: "부1",
-            link: "#!",
-          },
-          {
-            sub_item2: "부2",
-            link: "#!",
-          },
-        ],
-      },
-      {
         sub_item: "학생회칙",
         link: "/rule",
       },
