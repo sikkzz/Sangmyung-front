@@ -62,7 +62,7 @@ const Rule = () => {
                   <Td>1</Td>
                   <Td>
                     <TdTitle>
-                      <TdLink>상명대학교 총학생회 공지사항입니다.</TdLink>
+                      <TdLink href={`/detail/${1}`}>상명대학교 총학생회 공지사항입니다.</TdLink>
                     </TdTitle>
                   </Td>
                   <Td>사무국</Td>

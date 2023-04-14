@@ -64,4 +64,11 @@ export const BioData = [
     sub: "총학생회 회칙",
     content: "총학생회 회칙을 소개합니다.",
   },
+  {
+    img: Img,
+    id: "detail",
+    title: "학생회칙",
+    sub: "총학생회 회칙",
+    content: "총학생회 회칙을 소개합니다.",
+  },
 ];

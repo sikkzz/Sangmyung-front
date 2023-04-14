@@ -4,12 +4,13 @@ import IntroducePage from "../pages/IntroducePage";
 import DepartmentPage from "../pages/DepartmentPage";
 import MapPage from "../pages/MapPage";
 import PledgeSimplePage from "../pages/PledgeSimplePage";
-import PledgeDetailPage from '../pages/PledgeDetailPage'
+import PledgeDetailPage from "../pages/PledgeDetailPage";
 import PartnerPage from "../pages/PartnerPage";
 import SchedulePage from "../pages/SchedulePage";
 import NoticePage from "../pages/NoticePage";
 import MinutePage from "../pages/MinutePage";
 import RulePage from "../pages/RulePage";
+import DetailPage from "../pages/DetailPage";
 
 const Routing = () => {
   return (
@@ -30,6 +31,8 @@ const Routing = () => {
       <Route path="/minute" element={<MinutePage />} />
       <Route path="/minute/:param" element={<MinutePage />} />
       <Route path="/rule" element={<RulePage />} />
+      <Route path="/detail" element={<DetailPage />} />
+      <Route path="/detail/:id" element={<DetailPage />} />
     </Routes>
   );
 };

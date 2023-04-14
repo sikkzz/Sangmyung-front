@@ -149,6 +149,16 @@ export const TabData = [
       },
     ],
   },
+  {
+    id: "detail",
+    sub_item: [
+      {
+        id: "detail",
+        link: "/detail",
+        item: "회칙 및 세칙",
+      },
+    ],
+  },
 ];
 
 export const MTabData = [
