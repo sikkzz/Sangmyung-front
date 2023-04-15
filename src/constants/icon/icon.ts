@@ -42,7 +42,7 @@ import { SiGooglecolab } from "react-icons/si";
 import { CgDanger } from "react-icons/cg";
 import { GrSystem } from "react-icons/gr";
 import { ImLibrary, ImSearch } from "react-icons/im";
-import { HiOutlineReceiptRefund } from "react-icons/hi";
+import { HiOutlineReceiptRefund, HiSpeakerphone } from "react-icons/hi";
 
 const Icons = {
   FaFacebook,
@@ -86,6 +86,7 @@ const Icons = {
   BsSearch,
   ImSearch,
   BiDownload,
+  HiSpeakerphone
 };
 
 export default Icons;

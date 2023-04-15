@@ -32,9 +32,13 @@ import {
 
 import Icons from "../../constants/icon";
 
-import { MinuteTabData } from "../../constants/data/MinuteData";
+import { MinuteData } from "../../constants/data/MinuteData";
 
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
+
+import CenterMinute from "./CenterMinute";
+import RepresentativeMinute from "./RepresentativeMinute";
+import TutionMinute from "./TutionMinute";
 
 type Props = {
   state: string;
@@ -42,7 +46,8 @@ type Props = {
 
 const Minute = ({ state }: Props) => {
   const navigate = useNavigate();
-  
+  const location = useLocation();
+
   return (
     <Layout>
       <Col>
@@ -50,7 +55,7 @@ const Minute = ({ state }: Props) => {
           <TabBox>
             <TabInnerBox>
               <TabList>
-                {MinuteTabData.map((item, index) => (
+                {MinuteData.map((item, index) => (
                   <>
                     {state === item.id ? (
                       <TabItemActive
@@ -74,7 +79,11 @@ const Minute = ({ state }: Props) => {
               </TabList>
             </TabInnerBox>
           </TabBox>
-          <Title>중앙운영위원회 회의록</Title>
+          {MinuteData.map((item, index) => (
+            <Title key={index}>
+              {location.pathname.split("/")[2] === item.id ? item.title : ""}
+            </Title>
+          ))}
           <SearchBox>
             <ListBox>
               <ListTitle>전체</ListTitle>
@@ -104,15 +113,31 @@ const Minute = ({ state }: Props) => {
               </THead>
               <TBody>
                 <Tr>
-                  <Td>1</Td>
+                  <Td>
+                    <Icons.HiSpeakerphone size={20} color="#000" />
+                  </Td>
                   <Td>
                     <TdTitle>
-                      <TdLink>상명대학교 총학생회 공지사항입니다.</TdLink>
+                      {MinuteData.map((item, index) => (
+                        <TdLink>
+                          {location.pathname.split("/")[2] === item.id
+                            ? item.title
+                            : ""}
+                        </TdLink>
+                      ))}{" "}
+                      게시판입니다.
                     </TdTitle>
                   </Td>
-                  <Td>2023-04-02</Td>
-                  <Td>3</Td>
+                  <Td></Td>
+                  <Td></Td>
                 </Tr>
+                {
+                  {
+                    center: <CenterMinute />,
+                    representative: <RepresentativeMinute />,
+                    tution: <TutionMinute />,
+                  }[location.pathname.split("/")[2]]
+                }
               </TBody>
             </Table>
           </NoticeBox>

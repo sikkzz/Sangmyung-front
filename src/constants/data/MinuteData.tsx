@@ -1,4 +1,4 @@
-export const MinuteTabData = [
+export const MinuteData = [
     {
         id: "center",
         title: "중앙운영위원회 회의록",
@@ -24,4 +24,49 @@ export const MinuteTabData = [
         title: "행정부처 간담회 회의록",
         link: "/minute/administrative"
     }
+]
+
+export const CenterData = [
+    {
+        id: 2,
+        title: "2023학년도 제2차 중앙운영위원회 회의록",
+        date: "2023-04-16",
+        view: "48"
+    },
+    {
+        id: 1,
+        title: "2023학년도 제1차 중앙운영위원회 회의록",
+        date: "2023-04-11",
+        view: "28"
+    },
+]
+
+export const RepresentativeData = [
+    {
+        id: 2,
+        title: "2023학년도 제2차 전체학생대표자회의 회의록",
+        date: "2023-04-16",
+        view: "48"
+    },
+    {
+        id: 1,
+        title: "2023학년도 제1차 전체학생대표자회의 회의록",
+        date: "2023-04-11",
+        view: "28"
+    },
+]
+
+export const TutionData = [
+    {
+        id: 2,
+        title: "2023학년도 제2차 등록금심의위원회 회의록",
+        date: "2023-04-16",
+        view: "48"
+    },
+    {
+        id: 1,
+        title: "2023학년도 제1차 등록금심의위원회 회의록",
+        date: "2023-04-11",
+        view: "28"
+    },
 ]
