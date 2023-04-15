@@ -7,9 +7,9 @@ import {
   BsCartPlusFill,
   BsInfoSquareFill,
   BsPersonPlusFill,
-  BsSearch
+  BsSearch,
 } from "react-icons/bs";
-import { RiKakaoTalkFill,RiHomeGearLine } from "react-icons/ri";
+import { RiKakaoTalkFill, RiHomeGearLine } from "react-icons/ri";
 import {
   FaYoutube,
   FaBars,
@@ -35,7 +35,7 @@ import {
   MdVolunteerActivism,
   MdCorporateFare,
 } from "react-icons/md";
-import { BiLoaderCircle } from "react-icons/bi";
+import { BiLoaderCircle, BiDownload } from "react-icons/bi";
 import { IoShareSocialSharp } from "react-icons/io5";
 import { GiPartyPopper, GiClothes } from "react-icons/gi";
 import { SiGooglecolab } from "react-icons/si";
@@ -84,7 +84,8 @@ const Icons = {
   RiHomeGearLine,
   BsPersonPlusFill,
   BsSearch,
-  ImSearch
+  ImSearch,
+  BiDownload,
 };
 
 export default Icons;

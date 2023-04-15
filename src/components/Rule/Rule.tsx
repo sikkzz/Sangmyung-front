@@ -29,7 +29,7 @@ const Rule = () => {
     <Layout>
       <Col>
         <Box>
-          <Title>회칙</Title>
+          <Title>총학생회 회칙 및 세칙</Title>
           <SearchBox>
             <ListBox>
               <ListTitle>전체</ListTitle>
