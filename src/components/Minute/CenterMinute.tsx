@@ -10,13 +10,13 @@ const CenterMinute = () => {
           <Td>{item.id}</Td>
           <Td>
             <TdTitle>
-              <TdLink>{item.title}</TdLink>
+              <TdLink href={item.link}>{item.title}</TdLink>
             </TdTitle>
           </Td>
           <Td>{item.date}</Td>
           <Td>{item.view}</Td>
         </Tr>
-      ))}
+      ))} 
     </>
   );
 };
