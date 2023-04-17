@@ -65,7 +65,7 @@ export const HeaderTabData = [
           },
           {
             sub_item2: "공약 상세보기",
-            link: "/pledge/detail",
+            link: "/pledge/detail/communication",
           },
         ],
       },

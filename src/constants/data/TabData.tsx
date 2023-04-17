@@ -159,6 +159,16 @@ export const TabData = [
       },
     ],
   },
+  {
+    id: "rental",
+    sub_item: [
+      {
+        id: "rental",
+        link: "/rental",
+        item: "물품대여현황",
+      },
+    ],
+  },
 ];
 
 export const MTabData = [

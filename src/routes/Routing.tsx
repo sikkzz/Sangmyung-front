@@ -11,6 +11,7 @@ import NoticePage from "../pages/NoticePage";
 import MinutePage from "../pages/MinutePage";
 import RulePage from "../pages/RulePage";
 import DetailPage from "../pages/DetailPage";
+import RentalPage from "../pages/RentalPage";
 
 const Routing = () => {
   return (
@@ -33,10 +34,17 @@ const Routing = () => {
       <Route path="/rule" element={<RulePage />} />
       <Route path="/minute/center/detail" element={<DetailPage />} />
       <Route path="/minute/center/detail/:id" element={<DetailPage />} />
-      <Route path="/minute/representative/detail/:id" element={<DetailPage />} />
+      <Route
+        path="/minute/representative/detail/:id"
+        element={<DetailPage />}
+      />
       <Route path="/minute/tution/detail/:id" element={<DetailPage />} />
       <Route path="/minute/council/detail/:id" element={<DetailPage />} />
-      <Route path="/minute/administrative/detail/:id" element={<DetailPage />} />
+      <Route
+        path="/minute/administrative/detail/:id"
+        element={<DetailPage />}
+      />
+      <Route path="/rental" element={<RentalPage />} />
     </Routes>
   );
 };
