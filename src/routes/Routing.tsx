@@ -31,8 +31,12 @@ const Routing = () => {
       <Route path="/minute" element={<MinutePage />} />
       <Route path="/minute/:param" element={<MinutePage />} />
       <Route path="/rule" element={<RulePage />} />
-      <Route path="/detail" element={<DetailPage />} />
-      <Route path="/detail/:id" element={<DetailPage />} />
+      <Route path="/minute/center/detail" element={<DetailPage />} />
+      <Route path="/minute/center/detail/:id" element={<DetailPage />} />
+      <Route path="/minute/representative/detail/:id" element={<DetailPage />} />
+      <Route path="/minute/tution/detail/:id" element={<DetailPage />} />
+      <Route path="/minute/council/detail/:id" element={<DetailPage />} />
+      <Route path="/minute/administrative/detail/:id" element={<DetailPage />} />
     </Routes>
   );
 };

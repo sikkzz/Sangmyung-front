@@ -16,7 +16,7 @@ const CenterMinute = () => {
           <Td>{item.date}</Td>
           <Td>{item.view}</Td>
         </Tr>
-      ))} 
+      ))}
     </>
   );
 };

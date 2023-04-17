@@ -1,6 +1,6 @@
-import { AdministrativeData } from "../../constants/data/MinuteData"
+import { AdministrativeData } from "../../constants/data/MinuteData";
 
-import {Tr, Td, TdTitle, TdLink} from './MinuteElements'
+import { Tr, Td, TdTitle, TdLink } from "./MinuteElements";
 
 const AdministrativeMinute = () => {
   return (
@@ -10,7 +10,7 @@ const AdministrativeMinute = () => {
           <Td>{item.id}</Td>
           <Td>
             <TdTitle>
-              <TdLink>{item.title}</TdLink>
+              <TdLink href={item.link}>{item.title}</TdLink>
             </TdTitle>
           </Td>
           <Td>{item.date}</Td>
@@ -18,7 +18,7 @@ const AdministrativeMinute = () => {
         </Tr>
       ))}
     </>
-  )
-}
+  );
+};
 
-export default AdministrativeMinute
+export default AdministrativeMinute;

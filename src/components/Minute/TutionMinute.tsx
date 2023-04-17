@@ -1,4 +1,4 @@
-import { TutionData } from "../../constants/data/MinuteData"
+import { TutionData } from "../../constants/data/MinuteData";
 
 import { Tr, Td, TdTitle, TdLink } from "./MinuteElements";
 
@@ -10,7 +10,7 @@ const TutionMinute = () => {
           <Td>{item.id}</Td>
           <Td>
             <TdTitle>
-              <TdLink>{item.title}</TdLink>
+              <TdLink href={item.link}>{item.title}</TdLink>
             </TdTitle>
           </Td>
           <Td>{item.date}</Td>
@@ -18,7 +18,7 @@ const TutionMinute = () => {
         </Tr>
       ))}
     </>
-  )
-}
+  );
+};
 
-export default TutionMinute
+export default TutionMinute;
