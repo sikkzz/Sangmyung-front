@@ -7,8 +7,6 @@ import Cell from "./Cell";
 
 import { Layout, Col, Box, MBox, MBoxImg } from "./ScheduleElements";
 
-// import Img from '../../assets/calendar.png'
-
 const Schedule = () => {
   const [currentMonth, setCurrentMonth] = useState(new Date());
   const [selectedDate, setSelectedDate] = useState(new Date());
