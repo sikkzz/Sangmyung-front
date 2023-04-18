@@ -8,6 +8,7 @@ import {
   Content,
   CopyRight,
 } from "./SliderElements";
+
 import { SliderData } from "../../constants/data/SliderData";
 
 export default function Slider() {
