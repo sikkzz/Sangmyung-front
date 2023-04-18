@@ -21,7 +21,7 @@ import {
   Btn,
 } from "./HeaderElements";
 
-import { HeaderTabData } from "../../constants/data/HeaderTabData";
+import { HeaderTabData } from "../../constants/data/HeaderData";
 
 import Icons from "../../constants/icon";
 import logo from "../../assets/logo1.png";
