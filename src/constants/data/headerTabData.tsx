@@ -136,6 +136,7 @@ export const HeaderTabData = [
       },
       {
         sub_item: "물품대여현황",
+        link: "/rental"
       },
     ],
   },
