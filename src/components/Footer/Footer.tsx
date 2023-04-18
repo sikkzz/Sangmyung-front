@@ -2,7 +2,7 @@ import Icons from "../../constants/icon";
 import { useState } from "react";
 import LogoImg from "../../assets/logo1.png";
 
-import { FooterSiteData, FooterSocialIconData } from "../../constants/data/FooterData";
+import { FooterSiteData, FooterSocialIconData } from "../../constants/data/FooterDatas";
 
 import {
   Container,
