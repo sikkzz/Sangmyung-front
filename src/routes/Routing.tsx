@@ -29,6 +29,7 @@ const Routing = () => {
       <Route path="/partnership/:param" element={<PartnerPage />} />
       <Route path="/schedule" element={<SchedulePage />} />
       <Route path="/notice" element={<NoticePage />} />
+      <Route path="/notice/detail/:id" element={<DetailPage />} />
       <Route path="/minute" element={<MinutePage />} />
       <Route path="/minute/:param" element={<MinutePage />} />
       <Route path="/rule" element={<RulePage />} />

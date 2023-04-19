@@ -18,33 +18,50 @@ import {
 
 import Icons from "../../constants/icon";
 
+import { useParams, useLocation } from "react-router-dom";
+
+import { NoticeData } from "../../constants/data/NoticeData";
+
 const Detail = () => {
+  const param = useParams();
+  const location = useLocation()
+
+  // console.log(location.pathname.split("/")[1])
+
   return (
     <Layout>
       <Col>
-        <Box>
-          <Title>총학생회 회칙 및 세칙</Title>
-          <DetailBox>
-            <TitleBox>
-              <BoardTitle>총학생회 공지사항입니다.</BoardTitle>
-            </TitleBox>
-            <InfoBox>
-              <InfoLeft>
-                <DownloadBox href="https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf">
-                  총학생회 공지사항
-                </DownloadBox>
-                <IconBox href="https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf">
-                  <Icons.BiDownload size={20} color="#000" />
-                </IconBox>
-              </InfoLeft>
-              <InfoRight>
-                <PeopleBox>작성자 : 관리자</PeopleBox>
-                <DateBox>작성일 : 2023-04-15</DateBox>
-                <ViewBox>조회수 : 160</ViewBox>
-              </InfoRight>
-            </InfoBox>
-          </DetailBox>
-        </Box>
+        {NoticeData.map((item, index) => (
+          <Box key={index}>
+            {param.id === item.id ? (
+              <>
+                <Title>공지사항</Title>
+                <DetailBox>
+                  <TitleBox>
+                    <BoardTitle>{item.title}</BoardTitle>
+                  </TitleBox>
+                  <InfoBox>
+                    <InfoLeft>
+                      <DownloadBox href={item.downloadLink}>
+                        {item.downloadTitle}
+                      </DownloadBox>
+                      <IconBox href={item.downloadLink}>
+                        <Icons.BiDownload size={20} color="#000" />
+                      </IconBox>
+                    </InfoLeft>
+                    <InfoRight>
+                      <PeopleBox>작성자 : {item.owner}</PeopleBox>
+                      <DateBox>작성일 : {item.date}</DateBox>
+                      <ViewBox>조회수 : {item.view}</ViewBox>
+                    </InfoRight>
+                  </InfoBox>
+                </DetailBox>
+              </>
+            ) : (
+              ""
+            )}
+          </Box>
+        ))}
       </Col>
     </Layout>
   );

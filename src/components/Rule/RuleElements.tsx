@@ -89,6 +89,7 @@ const NoticeBox = styled.div`
 const Table = styled.table`
   width: 100%;
   border-top: 1px solid #000;
+  border-spacing: 0;
 `;
 
 const ColGroup = styled.colgroup``;

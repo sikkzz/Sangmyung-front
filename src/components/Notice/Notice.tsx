@@ -24,6 +24,8 @@ import {
 
 import Icons from "../../constants/icon";
 
+import { NoticeData } from "../../constants/data/NoticeData";
+
 const Notice = () => {
   return (
     <Layout>
@@ -61,16 +63,33 @@ const Notice = () => {
               </THead>
               <TBody>
                 <Tr>
-                  <Td>1</Td>
+                  <Td>
+                    <Icons.HiSpeakerphone size={20} color="#000" />
+                  </Td>
                   <Td>
                     <TdTitle>
-                      <TdLink>상명대학교 총학생회 공지사항입니다.</TdLink>
+                      <TdLink>
+                        상명대학교 총학생회 공지사항 게시판입니다.
+                      </TdLink>
                     </TdTitle>
                   </Td>
-                  <Td>사무국</Td>
-                  <Td>2023-04-02</Td>
-                  <Td>3</Td>
+                  <Td></Td>
+                  <Td></Td>
+                  <Td></Td>
                 </Tr>
+                {NoticeData.map((item, index) => (
+                  <Tr key={index}>
+                    <Td>{item.id}</Td>
+                    <Td>
+                      <TdTitle>
+                        <TdLink href={item.link}>{item.title}</TdLink>
+                      </TdTitle>
+                    </Td>
+                    <Td>{item.owner}</Td>
+                    <Td>{item.date}</Td>
+                    <Td>{item.view}</Td>
+                  </Tr>
+                ))}
               </TBody>
             </Table>
           </NoticeBox>
