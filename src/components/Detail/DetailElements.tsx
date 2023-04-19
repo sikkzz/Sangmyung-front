@@ -20,7 +20,7 @@ const Title = styled.div`
   margin-top: 50px;
 `;
 
-const DetailBox = styled.div`
+const InfoBox = styled.div`
   margin-top: 50px;
 `;
 
@@ -42,7 +42,7 @@ const BoardTitle = styled.div`
   font-weight: 600;
 `;
 
-const InfoBox = styled.div`
+const InfoInnerBox = styled.div`
   width: 100%;
   border-bottom: 1px solid #d8d8d8;
   display: inline-block;
@@ -81,15 +81,50 @@ const ViewBox = styled.div`
   margin-left: 20px;
 `;
 
+const ContentBox = styled.div`
+`;
+
+const ContentImgBox = styled.div`
+  width: 700px;
+  margin: 50px auto 0;
+`;
+
+const ContentImg = styled.img`
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+`;
+
+const ContentTextBox = styled.div`
+  margin-top: 100px;
+`;
+
+const ContentTitle = styled.div`
+  font-size: 20px;
+  font-weight: 700;
+`
+
+const ContentTextParagraph = styled.div`
+  margin-top: 30px;
+`
+
+const ContentText = styled.p`
+  line-height: 36px;
+`
+
+const ContentTextStrong = styled.p`
+  font-weight: 700;
+`
+
 export {
   Layout,
   Col,
   Box,
   Title,
-  DetailBox,
+  InfoBox,
   TitleBox,
   BoardTitle,
-  InfoBox,
+  InfoInnerBox,
   InfoLeft,
   DownloadBox,
   IconBox,
@@ -97,4 +132,12 @@ export {
   PeopleBox,
   DateBox,
   ViewBox,
+  ContentBox,
+  ContentImgBox,
+  ContentImg,
+  ContentTextBox,
+  ContentTitle,
+  ContentTextParagraph,
+  ContentText,
+  ContentTextStrong
 };
