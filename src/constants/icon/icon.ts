@@ -36,7 +36,7 @@ import {
   MdCorporateFare,
 } from "react-icons/md";
 import { BiLoaderCircle, BiDownload } from "react-icons/bi";
-import { IoShareSocialSharp } from "react-icons/io5";
+import { IoShareSocialSharp, IoChevronDown, IoChevronUp } from "react-icons/io5";
 import { GiPartyPopper, GiClothes } from "react-icons/gi";
 import { SiGooglecolab } from "react-icons/si";
 import { CgDanger } from "react-icons/cg";
@@ -89,6 +89,8 @@ const Icons = {
   BiDownload,
   HiSpeakerphone,
   FcDocument,
+  IoChevronDown,
+  IoChevronUp
 };
 
 export default Icons;

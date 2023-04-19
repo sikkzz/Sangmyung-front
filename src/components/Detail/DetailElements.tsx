@@ -120,38 +120,34 @@ const PageBox = styled.div`
 `;
 
 const PageCol = styled.div`
-  display: table;
-  width: 100%;
+  display: flex;
   border-bottom: 1px solid #ccc;
-  table-layout: fixed;
+  align-items: center;
+  padding: 16px;
 
   &:first-of-type {
     border-top: 1px solid #ccc;
   }
 `;
 
-const PagePrev = styled.p`
-  display: table-cell;
-  padding: 11px 25px 11px 35px;
-  width: 130px;
-  font-weight: 400;
-  font-size: 16px;
-  color: #000;
-  box-sizing: border-box;
-  vertical-align: middle;
-  text-align: center;
+const PageIconBox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
-const PagePrevText = styled.p`
-  display: table-cell;
-  padding: 11px 25px 11px 0;
-  width: 100%;
+const PagePrev = styled.div`
+  font-weight: 400;
+  margin-left: 8px;
+`;
+
+const PagePrevText = styled.div`
   text-overflow: ellipsis;
   white-space: nowrap;
   word-wrap: normal;
   overflow: hidden;
-  box-sizing: border-box;
-  vertical-align: middle;
+  margin-left: 24px;
+  max-width: 950px;
 `;
 
 const PagePrevTextLink = styled.a`
@@ -165,7 +161,7 @@ const ListBox = styled.div`
   float: right;
 `;
 
-const ListButton = styled.div`
+const ListButton = styled.a`
   width: 71px;
   height: 38px;
   display: flex;
@@ -202,6 +198,7 @@ export {
   ContentTextStrong,
   PageBox,
   PageCol,
+  PageIconBox,
   PagePrev,
   PagePrevText,
   PagePrevTextLink,

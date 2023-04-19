@@ -24,18 +24,21 @@ import {
   ContentTextStrong,
   PageBox,
   PageCol,
+  PageIconBox,
   PagePrev,
   PagePrevText,
   PagePrevTextLink,
   ListBox,
-  ListButton
+  ListButton,
 } from "./DetailElements";
 
 import Icons from "../../constants/icon";
 
-import { useParams, useLocation } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 import { NoticeData } from "../../constants/data/NoticeData";
+
+import { useEffect, useState } from "react";
 
 import Img from "../../assets/notice/notice1.jpeg";
 import Img2 from "../../assets/notice/notice2.jpeg";
@@ -43,16 +46,33 @@ import Img3 from "../../assets/notice/notice3.jpeg";
 
 const Detail = () => {
   const param = useParams();
-  const location = useLocation();
 
-  // console.log(location.pathname.split("/")[1])
+  const [prevNum, setPrevNum] = useState(0);
+  const [nextNum, setNextNum] = useState(0);
+  const [nextTitle, setNextTitle] = useState("");
+  const [prevTitle, setPrevTitle] = useState("");
+  const [prevLink, setPrevLink] = useState("");
+  const [nextLink, setNextLink] = useState("");
+
+  useEffect(() => {
+    setPrevNum(Number(param.id) - 1);
+    setNextNum(Number(param.id) + 1);
+    NoticeData.map((item, index) => (
+      <>
+        {prevNum === item.id ? setPrevTitle(item.title) : ""}
+        {prevNum === item.id ? setPrevLink(item.link) : ""}
+        {nextNum === item.id ? setNextTitle(item.title) : ""}
+        {nextNum === item.id ? setNextLink(item.link) : ""}
+      </>
+    ));
+  }, [nextNum, param.id, prevNum]);
 
   return (
     <Layout>
       <Col>
         {NoticeData.map((item, index) => (
           <Box key={index}>
-            {param.id === item.id ? (
+            {Number(param.id) === item.id ? (
               <>
                 <Title>공지사항</Title>
                 <InfoBox>
@@ -133,7 +153,7 @@ const Detail = () => {
                         지난 몇 해의 시간 동안 발족되지 않았던 총학생회 조직을
                         새롭게 발족한 만큼, 막중한 책임감을 항상 상기하며
                         누구보다 근면 성실하게 노력하는 학생 대표자가
-                        되겠습니다.{" "}
+                        되겠습니다.
                       </ContentText>
                       <ContentText>
                         2023년은 코로나-19로 그동안 침체되었던 모든 사회 전반이
@@ -233,31 +253,45 @@ const Detail = () => {
                     </ContentTextParagraph>
                   </ContentTextBox>
                 </ContentBox>
+                <PageBox>
+                  <PageCol>
+                    <PageIconBox>
+                      <Icons.IoChevronUp size={16} color="#000" />
+                    </PageIconBox>
+                    <PagePrev>이전글</PagePrev>
+                    <PagePrevText>
+                      {item.id === 1 ? (
+                        <PagePrevTextLink>이전글이 없습니다.</PagePrevTextLink>
+                      ) : (
+                        <PagePrevTextLink href={prevLink}>
+                          {prevTitle}
+                        </PagePrevTextLink>
+                      )}
+                    </PagePrevText>
+                  </PageCol>
+                  <PageCol>
+                    <PageIconBox>
+                      <Icons.IoChevronDown size={16} color="#000" />
+                    </PageIconBox>
+                    <PagePrev>다음글</PagePrev>
+                    <PagePrevText>
+                      {item.id !== 2 ? (
+                        <PagePrevTextLink href={nextLink}>
+                          {nextTitle}
+                        </PagePrevTextLink>
+                      ) : (
+                        <PagePrevTextLink>다음글이 없습니다.</PagePrevTextLink>
+                      )}
+                    </PagePrevText>
+                  </PageCol>
+                </PageBox>
+                <ListBox>
+                  <ListButton href="/notice">목록</ListButton>
+                </ListBox>
               </>
             ) : (
               ""
             )}
-            <PageBox>
-              <PageCol>
-                <PagePrev>이전글</PagePrev>
-                <PagePrevText>
-                  <PagePrevTextLink>
-                    2023 총학생회 새내기배움터 관련 안내 카드뉴스
-                  </PagePrevTextLink>
-                </PagePrevText>
-              </PageCol>
-              <PageCol>
-                <PagePrev>다음글</PagePrev>
-                <PagePrevText>
-                  <PagePrevTextLink>
-                    2023 총학생회 새내기배움터 관련 안내 카드뉴스
-                  </PagePrevTextLink>
-                </PagePrevText>
-              </PageCol>
-            </PageBox>
-            <ListBox>
-              <ListButton>목록</ListButton>
-            </ListBox>
           </Box>
         ))}
       </Col>
