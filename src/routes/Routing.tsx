@@ -10,7 +10,8 @@ import SchedulePage from "../pages/SchedulePage";
 import NoticePage from "../pages/NoticePage";
 import MinutePage from "../pages/MinutePage";
 import RulePage from "../pages/RulePage";
-import DetailPage from "../pages/DetailPage";
+import NoticeDetailPage from "../pages/NoticeDetailPage";
+import MinuteDetailPage from "../pages/MinuteDetailPage";
 import RentalPage from "../pages/RentalPage";
 
 const Routing = () => {
@@ -29,21 +30,21 @@ const Routing = () => {
       <Route path="/partnership/:param" element={<PartnerPage />} />
       <Route path="/schedule" element={<SchedulePage />} />
       <Route path="/notice" element={<NoticePage />} />
-      <Route path="/notice/detail/:id" element={<DetailPage />} />
+      <Route path="/notice/detail/:id" element={<NoticeDetailPage />} />
       <Route path="/minute" element={<MinutePage />} />
       <Route path="/minute/:param" element={<MinutePage />} />
       <Route path="/rule" element={<RulePage />} />
-      <Route path="/minute/center/detail" element={<DetailPage />} />
-      <Route path="/minute/center/detail/:id" element={<DetailPage />} />
+      <Route path="/minute/center/detail" element={<MinuteDetailPage />} />
+      <Route path="/minute/center/detail/:id" element={<MinuteDetailPage />} />
       <Route
         path="/minute/representative/detail/:id"
-        element={<DetailPage />}
+        element={<MinuteDetailPage />}
       />
-      <Route path="/minute/tution/detail/:id" element={<DetailPage />} />
-      <Route path="/minute/council/detail/:id" element={<DetailPage />} />
+      <Route path="/minute/tution/detail/:id" element={<MinuteDetailPage />} />
+      <Route path="/minute/council/detail/:id" element={<MinuteDetailPage />} />
       <Route
         path="/minute/administrative/detail/:id"
-        element={<DetailPage />}
+        element={<MinuteDetailPage />}
       />
       <Route path="/rental" element={<RentalPage />} />
     </Routes>

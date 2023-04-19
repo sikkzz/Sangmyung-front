@@ -1,21 +1,21 @@
 import Header from "../components/Header/Header";
 import Bio from "../components/Bio/Bio";
-import Detail from "../components/Detail/Detail";
+import MinuteDetail from "../components/Detail/MinuteDetail";
 import Footer from "../components/Footer/Footer";
 
 import { useLocation } from "react-router-dom";
 
-const DetailPage = () => {
+const MinuteDetailPage = () => {
   const location = useLocation();
 
   return (
     <>
       <Header />
       <Bio state={location.pathname.split("/")[1]} />
-      <Detail />
+      <MinuteDetail />
       <Footer />
     </>
   );
 };
 
-export default DetailPage;
+export default MinuteDetailPage;

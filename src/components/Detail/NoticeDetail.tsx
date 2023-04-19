@@ -30,7 +30,7 @@ import {
   PagePrevTextLink,
   ListBox,
   ListButton,
-} from "./DetailElements";
+} from "./NoticeDetailElements";
 
 import Icons from "../../constants/icon";
 
@@ -44,7 +44,7 @@ import Img from "../../assets/notice/notice1.jpeg";
 import Img2 from "../../assets/notice/notice2.jpeg";
 import Img3 from "../../assets/notice/notice3.jpeg";
 
-const Detail = () => {
+const NoticeDetail = () => {
   const param = useParams();
 
   const [prevNum, setPrevNum] = useState(0);
@@ -299,4 +299,4 @@ const Detail = () => {
   );
 };
 
-export default Detail;
+export default NoticeDetail;
