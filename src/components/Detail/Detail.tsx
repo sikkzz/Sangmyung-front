@@ -22,6 +22,13 @@ import {
   ContentTextParagraph,
   ContentText,
   ContentTextStrong,
+  PageBox,
+  PageCol,
+  PagePrev,
+  PagePrevText,
+  PagePrevTextLink,
+  ListBox,
+  ListButton
 } from "./DetailElements";
 
 import Icons from "../../constants/icon";
@@ -54,12 +61,18 @@ const Detail = () => {
                   </TitleBox>
                   <InfoInnerBox>
                     <InfoLeft>
-                      <DownloadBox href={item.downloadLink}>
-                        {item.downloadTitle}
-                      </DownloadBox>
-                      <IconBox href={item.downloadLink}>
-                        <Icons.BiDownload size={20} color="#000" />
-                      </IconBox>
+                      {item.download ? (
+                        <>
+                          <DownloadBox href={item.downloadLink}>
+                            {item.downloadTitle}
+                          </DownloadBox>
+                          <IconBox href={item.downloadLink}>
+                            <Icons.BiDownload size={20} color="#000" />
+                          </IconBox>
+                        </>
+                      ) : (
+                        ""
+                      )}
                     </InfoLeft>
                     <InfoRight>
                       <PeopleBox>작성자 : {item.owner}</PeopleBox>
@@ -194,9 +207,8 @@ const Detail = () => {
                     </ContentTextParagraph>
                     <ContentTextParagraph>
                       <ContentText>
-                        {" "}
                         이는 우리 상명대학교의 학우분들께서만 해주실 수 있는
-                        가장 중요한 일이라고 생각합니다.{" "}
+                        가장 중요한 일이라고 생각합니다.
                       </ContentText>
                       <ContentText>
                         총학생회의 대표자들은, 학우분들을 위해 할 수 있는 일을
@@ -225,6 +237,27 @@ const Detail = () => {
             ) : (
               ""
             )}
+            <PageBox>
+              <PageCol>
+                <PagePrev>이전글</PagePrev>
+                <PagePrevText>
+                  <PagePrevTextLink>
+                    2023 총학생회 새내기배움터 관련 안내 카드뉴스
+                  </PagePrevTextLink>
+                </PagePrevText>
+              </PageCol>
+              <PageCol>
+                <PagePrev>다음글</PagePrev>
+                <PagePrevText>
+                  <PagePrevTextLink>
+                    2023 총학생회 새내기배움터 관련 안내 카드뉴스
+                  </PagePrevTextLink>
+                </PagePrevText>
+              </PageCol>
+            </PageBox>
+            <ListBox>
+              <ListButton>목록</ListButton>
+            </ListBox>
           </Box>
         ))}
       </Col>

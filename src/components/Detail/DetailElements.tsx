@@ -81,8 +81,7 @@ const ViewBox = styled.div`
   margin-left: 20px;
 `;
 
-const ContentBox = styled.div`
-`;
+const ContentBox = styled.div``;
 
 const ContentImgBox = styled.div`
   width: 700px;
@@ -102,19 +101,80 @@ const ContentTextBox = styled.div`
 const ContentTitle = styled.div`
   font-size: 20px;
   font-weight: 700;
-`
+`;
 
 const ContentTextParagraph = styled.div`
   margin-top: 30px;
-`
+`;
 
 const ContentText = styled.p`
   line-height: 36px;
-`
+`;
 
 const ContentTextStrong = styled.p`
   font-weight: 700;
-`
+`;
+
+const PageBox = styled.div`
+  margin-top: 100px;
+`;
+
+const PageCol = styled.div`
+  display: table;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  table-layout: fixed;
+
+  &:first-of-type {
+    border-top: 1px solid #ccc;
+  }
+`;
+
+const PagePrev = styled.p`
+  display: table-cell;
+  padding: 11px 25px 11px 35px;
+  width: 130px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  box-sizing: border-box;
+  vertical-align: middle;
+  text-align: center;
+`;
+
+const PagePrevText = styled.p`
+  display: table-cell;
+  padding: 11px 25px 11px 0;
+  width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  overflow: hidden;
+  box-sizing: border-box;
+  vertical-align: middle;
+`;
+
+const PagePrevTextLink = styled.a`
+  font-weight: 400;
+  color: #5c5c5c;
+  line-height: 24px;
+`;
+
+const ListBox = styled.div`
+  margin: 80px 0;
+  float: right;
+`;
+
+const ListButton = styled.div`
+  width: 71px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #555;
+  box-shadow: 3px 3px 0px #555;
+  border-radius: 4px;
+`;
 
 export {
   Layout,
@@ -139,5 +199,12 @@ export {
   ContentTitle,
   ContentTextParagraph,
   ContentText,
-  ContentTextStrong
+  ContentTextStrong,
+  PageBox,
+  PageCol,
+  PagePrev,
+  PagePrevText,
+  PagePrevTextLink,
+  ListBox,
+  ListButton,
 };
