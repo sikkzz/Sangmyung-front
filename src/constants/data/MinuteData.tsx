@@ -33,6 +33,9 @@ export const CenterData = [
     date: "2023-04-16",
     view: "48",
     link: "/minute/center/detail/2",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
   },
   {
     id: 1,
@@ -40,6 +43,9 @@ export const CenterData = [
     date: "2023-04-11",
     view: "28",
     link: "/minute/center/detail/1",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
   },
 ];
 

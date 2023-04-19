@@ -85,17 +85,16 @@ const ContentBox = styled.div``;
 
 const ContentImgBox = styled.div`
   width: 700px;
-  margin: 50px auto 0;
+  margin: 100px auto 0;
 `;
 
 const ContentImg = styled.img`
   width: 100%;
-  height: 700px;
   object-fit: cover;
 `;
 
 const ContentTextBox = styled.div`
-  margin-top: 100px;
+  margin-top: 50px;
 `;
 
 const ContentTitle = styled.div`
@@ -114,6 +113,11 @@ const ContentText = styled.p`
 const ContentTextStrong = styled.p`
   font-weight: 700;
 `;
+
+const ContentTextIndent = styled.p`
+  margin-left: 36px;
+  line-height: 36px;
+`
 
 const PageBox = styled.div`
   margin-top: 100px;
@@ -196,6 +200,7 @@ export {
   ContentTextParagraph,
   ContentText,
   ContentTextStrong,
+  ContentTextIndent,
   PageBox,
   PageCol,
   PageIconBox,

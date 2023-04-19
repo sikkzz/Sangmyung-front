@@ -102,11 +102,6 @@ const NoticeDetail = () => {
                   </InfoInnerBox>
                 </InfoBox>
                 <ContentBox>
-                  <ContentImgBox>
-                    <ContentImg src={Img} alt="img1" />
-                    <ContentImg src={Img2} alt="img2" />
-                    <ContentImg src={Img3} alt="img3" />
-                  </ContentImgBox>
                   <ContentTextBox>
                     <ContentTitle>[{item.title}]</ContentTitle>
                     <ContentTextParagraph>
@@ -252,6 +247,11 @@ const NoticeDetail = () => {
                       </ContentTitle>
                     </ContentTextParagraph>
                   </ContentTextBox>
+                  <ContentImgBox>
+                    <ContentImg src={Img} alt="img1" />
+                    <ContentImg src={Img2} alt="img2" />
+                    <ContentImg src={Img3} alt="img3" />
+                  </ContentImgBox>
                 </ContentBox>
                 <PageBox>
                   <PageCol>
