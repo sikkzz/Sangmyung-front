@@ -56,6 +56,9 @@ export const RepresentativeData = [
     date: "2023-04-16",
     view: "48",
     link: "/minute/representative/detail/2",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
   },
   {
     id: 1,
@@ -63,6 +66,9 @@ export const RepresentativeData = [
     date: "2023-04-11",
     view: "28",
     link: "/minute/representative/detail/1",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
   },
 ];
 
@@ -73,6 +79,9 @@ export const TutionData = [
     date: "2023-04-16",
     view: "48",
     link: "/minute/tution/detail/2",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
   },
   {
     id: 1,
@@ -80,6 +89,9 @@ export const TutionData = [
     date: "2023-04-11",
     view: "28",
     link: "/minute/tution/detail/1",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
   },
 ];
 
@@ -90,6 +102,9 @@ export const CouncilData = [
     date: "2023-04-16",
     view: "48",
     link: "/minute/council/detail/2",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
   },
   {
     id: 1,
@@ -97,6 +112,9 @@ export const CouncilData = [
     date: "2023-04-11",
     view: "28",
     link: "/minute/council/detail/1",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
   },
 ];
 
@@ -107,6 +125,9 @@ export const AdministrativeData = [
     date: "2023-04-16",
     view: "48",
     link: "/minute/administrative/detail/2",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
   },
   {
     id: 1,
@@ -114,5 +135,8 @@ export const AdministrativeData = [
     date: "2023-04-11",
     view: "28",
     link: "/minute/administrative/detail/1",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
   },
 ];

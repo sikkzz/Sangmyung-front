@@ -11,7 +11,11 @@ import NoticePage from "../pages/NoticePage";
 import MinutePage from "../pages/MinutePage";
 import RulePage from "../pages/RulePage";
 import NoticeDetailPage from "../pages/NoticeDetailPage";
-import MinuteDetailPage from "../pages/MinuteDetailPage";
+import MinuteCenterDetailPage from "../pages/MinuteCenterDetailPage";
+import MinuteRepresentativeDetailPage from "../pages/MinuteRepresentativeDetailPage";
+import MinuteTutuionDetailPage from "../pages/MinuteTutuionDetailPage";
+import MinuteCouncilDetailPage from "../pages/MinuteCouncilDetailPage";
+import MinuteAdministrativeDetailPage from "../pages/MinuteAdministrativeDetailPage";
 import RentalPage from "../pages/RentalPage";
 
 const Routing = () => {
@@ -34,17 +38,29 @@ const Routing = () => {
       <Route path="/minute" element={<MinutePage />} />
       <Route path="/minute/:param" element={<MinutePage />} />
       <Route path="/rule" element={<RulePage />} />
-      <Route path="/minute/center/detail" element={<MinuteDetailPage />} />
-      <Route path="/minute/center/detail/:id" element={<MinuteDetailPage />} />
+      <Route
+        path="/minute/center/detail"
+        element={<MinuteCenterDetailPage />}
+      />
+      <Route
+        path="/minute/center/detail/:id"
+        element={<MinuteCenterDetailPage />}
+      />
       <Route
         path="/minute/representative/detail/:id"
-        element={<MinuteDetailPage />}
+        element={<MinuteRepresentativeDetailPage />}
       />
-      <Route path="/minute/tution/detail/:id" element={<MinuteDetailPage />} />
-      <Route path="/minute/council/detail/:id" element={<MinuteDetailPage />} />
+      <Route
+        path="/minute/tution/detail/:id"
+        element={<MinuteTutuionDetailPage />}
+      />
+      <Route
+        path="/minute/council/detail/:id"
+        element={<MinuteCouncilDetailPage />}
+      />
       <Route
         path="/minute/administrative/detail/:id"
-        element={<MinuteDetailPage />}
+        element={<MinuteAdministrativeDetailPage />}
       />
       <Route path="/rental" element={<RentalPage />} />
     </Routes>
