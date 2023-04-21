@@ -82,29 +82,50 @@ const IconBox = styled.div`
 `;
 
 const BoardBox = styled.div`
-    margin-top: 30px;
+  margin-top: 30px;
 `;
 
-const BoardList = styled.div`
+const Board = styled.div`
   border-top: 2px solid #2b2b2b;
 `;
 
-const BoardListItem = styled.div`
+const BoardCol = styled.div`
   display: flex;
   width: 100%;
   justify-content: space-between;
   /* margin: 0 45px 0 0; */
   position: relative;
   /* padding: 30px 0; */
+  margin-top: 30px;
 `;
 
-const BoardListLink = styled.a`
-  padding-bottom: 95px;
+const BoardItem = styled.div`
+  display: flex;
+  flex-direction: column;
 `;
 
-const BoardListImg = styled.img`
+const BoardLink = styled.a`
+  padding-bottom: 25px;
+`;
+
+const BoardImg = styled.img`
   height: 300px;
 `;
+
+const BoardTitle = styled.div`
+  font-size: 20px;
+`;
+
+const BoardInfo = styled.div`
+  margin-top: 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+`;
+
+const BoardDate = styled.div``;
+
+const BoardOwner = styled.div``;
 
 export {
   Layout,
@@ -118,8 +139,13 @@ export {
   Input,
   IconBox,
   BoardBox,
-  BoardList,
-  BoardListItem,
-  BoardListLink,
-  BoardListImg,
+  Board,
+  BoardCol,
+  BoardItem,
+  BoardLink,
+  BoardImg,
+  BoardTitle,
+  BoardInfo,
+  BoardDate,
+  BoardOwner,
 };

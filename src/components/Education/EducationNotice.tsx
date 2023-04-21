@@ -10,17 +10,20 @@ import {
   Input,
   IconBox,
   BoardBox,
-  BoardList,
-  BoardListItem,
-  BoardListLink,
-  BoardListImg,
+  Board,
+  BoardCol,
+  BoardItem,
+  BoardLink,
+  BoardImg,
+  BoardTitle,
+  BoardInfo,
+  BoardDate,
+  BoardOwner,
 } from "./EducationNoticeElements";
 
 import Icons from "../../constants/icon";
 
-import Img from "../../assets/education/notice/1.jpeg";
-import Img2 from "../../assets/education/notice/2.jpeg";
-import Img3 from "../../assets/education/notice/3.jpeg";
+import { EducationData } from "../../constants/data/EducationData";
 
 const EducationNotice = () => {
   return (
@@ -40,19 +43,22 @@ const EducationNotice = () => {
             </Search>
           </SearchBox>
           <BoardBox>
-            <BoardList>
-              <BoardListItem>
-                <BoardListLink href="#!">
-                  <BoardListImg src={Img} alt="Img1" />
-                </BoardListLink>
-                <BoardListLink href="#!">
-                  <BoardListImg src={Img} alt="Img1" />
-                </BoardListLink>
-                <BoardListLink href="#!">
-                  <BoardListImg src={Img} alt="Img1" />
-                </BoardListLink>
-              </BoardListItem>
-            </BoardList>
+            <Board>
+              <BoardCol>
+                {EducationData.map((item, index) => (
+                  <BoardItem key={index}>
+                    <BoardLink href={item.link}>
+                      <BoardImg src={item.img} alt={item.alt} />
+                    </BoardLink>
+                    <BoardTitle>{item.title}</BoardTitle>
+                    <BoardInfo>
+                      <BoardDate>{item.date}</BoardDate>
+                      <BoardOwner>{item.owner}</BoardOwner>
+                    </BoardInfo>
+                  </BoardItem>
+                ))}
+              </BoardCol>
+            </Board>
           </BoardBox>
         </Box>
       </Col>

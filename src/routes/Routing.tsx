@@ -18,6 +18,7 @@ import MinuteCouncilDetailPage from "../pages/MinuteCouncilDetailPage";
 import MinuteAdministrativeDetailPage from "../pages/MinuteAdministrativeDetailPage";
 import RentalPage from "../pages/RentalPage";
 import EducationNoticePage from "../pages/EducationNoticePage";
+import EducationDetailPage from "../pages/EducationDetailPage";
 
 const Routing = () => {
   return (
@@ -65,6 +66,10 @@ const Routing = () => {
       />
       <Route path="/rental" element={<RentalPage />} />
       <Route path="/education/notice" element={<EducationNoticePage />} />
+      <Route
+        path="/education/notice/detail/:id"
+        element={<EducationDetailPage />}
+      />
     </Routes>
   );
 };
