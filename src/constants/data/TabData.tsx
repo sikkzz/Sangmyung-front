@@ -169,6 +169,16 @@ export const TabData = [
       },
     ],
   },
+  {
+    id: "education",
+    sub_item: [
+      {
+        id: "education",
+        link: "/education/notice",
+        item: "선[先]견지명",
+      },
+    ],
+  },
 ];
 
 export const MTabData = [

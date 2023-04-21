@@ -78,4 +78,11 @@ export const BioData = [
     sub: "총학생회 물품대여현황",
     content: "총학생회 물품대여현황입니다.",
   },
+  {
+    img: Img,
+    id: "education",
+    title: "학사정보",
+    sub: "총학생회 학사정보",
+    content: "총학생회 학사정보 안내입니다.",
+  },
 ];

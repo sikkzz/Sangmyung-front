@@ -138,6 +138,20 @@ export const HeaderTabData = [
         sub_item: "물품대여현황",
         link: "/rental"
       },
+      {
+        sub_item: "교육 및 학사",
+        link: "/education/notice",
+        subItem2: [
+          {
+            sub_item2: "선[先]견지명",
+            link: "/education/notice"
+          },
+          {
+            sub_item2: "학사정보",
+            link: "#!"
+          }
+        ]
+      }
     ],
   },
   {
