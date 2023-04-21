@@ -26,9 +26,7 @@ const Schedule = () => {
   return (
     <Layout>
       <Col>
-      <MBox>
-        {/* <MBoxImg src={Img} alt="calendar" /> */}
-      </MBox>
+        <MBox>{/* <MBoxImg src={Img} alt="calendar" /> */}</MBox>
         <Box>
           <Header
             currentMonth={currentMonth}

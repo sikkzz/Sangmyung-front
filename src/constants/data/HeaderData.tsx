@@ -8,7 +8,7 @@ export const HeaderTabData = [
     link: "/introduce/greeting",
     subItem: [
       {
-        sub_item: "소개",
+        sub_item: "총학생회 소개",
         link: "/introduce/greeting",
         subItem2: [
           {
@@ -56,6 +56,10 @@ export const HeaderTabData = [
         ],
       },
       {
+        sub_item: "중앙운영위원회",
+        link: "/central",
+      },
+      {
         sub_item: "공약집",
         link: "/pledge/simple",
         subItem2: [
@@ -71,10 +75,6 @@ export const HeaderTabData = [
       },
       {
         sub_item: "예결산 목록",
-        link: "#!",
-      },
-      {
-        sub_item: "활동사진",
         link: "#!",
       },
     ],
@@ -133,10 +133,11 @@ export const HeaderTabData = [
       },
       {
         sub_item: "캠퍼스맵",
+        link: "/map",
       },
       {
         sub_item: "물품대여현황",
-        link: "/rental"
+        link: "/rental",
       },
       {
         sub_item: "교육 및 학사",
@@ -144,14 +145,14 @@ export const HeaderTabData = [
         subItem2: [
           {
             sub_item2: "선[先]견지명",
-            link: "/education/notice"
+            link: "/education/notice",
           },
           {
             sub_item2: "학사정보",
-            link: "#!"
-          }
-        ]
-      }
+            link: "#!",
+          },
+        ],
+      },
     ],
   },
   {
