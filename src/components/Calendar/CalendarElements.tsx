@@ -19,8 +19,20 @@ const Title = styled.div`
   margin-top: 50px;
 `;
 
-const CalendarBox = styled.div`
-    
-`
+const CalendarBox = styled.div``;
 
-export { Layout, Col, Box, Title };
+const Header = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+`;
+
+const Month = styled.h2`
+  font-weight: 700;
+  font-size: 35px;
+  color: #003d91;
+`;
+
+export { Layout, Col, Box, Title, CalendarBox, Header, Month };

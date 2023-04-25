@@ -20,6 +20,8 @@ import RentalPage from "../pages/RentalPage";
 import EducationNoticePage from "../pages/EducationNoticePage";
 import EducationDetailPage from "../pages/EducationDetailPage";
 
+import CalendarPage from "../pages/CalendarPage";
+
 const Routing = () => {
   return (
     <Routes>
@@ -35,6 +37,7 @@ const Routing = () => {
       <Route path="/partnership" element={<PartnerPage />} />
       <Route path="/partnership/:param" element={<PartnerPage />} />
       <Route path="/schedule" element={<SchedulePage />} />
+      <Route path="/calendar" element={<CalendarPage />} />
       <Route path="/notice" element={<NoticePage />} />
       <Route path="/notice/detail/:id" element={<NoticeDetailPage />} />
       <Route path="/minute" element={<MinutePage />} />

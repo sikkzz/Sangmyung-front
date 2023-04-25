@@ -6,18 +6,18 @@ import Footer from "../components/Footer/Footer";
 
 import { useLocation } from "react-router-dom";
 
-const SchedulePage = () => {
+const CalendarPage = () => {
   const location = useLocation();
 
   return (
     <>
       <Header />
-      <Bio state={location.pathname.split("/")[1]} />
-      <Schedule />
-      {/* <Calendar /> */}
+      <Bio state="schedule" />
+      {/* <Schedule /> */}
+      <Calendar />
       <Footer />
     </>
   );
 };
 
-export default SchedulePage;
+export default CalendarPage;
