@@ -24,6 +24,8 @@ import {
   AiOutlineClose,
   AiFillNotification,
   AiFillFolderOpen,
+  AiOutlineRight,
+  AiOutlineLeft,
 } from "react-icons/ai";
 import {
   MdWorkOutline,
@@ -36,7 +38,11 @@ import {
   MdCorporateFare,
 } from "react-icons/md";
 import { BiLoaderCircle, BiDownload } from "react-icons/bi";
-import { IoShareSocialSharp, IoChevronDown, IoChevronUp } from "react-icons/io5";
+import {
+  IoShareSocialSharp,
+  IoChevronDown,
+  IoChevronUp,
+} from "react-icons/io5";
 import { GiPartyPopper, GiClothes } from "react-icons/gi";
 import { SiGooglecolab } from "react-icons/si";
 import { CgDanger } from "react-icons/cg";
@@ -90,7 +96,9 @@ const Icons = {
   HiSpeakerphone,
   FcDocument,
   IoChevronDown,
-  IoChevronUp
+  IoChevronUp,
+  AiOutlineRight,
+  AiOutlineLeft,
 };
 
 export default Icons;
