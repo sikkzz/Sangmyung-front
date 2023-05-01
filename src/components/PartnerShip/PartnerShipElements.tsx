@@ -101,10 +101,6 @@ const BoardItem = styled.div`
   display: flex;
   flex-direction: column;
   width: 300px;
-  /* 
-  &:hover{
-    background-color: rgba(0,0,0,0.5);
-  } */
 `;
 
 const BoardLink = styled.a`
@@ -113,8 +109,9 @@ const BoardLink = styled.a`
 
 const BoardImg = styled.img`
   width: 100%;
-  /* &:hover{
-    opacity: 0;
+/*   
+  &:hover{
+    opacity: 0.8;
     background-color: #000;
     transition: 0.5s;
   } */

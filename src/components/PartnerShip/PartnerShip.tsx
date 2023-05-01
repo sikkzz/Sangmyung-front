@@ -24,14 +24,31 @@ import {
 
 import Icons from "../../constants/icon";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { PartnerData } from "../../constants/data/PartnerData";
 
 const PartnerShip = () => {
-  const [isHover, setIsHover] = useState(0);
+  const [isHover, setIsHover] = useState(false);
 
-  console.log(isHover)
+  const [a, setA] = useState([
+    {
+      id: 1,
+      active: false,
+    },
+    {
+      id: 2,
+      active: false,
+    },
+    {
+      id: 3,
+      active: false,
+    },
+  ]);
+
+  const test = (num: Number) => {
+
+  }
 
   return (
     <Layout>
@@ -56,11 +73,18 @@ const PartnerShip = () => {
                   <BoardItem key={index}>
                     <BoardLink
                       href={item.link}
-                      onMouseOver={() => setIsHover(1)}
-                      onMouseOut={() => setIsHover(0)}
+                      onMouseOver={() => {
+                        a[index].active = true;
+                        console.log(a[index].active)
+                      }}
+                      onMouseOut={() => {
+                        a[index].active = false;
+                        console.log(a[index].active)
+                      }}
                     >
                       <BoardImg src={item.img} alt={item.alt} />
-                      <BoardOverLay />
+                      {a[index].active === true ? <BoardOverLay /> : ""}
+                      {/* <BoardOverLay /> */}
                     </BoardLink>
                   </BoardItem>
                 ))}

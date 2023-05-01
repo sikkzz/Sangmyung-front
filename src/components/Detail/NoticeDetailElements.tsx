@@ -108,6 +108,7 @@ const ContentTextParagraph = styled.div`
 
 const ContentText = styled.p`
   line-height: 36px;
+  white-space: pre-line;
 `;
 
 const ContentTextStrong = styled.p`
@@ -117,6 +118,10 @@ const ContentTextStrong = styled.p`
 const ContentTextIndent = styled.p`
   margin-left: 36px;
   line-height: 36px;
+`
+
+const ContentTextLink = styled.a`
+  
 `
 
 const PageBox = styled.div`
@@ -201,6 +206,7 @@ export {
   ContentText,
   ContentTextStrong,
   ContentTextIndent,
+  ContentTextLink,
   PageBox,
   PageCol,
   PageIconBox,
