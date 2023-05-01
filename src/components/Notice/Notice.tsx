@@ -50,7 +50,6 @@ const Notice = () => {
                 <ColStyle size="auto" />
                 <ColStyle size="12%" />
                 <ColStyle size="12%" />
-                <ColStyle size="8%" />
               </ColGroup>
               <THead>
                 <Tr>
@@ -58,7 +57,6 @@ const Notice = () => {
                   <Th size="auto">제목</Th>
                   <Th size="12%">작성자</Th>
                   <Th size="12%">작성일</Th>
-                  <Th size="8%">조회</Th>
                 </Tr>
               </THead>
               <TBody>
@@ -75,7 +73,6 @@ const Notice = () => {
                   </Td>
                   <Td></Td>
                   <Td></Td>
-                  <Td></Td>
                 </Tr>
                 {NoticeData.map((item, index) => (
                   <Tr key={index}>
@@ -87,7 +84,6 @@ const Notice = () => {
                     </Td>
                     <Td>{item.owner}</Td>
                     <Td>{item.date}</Td>
-                    <Td>{item.view}</Td>
                   </Tr>
                 ))}
               </TBody>

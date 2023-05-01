@@ -71,7 +71,7 @@ const PeopleBox = styled.div`
 const DateBox = styled.div`
   display: inline-block;
   margin-left: 20px;
-`;
+`; 
 
 export {
   Layout,

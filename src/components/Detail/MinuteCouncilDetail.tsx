@@ -13,7 +13,6 @@ import {
   InfoRight,
   PeopleBox,
   DateBox,
-  ViewBox,
   ContentBox,
   ContentImgBox,
   ContentImg,
@@ -95,7 +94,6 @@ const MinuteCouncilDetail = () => {
                     <InfoRight>
                       <PeopleBox>작성자 : {item.owner}</PeopleBox>
                       <DateBox>작성일 : {item.date}</DateBox>
-                      <ViewBox>조회수 : {item.view}</ViewBox>
                     </InfoRight>
                   </InfoInnerBox>
                 </InfoBox>

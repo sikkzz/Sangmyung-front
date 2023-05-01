@@ -76,11 +76,6 @@ const DateBox = styled.div`
   margin-left: 20px;
 `;
 
-const ViewBox = styled.div`
-  display: inline-block;
-  margin-left: 20px;
-`;
-
 const ContentBox = styled.div``;
 
 const ContentImgBox = styled.div`
@@ -196,7 +191,6 @@ export {
   InfoRight,
   PeopleBox,
   DateBox,
-  ViewBox,
   ContentBox,
   ContentImgBox,
   ContentImg,

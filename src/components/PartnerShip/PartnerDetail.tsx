@@ -107,7 +107,7 @@ const PartnerDetail = () => {
                   </ContentTextBox>
                   <ContentImgBox>
                     {item.inImg.map((item, index) => (
-                      <ContentImg src={item.img} alt="img1" key={index} />
+                      <ContentImg src={item.img} alt={item.alt} key={index} />
                     ))}
                   </ContentImgBox>
                 </ContentBox>
