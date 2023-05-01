@@ -23,8 +23,6 @@ import {
   ContentTitle,
   ContentTextParagraph,
   ContentText,
-  ContentTextIndent,
-  ContentTextLink,
   PageBox,
   PageCol,
   PageIconBox,
@@ -42,10 +40,7 @@ import { PartnerData } from "../../constants/data/PartnerData";
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-import Img from "../../assets/partner/safe/1.png";
-import Img2 from "../../assets/partner/safe/2.jpeg";
-import Img3 from "../../assets/partner/safe/3.jpeg";
-import Img4 from "../../assets/partner/safe/4.jpeg";
+import HTMLReactParser from "html-react-parser";
 
 const PartnerDetail = () => {
   const param = useParams();
@@ -105,86 +100,15 @@ const PartnerDetail = () => {
                 </InfoBox>
                 <ContentBox>
                   <ContentTextBox>
-                    <ContentTitle>[{item.title}]</ContentTitle>
+                    <ContentTitle>[{item.inTitle}]</ContentTitle>
                     <ContentTextParagraph>
-                      <ContentText>첫 번째 최선(先), 세이프닥</ContentText>
-                    </ContentTextParagraph>
-                    <ContentTextParagraph>
-                      <ContentText>
-                        🌟더 밝게 빛날 나를 위한 선택!🌟
-                        <br />
-                        "안전하고 검증된 우리 학교 의료복지!“
-                      </ContentText>
-                    </ContentTextParagraph>
-                    <ContentTextParagraph>
-                      <ContentText>
-                        ✅ 대상: 상명대학교 총학생회 학생 및 가족 (졸업생,
-                        휴학생 포함)
-                      </ContentText>
-                    </ContentTextParagraph>
-                    <ContentTextParagraph>
-                      <ContentText>
-                        ✅ 혜택 내용
-                        <br />
-                        1) 전국 250개 제휴 병원 비급여 항목 우대 할인(최대 49%)
-                        <br />
-                        2) 인기시술 : 가다실9가, 충치/임플란트, 치아교정,
-                        스마일라식, 기능코, 눈매교정, 피부관리,
-                        <br />
-                        점제거, 리프팅, 보톡스/필러, 도수치료, 한약, 반영구,
-                        모발이식, 건강검진, 심리상담
-                        <br />
-                        3) 기간: ~ 23.12.31
-                      </ContentText>
-                    </ContentTextParagraph>
-                    <ContentTextParagraph>
-                      <ContentText>
-                        ✅ 상명대학교 전용 혜택 링크:
-                        <ContentTextLink href="https://smu-seoul.safedoc1.com">
-                          https://smu-seoul.safedoc1.com/
-                        </ContentTextLink>
-                      </ContentText>
-                    </ContentTextParagraph>
-                    <ContentTextParagraph>
-                      <ContentText>
-                        💙 제휴병원 이용 방법 및 앱 설치
-                        <br />
-                        1) 전화예약 : 02 - 2088 - 8677
-                        <br />
-                        2) 카톡채널 '세이프닥' 검색
-                        <br />
-                        3) 어플로 언제 어디서나!
-                        <br />
-                        📱구글스토어 -{" "}
-                        <ContentTextLink href="https://url.kr/jv1s2f">
-                          https://url.kr/jv1s2f
-                        </ContentTextLink>
-                        <br />
-                        📱앱스토어 -{" "}
-                        <ContentTextLink href="https://url.kr/kj4g7o">
-                          https://url.kr/kj4g7o
-                        </ContentTextLink>
-                      </ContentText>
-                    </ContentTextParagraph>
-                    <ContentTextParagraph>
-                      <ContentText>
-                        💙예약 신청 시, 꼭 “상명대학교”를 말씀해주셔야 제휴
-                        혜택이 적용됩니다.💙
-                      </ContentText>
-                    </ContentTextParagraph>
-                    <ContentTextParagraph>
-                      <ContentText>
-                        앞으로도 지속적으로 업로드 될 💡N 번째
-                        최선(先)💡콘텐츠에 많은 관심과 이용 부탁드립니다!
-                        감사합니다.
-                      </ContentText>
+                      <ContentText>{HTMLReactParser(item.content)}</ContentText>
                     </ContentTextParagraph>
                   </ContentTextBox>
                   <ContentImgBox>
-                    <ContentImg src={Img} alt="img1" />
-                    <ContentImg src={Img2} alt="img2" />
-                    <ContentImg src={Img3} alt="img3" />
-                    <ContentImg src={Img4} alt="img4" />
+                    {item.inImg.map((item, index) => (
+                      <ContentImg src={item.img} alt="img1" key={index} />
+                    ))}
                   </ContentImgBox>
                 </ContentBox>
                 <PageBox>
