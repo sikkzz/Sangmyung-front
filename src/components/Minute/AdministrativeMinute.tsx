@@ -14,7 +14,7 @@ const AdministrativeMinute = () => {
             </TdTitle>
           </Td>
           <Td>{item.date}</Td>
-          <Td>{item.view}</Td>
+          <Td>{item.owner}</Td>
         </Tr>
       ))}
     </>

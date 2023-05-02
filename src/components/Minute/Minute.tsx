@@ -103,14 +103,14 @@ const Minute = ({ state }: Props) => {
                 <ColStyle size="8%" />
                 <ColStyle size="auto" />
                 <ColStyle size="12%" />
-                <ColStyle size="8%" />
+                <ColStyle size="12%" />
               </ColGroup>
               <THead>
                 <Tr>
                   <Th size="8%">번호</Th>
                   <Th size="auto">제목</Th>
+                  <Th size="12%">작성자</Th>
                   <Th size="12%">작성일</Th>
-                  <Th size="8%">조회</Th>
                 </Tr>
               </THead>
               <TBody>
