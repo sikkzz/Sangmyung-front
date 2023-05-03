@@ -39,7 +39,6 @@ import { useNavigate, useLocation } from "react-router-dom";
 import CenterMinute from "./CenterMinute";
 import RepresentativeMinute from "./RepresentativeMinute";
 import TutionMinute from "./TutionMinute";
-import CouncilMinute from "./CouncilMinute";
 import AdministrativeMinute from "./AdministrativeMinute";
 
 type Props = {
@@ -138,7 +137,6 @@ const Minute = ({ state }: Props) => {
                     center: <CenterMinute />,
                     representative: <RepresentativeMinute />,
                     tution: <TutionMinute />,
-                    council: <CouncilMinute />,
                     administrative: <AdministrativeMinute />,
                   }[location.pathname.split("/")[2]]
                 }

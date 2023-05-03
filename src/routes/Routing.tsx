@@ -15,7 +15,6 @@ import NoticeDetailPage from "../pages/NoticeDetailPage";
 import MinuteCenterDetailPage from "../pages/MinuteCenterDetailPage";
 import MinuteRepresentativeDetailPage from "../pages/MinuteRepresentativeDetailPage";
 import MinuteTutuionDetailPage from "../pages/MinuteTutuionDetailPage";
-import MinuteCouncilDetailPage from "../pages/MinuteCouncilDetailPage";
 import MinuteAdministrativeDetailPage from "../pages/MinuteAdministrativeDetailPage";
 import RentalPage from "../pages/RentalPage";
 import EducationNoticePage from "../pages/EducationNoticePage";
@@ -60,10 +59,6 @@ const Routing = () => {
       <Route
         path="/minute/tution/detail/:id"
         element={<MinuteTutuionDetailPage />}
-      />
-      <Route
-        path="/minute/council/detail/:id"
-        element={<MinuteCouncilDetailPage />}
       />
       <Route
         path="/minute/administrative/detail/:id"

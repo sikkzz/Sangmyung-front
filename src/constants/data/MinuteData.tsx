@@ -25,11 +25,22 @@ import headImg15 from "../../assets/minute/administrative/head2-6.jpg";
 import headImg16 from "../../assets/minute/administrative/head2-7.jpg";
 import headImg17 from "../../assets/minute/administrative/head2-8.jpg";
 import headImg18 from "../../assets/minute/administrative/head2-9.jpg";
+import headImg19 from "../../assets/minute/administrative/head3-1.jpg";
+import headImg20 from "../../assets/minute/administrative/head3-2.jpg";
+import headImg21 from "../../assets/minute/administrative/head3-3.jpg";
+import headImg22 from "../../assets/minute/administrative/head3-4.jpg";
+import headImg23 from "../../assets/minute/administrative/head3-5.jpg";
+import headImg24 from "../../assets/minute/administrative/head3-6.jpg";
+import headImg25 from "../../assets/minute/administrative/head3-7.jpg";
+import headImg26 from "../../assets/minute/administrative/head3-8.jpg";
+import headImg27 from "../../assets/minute/administrative/head3-9.jpg";
 
 import resultImg1 from "../../assets/minute/administrative/result2-1.jpg";
 import resultImg2 from "../../assets/minute/administrative/result2-2.jpg";
 
 import infoImg from "../../assets/minute/administrative/info1-1.jpg";
+import infoImg2 from "../../assets/minute/administrative/info2023-1-1.jpg";
+import infoImg3 from "../../assets/minute/administrative/info2023-1-2.jpg";
 
 export const MinuteData = [
   {
@@ -48,11 +59,6 @@ export const MinuteData = [
     link: "/minute/tution",
   },
   {
-    id: "council",
-    title: "대학평의원회 회의록",
-    link: "/minute/council",
-  },
-  {
     id: "administrative",
     title: "행정부처 간담회 회의록",
     link: "/minute/administrative",
@@ -60,26 +66,26 @@ export const MinuteData = [
 ];
 
 export const CenterData = [
-  {
-    id: 2,
-    title: "2023학년도 제2차 중앙운영위원회 회의록",
-    date: "2023-04-16",
-    view: "48",
-    link: "/minute/center/detail/2",
-    owner: "관리자",
-    downloadLink:
-      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
-  },
-  {
-    id: 1,
-    title: "2023학년도 제1차 중앙운영위원회 회의록",
-    date: "2023-04-11",
-    view: "28",
-    link: "/minute/center/detail/1",
-    owner: "관리자",
-    downloadLink:
-      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
-  },
+  // {
+  //   id: 2,
+  //   title: "2023학년도 제2차 중앙운영위원회 회의록",
+  //   date: "2023-04-16",
+  //   view: "48",
+  //   link: "/minute/center/detail/2",
+  //   owner: "관리자",
+  //   downloadLink:
+  //     "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
+  // },
+  // {
+  //   id: 1,
+  //   title: "2023학년도 제1차 중앙운영위원회 회의록",
+  //   date: "2023-04-11",
+  //   view: "28",
+  //   link: "/minute/center/detail/1",
+  //   owner: "관리자",
+  //   downloadLink:
+  //     "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
+  // },
 ];
 
 export const RepresentativeData = [
@@ -149,30 +155,77 @@ export const TutionData = [
   },
 ];
 
-export const CouncilData = [
-  {
-    id: 2,
-    title: "2023학년도 제2차 대학평의원회 회의록",
-    date: "2023-04-16",
-    view: "48",
-    link: "/minute/council/detail/2",
-    owner: "관리자",
-    downloadLink:
-      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
-  },
-  {
-    id: 1,
-    title: "2023학년도 제1차 대학평의원회 회의록",
-    date: "2023-04-11",
-    view: "28",
-    link: "/minute/council/detail/1",
-    owner: "관리자",
-    downloadLink:
-      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
-  },
-];
-
 export const AdministrativeData = [
+  {
+    id: 6,
+    title: "2023학년도 제1차 총장간담회 회의록",
+    date: "2023-04-13",
+    link: "/minute/administrative/detail/6",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
+    content:
+      "간담회 목적<p style='margin-left: 16px'>가. 학생회 대표 의견수렴 및 소통</p><p style='margin-left: 16px'>나. 교육수요자의 교육 서비스 만족도 제고</p>개최 일시: 2023.04.13.(목) 10:30 ~ 12:30<br/>개최 장소: 서울캠퍼스 대학본부 4층 대회의실<br/>참석자<br/><p style='margin-left: 16px'>가. 학생: 2023학년도 1학기 학생자치기구 대표 총 11명</p><p style='margin-left: 16px'>나. 교직원: 총장, 기획부총장, 교무처장, 정보통신처장, 대외협력처장, 학생처장, 총무처장, 학사운영팀장, 학사운영팀원, 학생복지팀장, 학생복지팀원</p>회의록 참조",
+    inImg: [
+      {
+        img: headImg19,
+        alt: "img19",
+      },
+      {
+        img: headImg20,
+        alt: "img20",
+      },
+      {
+        img: headImg21,
+        alt: "img21",
+      },
+      {
+        img: headImg22,
+        alt: "img22",
+      },
+      {
+        img: headImg23,
+        alt: "img23",
+      },
+      {
+        img: headImg24,
+        alt: "img24",
+      },
+      {
+        img: headImg25,
+        alt: "img25",
+      },
+      {
+        img: headImg26,
+        alt: "img26",
+      },
+      {
+        img: headImg27,
+        alt: "img27",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "2023학년도 제1차 정보통신팀 회의록",
+    date: "2023-04-10",
+    link: "/minute/administrative/detail/5",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
+    content:
+      "안건<p style='margin-left: 16px'>가. 상명대학교 홈페이지 개편 관련</p><p style='margin-left: 16px'>나. 추가 건의사항 의견 수렴</p>개최 일시: 2023.04.10.(금) 10:00 ~ 11:30<br/>개최 장소: 서울캠퍼스 대학본부 J317<br/>참석자<p style='margin-left: 16px'>가. 학생: 2023학년도 1학기 학생자치기구 대표 총 8명</p><p style='margin-left: 16px'>나. 교직원: 정보통신처장, 정보통신팀원, 정보통신주임, 학생복지팀장",
+    inImg: [
+      {
+        img: infoImg2,
+        alt: "infoimg2",
+      },
+      {
+        img: infoImg3,
+        alt: "infoimg3",
+      },
+    ],
+  },
   {
     id: 4,
     title: "2022학년도 제2차 총장간담회 후속 조치 결과",

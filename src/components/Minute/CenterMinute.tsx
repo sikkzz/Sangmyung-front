@@ -5,7 +5,7 @@ import { Tr, Td, TdTitle, TdLink } from "./MinuteElements";
 const CenterMinute = () => {
   return (
     <>
-      {CenterData.map((item, index) => (
+      {/* {CenterData.map((item, index) => (
         <Tr key={index}>
           <Td>{item.id}</Td>
           <Td>
@@ -16,7 +16,7 @@ const CenterMinute = () => {
           <Td>{item.date}</Td>
           <Td>{item.view}</Td>
         </Tr>
-      ))}
+      ))} */}
     </>
   );
 };
