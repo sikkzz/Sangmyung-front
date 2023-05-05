@@ -91,8 +91,9 @@ const Board = styled.div`
 
 const BoardCol = styled.div`
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* margin: 0 45px 0 0; */
   position: relative;
   /* padding: 30px 0; */
@@ -102,6 +103,8 @@ const BoardCol = styled.div`
 const BoardItem = styled.div`
   display: flex;
   flex-direction: column;
+  padding-right: 30px;
+  padding-left: 30px;
 `;
 
 const BoardLink = styled.a`

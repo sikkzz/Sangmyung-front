@@ -54,15 +54,6 @@ const InfoLeft = styled.div`
   display: flex;
 `;
 
-const DownloadBox = styled.a``;
-
-const IconBox = styled.a`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-left: 10px;
-`;
-
 const InfoRight = styled.div`
   float: right;
 `;
@@ -76,9 +67,91 @@ const DateBox = styled.div`
   margin-left: 20px;
 `;
 
-const ViewBox = styled.div`
-  display: inline-block;
-  margin-left: 20px;
+const ContentBox = styled.div``;
+
+const ContentImgBox = styled.div`
+  width: 700px;
+  margin: 100px auto 0;
+`;
+
+const ContentImg = styled.img`
+  width: 100%;
+  object-fit: cover;
+`;
+
+const ContentTextBox = styled.div`
+  margin-top: 50px;
+`;
+
+const ContentTitle = styled.div`
+  font-size: 20px;
+  font-weight: 700;
+`;
+
+const ContentTextParagraph = styled.div`
+  margin-top: 30px;
+`;
+
+const ContentText = styled.p`
+  line-height: 36px;
+  white-space: pre-line;
+`;
+
+const PageBox = styled.div`
+  margin-top: 100px;
+`;
+
+const PageCol = styled.div`
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  padding: 16px;
+
+  &:first-of-type {
+    border-top: 1px solid #ccc;
+  }
+`;
+
+const PageIconBox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+const PagePrev = styled.div`
+  font-weight: 400;
+  margin-left: 8px;
+`;
+
+const PagePrevText = styled.div`
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+  overflow: hidden;
+  margin-left: 24px;
+  max-width: 950px;
+`;
+
+const PagePrevTextLink = styled.a`
+  font-weight: 400;
+  color: #5c5c5c;
+  line-height: 24px;
+`;
+
+const ListBox = styled.div`
+  margin: 80px 0;
+  float: right;
+`;
+
+const ListButton = styled.a`
+  width: 71px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px #555;
+  box-shadow: 3px 3px 0px #555;
+  border-radius: 4px;
 `;
 
 export {
@@ -91,10 +164,22 @@ export {
   BoardTitle,
   InfoInnerBox,
   InfoLeft,
-  DownloadBox,
-  IconBox,
   InfoRight,
   PeopleBox,
   DateBox,
-  ViewBox,
+  ContentBox,
+  ContentImgBox,
+  ContentImg,
+  ContentTextBox,
+  ContentTitle,
+  ContentTextParagraph,
+  ContentText,
+  PageBox,
+  PageCol,
+  PageIconBox,
+  PagePrev,
+  PagePrevText,
+  PagePrevTextLink,
+  ListBox,
+  ListButton,
 };
