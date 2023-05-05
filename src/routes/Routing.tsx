@@ -21,6 +21,7 @@ import EducationForesightDetailPage from "../pages/EducationForesightDetailPage"
 import EducationNoticePage from "../pages/EducationNoticePage";
 import EducationNoticeDetailPage from "../pages/EducationNoticeDetailPage";
 import CalendarPage from "../pages/CalendarPage";
+import CentralPage from "../pages/CentralPage";
 
 const Routing = () => {
   return (
@@ -74,6 +75,7 @@ const Routing = () => {
         path="/education/notice/detail/:id"
         element={<EducationNoticeDetailPage />}
       />
+      <Route path="/central" element={<CentralPage />} />
     </Routes>
   );
 };

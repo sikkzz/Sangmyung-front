@@ -85,4 +85,11 @@ export const BioData = [
     sub: "총학생회 학사정보",
     content: "총학생회 학사정보 안내입니다.",
   },
+  {
+    img: Img,
+    id: "central",
+    title: "중앙운영위원회",
+    sub: "중앙운영위원회를 소개",
+    content: "중앙운영위원회를 소개합니다.",
+  },
 ];

@@ -179,6 +179,16 @@ export const TabData = [
       },
     ],
   },
+  {
+    id: "central",
+    sub_item: [
+      {
+        id: "central",
+        link: "/central",
+        item: "중앙운영위원회",
+      },
+    ],
+  },
 ];
 
 export const MTabData = [

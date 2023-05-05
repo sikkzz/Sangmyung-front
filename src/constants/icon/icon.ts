@@ -8,6 +8,7 @@ import {
   BsInfoSquareFill,
   BsPersonPlusFill,
   BsSearch,
+  BsCircleFill,
 } from "react-icons/bs";
 import { RiKakaoTalkFill, RiHomeGearLine } from "react-icons/ri";
 import {
@@ -26,7 +27,7 @@ import {
   AiFillFolderOpen,
   AiOutlineRight,
   AiOutlineLeft,
-  AiOutlineCloudDownload
+  AiOutlineCloudDownload,
 } from "react-icons/ai";
 import {
   MdWorkOutline,
@@ -100,7 +101,8 @@ const Icons = {
   IoChevronUp,
   AiOutlineRight,
   AiOutlineLeft,
-  AiOutlineCloudDownload
+  AiOutlineCloudDownload,
+  BsCircleFill,
 };
 
 export default Icons;
