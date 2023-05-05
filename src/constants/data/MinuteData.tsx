@@ -45,6 +45,11 @@ import infoImg3 from "../../assets/minute/administrative/info2023-1-2.jpg";
 import tutionImg from "../../assets/minute/tution/tution1-1.jpg";
 import tutionImg2 from "../../assets/minute/tution/tution1-2.jpg";
 import tutionImg3 from "../../assets/minute/tution/tution1-3.jpg";
+import tutionImg4 from "../../assets/minute/tution/tution2-1.jpg";
+import tutionImg5 from "../../assets/minute/tution/tution2-2.jpg";
+import tutionImg6 from "../../assets/minute/tution/tution2-3.jpg";
+import tutionImg7 from "../../assets/minute/tution/tution3-1.jpg";
+import tutionImg8 from "../../assets/minute/tution/tution3-2.jpg";
 
 export const MinuteData = [
   {
@@ -137,6 +142,52 @@ export const RepresentativeData = [
 ];
 
 export const TutionData = [
+  {
+    id: 3,
+    title: "2023학년도 제3차 등록금심의위원회 회의록",
+    date: "2023-01-20",
+    link: "/minute/tution/detail/3",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
+    content:
+      "회의 내용<p style='margin-left: 16px'>가. 2023학년도 예산(안) 심의</p><p style='margin-left: 16px'>나. 미사용차기이월자금 중 잉여금 처리 원칙 심의</p><p style='margin-left: 16px'>다. 2023학년도 사학연금 법인부담금 부족분 학교부담내역 심의</p>회의 일시: 2023.01.20.(금) 11:00 ~ 13:00</br>회의 장소: 대학본부 J317호</br>회의록 참조",
+    inImg: [
+      {
+        img: tutionImg7,
+        alt: "tutionImg7",
+      },
+      {
+        img: tutionImg8,
+        alt: "tutionImg8",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "2023학년도 제2차 등록금심의위원회 회의록",
+    date: "2023-01-10",
+    link: "/minute/tution/detail/2",
+    owner: "관리자",
+    downloadLink:
+      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
+    content:
+      "회의 내용<p style='margin-left: 16px'>가. 2023학년도 등록금 책정자료 심의</p><p style='margin-left: 16px'>나. 2023학년도 등록금 책정 기준 최종 협의</p>회의 일시: 2023.01.10.(화) 11:00 ~ 13:00</br>회의 장소: 대학본부 J317호</br>회의록 참조",
+    inImg: [
+      {
+        img: tutionImg4,
+        alt: "tutionImg4",
+      },
+      {
+        img: tutionImg5,
+        alt: "tutionImg5",
+      },
+      {
+        img: tutionImg6,
+        alt: "tutitonImg6",
+      },
+    ],
+  },
   {
     id: 1,
     title: "2023학년도 제1차 등록금심의위원회 회의록",
