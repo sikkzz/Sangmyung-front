@@ -13,8 +13,8 @@ const AdministrativeMinute = () => {
               <TdLink href={item.link}>{item.title}</TdLink>
             </TdTitle>
           </Td>
-          <Td>{item.date}</Td>
           <Td>{item.owner}</Td>
+          <Td>{item.date}</Td>
         </Tr>
       ))}
     </>

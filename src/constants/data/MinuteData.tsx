@@ -42,6 +42,10 @@ import infoImg from "../../assets/minute/administrative/info1-1.jpg";
 import infoImg2 from "../../assets/minute/administrative/info2023-1-1.jpg";
 import infoImg3 from "../../assets/minute/administrative/info2023-1-2.jpg";
 
+import tutionImg from "../../assets/minute/tution/tution1-1.jpg";
+import tutionImg2 from "../../assets/minute/tution/tution1-2.jpg";
+import tutionImg3 from "../../assets/minute/tution/tution1-3.jpg";
+
 export const MinuteData = [
   {
     id: "center",
@@ -134,24 +138,29 @@ export const RepresentativeData = [
 
 export const TutionData = [
   {
-    id: 2,
-    title: "2023학년도 제2차 등록금심의위원회 회의록",
-    date: "2023-04-16",
-    view: "48",
-    link: "/minute/tution/detail/2",
-    owner: "관리자",
-    downloadLink:
-      "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
-  },
-  {
     id: 1,
     title: "2023학년도 제1차 등록금심의위원회 회의록",
-    date: "2023-04-11",
-    view: "28",
+    date: "2023-01-05",
     link: "/minute/tution/detail/1",
     owner: "관리자",
     downloadLink:
       "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
+    content:
+      "회의 내용<p style='margin-left: 16px'>가. 위원장 및 간사 선출</p><p style='margin-left: 16px'>나. 2023학년도 등록금심의위원회 심의자료 설명</p><p style='margin-left: 16px'>다. 향후 위원회 일정 및 회의 진행에 관한 사항 협의</p>회의 일시: 2023.01.05.(목) 15:00 ~ 17:00</br>회의 장소: 대학본부 J317호</br>회의록 참조",
+    inImg: [
+      {
+        img: tutionImg,
+        alt: "tutionimg",
+      },
+      {
+        img: tutionImg2,
+        alt: "tutionImg2",
+      },
+      {
+        img: tutionImg3,
+        alt: "tutionImg3",
+      },
+    ],
   },
 ];
 

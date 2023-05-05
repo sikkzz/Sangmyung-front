@@ -13,8 +13,8 @@ const TutionMinute = () => {
               <TdLink href={item.link}>{item.title}</TdLink>
             </TdTitle>
           </Td>
+          <Td>{item.owner}</Td>
           <Td>{item.date}</Td>
-          <Td>{item.view}</Td>
         </Tr>
       ))}
     </>
