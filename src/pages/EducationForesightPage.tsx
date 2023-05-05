@@ -1,21 +1,21 @@
 import Header from "../components/Header/Header";
 import Bio from "../components/Bio/Bio";
-import EducationNotice from "../components/Education/EducationNotice";
+import EducationForesight from "../components/Education/EducationForesight";
 import Footer from "../components/Footer/Footer";
 
 import { useLocation } from "react-router-dom";
 
-const EducationNoticePage = () => {
+const EducationForesightPage = () => {
   const location = useLocation();
 
   return (
     <>
       <Header />
       <Bio state={location.pathname.split("/")[1]} />
-      <EducationNotice />
+      <EducationForesight />
       <Footer />
     </>
   );
 };
 
-export default EducationNoticePage;
+export default EducationForesightPage;

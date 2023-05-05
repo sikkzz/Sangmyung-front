@@ -54,10 +54,6 @@ const InfoLeft = styled.div`
   display: flex;
 `;
 
-const InfoRight = styled.div`
-  float: right;
-`;
-
 const PeopleBox = styled.div`
   display: inline-block;
 `;
@@ -164,7 +160,6 @@ export {
   BoardTitle,
   InfoInnerBox,
   InfoLeft,
-  InfoRight,
   PeopleBox,
   DateBox,
   ContentBox,

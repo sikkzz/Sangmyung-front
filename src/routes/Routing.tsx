@@ -16,8 +16,8 @@ import MinuteRepresentativeDetailPage from "../pages/MinuteRepresentativeDetailP
 import MinuteTutuionDetailPage from "../pages/MinuteTutuionDetailPage";
 import MinuteAdministrativeDetailPage from "../pages/MinuteAdministrativeDetailPage";
 import RentalPage from "../pages/RentalPage";
-import EducationNoticePage from "../pages/EducationNoticePage";
-import EducationDetailPage from "../pages/EducationDetailPage";
+import EducationForesightPage from "../pages/EducationForesightPage";
+import EducationForesightDetailPage from "../pages/EducationForesightDetailPage";
 
 import CalendarPage from "../pages/CalendarPage";
 
@@ -63,10 +63,10 @@ const Routing = () => {
         element={<MinuteAdministrativeDetailPage />}
       />
       <Route path="/rental" element={<RentalPage />} />
-      <Route path="/education/notice" element={<EducationNoticePage />} />
+      <Route path="/education/foresight" element={<EducationForesightPage />} />
       <Route
-        path="/education/notice/detail/:id"
-        element={<EducationDetailPage />}
+        path="/education/foresight/detail/:id"
+        element={<EducationForesightDetailPage />}
       />
     </Routes>
   );

@@ -93,10 +93,7 @@ const BoardCol = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  /* justify-content: space-between; */
-  /* margin: 0 45px 0 0; */
   position: relative;
-  /* padding: 30px 0; */
   margin-top: 30px;
 `;
 
@@ -115,21 +112,6 @@ const BoardImg = styled.img`
   height: 300px;
 `;
 
-const BoardTitle = styled.div`
-  font-size: 20px;
-`;
-
-const BoardInfo = styled.div`
-  margin-top: 20px;
-  font-size: 16px;
-  display: flex;
-  justify-content: space-between;
-`;
-
-const BoardDate = styled.div``;
-
-const BoardOwner = styled.div``;
-
 export {
   Layout,
   Col,
@@ -147,8 +129,4 @@ export {
   BoardItem,
   BoardLink,
   BoardImg,
-  BoardTitle,
-  BoardInfo,
-  BoardDate,
-  BoardOwner,
 };

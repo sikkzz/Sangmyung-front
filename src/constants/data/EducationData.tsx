@@ -70,10 +70,133 @@ import Img7_8 from "../../assets/education/7/7-8.png";
 import Img7_9 from "../../assets/education/7/7-9.png";
 import Img7_10 from "../../assets/education/7/7-10.png";
 
+import Img8_1 from "../../assets/education/8/8-1.png";
+import Img8_2 from "../../assets/education/8/8-2.png";
+import Img8_3 from "../../assets/education/8/8-3.png";
+import Img8_4 from "../../assets/education/8/8-4.png";
+import Img8_5 from "../../assets/education/8/8-5.png";
+import Img8_6 from "../../assets/education/8/8-6.png";
+import Img8_7 from "../../assets/education/8/8-7.png";
+import Img8_8 from "../../assets/education/8/8-8.png";
+import Img8_9 from "../../assets/education/8/8-9.png";
+import Img8_10 from "../../assets/education/8/8-10.png";
+
+import Img9_1 from "../../assets/education/9/9-1.png";
+import Img9_2 from "../../assets/education/9/9-2.png";
+import Img9_3 from "../../assets/education/9/9-3.png";
+import Img9_4 from "../../assets/education/9/9-4.png";
+import Img9_5 from "../../assets/education/9/9-5.png";
+import Img9_6 from "../../assets/education/9/9-6.png";
+import Img9_7 from "../../assets/education/9/9-7.png";
+import Img9_8 from "../../assets/education/9/9-8.png";
+import Img9_9 from "../../assets/education/9/9-9.png";
+
 export const EducationData = [
   {
+    id: 9,
+    link: "/education/foresight/detail/9",
+    img: Img9_1,
+    alt: "img9_1",
+    title: "💙선[先]견지명 - 전과신청 편💙",
+    date: "2023-05-03",
+    owner: "관리자",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분들, 안녕하십니까.<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>5월 첫째 주, 두 번째로 제공해드리는 정보는 '전과신청 편'입니다.<br/><br/>전과 승인은 재학 중 1회로 한하며, 전과 승인 후 취소 불가하므로 신중하게 고려하여 신청하시기 바랍니다.<br/>또한, 샘물 통합정보시스템에서 전과 신청 시, '학업계획서'를 반드시 업로드해야 하는 점을 유의해주세요!<br/><br/>5월 1일 월요일부터 신청 기간이니 해당 공지사항에 관심 있는 분들은 카드뉴스를 확인해주세요💌<br/><br/>- 원서접수 방법 및 기한<br/>- 신청자격<br/>- 선발방법<br/>- 대학 학사구조 개편 및 이동<br/>- 전과 전/후 제한 사항<br/>- 기타사항<br/>- 결과발표 및 확인방법<br/><br/>* 자세한 사항은 상명대학교 홈페이지 '상명라운지(공지사항)'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다! 감사합니다.",
+    inImg: [
+      {
+        img: Img9_1,
+        alt: "img9_1",
+      },
+      {
+        img: Img9_2,
+        alt: "img9_2",
+      },
+      {
+        img: Img9_3,
+        alt: "img9_3",
+      },
+      {
+        img: Img9_4,
+        alt: "img9_4",
+      },
+      {
+        img: Img9_5,
+        alt: "img9_5",
+      },
+      {
+        img: Img9_6,
+        alt: "img9_6",
+      },
+      {
+        img: Img9_7,
+        alt: "img9_7",
+      },
+      {
+        img: Img9_8,
+        alt: "img9_8",
+      },
+      {
+        img: Img9_9,
+        alt: "img9_9",
+      },
+    ],
+  },
+  {
+    id: 8,
+    link: "/education/foresight/detail/8",
+    img: Img8_1,
+    alt: "img8_1",
+    title: "💙선[先]견지명 - 다/부전공 신청 편💙",
+    date: "2023-05-01",
+    owner: "관리자",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분들, 안녕하십니까.<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>5월 첫째 주, 중간고사 이후 처음으로 제공해드리는 정보는 '다/부전공 신청 편'입니다.<br/><br/>다전공과 부전공은 모두 졸업 시 주전공(제1전공)과 함께 ✔️각각의 학위를 인정해주는 제도✔️입니다.<br/>다전공에는 제2전공과 연계/융합전공으로 나뉘는 점 유의해주세요!<br/><br/>금일(05.01.월요일)부터 신청 기간이니 해당 전공제도에 관심 있는 분들은 카드뉴스를 확인해주세요💌<br/><br/>- 다전공이 무엇인가요?<br/>- 연계전공 종류<br/>- 융합전공 종류<br/>- 23-1 다전공, 부전공 신청 안내<br/>- 신청자격<br/>- 선발방법<br/>- 졸업기준<br/>- 신청기간 및 결과발표<br/><br/>* 자세한 사항은 상명대학교 홈페이지 '상명라운지(공지사항)'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다! 감사합니다.",
+    inImg: [
+      {
+        img: Img8_1,
+        alt: "img8_1",
+      },
+      {
+        img: Img8_2,
+        alt: "img8_2",
+      },
+      {
+        img: Img8_3,
+        alt: "img8_3",
+      },
+      {
+        img: Img8_4,
+        alt: "img8_4",
+      },
+      {
+        img: Img8_5,
+        alt: "img8_5",
+      },
+      {
+        img: Img8_6,
+        alt: "img8_6",
+      },
+      {
+        img: Img8_7,
+        alt: "img8_7",
+      },
+      {
+        img: Img8_8,
+        alt: "img8_8",
+      },
+      {
+        img: Img8_9,
+        alt: "img8_9",
+      },
+      {
+        img: Img8_10,
+        alt: "img8_10",
+      },
+    ],
+  },
+  {
     id: 7,
-    link: "/education/notice/detail/7",
+    link: "/education/foresight/detail/7",
     img: Img7_1,
     alt: "img7_1",
     title: "💙선[先]견지명 - 공모전 편💙",
@@ -126,7 +249,7 @@ export const EducationData = [
   },
   {
     id: 6,
-    link: "/education/notice/detail/6",
+    link: "/education/foresight/detail/6",
     img: Img6_1,
     alt: "img6_1",
     title: "💙선[先]견지명 - 라이브커머스 편💙",
@@ -179,7 +302,7 @@ export const EducationData = [
   },
   {
     id: 5,
-    link: "/education/notice/detail/5",
+    link: "/education/foresight/detail/5",
     img: Img5_1,
     alt: "img5_1",
     title: "💙선[先]견지명 - 학사공지 편💙",
@@ -228,7 +351,7 @@ export const EducationData = [
   },
   {
     id: 4,
-    link: "/education/notice/detail/4",
+    link: "/education/foresight/detail/4",
     img: Img4_1,
     alt: "img4_1",
     title: "💙선[先]견지명 - 진로취업 편💙",
@@ -273,7 +396,7 @@ export const EducationData = [
   },
   {
     id: 3,
-    link: "/education/notice/detail/3",
+    link: "/education/foresight/detail/3",
     img: Img3_1,
     alt: "img3_1",
     title: "💙선[先]견지명 - 상명봉사단 편💙",
@@ -322,7 +445,7 @@ export const EducationData = [
   },
   {
     id: 2,
-    link: "/education/notice/detail/2",
+    link: "/education/foresight/detail/2",
     img: Img2_1,
     alt: "img2_1",
     title: "💙선[先]견지명 - 장학제도 편💙",
@@ -375,7 +498,7 @@ export const EducationData = [
   },
   {
     id: 1,
-    link: "/education/notice/detail/1",
+    link: "/education/foresight/detail/1",
     img: Img1_1,
     alt: "img1_1",
     title: "💙선[先]견지명 - 학사정보 편💙",

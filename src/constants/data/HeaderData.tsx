@@ -141,11 +141,11 @@ export const HeaderTabData = [
       },
       {
         sub_item: "교육 및 학사",
-        link: "/education/notice",
+        link: "/education/foresight",
         subItem2: [
           {
             sub_item2: "선[先]견지명",
-            link: "/education/notice",
+            link: "/education/foresight",
           },
           {
             sub_item2: "학사정보",

@@ -15,17 +15,13 @@ import {
   BoardItem,
   BoardLink,
   BoardImg,
-  BoardTitle,
-  BoardInfo,
-  BoardDate,
-  BoardOwner,
-} from "./EducationNoticeElements";
+} from "./EducationForesightElements";
 
 import Icons from "../../constants/icon";
 
 import { EducationData } from "../../constants/data/EducationData";
 
-const EducationNotice = () => {
+const EducationForesight = () => {
   return (
     <Layout>
       <Col>
@@ -50,11 +46,6 @@ const EducationNotice = () => {
                     <BoardLink href={item.link}>
                       <BoardImg src={item.img} alt={item.alt} />
                     </BoardLink>
-                    <BoardTitle>{item.title}</BoardTitle>
-                    <BoardInfo>
-                      <BoardDate>{item.date}</BoardDate>
-                      <BoardOwner>{item.owner}</BoardOwner>
-                    </BoardInfo>
                   </BoardItem>
                 ))}
               </BoardCol>
@@ -66,4 +57,4 @@ const EducationNotice = () => {
   );
 };
 
-export default EducationNotice;
+export default EducationForesight;

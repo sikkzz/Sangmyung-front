@@ -8,7 +8,6 @@ import {
   BoardTitle,
   InfoInnerBox,
   InfoLeft,
-  InfoRight,
   PeopleBox,
   DateBox,
   ContentBox,
@@ -26,7 +25,7 @@ import {
   PagePrevTextLink,
   ListBox,
   ListButton,
-} from "./EducationNoticeDetailElements";
+} from "./EducationForesightDetailElements";
 
 import Icons from "../../constants/icon";
 
@@ -38,7 +37,7 @@ import { useEffect, useState } from "react";
 
 import HTMLReactParser from "html-react-parser";
 
-const EducationNoticeDetail = () => {
+const EducationForesightDetail = () => {
   const param = useParams();
 
   const [prevNum, setPrevNum] = useState(0);
@@ -75,11 +74,10 @@ const EducationNoticeDetail = () => {
                       <BoardTitle>{item.title}</BoardTitle>
                     </TitleBox>
                     <InfoInnerBox>
-                      <InfoLeft></InfoLeft>
-                      <InfoRight>
-                        <PeopleBox>작성자 : {item.owner}</PeopleBox>
+                      <InfoLeft>
+                      <PeopleBox>작성자 : {item.owner}</PeopleBox>
                         <DateBox>작성일 : {item.date}</DateBox>
-                      </InfoRight>
+                      </InfoLeft>
                     </InfoInnerBox>
                   </InfoBox>
                   <ContentBox>
@@ -148,4 +146,4 @@ const EducationNoticeDetail = () => {
   );
 };
 
-export default EducationNoticeDetail;
+export default EducationForesightDetail;
