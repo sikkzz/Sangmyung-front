@@ -19,6 +19,7 @@ const Title = styled.div`
   font-weight: 700;
   margin-top: 50px;
 `;
+
 const SearchBox = styled.div`
   margin-top: 40px;
   display: flex;

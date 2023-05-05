@@ -148,8 +148,8 @@ export const HeaderTabData = [
             link: "/education/foresight",
           },
           {
-            sub_item2: "학사정보",
-            link: "#!",
+            sub_item2: "학사안내",
+            link: "/education/notice",
           },
         ],
       },

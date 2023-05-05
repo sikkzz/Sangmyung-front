@@ -19,7 +19,7 @@ import {
 
 import Icons from "../../constants/icon";
 
-import { EducationData } from "../../constants/data/EducationData";
+import { EducationForesightData } from "../../constants/data/EducationData";
 
 const EducationForesight = () => {
   return (
@@ -41,7 +41,7 @@ const EducationForesight = () => {
           <BoardBox>
             <Board>
               <BoardCol>
-                {EducationData.map((item, index) => (
+                {EducationForesightData.map((item, index) => (
                   <BoardItem key={index}>
                     <BoardLink href={item.link}>
                       <BoardImg src={item.img} alt={item.alt} />

@@ -29,7 +29,7 @@ import {
 
 import Icons from "../../constants/icon";
 
-import { EducationForesightData } from "../../constants/data/EducationData";
+import { EducationNoticeData } from "../../constants/data/EducationData";
 
 import { useParams } from "react-router-dom";
 
@@ -37,7 +37,7 @@ import { useEffect, useState } from "react";
 
 import HTMLReactParser from "html-react-parser";
 
-const EducationForesightDetail = () => {
+const EducationNoticeDetail = () => {
   const param = useParams();
 
   const [prevNum, setPrevNum] = useState(0);
@@ -50,7 +50,7 @@ const EducationForesightDetail = () => {
   useEffect(() => {
     setPrevNum(Number(param.id) - 1);
     setNextNum(Number(param.id) + 1);
-    EducationForesightData.map((item, index) => (
+    EducationNoticeData.map((item, index) => (
       <>
         {prevNum === item.id ? setPrevTitle(item.title) : ""}
         {prevNum === item.id ? setPrevLink(item.link) : ""}
@@ -64,7 +64,7 @@ const EducationForesightDetail = () => {
     <>
       <Layout>
         <Col>
-          {EducationForesightData.map((item, index) => (
+          {EducationNoticeData.map((item, index) => (
             <Box key={index}>
               {Number(param.id) === item.id ? (
                 <>
@@ -75,7 +75,7 @@ const EducationForesightDetail = () => {
                     </TitleBox>
                     <InfoInnerBox>
                       <InfoLeft>
-                      <PeopleBox>작성자 : {item.owner}</PeopleBox>
+                        <PeopleBox>작성자 : {item.owner}</PeopleBox>
                         <DateBox>작성일 : {item.date}</DateBox>
                       </InfoLeft>
                     </InfoInnerBox>
@@ -146,4 +146,4 @@ const EducationForesightDetail = () => {
   );
 };
 
-export default EducationForesightDetail;
+export default EducationNoticeDetail;
