@@ -2,7 +2,446 @@ import Img from "../../assets/notice/notice1.jpeg";
 import Img2 from "../../assets/notice/notice2.jpeg";
 import Img3 from "../../assets/notice/notice3.jpeg";
 
+import Img2_1 from "../../assets/notice/2/1.jpg";
+import Img2_2 from "../../assets/notice/2/2.jpg";
+import Img2_3 from "../../assets/notice/2/3.jpg";
+import Img2_4 from "../../assets/notice/2/4.jpg";
+
+import Img3_1 from "../../assets/notice/3/1.jpg";
+import Img3_2 from "../../assets/notice/3/2.jpg";
+import Img3_3 from "../../assets/notice/3/3.jpg";
+
+import Img4_1 from "../../assets/notice/4/1.jpg";
+import Img4_2 from "../../assets/notice/4/2.jpg";
+
+import Img5_1 from "../../assets/education/1/1-1.png";
+import Img5_2 from "../../assets/education/1/1-2.png";
+import Img5_3 from "../../assets/education/1/1-3.png";
+import Img5_4 from "../../assets/education/1/1-4.png";
+import Img5_5 from "../../assets/education/1/1-5.png";
+import Img5_6 from "../../assets/education/1/1-6.png";
+import Img5_7 from "../../assets/education/1/1-7.png";
+import Img5_8 from "../../assets/education/1/1-8.png";
+import Img5_9 from "../../assets/education/1/1-9.png";
+
+import Img6_1 from "../../assets/notice/6/1.jpg";
+
+import Img7_1 from "../../assets/notice/7/1.jpg";
+
+import Img8_1 from "../../assets/notice/8/1.jpg";
+import Img8_2 from "../../assets/notice/8/2.jpg";
+import Img8_3 from "../../assets/notice/8/3.jpg";
+
+import Img9_1 from "../../assets/education/2/2-1.png";
+import Img9_2 from "../../assets/education/2/2-2.png";
+import Img9_3 from "../../assets/education/2/2-3.png";
+import Img9_4 from "../../assets/education/2/2-4.png";
+import Img9_5 from "../../assets/education/2/2-5.png";
+import Img9_6 from "../../assets/education/2/2-6.png";
+import Img9_7 from "../../assets/education/2/2-7.png";
+import Img9_8 from "../../assets/education/2/2-8.png";
+import Img9_9 from "../../assets/education/2/2-9.png";
+import Img9_10 from "../../assets/education/2/2-10.png";
+
+import Img10_1 from "../../assets/education/3/3-1.png";
+import Img10_2 from "../../assets/education/3/3-2.png";
+import Img10_3 from "../../assets/education/3/3-3.png";
+import Img10_4 from "../../assets/education/3/3-4.png";
+import Img10_5 from "../../assets/education/3/3-5.png";
+import Img10_6 from "../../assets/education/3/3-6.png";
+import Img10_7 from "../../assets/education/3/3-7.png";
+import Img10_8 from "../../assets/education/3/3-8.png";
+import Img10_9 from "../../assets/education/3/3-9.png";
+
+import Img11_1 from "../../assets/education/4/4-1.png";
+import Img11_2 from "../../assets/education/4/4-2.png";
+import Img11_3 from "../../assets/education/4/4-3.png";
+import Img11_4 from "../../assets/education/4/4-4.png";
+import Img11_5 from "../../assets/education/4/4-5.png";
+import Img11_6 from "../../assets/education/4/4-6.png";
+import Img11_7 from "../../assets/education/4/4-7.png";
+import Img11_8 from "../../assets/education/4/4-8.png";
+
+import Img12_1 from "../../assets/notice/12/1.jpg";
+import Img12_2 from "../../assets/notice/12/2.jpg";
+import Img12_3 from "../../assets/notice/12/3.jpg";
+import Img12_4 from "../../assets/notice/12/4.jpg";
+import Img12_5 from "../../assets/notice/12/5.jpg";
+import Img12_6 from "../../assets/notice/12/6.jpg";
+import Img12_7 from "../../assets/notice/12/7.jpg";
+import Img12_8 from "../../assets/notice/12/8.jpg";
+import Img12_9 from "../../assets/notice/12/9.jpg";
+
 export const NoticeData = [
+  {
+    id: 12,
+    link: "/notice/detail/12",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 학생-교원 간담회 최종 안건 보고",
+    date: "2023-04-12",
+    owner: "관리자",
+    download: false,
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>본 서면은 금월 13일 개최 예정인 2023학년도 1학기 총장/교무위원 – 학생대표자 간담회 시행과 관련하여, 본 총학생회 측에서 마련한 안건을 학우 여러분께 소개하고,<br/>본 내용을 기반으로 안건을 발의, 의견을 개진하고자 함을 전해드리기 위해 작성되었습니다.<br/><br/>총학생회 측이 재학생 전체를 대상으로 시행한 설문조사 등을 근거로 하여, 본 총장/교무위원 간담회에서 발의하고자 하는 안건은 아래와 같습니다.<br/><br/>-아래-<br/>1. 교표, 로고, 슬로건 등 학생 참여 공모전 추가 시행 요청<br/>2. 샘물포털시스템을 포함한 교내 웹사이트 리뉴얼 요청<br/>3. 교내 학생식당(정오) 음식 개선 요청, 교내 취식 공간 확보 및 학생식당 추가 운영 요청<br/>4. 강의 세부성적 입력 의무화 요청<br/>5. 강의계획서 내용 미비 보충 요청<br/>6. 수강신청 기간 중 교과목 정원 표시, 담은 인원 표시 지속 시행 요청<br/>7. 과목별 분반 증설 요청<br/>8. 전임교수 인원 증대 요청<br/>9. 졸업 필수요건 구제방안 마련 요청<br/>10. 버스정류장 앞 보행로 신설 요청<br/>11. 교내 안전관리 불비 개선<br/>12. 교내 위생상태 미비 개선<br/>13. 학생예비군 참여자 대상 녹화 강의 제공 요청<br/>14. 학술정보관 시설 운영시간 정상화 요청<br/><br/>안건을 선정할 때 고려한 사안들은 다음과 같습니다.<br/><br/>첫 번째, 의견 개진 시, 전체 학생을 대상으로 선영향이 발생할 수 있는 주요한 안건인지<br/>두 번째, 재학생 다수의 민원이나 건의가 존재하여 개선이 시급하다고 여겨지는 현안인지<br/>세 번째, 최고 대표자가 배석하는 회의에서 발의하는 만큼 학내 정책 및 행정적 변화가 수반되어야 하는 안건인지<br/><br/>위 사안을 주된 기준으로 고려함에 더해, 다각도에서 현안을 분석하여 금학기 발의가 필요하다고 느껴지는 안건을 선정하였음을 전해드립니다.<br/><br/>저희가 본 안건들을 선정한 구체적인 사유와 의견을 개진하고자 하는 방향성은 함께 첨부드린 안건집 파일을 통해 확인하실 수 있습니다.<br/><br/>학생들을 대표해 목소리를 내어 학교 측에 그 음성이 닿게끔 하는 것이 총학생회의 존재 의미이자 가장 중요한 역할입니다.<br/>제46대 총학생회 선[先]은 학우 여러분들의 목소리가 닿을 때까지, 늘 한 걸음 앞에 먼저 서 있겠습니다.<br/><br/>간담회 시행 과정에서 본 안건을 발의한 이후, 관련된 주제를 담당, 주관하는 학내 행정부처의 답변 및 후속 조치안을 학우 여러분께 보고드릴 예정입니다.<br/>추후 공유하는 조치내용에 대해서도, 학우 여러분의 많은 관심과 확인을 부탁드리겠습니다.<br/><br/>감사합니다.",
+    inImg: [
+      {
+        img: Img12_1,
+        alt: "img12_1",
+      },
+      {
+        img: Img12_2,
+        alt: "img12_2",
+      },
+      {
+        img: Img12_3,
+        alt: "img12_3",
+      },
+      {
+        img: Img12_4,
+        alt: "img12_4",
+      },
+      {
+        img: Img12_5,
+        alt: "img12_5",
+      },
+      {
+        img: Img12_6,
+        alt: "img12_6",
+      },
+      {
+        img: Img12_7,
+        alt: "img12_7",
+      },
+      {
+        img: Img12_8,
+        alt: "img12_8",
+      },
+      {
+        img: Img12_9,
+        alt: "img12_9",
+      },
+    ],
+  },
+  {
+    id: 11,
+    link: "/notice/detail/11",
+    title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 진로취업 편",
+    date: "2023-04-10",
+    owner: "관리자",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분들, 안녕하십니까.<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>4월 셋째 주, 제공해드리는 정보는 '진로취업 편'입니다.<br/>진로는 어느 방향으로 설정해야 하는지, 취업은 어떻게 준비해야 하는지 등 진로/취업에 대한 고민을 하고 있는 학우들께<br/>상명대학교 진로취업서비스인 '대학일자리플러스센터(SM-challenge e-포트폴리오)'를 안내드리겠습니다🤓<br/><br/>- 자기탐색: 진로인식조사, 취업인식조사, 자기특성탐색<br/>- 개인경력관리: 채용정보 및 이력서 관리<br/>- 상담창구: 전문 컨설턴트 및 현직 직무 멘토 상담 신청<br/>- 교육프로그램 신청: 진로/취업 프로그램 안내<br/><br/>* 자세한 사항은 상명대학교 홈페이지 '진로취업서비스 - 대학일자리플러스센터(SM-challenge e-포트폴리오)'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다! 감사합니다.",
+    inImg: [
+      {
+        img: Img11_1,
+        alt: "img11_1",
+      },
+      {
+        img: Img11_2,
+        alt: "img11_2",
+      },
+      {
+        img: Img11_3,
+        alt: "img11_3",
+      },
+      {
+        img: Img11_4,
+        alt: "img11_4",
+      },
+      {
+        img: Img11_5,
+        alt: "img11_5",
+      },
+      {
+        img: Img11_6,
+        alt: "img11_6",
+      },
+      {
+        img: Img11_7,
+        alt: "img11_7",
+      },
+      {
+        img: Img11_8,
+        alt: "img11_8",
+      },
+    ],
+  },
+  {
+    id: 10,
+    link: "/notice/detail/10",
+    title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 상명봉사단 편",
+    date: "2023-04-06",
+    owner: "관리자",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분들, 안녕하십니까.<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>4월 둘째 주, 제공해드리는 정보는 '상명봉사단 편'입니다.<br/>봉사활동에 관심이 있으신 학우분께서는 '싱명사회봉사단'에 가입하여 다양한 봉사활동조 참여하고, 사회봉사 장학금까지 지급받을 수 있는 좋은 기회일 것 같습니다!<br/><br/>상명봉사단에 대한 설명과 현재 자원자를 모집 중인 봉사활동을 카드뉴스에서 확인하실 수 있습니다.<br/><br/>- 상명사회봉사단 설명<br/>- 상명사회봉사단 주요 사업<br/>- 상명사회봉사단 활동 계획<br/>- 사랑의 헌혈운동 시행<br/>- 쪽방촌 물품 후원 봉사활동 모집<br/><br/>* 자세한 사항은 상명대학교 홈페이지 ‘상명라운지(공지사항)’에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다! 감사합니다.",
+    inImg: [
+      {
+        img: Img10_1,
+        alt: "img10_1",
+      },
+      {
+        img: Img10_2,
+        alt: "img10_2",
+      },
+      {
+        img: Img10_3,
+        alt: "img10_3",
+      },
+      {
+        img: Img10_4,
+        alt: "img10_4",
+      },
+      {
+        img: Img10_5,
+        alt: "img10_5",
+      },
+      {
+        img: Img10_6,
+        alt: "img10_6",
+      },
+      {
+        img: Img10_7,
+        alt: "img10_7",
+      },
+      {
+        img: Img10_8,
+        alt: "img10_8",
+      },
+      {
+        img: Img10_9,
+        alt: "img10_9",
+      },
+      {
+        img: Img9_10,
+        alt: "img9_10",
+      },
+    ],
+  },
+  {
+    id: 9,
+    link: "/notice/detail/9",
+    title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 장학제도 편",
+    date: "2023-04-05",
+    owner: "관리자",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분들, 안녕하십니까.<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>4월 둘째 주, 제공해드리는 정보는 '장학제도 편'입니다.<br/>어느덧 중간고사가 한 걸음 다가왔는데요, 열심히 공부하면 어떤 성적 장학금을 받을 수 있는지 알려드리겠습니다🤓<br/><br/>- 학과수석 장학금<br/>- 학과차석 장학금<br/>- 다전공우수 장학금<br/>- 면학장학금A<br/>- 면학장학금B<br/>- 향상 장학금<br/><br/>* 자세한 사항은 상명대학교 홈페이지 ‘대학생활 > 학생지원 > 장학제도 > 교내장학금’에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다! 감사합니다.",
+    inImg: [
+      {
+        img: Img9_1,
+        alt: "img9_1",
+      },
+      {
+        img: Img9_2,
+        alt: "img9_2",
+      },
+      {
+        img: Img9_3,
+        alt: "img9_3",
+      },
+      {
+        img: Img9_4,
+        alt: "img9_4",
+      },
+      {
+        img: Img9_5,
+        alt: "img9_5",
+      },
+      {
+        img: Img9_6,
+        alt: "img9_6",
+      },
+      {
+        img: Img9_7,
+        alt: "img9_7",
+      },
+      {
+        img: Img9_8,
+        alt: "img9_8",
+      },
+      {
+        img: Img9_9,
+        alt: "img9_9",
+      },
+      {
+        img: Img9_10,
+        alt: "img9_10",
+      },
+    ],
+  },
+  {
+    id: 8,
+    link: "/notice/detail/8",
+    title: "상명대학교 제46대 총학생회 '선[先]' 학생-교원 간담회 설문조사 시행",
+    date: "2023-04-03",
+    owner: "관리자",
+    download: false,
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>2023학년도 1학기 [학생-교원 간담회]의 시행을 알려드립니다.<br/>본 간담회는 총장/교무위원 - 학생대표자 간 진행되는 간담회로서, 선[先] 총학생회는 현재 학생 사회에서 논의되고 있는 주요 현안을 확인하고, 학생 측 의견 개진을 목적으로 본 회의에 참여할 예정입니다.<br/><br/>또한, 그렇기에 안건을 발의하고 의견을 전달할 목적 아래 간담회 안건과 관련한 📑설문조사📑를 실시합니다.<br/>본교 학우 여러분의 의견을 수렴 및 통계화하여 본 간담회 시행 이전, 최종 안건을 정리하는 등의 과정에 활용하고자 함을 알려드립니다.<br/><br/>학우 여러분의 많은 참여를 부탁드립니다.<br/>감사합니다.<br/><br/>1. 회의명: 학생-교원 간담회<br/><br/>2. 회의 관련 내용<br/>가. 회의 일시: 2023.04.13. 10:00<br/>나. 대상: 교내 학생자치기구 대표자 (총학생회 및 단과대 학생회)<br/>다. 회의 내용: 학생 간 논의되고 있는 사안에 대한 전달 등 학생 의견 개진<br/><br/>3. 설문조사 참여 방법: 아래 구글폼 주소로 접속하여 참여<br/>※ 구글폼 주소: https://forms.gle/m2opzLr9S2yFDdZ48<br/>(본 링크는 총학생회 인스타그램 프로필링크에서도 확인하실 수 있습니다.)",
+    inImg: [
+      {
+        img: Img8_1,
+        alt: "img8_1",
+      },
+      {
+        img: Img8_2,
+        alt: "img8_2",
+      },
+      {
+        img: Img8_3,
+        alt: "img8_3",
+      },
+    ],
+  },
+  {
+    id: 7,
+    link: "/notice/detail/7",
+    title: "상명대학교 제46대 총학생회 '선[先]' SMCL 간담회 및 발대식 진행",
+    date: "2023-04-03",
+    owner: "관리자",
+    download: false,
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>이전에 한 차례 안내드렸던 SMCL 간담회가 진행되는 4월 6일,<br/>본 간담회에서 1학기 SMCL 개최가 확정될 경우곧바로 연이어 1학기 SMCL 발대식이 진행될 예정임을 전해드립니다.<br/><br/>SMCL 참가에 관심이 있으신 교내 축구 동아리 및 소모임 대표 학우분들 중<br/>아직 신청하지 않으신 분들께서는 신청 기간 내에 간담회 및 발대식 참여를 신청해 주시면 감사하겠습니다.<br/><br/>※ 간담회에서는 1학기 SMCL 개최 여부를 논의할 예정이며, 본 간담회에서 1학기 SMCL 개최가 확정되면 곧바로 1학기 SMCL 발대식을 진행할 예정입니다.<br/>※ 발대식에서는 SMCL과 관련한 전반사항(경기 규칙, 일정, 선수 등록 관련 등)을 논의하여 결정할 예정입니다.<br/><br/>감사합니다.",
+    inImg: [
+      {
+        img: Img7_1,
+        alt: "img7_1",
+      },
+    ],
+  },
+  {
+    id: 6,
+    link: "/notice/detail/6",
+    title: "상명대학교 제46대 총학생회 '선[先]' 인스타그램 팔로우 이벤트",
+    date: "2023-04-03",
+    owner: "관리자",
+    download: false,
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>오늘(4/3)부터 이번 주 목요일(4/6)까지, 총학생회에서 인스타그램 팔로우 이벤트를 진행합니다!<br/>학교를 돌아다니는 수뭉이를 발견하면, 총학생회 인스타그램 팔로우를 인증하고 수뭉이에게 사탕 잔뜩! 받아 가세요🍭<br/><br/>😵‍💫 (수뭉이는 불시에 학교에 출몰합니다..) 😵‍<br/><br/>🔍 행사 기간: 04.03.(월) - 04.06.(목)<br/><br/>🫧 이벤트 참여 방법<br/>1. 총학생회 인스타그램(@smu_1st) 팔로우!<br/>2. 지나가는 수뭉이를 발견하면, 수뭉이에게 총학생회 인스타그램 팔로우 인증하기 ✔<br/>3. 수뭉이가 건네주는 사탕 받기 🍬, 사진 찍기 📸<br/><br/>🖍 총학생회 인스타그램을 팔로우하면, 다양한 행사 및 학사 정보를 확인하실 수 있습니다! (@smu_1st)",
+    inImg: [
+      {
+        img: Img6_1,
+        alt: "img6_1",
+      },
+    ],
+  },
+  {
+    id: 5,
+    link: "/notice/detail/5",
+    title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 학사정보 편",
+    date: "2023-04-02",
+    owner: "관리자",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분들, 안녕하십니까.<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>4월 첫째 주, 가장 먼저 제공해드리는 정보는 '학사 정보 편'입니다.<br/><br/>- 피어오름 웹 앱 OPEN<br/>- 지역사회 환경정비 봉사활동<br/>- 학과/전공 소개 영상 공모<br/>- 상담 및 심리검사 신청안내<br/><br/>* 자세한 사항은 상명대학교 홈페이지 '상명라운지(공지사항)'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다! 감사합니다.",
+    inImg: [
+      {
+        img: Img5_1,
+        alt: "img5_1",
+      },
+      {
+        img: Img5_2,
+        alt: "img5_2",
+      },
+      {
+        img: Img5_3,
+        alt: "img5_3",
+      },
+      {
+        img: Img5_4,
+        alt: "img5_4",
+      },
+      {
+        img: Img5_5,
+        alt: "img5_5",
+      },
+      {
+        img: Img5_6,
+        alt: "img5_6",
+      },
+      {
+        img: Img5_7,
+        alt: "img5_7",
+      },
+      {
+        img: Img5_8,
+        alt: "img5_8",
+      },
+      {
+        img: Img5_9,
+        alt: "img5_9",
+      },
+    ],
+  },
+  {
+    id: 4,
+    link: "/notice/detail/4",
+    title: "상명대학교 제46대 총학생회 '선[先]' 4월 캘린더 출간",
+    date: "2023-04-01",
+    owner: "관리자",
+    download: false,
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>제46대 총학생회 선[先]에서 4월 주요 학사 일정을 담은 4월 달력을 전해드립니다.<br/>학사 일정을 포함하여, 교내 장학금 신청 및 졸업논문 계획서 제출 일정, 분할납부 납부 기간 등 여러 교내/외 일정이 기재되어 있습니다.<br/><br/>4월은 우리의 곁으로 따뜻한 봄이 한 걸음 다가오는, 개화의 계절입니다.<br/>새롭게 돋아나는 꽃과 함께, 학우 여러분의 4월에도 포근한 봄이 가득하시기를 기원합니다.<br/><br/>감사합니다.",
+    inImg: [
+      {
+        img: Img4_1,
+        alt: "img4_1",
+      },
+      {
+        img: Img4_2,
+        alt: "img4_2",
+      },
+    ],
+  },
+  {
+    id: 3,
+    link: "/notice/detail/3",
+    title: "상명대학교 제46대 총학생회 '선[先]' SMCL 간담회 개최",
+    date: "2023-03-30",
+    owner: "관리자",
+    download: false,
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>SMCL 개최와 관련하여, 학우 여러분의 의견을 수렴하고자 'SMCL 간담회'를 시행합니다.<br/>SMCL에 관심이 있으신 교내 축구 동아리 및 소모임 대표 여러분께서는, 아래의 오픈채팅방 링크를 통해 간담회 참여를 신청해 주시면 감사하겠습니다.<br/><br/>1. 회의명: SMCL 간담회<br/><br/>2. 회의 관련 내용<br/>가. 회의 일시: 회의 참석자 확정 이후 협의 예정<br/>나. 대상: SMCL에 관심이 있는 교내 축구 동아리 및 소모임 대표<br/>다. 회의 내용: SMCL 개최와 관련된 축구 동아리 및 소모임 대표진 의견 수렴<br/><br/>3. 회의 참여 신청 방법: 대내교류국장 오픈채팅방을 통한 신청<br/>※ 채팅방 링크: https://open.kakao.com/o/sgJfUxcf<br/>(오픈채팅방 링크는 총학생회 인스타그램 프로필링크에서도 확인하실 수 있습니다.)<br/><br/>감사합니다.",
+    inImg: [
+      {
+        img: Img3_1,
+        alt: "img3_1",
+      },
+      {
+        img: Img3_2,
+        alt: "img3_2",
+      },
+      {
+        img: Img3_3,
+        alt: "img3_3",
+      },
+    ],
+  },
+  {
+    id: 2,
+    link: "/notice/detail/2",
+    title: "상명대학교 제46대 총학생회 '선[先]' 신입국원 모집",
+    date: "2023-03-27",
+    owner: "관리자",
+    download: false,
+    content:
+      "안녕하십니까, 상명대학교 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>제46대 총학생회 선[先]에서 신입국원을 모집합니다.<br/>우리가 바라오던 학교를 만들어가는 데에 제46대 총학생회 선[先]과 발걸음을 함께하고 싶으신 우리 대학 학우 여러분의 많은 관심을 부탁드립니다.<br/><br/>자세한 내용은 첨부된 카드뉴스를 참고해 주시길 부탁드립니다.<br/><br/>🔹 모집 단위 🔹<br/>• 전 국별 신입국원 (기획국, 재정사무국, 대외협력국, 대내교류국, 복지사업국, 교육지원국, 홍보국)<br/><br/>🔹 지원 방법 🔹<br/>• 지원서 작성 후 이메일 송부<br/>• 총학생회 이메일 : smu.first2023@gmail.com<br/><br/>🔹 모집 일정 🔹<br/>• 서류 모집 : 03.27.(월) - 03.31.(금)<br/>• 면접 : 04.03.(월) - 04.05.(수)<br/><br/>🔹 문의사항 접수처 🔹<br/>• 총학생회 인스타그램 (@smu_1st)<br/>• 총학생회 카카오톡 오픈채팅방 (https://open.kakao.com/o/sXKtjVbf)",
+    inImg: [
+      {
+        img: Img2_1,
+        alt: "img2_1",
+      },
+      {
+        img: Img2_2,
+        alt: "img2_2",
+      },
+      {
+        img: Img2_3,
+        alt: "img2_3",
+      },
+      {
+        img: Img2_4,
+        alt: "img2_4",
+      },
+    ],
+  },
   {
     id: 1,
     link: "/notice/detail/1",
