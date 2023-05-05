@@ -20,6 +20,8 @@ import {
   Td,
   TdTitle,
   TdLink,
+  DownLoadBox,
+  DownLoadLink,
 } from "./RuleElements";
 
 import Icons from "../../constants/icon";
@@ -48,15 +50,13 @@ const Rule = () => {
               <ColGroup>
                 <ColStyle size="8%" />
                 <ColStyle size="auto" />
-                <ColStyle size="12%" />
-                <ColStyle size="12%" />
+                <ColStyle size="15%" />
               </ColGroup>
               <THead>
                 <Tr>
                   <Th size="8%">번호</Th>
                   <Th size="auto">제목</Th>
-                  <Th size="12%">작성자</Th>
-                  <Th size="12%">작성일</Th>
+                  <Th size="15%">다운로드</Th>
                 </Tr>
               </THead>
               <TBody>
@@ -70,18 +70,25 @@ const Rule = () => {
                     </TdTitle>
                   </Td>
                   <Td></Td>
-                  <Td></Td>
                 </Tr>
                 {RuleData.map((item, index) => (
                   <Tr key={index}>
                     <Td>{item.id}</Td>
                     <Td>
                       <TdTitle>
-                        <TdLink href={item.link}>{item.title}</TdLink>
+                        <TdLink href={item.downloadLink}>{item.title}</TdLink>
                       </TdTitle>
                     </Td>
-                    <Td>{item.owner}</Td>
-                    <Td>{item.date}</Td>
+                    <Td>
+                      <DownLoadLink href={item.downloadLink}>
+                        <DownLoadBox>
+                          <Icons.AiOutlineCloudDownload
+                            size={28}
+                            color="#000"
+                          />
+                        </DownLoadBox>
+                      </DownLoadLink>
+                    </Td>
                   </Tr>
                 ))}
               </TBody>

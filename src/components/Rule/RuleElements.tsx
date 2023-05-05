@@ -115,7 +115,7 @@ const TBody = styled.tbody``;
 
 const Td = styled.td`
   position: relative;
-  padding: 23px 10px;
+  padding: 18px 10px;
   border-bottom: 1px solid #e5e5e5;
   font-size: 16px;
   line-height: 24px;
@@ -137,6 +137,18 @@ const TdLink = styled.a`
   overflow: hidden;
   line-height: 21px;
   vertical-align: middle;
+`;
+
+const DownLoadLink = styled.a``;
+
+const DownLoadBox = styled.div`
+  width: 60px;
+  margin: 0 auto;
+  padding: 6px 10px;
+  /* background-color: #565656; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export {
@@ -161,4 +173,6 @@ export {
   Td,
   TdTitle,
   TdLink,
+  DownLoadBox,
+  DownLoadLink,
 };

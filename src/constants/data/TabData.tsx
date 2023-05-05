@@ -110,11 +110,11 @@ export const TabData = [
     ],
   },
   {
-    id: "schedule",
+    id: "calendar",
     sub_item: [
       {
-        id: "schedule",
-        link: "/schedule",
+        id: "calendar",
+        link: "/calendar",
         item: "학사일정",
       },
     ],

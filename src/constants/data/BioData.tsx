@@ -38,7 +38,7 @@ export const BioData = [
   },
   {
     img: Img,
-    id: "schedule",
+    id: "calendar",
     title: "학사일정 소개",
     sub: "상명대학교 학사일정",
     content: "학교 학사일정을 소개합니다.",

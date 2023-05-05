@@ -97,7 +97,7 @@ export const HeaderTabData = [
       },
       {
         sub_item: "학사일정",
-        link: "/schedule",
+        link: "/calendar",
       },
     ],
   },

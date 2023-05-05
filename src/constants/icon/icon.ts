@@ -26,6 +26,7 @@ import {
   AiFillFolderOpen,
   AiOutlineRight,
   AiOutlineLeft,
+  AiOutlineCloudDownload
 } from "react-icons/ai";
 import {
   MdWorkOutline,
@@ -99,6 +100,7 @@ const Icons = {
   IoChevronUp,
   AiOutlineRight,
   AiOutlineLeft,
+  AiOutlineCloudDownload
 };
 
 export default Icons;
