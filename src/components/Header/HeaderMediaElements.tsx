@@ -104,18 +104,9 @@ const MCloseBox = styled.a`
   height: 20px;
 `;
 
-const MNavMenu = styled.ul`
-  /* flex-direction: column;
-  display: flex;
-  align-items: center; */
-`;
+const MNavMenu = styled.ul``;
 
-const MNavMenuItem = styled.li`
-  /* width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center; */
-`;
+const MNavMenuItem = styled.li``;
 
 const MNavLink = styled.a`
   display: block;
@@ -161,6 +152,37 @@ const MNavDropDownMenuLink = styled.a`
   }
 `;
 
+const MNavDropDownSub = styled.ul`
+  display: none;
+`;
+
+const MNavDropDownMenuSub = styled.li``;
+
+const MNavDropDownMenuLinkSub = styled.a`
+  display: block;
+  position: relative;
+  margin: 0 0 10px 0;
+  padding: 0 0 0 50px;
+  font-weight: 300;
+  font-size: 13px;
+  color: #000;
+
+  &:first-of-type {
+    margin-top: 10px;
+  }
+
+  &::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 40px;
+    width: 4px;
+    height: 1px;
+    background-color: #666;
+  }
+`;
+
 const MNavOverlay = styled.div`
   display: none;
   position: fixed;
@@ -193,5 +215,8 @@ export {
   MNavDropDown,
   MNavDropDownMenu,
   MNavDropDownMenuLink,
+  MNavDropDownSub,
+  MNavDropDownMenuSub,
+  MNavDropDownMenuLinkSub,
   MNavOverlay,
 };

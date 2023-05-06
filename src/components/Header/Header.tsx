@@ -42,6 +42,9 @@ import {
   MNavDropDown,
   MNavDropDownMenu,
   MNavDropDownMenuLink,
+  MNavDropDownSub,
+  MNavDropDownMenuSub,
+  MNavDropDownMenuLinkSub,
   MNavOverlay,
 } from "./HeaderMediaElements";
 
@@ -59,13 +62,26 @@ export default function Header() {
   const [isActive2, setIsActive2] = useState(false);
   const [isActive3, setIsActive3] = useState(false);
 
+  const [onArr, setOnArr] = useState([false]);
+  const [onArr2, setOnArr2] = useState([false]);
+
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleClick = () => {
     setIsActive(!isActive);
   };
 
-  const navClick = () => {
+  const navClick = (num: number) => {
+    let newArr = [...onArr];
+    newArr[num] = !isActive2;
+    setOnArr(newArr);
+    setIsActive2(!isActive2);
+  };
+
+  const navSubClick = (num: number) => {
+    let newArr = [...onArr2];
+    newArr[num] = !isActive3;
+    setOnArr2(newArr);
     setIsActive3(!isActive3);
   };
 
@@ -119,15 +135,38 @@ export default function Header() {
           </MNavUtilBox>
           <MNavInnerBox>
             <MNavMenu>
-              {MHeaderTabData.map((item, index) => (
+              {HeaderTabData.map((item, index) => (
                 <MNavMenuItem key={index}>
-                  <MNavLink onClick={navClick}>{item.item}</MNavLink>
-                  <MNavDropDown
-                    style={{ display: isActive3 ? "block" : "none" }}
+                  <MNavLink
+                    onClick={() => {
+                      navClick(index);
+                    }}
                   >
-                    {item.sub_Item?.map((item, index) => (
+                    {item.main_item}
+                  </MNavLink>
+                  <MNavDropDown
+                    style={{ display: onArr[index] ? "block" : "none" }}
+                  >
+                    {item.subItem?.map((item, index) => (
                       <MNavDropDownMenu key={index}>
-                        <MNavDropDownMenuLink>{item.item}</MNavDropDownMenuLink>
+                        <MNavDropDownMenuLink
+                          onClick={() => {
+                            navSubClick(index);
+                          }}
+                        >
+                          {item.sub_item}
+                        </MNavDropDownMenuLink>
+                        <MNavDropDownSub
+                          style={{ display: onArr2[index] ? "block" : "none" }}
+                        >
+                          {item.subItem2?.map((item, index) => (
+                            <MNavDropDownMenuSub key={index}>
+                              <MNavDropDownMenuLinkSub>
+                                {item.sub_item2}
+                              </MNavDropDownMenuLinkSub>
+                            </MNavDropDownMenuSub>
+                          ))}
+                        </MNavDropDownSub>
                       </MNavDropDownMenu>
                     ))}
                   </MNavDropDown>

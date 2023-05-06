@@ -163,11 +163,19 @@ export const HeaderTabData = [
 
 export const MHeaderTabData = [
   {
-    item: "총학생회 소개",
+    item: "총학생회",
     link: "/introduce/greeting",
     sub_Item: [
       {
-        item: "회장단 인사말"
+        item: "총학생회 소개",
+        link: "/introduce/greeting",
+        subItem2: [
+          {
+            item: "회장단 인사말",
+            link: "/introduce/greeting",
+            
+          }
+        ]
       },
       {
         item: "조직도"
