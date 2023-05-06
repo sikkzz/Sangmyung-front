@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Layout = styled.div`
   padding-top: 30px;
   padding-bottom: 100px;
@@ -18,10 +20,14 @@ const Title = styled.div`
   font-size: 36px;
   font-weight: 700;
   margin-top: 50px;
+
+  ${media.mobile`font-size: 24px;margin-top: 20px;`};
 `;
 
 const InfoBox = styled.div`
   margin-top: 50px;
+
+  ${media.mobile`margin-top: 30px;`}
 `;
 
 const TitleBox = styled.div`
@@ -29,6 +35,8 @@ const TitleBox = styled.div`
   padding: 20px;
   border-bottom: 1px solid #d8d8d8;
   background-color: #f6f9ef;
+
+  ${media.mobile`padding: 10px;`}
 `;
 
 const BoardTitle = styled.div`
@@ -40,6 +48,8 @@ const BoardTitle = styled.div`
   overflow: hidden;
   background-color: #f6f9ef;
   font-weight: 600;
+
+  ${media.mobile`font-size: 14px;`}
 `;
 
 const InfoInnerBox = styled.div`
@@ -47,6 +57,8 @@ const InfoInnerBox = styled.div`
   border-bottom: 1px solid #d8d8d8;
   display: inline-block;
   padding: 20px;
+
+  ${media.mobile`padding: 10px;font-size: 12px;`}
 `;
 
 const InfoLeft = styled.div`
@@ -81,6 +93,8 @@ const ContentBox = styled.div``;
 const ContentImgBox = styled.div`
   width: 700px;
   margin: 100px auto 0;
+
+  ${media.mobile`width: 300px;margin-top: 60px;`};
 `;
 
 const ContentImg = styled.img`
@@ -90,11 +104,13 @@ const ContentImg = styled.img`
 
 const ContentTextBox = styled.div`
   margin-top: 50px;
+  ${media.mobile`margin-top: 30px;`}
 `;
 
 const ContentTitle = styled.div`
   font-size: 20px;
   font-weight: 700;
+  ${media.mobile`font-size: 14px;`}
 `;
 
 const ContentTextParagraph = styled.div`
@@ -104,6 +120,7 @@ const ContentTextParagraph = styled.div`
 const ContentText = styled.p`
   line-height: 36px;
   white-space: pre-line;
+  ${media.mobile`font-size: 12px;line-height: 20px;`}
 `;
 
 const ContentTextStrong = styled.p`
@@ -113,14 +130,13 @@ const ContentTextStrong = styled.p`
 const ContentTextIndent = styled.p`
   margin-left: 36px;
   line-height: 36px;
-`
+`;
 
-const ContentTextLink = styled.a`
-  
-`
+const ContentTextLink = styled.a``;
 
 const PageBox = styled.div`
   margin-top: 100px;
+  ${media.mobile`margin-top: 60px;`}
 `;
 
 const PageCol = styled.div`
@@ -132,6 +148,8 @@ const PageCol = styled.div`
   &:first-of-type {
     border-top: 1px solid #ccc;
   }
+
+  ${media.mobile`padding: 8px;`}
 `;
 
 const PageIconBox = styled.div`
@@ -143,6 +161,7 @@ const PageIconBox = styled.div`
 const PagePrev = styled.div`
   font-weight: 400;
   margin-left: 8px;
+  ${media.mobile`font-size: 12px;`}
 `;
 
 const PagePrevText = styled.div`
@@ -152,6 +171,7 @@ const PagePrevText = styled.div`
   overflow: hidden;
   margin-left: 24px;
   max-width: 950px;
+  ${media.mobile`margin-left: 10px;font-size: 12px;`}
 `;
 
 const PagePrevTextLink = styled.a`
@@ -163,6 +183,7 @@ const PagePrevTextLink = styled.a`
 const ListBox = styled.div`
   margin: 80px 0;
   float: right;
+  ${media.mobile`margin-top: 40px;`}
 `;
 
 const ListButton = styled.a`

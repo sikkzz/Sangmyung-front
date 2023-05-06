@@ -89,10 +89,10 @@ const NoticeDetail = () => {
                       ) : (
                         ""
                       )} */}
-                    </InfoLeft>
-                    <InfoRight>
                       <PeopleBox>작성자 : {item.owner}</PeopleBox>
                       <DateBox>작성일 : {item.date}</DateBox>
+                    </InfoLeft>
+                    <InfoRight>
                     </InfoRight>
                   </InfoInnerBox>
                 </InfoBox>
