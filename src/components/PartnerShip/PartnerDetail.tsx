@@ -79,7 +79,7 @@ const PartnerDetail = () => {
                   </TitleBox>
                   <InfoInnerBox>
                     <InfoLeft>
-                      {item.download ? (
+                      {/* {item.download ? (
                         <>
                           <DownloadBox href={item.downloadLink}>
                             {item.downloadTitle}
@@ -90,12 +90,11 @@ const PartnerDetail = () => {
                         </>
                       ) : (
                         ""
-                      )}
-                    </InfoLeft>
-                    <InfoRight>
+                      )} */}
                       <PeopleBox>작성자 : {item.owner}</PeopleBox>
                       <DateBox>작성일 : {item.date}</DateBox>
-                    </InfoRight>
+                    </InfoLeft>
+                    <InfoRight></InfoRight>
                   </InfoInnerBox>
                 </InfoBox>
                 <ContentBox>

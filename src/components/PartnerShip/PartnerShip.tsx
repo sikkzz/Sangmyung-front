@@ -16,10 +16,6 @@ import {
   BoardLink,
   BoardImg,
   BoardOverLay,
-  BoardTitle,
-  BoardInfo,
-  BoardDate,
-  BoardOwner,
 } from "./PartnerShipElements";
 
 import Icons from "../../constants/icon";

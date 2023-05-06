@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Layout = styled.div`
   padding-top: 30px;
   padding-bottom: 100px;
@@ -17,10 +19,12 @@ const Title = styled.div`
   font-size: 36px;
   font-weight: 700;
   margin-top: 50px;
+  ${media.mobile`font-size: 24px;margin-top: 20px;`};
 `;
 
 const InfoBox = styled.div`
   margin-top: 50px;
+  ${media.mobile`margin-top: 30px;`}
 `;
 
 const TitleBox = styled.div`
@@ -28,6 +32,7 @@ const TitleBox = styled.div`
   padding: 20px;
   border-bottom: 1px solid #d8d8d8;
   background-color: #f6f9ef;
+  ${media.mobile`padding: 10px;`}
 `;
 
 const BoardTitle = styled.div`
@@ -37,6 +42,8 @@ const BoardTitle = styled.div`
   text-overflow: ellipsis;
   overflow: hidden;
   background-color: #f6f9ef;
+  font-weight: 600;
+  ${media.mobile`font-size: 14px;`}
 `;
 
 const InfoInnerBox = styled.div`
@@ -44,6 +51,7 @@ const InfoInnerBox = styled.div`
   border-bottom: 1px solid #d8d8d8;
   display: inline-block;
   padding: 20px;
+  ${media.mobile`padding: 10px;font-size: 12px;`}
 `;
 
 const InfoLeft = styled.div`

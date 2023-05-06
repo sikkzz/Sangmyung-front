@@ -20,7 +20,6 @@ import {
   ContentTitle,
   ContentTextParagraph,
   ContentText,
-  ContentTextIndent,
   PageBox,
   PageCol,
   PageIconBox,

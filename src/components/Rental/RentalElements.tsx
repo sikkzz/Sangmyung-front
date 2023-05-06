@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Layout = styled.div`
   padding-top: 30px;
   padding-bottom: 100px;
@@ -18,11 +20,13 @@ const Title = styled.div`
   font-size: 36px;
   font-weight: 700;
   margin-top: 50px;
+  ${media.mobile`font-size: 24px;margin-top: 20px;`};
 `;
 
 const Location = styled.div`
   font-size: 24px;
   margin-top: 30px;
+  ${media.mobile`font-size: 18px;margin-top: 20px;`};
 `;
 
 const DownloadBox = styled.a`
@@ -35,6 +39,7 @@ const DownloadBox = styled.a`
   font-weight: 400;
   width: 190px;
   display: block;
+  ${media.mobile`margin-bottom: 50px;`}
 `;
 
 const Line = styled.hr``;

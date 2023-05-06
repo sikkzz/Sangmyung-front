@@ -20,13 +20,11 @@ const Title = styled.div`
   font-size: 36px;
   font-weight: 700;
   margin-top: 50px;
-
   ${media.mobile`font-size: 24px;margin-top: 20px;`};
 `;
 
 const InfoBox = styled.div`
   margin-top: 50px;
-
   ${media.mobile`margin-top: 30px;`}
 `;
 
@@ -35,12 +33,10 @@ const TitleBox = styled.div`
   padding: 20px;
   border-bottom: 1px solid #d8d8d8;
   background-color: #f6f9ef;
-
   ${media.mobile`padding: 10px;`}
 `;
 
 const BoardTitle = styled.div`
-  /* margin-bottom: 8px; */
   font-size: 18px;
   line-height: 25px;
   width: 100%;
@@ -48,7 +44,6 @@ const BoardTitle = styled.div`
   overflow: hidden;
   background-color: #f6f9ef;
   font-weight: 600;
-
   ${media.mobile`font-size: 14px;`}
 `;
 
@@ -57,7 +52,6 @@ const InfoInnerBox = styled.div`
   border-bottom: 1px solid #d8d8d8;
   display: inline-block;
   padding: 20px;
-
   ${media.mobile`padding: 10px;font-size: 12px;`}
 `;
 
@@ -93,7 +87,6 @@ const ContentBox = styled.div``;
 const ContentImgBox = styled.div`
   width: 700px;
   margin: 100px auto 0;
-
   ${media.mobile`width: 300px;margin-top: 60px;`};
 `;
 
@@ -122,17 +115,6 @@ const ContentText = styled.p`
   white-space: pre-line;
   ${media.mobile`font-size: 12px;line-height: 20px;`}
 `;
-
-const ContentTextStrong = styled.p`
-  font-weight: 700;
-`;
-
-const ContentTextIndent = styled.p`
-  margin-left: 36px;
-  line-height: 36px;
-`;
-
-const ContentTextLink = styled.a``;
 
 const PageBox = styled.div`
   margin-top: 100px;
@@ -219,9 +201,6 @@ export {
   ContentTitle,
   ContentTextParagraph,
   ContentText,
-  ContentTextStrong,
-  ContentTextIndent,
-  ContentTextLink,
   PageBox,
   PageCol,
   PageIconBox,
