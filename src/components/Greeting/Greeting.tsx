@@ -48,9 +48,9 @@ const Greeting = () => {
                 </Text>
               </TextWrapper>
               <SubWrapper>
-                <Sub weight="500">- 정후보 : 이진(010-6577-5177)</Sub>
-                <Sub weight="500">- 부후보 : 이사랑(010-8762-3370)</Sub>
-                <Sub weight="500">- 선본장 : 김준식(010-3341-2053)</Sub>
+                <Sub weight="500">- 총학생회장 : 이진(010-6577-5177)</Sub>
+                <Sub weight="500">- 부학생회장 : 이사랑(010-8762-3370)</Sub>
+                <Sub weight="500">- 홈페이지담당 : 김준식(010-3341-2053)</Sub>
               </SubWrapper>
               <SubWrapper>
                 <Sub weight="500">- 장소 : 학생회관 H212호 총학생회실</Sub>

@@ -164,7 +164,15 @@ export const HeaderTabData = [
 export const MHeaderTabData = [
   {
     item: "총학생회 소개",
-    link: "/introduce/greeting"
+    link: "/introduce/greeting",
+    sub_Item: [
+      {
+        item: "회장단 인사말"
+      },
+      {
+        item: "조직도"
+      }
+    ]
   },
   {
     item: "공지사항",

@@ -8,16 +8,13 @@ const MContainer = styled.div`
   width: 100%;
   background: var(--sub-blue);
   z-index: 100;
-  align-items: center;
 
-  ${media.tablet`display: flex;`};
-  ${media.mobile`display: flex;`};
+  ${media.tablet`display: block;`};
+  ${media.mobile`display: block;`};
 `;
 
 const MOutBox = styled.div`
-  display: flex;
   width: 100%;
-  flex-direction: column;
 `;
 
 const MInnerBox = styled.div`
@@ -52,28 +49,77 @@ const MButtonBox = styled.div`
 `;
 
 const MNavBox = styled.div`
-  width: 100%;
+  display: none;
+  z-index: 1000;
+  position: fixed;
+  top: 0px;
+  right: -100%;
+  width: 78.125%;
+  height: 100%;
+  padding: 0;
+  overflow-y: scroll;
   background-color: #fff;
-  flex-direction: column;
-  overflow-y: hidden;
+  border-top: 6px solid #015bcb;
+  border-bottom: 2px solid #273b00;
+`;
+
+const MNavUtilBox = styled.div``;
+
+const MNavList = styled.ul`
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+`;
+
+const MNavListItem = styled.li`
+  display: table-cell;
+  border-right: 1px solid #ccc;
+  text-align: center;
+
+  &:last-of-type {
+    border-right: none;
+  }
+`;
+
+const MNavListLink = styled.a`
+  display: block;
+  padding: 12px 0;
+  font-size: 14px;
+`;
+
+const MNavInnerBox = styled.div`
+  float: right;
+  width: 100%;
+  border-bottom: 1px solid #cdcdcd;
+  background-color: #fff;
+`;
+
+const MCloseBox = styled.a`
+  display: none;
+  position: fixed;
+  top: 15px;
+  right: 82%;
+  z-index: 170;
+  width: 20px;
+  height: 20px;
 `;
 
 const MNavMenu = styled.ul`
-  flex-direction: column;
+  /* flex-direction: column;
   display: flex;
-  align-items: center;
+  align-items: center; */
 `;
 
 const MNavMenuItem = styled.li`
-  width: 100%;
+  /* width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: center; */
 `;
 
 const MNavLink = styled.a`
-  padding: 12px 20px;
-  width: 100%;
+  display: block;
+  padding: 15px;
   font-size: 15px;
   border: 0;
   cursor: pointer;
@@ -81,6 +127,49 @@ const MNavLink = styled.a`
   text-decoration: none;
   text-align: left;
   color: #4e5968;
+  border-top: 1px solid #cdcdcd;
+`;
+
+const MNavDropDown = styled.ul`
+  display: none;
+`;
+
+const MNavDropDownMenu = styled.li``;
+
+const MNavDropDownMenuLink = styled.a`
+  display: block;
+  position: relative;
+  padding: 12px 15px 12px 37px;
+  border: 1px solid #dbdbdb;
+  border-right: none;
+  border-bottom: none;
+  background-color: rgb(241, 241, 244);
+  font-weight: 300;
+  font-size: 14px;
+  color: #000;
+
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 21px;
+    left: 20px;
+    width: 4px;
+    height: 4px;
+    background-color: #666;
+    border-radius: 4px;
+  }
+`;
+
+const MNavOverlay = styled.div`
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 160;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
 `;
 
 export {
@@ -92,7 +181,17 @@ export {
   MLogoTitle,
   MButtonBox,
   MNavBox,
+  MNavInnerBox,
+  MNavUtilBox,
+  MNavList,
+  MNavListItem,
+  MNavListLink,
+  MCloseBox,
   MNavMenu,
   MNavMenuItem,
   MNavLink,
+  MNavDropDown,
+  MNavDropDownMenu,
+  MNavDropDownMenuLink,
+  MNavOverlay,
 };

@@ -30,9 +30,19 @@ import {
   MLogoTitle,
   MButtonBox,
   MNavBox,
+  MNavInnerBox,
+  MNavUtilBox,
+  MNavList,
+  MNavListItem,
+  MNavListLink,
+  MCloseBox,
   MNavMenu,
   MNavMenuItem,
   MNavLink,
+  MNavDropDown,
+  MNavDropDownMenu,
+  MNavDropDownMenuLink,
+  MNavOverlay,
 } from "./HeaderMediaElements";
 
 import { HeaderTabData, MHeaderTabData } from "../../constants/data/HeaderData";
@@ -46,11 +56,17 @@ export default function Header() {
   const navigate = useNavigate();
 
   const [isActive, setIsActive] = useState(false);
+  const [isActive2, setIsActive2] = useState(false);
+  const [isActive3, setIsActive3] = useState(false);
 
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleClick = () => {
     setIsActive(!isActive);
+  };
+
+  const navClick = () => {
+    setIsActive3(!isActive3);
   };
 
   const updateScroll = () => {
@@ -64,7 +80,7 @@ export default function Header() {
   return (
     <>
       <MContainer>
-        <MOutBox style={{ height: isActive ? "100%" : "50px" }}>
+        <MOutBox>
           <MInnerBox>
             <MLogoBox>
               <MLogo
@@ -84,16 +100,49 @@ export default function Header() {
               )}
             </MButtonBox>
           </MInnerBox>
-          <MNavBox>
+        </MOutBox>
+        <MNavBox
+          style={{
+            right: isActive ? "0px" : "-100%",
+            display: isActive ? "block" : "none",
+          }}
+        >
+          <MNavUtilBox>
+            <MNavList>
+              <MNavListItem>
+                <MNavListLink>HOME</MNavListLink>
+              </MNavListItem>
+              <MNavListItem>
+                <MNavListLink>사이트맵</MNavListLink>
+              </MNavListItem>
+            </MNavList>
+          </MNavUtilBox>
+          <MNavInnerBox>
             <MNavMenu>
               {MHeaderTabData.map((item, index) => (
                 <MNavMenuItem key={index}>
-                  <MNavLink href={item.link}>{item.item}</MNavLink>
+                  <MNavLink onClick={navClick}>{item.item}</MNavLink>
+                  <MNavDropDown
+                    style={{ display: isActive3 ? "block" : "none" }}
+                  >
+                    {item.sub_Item?.map((item, index) => (
+                      <MNavDropDownMenu key={index}>
+                        <MNavDropDownMenuLink>{item.item}</MNavDropDownMenuLink>
+                      </MNavDropDownMenu>
+                    ))}
+                  </MNavDropDown>
                 </MNavMenuItem>
               ))}
             </MNavMenu>
-          </MNavBox>
-        </MOutBox>
+          </MNavInnerBox>
+          <MCloseBox
+            style={{ display: isActive ? "block" : "none" }}
+            onClick={handleClick}
+          >
+            <Icons.AiOutlineClose size={20} color="#fff" />
+          </MCloseBox>
+        </MNavBox>
+        <MNavOverlay style={{ display: isActive ? "block" : "none" }} />
       </MContainer>
 
       <Box>

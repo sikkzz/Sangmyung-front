@@ -21,8 +21,12 @@ const Title = styled.div`
 
 const IntroBox = styled.div`
   padding: 30px;
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
   margin-top: 50px;
+  border: 1px solid #e3eaf5;
+  box-shadow: 4px 4px 0 #e3eaf5;
+  padding: 100px 150px;
+  border-radius: 30px;
 `;
 
 const IntroText = styled.p`

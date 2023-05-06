@@ -4,7 +4,7 @@ export const CentralData1 = [
   {
     title: "인문사회과학대학",
     sub: "제29대 인문사회과학대학 학생회 ALL-IN(올인)",
-    sns: "Instagram: @sum_all.in",
+    sns: "Instagram: @smu_all.in",
     img: Img,
     alt: "img",
     president: "회장: 고건",
@@ -34,7 +34,7 @@ export const CentralData2 = [
   {
     title: "융합공과대학",
     sub: "제7대 융합공과대학 학생회 플리",
-    sns: "Instagram: @sum_plli",
+    sns: "Instagram: @smu_plli",
     img: Img,
     alt: "img",
     president: "회장: 소나기",
