@@ -13,13 +13,17 @@ import {
   Table,
   ColGroup,
   ColStyle,
+  MColStyle,
   THead,
   Tr,
   Th,
   TBody,
   Td,
+  MTd,
   TdTitle,
   TdLink,
+  MTdInfoBox,
+  MTdInfo,
 } from "./NoticeElements";
 
 import Icons from "../../constants/icon";
@@ -47,13 +51,16 @@ const Notice = () => {
             <Table>
               <ColGroup>
                 <ColStyle size="8%" />
+                <ColStyle size="8%" />
                 <ColStyle size="auto" />
                 <ColStyle size="12%" />
                 <ColStyle size="12%" />
+                <MColStyle />
               </ColGroup>
               <THead>
                 <Tr>
                   <Th size="8%">번호</Th>
+                  <Th size="8%">분류</Th>
                   <Th size="auto">제목</Th>
                   <Th size="12%">작성자</Th>
                   <Th size="12%">작성일</Th>
@@ -64,6 +71,7 @@ const Notice = () => {
                   <Td>
                     <Icons.HiSpeakerphone size={20} color="#000" />
                   </Td>
+                  <Td />
                   <Td>
                     <TdTitle>
                       <TdLink>
@@ -71,12 +79,13 @@ const Notice = () => {
                       </TdLink>
                     </TdTitle>
                   </Td>
-                  <Td></Td>
-                  <Td></Td>
+                  <Td />
+                  <Td />
                 </Tr>
                 {NoticeData.map((item, index) => (
                   <Tr key={index}>
                     <Td>{item.id}</Td>
+                    <Td>{item.kind}</Td>
                     <Td>
                       <TdTitle>
                         <TdLink href={item.link}>{item.title}</TdLink>
@@ -84,6 +93,16 @@ const Notice = () => {
                     </Td>
                     <Td>{item.owner}</Td>
                     <Td>{item.date}</Td>
+                    <MTd>
+                      <TdTitle>
+                        <TdLink href={item.link}>{item.title}</TdLink>
+                        <MTdInfoBox>
+                          <MTdInfo>{item.kind}</MTdInfo>
+                          <MTdInfo>상명대학교 총학생회</MTdInfo>
+                          <MTdInfo>{item.date}</MTdInfo>
+                        </MTdInfoBox>
+                      </TdTitle>
+                    </MTd>
                   </Tr>
                 ))}
               </TBody>
