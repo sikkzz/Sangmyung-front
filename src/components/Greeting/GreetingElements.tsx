@@ -6,7 +6,7 @@ const Layout = styled.div`
   padding-top: 100px;
   padding-bottom: 200px;
   ${media.tablet`padding-bottom: 100px;`}
-  ${media.mobile`padding-bottom: 100px;`}
+  ${media.mobile`padding-top: 50px; padding-bottom: 100px;`}
 `;
 
 const Col = styled.div`
@@ -21,10 +21,13 @@ const Box = styled.div``;
 
 const ImgBox = styled.div`
   display: flex;
+  justify-content: center;
 `;
 
 const Image = styled.img`
   width: 1080px;
+
+  ${media.mobile`width: 380px;`};
 `;
 
 const GreetingBox = styled.div`

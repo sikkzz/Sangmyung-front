@@ -193,22 +193,17 @@ export const TabData = [
 
 export const MTabData = [
   {
-    id: "headquarters",
+    id: "introduce",
     sub_item: [
       {
-        id: "headquarters",
-        title: "선거운동본부 소개",
-        link: "/headquarters",
+        id: "greeting",
+        title: "회장단 인사말",
+        link: "/introduce/greeting",
       },
       {
-        id: "basis",
-        title: "기조",
-        link: "/basis",
-      },
-      {
-        id: "symbol",
-        title: "상징",
-        link: "/symbol",
+        id: "organizationchart",
+        title: "조직도",
+        link: "/introduce/organizationchart",
       },
     ],
   },

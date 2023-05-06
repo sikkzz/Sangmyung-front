@@ -56,11 +56,13 @@ const Bio = ({ state }: Props) => {
                       key={index}
                       style={{
                         color:
-                          location.pathname.split("/")[1] === item.id
+                          location.pathname.split("/")[1] === item.id ||
+                          location.pathname.split("/")[2] === item.id
                             ? "rgb(32,71,137)"
                             : "rgb(132,134,134)",
                         borderBottom:
-                          location.pathname.split("/")[1] === item.id
+                          location.pathname.split("/")[1] === item.id ||
+                          location.pathname.split("/")[2] === item.id
                             ? "1px solid rgb(32,71,137)"
                             : "none",
                       }}

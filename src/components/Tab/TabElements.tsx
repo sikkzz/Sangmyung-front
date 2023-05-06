@@ -1,19 +1,20 @@
 import styled from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Box = styled.div`
   top: 80px;
   z-index: 99;
   right: 0;
   left: 0;
   position: sticky;
+  ${media.tablet`display: none;`};
+  ${media.mobile`display: none;`};
 `;
 
 const InnerBox = styled.div``;
 
 const Container = styled.div`
-  /* width: 100%; */
-  /* height: 64px; */
-  /* position: sticky; */
   background-color: rgb(255 255 255);
   z-index: 10;
 `;
@@ -37,15 +38,12 @@ const Wrapper = styled.div`
 
 const Item = styled.div`
   padding: 20px 0;
-  /* color: rgb(32, 71, 137); */
   color: rgb(132, 134, 134);
   font-size: 15px;
   line-height: 24px;
-  /* border-bottom: 2px solid rgb(32, 71, 137); */
   cursor: pointer;
 
   :not(:first-of-type) {
-    /* color: rgb(132, 134, 134); */
     margin-left: 24px;
   }
 `;
