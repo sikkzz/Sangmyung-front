@@ -1,6 +1,14 @@
-import { CenterData } from "../../constants/data/MinuteData";
+// import { CenterData } from "../../constants/data/MinuteData";
 
-import { Tr, Td, TdTitle, TdLink } from "./MinuteElements";
+// import {
+//   Tr,
+//   Td,
+//   TdTitle,
+//   TdLink,
+//   MTd,
+//   MTdInfoBox,
+//   MTdInfo,
+// } from "./MinuteElements";
 
 const CenterMinute = () => {
   return (
@@ -15,6 +23,15 @@ const CenterMinute = () => {
           </Td>
           <Td>{item.date}</Td>
           <Td>{item.view}</Td>
+          <MTd>
+            <TdTitle>
+              <TdLink href={item.link}>{item.title}</TdLink>
+              <MTdInfoBox>
+                <MTdInfo>상명대학교 총학생회</MTdInfo>
+                <MTdInfo>{item.date}</MTdInfo>
+              </MTdInfoBox>
+            </TdTitle>
+          </MTd>
         </Tr>
       ))} */}
     </>

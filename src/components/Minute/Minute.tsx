@@ -20,15 +20,16 @@ import {
   Td,
   TdTitle,
   TdLink,
-} from "./MinuteElements";
-
-import {
   TabBox,
   TabInnerBox,
   TabList,
   TabItem,
   TabItemActive,
-} from "../Pledge/PledgeDetailElements";
+  MColStyle,
+  MTd,
+  MTdInfoBox,
+  MTdInfo,
+} from "./MinuteElements";
 
 import Icons from "../../constants/icon";
 
@@ -103,6 +104,7 @@ const Minute = ({ state }: Props) => {
                 <ColStyle size="auto" />
                 <ColStyle size="12%" />
                 <ColStyle size="12%" />
+                <MColStyle />
               </ColGroup>
               <THead>
                 <Tr>

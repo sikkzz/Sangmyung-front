@@ -171,7 +171,7 @@ const PagePrevText = styled.div`
   overflow: hidden;
   margin-left: 24px;
   max-width: 950px;
-  ${media.mobile`margin-left: 10px;font-size: 12px;`}
+  ${media.mobile`margin-left: 10px;font-size: 12px;max-width: 260px;`}
 `;
 
 const PagePrevTextLink = styled.a`

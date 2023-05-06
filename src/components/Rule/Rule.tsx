@@ -13,15 +13,20 @@ import {
   Table,
   ColGroup,
   ColStyle,
+  MColStyle,
   THead,
   Tr,
   Th,
   TBody,
   Td,
+  MTd,
   TdTitle,
   TdLink,
   DownLoadBox,
   DownLoadLink,
+  MTdInfoBox,
+  MTdInfo,
+  MTdDownload,
 } from "./RuleElements";
 
 import Icons from "../../constants/icon";
@@ -51,6 +56,7 @@ const Rule = () => {
                 <ColStyle size="8%" />
                 <ColStyle size="auto" />
                 <ColStyle size="15%" />
+                <MColStyle />
               </ColGroup>
               <THead>
                 <Tr>
@@ -89,6 +95,18 @@ const Rule = () => {
                         </DownLoadBox>
                       </DownLoadLink>
                     </Td>
+                    <MTd>
+                      <TdTitle>
+                        <TdLink href={item.link}>{item.title}</TdLink>
+                        <MTdInfoBox>
+                          <MTdInfo>상명대학교 총학생회</MTdInfo>
+                          <MTdInfo>{item.date}</MTdInfo>
+                          <MTdDownload href={item.downloadLink}>
+                            다운로드
+                          </MTdDownload>
+                        </MTdInfoBox>
+                      </TdTitle>
+                    </MTd>
                   </Tr>
                 ))}
               </TBody>

@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import { reset } from "styled-reset";
-import { media } from "./theme";
+import { medias } from "./theme";
 
 export const GlobalStyle = createGlobalStyle`
     ${reset}
@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
         -webkit-text-size-adjust: none;
         font-family: -apple-system,BlinkMacSystemFont,helvetica,Apple SD Gothic Neo,sans-serif;       
         font-display: fallback;
-        ${media.tablet}{
+        ${medias.tablet}{
             font-size: 10px;
         }
         -ms-overflow-style: none;
@@ -35,19 +35,19 @@ export const GlobalStyle = createGlobalStyle`
 
     .pc-tablet-only {
         display: block;
-        ${media.mobile} {
+        ${medias.mobile} {
             display: none;
         }
     }
     .tablet-mobile-only{
         display: none;
-        ${media.tablet}{
+        ${medias.tablet}{
             display:block;
         }
     }
     .mobile-only {
         display: none;
-        ${media.mobile} {
+        ${medias.mobile} {
             display: block;
         }
     }

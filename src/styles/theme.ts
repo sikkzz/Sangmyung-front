@@ -32,7 +32,7 @@ export const MIXINS = {
   },
 }
 
-export const media = {
+export const medias = {
   custom: customMediaQuery,
   pc: customMediaQuery(1440),
   tablet: customMediaQuery(768),

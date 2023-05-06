@@ -77,17 +77,16 @@ const MinuteAdministrativeDetail = () => {
                   </TitleBox>
                   <InfoInnerBox>
                     <InfoLeft>
-                      <DownloadBox href={item.downloadLink}>
+                      {/* <DownloadBox href={item.downloadLink}>
                         {item.title}
                       </DownloadBox>
                       <IconBox href={item.downloadLink}>
                         <Icons.BiDownload size={20} color="#000" />
-                      </IconBox>
-                    </InfoLeft>
-                    <InfoRight>
+                      </IconBox> */}
                       <PeopleBox>작성자 : {item.owner}</PeopleBox>
                       <DateBox>작성일 : {item.date}</DateBox>
-                    </InfoRight>
+                    </InfoLeft>
+                    <InfoRight></InfoRight>
                   </InfoInnerBox>
                 </InfoBox>
                 <ContentBox>
@@ -125,7 +124,7 @@ const MinuteAdministrativeDetail = () => {
                     </PageIconBox>
                     <PagePrev>다음글</PagePrev>
                     <PagePrevText>
-                      {item.id !== 2 ? (
+                      {item.id !== 6 ? (
                         <PagePrevTextLink href={nextLink}>
                           {nextTitle}
                         </PagePrevTextLink>
