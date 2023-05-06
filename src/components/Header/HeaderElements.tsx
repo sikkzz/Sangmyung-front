@@ -1,11 +1,16 @@
 import styled from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Box = styled.div`
   z-index: 100;
   top: 0;
   right: 0;
   left: 0;
   position: sticky;
+
+  ${media.tablet`display: none;`};
+  ${media.mobile`display: none;`};
 `;
 
 const InnerBox = styled.div`

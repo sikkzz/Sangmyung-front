@@ -36,6 +36,9 @@ const Title = styled.div<{ fontSize: string; fontWeight: string }>`
   color: #191f28;
   text-align: center;
   margin-bottom: 30px;
+
+  ${media.tablet`font-size: 28px;`};
+  ${media.mobile`font-size: 20px; margin-bottom: 20px;`};
 `;
 
 const Text = styled(Title)`
@@ -43,7 +46,7 @@ const Text = styled(Title)`
   margin-bottom: 0;
 
   ${media.tablet`font-size: 18px; margin-bottom: 20px;color:#000;`};
-  ${media.mobile`font-size: 10px; margin-bottom: 20px;color:#000;`};
+  ${media.mobile`font-size: 10px; margin: 0 0 10px 0; color:#000;`};
 `;
 
 export { Layout, Col, Box, Title, Text };

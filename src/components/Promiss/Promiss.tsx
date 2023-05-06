@@ -12,6 +12,16 @@ import {
   Text,
 } from "./PromissElements";
 
+import {
+  MLayout,
+  MBox,
+  MTitleBox,
+  MTitle,
+  MSub,
+  MImageBox,
+  MText,
+} from "./PromissMediaElements";
+
 type PromissProps = {
   primary: boolean;
   scroll: number;
@@ -45,49 +55,78 @@ const Promiss = ({
   }, []);
 
   return (
-    <Layout>
-      <Col>
-        <Box>
-          <InnerBox>
-            {primary === true ? (
-              <>
-                {position > scroll ? (
-                  <>
-                    <TitleBoxAni>
-                      <Title>{title}</Title>
-                      <Sub>{sub}</Sub>
-                      <Sub>{sub2}</Sub>
-                    </TitleBoxAni>
-                    <ImageBox>
-                      <Text>{mark}</Text>
-                    </ImageBox>
-                  </>
-                ) : (
-                  ""
-                )}
-              </>
-            ) : (
-              <>
-                {position > scroll ? (
-                  <>
-                    <ImageBox>
-                      <Text>{mark}</Text>
-                    </ImageBox>
-                    <TitleBoxAni>
-                      <Title>{title}</Title>
-                      <Sub>{sub}</Sub>
-                      <Sub>{sub2}</Sub>
-                    </TitleBoxAni>
-                  </>
-                ) : (
-                  ""
-                )}
-              </>
-            )}
-          </InnerBox>
-        </Box>
-      </Col>
-    </Layout>
+    <>
+      <MLayout>
+        <MBox>
+          {primary === true ? (
+            <>
+              <MTitleBox>
+                <MTitle>{title}</MTitle>
+                <MSub>{sub}</MSub>
+                <MSub>{sub2}</MSub>
+              </MTitleBox>
+              <MImageBox>
+                <MText>{mark}</MText>
+              </MImageBox>
+            </>
+          ) : (
+            <>
+              <MImageBox>
+                <MText>{mark}</MText>
+              </MImageBox>
+              <MTitleBox>
+                <MTitle>{title}</MTitle>
+                <MSub>{sub}</MSub>
+                <MSub>{sub2}</MSub>
+              </MTitleBox>
+            </>
+          )}
+        </MBox>
+      </MLayout>
+      <Layout>
+        <Col>
+          <Box>
+            <InnerBox>
+              {primary === true ? (
+                <>
+                  {position > scroll ? (
+                    <>
+                      <TitleBoxAni>
+                        <Title>{title}</Title>
+                        <Sub>{sub}</Sub>
+                        <Sub>{sub2}</Sub>
+                      </TitleBoxAni>
+                      <ImageBox>
+                        <Text>{mark}</Text>
+                      </ImageBox>
+                    </>
+                  ) : (
+                    ""
+                  )}
+                </>
+              ) : (
+                <>
+                  {position > scroll ? (
+                    <>
+                      <ImageBox>
+                        <Text>{mark}</Text>
+                      </ImageBox>
+                      <TitleBoxAni>
+                        <Title>{title}</Title>
+                        <Sub>{sub}</Sub>
+                        <Sub>{sub2}</Sub>
+                      </TitleBoxAni>
+                    </>
+                  ) : (
+                    ""
+                  )}
+                </>
+              )}
+            </InnerBox>
+          </Box>
+        </Col>
+      </Layout>
+    </>
   );
 };
 

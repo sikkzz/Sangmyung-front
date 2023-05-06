@@ -85,7 +85,7 @@ export const HeaderTabData = [
   },
   {
     main_item: "학교정보",
-    link: "#!",
+    link: "/rule",
     subItem: [
       {
         sub_item: "학생회칙",
@@ -160,3 +160,22 @@ export const HeaderTabData = [
     link: "#!",
   },
 ];
+
+export const MHeaderTabData = [
+  {
+    item: "총학생회 소개",
+    link: "/introduce/greeting"
+  },
+  {
+    item: "공지사항",
+    link: "/notice"
+  },
+  {
+    item: "학교정보",
+    link: "/rule"
+  },
+  {
+    item: "학교시설",
+    link: "/partnership/all"
+  }
+]
