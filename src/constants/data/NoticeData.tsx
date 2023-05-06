@@ -190,7 +190,71 @@ import Img28_8 from "../../assets/education/notice/2/2-8.png";
 import Img28_9 from "../../assets/education/notice/2/2-9.png";
 import Img28_10 from "../../assets/education/notice/2/2-10.png";
 
+import Img29_1 from "../../assets/education/notice/3/1.png";
+import Img29_2 from "../../assets/education/notice/3/2.png";
+import Img29_3 from "../../assets/education/notice/3/3.png";
+import Img29_4 from "../../assets/education/notice/3/4.png";
+import Img29_5 from "../../assets/education/notice/3/5.png";
+import Img29_6 from "../../assets/education/notice/3/6.png";
+import Img29_7 from "../../assets/education/notice/3/7.png";
+import Img29_8 from "../../assets/education/notice/3/8.png";
+import Img29_9 from "../../assets/education/notice/3/9.png";
+import Img29_10 from "../../assets/education/notice/3/10.png";
+
 export const NoticeData = [
+  {
+    id: 29,
+    link: "/notice/detail/29",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 어학연수 안내 - 중국 Beijing Language & Culture University",
+    date: "2023-05-06",
+    owner: "관리자",
+    download: false,
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분들, 안녕하십니까.<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국은 학우 여러분이 유익한 학교 생활을 영위할 수 있도록 교내 학사 정보를 전달하고자 합니다.<br/>그렇기에, 현재 모집 중인 🌐2023학년도 하계 어학연수 프로그램 - 파견대학🌐 정보를 준비했습니다!<br/><br/>그 중 마지막으로, '중국 Beijing Language & Culture University'에 대하여 알려드리겠습니다.<br/>교내 홈페이지 통합공지(글로벌)에 기재된 모집 공고와 파견대학 홈페이지를 참고하여 작성된 자료임을 알려드립니다.💌<br/><br/>파견대학별로 지원마감일을 비롯한 세부 사항이 상이하므로, 반드시 모집공고와 파견대학 홈페이지를 확인하시기 바랍니다.<br/><br/>- 파견대학 및 프로그램 정보<br/>- 프로그램 세부 설명<br/>- 기숙사 정보<br/>- 기타 중요 정보<br/>- 프로그램 수료자 대상 학교 지원<br/>- 선발기준 및 서류제출<br/>- 신청 절차<br/><br/>자세한 사항은 상명대학교 홈페이지 ‘통합공지(글로벌)'에서 확인하실 수 있습니다.<br/>(URL 바로가기: <a href='https://url.kr/4g6fo7'>https://url.kr/4g6fo7</a>)<br/><br/>지금까지 미국, 캐나다, 중국 총 세 곳의 하계 어학연수 파견대학 정보를 안내해드렸는데요!<br/>교육지원국은 앞으로도 실용 외국어 능력 향상을 위한 경험을 축적할 수 있는 정보를 전달하기 위하여 언제나 한 걸음 앞에 있겠습니다.",
+    inImg: [
+      {
+        img: Img29_1,
+        alt: "img29_1",
+      },
+      {
+        img: Img29_2,
+        alt: "img29_2",
+      },
+      {
+        img: Img29_3,
+        alt: "img29_3",
+      },
+      {
+        img: Img29_4,
+        alt: "img29_4",
+      },
+      {
+        img: Img29_5,
+        alt: "img29_5",
+      },
+      {
+        img: Img29_6,
+        alt: "img29_6",
+      },
+      {
+        img: Img29_7,
+        alt: "img29_7",
+      },
+      {
+        img: Img29_8,
+        alt: "img29_8",
+      },
+      {
+        img: Img29_9,
+        alt: "img29_9",
+      },
+      {
+        img: Img29_10,
+        alt: "img29_10",
+      },
+    ],
+  },
   {
     id: 28,
     link: "/notice/detail/28",
