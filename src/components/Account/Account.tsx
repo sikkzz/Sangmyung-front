@@ -43,13 +43,13 @@ const Account = () => {
           <BoardBox>
             <Board>
               <BoardCol>
-                {AccountData.map((item, index) => (
+                {/* {AccountData.map((item, index) => (
                   <BoardItem key={index}>
                     <BoardLink href={item.link}>
                       <BoardImg src={item.img} alt={item.alt} />
                     </BoardLink>
                   </BoardItem>
-                ))}
+                ))} */}
               </BoardCol>
             </Board>
           </BoardBox>
