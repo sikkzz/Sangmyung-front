@@ -75,7 +75,7 @@ export const HeaderTabData = [
       },
       {
         sub_item: "예결산 목록",
-        link: "#!",
+        link: "/account",
       },
     ],
   },
@@ -230,7 +230,7 @@ export const MHeaderTabData = [
       },
       {
         sub_item: "예결산 목록",
-        link: "#!",
+        link: "/account",
       },
     ],
   },

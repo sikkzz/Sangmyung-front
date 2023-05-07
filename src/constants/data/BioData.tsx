@@ -5,14 +5,14 @@ export const BioData = [
     img: Img,
     id: "introduce",
     title: "총학생회 소개",
-    sub: "상명대학교 제57대 총학생회 '선[先]'",
+    sub: "상명대학교 제46대 총학생회 '선[先]'",
     content: "항상 학생들을 위해 먼저 나서는 총학생회가 되겠습니다.",
   },
   {
     img: Img,
     id: "department",
     title: "집행국 소개",
-    sub: "상명대학교 제57대 총학생회 '선[先]' 집행국",
+    sub: "상명대학교 제46대 총학생회 '선[先]' 집행국",
     content: "총학생회 선의 집행국을 소개합니다.",
   },
   {
@@ -26,14 +26,14 @@ export const BioData = [
     img: Img,
     id: "pledge",
     title: "공약 소개",
-    sub: "상명대학교 제57대 총학생회 '선[先]' 공약집",
+    sub: "상명대학교 제46대 총학생회 '선[先]' 공약집",
     content: "총학생회 선의 공약집을 소개합니다.",
   },
   {
     img: Img,
     id: "partnership",
     title: "제휴사업 소개",
-    sub: "상명대학교 제57대 총학생회 '선[先]' 제휴사업",
+    sub: "상명대학교 제46대 총학생회 '선[先]' 제휴사업",
     content: "총학생회 선의 제휴사업을 소개합니다.",
   },
   {
@@ -91,5 +91,12 @@ export const BioData = [
     title: "중앙운영위원회",
     sub: "중앙운영위원회를 소개",
     content: "중앙운영위원회를 소개합니다.",
+  },
+  {
+    img: Img,
+    id: "account",
+    title: "예결산 목록",
+    sub: "총학생회 예결산 목록입니다.",
+    content: "총학생회 예결산 목록입니다.",
   },
 ];

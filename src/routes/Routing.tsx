@@ -22,6 +22,8 @@ import EducationNoticePage from "../pages/EducationNoticePage";
 import EducationNoticeDetailPage from "../pages/EducationNoticeDetailPage";
 import CalendarPage from "../pages/CalendarPage";
 import CentralPage from "../pages/CentralPage";
+import AccountPage from "../pages/AccountPage";
+import AccountDetailPage from "../pages/AccountDetailPage";
 
 const Routing = () => {
   return (
@@ -76,6 +78,8 @@ const Routing = () => {
         element={<EducationNoticeDetailPage />}
       />
       <Route path="/central" element={<CentralPage />} />
+      <Route path="/account" element={<AccountPage />} />
+      <Route path="/account/detail/:id" element={<AccountDetailPage />} />
     </Routes>
   );
 };
