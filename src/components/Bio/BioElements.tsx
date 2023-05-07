@@ -11,7 +11,7 @@ const ImageContainer = styled.div`
 `;
 
 const Image = styled.img`
-  width: 100vw;
+  width: 100%;
   height: 434px;
   ${media.tablet`width: 100%;height: 300px;opacity: 0.8;`};
   object-fit: cover;

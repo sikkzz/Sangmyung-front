@@ -22,18 +22,23 @@ export const OrganiData = [
 
 export const PlanningData = [
   {
-    group: "기획국",
-    position: "국장",
-    subPosition: "차장",
+    headItem: [
+      {
+        position: "국장",
+        name: "박주현",
+        major: "화학에너지공학전공 18",
+        img: Img2,
+        alt: "img3",
+      },
+      {
+        position: "차장",
+        name: "이윤종",
+        major: "행정학부 20",
+        img: Img2,
+        alt: "img2",
+      },
+    ],
     lastPosition: "국원",
-    name: "박주현",
-    major: "화학에너지공학전공 18",
-    img: Img2,
-    alt: "img3",
-    subName: "이윤종",
-    subMajor: "행정학부 20",
-    subImg: Img2,
-    subAlt: "img2",
     subItem: [
       {
         lastItem: [
@@ -96,6 +101,80 @@ export const PlanningData = [
           {
             name: "김민지",
             major: "경영학부 23",
+            img: Img2,
+            alt: "img2",
+          },
+        ],
+      },
+    ],
+  },
+];
+
+export const FinancialData = [
+  {
+    headItem: [
+      {
+        position: "국장",
+        name: "김준식",
+        major: "컴퓨터과학전공 17",
+        img: Img2,
+        alt: "img3",
+      },
+      {
+        position: "차장",
+        name: "김지훈",
+        major: "화공신소재전공 19",
+        img: Img2,
+        alt: "img2",
+      },
+    ],
+    lastPosition: "국원",
+    subItem: [
+      {
+        lastItem: [
+          {
+            name: "김경은",
+            major: "행정학부 20",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "백지연",
+            major: "휴먼지능정보공학전공 22",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "김진희",
+            major: "휴먼지능정보공학전공 22",
+            img: Img2,
+            alt: "img2",
+          },
+        ],
+      },
+      {
+        lastItem: [
+          {
+            name: "서찬솔",
+            major: "전기공학전공 22",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "이현승",
+            major: "화공신소재전공 22",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "강하연",
+            major: "영어교육과 23",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "이규리",
+            major: "가족복지학과 22",
             img: Img2,
             alt: "img2",
           },

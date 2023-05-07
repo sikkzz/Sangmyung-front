@@ -6,7 +6,7 @@ const Layout = styled.div`
 `;
 
 const Col = styled.div`
-  max-width: 1120px;
+  max-width: 1400px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -60,14 +60,26 @@ const ProfileBox = styled.div<{ marginTop: string }>`
   justify-content: center;
 `;
 
-const ProfileInnerBox = styled.div``;
+const ProfileInnerBox = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+`;
 
 const ProfileCol = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
 `
 const ProfileInnerCol = styled.div`
   display: flex;
+  justify-content: center;
+`
+
+const ProfileOuter = styled.div`
+  display: flex;
+  flex-direction: column;
 `
 
 const ProfileImageBox = styled.div<{ width: string; height: string }>`
@@ -107,6 +119,11 @@ const Major = styled.div<{ fontSize: string }>`
   color: #aaa;
 `;
 
+const DepartBox = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
 export {
   Layout,
   Col,
@@ -123,10 +140,12 @@ export {
   ProfileInnerBox,
   ProfileCol,
   ProfileInnerCol,
+  ProfileOuter,
   ProfileImageBox,
   ProfileTextBox,
   Group,
   Position,
   Name,
   Major,
+  DepartBox,
 };

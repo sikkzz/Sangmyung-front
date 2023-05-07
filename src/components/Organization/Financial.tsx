@@ -13,12 +13,12 @@ import {
   Major,
 } from "./OrganiElements";
 
-import { PlanningData } from "../../constants/data/OrganiData";
+import { FinancialData } from "../../constants/data/OrganiData";
 
-const Planning = () => {
+const Financial = () => {
   return (
     <ProfileBox marginTop="50px">
-      {PlanningData.map((item, index) => (
+      {FinancialData.map((item, index) => (
         <ProfileInnerBox key={index}>
           {item.headItem.map((item, index) => (
             <ProfileOuter key={index}>
@@ -44,7 +44,7 @@ const Planning = () => {
           ))}
 
           <ProfileBox marginTop="30px">
-            {PlanningData.map((item, index) => (
+            {FinancialData.map((item, index) => (
               <ProfileCol key={index}>
                 {item.subItem.map((item, index) => (
                   <ProfileInnerCol key={index}>
@@ -73,7 +73,7 @@ const Planning = () => {
         </ProfileInnerBox>
       ))}
     </ProfileBox>
-  );
+    );
 };
 
-export default Planning;
+export default Financial;
