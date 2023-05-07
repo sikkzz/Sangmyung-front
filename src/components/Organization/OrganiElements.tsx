@@ -3,9 +3,9 @@ import styled from "styled-components";
 const Layout = styled.div`
   padding-top: 30px;
   padding-bottom: 100px;
-`
+`;
 
-const Container = styled.div`
+const Col = styled.div`
   max-width: 1120px;
   padding-left: 20px;
   padding-right: 20px;
@@ -13,7 +13,9 @@ const Container = styled.div`
   margin-right: auto;
 `;
 
-const OrganiContainer = styled.div`
+const Box = styled.div``;
+
+const OrganiBox = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 50px;
@@ -24,12 +26,12 @@ const OrganiImage = styled.img`
   height: 957px;
 `;
 
-const ChartContainer = styled.div`
+const ChartBox = styled.div`
   margin-top: 100px;
   margin-bottom: 200px;
 `;
 
-const TextContainer = styled.div``;
+const TextBox = styled.div``;
 
 const Title = styled.div`
   display: flex;
@@ -44,29 +46,36 @@ const Line = styled.div`
   margin: 30px 0;
 `;
 
-const ImageContainer = styled.div``;
+const ImageBox = styled.div``;
 
 const Image = styled.img<{ width: string; height: string }>`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   border-radius: 50px;
-  /* border-radius: 50%; */
-  /* object-fit: contain; */
 `;
 
-const ProfileContainer = styled.div<{ marginTop: string }>`
+const ProfileBox = styled.div<{ marginTop: string }>`
   margin-top: ${(props) => props.marginTop};
   display: flex;
   justify-content: center;
 `;
 
-const ProfileInner = styled.div``;
+const ProfileInnerBox = styled.div``;
 
-const Profile = styled.div<{ width: string; height: string }>`
+const ProfileCol = styled.div`
+  display: flex;
+  flex-direction: column;
+`
+const ProfileInnerCol = styled.div`
+  display: flex;
+`
+
+const ProfileImageBox = styled.div<{ width: string; height: string }>`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   border-radius: 50%;
   background-color: var(--main-color);
+  background-color: #000;
   margin: 0 30px;
   display: flex;
   justify-content: center;
@@ -100,18 +109,21 @@ const Major = styled.div<{ fontSize: string }>`
 
 export {
   Layout,
-  Container,
-  OrganiContainer,
+  Col,
+  Box,
+  OrganiBox,
   OrganiImage,
-  ChartContainer,
-  TextContainer,
+  ChartBox,
+  TextBox,
   Title,
   Line,
-  ImageContainer,
+  ImageBox,
   Image,
-  ProfileContainer,
-  ProfileInner,
-  Profile,
+  ProfileBox,
+  ProfileInnerBox,
+  ProfileCol,
+  ProfileInnerCol,
+  ProfileImageBox,
   ProfileTextBox,
   Group,
   Position,

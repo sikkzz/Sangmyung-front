@@ -35,12 +35,10 @@ const ImgBox = styled.div`
 
 const ImgOutBox = styled.div`
   width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  background-color: var(--main-color);
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 `
 
 const ImgInnerBox = styled.div`
@@ -56,9 +54,20 @@ const ImgInnerBox = styled.div`
 `
 
 const Img = styled.img`
-  width: 100px;
-  height: 120px;
-  border-radius: 50%;
+  width: 80%;
+  height: 108%;
+  border-radius: 20%;
+  object-fit: cover;
+`
+
+const Tests = styled.div`
+  width: 200px;
+  height: 200px;
+`
+
+const TestImg = styled.img`
+  width: 100%;
+  height: 100%;
 `
 
 const InfoBox = styled.div`
@@ -123,6 +132,9 @@ export {
   Img,
   InfoBox,
   TextBox,
+
+  Tests,
+  TestImg,
 
 
   Profile,
