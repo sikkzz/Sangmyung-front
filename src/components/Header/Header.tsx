@@ -126,7 +126,7 @@ export default function Header() {
           <MNavUtilBox>
             <MNavList>
               <MNavListItem>
-                <MNavListLink>HOME</MNavListLink>
+                <MNavListLink href="/">HOME</MNavListLink>
               </MNavListItem>
               <MNavListItem>
                 <MNavListLink>사이트맵</MNavListLink>
@@ -135,12 +135,17 @@ export default function Header() {
           </MNavUtilBox>
           <MNavInnerBox>
             <MNavMenu>
-              {HeaderTabData.map((item, index) => (
+              {MHeaderTabData.map((item, index) => (
                 <MNavMenuItem key={index}>
                   <MNavLink
                     onClick={() => {
                       navClick(index);
                     }}
+                    // style={{
+                    //   backgroundColor: onArr[index] ? "#003d91" : "#fff",
+                    //   color: onArr[index] ? "#fff" : "#000",
+                    // }}
+                    href={item.link}
                   >
                     {item.main_item}
                   </MNavLink>
@@ -153,6 +158,10 @@ export default function Header() {
                           onClick={() => {
                             navSubClick(index);
                           }}
+                          // style={{
+                          //   color: onArr2[index] ? "#003d91" : "#000",
+                          // }}
+                          href={item.link}
                         >
                           {item.sub_item}
                         </MNavDropDownMenuLink>
@@ -161,7 +170,7 @@ export default function Header() {
                         >
                           {item.subItem2?.map((item, index) => (
                             <MNavDropDownMenuSub key={index}>
-                              <MNavDropDownMenuLinkSub>
+                              <MNavDropDownMenuLinkSub href={item.link}>
                                 {item.sub_item2}
                               </MNavDropDownMenuLinkSub>
                             </MNavDropDownMenuSub>

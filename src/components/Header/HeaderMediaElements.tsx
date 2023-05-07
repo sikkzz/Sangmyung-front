@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 import { media } from "../../styles/MediaQuery";
 
@@ -48,6 +48,16 @@ const MButtonBox = styled.div`
   height: 50px;
 `;
 
+const Open = keyframes`
+  0% {
+    right: -100%;
+  }
+
+  100%{
+    right: -0px;
+  }
+`;
+
 const MNavBox = styled.div`
   display: none;
   z-index: 1000;
@@ -61,6 +71,7 @@ const MNavBox = styled.div`
   background-color: #fff;
   border-top: 6px solid #015bcb;
   border-bottom: 2px solid #273b00;
+  animation: 0.3s ease-out forwards ${Open};
 `;
 
 const MNavUtilBox = styled.div``;
@@ -102,6 +113,7 @@ const MCloseBox = styled.a`
   z-index: 170;
   width: 20px;
   height: 20px;
+  /* transform: translateX(-100px); */
 `;
 
 const MNavMenu = styled.ul``;
@@ -119,10 +131,10 @@ const MNavLink = styled.a`
   text-align: left;
   color: #4e5968;
   border-top: 1px solid #cdcdcd;
-`;
+`
 
 const MNavDropDown = styled.ul`
-  display: none;
+  display: none;  
 `;
 
 const MNavDropDownMenu = styled.li``;
@@ -135,7 +147,7 @@ const MNavDropDownMenuLink = styled.a`
   border-right: none;
   border-bottom: none;
   background-color: rgb(241, 241, 244);
-  font-weight: 300;
+  /* font-weight: 300; */
   font-size: 14px;
   color: #000;
 
