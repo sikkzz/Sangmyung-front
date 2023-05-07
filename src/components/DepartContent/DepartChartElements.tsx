@@ -21,16 +21,54 @@ const Title = styled.div`
   margin-bottom: 20px;
 `;
 
-const ProfileBox = styled.div<{ direction: string }>`
-  display: flex;
-  flex-direction: ${(props) => props.direction};
-  align-items: center;
-  /* margin-bottom: 50px; */
+const ProfileBox = styled.div`
+  
 `;
 
-const ProfileInnerBox = styled.div`
-  margin-bottom: 50px;
+const ProfileItemBox = styled.div`
+  display: flex;
 `;
+
+const ImgBox = styled.div`
+  
+`
+
+const ImgOutBox = styled.div`
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+
+const ImgInnerBox = styled.div`
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #fff;
+  /* margin: 0 30px; */
+  display: flex;
+  justify-content: center;
+  /* align-items: flex-end; */
+  align-items: center;
+`
+
+const Img = styled.img`
+  width: 100px;
+  height: 120px;
+  border-radius: 50%;
+`
+
+const InfoBox = styled.div`
+  
+`
+
+const TextBox = styled.div`
+  
+`
+
 
 const Profile = styled.div<{ width: string; height: string }>`
   width: ${(props) => props.width};
@@ -78,7 +116,15 @@ export {
   Box,
   Title,
   ProfileBox,
-  ProfileInnerBox,
+  ProfileItemBox,
+  ImgBox,
+  ImgOutBox,
+  ImgInnerBox,
+  Img,
+  InfoBox,
+  TextBox,
+
+
   Profile,
   Image,
   ProfileTextBox,

@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+const Layout = styled.div`
+  padding-top: 30px;
+  padding-bottom: 100px;
+`
+
 const Container = styled.div`
   max-width: 1120px;
   padding-left: 20px;
@@ -11,14 +16,16 @@ const Container = styled.div`
 const OrganiContainer = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 `;
 
 const OrganiImage = styled.img`
-  width: 1250px;
-  height: 850px;
+  width: 1700px;
+  height: 957px;
 `;
 
 const ChartContainer = styled.div`
+  margin-top: 100px;
   margin-bottom: 200px;
 `;
 
@@ -92,6 +99,7 @@ const Major = styled.div<{ fontSize: string }>`
 `;
 
 export {
+  Layout,
   Container,
   OrganiContainer,
   OrganiImage,

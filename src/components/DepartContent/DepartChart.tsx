@@ -6,7 +6,13 @@ import {
   Box,
   Title,
   ProfileBox,
-  ProfileInnerBox,
+  ProfileItemBox,
+  ImgBox,
+  ImgOutBox,
+  ImgInnerBox,
+  Img,
+  InfoBox,
+  TextBox,
   Profile,
   Image,
   ProfileTextBox,
@@ -15,7 +21,7 @@ import {
   Major,
 } from "./DepartChartElements";
 
-import Img from "../../assets/test.jpg";
+import Abc from "../../assets/electionhead.png";
 
 import { Props } from "./DepartContent";
 
@@ -26,9 +32,21 @@ const DepartChart: React.FC<Props> = ({ state }) => {
       <Col>
         <Box>
           <Title>국원 소개</Title>
-          <ProfileBox direction="column">
-            <ProfileInnerBox>
-              <Profile width="160px" height="160px">
+
+          <ProfileBox>
+            <ProfileItemBox>
+              <ImgBox>
+                <ImgOutBox>
+                  <ImgInnerBox>
+                    <Img src={Abc} alt="profileImg" />
+                  </ImgInnerBox>
+                </ImgOutBox>
+              </ImgBox>
+              <InfoBox></InfoBox>
+              <TextBox></TextBox>
+            </ProfileItemBox>
+
+            {/* <Profile width="160px" height="160px">
                 <Image src={Img} alt="profile" width="120px" height="120px" />
               </Profile>
               <ProfileTextBox>
@@ -36,8 +54,8 @@ const DepartChart: React.FC<Props> = ({ state }) => {
                 <Name fontSize="30px">김준식</Name>
                 <Major fontSize="24px">컴퓨터과학전공 17</Major>
               </ProfileTextBox>
-            </ProfileInnerBox>
-            <ProfileInnerBox>
+            </ProfileItemBox>
+            <ProfileItemBox>
               <Profile width="160px" height="160px">
                 <Image src={Img} alt="profile" width="120px" height="120px" />
               </Profile>
@@ -46,11 +64,11 @@ const DepartChart: React.FC<Props> = ({ state }) => {
                 <Name fontSize="30px">김준식</Name>
                 <Major fontSize="24px">컴퓨터과학전공 17</Major>
               </ProfileTextBox>
-            </ProfileInnerBox>
+            </ProfileItemBox>
           </ProfileBox>
-          <ProfileBox direction="row">
+          <ProfileBox> */}
             {count.map((index) => (
-              <ProfileInnerBox key={index}>
+              <ProfileItemBox key={index}>
                 <Profile width="100px" height="100px">
                   <Image src={Img} alt="profile" width="70px" height="70px" />
                 </Profile>
@@ -59,7 +77,7 @@ const DepartChart: React.FC<Props> = ({ state }) => {
                   <Name fontSize="20px">박주현</Name>
                   <Major fontSize="16px">조형예술학과 17</Major>
                 </ProfileTextBox>
-              </ProfileInnerBox>
+              </ProfileItemBox>
             ))}
           </ProfileBox>
         </Box>
