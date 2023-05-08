@@ -144,9 +144,19 @@ export const FinancialData = [
             img: Img2,
             alt: "img2",
           },
+        ],
+      },
+      {
+        lastItem: [
           {
             name: "김진희",
             major: "휴먼지능정보공학전공 22",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "서찬솔",
+            major: "전기공학전공 22",
             img: Img2,
             alt: "img2",
           },
@@ -154,12 +164,6 @@ export const FinancialData = [
       },
       {
         lastItem: [
-          {
-            name: "서찬솔",
-            major: "전기공학전공 22",
-            img: Img2,
-            alt: "img2",
-          },
           {
             name: "이현승",
             major: "화공신소재전공 22",
@@ -178,8 +182,437 @@ export const FinancialData = [
             img: Img2,
             alt: "img2",
           },
+        ]
+      }
+    ],
+  },
+];
+
+export const ForeignData = [
+  {
+    headItem: [
+      {
+        position: "국장",
+        name: "이지훈",
+        major: "역사콘텐츠전공 18",
+        img: Img2,
+        alt: "img3",
+      },
+      {
+        position: "차장",
+        name: "장윤서",
+        major: "행정학부 22",
+        img: Img2,
+        alt: "img2",
+      },
+    ],
+    lastPosition: "국원",
+    subItem: [
+      {
+        lastItem: [
+          {
+            name: "김건태",
+            major: "컴퓨터과학전공 18",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "류민우",
+            major: "화학에너지공학전공 18",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "이문언",
+            major: "화학에너지공학전공 18",
+            img: Img2,
+            alt: "img2",
+          },
+        ],
+      },
+      {
+        lastItem: [
+          {
+            name: "이지수",
+            major: "화학에너지공학전공 20",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "한서연",
+            major: "화학에너지공학전공 21",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "박서경",
+            major: "한일문화콘텐츠전공 22",
+            img: Img2,
+            alt: "img2",
+          },
+        ],
+      },
+      {
+        lastItem: [
+          {
+            name: "허유경",
+            major: "역사콘텐츠전공 20",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "김지은",
+            major: "경영학부 20",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "이하정",
+            major: "경제금융학부 20",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "최민",
+            major: "융합경영학과 23",
+            img: Img2,
+            alt: "img2",
+          },
+        ]
+      }
+    ],
+  },
+]
+
+export const InternalData = [
+  {
+    headItem: [
+      {
+        position: "국장",
+        name: "우윤기",
+        major: "지적재산권전공 20",
+        img: Img2,
+        alt: "img3",
+      },
+      {
+        position: "차장",
+        name: "하다현",
+        major: "국어교육과 22",
+        img: Img2,
+        alt: "img2",
+      },
+    ],
+    lastPosition: "국원",
+    subItem: [
+      {
+        lastItem: [
+          {
+            name: "방호진",
+            major: "지적재산권전공 20",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "이서현",
+            major: "경영학부 22",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "박지원",
+            major: "가족복지학과 22",
+            img: Img2,
+            alt: "img2",
+          },
+        ],
+      },
+      {
+        lastItem: [
+          {
+            name: "정세인",
+            major: "행정학부 22",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "원예영",
+            major: "글로벌경영학과 22",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "오동환",
+            major: "화학에너지공학전공 18",
+            img: Img2,
+            alt: "img2",
+          },
+        ],
+      },
+      {
+        lastItem: [
+          {
+            name: "김민정",
+            major: "국어교육과 23",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "김혜진",
+            major: "행정학부 23",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "조경진",
+            major: "문헌정보학전공 23",
+            img: Img2,
+            alt: "img2",
+          },
+        ]
+      }
+    ],
+  },
+]
+
+export const WelfareData = [
+  {
+    headItem: [
+      {
+        position: "국장",
+        name: "김성미",
+        major: "전기공학전공 19",
+        img: Img2,
+        alt: "img3",
+      },
+      {
+        position: "차장",
+        name: "김연준",
+        major: "식품영양학전공 20",
+        img: Img2,
+        alt: "img2",
+      },
+    ],
+    lastPosition: "국원",
+    subItem: [
+      {
+        lastItem: [
+          {
+            name: "석준호",
+            major: "글로벌경영학과 20",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "정여진",
+            major: "휴먼지능정보공학전공 22",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "문채린",
+            major: "휴먼지능정보공학전공 22",
+            img: Img2,
+            alt: "img2",
+          },
+        ],
+      },
+      {
+        lastItem: [
+          {
+            name: "서송희",
+            major: "한일문화콘텐츠전공 22",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "조민재",
+            major: "역사콘텐츠전공 20",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "배원혁",
+            major: "국가안보학과 20",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "오민기",
+            major: "국가안보학과 20",
+            img: Img2,
+            alt: "img2",
+          },
+        ],
+      },
+      {
+        lastItem: [
+          {
+            name: "이현지",
+            major: "행정학부 22",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "김가현",
+            major: "글로벌경영학과 22",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "이건호",
+            major: "국가안보학과 23",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "양현정",
+            major: "스포츠건강관리전공 21",
+            img: Img2,
+            alt: "img2",
+          },
+        ]
+      }
+    ],
+  },
+]
+
+export const EducationData = [
+  {
+    headItem: [
+      {
+        position: "국장",
+        name: "문수민",
+        major: "지적재산권전공 20",
+        img: Img2,
+        alt: "img3",
+      },
+      {
+        position: "차장",
+        name: "조다성",
+        major: "식품영양학전공 22",
+        img: Img2,
+        alt: "img2",
+      },
+    ],
+    lastPosition: "국원",
+    subItem: [
+      {
+        lastItem: [
+          {
+            name: "김도현",
+            major: "화학에너지공학전공 18",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "오승현",
+            major: "게임전공 18",
+            img: Img2,
+            alt: "img2",
+          },
+        ],
+      },
+      {
+        lastItem: [
+          {
+            name: "이영현",
+            major: "행정학부 19",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "조정현",
+            major: "휴먼지능정보공학전공 20",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "최민준",
+            major: "컴퓨터과학전공 20",
+            img: Img2,
+            alt: "img2",
+          },
+        ],
+      },
+      {
+        lastItem: [
+          {
+            name: "나희진",
+            major: "화공신소재전공 21",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "한세민",
+            major: "화학에너지공학전공 21",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "이서준",
+            major: "컴퓨터과학전공 22",
+            img: Img2,
+            alt: "img2",
+          },
+        ]
+      }
+    ],
+  },
+]
+
+export const PromotionData = [
+  {
+    headItem: [
+      {
+        position: "국장",
+        name: "원가희",
+        major: "의류학전공 21",
+        img: Img2,
+        alt: "img3",
+      },
+      {
+        position: "차장",
+        name: "김슬찬",
+        major: "역사콘텐츠전공 22",
+        img: Img2,
+        alt: "img2",
+      },
+    ],
+    lastPosition: "국원",
+    subItem: [
+      {
+        lastItem: [
+          {
+            name: "신성빈",
+            major: "글로벌경영학과 22",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "지동근",
+            major: "화학에너지공학전공 18",
+            img: Img2,
+            alt: "img2",
+          },
+        ],
+      },
+      {
+        lastItem: [
+          {
+            name: "임경환",
+            major: "국가안보학과 20",
+            img: Img2,
+            alt: "img2",
+          },
+          {
+            name: "김민정",
+            major: "국어교육과 22",
+            img: Img2,
+            alt: "img2",
+          },
         ],
       },
     ],
   },
-];
+]
+

@@ -10,6 +10,8 @@ import {
   Group,
   Position,
   Name,
+  Sub,
+  SubName,
   Major,
 } from "./OrganiElements";
 
@@ -35,7 +37,7 @@ const Financial = () => {
                 />
               </ProfileImageBox>
               <ProfileTextBox>
-                <Group fontSize="24px">기획국</Group>
+                <Group fontSize="24px">재정사무국</Group>
                 <Position fontSize="30px">{item.position}</Position>
                 <Name>{item.name}</Name>
                 <Major fontSize="24px">{item.major}</Major>
@@ -59,8 +61,11 @@ const Financial = () => {
                           />
                         </ProfileImageBox>
                         <ProfileTextBox>
-                          <Group fontSize="16px">기획국</Group>
-                          <Position fontSize="22px">{item.name}</Position>
+                          <Group fontSize="16px">재정사무국</Group>
+                          <SubName>
+                            <Sub>국원 </Sub>
+                            {item.name}
+                          </SubName>
                           <Major fontSize="16px">{item.major}</Major>
                         </ProfileTextBox>
                       </ProfileInnerBox>
@@ -73,7 +78,7 @@ const Financial = () => {
         </ProfileInnerBox>
       ))}
     </ProfileBox>
-    );
+  );
 };
 
 export default Financial;

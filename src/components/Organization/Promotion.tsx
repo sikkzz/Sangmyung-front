@@ -15,12 +15,12 @@ import {
   Major,
 } from "./OrganiElements";
 
-import { PlanningData } from "../../constants/data/OrganiData";
+import { PromotionData } from "../../constants/data/OrganiData";
 
-const Planning = () => {
+const Promotion = () => {
   return (
     <ProfileBox marginTop="50px">
-      {PlanningData.map((item, index) => (
+      {PromotionData.map((item, index) => (
         <ProfileInnerBox key={index}>
           {item.headItem.map((item, index) => (
             <ProfileOuter key={index}>
@@ -37,7 +37,7 @@ const Planning = () => {
                 />
               </ProfileImageBox>
               <ProfileTextBox>
-                <Group fontSize="24px">기획국</Group>
+                <Group fontSize="24px">홍보국</Group>
                 <Position fontSize="30px">{item.position}</Position>
                 <Name>{item.name}</Name>
                 <Major fontSize="24px">{item.major}</Major>
@@ -46,7 +46,7 @@ const Planning = () => {
           ))}
 
           <ProfileBox marginTop="30px">
-            {PlanningData.map((item, index) => (
+            {PromotionData.map((item, index) => (
               <ProfileCol key={index}>
                 {item.subItem.map((item, index) => (
                   <ProfileInnerCol key={index}>
@@ -61,7 +61,7 @@ const Planning = () => {
                           />
                         </ProfileImageBox>
                         <ProfileTextBox>
-                          <Group fontSize="16px">기획국</Group>
+                          <Group fontSize="16px">홍보국</Group>
                           <SubName>
                             <Sub>국원 </Sub>
                             {item.name}
@@ -81,4 +81,4 @@ const Planning = () => {
   );
 };
 
-export default Planning;
+export default Promotion;

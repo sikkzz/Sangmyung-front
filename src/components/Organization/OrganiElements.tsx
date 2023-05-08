@@ -64,23 +64,24 @@ const ProfileInnerBox = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-
 `;
 
 const ProfileCol = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-`
+`;
 const ProfileInnerCol = styled.div`
   display: flex;
   justify-content: center;
-`
+  margin-top: 60px;
+`;
 
 const ProfileOuter = styled.div`
   display: flex;
   flex-direction: column;
-`
+  margin-top: 60px;
+`;
 
 const ProfileImageBox = styled.div<{ width: string; height: string }>`
   width: ${(props) => props.width};
@@ -103,6 +104,8 @@ const ProfileTextBox = styled.div`
 const Group = styled.div<{ fontSize: string }>`
   font-size: ${(props) => props.fontSize};
   margin-top: 14px;
+  color: var(--main-color);
+  font-weight: 700;
 `;
 
 const Position = styled.div<{ fontSize: string }>`
@@ -112,17 +115,33 @@ const Position = styled.div<{ fontSize: string }>`
 
 const Name = styled.div`
   font-size: 30px;
+  color: var(--main-color);
+  font-weight: 700;
+`;
+
+const Sub = styled.span`
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+`;
+
+const SubName = styled.div`
+  font-size: 22px;
+  margin-top: 10px;
+  font-weight: 600;
+  color: var(--main-color);
 `;
 
 const Major = styled.div<{ fontSize: string }>`
   font-size: ${(props) => props.fontSize};
-  color: #aaa;
+  color: rgb(77, 77, 77);
+  margin-top: 6px;
 `;
 
 const DepartBox = styled.div`
   display: flex;
   justify-content: center;
-`
+`;
 
 export {
   Layout,
@@ -146,6 +165,8 @@ export {
   Group,
   Position,
   Name,
+  Sub,
+  SubName,
   Major,
   DepartBox,
 };

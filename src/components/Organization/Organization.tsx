@@ -23,6 +23,11 @@ import {
 
 import Planning from "./Planning";
 import Financial from "./Financial";
+import Foreign from "./Foreign";
+import Internal from "./Internal";
+import Welfare from "./Welfare";
+import Education from "./Education";
+import Promotion from "./Promotion";
 
 import Img from "../../assets/chart.png";
 import Img2 from "../../assets/test.jpg";
@@ -72,6 +77,17 @@ export default function Organization() {
               <DepartBox>
                 <Planning />
                 <Financial />
+              </DepartBox>
+              <DepartBox>
+                <Foreign />
+                <Internal />
+              </DepartBox>
+              <DepartBox>
+                <Welfare />
+                <Education />
+              </DepartBox>
+              <DepartBox>
+                <Promotion />
               </DepartBox>
             </ImageBox>
           </ChartBox>
