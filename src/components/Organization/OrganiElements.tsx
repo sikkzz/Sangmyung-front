@@ -48,10 +48,10 @@ const Line = styled.div`
 
 const ImageBox = styled.div``;
 
-const Image = styled.img<{ width: string; height: string }>`
+const Image = styled.img<{ width: string; height: string; radius: string }>`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
-  border-radius: 50px;
+  border-radius: ${(props) => props.radius};
 `;
 
 const ProfileBox = styled.div<{ marginTop: string }>`
@@ -123,7 +123,7 @@ const Sub = styled.span`
   font-size: 18px;
   font-weight: 700;
   color: #000;
-`;
+`
 
 const SubName = styled.div`
   font-size: 22px;

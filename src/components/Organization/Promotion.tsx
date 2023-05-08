@@ -32,8 +32,9 @@ const Promotion = () => {
                 <Image
                   src={item.img}
                   alt={item.alt}
-                  width="110px"
-                  height="140px"
+                  width={item?.size === "squ" ? "120px" : "108px"}
+                  height={item?.size === "squ" ? "120px" : "144px"}
+                  radius={item?.size === "squ" ? "50%" : "50px"}
                 />
               </ProfileImageBox>
               <ProfileTextBox>
@@ -58,6 +59,7 @@ const Promotion = () => {
                             alt={item.alt}
                             width="80px"
                             height="100px"
+                            radius={item?.size === "squ" ? "50%" : "50px"}
                           />
                         </ProfileImageBox>
                         <ProfileTextBox>

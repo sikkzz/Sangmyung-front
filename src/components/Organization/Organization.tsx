@@ -61,8 +61,9 @@ export default function Organization() {
                       <Image
                         src={item.img}
                         alt={item.alt}
-                        width="110px"
-                        height="140px"
+                        width="108px"
+                        height="144px"
+                        radius="50px"
                       />
                     </ProfileImageBox>
                     <ProfileTextBox>

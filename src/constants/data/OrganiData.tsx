@@ -1,5 +1,19 @@
 import Img1 from "../../assets/profile/political.jpeg";
 import Img2 from "../../assets/profile/deputy.jpeg";
+import Img3 from "../../assets/profile/eduhead.jpeg";
+import Img4 from "../../assets/profile/edusub.jpeg";
+import Img5 from "../../assets/profile/planhead.jpeg";
+import Img6 from "../../assets/profile/plansub.jpg";
+import Img7 from "../../assets/profile/inhead.jpeg";
+import Img8 from "../../assets/profile/insub.jpeg";
+import Img9 from "../../assets/profile/fohead.jpeg";
+import Img10 from "../../assets/profile/fosub.jpeg";
+import Img11 from "../../assets/profile/welhead.jpeg";
+import Img12 from "../../assets/profile/welsub.jpeg";
+import Img13 from "../../assets/profile/fihead.jpeg";
+import Img14 from "../../assets/profile/fisub.jpg";
+import Img15 from "../../assets/profile/prohead.jpg";
+import Img16 from "../../assets/profile/prosub.png";
 
 export const OrganiData = [
   {
@@ -27,15 +41,16 @@ export const PlanningData = [
         position: "국장",
         name: "박주현",
         major: "화학에너지공학전공 18",
-        img: Img2,
-        alt: "img3",
+        img: Img5,
+        alt: "img5",
+        size: "squ",
       },
       {
         position: "차장",
         name: "이윤종",
         major: "행정학부 20",
-        img: Img2,
-        alt: "img2",
+        img: Img6,
+        alt: "img6",
       },
     ],
     lastPosition: "국원",
@@ -47,6 +62,7 @@ export const PlanningData = [
             major: "휴먼지능정보공학전공 23",
             img: Img2,
             alt: "img2",
+            size: "squ",
           },
           {
             name: "이세린",
@@ -117,15 +133,17 @@ export const FinancialData = [
         position: "국장",
         name: "김준식",
         major: "컴퓨터과학전공 17",
-        img: Img2,
-        alt: "img3",
+        img: Img13,
+        alt: "img13",
+        size: "rec",
       },
       {
         position: "차장",
         name: "김지훈",
         major: "화공신소재전공 19",
-        img: Img2,
-        alt: "img2",
+        img: Img14,
+        alt: "img14",
+        size: "rec",
       },
     ],
     lastPosition: "국원",
@@ -137,6 +155,7 @@ export const FinancialData = [
             major: "행정학부 20",
             img: Img2,
             alt: "img2",
+            size: "squ",
           },
           {
             name: "백지연",
@@ -182,8 +201,8 @@ export const FinancialData = [
             img: Img2,
             alt: "img2",
           },
-        ]
-      }
+        ],
+      },
     ],
   },
 ];
@@ -195,15 +214,17 @@ export const ForeignData = [
         position: "국장",
         name: "이지훈",
         major: "역사콘텐츠전공 18",
-        img: Img2,
-        alt: "img3",
+        img: Img9,
+        alt: "img9",
+        size: "rec",
       },
       {
         position: "차장",
         name: "장윤서",
         major: "행정학부 22",
-        img: Img2,
-        alt: "img2",
+        img: Img10,
+        alt: "img10",
+        size: "rec",
       },
     ],
     lastPosition: "국원",
@@ -215,6 +236,7 @@ export const ForeignData = [
             major: "컴퓨터과학전공 18",
             img: Img2,
             alt: "img2",
+            size: "squ",
           },
           {
             name: "류민우",
@@ -278,11 +300,11 @@ export const ForeignData = [
             img: Img2,
             alt: "img2",
           },
-        ]
-      }
+        ],
+      },
     ],
   },
-]
+];
 
 export const InternalData = [
   {
@@ -291,15 +313,17 @@ export const InternalData = [
         position: "국장",
         name: "우윤기",
         major: "지적재산권전공 20",
-        img: Img2,
-        alt: "img3",
+        img: Img7,
+        alt: "img7",
+        size: "rec",
       },
       {
         position: "차장",
         name: "하다현",
         major: "국어교육과 22",
-        img: Img2,
-        alt: "img2",
+        img: Img8,
+        alt: "img8",
+        size: "rec",
       },
     ],
     lastPosition: "국원",
@@ -311,6 +335,7 @@ export const InternalData = [
             major: "지적재산권전공 20",
             img: Img2,
             alt: "img2",
+            size: "squ",
           },
           {
             name: "이서현",
@@ -368,11 +393,11 @@ export const InternalData = [
             img: Img2,
             alt: "img2",
           },
-        ]
-      }
+        ],
+      },
     ],
   },
-]
+];
 
 export const WelfareData = [
   {
@@ -381,15 +406,17 @@ export const WelfareData = [
         position: "국장",
         name: "김성미",
         major: "전기공학전공 19",
-        img: Img2,
-        alt: "img3",
+        img: Img11,
+        alt: "img11",
+        size: "rec",
       },
       {
         position: "차장",
         name: "김연준",
         major: "식품영양학전공 20",
-        img: Img2,
-        alt: "img2",
+        img: Img12,
+        alt: "img12",
+        size: "rec",
       },
     ],
     lastPosition: "국원",
@@ -401,6 +428,7 @@ export const WelfareData = [
             major: "글로벌경영학과 20",
             img: Img2,
             alt: "img2",
+            size: "squ",
           },
           {
             name: "정여진",
@@ -470,11 +498,11 @@ export const WelfareData = [
             img: Img2,
             alt: "img2",
           },
-        ]
-      }
+        ],
+      },
     ],
   },
-]
+];
 
 export const EducationData = [
   {
@@ -483,15 +511,17 @@ export const EducationData = [
         position: "국장",
         name: "문수민",
         major: "지적재산권전공 20",
-        img: Img2,
+        img: Img3,
         alt: "img3",
+        size: "rec",
       },
       {
         position: "차장",
         name: "조다성",
         major: "식품영양학전공 22",
-        img: Img2,
-        alt: "img2",
+        img: Img4,
+        alt: "img4",
+        size: "rec"
       },
     ],
     lastPosition: "국원",
@@ -503,6 +533,7 @@ export const EducationData = [
             major: "화학에너지공학전공 18",
             img: Img2,
             alt: "img2",
+            size: "squ",
           },
           {
             name: "오승현",
@@ -554,11 +585,11 @@ export const EducationData = [
             img: Img2,
             alt: "img2",
           },
-        ]
-      }
+        ],
+      },
     ],
   },
-]
+];
 
 export const PromotionData = [
   {
@@ -567,15 +598,17 @@ export const PromotionData = [
         position: "국장",
         name: "원가희",
         major: "의류학전공 21",
-        img: Img2,
-        alt: "img3",
+        img: Img15,
+        alt: "img15",
+        size: "rec",
       },
       {
         position: "차장",
         name: "김슬찬",
         major: "역사콘텐츠전공 22",
-        img: Img2,
-        alt: "img2",
+        img: Img16,
+        alt: "img16",
+        size: "rec",
       },
     ],
     lastPosition: "국원",
@@ -587,6 +620,7 @@ export const PromotionData = [
             major: "글로벌경영학과 22",
             img: Img2,
             alt: "img2",
+            size: "squ",
           },
           {
             name: "지동근",
@@ -614,5 +648,4 @@ export const PromotionData = [
       },
     ],
   },
-]
-
+];
