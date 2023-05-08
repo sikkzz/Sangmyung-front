@@ -91,6 +91,16 @@ import Img9_7 from "../../assets/education/9/9-7.png";
 import Img9_8 from "../../assets/education/9/9-8.png";
 import Img9_9 from "../../assets/education/9/9-9.png";
 
+import Img10_1 from "../../assets/education/10/001.png";
+import Img10_2 from "../../assets/education/10/002.png";
+import Img10_3 from "../../assets/education/10/003.png";
+import Img10_4 from "../../assets/education/10/004.png";
+import Img10_5 from "../../assets/education/10/005.png";
+import Img10_6 from "../../assets/education/10/006.png";
+import Img10_7 from "../../assets/education/10/007.png";
+import Img10_8 from "../../assets/education/10/008.png";
+import Img10_9 from "../../assets/education/10/009.png";
+
 import noImg1_1 from "../../assets/education/notice/1/1-1.png";
 import noImg1_2 from "../../assets/education/notice/1/1-2.png";
 import noImg1_3 from "../../assets/education/notice/1/1-3.png";
@@ -125,6 +135,55 @@ import noImg3_9 from "../../assets/education/notice/3/9.png";
 import noImg3_10 from "../../assets/education/notice/3/10.png";
 
 export const EducationForesightData = [
+  {
+    id: 10,
+    link: "/education/foresight/detail/10",
+    img: Img10_1,
+    alt: "img10_1",
+    title: "💙선[先]견지명 - 일경험 프로그램 편💙",
+    date: "2023-05-08",
+    owner: "관리자",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분들, 안녕하십니까.<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>5월 둘째 주,  번째로 제공해드리는 정보는 '일경험 프로그램 편'입니다.<br/><br/>일경험 프로그램이란, 본교 재학생 중 2024년 2월 졸업 예정자를 대상으로<br/>정부기관이 승인한 일경험 기관 또는 기업체에서 프로그램을 이수한 학생에게 소정의 학점을 인정해주는 제도입니다.<br/><br/>실습 종료 후 정해진 기간 내에 '학점인정 심의자료 제출'이 완료되어야 심의가 진행됩니다.<br/>관심 있는 분들은 기간과 필요 서류를 확인하시기 바랍니다!<br/><br/>- 일경험 프로그램이란?<br/>- 프로그램 내용<br/>- 교과목 및 학점 인정<br/>- 학점 인정 승인 심의 절차<br/>- 지원사항<br/>- 프로그램 세부 일정<br/>- 신청은 어떻게 하나요?<br/><br/>* 자세한 사항은 샘물 포털시스템 상단메뉴 중 ‘e-포트폴리오’에서 확인하실 수 있습니다.<br/>(URL 바로가기: <a href='https://smcareer.smu.ac.kr'>https://smcareer.smu.ac.kr/)</a><br/><br/>추후 업로드 될 💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다! 감사합니다.",
+    inImg: [
+      {
+        img: Img10_1,
+        alt: "img10_1",
+      },
+      {
+        img: Img10_2,
+        alt: "img10_2",
+      },
+      {
+        img: Img10_3,
+        alt: "img10_3",
+      },
+      {
+        img: Img10_4,
+        alt: "img10_4",
+      },
+      {
+        img: Img10_5,
+        alt: "img10_5",
+      },
+      {
+        img: Img10_6,
+        alt: "img10_6",
+      },
+      {
+        img: Img10_7,
+        alt: "img10_7",
+      },
+      {
+        img: Img10_8,
+        alt: "img10_8",
+      },
+      {
+        img: Img10_9,
+        alt: "img10_9",
+      },
+    ],
+  },
   {
     id: 9,
     link: "/education/foresight/detail/9",
