@@ -211,7 +211,70 @@ import Img30_7 from "../../assets/education/10/007.png";
 import Img30_8 from "../../assets/education/10/008.png";
 import Img30_9 from "../../assets/education/10/009.png";
 
+import Img31_1 from "../../assets/education/notice/4/1.jpg";
+import Img31_2 from "../../assets/education/notice/4/2.jpg";
+import Img31_3 from "../../assets/education/notice/4/3.jpg";
+import Img31_4 from "../../assets/education/notice/4/4.jpg";
+import Img31_5 from "../../assets/education/notice/4/5.jpg";
+import Img31_6 from "../../assets/education/notice/4/6.jpg";
+
+import Img32_1 from "../../assets/notice/32/1.png";
+
 export const NoticeData = [
+  {
+    id: 32,
+    link: "/notice/detail/32",
+    title: "상명대학교 2023년도 서울캠퍼스 대동제 포스터 공개",
+    date: "2023-05-09",
+    owner: "관리자",
+    kind: "축제",
+    download: false,
+    content:
+      "[2023 상명대학교 서울캠퍼스 대동제]<br/<br/>『 아카이브: In my Camcorder 』<br/>Poster Release<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 '선[先]'",
+    inImg: [
+      {
+        img: Img32_1,
+        alt: "img32_1",
+      },
+    ],
+  },
+  {
+    id: 31,
+    link: "/notice/detail/31",
+    title: "상명대학교 제46대 총학생회 '선[先]' 잡메이트 멘토링 서비스",
+    date: "2023-05-09",
+    owner: "관리자",
+    kind: "학사",
+    download: false,
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분이 유익한 학교 생활을 영위할 수 있도록 졸업 후 진출할 진로에 대한 방향 설정과 취업 준비에 필요한 정보를 전달하고자 합니다.<br/><br/>취업 준비 중이신 분들을 위해 좋은 기회로 퀀텀AI의 “잡메이트 멘토링 서비스”를 제공할 수 있게 되었습니다.🤓<br/><br/>희망 직군 현직자 멘토분에게 ‘직접’ 취업 준비 과정 전반에 대한 객관적이고 구체적인 피드백을 들어볼 수 있는 기회이니,<br/>취업 고민을 하고 계신 분들은 참여해보시면 좋을 것 같습니다.<br/><br/>✅모집 일정: 5/9(화) - 5/15(월)<br/>✅모집 인원: 10명<br/>✅신청 링크: <a href='https://forms.gle/6K2pHJmwPkL24T239' style='color: blue'>https://forms.gle/6K2pHJmwPkL24T239</a><br/>✅홈페이지 링크: <a href='https://job-mate.co.kr' style='color: blue'>https://job-mate.co.kr/</a><br/><br/>총학생회 선[先] 교육지원국은 언제나 학우 여러분의 학사 고민 앞에 먼저 서 있겠습니다.<br/><br/>감사합니다.",
+    inImg: [
+      {
+        img: Img31_1,
+        alt: "img31_1",
+      },
+      {
+        img: Img31_2,
+        alt: "img31_2",
+      },
+      {
+        img: Img31_3,
+        alt: "img31_3",
+      },
+      {
+        img: Img31_4,
+        alt: "img31_4",
+      },
+      {
+        img: Img31_5,
+        alt: "img31_5",
+      },
+      {
+        img: Img31_6,
+        alt: "img31_6",
+      },
+    ],
+  },
   {
     id: 30,
     link: "/notice/detail/30",

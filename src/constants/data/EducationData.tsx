@@ -134,6 +134,13 @@ import noImg3_8 from "../../assets/education/notice/3/8.png";
 import noImg3_9 from "../../assets/education/notice/3/9.png";
 import noImg3_10 from "../../assets/education/notice/3/10.png";
 
+import noImg4_1 from "../../assets/education/notice/4/1.jpg";
+import noImg4_2 from "../../assets/education/notice/4/2.jpg";
+import noImg4_3 from "../../assets/education/notice/4/3.jpg";
+import noImg4_4 from "../../assets/education/notice/4/4.jpg";
+import noImg4_5 from "../../assets/education/notice/4/5.jpg";
+import noImg4_6 from "../../assets/education/notice/4/6.jpg";
+
 export const EducationForesightData = [
   {
     id: 10,
@@ -640,6 +647,43 @@ export const EducationForesightData = [
 ];
 
 export const EducationNoticeData = [
+  {
+    id: 4,
+    link: "/education/notice/detail/4",
+    img: noImg4_1,
+    alt: "noImg4_1",
+    title: "💙퀸텀AI - 잡메이트 멘토링 서비스💙",
+    date: "2023-05-09",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분이 유익한 학교 생활을 영위할 수 있도록 졸업 후 진출할 진로에 대한 방향 설정과 취업 준비에 필요한 정보를 전달하고자 합니다.<br/><br/>취업 준비 중이신 분들을 위해 좋은 기회로 퀀텀AI의 “잡메이트 멘토링 서비스”를 제공할 수 있게 되었습니다.🤓<br/><br/>희망 직군 현직자 멘토분에게 ‘직접’ 취업 준비 과정 전반에 대한 객관적이고 구체적인 피드백을 들어볼 수 있는 기회이니,<br/>취업 고민을 하고 계신 분들은 참여해보시면 좋을 것 같습니다.<br/><br/>✅모집 일정: 5/9(화) - 5/15(월)<br/>✅모집 인원: 10명<br/>✅신청 링크: <a href='https://forms.gle/6K2pHJmwPkL24T239' style='color: blue'>https://forms.gle/6K2pHJmwPkL24T239</a><br/>✅홈페이지 링크: <a href='https://job-mate.co.kr' style='color: blue'>https://job-mate.co.kr/</a><br/><br/>총학생회 선[先] 교육지원국은 언제나 학우 여러분의 학사 고민 앞에 먼저 서 있겠습니다.<br/><br/>감사합니다.",
+    inImg: [
+      {
+        img: noImg4_1,
+        alt: "noImg4_1",
+      },
+      {
+        img: noImg4_2,
+        alt: "noImg4_2",
+      },
+      {
+        img: noImg4_3,
+        alt: "noImg4_3",
+      },
+      {
+        img: noImg4_4,
+        alt: "noImg4_4",
+      },
+      {
+        img: noImg4_5,
+        alt: "noImg4_5",
+      },
+      {
+        img: noImg4_6,
+        alt: "noImg4_6",
+      },
+    ],
+  },
   {
     id: 3,
     link: "/education/notice/detail/3",
