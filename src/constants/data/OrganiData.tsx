@@ -3,17 +3,32 @@ import Img2 from "../../assets/profile/deputy.jpeg";
 import Img3 from "../../assets/profile/eduhead.jpeg";
 import Img4 from "../../assets/profile/edusub.jpeg";
 import Img5 from "../../assets/profile/planhead.jpeg";
-import Img6 from "../../assets/profile/plansub.jpg";
+import Img6 from "../../assets/profile/plansub.png";
 import Img7 from "../../assets/profile/inhead.jpeg";
 import Img8 from "../../assets/profile/insub.jpeg";
 import Img9 from "../../assets/profile/fohead.jpeg";
 import Img10 from "../../assets/profile/fosub.jpeg";
 import Img11 from "../../assets/profile/welhead.jpeg";
-import Img12 from "../../assets/profile/welsub.jpeg";
+import Img12 from "../../assets/profile/welsub.png";
 import Img13 from "../../assets/profile/fihead.jpeg";
 import Img14 from "../../assets/profile/fisub.jpg";
 import Img15 from "../../assets/profile/prohead.jpg";
 import Img16 from "../../assets/profile/prosub.png";
+import Img17 from "../../assets/profile/songhee.jpeg";
+import Img18 from "../../assets/profile/hyun.jpeg";
+import Img19 from "../../assets/profile/gyuri.jpeg";
+import Img20 from "../../assets/profile/gahyun.jpeg";
+import Img21 from "../../assets/profile/minji.png";
+import Img22 from "../../assets/profile/seogyung.png";
+import Img23 from "../../assets/profile/kyungeun.jpeg";
+import Img24 from "../../assets/profile/yeyoon.jpeg"
+import Img25 from '../../assets/profile/jongmin.jpeg'
+import Img26 from '../../assets/profile/yewon.jpeg'
+import Img27 from '../../assets/profile/gyungjin.jpeg'
+import Img28 from '../../assets/profile/hyejin.jpeg'
+import Img29 from '../../assets/profile/soonghyeon.jpeg'
+import Img30 from '../../assets/profile/jiwon.jpeg'
+import Img31 from '../../assets/profile/jinhee.png'
 
 export const OrganiData = [
   {
@@ -73,8 +88,9 @@ export const PlanningData = [
           {
             name: "김진희",
             major: "가족복지학과 22",
-            img: Img2,
-            alt: "img2",
+            img: Img31,
+            alt: "img31",
+            size: "squ"
           },
         ],
       },
@@ -89,8 +105,9 @@ export const PlanningData = [
           {
             name: "이종민",
             major: "경영학부 22",
-            img: Img2,
-            alt: "img2",
+            img: Img25,
+            alt: "img25",
+            size: "rec"
           },
           {
             name: "남윤규",
@@ -105,20 +122,23 @@ export const PlanningData = [
           {
             name: "정예원",
             major: "문헌정보학전공 23",
-            img: Img2,
-            alt: "img2",
+            img: Img26,
+            alt: "img26",
+            size: "rec"
           },
           {
             name: "문예윤",
             major: "게임전공 21",
-            img: Img2,
-            alt: "img2",
+            img: Img24,
+            alt: "img24",
+            size: "squ"
           },
           {
             name: "김민지",
             major: "경영학부 23",
-            img: Img2,
-            alt: "img2",
+            img: Img21,
+            alt: "img21",
+            size: "rec",
           },
         ],
       },
@@ -153,9 +173,9 @@ export const FinancialData = [
           {
             name: "김경은",
             major: "행정학부 20",
-            img: Img2,
+            img: Img23,
             alt: "img2",
-            size: "squ",
+            size: "rec",
           },
           {
             name: "백지연",
@@ -168,7 +188,7 @@ export const FinancialData = [
       {
         lastItem: [
           {
-            name: "김진희",
+            name: "김남경",
             major: "휴먼지능정보공학전공 22",
             img: Img2,
             alt: "img2",
@@ -198,8 +218,9 @@ export const FinancialData = [
           {
             name: "이규리",
             major: "가족복지학과 22",
-            img: Img2,
-            alt: "img2",
+            img: Img19,
+            alt: "img19",
+            size: "rec",
           },
         ],
       },
@@ -269,8 +290,9 @@ export const ForeignData = [
           {
             name: "박서경",
             major: "한일문화콘텐츠전공 22",
-            img: Img2,
-            alt: "img2",
+            img: Img22,
+            alt: "img22",
+            size: "squ",
           },
         ],
       },
@@ -346,8 +368,9 @@ export const InternalData = [
           {
             name: "박지원",
             major: "가족복지학과 22",
-            img: Img2,
-            alt: "img2",
+            img: Img30,
+            alt: "img30",
+            size: "rec"
           },
         ],
       },
@@ -384,14 +407,16 @@ export const InternalData = [
           {
             name: "김혜진",
             major: "행정학부 23",
-            img: Img2,
-            alt: "img2",
+            img: Img28,
+            alt: "img28",
+            size: "squ"
           },
           {
             name: "조경진",
             major: "문헌정보학전공 23",
-            img: Img2,
-            alt: "img2",
+            img: Img27,
+            alt: "Img27",
+            size: "rec"
           },
         ],
       },
@@ -416,7 +441,7 @@ export const WelfareData = [
         major: "식품영양학전공 20",
         img: Img12,
         alt: "img12",
-        size: "rec",
+        size: "squ",
       },
     ],
     lastPosition: "국원",
@@ -449,8 +474,9 @@ export const WelfareData = [
           {
             name: "서송희",
             major: "한일문화콘텐츠전공 22",
-            img: Img2,
-            alt: "img2",
+            img: Img17,
+            alt: "img17",
+            size: "rec",
           },
           {
             name: "조민재",
@@ -483,8 +509,9 @@ export const WelfareData = [
           {
             name: "김가현",
             major: "글로벌경영학과 22",
-            img: Img2,
-            alt: "img2",
+            img: Img20,
+            alt: "img20",
+            size: "rec",
           },
           {
             name: "이건호",
@@ -521,7 +548,7 @@ export const EducationData = [
         major: "식품영양학전공 22",
         img: Img4,
         alt: "img4",
-        size: "rec"
+        size: "rec",
       },
     ],
     lastPosition: "국원",
@@ -538,8 +565,9 @@ export const EducationData = [
           {
             name: "오승현",
             major: "게임전공 18",
-            img: Img2,
-            alt: "img2",
+            img: Img29,
+            alt: "img29",
+            size: "squ"
           },
         ],
       },
@@ -548,8 +576,9 @@ export const EducationData = [
           {
             name: "이영현",
             major: "행정학부 19",
-            img: Img2,
-            alt: "img2",
+            img: Img18,
+            alt: "img18",
+            size: "rec",
           },
           {
             name: "조정현",

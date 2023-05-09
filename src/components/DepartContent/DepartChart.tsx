@@ -23,8 +23,6 @@ import {
   TestImg,
 } from "./DepartChartElements";
 
-import Abc from "../../assets/electionhead.png";
-import Test from '../../assets/profile/sik.jpeg'
 import Test2 from '../../assets/profile/hyun.jpeg'
 import Test3 from '../../assets/profile/2.png'
 import Test4 from '../../assets/profile/gahyun.jpeg'
@@ -46,7 +44,7 @@ const DepartChart: React.FC<Props> = ({ state }) => {
                   {/* <ImgInnerBox>
                     
                   </ImgInnerBox> */}
-                  <Img src={Test} alt="profileImg" />
+                  <Img src={Test2} alt="profileImg" />
                 </ImgOutBox> 
               </ImgBox>
               {/* <Tests>

@@ -57,8 +57,9 @@ const Foreign = () => {
                           <Image
                             src={item.img}
                             alt={item.alt}
-                            width="80px"
-                            height="100px"
+                            width={item?.size === "squ" ? "100px" : "80px"}
+                            // height={item?.size === "squ" ? "100px" : "144px"}
+                            height={"100px"}
                             radius={item?.size === "squ" ? "50%" : "50px"}
                           />
                         </ProfileImageBox>
