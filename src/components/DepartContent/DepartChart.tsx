@@ -9,82 +9,46 @@ import {
   ProfileItemBox,
   ImgBox,
   ImgOutBox,
-  ImgInnerBox,
   Img,
   InfoBox,
-  TextBox,
-  Profile,
-  Image,
-  ProfileTextBox,
   Position,
   Name,
   Major,
-  Tests,
-  TestImg,
+  TextBox,
 } from "./DepartChartElements";
-
-import Test2 from '../../assets/profile/hyun.jpeg'
-import Test3 from '../../assets/profile/2.png'
-import Test4 from '../../assets/profile/gahyun.jpeg'
 
 import { Props } from "./DepartContent";
 
+import { DepartPlanningData } from "../../constants/data/DepartData";
+
 const DepartChart: React.FC<Props> = ({ state }) => {
-  const count = [1, 2, 3, 4, 5, 6, 7];
   return (
     <Layout>
       <Col>
         <Box>
           <Title>국원 소개</Title>
-
           <ProfileBox>
-            <ProfileItemBox>
-              <ImgBox>
-                <ImgOutBox>
-                  {/* <ImgInnerBox>
-                    
-                  </ImgInnerBox> */}
-                  <Img src={Test2} alt="profileImg" />
-                </ImgOutBox> 
-              </ImgBox>
-              {/* <Tests>
-                <TestImg src={Test3} alt="img" />
-              </Tests> */}
-              <InfoBox></InfoBox>
-              <TextBox></TextBox>
-            </ProfileItemBox>
-
-            {/* <Profile width="160px" height="160px">
-                <Image src={Img} alt="profile" width="120px" height="120px" />
-              </Profile>
-              <ProfileTextBox>
-                <Position fontSize="30px">국장</Position>
-                <Name fontSize="30px">김준식</Name>
-                <Major fontSize="24px">컴퓨터과학전공 17</Major>
-              </ProfileTextBox>
-            </ProfileItemBox>
-            <ProfileItemBox>
-              <Profile width="160px" height="160px">
-                <Image src={Img} alt="profile" width="120px" height="120px" />
-              </Profile>
-              <ProfileTextBox>
-                <Position fontSize="30px">차장</Position>
-                <Name fontSize="30px">김준식</Name>
-                <Major fontSize="24px">컴퓨터과학전공 17</Major>
-              </ProfileTextBox>
-            </ProfileItemBox>
-          </ProfileBox>
-          <ProfileBox> */}
-            {count.map((index) => (
+            {DepartPlanningData.map((item, index) => (
               <ProfileItemBox key={index}>
-                <Profile width="100px" height="100px">
-                  <Image src={Img} alt="profile" width="70px" height="70px" />
-                </Profile>
-                <ProfileTextBox>
-                  <Position fontSize="20px">국원</Position>
-                  <Name fontSize="20px">박주현</Name>
-                  <Major fontSize="16px">조형예술학과 17</Major>
-                </ProfileTextBox>
+                <ImgBox>
+                  <ImgOutBox>
+                    <Img
+                      src={item.img}
+                      alt={item.alt}
+                      width={item?.size === "squ" ? "160px" : "128px"}
+                      height={item?.size === "squ" ? "160px" : "164px"}
+                      radius={item?.size === "squ" ? "50%" : "50px"}
+                    />
+                  </ImgOutBox>
+                </ImgBox>
+                <InfoBox>
+                  <Position>{item.position}</Position>
+                  <Name>{item.name}</Name>
+                  <Major>{item.major}</Major>
+                </InfoBox>
+                <TextBox>
+                  안녕하십니까, 총학생회 선[先]의 기획국 국장을 맡은 화학에너지공학전공 18학번 박주현입니다.<br/>상명대학교 학우분들이 즐길 수 있는 이벤트와 행사를 기획하며 행복이 가득한 상명대학교를 만들기 위하여 노력하겠습니다. 감사합니다
+                </TextBox>
               </ProfileItemBox>
             ))}
           </ProfileBox>

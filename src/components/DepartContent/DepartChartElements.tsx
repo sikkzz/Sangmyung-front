@@ -21,102 +21,62 @@ const Title = styled.div`
   margin-bottom: 20px;
 `;
 
-const ProfileBox = styled.div`
-  
-`;
+const ProfileBox = styled.div``;
 
 const ProfileItemBox = styled.div`
   display: flex;
+  margin-top: 50px;
 `;
 
-const ImgBox = styled.div`
-  
-`
+const ImgBox = styled.div``;
 
 const ImgOutBox = styled.div`
-  width: 160px;
+  width: 200px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-`
-
-const ImgInnerBox = styled.div`
-  width: 120px;
-  height: 120px;
+  background-color: #000;
   border-radius: 50%;
-  background-color: #fff;
-  /* margin: 0 30px; */
-  display: flex;
-  justify-content: center;
-  /* align-items: flex-end; */
-  align-items: center;
-`
+`;
 
-const Img = styled.img`
-  width: 80%;
-  height: 108%;
-  border-radius: 20%;
-  object-fit: cover;
-`
-
-const Tests = styled.div`
-  width: 200px;
-  height: 200px;
-`
-
-const TestImg = styled.img`
-  width: 100%;
-  height: 100%;
-`
+const Img = styled.img<{ width: string; height: string; radius: string }>`
+  width: ${(props) => props.width};
+  height: ${(props) => props.height};
+  border-radius: ${(props) => props.radius};
+`;
 
 const InfoBox = styled.div`
-  
-`
-
-const TextBox = styled.div`
-  
-`
-
-
-const Profile = styled.div<{ width: string; height: string }>`
-  width: ${(props) => props.width};
-  height: ${(props) => props.height};
-  border-radius: 50%;
-  background-color: var(--main-color);
-  margin: 0 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
-const Image = styled.img<{ width: string; height: string }>`
-  width: ${(props) => props.width};
-  height: ${(props) => props.height};
-  border-radius: 50%;
-`;
-
-const ProfileTextBox = styled.div`
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin-left: 30px;
+  width: 200px;
 `;
 
-const Position = styled.div<{ fontSize: string }>`
-  font-size: 30px;
-  font-size: ${(props) => props.fontSize};
+const Position = styled.div`
+  font-size: 36px;
+  font-weight: 700;
+`;
+
+const Name = styled.div`
+  font-size: 28px;
   margin-top: 10px;
 `;
 
-const Name = styled.div<{ fontSize: string }>`
-  font-size: 30px;
-  font-size: ${(props) => props.fontSize};
+const Major = styled.div`
+  font-size: 18px;
 `;
 
-const Major = styled.div<{ fontSize: string }>`
-  font-size: 24px;
-  font-size: ${(props) => props.fontSize};
-  color: #aaa;
+const TextBox = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+  max-width: 600px;
+  font-size: 20px;
 `;
 
 export {
@@ -128,19 +88,10 @@ export {
   ProfileItemBox,
   ImgBox,
   ImgOutBox,
-  ImgInnerBox,
   Img,
   InfoBox,
-  TextBox,
-
-  Tests,
-  TestImg,
-
-
-  Profile,
-  Image,
-  ProfileTextBox,
   Position,
   Name,
   Major,
+  TextBox,
 };

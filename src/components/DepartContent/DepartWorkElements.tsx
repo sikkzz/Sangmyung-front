@@ -56,6 +56,7 @@ const WorkTitle = styled.div`
   color: var(--main-blue);
   font-weight: 700;
   font-size: 18px;
+  margin-top: 12px;
 `;
 
 const WorkContent = styled.div`

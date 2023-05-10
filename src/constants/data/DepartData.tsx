@@ -1,4 +1,40 @@
 import Icons from "../icon";
+import Img3 from "../../assets/profile/eduhead.jpeg";
+import Img4 from "../../assets/profile/edusub.jpeg";
+import Img5 from "../../assets/profile/planhead.jpeg";
+import Img6 from "../../assets/profile/plansub.png";
+import Img7 from "../../assets/profile/inhead.jpeg";
+import Img8 from "../../assets/profile/insub.jpeg";
+import Img9 from "../../assets/profile/fohead.jpeg";
+import Img10 from "../../assets/profile/fosub.jpeg";
+import Img11 from "../../assets/profile/welhead.jpeg";
+import Img12 from "../../assets/profile/welsub.png";
+import Img13 from "../../assets/profile/fihead.jpeg";
+import Img14 from "../../assets/profile/fisub.jpg";
+import Img15 from "../../assets/profile/prohead.jpg";
+import Img16 from "../../assets/profile/prosub.png";
+import Img17 from "../../assets/profile/songhee.jpeg";
+import Img18 from "../../assets/profile/hyun.jpeg";
+import Img19 from "../../assets/profile/gyuri.jpeg";
+import Img20 from "../../assets/profile/gahyun.jpeg";
+import Img21 from "../../assets/profile/minji.png";
+import Img22 from "../../assets/profile/seogyung.png";
+import Img23 from "../../assets/profile/kyungeun.jpeg";
+import Img24 from "../../assets/profile/yeyoon.jpeg";
+import Img25 from "../../assets/profile/jongmin.jpeg";
+import Img26 from "../../assets/profile/yewon.jpeg";
+import Img27 from "../../assets/profile/gyungjin.jpeg";
+import Img28 from "../../assets/profile/hyejin.jpeg";
+import Img29 from "../../assets/profile/soonghyeon.jpeg";
+import Img30 from "../../assets/profile/jiwon.jpeg";
+import Img31 from "../../assets/profile/jinhee.png";
+import Img32 from "../../assets/profile/plan.png";
+import Img33 from "../../assets/profile/welfare.png";
+import Img34 from "../../assets/profile/education.png";
+import Img35 from "../../assets/profile/finaicial.png";
+import Img36 from "../../assets/profile/foreign.png";
+import Img37 from "../../assets/profile/promotion.png";
+import Img38 from "../../assets/profile/internal.png";
 
 export const DepartIntroData = [
   {
@@ -20,7 +56,7 @@ export const DepartIntroData = [
     title: "대외협력국",
     sub: "Foreign cooperation Department",
     contents:
-      "기획국에서는 행사, 이벤트, 대동제(축제) 기획 등 학우들에게 즐길거리 제공을 위한 기획을 집행합니다. 더 나아가서 학생들을 위한 콘텐츠 사업들을 추진하는 업무를 맡고 있습니다. 학생회 공약 사업 추진, 학생회 사업 계획 마련등의 업무를 추가로 이행하고 있습니다.",
+      "상명대학교 서울캠퍼스 제46대 총학생회 선(先) 대외협력국입니다. 대외협력국에서는 각종 제휴 & 프로모션 협약 체결 업무, 외부기관과의 협력 체계 구축 등의 업무를 담당하고 있습니다. 학우 여러분의 더 나은 학교 생활을 위해 항상 노력하겠습니다.",
   },
   {
     id: "internalcommunication",
@@ -106,8 +142,7 @@ export const DepartWorkData = [
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
         workTitle: "기록물 및 회의록 관리",
-        workContent:
-          "회의록과 여러가지 양식들을 작성 및 보관 관리합니다.",
+        workContent: "회의록과 여러가지 양식들을 작성 및 보관 관리합니다.",
       },
     ],
   },
@@ -116,27 +151,27 @@ export const DepartWorkData = [
     work: [
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "외부 업체와의 제휴 협약 체결",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "각종 외부 업체와의 제휴 협약 체결을 통해 학우분들의 더 나은 학교 생활을 돕습니다.",
       },
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "오프라인 상권 제휴 ",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "상명대학교 서울캠퍼스 주변, 경복궁, 홍제, 종로 등 각종 오프라인 상권과의 제휴를 통해, 학우들에게 체감될 수 있는 혜택 제공을 도모합니다.",
       },
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "캠퍼스 이벤트 & 프로모션 유치",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "외부 업체의 기간한정 캠퍼스 내 이벤트 & 프로모션 유치를 통해, 학우분들에게 더욱 다가갈 수 있도록 노력합니다.",
       },
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "SNS 홍보",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "대외협력국이 맺는 모든 제휴/이벤트/프로모션이 학우 여러분께 알려질 수 있도록, SNS를 통한 카드뉴스 홍보를 진행합니다.",
       },
     ],
   },
@@ -181,8 +216,7 @@ export const DepartWorkData = [
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
         workTitle: "의류 공동 사업",
-        workContent:
-          "전체 학우 대상 의류 공동 구매 사업을 추진합니다.",
+        workContent: "전체 학우 대상 의류 공동 구매 사업을 추진합니다.",
       },
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
@@ -255,5 +289,603 @@ export const DepartWorkData = [
           "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
       },
     ],
+  },
+];
+
+export const DepartPlanningData = [
+  {
+    position: "국장",
+    name: "박주현",
+    major: "화학에너지공학전공 18",
+    img: Img5,
+    alt: "img5",
+    size: "squ",
+  },
+  {
+    position: "차장",
+    name: "이윤종",
+    major: "행정학부 20",
+    img: Img6,
+    alt: "img6",
+    size: "rec",
+  },
+
+  {
+    position: "국원",
+    name: "이주환",
+    major: "휴먼지능정보공학전공 23",
+    img: Img32,
+    alt: "img2",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "이세린",
+    major: "화학에너지공학전공 21",
+    img: Img32,
+    alt: "img2",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "김진희",
+    major: "가족복지학과 22",
+    img: Img31,
+    alt: "img31",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "연하늘",
+    major: "스포츠건강관리전공 23",
+    img: Img32,
+    alt: "img2",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "이종민",
+    major: "경영학부 22",
+    img: Img25,
+    alt: "img25",
+    size: "rec",
+  },
+  {
+    position: "국원",
+    name: "남윤규",
+    major: "전기공학전공 22",
+    img: Img32,
+    alt: "img2",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "정예원",
+    major: "문헌정보학전공 23",
+    img: Img26,
+    alt: "img26",
+    size: "rec",
+  },
+  {
+    position: "국원",
+    name: "문예윤",
+    major: "게임전공 21",
+    img: Img24,
+    alt: "img24",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "김민지",
+    major: "경영학부 23",
+    img: Img21,
+    alt: "img21",
+    size: "rec",
+  },
+];
+
+export const DepartFinancialData = [
+  {
+    position: "국장",
+    name: "김준식",
+    major: "컴퓨터과학전공 17",
+    img: Img13,
+    alt: "img13",
+    size: "rec",
+  },
+  {
+    position: "차장",
+    name: "김지훈",
+    major: "화공신소재전공 19",
+    img: Img14,
+    alt: "img14",
+    size: "rec",
+  },
+  {
+    position: "국원",
+    name: "김경은",
+    major: "행정학부 20",
+    img: Img23,
+    alt: "img2",
+    size: "rec",
+  },
+  {
+    position: "국원",
+    name: "백지연",
+    major: "휴먼지능정보공학전공 22",
+    img: Img35,
+    alt: "img35",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "김남경",
+    major: "휴먼지능정보공학전공 22",
+    img: Img35,
+    alt: "img35",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "서찬솔",
+    major: "전기공학전공 22",
+    img: Img35,
+    alt: "img35",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "이현승",
+    major: "화공신소재전공 22",
+    img: Img35,
+    alt: "img35",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "강하연",
+    major: "영어교육과 23",
+    img: Img35,
+    alt: "img35",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "이규리",
+    major: "가족복지학과 22",
+    img: Img19,
+    alt: "img19",
+    size: "rec",
+  },
+];
+
+export const DepartForeignData = [
+  {
+    position: "국장",
+    name: "이지훈",
+    major: "역사콘텐츠전공 18",
+    img: Img9,
+    alt: "img9",
+    size: "rec",
+  },
+  {
+    position: "차장",
+    name: "장윤서",
+    major: "행정학부 22",
+    img: Img10,
+    alt: "img10",
+    size: "rec",
+  },
+  {
+    position: "국원",
+    name: "김건태",
+    major: "컴퓨터과학전공 18",
+    img: Img36,
+    alt: "img36",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "류민우",
+    major: "화학에너지공학전공 18",
+    img: Img36,
+    alt: "img36",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "이문언",
+    major: "화학에너지공학전공 18",
+    img: Img36,
+    alt: "img36",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "이지수",
+    major: "화학에너지공학전공 20",
+    img: Img36,
+    alt: "img36",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "한서연",
+    major: "화학에너지공학전공 21",
+    img: Img36,
+    alt: "img36",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "박서경",
+    major: "한일문화콘텐츠전공 22",
+    img: Img22,
+    alt: "img22",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "허유경",
+    major: "역사콘텐츠전공 20",
+    img: Img36,
+    alt: "img36",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "김지은",
+    major: "경영학부 20",
+    img: Img36,
+    alt: "img36",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "이하정",
+    major: "경제금융학부 20",
+    img: Img36,
+    alt: "img36",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "최민",
+    major: "융합경영학과 23",
+    img: Img36,
+    alt: "img36",
+    size: "squ",
+  },
+];
+
+export const InternalData = [
+  {
+    position: "국장",
+    name: "우윤기",
+    major: "지적재산권전공 20",
+    img: Img7,
+    alt: "img7",
+    size: "rec",
+  },
+  {
+    position: "차장",
+    name: "하다현",
+    major: "국어교육과 22",
+    img: Img8,
+    alt: "img8",
+    size: "rec",
+  },
+  {
+    position: "국원",
+    name: "방호진",
+    major: "지적재산권전공 20",
+    img: Img38,
+    alt: "img38",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "이서현",
+    major: "경영학부 22",
+    img: Img38,
+    alt: "img38",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "박지원",
+    major: "가족복지학과 22",
+    img: Img30,
+    alt: "img30",
+    size: "rec",
+  },
+  {
+    position: "국원",
+    name: "정세인",
+    major: "행정학부 22",
+    img: Img38,
+    alt: "img38",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "원예영",
+    major: "글로벌경영학과 22",
+    img: Img38,
+    alt: "img38",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "오동환",
+    major: "화학에너지공학전공 18",
+    img: Img38,
+    alt: "img38",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "김민정",
+    major: "국어교육과 23",
+    img: Img38,
+    alt: "img38",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "김혜진",
+    major: "행정학부 23",
+    img: Img28,
+    alt: "img28",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "조경진",
+    major: "문헌정보학전공 23",
+    img: Img27,
+    alt: "Img27",
+    size: "rec",
+  },
+];
+
+export const WelfareData = [
+  {
+    position: "국장",
+    name: "김성미",
+    major: "전기공학전공 19",
+    img: Img11,
+    alt: "img11",
+    size: "rec",
+  },
+  {
+    position: "차장",
+    name: "김연준",
+    major: "식품영양학전공 20",
+    img: Img12,
+    alt: "img12",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "석준호",
+    major: "글로벌경영학과 20",
+    img: Img33,
+    alt: "img33",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "정여진",
+    major: "휴먼지능정보공학전공 22",
+    img: Img33,
+    alt: "img33",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "문채린",
+    major: "휴먼지능정보공학전공 22",
+    img: Img33,
+    alt: "img33",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "서송희",
+    major: "한일문화콘텐츠전공 22",
+    img: Img17,
+    alt: "img17",
+    size: "rec",
+  },
+  {
+    position: "국원",
+    name: "조민재",
+    major: "역사콘텐츠전공 20",
+    img: Img33,
+    alt: "img33",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "배원혁",
+    major: "국가안보학과 20",
+    img: Img33,
+    alt: "img33",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "오민기",
+    major: "국가안보학과 20",
+    img: Img33,
+    alt: "img33",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "이현지",
+    major: "행정학부 22",
+    img: Img33,
+    alt: "img33",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "김가현",
+    major: "글로벌경영학과 22",
+    img: Img20,
+    alt: "img20",
+    size: "rec",
+  },
+  {
+    position: "국원",
+    name: "이건호",
+    major: "국가안보학과 23",
+    img: Img33,
+    alt: "img33",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "양현정",
+    major: "스포츠건강관리전공 21",
+    img: Img33,
+    alt: "img33",
+    size: "squ",
+  },
+];
+
+export const EducationData = [
+  {
+    position: "국장",
+    name: "문수민",
+    major: "지적재산권전공 20",
+    img: Img3,
+    alt: "img3",
+    size: "rec",
+  },
+  {
+    position: "차장",
+    name: "조다성",
+    major: "식품영양학전공 22",
+    img: Img4,
+    alt: "img4",
+    size: "rec",
+  },
+  {
+    position: "국원",
+    name: "김도현",
+    major: "화학에너지공학전공 18",
+    img: Img34,
+    alt: "img34",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "오승현",
+    major: "게임전공 18",
+    img: Img29,
+    alt: "img29",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "이영현",
+    major: "행정학부 19",
+    img: Img18,
+    alt: "img18",
+    size: "rec",
+  },
+  {
+    position: "국원",
+    name: "조정현",
+    major: "휴먼지능정보공학전공 20",
+    img: Img34,
+    alt: "img34",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "최민준",
+    major: "컴퓨터과학전공 20",
+    img: Img34,
+    alt: "img34",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "나희진",
+    major: "화공신소재전공 21",
+    img: Img34,
+    alt: "img34",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "한세민",
+    major: "화학에너지공학전공 21",
+    img: Img34,
+    alt: "img34",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "이서준",
+    major: "컴퓨터과학전공 22",
+    img: Img34,
+    alt: "img34",
+    size: "squ",
+  },
+];
+
+export const PromotionData = [
+  {
+    position: "국장",
+    name: "원가희",
+    major: "의류학전공 21",
+    img: Img15,
+    alt: "img15",
+    size: "rec",
+  },
+  {
+    position: "차장",
+    name: "김슬찬",
+    major: "역사콘텐츠전공 22",
+    img: Img16,
+    alt: "img16",
+    size: "rec",
+  },
+  {
+    position: "국원",
+    name: "신성빈",
+    major: "글로벌경영학과 22",
+    img: Img37,
+    alt: "img37",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "지동근",
+    major: "화학에너지공학전공 18",
+    img: Img37,
+    alt: "img37",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "임경환",
+    major: "국가안보학과 20",
+    img: Img37,
+    alt: "img37",
+    size: "squ",
+  },
+  {
+    position: "국원",
+    name: "김민정",
+    major: "국어교육과 22",
+    img: Img37,
+    alt: "img37",
+    size: "squ",
   },
 ];

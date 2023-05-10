@@ -73,6 +73,7 @@ export const PlanningData = [
         major: "행정학부 20",
         img: Img6,
         alt: "img6",
+        size: "rec",
       },
     ],
     lastPosition: "국원",

@@ -87,7 +87,6 @@ const ProfileImageBox = styled.div<{ width: string; height: string }>`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   border-radius: 50%;
-  background-color: var(--main-color);
   background-color: #000;
   margin: 0 30px;
   display: flex;
