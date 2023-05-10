@@ -220,7 +220,65 @@ import Img31_6 from "../../assets/education/notice/4/6.jpg";
 
 import Img32_1 from "../../assets/notice/32/1.png";
 
+import Img33_1 from "../../assets/notice/33/1.jpg";
+import Img33_2 from "../../assets/notice/33/2.jpg";
+import Img33_3 from "../../assets/notice/33/3.jpg";
+
+import Img34_1 from "../../assets/notice/34/1.jpg";
+import Img34_2 from "../../assets/notice/34/2.jpg";
+import Img34_3 from "../../assets/notice/34/3.jpg";
+
 export const NoticeData = [
+  {
+    id: 34,
+    link: "/notice/detail/34",
+    title: "상명대학교 2023학년도 서울캠퍼스 대동제 Line-Up 공개",
+    date: "2023-05-10",
+    owner: "관리자",
+    kind: "축제",
+    download: false,
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>아티스트 Line-Up 공개<br/><br/>10CM & 다이나믹 듀오가 5월 19일 금요일, 상명대학교 서울캠퍼스로 찾아 옵니다!<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 '선[先]'",
+    inImg: [
+      {
+        img: Img34_1,
+        alt: "img34_1",
+      },
+      {
+        img: Img34_2,
+        alt: "img34_2",
+      },
+      {
+        img: Img34_3,
+        alt: "img34_3",
+      },
+    ],
+  },
+  {
+    id: 33,
+    link: "/notice/detail/33",
+    title: "상명대학교 2023학년도 서울캠퍼스 대동제 Line-Up Quiz",
+    date: "2023-05-09",
+    owner: "관리자",
+    kind: "축제",
+    download: false,
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>Line-Up Quiz<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/> 제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    inImg: [
+      {
+        img: Img33_1,
+        alt: "img33_1",
+      },
+      {
+        img: Img33_2,
+        alt: "img33_2",
+      },
+      {
+        img: Img33_3,
+        alt: "img33_3",
+      },
+    ],
+  },
   {
     id: 32,
     link: "/notice/detail/32",
