@@ -25,7 +25,7 @@ const ProfileBox = styled.div``;
 
 const ProfileItemBox = styled.div`
   display: flex;
-  margin-top: 50px;
+  margin-top: 70px;
 `;
 
 const ImgBox = styled.div``;
@@ -74,10 +74,44 @@ const TextBox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 30px;
-  max-width: 600px;
-  font-size: 20px;
+  flex-direction: column;
+  margin-left: 60px;
+  padding-left: 20px;
+  /* padding-right: 20px; */
+  width: 600px;
+  font-size: 18px;
+  position: relative;
+
+  &::before{
+    content: '';
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: -25px;
+    width: 45px;
+    border-left: 10px solid #d9d9e0;
+    border-top: 10px solid #d9d9e0;
+    border-bottom: 10px solid #d9d9e0;
+  }
+
+  &::after{
+    content: '';
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    right: -45px;
+    width: 45px;
+    border-right: 10px solid #d9d9e0;
+    border-top: 10px solid #d9d9e0;
+    border-bottom: 10px solid #d9d9e0;
+  }
 `;
+
+const Text = styled.p`
+  line-height: 28px;
+  white-space: pre-line;
+  text-align: center;
+`
 
 export {
   Layout,
@@ -94,4 +128,5 @@ export {
   Name,
   Major,
   TextBox,
+  Text,
 };

@@ -42,7 +42,7 @@ export const DepartIntroData = [
     title: "기획국",
     sub: "Planning Department",
     contents:
-      "기획국에서는 행사, 이벤트, 대동제(축제) 기획 등 학우들에게 즐길거리 제공을 위한 기획을 집행합니다. 더 나아가서 학생들을 위한 콘텐츠 사업들을 추진하는 업무를 맡고 있습니다. 학생회 공약 사업 추진, 학생회 사업 계획 마련등의 업무를 추가로 이행하고 있습니다.",
+      "상명대학교 서울캠퍼스 제 46대 총학생회 ‘선[先]’ 기획국입니다. 기획국에서는 축제, 체육대회, 동아리공연 등 다양한 행사를 기획하는 업무를 맡고 있습니다. 항상 재미있고 안전한 행사를 기획하며 즐거운 상명대학교를 만들기 위해 최선을 다해 노력하겠습니다.",
   },
   {
     id: "financialofficework",
@@ -63,7 +63,7 @@ export const DepartIntroData = [
     title: "대내교류국",
     sub: "Internal communication Department",
     contents:
-      "기획국에서는 행사, 이벤트, 대동제(축제) 기획 등 학우들에게 즐길거리 제공을 위한 기획을 집행합니다. 더 나아가서 학생들을 위한 콘텐츠 사업들을 추진하는 업무를 맡고 있습니다. 학생회 공약 사업 추진, 학생회 사업 계획 마련등의 업무를 추가로 이행하고 있습니다.",
+      "상명대학교 서울캠퍼스 제46대 총학생회 선[先] 대내교류국입니다. 대내교류국은 상명대학교 서울캠퍼스 내부 소통을 담당하고 있습니다. 학우분들의 의견을 수렴하여, 학교에 학우분들의 의사가 반영될 수 있도록 항상 최선을 다해 노력하겠습니다.",
   },
   {
     id: "welfarework",
@@ -94,27 +94,21 @@ export const DepartWorkData = [
     work: [
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "총학생회 행사 기획",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "대동제, 소동제, 체육대회 등  행사를 기획하여 상명대학교 학생들끼리의 유대관계를 향상시키며 안전하고 재미있는 행사를 운영 및 기획합니다.",
       },
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "총학생회 공약 사업 추진",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "총학생회가 공약으로 추진시키려하는 행사 및 사업 내용을 기획하며 공약 이행률을 높이기 위해 노력합니다.",
       },
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "총학생회 방향성 제시",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
-      },
-      {
-        workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
-        workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "관련된 부서에 방향성을 제시하고, 관련 부서에 운영을 통합하고 조정하며, 운영 가이드라인을 제공하는 역할을 합니다.",
       },
     ],
   },
@@ -180,27 +174,27 @@ export const DepartWorkData = [
     work: [
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "학생 단체 및 교내 행정처 소통",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "학우분들 및 교내 행정처와 소통을 통하여 의사를 듣고, 관련 사항을 개선하기 위해 활동합니다.",
       },
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "동아리 문화제 시행",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "본교 문화의 중심인 동아리의 활성화를 위한 기획과 행사를 주관하여 진행합니다.",
       },
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "체전 및 SMCL",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "교내 축구 리그 대회 주관 및 체전 전체적인 주관을 진행합니다.",
       },
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "교원 간담회",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "학우분들의 의견이 학교로 더욱 정확하게 전달하기 위하여 소통을 중점적인 가치로서 항상 최선을 다하겠습니다.",
       },
     ],
   },
@@ -292,172 +286,212 @@ export const DepartWorkData = [
   },
 ];
 
-export const DepartPlanningData = [
+export const DepartData = [
   {
-    position: "국장",
-    name: "박주현",
-    major: "화학에너지공학전공 18",
-    img: Img5,
-    alt: "img5",
-    size: "squ",
-  },
-  {
-    position: "차장",
-    name: "이윤종",
-    major: "행정학부 20",
-    img: Img6,
-    alt: "img6",
-    size: "rec",
-  },
+    id: "planning",
+    subItem: [
+      {
+        position: "국장",
+        name: "박주현",
+        major: "화학에너지공학전공 18",
+        img: Img5,
+        alt: "img5",
+        size: "squ",
+        content:
+          "안녕하십니까, 총학생회 선[先] 기획국 국장 박주현입니다.<br/>상명대학교 학우분들이 즐길 수 있는 이벤트와 행사를 기획하며<br/>행복이 가득한 상명대학교를 만들기 위하여 노력하겠습니다. 감사합니다.",
+      },
+      {
+        position: "차장",
+        name: "이윤종",
+        major: "행정학부 20",
+        img: Img6,
+        alt: "img6",
+        size: "rec",
+        content:
+          "안녕하십니까, 총학생회 선[先] 기획국 차장 이윤종입니다.<br/>여러분들이 '기'대하는 대학생활을 '획'기적인 아이디어로<br/>아름답고 찬란하게 빛나도록 열심히 달리도록 하겠습니다!",
+      },
 
-  {
-    position: "국원",
-    name: "이주환",
-    major: "휴먼지능정보공학전공 23",
-    img: Img32,
-    alt: "img2",
-    size: "squ",
+      {
+        position: "국원",
+        name: "이주환",
+        major: "휴먼지능정보공학전공 23",
+        img: Img32,
+        alt: "img2",
+        size: "squ",
+        content:
+          "안녕하십니까, 총학생회 선[先]의 기획국 국장을 맡은 화학에너지공학전공 18학번 박주현입니다.",
+      },
+      {
+        position: "국원",
+        name: "이세린",
+        major: "화학에너지공학전공 21",
+        img: Img32,
+        alt: "img2",
+        size: "squ",
+        content:
+          "안녕하십니까, 총학생회 선[先]의 기획국 국장을 맡은 화학에너지공학전공 18학번 박주현입니다.",
+      },
+      {
+        position: "국원",
+        name: "김진희",
+        major: "가족복지학과 22",
+        img: Img31,
+        alt: "img31",
+        size: "squ",
+        content:
+          "안녕하십니까, 총학생회 선[先] 기획국 국원 김진희입니다.<br/>학우분들의 행복한 추억 속 일부가 될 수 있도록<br/>재미있는 축제, 행사 기획에 힘쓰겠습니다! ",
+      },
+      {
+        position: "국원",
+        name: "연하늘",
+        major: "스포츠건강관리전공 23",
+        img: Img32,
+        alt: "img2",
+        size: "squ",
+        content:
+          "안녕하십니까, 총학생회 선[先]의 기획국 국장을 맡은 화학에너지공학전공 18학번 박주현입니다.",
+      },
+      {
+        position: "국원",
+        name: "이종민",
+        major: "경영학부 22",
+        img: Img25,
+        alt: "img25",
+        size: "rec",
+        content:
+          "안녕하십니까, 총학생회 선[先] 기획국 국원 이종민입니다.<br/>학우분들이 훗날 상명대를 떠올렸을 때 행복했던 추억이 많았다고<br/>느낄 수 있도록 노력하겠습니다!",
+      },
+      {
+        position: "국원",
+        name: "남윤규",
+        major: "전기공학전공 22",
+        img: Img32,
+        alt: "img2",
+        size: "squ",
+        content:
+          "안녕하십니까, 총학생회 선[先]의 기획국 국장을 맡은 화학에너지공학전공 18학번 박주현입니다.",
+      },
+      {
+        position: "국원",
+        name: "정예원",
+        major: "문헌정보학전공 23",
+        img: Img26,
+        alt: "img26",
+        size: "rec",
+        content:
+          "안녕하십니까, 총학생회 선[先] 기획국 국원 정예원입니다.<br/>기획국원으로서 국차장님과 함께 열심히 일하겠습니다💙",
+      },
+      {
+        position: "국원",
+        name: "문예윤",
+        major: "게임전공 21",
+        img: Img24,
+        alt: "img24",
+        size: "squ",
+        content:
+          "안녕하십니까, 총학생회 선[先] 기획국 국원 문예윤입니다.<br/>열정열정열정!",
+      },
+      {
+        position: "국원",
+        name: "김민지",
+        major: "경영학부 23",
+        img: Img21,
+        alt: "img21",
+        size: "rec",
+        content:
+          "안녕하십니까, 총학생회 선[先] 기획국 국원 김민지입니다.<br/>단조로운 학교생활 속 다양한 즐거움을 드리기 위해 최선을 다하겠습니다!",
+      },
+    ],
   },
   {
-    position: "국원",
-    name: "이세린",
-    major: "화학에너지공학전공 21",
-    img: Img32,
-    alt: "img2",
-    size: "squ",
-  },
-  {
-    position: "국원",
-    name: "김진희",
-    major: "가족복지학과 22",
-    img: Img31,
-    alt: "img31",
-    size: "squ",
-  },
-  {
-    position: "국원",
-    name: "연하늘",
-    major: "스포츠건강관리전공 23",
-    img: Img32,
-    alt: "img2",
-    size: "squ",
-  },
-  {
-    position: "국원",
-    name: "이종민",
-    major: "경영학부 22",
-    img: Img25,
-    alt: "img25",
-    size: "rec",
-  },
-  {
-    position: "국원",
-    name: "남윤규",
-    major: "전기공학전공 22",
-    img: Img32,
-    alt: "img2",
-    size: "squ",
-  },
-  {
-    position: "국원",
-    name: "정예원",
-    major: "문헌정보학전공 23",
-    img: Img26,
-    alt: "img26",
-    size: "rec",
-  },
-  {
-    position: "국원",
-    name: "문예윤",
-    major: "게임전공 21",
-    img: Img24,
-    alt: "img24",
-    size: "squ",
-  },
-  {
-    position: "국원",
-    name: "김민지",
-    major: "경영학부 23",
-    img: Img21,
-    alt: "img21",
-    size: "rec",
+    id: "financialofficework",
+    subItem: [
+      {
+        position: "국장",
+        name: "김준식",
+        major: "컴퓨터과학전공 17",
+        img: Img13,
+        alt: "img13",
+        size: "rec",
+        content: "안녕하십니까, 총학생회 선[先] 재정사무국 국장 김준식입니다.<br/>학우 여러분에게 희망과 행복이 가득한 청춘의 대학생활과 더불어 학우들을 위한, 학우들이 원하는 캠퍼스를 만들고 따뜻한 봄과 함께 새로운 시작이 도래할 수 있도록 노력하겠습니다."
+      },
+      {
+        position: "차장",
+        name: "김지훈",
+        major: "화공신소재전공 19",
+        img: Img14,
+        alt: "img14",
+        size: "rec",
+        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다"
+      },
+      {
+        position: "국원",
+        name: "김경은",
+        major: "행정학부 20",
+        img: Img23,
+        alt: "img2",
+        size: "rec",
+        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다"
+      },
+      {
+        position: "국원",
+        name: "백지연",
+        major: "휴먼지능정보공학전공 22",
+        img: Img35,
+        alt: "img35",
+        size: "squ",
+        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다"
+      },
+      {
+        position: "국원",
+        name: "김남경",
+        major: "휴먼지능정보공학전공 22",
+        img: Img35,
+        alt: "img35",
+        size: "squ",
+        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다"
+      },
+      {
+        position: "국원",
+        name: "서찬솔",
+        major: "전기공학전공 22",
+        img: Img35,
+        alt: "img35",
+        size: "squ",
+        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다"
+      },
+      {
+        position: "국원",
+        name: "이현승",
+        major: "화공신소재전공 22",
+        img: Img35,
+        alt: "img35",
+        size: "squ",
+        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다"
+      },
+      {
+        position: "국원",
+        name: "강하연",
+        major: "영어교육과 23",
+        img: Img35,
+        alt: "img35",
+        size: "squ",
+        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다"
+      },
+      {
+        position: "국원",
+        name: "이규리",
+        major: "가족복지학과 22",
+        img: Img19,
+        alt: "img19",
+        size: "rec",
+        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다"
+      },
+    ],
   },
 ];
 
-export const DepartFinancialData = [
-  {
-    position: "국장",
-    name: "김준식",
-    major: "컴퓨터과학전공 17",
-    img: Img13,
-    alt: "img13",
-    size: "rec",
-  },
-  {
-    position: "차장",
-    name: "김지훈",
-    major: "화공신소재전공 19",
-    img: Img14,
-    alt: "img14",
-    size: "rec",
-  },
-  {
-    position: "국원",
-    name: "김경은",
-    major: "행정학부 20",
-    img: Img23,
-    alt: "img2",
-    size: "rec",
-  },
-  {
-    position: "국원",
-    name: "백지연",
-    major: "휴먼지능정보공학전공 22",
-    img: Img35,
-    alt: "img35",
-    size: "squ",
-  },
-  {
-    position: "국원",
-    name: "김남경",
-    major: "휴먼지능정보공학전공 22",
-    img: Img35,
-    alt: "img35",
-    size: "squ",
-  },
-  {
-    position: "국원",
-    name: "서찬솔",
-    major: "전기공학전공 22",
-    img: Img35,
-    alt: "img35",
-    size: "squ",
-  },
-  {
-    position: "국원",
-    name: "이현승",
-    major: "화공신소재전공 22",
-    img: Img35,
-    alt: "img35",
-    size: "squ",
-  },
-  {
-    position: "국원",
-    name: "강하연",
-    major: "영어교육과 23",
-    img: Img35,
-    alt: "img35",
-    size: "squ",
-  },
-  {
-    position: "국원",
-    name: "이규리",
-    major: "가족복지학과 22",
-    img: Img19,
-    alt: "img19",
-    size: "rec",
-  },
-];
+export const DepartFinancialData = [];
 
 export const DepartForeignData = [
   {

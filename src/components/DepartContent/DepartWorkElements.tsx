@@ -25,9 +25,8 @@ const Title = styled.div`
 `;
 
 const WorkBox = styled.div`
-  display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
+  justify-content: space-between;
 `;
 
 const WorkInnerBox = styled.div`
@@ -35,6 +34,7 @@ const WorkInnerBox = styled.div`
   border-radius: 10px;
   background-color: rgb(250, 251, 252);
   background-color: #f1eeee;
+  width: 254px;
 `;
 
 const ItemBox = styled.div``;
