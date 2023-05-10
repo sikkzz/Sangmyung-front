@@ -10,8 +10,6 @@ import {
   TextBox,
 } from "./DepartIntroduceElements";
 
-import Img from "../../assets/test.jpg";
-
 import { DepartIntroData } from "../../constants/data/DepartData";
 
 import { Props } from "./DepartContent";
@@ -22,13 +20,14 @@ const DepartIntroduce: React.FC<Props> = ({ state }) => {
       <Col>
         <Box>
           <BoxLeft>
-            <ImageBox>
-              <Image src={Img} alt="img" />
-            </ImageBox>
             {DepartIntroData.map((item, index) => (
               <div key={index}>
                 {item.id === state ? (
                   <>
+                    <ImageBox>
+                      <Image src={item.img} alt={item.alt} />
+                    </ImageBox>
+
                     <TextBox
                       fontSize="26px"
                       lineHeight="initial"

@@ -32,7 +32,7 @@ const BoxRight = styled.div`
 
 const ImageBox = styled.div`
   width: 200px;
-  height: 100px;
+  height: 200px;
   margin-bottom: 10px;
 `;
 
@@ -42,7 +42,11 @@ const Image = styled.img`
   object-fit: cover;
 `;
 
-const TextBox = styled.div<{ fontSize: string, lineHeight: string, textAlign: string }>`
+const TextBox = styled.div<{
+  fontSize: string;
+  lineHeight: string;
+  textAlign: string;
+}>`
   display: flex;
   justify-content: center;
   font-size: ${(props) => props.fontSize};
