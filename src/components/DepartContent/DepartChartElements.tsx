@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Layout = styled.div`
   padding-top: 30px;
   padding-bottom: 100px;
@@ -26,6 +28,7 @@ const ProfileBox = styled.div``;
 const ProfileItemBox = styled.div`
   display: flex;
   margin-top: 70px;
+  ${media.mobile`flex-direction: column;align-items: center;`}
 `;
 
 const ImgBox = styled.div``;
@@ -39,12 +42,14 @@ const ImgOutBox = styled.div`
   position: relative;
   background-color: #000;
   border-radius: 50%;
+  ${media.mobile`width: 140px;height: 140px;`}
 `;
 
 const Img = styled.img<{ width: string; height: string; radius: string }>`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   border-radius: ${(props) => props.radius};
+  ${media.mobile`width: 100px;height: 100px;`}
 `;
 
 const InfoBox = styled.div`
@@ -54,11 +59,13 @@ const InfoBox = styled.div`
   align-items: center;
   margin-left: 30px;
   width: 200px;
+  ${media.mobile`margin-left: 0;`}
 `;
 
 const Position = styled.div`
   font-size: 36px;
   font-weight: 700;
+  ${media.mobile`font-size: 28px;`}
 `;
 
 const Name = styled.div`

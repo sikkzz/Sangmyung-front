@@ -8,6 +8,7 @@ import {
   ImageBox,
   Image,
   TextBox,
+  Content,
 } from "./DepartIntroduceElements";
 
 import { DepartIntroData } from "../../constants/data/DepartData";
@@ -52,17 +53,7 @@ const DepartIntroduce: React.FC<Props> = ({ state }) => {
           <BoxRight>
             {DepartIntroData.map((item, index) => (
               <div key={index}>
-                {item.id === state ? (
-                  <TextBox
-                    fontSize="18px"
-                    lineHeight="36px"
-                    textAlign="initial"
-                  >
-                    {item.contents}
-                  </TextBox>
-                ) : (
-                  ""
-                )}
+                {item.id === state ? <Content>{item.contents}</Content> : ""}
               </div>
             ))}
           </BoxRight>

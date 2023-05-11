@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Layout = styled.div`
   padding-top: 30px;
   padding-bottom: 100px;
@@ -27,14 +29,18 @@ const Title = styled.div`
 const WorkBox = styled.div`
   display: flex;
   justify-content: space-between;
+  ${media.mobile`flex-direction: column;align-items: center;margin-top: 20px;`}
 `;
 
 const WorkInnerBox = styled.div`
-  padding: 20px 24px;
+  padding: 20px;
   border-radius: 10px;
-  background-color: rgb(250, 251, 252);
   background-color: #f1eeee;
-  width: 254px;
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  ${media.mobile`padding: 30px;justify-content: center;margin-top: 20px;`}
 `;
 
 const ItemBox = styled.div``;
@@ -57,11 +63,13 @@ const WorkTitle = styled.div`
   font-weight: 700;
   font-size: 18px;
   margin-top: 12px;
+  ${media.mobile`font-size: 14px;`}
 `;
 
 const WorkContent = styled.div`
   font-size: 16px;
   line-height: 26px;
+  ${media.mobile`font-size: 12px;line-height: 20px;`}
 `;
 
 export {
