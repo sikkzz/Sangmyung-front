@@ -19,7 +19,9 @@ const Title = styled.div`
   margin-top: 50px;
 `;
 
-const CalendarBox = styled.div``;
+const CalendarBox = styled.div`
+  margin-top: 50px;
+`;
 
 const Header = styled.div`
   width: 100%;

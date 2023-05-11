@@ -1,28 +1,6 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 
-import styled from "styled-components";
-
-const Layout = styled.div`
-  padding-top: 100px;
-  padding-bottom: 100px;
-`;
-
-const Col = styled.div`
-  max-width: 1120px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-`;
-
-const Box = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
-
-const Title = styled.div`
-  font-size: 36px;
-`;
+import { Layout, Col, Box, Title, MapBox } from "./MapElements";
 
 const kakao = (window as any).kakao;
 
@@ -51,7 +29,12 @@ const Map = () => {
       <Col>
         <Box>
           <Title>총학생회실</Title>
-          <div id="map" style={{ width: "100%", height: "100vh" }} />
+          <MapBox>
+            <div
+              id="map"
+              style={{ width: "100%", height: "100%", marginTop: "50px" }}
+            />
+          </MapBox>
         </Box>
       </Col>
     </Layout>
