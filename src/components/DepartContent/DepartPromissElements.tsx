@@ -47,7 +47,7 @@ const IconBox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #000;
+  background-color: #dfdfdf;
 `;
 
 const IconSubBox = styled.div`

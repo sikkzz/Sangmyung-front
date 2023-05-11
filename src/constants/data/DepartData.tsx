@@ -333,7 +333,7 @@ export const DepartData = [
         alt: "img2",
         size: "squ",
         content:
-          "안녕하십니까, 총학생회 선[先]의 기획국 국장을 맡은 화학에너지공학전공 18학번 박주현입니다.",
+          "안녕하십니까, 총학생회 선[先] 기획국 국원 이주환입니다.",
       },
       {
         position: "국원",
@@ -343,7 +343,7 @@ export const DepartData = [
         alt: "img2",
         size: "squ",
         content:
-          "안녕하십니까, 총학생회 선[先]의 기획국 국장을 맡은 화학에너지공학전공 18학번 박주현입니다.",
+          "안녕하십니까, 총학생회 선[先] 기획국 국원 이세린입니다.",
       },
       {
         position: "국원",
@@ -363,7 +363,7 @@ export const DepartData = [
         alt: "img2",
         size: "squ",
         content:
-          "안녕하십니까, 총학생회 선[先]의 기획국 국장을 맡은 화학에너지공학전공 18학번 박주현입니다.",
+          "안녕하십니까, 총학생회 선[先] 기획국 국원 연하늘입니다.",
       },
       {
         position: "국원",
@@ -383,7 +383,7 @@ export const DepartData = [
         alt: "img2",
         size: "squ",
         content:
-          "안녕하십니까, 총학생회 선[先]의 기획국 국장을 맡은 화학에너지공학전공 18학번 박주현입니다.",
+        "안녕하십니까, 총학생회 선[先] 기획국 국원 남윤규입니다.",
       },
       {
         position: "국원",
@@ -458,7 +458,7 @@ export const DepartData = [
         alt: "img35",
         size: "squ",
         content:
-          "안녕하십니까, 총학생회 선[先] 재정사무국 국원 백지연입니다.<br/> ",
+          "안녕하십니까, 총학생회 선[先] 재정사무국 국원 백지연입니다. ",
       },
       {
         position: "국원",
@@ -477,7 +477,7 @@ export const DepartData = [
         img: Img35,
         alt: "img35",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다",
+        content: "안녕하십니까, 총학생회 선[先] 재정사무국 국원 서찬솔입니다",
       },
       {
         position: "국원",
@@ -486,7 +486,7 @@ export const DepartData = [
         img: Img35,
         alt: "img35",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다",
+        content: "안녕하십니까, 총학생회 선[先] 재정사무국 국원 이현승입니다",
       },
       {
         position: "국원",
@@ -495,7 +495,7 @@ export const DepartData = [
         img: Img35,
         alt: "img35",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다",
+        content: "안녕하십니까, 총학생회 선[先] 재정사무국 국원 강하연입니다",
       },
       {
         position: "국원",
@@ -539,7 +539,7 @@ export const DepartData = [
         img: Img36,
         alt: "img36",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대외협력국 국원 김건태입니다.",
       },
       {
         position: "국원",
@@ -548,7 +548,7 @@ export const DepartData = [
         img: Img36,
         alt: "img36",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대외협력국 국원 류민우입니다.",
       },
       {
         position: "국원",
@@ -557,7 +557,7 @@ export const DepartData = [
         img: Img36,
         alt: "img36",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대외협력국 국원 이문언입니다.",
       },
       {
         position: "국원",
@@ -566,7 +566,7 @@ export const DepartData = [
         img: Img36,
         alt: "img36",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대외협력국 국원 이지수입니다.",
       },
       {
         position: "국원",
@@ -575,7 +575,7 @@ export const DepartData = [
         img: Img36,
         alt: "img36",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대외협력국 국원 한서연입니다.",
       },
       {
         position: "국원",
@@ -594,7 +594,7 @@ export const DepartData = [
         img: Img36,
         alt: "img36",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대외협력국 국원 허유경입니다.",
       },
       {
         position: "국원",
@@ -603,7 +603,7 @@ export const DepartData = [
         img: Img36,
         alt: "img36",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대외협력국 국원 김지은입니다.",
       },
       {
         position: "국원",
@@ -612,7 +612,7 @@ export const DepartData = [
         img: Img36,
         alt: "img36",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대외협력국 국원 이하정입니다.",
       },
       {
         position: "국원",
@@ -656,7 +656,7 @@ export const DepartData = [
         img: Img38,
         alt: "img38",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대내교류국 국원 방호진입니다.",
       },
       {
         position: "국원",
@@ -665,7 +665,7 @@ export const DepartData = [
         img: Img38,
         alt: "img38",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대내교류국 국원 이서현입니다.",
       },
       {
         position: "국원",
@@ -684,7 +684,7 @@ export const DepartData = [
         img: Img38,
         alt: "img38",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대내교류국 국원 방호진입니다.",
       },
       {
         position: "국원",
@@ -703,7 +703,7 @@ export const DepartData = [
         img: Img38,
         alt: "img38",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대내교류국 국원 오동환입니다.",
       },
       {
         position: "국원",
@@ -712,7 +712,7 @@ export const DepartData = [
         img: Img38,
         alt: "img38",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대내교류국 국원 김민정입니다.",
       },
       {
         position: "국원",
@@ -776,7 +776,7 @@ export const DepartData = [
         img: Img33,
         alt: "img33",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 복지사업국 국원 정여진입니다.",
       },
       {
         position: "국원",
@@ -805,7 +805,7 @@ export const DepartData = [
         img: Img33,
         alt: "img33",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 복지사업국 국원 조민재입니다.",
       },
       {
         position: "국원",
@@ -814,7 +814,7 @@ export const DepartData = [
         img: Img33,
         alt: "img33",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 복지사업국 국원 배원혁입니다.",
       },
       {
         position: "국원",
@@ -823,7 +823,7 @@ export const DepartData = [
         img: Img33,
         alt: "img33",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 복지사업국 국원 오민기입니다.",
       },
       {
         position: "국원",
@@ -832,7 +832,7 @@ export const DepartData = [
         img: Img33,
         alt: "img33",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 복지사업국 국원 이현지입니다.",
       },
       {
         position: "국원",
@@ -851,7 +851,7 @@ export const DepartData = [
         img: Img33,
         alt: "img33",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 복지사업국 국원 이건호입니다.",
       },
       {
         position: "국원",
@@ -860,7 +860,7 @@ export const DepartData = [
         img: Img33,
         alt: "img33",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 복지사업국 국원 양현정입니다.",
       },
     ],
   },
@@ -894,7 +894,7 @@ export const DepartData = [
         img: Img34,
         alt: "img34",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 교육지원국 국원 김도현입니다.",
       },
       {
         position: "국원",
@@ -923,7 +923,7 @@ export const DepartData = [
         img: Img34,
         alt: "img34",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 교육지원국 국원 조정현입니다.",
       },
       {
         position: "국원",
@@ -932,7 +932,7 @@ export const DepartData = [
         img: Img34,
         alt: "img34",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 교육지원국 국원 최민준입니다.",
       },
       {
         position: "국원",
@@ -941,7 +941,7 @@ export const DepartData = [
         img: Img34,
         alt: "img34",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 교육지원국 국원 나희진입니다.",
       },
       {
         position: "국원",
@@ -950,7 +950,7 @@ export const DepartData = [
         img: Img34,
         alt: "img34",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 교육지원국 국원 한세민입니다.",
       },
       {
         position: "국원",
@@ -959,7 +959,7 @@ export const DepartData = [
         img: Img34,
         alt: "img34",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 교육지원국 국원 이서준입니다.",
       },
     ],
   },
@@ -993,7 +993,7 @@ export const DepartData = [
         img: Img37,
         alt: "img37",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 홍보국 국원 신성빈입니다.",
       },
       {
         position: "국원",
@@ -1002,7 +1002,7 @@ export const DepartData = [
         img: Img37,
         alt: "img37",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 홍보국 국원 지동근입니다.",
       },
       {
         position: "국원",
@@ -1011,7 +1011,7 @@ export const DepartData = [
         img: Img37,
         alt: "img37",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 홍보국 국원 임경환입니다.",
       },
       {
         position: "국원",
@@ -1020,8 +1020,25 @@ export const DepartData = [
         img: Img37,
         alt: "img37",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 재정사무국 차장 김지훈입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 홍보국 국원 김민정입니다.",
       },
     ],
   },
 ];
+
+export const DepartPromissData = [
+  {
+    id: "planning",
+    subItem: [
+      {
+        icon: <Icons.MdFestival size={100} color="#000" />,
+        title: "대동제 기획",
+        content: "학생들이 즐길 수 있는 대동제 행사 기획 및 사업 집행 추진",
+        progress: "ing"
+      }
+      // {
+      //   icon: <Icons.
+      // }
+    ]
+  }
+]

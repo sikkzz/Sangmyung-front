@@ -1,4 +1,4 @@
-import Icons from "../icon";
+ import Icons from "../icon";
 
 export const PledgeCommunicationData1 = [
   {
