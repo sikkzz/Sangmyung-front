@@ -68,17 +68,9 @@ const PromissTitle = styled.div`
   margin-bottom: 30px;
   color: var(--main-blue);
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   display: flex;
   justify-content: center;
-`;
-
-const PromissContent = styled.div`
-  font-size: 18px;
-  line-height: 24px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 `;
 
 export {
@@ -92,5 +84,4 @@ export {
   IconBox,
   IconSubBox,
   PromissTitle,
-  PromissContent,
 };

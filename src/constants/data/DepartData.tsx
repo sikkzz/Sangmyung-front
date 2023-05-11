@@ -44,52 +44,52 @@ export const DepartIntroData = [
     contents:
       "상명대학교 서울캠퍼스 제 46대 총학생회 ‘선[先]’ 기획국입니다. 기획국에서는 축제, 체육대회, 동아리공연 등 다양한 행사를 기획하는 업무를 맡고 있습니다. 항상 재미있고 안전한 행사를 기획하며 즐거운 상명대학교를 만들기 위해 최선을 다해 노력하겠습니다.",
     img: Img32,
-    alt: "img32"
+    alt: "img32",
   },
   {
     id: "financialofficework",
     title: "재정사무국",
     sub: "Financial officework Department",
     contents:
-      "상명대학교 서울캠퍼스 제46대 총학생회 선[先] 재정사무국입니다. 재정사무국에서는 총학생회 예결산 처리 및 기안 작성, 공약 이행 사항 관리, 학내 청원 및 민원 관리, 회의록 및 기록물 관리 업무 등을 맡고 있습니다. 학우 여러분의 학생회비가 투명하게 쓰이도록 항상 노력하겠습니다.",
+      "상명대학교 서울캠퍼스 제46대 총학생회 '선[先]' 재정사무국입니다. 재정사무국에서는 총학생회 예결산 처리 및 기안 작성, 공약 이행 사항 관리, 학내 청원 및 민원 관리, 회의록 및 기록물 관리 업무 등을 맡고 있습니다. 학우 여러분의 학생회비가 투명하게 쓰이도록 항상 노력하겠습니다.",
     img: Img35,
-    alt: "img35"
+    alt: "img35",
   },
   {
     id: "foreigncooperation",
     title: "대외협력국",
     sub: "Foreign cooperation Department",
     contents:
-      "상명대학교 서울캠퍼스 제46대 총학생회 선(先) 대외협력국입니다. 대외협력국에서는 각종 제휴 & 프로모션 협약 체결 업무, 외부기관과의 협력 체계 구축 등의 업무를 담당하고 있습니다. 학우 여러분의 더 나은 학교 생활을 위해 항상 노력하겠습니다.",
+      "상명대학교 서울캠퍼스 제46대 총학생회 '선[先]' 대외협력국입니다. 대외협력국에서는 각종 제휴 & 프로모션 협약 체결 업무, 외부기관과의 협력 체계 구축 등의 업무를 담당하고 있습니다. 학우 여러분의 더 나은 학교 생활을 위해 항상 노력하겠습니다.",
     img: Img36,
-    alt: "img36"
+    alt: "img36",
   },
   {
     id: "internalcommunication",
     title: "대내교류국",
     sub: "Internal communication Department",
     contents:
-      "상명대학교 서울캠퍼스 제46대 총학생회 선[先] 대내교류국입니다. 대내교류국은 상명대학교 서울캠퍼스 내부 소통을 담당하고 있습니다. 학우분들의 의견을 수렴하여, 학교에 학우분들의 의사가 반영될 수 있도록 항상 최선을 다해 노력하겠습니다.",
+      "상명대학교 서울캠퍼스 제46대 총학생회 '선[先]' 대내교류국입니다. 대내교류국은 상명대학교 서울캠퍼스 내부 소통을 담당하고 있습니다. 학우분들의 의견을 수렴하여, 학교에 학우분들의 의사가 반영될 수 있도록 항상 최선을 다해 노력하겠습니다.",
     img: Img38,
-    alt: "img38"
+    alt: "img38",
   },
   {
     id: "welfarework",
     title: "복지사업국",
     sub: "Welfare work Department",
     contents:
-      "상명대학교 서울캠퍼스 제46대 총학생회 선[先] 복지사업국입니다. 복지사업국은 상명대학교 전체 학우들의 복지를 위해 다양한 사업 혹은 활동을 지원하는 부서입니다. 대표적으로 농촌 봉사 활동을 기획하고 총괄하는 업무가 있으며 그 외에 의류 공동 사업, 사회 봉사 활동 등 학우분들의 만족스러운 학교 생활을 위한 전반적인 사항을 담당하고 있습니다.",
+      "상명대학교 서울캠퍼스 제46대 총학생회 '선[先]' 복지사업국입니다. 복지사업국은 상명대학교 전체 학우들의 복지를 위해 다양한 사업 혹은 활동을 지원하는 부서입니다. 대표적으로 농촌 봉사 활동을 기획하고 총괄하는 업무가 있으며 그 외에 의류 공동 사업, 사회 봉사 활동 등 학우분들의 만족스러운 학교 생활을 위한 전반적인 사항을 담당하고 있습니다.",
     img: Img33,
-    alt: "img33"
+    alt: "img33",
   },
   {
     id: "educationsupporting",
     title: "교육지원국",
     sub: "Education supporting Department",
     contents:
-      "상명대학교 서울캠퍼스 제46대 총학생회 선[先] 교육지원국입니다. 교육지원국은 학사운영 관련 사항 개선, 교육/진로/취업 등의 전보 전달, 국제교류 프로그램 정보 전달, 기타 교육지원을 위한 방안 모색 등을 맡고 있습니다. 학우 여러분이 유익한 학교 생활을 영위할 수 있도록 언제나 학사, 진로 등의 고민 앞에 한 걸음 먼저 서 있겠습니다.",
+      "상명대학교 서울캠퍼스 제46대 총학생회 '선[先]' 교육지원국입니다. 교육지원국은 학사운영 관련 사항 개선, 교육/진로/취업 등의 전보 전달, 국제교류 프로그램 정보 전달, 기타 교육지원을 위한 방안 모색 등을 맡고 있습니다. 학우 여러분이 유익한 학교 생활을 영위할 수 있도록 언제나 학사, 진로 등의 고민 앞에 한 걸음 먼저 서 있겠습니다.",
     img: Img34,
-    alt: "img34"
+    alt: "img34",
   },
   {
     id: "promotion",
@@ -98,7 +98,7 @@ export const DepartIntroData = [
     contents:
       "기획국에서는 행사, 이벤트, 대동제(축제) 기획 등 학우들에게 즐길거리 제공을 위한 기획을 집행합니다. 더 나아가서 학생들을 위한 콘텐츠 사업들을 추진하는 업무를 맡고 있습니다. 학생회 공약 사업 추진, 학생회 사업 계획 마련등의 업무를 추가로 이행하고 있습니다.",
     img: Img37,
-    alt: "img37"
+    alt: "img37",
   },
 ];
 
@@ -274,27 +274,27 @@ export const DepartWorkData = [
     work: [
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "총학생회 유튜브 계정 운영",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "총학생회의 업무 모습 및 일상을 영상물을 통해 학우분들과 공유하여 총학생회에 대한 직관적인 이해를 돕고 심리적 거리를 좁힐 수 있도록 노력합니다.",
       },
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "학교 홍보 영상 제작",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "학교 주요 행사와 교정의 모습을 영상물로 기록해 추후 외부에 학교를 홍보할 수 있는 자료들을 수집하고 게시합니다.",
       },
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "그래픽 홍보물 제작",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "총학생회가 진행하는 행사 홍보물들을 제작하여 시각적으로 그 의미가 잘 전달될 수 있도록 합니다. 이를 위하여 그래픽 요소들을 이용한 카드 뉴스, 포스터 등을 제작합니다.",
       },
       {
         workIcon: <Icons.MdWorkOutline size={48} color="#fff" />,
-        workTitle: "행사 기획",
+        workTitle: "굿즈 및 디자인 그래픽 작업물 제작",
         workContent:
-          "학생들이 즐길 수 있는 콘텐츠들을 기획하고 집행하는 업무를 맡아서 합니다.",
+          "상명대학교와 총학생회의 정체성을 잘 투영하여 학교 및 축제 기념품, 공동 구매 의류 등 자체 제작 물품 및 굿즈등을 디자인합니다.",
       },
     ],
   },
@@ -332,8 +332,7 @@ export const DepartData = [
         img: Img32,
         alt: "img2",
         size: "squ",
-        content:
-          "안녕하십니까, 총학생회 선[先] 기획국 국원 이주환입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 기획국 국원 이주환입니다.",
       },
       {
         position: "국원",
@@ -342,8 +341,7 @@ export const DepartData = [
         img: Img32,
         alt: "img2",
         size: "squ",
-        content:
-          "안녕하십니까, 총학생회 선[先] 기획국 국원 이세린입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 기획국 국원 이세린입니다.",
       },
       {
         position: "국원",
@@ -362,8 +360,7 @@ export const DepartData = [
         img: Img32,
         alt: "img2",
         size: "squ",
-        content:
-          "안녕하십니까, 총학생회 선[先] 기획국 국원 연하늘입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 기획국 국원 연하늘입니다.",
       },
       {
         position: "국원",
@@ -382,8 +379,7 @@ export const DepartData = [
         img: Img32,
         alt: "img2",
         size: "squ",
-        content:
-        "안녕하십니까, 총학생회 선[先] 기획국 국원 남윤규입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 기획국 국원 남윤규입니다.",
       },
       {
         position: "국원",
@@ -457,8 +453,7 @@ export const DepartData = [
         img: Img35,
         alt: "img35",
         size: "squ",
-        content:
-          "안녕하십니까, 총학생회 선[先] 재정사무국 국원 백지연입니다. ",
+        content: "안녕하십니까, 총학생회 선[先] 재정사무국 국원 백지연입니다. ",
       },
       {
         position: "국원",
@@ -1026,19 +1021,48 @@ export const DepartData = [
   },
 ];
 
-export const DepartPromissData = [
-  {
-    id: "planning",
-    subItem: [
-      {
-        icon: <Icons.MdFestival size={100} color="#000" />,
-        title: "대동제 기획",
-        content: "학생들이 즐길 수 있는 대동제 행사 기획 및 사업 집행 추진",
-        progress: "ing"
-      }
-      // {
-      //   icon: <Icons.
-      // }
-    ]
-  }
-]
+// export const DepartPromissData = [
+//   {
+//     id: "planning",
+//     subItem: [
+//       {
+//         icon: <Icons.MdFestival size={80} color="#000" />,
+//         title: "대동제 기획",
+//         progress: "ing"
+//       },
+//       {
+//         icon: <Icons.MdOutlineFestival size={80} color="#000" />,
+//         title: "동아리 문화제 시행",
+//         progress: "ing"
+//       },
+//       {
+//         icon: <Icons.FaMedal size={80} color="#000" />,
+//         title: "체전 시행 및 SMCL 재활성화",
+//         progress: "ing"
+//       },
+//       {
+//         icon: <Icons.GiPartyPopper size={80} color='#000' />,
+//         title: "학기 중 이벤트성 행사 진행",
+//         progress: "ing"
+//       }
+//       // {
+//       //   icon: <Icons.
+//       // }
+//     ]
+//   },
+//   {
+//     id: "financialofficework",
+//     subItem: [
+//       {
+//         icon: <Icons.BsUiChecksGrid size={80} color="#000" />,
+//         title: "공약 이행 점검",
+//         progress: "ing"
+//       },
+//       {
+//         icon: <Icons.AiFillFolderOpen size={80} color="#000" />,
+//         title: "투명한 학생회비 집행 내역 공개",
+//         progress: "ing"
+//       },
+//     ]
+//   }
+// ]
