@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 const Layout = styled.div`
-  padding-top: 30px;
-  padding-bottom: 100px;
+  /* padding-top: 30px; */
+  /* padding-bottom: 100px; */
 `;
 
 const Col = styled.div`

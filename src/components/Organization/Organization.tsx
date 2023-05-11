@@ -10,7 +10,8 @@ import {
   Line,
   ImageBox,
   Image,
-  ProfileBox,
+  MImg,
+  ProfileMainBox,
   ProfileInnerBox,
   ProfileImageBox,
   ProfileTextBox,
@@ -30,11 +31,6 @@ import Education from "./Education";
 import Promotion from "./Promotion";
 
 import Img from "../../assets/chart.png";
-import Img2 from "../../assets/test.jpg";
-import Img3 from "../../assets/political.jpeg";
-import Img4 from "../../assets/deputy.jpeg";
-
-import Test from "../../assets/profile/gahyun.jpeg";
 
 import { OrganiData } from "../../constants/data/OrganiData";
 
@@ -52,12 +48,12 @@ export default function Organization() {
               <Line>ㅣ</Line>
             </TextBox>
             <ImageBox>
-              <Title>총학생회 선</Title>
+              <Title>총학생회 '선[先]'</Title>
 
-              <ProfileBox marginTop="50px">
+              <ProfileMainBox marginTop="50px">
                 {OrganiData.map((item, index) => (
                   <ProfileInnerBox key={index}>
-                    <ProfileImageBox width="160px" height="160px">
+                    <ProfileImageBox>
                       <Image
                         src={item.img}
                         alt={item.alt}
@@ -65,16 +61,23 @@ export default function Organization() {
                         height="144px"
                         radius="50px"
                       />
+                      <MImg
+                        src={item.img}
+                        alt={item.alt}
+                        width="80px"
+                        height="108px"
+                        radius="50px"
+                      />
                     </ProfileImageBox>
                     <ProfileTextBox>
-                      <Group fontSize="24px">{item.group}</Group>
-                      <Position fontSize="30px">{item.position}</Position>
+                      <Group>{item.group}</Group>
+                      <Position>{item.position}</Position>
                       <Name>{item.name}</Name>
-                      <Major fontSize="24px">{item.major}</Major>
+                      <Major>{item.major}</Major>
                     </ProfileTextBox>
                   </ProfileInnerBox>
                 ))}
-              </ProfileBox>
+              </ProfileMainBox>
               <DepartBox>
                 <Planning />
                 <Financial />

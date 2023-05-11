@@ -5,14 +5,20 @@ import {
   ProfileOuter,
   ProfileInnerCol,
   ProfileImageBox,
+  ProfileImgSubBox,
   Image,
+  MImg,
+  SubImg,
+  MSubImg,
   ProfileTextBox,
   Group,
+  SubGroup,
   Position,
   Name,
   Sub,
   SubName,
   Major,
+  SubMajor,
 } from "./OrganiElements";
 
 import { ForeignData } from "../../constants/data/OrganiData";
@@ -24,11 +30,7 @@ const Foreign = () => {
         <ProfileInnerBox key={index}>
           {item.headItem.map((item, index) => (
             <ProfileOuter key={index}>
-              <ProfileImageBox
-                width="160px"
-                height="160px"
-                style={{ margin: "0 250px" }}
-              >
+              <ProfileImageBox>
                 <Image
                   src={item.img}
                   alt={item.alt}
@@ -36,12 +38,19 @@ const Foreign = () => {
                   height={item?.size === "squ" ? "120px" : "144px"}
                   radius={item?.size === "squ" ? "50%" : "50px"}
                 />
+                <MImg
+                  src={item.img}
+                  alt={item.alt}
+                  width={item?.size === "squ" ? "100px" : "80px"}
+                  height={item?.size === "squ" ? "100px" : "108px"}
+                  radius={item?.size === "squ" ? "50%" : "50px"}
+                />
               </ProfileImageBox>
               <ProfileTextBox>
-                <Group fontSize="24px">대외협력국</Group>
-                <Position fontSize="30px">{item.position}</Position>
+                <Group>대외협력국</Group>
+                <Position>{item.position}</Position>
                 <Name>{item.name}</Name>
-                <Major fontSize="24px">{item.major}</Major>
+                <Major>{item.major}</Major>
               </ProfileTextBox>
             </ProfileOuter>
           ))}
@@ -53,23 +62,29 @@ const Foreign = () => {
                   <ProfileInnerCol key={index}>
                     {item.lastItem.map((item, index) => (
                       <ProfileInnerBox key={index}>
-                        <ProfileImageBox width="120px" height="120px">
-                          <Image
+                        <ProfileImgSubBox>
+                          <SubImg
                             src={item.img}
                             alt={item.alt}
                             width={item?.size === "squ" ? "100px" : "80px"}
-                            // height={item?.size === "squ" ? "100px" : "144px"}
-                            height={"100px"}
+                            height="100px"
                             radius={item?.size === "squ" ? "50%" : "50px"}
                           />
-                        </ProfileImageBox>
+                          <MSubImg
+                            src={item.img}
+                            alt={item.alt}
+                            width={item?.size === "squ" ? "80px" : "68px"}
+                            height="80px"
+                            radius={item?.size === "squ" ? "50%" : "50px"}
+                          />
+                        </ProfileImgSubBox>
                         <ProfileTextBox>
-                          <Group fontSize="16px">대외협력국</Group>
+                          <SubGroup>대외협력국</SubGroup>
                           <SubName>
                             <Sub>국원 </Sub>
                             {item.name}
                           </SubName>
-                          <Major fontSize="16px">{item.major}</Major>
+                          <SubMajor>{item.major}</SubMajor>
                         </ProfileTextBox>
                       </ProfileInnerBox>
                     ))}

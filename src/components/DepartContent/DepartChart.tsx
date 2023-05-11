@@ -8,6 +8,7 @@ import {
   ImgBox,
   ImgOutBox,
   Img,
+  MImg,
   InfoBox,
   Position,
   Name,
@@ -45,6 +46,7 @@ const DepartChart = () => {
                               height={item?.size === "squ" ? "160px" : "164px"}
                               radius={item?.size === "squ" ? "50%" : "50px"}
                             />
+                            <MImg src={item.img} alt={item.alt} width={item?.size === "squ" ? "100px" : "90px"} height={item?.size === "squ" ? "100px" : "110px"} radius={item?.size === "squ" ? "50%" : "50px"}/>
                           </ImgOutBox>
                         </ImgBox>
                         <InfoBox>
