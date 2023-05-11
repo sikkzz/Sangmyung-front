@@ -10,6 +10,7 @@ const MLayout = styled.div`
   margin: 40px 0;
   padding: 0 30px;
 
+  ${media.tabletLarge`display: flex;padding:0 80px;margin:80px 0;`};
   ${media.tablet`display: flex;padding:0 80px;margin:80px 0;`};
   ${media.mobile`display: flex;padding:0 30px;margin:40px 0;`};
 `;
@@ -25,6 +26,7 @@ const MBox = styled.div`
 const MTitleBox = styled.div`
   position: relative;
   max-width: 240px;
+  ${media.tabletLarge`max-width:600px;`};
   ${media.tablet`max-width:400px;`};
   ${media.mobile`max-width:240px;`};
 `;
@@ -34,6 +36,7 @@ const MTitle = styled.h1`
   font-weight: 700;
   color: #3182f6;
   margin-bottom: 10px;
+  ${media.tabletLarge`font-size: 20px;`};
   ${media.tablet`font-size: 16px;`};
   ${media.mobile`font-size: 12px;`};
 `;
@@ -44,6 +47,7 @@ const MSub = styled.h2`
   font-weight: 700;
   line-height: 1.4;
   color: #191f28;
+  ${media.tabletLarge`font-size: 24px;`};
   ${media.tablet`font-size: 20px;`};
   ${media.mobile`font-size: 12px;`};
 `;
@@ -57,6 +61,7 @@ const MImageBox = styled.div`
   justify-content: center;
   background-color: #000;
   border-radius: 50%;
+  ${media.tabletLarge`width:160px;height:160px;`};
   ${media.tablet`width:120px;height:120px;`};
   ${media.mobile`width:80px;height:80px;`};
 `;
@@ -64,6 +69,7 @@ const MImageBox = styled.div`
 const MText = styled.div`
   font-size: 30px;
   color: #fff;
+  ${media.tabletLarge`font-size:60px;`};
   ${media.tablet`font-size:48px;`};
   ${media.mobile`font-size:30px;`};
 `;

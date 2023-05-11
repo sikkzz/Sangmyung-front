@@ -8,6 +8,7 @@ const Box = styled.div`
   right: 0;
   left: 0;
   position: sticky;
+  ${media.tabletLarge`display: none;`};
   ${media.tablet`display: none;`};
   ${media.mobile`display: none;`};
 `;

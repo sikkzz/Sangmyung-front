@@ -28,6 +28,8 @@ const ProfileBox = styled.div``;
 const ProfileItemBox = styled.div`
   display: flex;
   margin-top: 70px;
+  ${media.tabletLarge`flex-direction: column;align-items: center;`}
+  ${media.tablet`flex-direction: column;align-items: center;`}
   ${media.mobile`flex-direction: column;align-items: center;`}
 `;
 
@@ -42,6 +44,8 @@ const ImgOutBox = styled.div`
   position: relative;
   background-color: #000;
   border-radius: 50%;
+  ${media.tabletLarge`width: 140px;height: 140px;`}
+  ${media.tablet`width: 140px;height: 140px;`}
   ${media.mobile`width: 140px;height: 140px;`}
 `;
 
@@ -49,14 +53,18 @@ const Img = styled.img<{ width: string; height: string; radius: string }>`
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   border-radius: ${(props) => props.radius};
+  ${media.tabletLarge`display: none;`}
+  ${media.tablet`display: none;`}
   ${media.mobile`display: none;`}
 `;
 
-const MImg = styled.img<{width: string; height: string; radius: string}>`
+const MImg = styled.img<{ width: string; height: string; radius: string }>`
   display: none;
   width: ${(props) => props.width};
   height: ${(props) => props.height};
   border-radius: ${(props) => props.radius};
+  ${media.tabletLarge`display: block;`}
+  ${media.tablet`display: block;`}
   ${media.mobile`display: block;`}
 `;
 
@@ -67,22 +75,32 @@ const InfoBox = styled.div`
   align-items: center;
   margin-left: 30px;
   width: 200px;
+  ${media.tabletLarge`margin-left: 0;`}
+  ${media.tablet`margin-left: 0;`}
   ${media.mobile`margin-left: 0;`}
 `;
 
 const Position = styled.div`
   font-size: 36px;
   font-weight: 700;
-  ${media.mobile`font-size: 28px;`}
+  ${media.tabletLarge`font-size: 28px;margin-top: 10px;`}
+  ${media.tablet`font-size: 28px;margin-top: 10px;`}
+  ${media.mobile`font-size: 28px;margin-top: 10px;`}
 `;
 
 const Name = styled.div`
   font-size: 28px;
   margin-top: 10px;
+  ${media.tabletLarge`font-size: 24px;`}
+  ${media.tablet`font-size: 24px;`}
+  ${media.mobile`font-size: 24px;`}
 `;
 
 const Major = styled.div`
   font-size: 18px;
+  ${media.tabletLarge`font-size: 16px;`}
+  ${media.tablet`font-size: 16px;`}
+  ${media.mobile`font-size: 16px;`}
 `;
 
 const TextBox = styled.div`
@@ -95,10 +113,12 @@ const TextBox = styled.div`
   width: 600px;
   font-size: 18px;
   position: relative;
+  ${media.tabletLarge`width: 500px;padding-left: 0; margin-left: 0;font-size: 16px;line-height: 24px;`}
+  ${media.tablet`width: 420px;padding-left: 0; margin-left: 0;font-size: 16px;line-height: 24px;`}
   ${media.mobile`width: 320px;padding-left: 0; margin-left: 0;font-size: 12px;line-height: 20px;`}
 
-  &::before{
-    content: '';
+  &::before {
+    content: "";
     position: absolute;
     top: 20px;
     bottom: 20px;
@@ -107,11 +127,13 @@ const TextBox = styled.div`
     border-left: 10px solid #d9d9e0;
     border-top: 10px solid #d9d9e0;
     border-bottom: 10px solid #d9d9e0;
+    ${media.tabletLarge`content:none;`}
+    ${media.tablet`content:none;`}
     ${media.mobile`content:none;`}
   }
 
-  &::after{
-    content: '';
+  &::after {
+    content: "";
     position: absolute;
     top: 20px;
     bottom: 20px;
@@ -120,6 +142,8 @@ const TextBox = styled.div`
     border-right: 10px solid #d9d9e0;
     border-top: 10px solid #d9d9e0;
     border-bottom: 10px solid #d9d9e0;
+    ${media.tabletLarge`content:none;`}
+    ${media.tablet`content:none;`}
     ${media.mobile`content:none;`}
   }
 `;
@@ -128,8 +152,10 @@ const Text = styled.p`
   line-height: 28px;
   white-space: pre-line;
   text-align: center;
+  ${media.tabletLarge`line-height: 24px;margin-top: 20px;`}
+  ${media.tablet`line-height: 20px;margin-top: 20px;`}
   ${media.mobile`line-height: 20px;margin-top: 20px;`}
-`
+`;
 
 export {
   Layout,

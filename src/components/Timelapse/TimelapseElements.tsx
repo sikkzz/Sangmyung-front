@@ -25,7 +25,8 @@ const CopyRight = styled.div`
   position: absolute;
   top: 95%;
   right: 2%;
-  ${media.tablet`font-size:12px;top:95%;right:2%;`}
+  ${media.tabletLarge`font-size:16px;top:92%;right:2%;`}
+  ${media.tablet`font-size:14px;top:92%;right:2%;`}
   ${media.mobile`font-size:10px;top:90%;right:2%;`}
 `;
 

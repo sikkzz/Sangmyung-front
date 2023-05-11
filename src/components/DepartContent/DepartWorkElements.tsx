@@ -29,7 +29,9 @@ const Title = styled.div`
 const WorkBox = styled.div`
   display: flex;
   justify-content: space-between;
-  ${media.mobile`flex-direction: column;align-items: center;margin-top: 20px;`}
+  ${media.tabletLarge`flex-wrap: wrap;align-items: center;margin-top: 20px;padding:60px;`}
+  ${media.tablet`flex-wrap: wrap;align-items: center;margin-top: 20px;padding:30px;`}
+  ${media.mobile`flex-direction: column;align-items: center;margin-top: 20px;padding:0;`}
 `;
 
 const WorkInnerBox = styled.div`
@@ -40,6 +42,8 @@ const WorkInnerBox = styled.div`
   height: 250px;
   display: flex;
   flex-direction: column;
+  ${media.tabletLarge`padding: 30px;margin-top: 20px;`}
+  ${media.tablet`padding: 30px;margin-top: 20px;`}
   ${media.mobile`padding: 30px;justify-content: center;margin-top: 20px;`}
 `;
 
@@ -63,12 +67,16 @@ const WorkTitle = styled.div`
   font-weight: 700;
   font-size: 18px;
   margin-top: 12px;
+  ${media.tabletLarge`font-size: 16px;`}
+  ${media.tablet`font-size: 14px;`}
   ${media.mobile`font-size: 14px;`}
 `;
 
 const WorkContent = styled.div`
   font-size: 16px;
   line-height: 26px;
+  ${media.tabletLarge`font-size: 14px;line-height: 22px;`}
+  ${media.tablet`font-size: 12px;line-height: 20px;`}
   ${media.mobile`font-size: 12px;line-height: 20px;`}
 `;
 

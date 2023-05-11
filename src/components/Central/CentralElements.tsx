@@ -19,6 +19,8 @@ const Title = styled.div`
   font-size: 36px;
   font-weight: 700;
   margin-top: 50px;
+  ${media.tabletLarge`font-size: 28px;margin-top: 20px;`}
+  ${media.tablet`font-size: 24px;margin-top: 20px;`}
   ${media.mobile`font-size: 24px;margin-top: 20px;`}
 `;
 
@@ -28,6 +30,8 @@ const IntroBox = styled.div`
   box-shadow: 4px 4px 0 #e3eaf5;
   padding: 100px 150px;
   border-radius: 30px;
+  ${media.tabletLarge`padding: 60px;`}
+  ${media.tablet`padding: 30px;`}
   ${media.mobile`padding: 30px;`}
 `;
 
@@ -40,6 +44,8 @@ const IntroText = styled.p`
     margin-top: 0;
   }
 
+  ${media.tabletLarge`font-size: 16px;line-height: 28px;`}
+  ${media.tablet`font-size: 12px;line-height: 20px;`}
   ${media.mobile`font-size: 12px;line-height: 20px;`}
 `;
 
@@ -50,12 +56,16 @@ const ContentBox = styled.div<{ padding: string }>`
   margin-top: 100px;
   margin: 100px auto 0;
   padding: ${(props) => props.padding};
+  ${media.tabletLarge`flex-wrap: nowrap;padding: 0;flex-direction: column;justify-content: flex-start;align-items: center;margin-top: 60px;&:last-of-type{margin-top: 0;}`}
+  ${media.tablet`flex-wrap: nowrap;padding: 0;flex-direction: column;justify-content: flex-start;align-items: center;margin-top: 60px;&:last-of-type{margin-top: 0;}`}
   ${media.mobile`flex-wrap: nowrap;padding: 0;flex-direction: column;justify-content: flex-start;margin-top: 60px;&:last-of-type{margin-top: 0;}`}
 `;
 
 const ItemBox = styled.div`
   display: flex;
   flex-direction: column;
+  ${media.tabletLarge`margin-top: 40px;`}
+  ${media.tablet`margin-top: 30px;`}
   ${media.mobile`margin-top: 30px;`}
 `;
 

@@ -7,8 +7,9 @@ const Layout = styled.div`
   width: 100%;
   overflow: hidden;
 
-  ${media.mobile`display: none;`};
+  ${media.tabletLarge`display: none;`};
   ${media.tablet`display: none;`};
+  ${media.mobile`display: none;`};
 `;
 
 const Col = styled.div`

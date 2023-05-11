@@ -7,8 +7,9 @@ const Container = styled.div`
   background: var(--main-blue);
   flex-direction: column;
 
-  ${media.mobile`display: none;`};
+  ${media.tabletLarge`display: none;`};
   ${media.tablet`display: none;`};
+  ${media.mobile`display: none;`};
 `;
 
 const MenuContainer = styled.div`
