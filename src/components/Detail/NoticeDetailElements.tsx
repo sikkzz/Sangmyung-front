@@ -20,6 +20,8 @@ const Title = styled.div`
   font-size: 36px;
   font-weight: 700;
   margin-top: 50px;
+  ${media.tabletLarge`font-size: 28px;margin-top: 20px;`};
+  ${media.tablet`font-size: 26px;margin-top: 20px;`};
   ${media.mobile`font-size: 24px;margin-top: 20px;`};
 `;
 
@@ -87,6 +89,8 @@ const ContentBox = styled.div``;
 const ContentImgBox = styled.div`
   width: 700px;
   margin: 100px auto 0;
+  ${media.tabletLarge`width: 500px;margin-top: 60px;`};
+  ${media.tablet`width: 400px;margin-top: 60px;`};
   ${media.mobile`width: 300px;margin-top: 60px;`};
 `;
 
@@ -103,6 +107,8 @@ const ContentTextBox = styled.div`
 const ContentTitle = styled.div`
   font-size: 20px;
   font-weight: 700;
+  ${media.tabletLarge`font-size: 18px;`}
+  ${media.mobile`font-size: 16px;`}
   ${media.mobile`font-size: 14px;`}
 `;
 
@@ -113,6 +119,8 @@ const ContentTextParagraph = styled.div`
 const ContentText = styled.p`
   line-height: 36px;
   white-space: pre-line;
+  ${media.tabletLarge`font-size: 16px;line-height: 28px;`}
+  ${media.tablet`font-size: 14px;line-height: 24px;`}
   ${media.mobile`font-size: 12px;line-height: 20px;`}
 `;
 

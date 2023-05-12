@@ -20,6 +20,8 @@ const Title = styled.div`
   font-size: 36px;
   font-weight: 700;
   margin-top: 50px;
+  ${media.tabletLarge`font-size: 28px;margin-top: 20px;`};
+  ${media.tablet`font-size: 26px;margin-top: 20px;`};
   ${media.mobile`font-size: 24px;margin-top: 20px;`};
 `;
 
@@ -37,6 +39,8 @@ const ListBox = styled.div`
   min-width: 160px;
   text-align: left;
   vertical-align: middle;
+  ${media.tabletLarge`min-width: 120px;`};
+  ${media.tablet`min-width: 120px;`};
   ${media.mobile`min-width: 100px;`};
 `;
 
@@ -100,7 +104,7 @@ const Board = styled.div`
   border-top: 2px solid #2b2b2b;
 `;
 
-const BoardCol = styled.div`
+const BoardCol =  styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
