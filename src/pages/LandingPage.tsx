@@ -1,3 +1,4 @@
+import TopHeader from "../components/Header/TopHeader";
 import Header from "../components/Header/Header";
 import Slider from "../components/Slider/Slider";
 import TimeLapse from "../components/Timelapse/Timelapse";
@@ -10,6 +11,7 @@ import { PromissData } from "../constants/data/PromissData";
 const LandingPage = () => {
   return (
     <>
+    <TopHeader />
       <Header />
       <Slider />
       <TimeLapse />

@@ -28,6 +28,7 @@ import {
   AiOutlineRight,
   AiOutlineLeft,
   AiOutlineCloudDownload,
+  AiOutlineMail,
 } from "react-icons/ai";
 import {
   MdWorkOutline,
@@ -103,6 +104,7 @@ const Icons = {
   AiOutlineLeft,
   AiOutlineCloudDownload,
   BsCircleFill,
+  AiOutlineMail
 };
 
 export default Icons;

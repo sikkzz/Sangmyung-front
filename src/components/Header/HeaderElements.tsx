@@ -3,8 +3,9 @@ import styled from "styled-components";
 import { media } from "../../styles/MediaQuery";
 
 const Box = styled.div`
+  /* margin-top: 30px; */
   z-index: 100;
-  top: 0;
+  top: 30px;
   right: 0;
   left: 0;
   position: sticky;
@@ -28,7 +29,6 @@ const Container = styled.div`
   justify-content: space-between;
   width: 100%;
   height: 80px;
-  background: var(--main-blue);
   background: transparent;
   padding: 0 100px;
   z-index: 100;
@@ -68,6 +68,7 @@ const MenuItem = styled.a`
   height: 80px;
   font-size: 20px;
   padding: 0 45px;
+  cursor: pointer;
 `;
 
 const MenuIcon = styled.div`

@@ -32,16 +32,19 @@ export const FooterSiteData = [
 
 export const FooterSocialIconData = [
   {
-    icon: <Icons.FaFacebook size={size} color={iconColor} />,
-  },
-  {
     icon: <Icons.BsInstagram size={size} color={iconColor} />,
     link: "https://www.instagram.com/smu_1st"
   },
   {
-    icon: <Icons.RiKakaoTalkFill size={size} color={iconColor} />,
+    icon: <Icons.FaYoutube size={size} color={iconColor} />,
+    link: "https://www.youtube.com/channel/UCKfo9NabKyviW5jDi3xBngg"
   },
   {
-    icon: <Icons.FaYoutube size={size} color={iconColor} />,
+    icon: <Icons.AiOutlineMail size={size} color={iconColor} />,
+    link: "mailto:smu.first2023@gmail.com"
+  },
+  {
+    icon: <Icons.RiKakaoTalkFill size={size} color={iconColor} />,
+    link: "https://open.kakao.com/o/sXKtjVbf"
   },
 ];
