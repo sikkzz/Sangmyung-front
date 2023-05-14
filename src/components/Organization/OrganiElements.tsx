@@ -26,6 +26,7 @@ const OrganiBox = styled.div`
 const OrganiImage = styled.img`
   width: 900px;
   height: 810px;
+  ${media.labtop`width: 800px;height: 720px;`}
   ${media.tabletLarge`width: 800px;height: 720px;`}
   ${media.tablet`width: 500px;height: 450px;`}
   ${media.mobile`width: 300px;height: 270px;`}
@@ -109,6 +110,7 @@ const ProfileCol = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  ${media.labtop`display: block;`}
   ${media.tabletLarge`display: block;`}
   ${media.tablet`display: block;`}
   ${media.mobile`display: block;`}
@@ -117,6 +119,7 @@ const ProfileInnerCol = styled.div`
   display: flex;
   justify-content: center;
   margin-top: 60px;
+  ${media.labtop`max-width: 350px;margin-top: 30px;display: block;`}
   ${media.tabletLarge`max-width: 350px;margin-top: 30px;display: block;`}
   ${media.tablet`max-width: 350px;margin-top: 30px;display: block;`}
   ${media.mobile`max-width: 350px;margin-top: 30px;display: block;`}

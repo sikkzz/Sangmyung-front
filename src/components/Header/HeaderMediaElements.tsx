@@ -9,6 +9,7 @@ const MContainer = styled.div`
   background: var(--sub-blue);
   z-index: 100;
 
+  ${media.labtop`display: block;`};
   ${media.tabletLarge`display: block;`};
   ${media.tablet`display: block;`};
   ${media.mobile`display: block;`};

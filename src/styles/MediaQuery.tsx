@@ -2,14 +2,14 @@ type MediaQueryProps = {
     mobile: number;
     tablet: number;
     tabletLarge: number;
-    desktop: number;
+    labtop: number;
   };
   
   const sizes: MediaQueryProps = {
     mobile: 480,
     tablet: 768,
     tabletLarge: 1024,
-    desktop: 1440,
+    labtop: 1280,
   };
   
   export const media = (Object.keys(sizes) as Array<keyof typeof sizes>).reduce(

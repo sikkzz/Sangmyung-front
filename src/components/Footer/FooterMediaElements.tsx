@@ -9,6 +9,7 @@ const MContainer = styled.div`
   flex-direction: column;
   padding: 0 10px;
 
+  ${media.labtop`display: flex;`};
   ${media.tabletLarge`display: flex;`};
   ${media.tablet`display: flex;`};
   ${media.mobile`display: flex;`};
