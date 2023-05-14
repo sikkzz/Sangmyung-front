@@ -248,7 +248,7 @@ import Img37_7 from "../../assets/notice/37/7.jpg";
 
 import Video1 from "../../assets/video/1.mp4";
 import Video2 from "../../assets/video/2.mp4";
-import Video3 from "../../assets/video/2.mp4";
+import Video3 from "../../assets/video/3.mp4";
 
 import Img38_1 from "../../assets/notice/38/1.jpg";
 import Img38_2 from "../../assets/notice/38/2.jpg";
