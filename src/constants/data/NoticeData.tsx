@@ -228,7 +228,352 @@ import Img34_1 from "../../assets/notice/34/1.jpg";
 import Img34_2 from "../../assets/notice/34/2.jpg";
 import Img34_3 from "../../assets/notice/34/3.jpg";
 
+import Img35_1 from "../../assets/education/11/001.png";
+import Img35_2 from "../../assets/education/11/002.png";
+import Img35_3 from "../../assets/education/11/003.png";
+import Img35_4 from "../../assets/education/11/004.png";
+import Img35_5 from "../../assets/education/11/005.png";
+import Img35_6 from "../../assets/education/11/006.png";
+import Img35_7 from "../../assets/education/11/007.png";
+import Img35_8 from "../../assets/education/11/008.png";
+import Img35_9 from "../../assets/education/11/009.png";
+
+import Img37_1 from "../../assets/notice/37/1.jpg";
+import Img37_2 from "../../assets/notice/37/2.jpg";
+import Img37_3 from "../../assets/notice/37/3.jpg";
+import Img37_4 from "../../assets/notice/37/4.jpg";
+import Img37_5 from "../../assets/notice/37/5.jpg";
+import Img37_6 from "../../assets/notice/37/6.jpg";
+import Img37_7 from "../../assets/notice/37/7.jpg";
+
+import Video1 from "../../assets/video/1.mp4";
+import Video2 from "../../assets/video/2.mp4";
+import Video3 from "../../assets/video/2.mp4";
+
+import Img38_1 from "../../assets/notice/38/1.jpg";
+import Img38_2 from "../../assets/notice/38/2.jpg";
+import Img38_3 from "../../assets/notice/38/3.jpg";
+import Img38_4 from "../../assets/notice/38/4.jpg";
+import Img38_5 from "../../assets/notice/38/5.jpg";
+import Img38_6 from "../../assets/notice/38/6.jpg";
+import Img38_7 from "../../assets/notice/38/7.jpg";
+
+import Img40_1 from "../../assets/notice/40/1.jpg";
+import Img40_2 from "../../assets/notice/40/2.jpg";
+import Img40_3 from "../../assets/notice/40/3.jpg";
+import Img40_4 from "../../assets/notice/40/4.jpg";
+import Img40_5 from "../../assets/notice/40/5.jpg";
+
+import Img41_1 from "../../assets/notice/41/1.jpg";
+import Img41_2 from "../../assets/notice/41/2.jpg";
+import Img41_3 from "../../assets/notice/41/3.jpg";
+import Img41_4 from "../../assets/notice/41/4.jpg";
+import Img41_5 from "../../assets/notice/41/5.jpg";
+import Img41_6 from "../../assets/notice/41/6.jpg";
+import Img41_7 from "../../assets/notice/41/7.jpg";
+import Img41_8 from "../../assets/notice/41/8.jpg";
+
+import Img42_1 from "../../assets/education/12/001.png";
+import Img42_2 from "../../assets/education/12/002.png";
+import Img42_3 from "../../assets/education/12/003.png";
+import Img42_4 from "../../assets/education/12/004.png";
+import Img42_5 from "../../assets/education/12/005.png";
+import Img42_6 from "../../assets/education/12/006.png";
+import Img42_7 from "../../assets/education/12/007.png";
+import Img42_8 from "../../assets/education/12/008.png";
+
 export const NoticeData = [
+  {
+    id: 42,
+    link: "/notice/detail/42",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 학석사 연계과정 편",
+    date: "2023-05-15",
+    owner: "관리자",
+    kind: "학사",
+    downdload: false,
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분!<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>5월 셋째 주, 제공해드리는 정보는 '학•석사연계과정 편'입니다.<br/><br/>학부 소속 전공에 흥미가 있어 더 깊이 공부하고 싶은 분들 혹은 대학원 진학을 희망하지만<br/>확신이 들지 않는분들 등에게 대학원 수업을 미리 들어보고 결정할 수 있는 좋은 제도를 소개해드리겠습니다!<br/><br/>재학생이 아니라 휴학생도 지원 가능하니 관심있는 분들은 학•석사연계과정에 대한 전반적인 설명과 유의사항을 카드뉴스를 확인해주세요.💌<br/><br/>- 학•석사연계과정이란?<br/>- 지원자격<br/>- 지원서류 및 기간<br/>- 신청방법<br/>- 합격 후 과정<br/>- 자격 상실 사항<br/><br/>* 자세한 사항은 홈페이지 '통합공지'와 서울캠퍼스 대학원교학팀을 통해 확인하실 수 있습니다.<br/>✔ 통합공지 URL: <a href='https://url.kr/w7ghp2' style='color: blue'>https://url.kr/w7ghp2</a><br/>✔ 문의처: 서울캠퍼스 대학원교학팀 (02-2287-7088)<br/><br/>추후 업로드 될 💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다! 감사합니다.",
+    inImg: [
+      {
+        img: Img42_1,
+        alt: "img42_1",
+      },
+      {
+        img: Img42_2,
+        alt: "img42_2",
+      },
+      {
+        img: Img42_3,
+        alt: "img42_3",
+      },
+      {
+        img: Img42_4,
+        alt: "img42_4",
+      },
+      {
+        img: Img42_5,
+        alt: "img42_5",
+      },
+      {
+        img: Img42_6,
+        alt: "img42_6",
+      },
+      {
+        img: Img42_7,
+        alt: "img42_7",
+      },
+      {
+        img: Img42_8,
+        alt: "img42_8",
+      },
+    ],
+  },
+  {
+    id: 41,
+    link: "/notice/detail/41",
+    title: "상명대학교 2023학년도 서울캠퍼스 대동제 대무대 및 소무대 공연 시간",
+    date: "2023-05-14",
+    owner: "관리자",
+    kind: "축제",
+    download: false,
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>대무대 및 소무대 공연 시간 안내<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 '선[先]'",
+    inImg: [
+      {
+        img: Img41_1,
+        alt: "img41_1",
+      },
+      {
+        img: Img41_2,
+        alt: "img41_2",
+      },
+      {
+        img: Img41_3,
+        alt: "img41_3",
+      },
+      {
+        img: Img41_4,
+        alt: "img41_4",
+      },
+      {
+        img: Img41_5,
+        alt: "img41_5",
+      },
+      {
+        img: Img41_6,
+        alt: "img41_6",
+      },
+      {
+        img: Img41_7,
+        alt: "img41_7",
+      },
+      {
+        img: Img41_8,
+        alt: "img41_8",
+      },
+    ],
+  },
+  {
+    id: 40,
+    link: "/notice/detail/40",
+    title: "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 리스트",
+    date: "2023-05-14",
+    owner: "관리자",
+    kind: "축제",
+    downdload: false,
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>2023 대동제 기업 후원<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 '선[先]'",
+    inImg: [
+      {
+        img: Img40_1,
+        alt: "img40_1",
+      },
+      {
+        img: Img40_2,
+        alt: "img40_2",
+      },
+      {
+        img: Img40_3,
+        alt: "img40_3",
+      },
+      {
+        img: Img40_4,
+        alt: "img40_4",
+      },
+      {
+        img: Img40_5,
+        alt: "img40_5",
+      },
+    ],
+  },
+  {
+    id: 39,
+    link: "/notice/detail/39",
+    title: "상명대학교 2023학년도 서울캠퍼스 대동제 Teaser. 1 공개",
+    date: "2023-05-13",
+    owner: "관리자",
+    kind: "축제",
+    download: false,
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>Teaser. 1 공개<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 '선[先]'",
+    inVideo: [
+      {
+        video: Video3,
+      },
+    ],
+  },
+  {
+    id: 38,
+    link: "/notice/detail/38",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 프로모션사 '오찌'(@otz_korea) 일일 앰버서더 모집",
+    date: "2023-05-12",
+    owner: "관리자",
+    kind: "축제",
+    download: false,
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>프로모션사 '오찌'(@<a href='https://www.instagram.com/otz_korea/' style='color: blue'>otz_korea</a>) 일일 앰버서더 모집<br/><br/>🔗 신청 링크: <a href='https://forms.gle/8sUH8mCiecThFBA76' style='color: blue'>https://forms.gle/8sUH8mCiecThFBA76</a><br/>🔗 신청 기간: 2023.05.12.(금) - 05.15.(월)<br/>※ 신청 링크는 인스타그램 프로필 링크에서 확인하실 수 있습니다.<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 '선[先]'",
+    inImg: [
+      {
+        img: Img38_1,
+        alt: "img38_1",
+      },
+      {
+        img: Img38_2,
+        alt: "img38_2",
+      },
+      {
+        img: Img38_3,
+        alt: "img38_3",
+      },
+      {
+        img: Img38_4,
+        alt: "img38_4",
+      },
+      {
+        img: Img38_5,
+        alt: "img38_5",
+      },
+      {
+        img: Img38_6,
+        alt: "img38_6",
+      },
+      {
+        img: Img38_7,
+        alt: "img38_7",
+      },
+    ],
+  },
+  {
+    id: 37,
+    link: "/notice/detail/37",
+    title: "상명대학교 2023학년도 서울캠퍼스 대동제 드레스 코드 및 굿즈 공개",
+    date: "2023-05-11",
+    owner: "관리자",
+    kind: "축제",
+    download: false,
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>드레스 코드 및 굿즈 공개<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 '선[先]'",
+    inImg: [
+      {
+        img: Img37_1,
+        alt: "img37_1",
+      },
+      {
+        img: Img37_2,
+        alt: "img37_2",
+      },
+      {
+        img: Img37_3,
+        alt: "img37_3",
+      },
+      {
+        img: Img37_4,
+        alt: "img37_4",
+      },
+      {
+        img: Img37_5,
+        alt: "img37_5",
+      },
+      {
+        img: Img37_6,
+        alt: "img37_6",
+      },
+      {
+        img: Img37_7,
+        alt: "img37_7",
+      },
+    ],
+  },
+  {
+    id: 36,
+    link: "/notice/detail/36",
+    title: "상명대학교 2023학년도 서울캠퍼스 대동제 아티스트 축전 영상 공개",
+    date: "2023-05-11",
+    owner: "관리자",
+    kind: "축제",
+    download: false,
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>아티스트 축전 영상 공개<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 '선[先]'",
+    inVideo: [
+      {
+        video: Video1,
+      },
+      {
+        video: Video2,
+      },
+    ],
+  },
+  {
+    id: 35,
+    link: "/notice/detail/35",
+    title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 현장실습학기제 편",
+    date: "2023-05-11",
+    owner: "관리자",
+    kind: "학사",
+    download: false,
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분!<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>5월 둘째 주, 두 번째로 제공해드리는 정보는 '현장실습학기제 편'입니다.<br/><br/>현장실습학기제란, 본교 재학생들에게 기업의 현장실습학기제를 통해<br/>‘산업현장을 경험’할 수 있는 기회를 제공하여 경력형성 및 취업역량 증진↗️을 도모를 목적으로 하는 제도입니다.<br/><br/>현장실습 참여 기업리스트 및 운영계획서는 수시로 변동사항이 발생하므로 반드시 신청 전 구글 드라이브를 통해 확인하시기 바랍니다.<br/>(구글 드라이브 URL: <a href='https://bit.ly/3LFH8V0' style='color: blue'>https://bit.ly/3LFH8V0</a>)<br/><br/>- 현장실습학기제란?<br/>- 프로그램 내용<br/>- 성적처리 방법<br/>- 지원 세부 사항<br/>- 추가 안내 사항<br/>- 프로그램 세부 일정<br/>- 신청 방법<br/><br/>* 자세한 사항은 샘물 포털시스템 상단메뉴 중 ‘e-포트폴리오’에서 확인하실 수 있습니다.<br/>(URL 바로가기: <a href='https://smcareer.smu.ac.kr' style='color: blue'>https://smcareer.smu.ac.kr/)</a><br/><br/>추후 업로드 될 💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다! 감사합니다.",
+    inImg: [
+      {
+        img: Img35_1,
+        alt: "img35_1",
+      },
+      {
+        img: Img35_2,
+        alt: "img35_2",
+      },
+      {
+        img: Img35_3,
+        alt: "img35_3",
+      },
+      {
+        img: Img35_4,
+        alt: "img35_4",
+      },
+      {
+        img: Img35_5,
+        alt: "img35_5",
+      },
+      {
+        img: Img35_6,
+        alt: "img35_6",
+      },
+      {
+        img: Img35_7,
+        alt: "img35_7",
+      },
+      {
+        img: Img35_8,
+        alt: "img35_8",
+      },
+      {
+        img: Img35_9,
+        alt: "img35_9",
+      },
+    ],
+  },
   {
     id: 34,
     link: "/notice/detail/34",

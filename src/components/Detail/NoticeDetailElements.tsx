@@ -99,6 +99,10 @@ const ContentImg = styled.img`
   object-fit: cover;
 `;
 
+const ContentVideo = styled.video`
+  width: 100%;
+`;
+
 const ContentTextBox = styled.div`
   margin-top: 50px;
   ${media.mobile`margin-top: 30px;`}
@@ -205,6 +209,7 @@ export {
   ContentBox,
   ContentImgBox,
   ContentImg,
+  ContentVideo,
   ContentTextBox,
   ContentTitle,
   ContentTextParagraph,

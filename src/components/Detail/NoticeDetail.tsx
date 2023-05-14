@@ -16,6 +16,7 @@ import {
   ContentBox,
   ContentImgBox,
   ContentImg,
+  ContentVideo,
   ContentTextBox,
   ContentTitle,
   ContentTextParagraph,
@@ -92,8 +93,7 @@ const NoticeDetail = () => {
                       <PeopleBox>작성자 : {item.owner}</PeopleBox>
                       <DateBox>작성일 : {item.date}</DateBox>
                     </InfoLeft>
-                    <InfoRight>
-                    </InfoRight>
+                    <InfoRight></InfoRight>
                   </InfoInnerBox>
                 </InfoBox>
                 <ContentBox>
@@ -106,6 +106,15 @@ const NoticeDetail = () => {
                   <ContentImgBox>
                     {item.inImg?.map((item, index) => (
                       <ContentImg src={item.img} alt={item.alt} key={index} />
+                    ))}
+                    {item.inVideo?.map((item, index) => (
+                      <ContentVideo
+                        src={item.video}
+                        key={index}
+                        muted
+                        loop
+                        controls
+                      />
                     ))}
                   </ContentImgBox>
                 </ContentBox>

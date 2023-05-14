@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { media } from "../../styles/MediaQuery";
 
 const Box = styled.div`
-  top: 80px;
+  top: 110px;
   z-index: 99;
   right: 0;
   left: 0;

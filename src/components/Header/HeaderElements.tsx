@@ -67,6 +67,7 @@ const MenuItem = styled.a`
   align-items: center;
   height: 80px;
   font-size: 20px;
+  font-weight: 700;
   padding: 0 45px;
   cursor: pointer;
 `;
