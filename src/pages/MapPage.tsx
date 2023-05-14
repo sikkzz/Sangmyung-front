@@ -1,4 +1,4 @@
-import React from "react";
+import TopHeader from "../components/Header/TopHeader";
 import Header from "../components/Header/Header";
 import Bio from "../components/Bio/Bio";
 import Map from "../components/Map/Map";
@@ -10,6 +10,7 @@ const MapPage = () => {
   const location = useLocation();
   return (
     <>
+      <TopHeader />
       <Header />
       <Bio state={location.pathname.split("/")[1]} />
       <Map />

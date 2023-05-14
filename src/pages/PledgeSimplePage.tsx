@@ -1,3 +1,4 @@
+import TopHeader from "../components/Header/TopHeader";
 import Header from "../components/Header/Header";
 import Bio from "../components/Bio/Bio";
 import PledgeSimple from "../components/Pledge/PledgeSimple";
@@ -8,10 +9,9 @@ import { useLocation } from "react-router-dom";
 const PledgeSimplePage = () => {
   const location = useLocation();
 
-//   console.log(location.pathname.split("/")[2])
-
   return (
     <>
+      <TopHeader />
       <Header />
       <Bio state={location.pathname.split("/")[1]} />
       <PledgeSimple />

@@ -1,4 +1,4 @@
-import React from "react";
+import TopHeader from "../components/Header/TopHeader";
 import Header from "../components/Header/Header";
 import Bio from "../components/Bio/Bio";
 import Footer from "../components/Footer/Footer";
@@ -11,6 +11,7 @@ const DepartmentPage = () => {
 
   return (
     <>
+      <TopHeader />
       <Header />
       <Bio state={location.pathname.split("/")[1]} />
       <DepartContent />

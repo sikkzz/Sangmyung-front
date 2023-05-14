@@ -1,3 +1,4 @@
+import TopHeader from "../components/Header/TopHeader";
 import Header from "../components/Header/Header";
 import Bio from "../components/Bio/Bio";
 import EducationForesightDetail from "../components/Education/EducationForesightDetail";
@@ -10,6 +11,7 @@ const EducationForesightDetailPage = () => {
 
   return (
     <>
+      <TopHeader />
       <Header />
       <Bio state={location.pathname.split("/")[1]} />
       <EducationForesightDetail />

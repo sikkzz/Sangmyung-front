@@ -11,7 +11,7 @@ import { PromissData } from "../constants/data/PromissData";
 const LandingPage = () => {
   return (
     <>
-    <TopHeader />
+      <TopHeader />
       <Header />
       <Slider />
       <TimeLapse />

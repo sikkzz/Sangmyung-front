@@ -1,3 +1,4 @@
+import TopHeader from "../components/Header/TopHeader";
 import Header from "../components/Header/Header";
 import Bio from "../components/Bio/Bio";
 import Notice from "../components/Notice/Notice";
@@ -10,6 +11,7 @@ const NoticePage = () => {
 
   return (
     <>
+      <TopHeader />
       <Header />
       <Bio state={location.pathname.split("/")[1]} />
       <Notice />
