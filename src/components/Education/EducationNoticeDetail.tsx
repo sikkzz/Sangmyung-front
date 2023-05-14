@@ -68,7 +68,7 @@ const EducationNoticeDetail = () => {
             <Box key={index}>
               {Number(param.id) === item.id ? (
                 <>
-                  <Title>선[先]견지명</Title>
+                  <Title>학사 안내</Title>
                   <InfoBox>
                     <TitleBox>
                       <BoardTitle>{item.title}</BoardTitle>

@@ -119,9 +119,9 @@ const ContentTextParagraph = styled.div`
 const ContentText = styled.p`
   line-height: 36px;
   white-space: pre-line;
-  ${media.tabletLarge`font-size: 16px;line-height: 28px;`}
-  ${media.tablet`font-size: 14px;line-height: 24px;`}
-  ${media.mobile`font-size: 12px;line-height: 20px;`}
+  ${media.tabletLarge`font-size: 16px;line-height: 36px;`}
+  ${media.tablet`font-size: 14px;line-height: 30px;`}
+  ${media.mobile`font-size: 12px;line-height: 24px;`}
 `;
 
 const PageBox = styled.div`

@@ -15,37 +15,13 @@ import {
   BoardItem,
   BoardLink,
   BoardImg,
-  BoardOverLay,
 } from "./PartnerShipElements";
 
 import Icons from "../../constants/icon";
 
-import { useEffect, useState } from "react";
-
 import { PartnerData } from "../../constants/data/PartnerData";
 
 const PartnerShip = () => {
-  const [isHover, setIsHover] = useState(false);
-
-  const [a, setA] = useState([
-    {
-      id: 1,
-      active: false,
-    },
-    {
-      id: 2,
-      active: false,
-    },
-    {
-      id: 3,
-      active: false,
-    },
-  ]);
-
-  const test = (num: Number) => {
-
-  }
-
   return (
     <Layout>
       <Col>
@@ -67,20 +43,8 @@ const PartnerShip = () => {
               <BoardCol>
                 {PartnerData.map((item, index) => (
                   <BoardItem key={index}>
-                    <BoardLink
-                      href={item.link}
-                      onMouseOver={() => {
-                        a[index].active = true;
-                        console.log(a[index].active)
-                      }}
-                      onMouseOut={() => {
-                        a[index].active = false;
-                        console.log(a[index].active)
-                      }}
-                    >
+                    <BoardLink href={item.link}>
                       <BoardImg src={item.img} alt={item.alt} />
-                      {a[index].active === true ? <BoardOverLay /> : ""}
-                      {/* <BoardOverLay /> */}
                     </BoardLink>
                   </BoardItem>
                 ))}

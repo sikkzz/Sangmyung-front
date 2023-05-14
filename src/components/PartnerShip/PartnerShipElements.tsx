@@ -19,6 +19,8 @@ const Title = styled.div`
   font-size: 36px;
   font-weight: 700;
   margin-top: 50px;
+  ${media.tabletLarge`font-size: 28px;margin-top: 20px;`};
+  ${media.tablet`font-size: 26px;margin-top: 20px;`};
   ${media.mobile`font-size: 24px;margin-top: 20px;`};
 `;
 
@@ -36,6 +38,8 @@ const ListBox = styled.div`
   min-width: 160px;
   text-align: left;
   vertical-align: middle;
+  ${media.tabletLarge`min-width: 120px;`};
+  ${media.tablet`min-width: 120px;`};
   ${media.mobile`min-width: 100px;`};
 `;
 
@@ -102,46 +106,25 @@ const Board = styled.div`
 const BoardCol = styled.div`
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  flex-wrap: wrap;
   position: relative;
   margin-top: 30px;
-  ${media.mobile`justify-content: center;align-items: center;flex-direction: column;`}
+  justify-content: center;
 `;
 
 const BoardItem = styled.div`
   display: flex;
   flex-direction: column;
-  width: 300px;
-  ${media.mobile`
-    margin-top: 20px;
-
-    &:first-of-type{
-      margin-top: 0;
-    }`
-  }
+  padding-right: 30px;
+  padding-left: 30px;
 `;
 
 const BoardLink = styled.a`
-  position: relative;
+  padding-bottom: 25px;
 `;
 
 const BoardImg = styled.img`
-  width: 100%;
-  /*   
-  &:hover{
-    opacity: 0.8;
-    background-color: #000;
-    transition: 0.5s;
-  } */
-`;
-
-const BoardOverLay = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 300px;
   height: 300px;
-  background-color: rgba(0, 0, 0, 0.5);
 `;
 
 export {
@@ -161,5 +144,4 @@ export {
   BoardItem,
   BoardLink,
   BoardImg,
-  BoardOverLay,
 };
