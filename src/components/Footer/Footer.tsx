@@ -58,11 +58,20 @@ import {
   MSocialLink,
 } from "./FooterMediaElements";
 
-export default function Footer() {
+import ModalPortal from "../../Portal";
+import Modal from "../Modal/Modal";
+
+const Footer = () => {
   const [isActive, setIsActive] = useState(false);
+
+  const [modalOn, setModalOn] = useState(false);
 
   const handleClick = () => {
     setIsActive(!isActive);
+  };
+
+  const handleModal = () => {
+    setModalOn(!modalOn);
   };
 
   return (
@@ -140,7 +149,7 @@ export default function Footer() {
       <Container>
         <MenuContainer>
           <MenuList>
-            <MenuListItem>이용약관</MenuListItem>
+            <MenuListItem onClick={handleModal}>이용약관</MenuListItem>
             <MenuListItem>개인정보처리방침</MenuListItem>
             <MenuListItem>만든사람</MenuListItem>
           </MenuList>
@@ -202,6 +211,9 @@ export default function Footer() {
           </RightContainer>
         </ContentContainer>
       </Container>
+      <ModalPortal>{modalOn && <Modal onClose={handleModal} />}</ModalPortal>
     </>
   );
-}
+};
+
+export default Footer;
