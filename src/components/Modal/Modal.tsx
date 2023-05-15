@@ -1,23 +1,14 @@
-import { useEffect, useRef } from "react";
+import { ReactNode, useEffect, useRef } from "react";
 import useOutSideClick from "../../hook/useOutSideClick";
 
-import {
-  Background,
-  Content,
-  RuleBox,
-  RuleHeader,
-  RuleTitle,
-  IconBox,
-  RuleContent,
-} from "./ModalElements";
+import { Background, Content, RuleBox, Inner } from "./ModalElements";
 
-import Icons from "../../constants/icon";
-
-type Props = {
+export type Props = {
   onClose: () => void;
+  children: ReactNode;
 };
 
-const Modal = ({ onClose }: Props) => {
+const Modal = ({ onClose, children }: Props) => {
   const modalRef = useRef(null);
   const handleClose = () => {
     onClose?.();
@@ -34,15 +25,7 @@ const Modal = ({ onClose }: Props) => {
     <Background>
       <Content>
         <RuleBox ref={modalRef}>
-          <RuleHeader>
-            <RuleTitle>이용약관</RuleTitle>
-            <IconBox>
-              <Icons.AiOutlineClose size={36} color="#000" />
-            </IconBox>
-          </RuleHeader>
-          <RuleContent>
-            
-          </RuleContent>
+          <Inner>{children}</Inner>
         </RuleBox>
       </Content>
     </Background>

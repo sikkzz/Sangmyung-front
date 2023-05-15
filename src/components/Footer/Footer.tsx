@@ -59,19 +59,25 @@ import {
 } from "./FooterMediaElements";
 
 import ModalPortal from "../../Portal";
-import Modal from "../Modal/Modal";
+import RuleModal from "../Modal/RuleModal";
+import PersonalModal from "../Modal/PersonalModal";
 
 const Footer = () => {
   const [isActive, setIsActive] = useState(false);
 
-  const [modalOn, setModalOn] = useState(false);
+  const [modalOn1, setModalOn1] = useState(false);
+  const [modalOn2, setModalOn2] = useState(false);
 
   const handleClick = () => {
     setIsActive(!isActive);
   };
 
-  const handleModal = () => {
-    setModalOn(!modalOn);
+  const handleModal1 = () => {
+    setModalOn1(!modalOn1);
+  };
+
+  const handleModal2 = () => {
+    setModalOn2(!modalOn2);
   };
 
   return (
@@ -101,8 +107,10 @@ const Footer = () => {
 
         <MMenuContainer>
           <MMenuList>
-            <MMenuListItem>이용약관</MMenuListItem>
-            <MMenuListItem>개인정보처리방침</MMenuListItem>
+            <MMenuListItem onClick={handleModal1}>이용약관</MMenuListItem>
+            <MMenuListItem onClick={handleModal2}>
+              개인정보처리방침
+            </MMenuListItem>
             <MMenuListItem>만든사람</MMenuListItem>
           </MMenuList>
 
@@ -149,8 +157,8 @@ const Footer = () => {
       <Container>
         <MenuContainer>
           <MenuList>
-            <MenuListItem onClick={handleModal}>이용약관</MenuListItem>
-            <MenuListItem>개인정보처리방침</MenuListItem>
+            <MenuListItem onClick={handleModal1}>이용약관</MenuListItem>
+            <MenuListItem onClick={handleModal2}>개인정보처리방침</MenuListItem>
             <MenuListItem>만든사람</MenuListItem>
           </MenuList>
         </MenuContainer>
@@ -211,7 +219,10 @@ const Footer = () => {
           </RightContainer>
         </ContentContainer>
       </Container>
-      <ModalPortal>{modalOn && <Modal onClose={handleModal} />}</ModalPortal>
+      <ModalPortal>
+        {modalOn1 && <RuleModal onClose={handleModal1} />}
+        {modalOn2 && <PersonalModal onClose={handleModal2} />}
+      </ModalPortal>
     </>
   );
 };

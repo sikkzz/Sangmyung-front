@@ -34,6 +34,7 @@ const MenuListItem = styled.li`
   padding-right: 17px;
   margin-right: 16px;
   position: relative;
+  cursor: pointer;
 
   ::after {
     content: "";
