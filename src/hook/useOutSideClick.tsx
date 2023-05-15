@@ -1,9 +1,17 @@
-import { useEffect } from "react"
+import { useEffect } from "react";
 
-const useOutSideClick = () => {
-  return (
-    <div>useOutSideClick</div>
-  )
+const useOutSideClick = (ref: any, callback: any) => {
+  useEffect(() => {
+    const handleClick = (e: { target: any; }) => {
+      if (ref.current && !ref.current.contains(e.target)) {
+        callback?.();
+      }
+    };
+
+    window.addEventListener("mousedown", handleClick);
+
+    return () => window.removeEventListener("mousedown", handleClick);
+  }, [ref, callback]);
 }
 
-export default useOutSideClick
+export default useOutSideClick;

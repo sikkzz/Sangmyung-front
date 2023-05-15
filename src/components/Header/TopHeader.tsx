@@ -9,9 +9,6 @@ import {
 
 import { useState, useEffect } from "react";
 
-import ModalPortal from "../../Portal";
-import Modal from "../Modal/Modal";
-
 const TopHeader = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -22,12 +19,6 @@ const TopHeader = () => {
   useEffect(() => {
     window.addEventListener("scroll", updateScroll);
   });
-
-  const [modalOn, setModalOn] = useState(false)
-
-  const handleModal = () => {
-    setModalOn(!modalOn)
-  }
 
   return (
     <Layout>
