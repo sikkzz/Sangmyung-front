@@ -99,6 +99,20 @@ export const HeaderTabData = [
         sub_item: "학사일정",
         link: "/calendar",
       },
+      {
+        sub_item: "교육 및 학사",
+        link: "/education/foresight",
+        subItem2: [
+          {
+            sub_item2: "선[先]견지명",
+            link: "/education/foresight",
+          },
+          {
+            sub_item2: "학사안내",
+            link: "/education/notice",
+          },
+        ],
+      },
     ],
   },
   {
@@ -139,20 +153,7 @@ export const HeaderTabData = [
         sub_item: "물품대여현황",
         link: "/rental",
       },
-      {
-        sub_item: "교육 및 학사",
-        link: "/education/foresight",
-        subItem2: [
-          {
-            sub_item2: "선[先]견지명",
-            link: "/education/foresight",
-          },
-          {
-            sub_item2: "학사안내",
-            link: "/education/notice",
-          },
-        ],
-      },
+      
     ],
   },
   {

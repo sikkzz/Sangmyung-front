@@ -9,7 +9,7 @@ import {
   MTabItem,
 } from "./BioElements";
 
-import { Box, InnerBox } from "../Tab/TabElements";
+import { Layout, Col } from "../Tab/TabElements";
 
 import Tab from "../Tab/Tab";
 
@@ -37,11 +37,11 @@ const Bio = ({ state }: Props) => {
             </ImageContainer>
           )
       )}
-      <Box>
-        <InnerBox>
+      <Layout>
+        <Col>
           <Tab state={location.pathname.split("/")[1]} />
-        </InnerBox>
-      </Box>
+        </Col>
+      </Layout>
 
       <MTabBox>
         <MTabList>

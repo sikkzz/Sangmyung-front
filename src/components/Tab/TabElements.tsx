@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { media } from "../../styles/MediaQuery";
 
-const Box = styled.div`
+const Layout = styled.div`
   top: 110px;
   z-index: 99;
   right: 0;
@@ -14,28 +14,31 @@ const Box = styled.div`
   ${media.mobile`display: none;`};
 `;
 
-const InnerBox = styled.div``;
+const Col = styled.div``;
 
-const Container = styled.div`
+const Box = styled.div`
   background-color: rgb(255 255 255);
   z-index: 10;
 `;
 
-const InnerContainer = styled.div`
+const InnerBox = styled.div`
   width: 100%;
   height: 64px;
   box-shadow: 0px 4px 4px rgb(179 182 183 / 25%);
 `;
 
+const FlexBox = styled.div`
+  display: flex;
+  max-width: 1120px;
+  padding: 0 20px;
+  margin: 0 auto;
+  height: 64px;
+  justify-content: space-between;
+`
+
+
 const Wrapper = styled.div`
   display: flex;
-  overflow-x: auto;
-  max-width: 1120px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-  height: 64px;
 `;
 
 const Item = styled.div`
@@ -50,4 +53,4 @@ const Item = styled.div`
   }
 `;
 
-export { Box, InnerBox, Container, InnerContainer, Wrapper, Item };
+export { Layout, Col, Box, InnerBox, FlexBox, Wrapper, Item };
