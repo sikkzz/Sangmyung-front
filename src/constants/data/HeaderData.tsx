@@ -5,77 +5,77 @@ export const HeaderTabData = [
   },
   {
     main_item: "총학생회",
-    link: "/introduce/greeting",
+    link: "/intro/introduce/greeting",
     subItem: [
       {
         sub_item: "총학생회 소개",
-        link: "/introduce/greeting",
+        link: "/intro/introduce/greeting",
         subItem2: [
           {
             sub_item2: "회장단 인사말",
-            link: "/introduce/greeting",
+            link: "/intro/introduce/greeting",
           },
           {
             sub_item2: "조직도",
-            link: "/introduce/organizationchart",
+            link: "/intro/introduce/organizationchart",
           },
         ],
       },
       {
         sub_item: "집행부 소개",
-        link: "/department/planning",
+        link: "/intro/department/planning",
         subItem2: [
           {
             sub_item2: "기획국",
-            link: "/department/planning",
+            link: "/intro/department/planning",
           },
           {
             sub_item2: "재정사무국",
-            link: "/department/financialofficework",
+            link: "/intro/department/financialofficework",
           },
           {
             sub_item2: "대외협력국",
-            link: "/department/foreigncooperation",
+            link: "/intro/department/foreigncooperation",
           },
           {
             sub_item2: "대내교류국",
-            link: "/department/internalcommunication",
+            link: "/intro/department/internalcommunication",
           },
           {
             sub_item2: "복지사업국",
-            link: "/department/welfarework",
+            link: "/intro/department/welfarework",
           },
           {
             sub_item2: "교육지원국",
-            link: "/department/educationsupporting",
+            link: "/intro/department/educationsupporting",
           },
           {
             sub_item2: "홍보국",
-            link: "/department/promotion",
+            link: "/intro/department/promotion",
           },
         ],
       },
       {
         sub_item: "중앙운영위원회",
-        link: "/central",
+        link: "/intro/central",
       },
       {
         sub_item: "공약집",
-        link: "/pledge/simple",
+        link: "/intro/pledge/simple",
         subItem2: [
           {
             sub_item2: "공약집",
-            link: "/pledge/simple",
+            link: "/intro/pledge/simple",
           },
           {
             sub_item2: "공약 상세보기",
-            link: "/pledge/detail/communication",
+            link: "/intro/pledge/detail/communication",
           },
         ],
       },
       {
         sub_item: "예결산 목록",
-        link: "/account",
+        link: "/intro/account",
       },
     ],
   },

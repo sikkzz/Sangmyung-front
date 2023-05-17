@@ -1,71 +1,27 @@
 import { Routes, Route } from "react-router";
-import LandingPage from "../pages/LandingPage";
-import IntroducePage from "../pages/IntroducePage";
-import DepartmentPage from "../pages/DepartmentPage";
 import MapPage from "../pages/MapPage";
-import PledgeSimplePage from "../pages/PledgeSimplePage";
-import PledgeDetailPage from "../pages/PledgeDetailPage";
 import PartnerPage from "../pages/PartnerPage";
 import PartnerDetailPage from "../pages/PartnerDetailPage";
 import NoticePage from "../pages/NoticePage";
-import MinutePage from "../pages/MinutePage";
-import RulePage from "../pages/RulePage";
 import NoticeDetailPage from "../pages/NoticeDetailPage";
-import MinuteCenterDetailPage from "../pages/MinuteCenterDetailPage";
-import MinuteRepresentativeDetailPage from "../pages/MinuteRepresentativeDetailPage";
-import MinuteTutuionDetailPage from "../pages/MinuteTutuionDetailPage";
-import MinuteAdministrativeDetailPage from "../pages/MinuteAdministrativeDetailPage";
 import RentalPage from "../pages/RentalPage";
 import EducationForesightPage from "../pages/EducationForesightPage";
 import EducationForesightDetailPage from "../pages/EducationForesightDetailPage";
 import EducationNoticePage from "../pages/EducationNoticePage";
 import EducationNoticeDetailPage from "../pages/EducationNoticeDetailPage";
 import CalendarPage from "../pages/CalendarPage";
-import CentralPage from "../pages/CentralPage";
-import AccountPage from "../pages/AccountPage";
-import AccountDetailPage from "../pages/AccountDetailPage";
 
 const Routing = () => {
   return (
     <Routes>
-      <Route path="/" element={<LandingPage />} />
-      <Route path="/introduce" element={<IntroducePage />} />
-      <Route path="/introduce/:param" element={<IntroducePage />} />
-      <Route path="/department" element={<DepartmentPage />} />
-      <Route path="/department/:param" element={<DepartmentPage />} />
       <Route path="/map" element={<MapPage />} />
-      <Route path="/pledge/simple" element={<PledgeSimplePage />} />
-      <Route path="/pledge/detail" element={<PledgeDetailPage />} />
-      <Route path="/pledge/detail/:param" element={<PledgeDetailPage />} />
       <Route path="/partnership" element={<PartnerPage />} />
       <Route path="/partnership/:param" element={<PartnerPage />} />
       <Route path="/partnership/detail/:id" element={<PartnerDetailPage />} />
       <Route path="/calendar" element={<CalendarPage />} />
       <Route path="/notice" element={<NoticePage />} />
       <Route path="/notice/detail/:id" element={<NoticeDetailPage />} />
-      <Route path="/minute" element={<MinutePage />} />
-      <Route path="/minute/:param" element={<MinutePage />} />
-      <Route path="/rule" element={<RulePage />} />
-      <Route
-        path="/minute/center/detail"
-        element={<MinuteCenterDetailPage />}
-      />
-      <Route
-        path="/minute/center/detail/:id"
-        element={<MinuteCenterDetailPage />}
-      />
-      <Route
-        path="/minute/representative/detail/:id"
-        element={<MinuteRepresentativeDetailPage />}
-      />
-      <Route
-        path="/minute/tution/detail/:id"
-        element={<MinuteTutuionDetailPage />}
-      />
-      <Route
-        path="/minute/administrative/detail/:id"
-        element={<MinuteAdministrativeDetailPage />}
-      />
+      
       <Route path="/rental" element={<RentalPage />} />
       <Route path="/education/foresight" element={<EducationForesightPage />} />
       <Route
@@ -77,9 +33,7 @@ const Routing = () => {
         path="/education/notice/detail/:id"
         element={<EducationNoticeDetailPage />}
       />
-      <Route path="/central" element={<CentralPage />} />
-      <Route path="/account" element={<AccountPage />} />
-      <Route path="/account/detail/:id" element={<AccountDetailPage />} />
+      
     </Routes>
   );
 };

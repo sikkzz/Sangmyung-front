@@ -4,12 +4,12 @@ export const TabData = [
     sub_item: [
       {
         id: "greeting",
-        link: "/introduce/greeting",
+        link: "/intro/introduce/greeting",
         item: "회장단 인사말",
       },
       {
         id: "organizationchart",
-        link: "/introduce/organizationchart",
+        link: "/intro/introduce/organizationchart",
         item: "조직도",
       },
     ],
@@ -19,37 +19,37 @@ export const TabData = [
     sub_item: [
       {
         id: "planning",
-        link: "/department/planning",
+        link: "/intro/department/planning",
         item: "기획국",
       },
       {
         id: "financialofficework",
-        link: "/department/financialofficework",
+        link: "/intro/department/financialofficework",
         item: "재정사무국",
       },
       {
         id: "foreigncooperation",
-        link: "/department/foreigncooperation",
+        link: "/intro/department/foreigncooperation",
         item: "대외협력국",
       },
       {
         id: "internalcommunication",
-        link: "/department/internalcommunication",
+        link: "/intro/department/internalcommunication",
         item: "대내교류국",
       },
       {
         id: "welfarework",
-        link: "/department/welfarework",
+        link: "/intro/department/welfarework",
         item: "복지사업국",
       },
       {
         id: "educationsupporting",
-        link: "/department/educationsupporting",
+        link: "/intro/department/educationsupporting",
         item: "교육지원국",
       },
       {
         id: "promotion",
-        link: "/department/promotion",
+        link: "/intro/department/promotion",
         item: "홍보국",
       },
     ],
@@ -69,12 +69,12 @@ export const TabData = [
     sub_item: [
       {
         id: "simple",
-        link: "/pledge/simple",
+        link: "/intro/pledge/simple",
         item: "공약집",
       },
       {
         id: "detail",
-        link: "/pledge/detail/communication",
+        link: "/intro/pledge/detail/communication",
         item: "공약 상세보기",
       },
     ],
@@ -184,7 +184,7 @@ export const TabData = [
     sub_item: [
       {
         id: "central",
-        link: "/central",
+        link: "/intro/central",
         item: "중앙운영위원회",
       },
     ],
@@ -194,7 +194,7 @@ export const TabData = [
     sub_item: [
       {
         id: "account",
-        link: "/account",
+        link: "/intro/account",
         item: "예결산 목록",
       },
     ],
