@@ -39,7 +39,7 @@ const Bio = ({ state }: Props) => {
       )}
       <Layout>
         <Col>
-          <Tab state={location.pathname.split("/")[1]} />
+          <Tab state={location.pathname.split("/")[2]} />
         </Col>
       </Layout>
 

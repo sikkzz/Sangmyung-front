@@ -13,8 +13,8 @@ const PledgeDetailPage = () => {
     <>
       <TopHeader />
       <Header />
-      <Bio state={location.pathname.split("/")[1]} />
-      <PledgeDetail state={location.pathname.split("/")[3]} />
+      <Bio state={location.pathname.split("/")[2]} />
+      <PledgeDetail state={location.pathname.split("/")[4]} />
       <Footer />
     </>
   );

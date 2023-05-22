@@ -13,7 +13,7 @@ const EducationForesightDetailPage = () => {
     <>
       <TopHeader />
       <Header />
-      <Bio state={location.pathname.split("/")[1]} />
+      <Bio state={location.pathname.split("/")[2]} />
       <EducationForesightDetail />
       <Footer />
     </>

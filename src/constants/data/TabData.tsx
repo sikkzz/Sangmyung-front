@@ -59,7 +59,7 @@ export const TabData = [
     sub_item: [
       {
         id: "map",
-        link: "/map",
+        link: "/facility/map",
         item: "캠퍼스맵",
       },
     ],
@@ -84,27 +84,27 @@ export const TabData = [
     sub_item: [
       {
         id: "all",
-        link: "/partnership/all",
+        link: "/facility/partnership/all",
         item: "전체",
       },
       {
         id: "medical",
-        link: "/partnership/medical",
+        link: "/facility/partnership/medical",
         item: "의료",
       },
       {
         id: "study",
-        link: "/partnership/study",
+        link: "/facility/partnership/study",
         item: "학업",
       },
       {
         id: "convenience",
-        link: "/partnership/convenience",
+        link: "/facility/partnership/convenience",
         item: "편의시설",
       },
       {
         id: "restaurant",
-        link: "/partnership/restaurant",
+        link: "/facility/partnership/restaurant",
         item: "음식점",
       },
     ],
@@ -114,7 +114,7 @@ export const TabData = [
     sub_item: [
       {
         id: "calendar",
-        link: "/calendar",
+        link: "/info/calendar",
         item: "학사일정",
       },
     ],
@@ -124,7 +124,7 @@ export const TabData = [
     sub_item: [
       {
         id: "notice",
-        link: "/notice",
+        link: "/intro/notice",
         item: "공지사항",
       },
     ],
@@ -134,7 +134,7 @@ export const TabData = [
     sub_item: [
       {
         id: "minute",
-        link: "/minute",
+        link: "/info/minute",
         item: "회의록",
       },
     ],
@@ -144,7 +144,7 @@ export const TabData = [
     sub_item: [
       {
         id: "rule",
-        link: "/rule",
+        link: "/info/rule",
         item: "회칙 및 세칙",
       },
     ],
@@ -154,7 +154,7 @@ export const TabData = [
     sub_item: [
       {
         id: "detail",
-        link: "/detail",
+        link: "/info/detail",
         item: "회칙 및 세칙",
       },
     ],
@@ -164,7 +164,7 @@ export const TabData = [
     sub_item: [
       {
         id: "rental",
-        link: "/rental",
+        link: "/facility/rental",
         item: "물품대여현황",
       },
     ],
@@ -174,7 +174,7 @@ export const TabData = [
     sub_item: [
       {
         id: "education",
-        link: "/education/foresight",
+        link: "/info/education/foresight",
         item: "선[先]견지명",
       },
     ],
