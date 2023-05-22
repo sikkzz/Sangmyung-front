@@ -7,6 +7,9 @@ import PledgeDetailPage from "../pages/PledgeDetailPage";
 import CentralPage from "../pages/CentralPage";
 import AccountPage from "../pages/AccountPage";
 import AccountDetailPage from "../pages/AccountDetailPage";
+import NoticePage from "../pages/NoticePage";
+import NoticeDetailPage from "../pages/NoticeDetailPage";
+
 
 const IntroRouting = () => {
   return (
@@ -22,6 +25,8 @@ const IntroRouting = () => {
       <Route path="/intro/central" element={<CentralPage />} />
       <Route path="/intro/account" element={<AccountPage />} />
       <Route path="/intro/account/detail/:id" element={<AccountDetailPage />} />
+      <Route path="/intro/notice" element={<NoticePage />} />
+      <Route path="/intro/notice/detail/:id" element={<NoticeDetailPage />} />
     </Routes>
   );
 };

@@ -5,6 +5,11 @@ import MinuteCenterDetailPage from "../pages/MinuteCenterDetailPage";
 import MinuteRepresentativeDetailPage from "../pages/MinuteRepresentativeDetailPage";
 import MinuteTutuionDetailPage from "../pages/MinuteTutuionDetailPage";
 import MinuteAdministrativeDetailPage from "../pages/MinuteAdministrativeDetailPage";
+import EducationForesightPage from "../pages/EducationForesightPage";
+import EducationForesightDetailPage from "../pages/EducationForesightDetailPage";
+import EducationNoticePage from "../pages/EducationNoticePage";
+import EducationNoticeDetailPage from "../pages/EducationNoticeDetailPage";
+import CalendarPage from "../pages/CalendarPage";
 
 const InfoRouting = () => {
   return (
@@ -32,6 +37,20 @@ const InfoRouting = () => {
         path="/info/minute/administrative/detail/:id"
         element={<MinuteAdministrativeDetailPage />}
       />
+      <Route
+        path="/info/education/foresight"
+        element={<EducationForesightPage />}
+      />
+      <Route
+        path="/info/education/foresight/detail/:id"
+        element={<EducationForesightDetailPage />}
+      />
+      <Route path="/info/education/notice" element={<EducationNoticePage />} />
+      <Route
+        path="/info/education/notice/detail/:id"
+        element={<EducationNoticeDetailPage />}
+      />
+      <Route path="/info/calendar" element={<CalendarPage />} />
     </Routes>
   );
 };
