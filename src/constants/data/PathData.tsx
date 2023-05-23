@@ -1,5 +1,9 @@
 export const PathData = [
   {
+    id: "intro",
+    item: "총학생회",
+  },
+  {
     id: "introduce",
     item: "총학생회 소개",
   },
@@ -44,6 +48,10 @@ export const PathData = [
     item: "홍보국",
   },
   {
+    id: "notice",
+    item: "공지사항",
+  },
+  {
     id: "central",
     item: "중앙운영위원회",
   },
@@ -64,24 +72,63 @@ export const PathData = [
     item: "결산 목록",
   },
   {
-    id: "notice",
-    item: "공지사항",
+    id: "info",
+    item: "학교정보",
   },
   {
-    id: "internalcommunication",
-    item: "대내교류국",
+    id: "rule",
+    item: "학생회칙",
   },
   {
-    id: "internalcommunication",
-    item: "대내교류국",
+    id: "minute",
+    item: "회의록",
   },
   {
-    id: "internalcommunication",
-    item: "대내교류국",
+    id: "center",
+    item: "중앙운영위원회 회의록",
   },
   {
-    id: "internalcommunication",
-    item: "대내교류국",
+    id: "representative",
+    item: "전체학생대표자회의 회의록",
   },
-  
+  {
+    id: "tution",
+    item: "등록금심의위원회 회의록",
+  },
+  {
+    id: "administrative",
+    item: "행정부처 간담회 회의록",
+  },
+  {
+    id: "calendar",
+    item: "학사일정",
+  },
+  {
+    id: "education",
+    item: "교육 및 학사",
+  },
+  {
+    id: "foresight",
+    item: "선[先]견지명",
+  },
+  {
+    id: "ednotice",
+    item: "학사안내",
+  },
+  {
+    id: "facility",
+    item: "학교시설",
+  },
+  {
+    id: "partnership",
+    item: "제휴",
+  },
+  {
+    id: "map",
+    item: "캠퍼스맵",
+  },
+  {
+    id: "rental",
+    item: "물품대여현황",
+  },
 ];

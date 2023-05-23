@@ -285,7 +285,7 @@ import Img42_8 from "../../assets/education/12/008.png";
 export const NoticeData = [
   {
     id: 42,
-    link: "/notice/detail/42",
+    link: "/intro/notice/detail/42",
     title:
       "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 학석사 연계과정 편",
     date: "2023-05-15",
@@ -331,7 +331,7 @@ export const NoticeData = [
   },
   {
     id: 41,
-    link: "/notice/detail/41",
+    link: "/intro/notice/detail/41",
     title: "상명대학교 2023학년도 서울캠퍼스 대동제 대무대 및 소무대 공연 시간",
     date: "2023-05-14",
     owner: "관리자",
@@ -376,7 +376,7 @@ export const NoticeData = [
   },
   {
     id: 40,
-    link: "/notice/detail/40",
+    link: "/intro/notice/detail/40",
     title: "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 리스트",
     date: "2023-05-14",
     owner: "관리자",
@@ -409,7 +409,7 @@ export const NoticeData = [
   },
   {
     id: 39,
-    link: "/notice/detail/39",
+    link: "/intro/notice/detail/39",
     title: "상명대학교 2023학년도 서울캠퍼스 대동제 Teaser. 1 공개",
     date: "2023-05-13",
     owner: "관리자",
@@ -425,7 +425,7 @@ export const NoticeData = [
   },
   {
     id: 38,
-    link: "/notice/detail/38",
+    link: "/intro/notice/detail/38",
     title:
       "상명대학교 2023학년도 서울캠퍼스 대동제 프로모션사 '오찌'(@otz_korea) 일일 앰버서더 모집",
     date: "2023-05-12",
@@ -467,7 +467,7 @@ export const NoticeData = [
   },
   {
     id: 37,
-    link: "/notice/detail/37",
+    link: "/intro/notice/detail/37",
     title: "상명대학교 2023학년도 서울캠퍼스 대동제 드레스 코드 및 굿즈 공개",
     date: "2023-05-11",
     owner: "관리자",
@@ -508,7 +508,7 @@ export const NoticeData = [
   },
   {
     id: 36,
-    link: "/notice/detail/36",
+    link: "/intro/notice/detail/36",
     title: "상명대학교 2023학년도 서울캠퍼스 대동제 아티스트 축전 영상 공개",
     date: "2023-05-11",
     owner: "관리자",
@@ -527,7 +527,7 @@ export const NoticeData = [
   },
   {
     id: 35,
-    link: "/notice/detail/35",
+    link: "/intro/notice/detail/35",
     title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 현장실습학기제 편",
     date: "2023-05-11",
     owner: "관리자",
@@ -576,7 +576,7 @@ export const NoticeData = [
   },
   {
     id: 34,
-    link: "/notice/detail/34",
+    link: "/intro/notice/detail/34",
     title: "상명대학교 2023학년도 서울캠퍼스 대동제 Line-Up 공개",
     date: "2023-05-10",
     owner: "관리자",
@@ -601,7 +601,7 @@ export const NoticeData = [
   },
   {
     id: 33,
-    link: "/notice/detail/33",
+    link: "/intro/notice/detail/33",
     title: "상명대학교 2023학년도 서울캠퍼스 대동제 Line-Up Quiz",
     date: "2023-05-09",
     owner: "관리자",
@@ -626,7 +626,7 @@ export const NoticeData = [
   },
   {
     id: 32,
-    link: "/notice/detail/32",
+    link: "/intro/notice/detail/32",
     title: "상명대학교 2023년도 서울캠퍼스 대동제 포스터 공개",
     date: "2023-05-09",
     owner: "관리자",
@@ -643,7 +643,7 @@ export const NoticeData = [
   },
   {
     id: 31,
-    link: "/notice/detail/31",
+    link: "/intro/notice/detail/31",
     title: "상명대학교 제46대 총학생회 '선[先]' 잡메이트 멘토링 서비스",
     date: "2023-05-09",
     owner: "관리자",
@@ -680,7 +680,7 @@ export const NoticeData = [
   },
   {
     id: 30,
-    link: "/notice/detail/30",
+    link: "/intro/notice/detail/30",
     title:
       "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 일경험 프로그램 편",
     date: "2023-05-08",
@@ -730,7 +730,7 @@ export const NoticeData = [
   },
   {
     id: 29,
-    link: "/notice/detail/29",
+    link: "/intro/notice/detail/29",
     title:
       "상명대학교 제46대 총학생회 '선[先]' 어학연수 안내 - 중국 Beijing Language & Culture University",
     date: "2023-05-06",
@@ -784,7 +784,7 @@ export const NoticeData = [
   },
   {
     id: 28,
-    link: "/notice/detail/28",
+    link: "/intro/notice/detail/28",
     title:
       "상명대학교 제46대 총학생회 '선[先]' 어학연수 안내 - 캐나다 Vancouver Island University",
     date: "2023-05-04",
@@ -838,7 +838,7 @@ export const NoticeData = [
   },
   {
     id: 27,
-    link: "/notice/detail/27",
+    link: "/intro/notice/detail/27",
     title: "상명대학교 제46대 총학생회 '선[先]' 해커스데이 시행",
     date: "2023-05-04",
     owner: "관리자",
@@ -855,7 +855,7 @@ export const NoticeData = [
   },
   {
     id: 26,
-    link: "/notice/detail/26",
+    link: "/intro/notice/detail/26",
     title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 전과신청 편",
     date: "2023-05-03",
     owner: "관리자",
@@ -904,7 +904,7 @@ export const NoticeData = [
   },
   {
     id: 25,
-    link: "/notice/detail/25",
+    link: "/intro/notice/detail/25",
     title: "상명대학교 제46대 총학생회 '선[先]' 집행부 소개",
     date: "2023-05-03",
     owner: "관리자",
@@ -953,7 +953,7 @@ export const NoticeData = [
   },
   {
     id: 24,
-    link: "/notice/detail/24",
+    link: "/intro/notice/detail/24",
     title:
       "상명대학교 제46대 총학생회 '선[先]' 어학연수 안내 - 미국 Stony Brook University",
     date: "2023-05-03",
@@ -1007,7 +1007,7 @@ export const NoticeData = [
   },
   {
     id: 23,
-    link: "/notice/detail/23",
+    link: "/intro/notice/detail/23",
     title: "상명대학교 제46대 총학생회 '선[先]' 학생-교원 간담회 결과 보고",
     date: "2023-05-02",
     owner: "관리자",
@@ -1060,7 +1060,7 @@ export const NoticeData = [
   },
   {
     id: 22,
-    link: "/notice/detail/22",
+    link: "/intro/notice/detail/22",
     title: "상명대학교 제46대 총학생회 '선[先]' 5월 캘린더 출간",
     date: "2023-05-01",
     owner: "관리자",
@@ -1077,7 +1077,7 @@ export const NoticeData = [
   },
   {
     id: 21,
-    link: "/notice/detail/21",
+    link: "/intro/notice/detail/21",
     title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 다/부전공 신청 편",
     date: "2023-05-01",
     owner: "관리자",
@@ -1130,7 +1130,7 @@ export const NoticeData = [
   },
   {
     id: 20,
-    link: "/notice/detail/20",
+    link: "/intro/notice/detail/20",
     title: "상명대학교 제46대 총학생회 '선[先]' 천원의 아침밥 공지",
     date: "2023-05-01",
     owner: "관리자",
@@ -1159,7 +1159,7 @@ export const NoticeData = [
   },
   {
     id: 19,
-    link: "/notice/detail/19",
+    link: "/intro/notice/detail/19",
     title: "상명대학교 제46대 총학생회 '선[先]' 분실물 보관 공지",
     date: "2023-04-27",
     owner: "관리자",
@@ -1176,7 +1176,7 @@ export const NoticeData = [
   },
   {
     id: 18,
-    link: "/notice/detail/18",
+    link: "/intro/notice/detail/18",
     title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 공모전 편",
     date: "2023-04-27",
     owner: "관리자",
@@ -1229,7 +1229,7 @@ export const NoticeData = [
   },
   {
     id: 17,
-    link: "/notice/detail/17",
+    link: "/intro/notice/detail/17",
     title: "상명대학교 제46대 총학생회 '선[先]' 천원의 아침밥 시행",
     date: "2023-04-25",
     owner: "관리자",
@@ -1254,7 +1254,7 @@ export const NoticeData = [
   },
   {
     id: 16,
-    link: "/notice/detail/16",
+    link: "/intro/notice/detail/16",
     title:
       "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 라이브커머스 교육 편",
     date: "2023-04-21",
@@ -1308,7 +1308,7 @@ export const NoticeData = [
   },
   {
     id: 15,
-    link: "/notice/detail/15",
+    link: "/intro/notice/detail/15",
     title: "상명대학교 제46대 총학생회 '선[先]' 학술정보관 시설 운영연장 안내",
     date: "2023-04-20",
     owner: "관리자",
@@ -1325,7 +1325,7 @@ export const NoticeData = [
   },
   {
     id: 14,
-    link: "/notice/detail/14",
+    link: "/intro/notice/detail/14",
     title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 학사공지 편",
     date: "2023-04-17",
     owner: "관리자",
@@ -1374,7 +1374,7 @@ export const NoticeData = [
   },
   {
     id: 13,
-    link: "/notice/detail/13",
+    link: "/intro/notice/detail/13",
     title: "상명대학교 제46대 총학생회 '선[先]' X 세이프닥(SafeDoc) 제휴",
     date: "2023-04-14",
     owner: "관리자",
@@ -1403,7 +1403,7 @@ export const NoticeData = [
   },
   {
     id: 12,
-    link: "/notice/detail/12",
+    link: "/intro/notice/detail/12",
     title:
       "상명대학교 제46대 총학생회 '선[先]' 학생-교원 간담회 최종 안건 보고",
     date: "2023-04-12",
@@ -1453,7 +1453,7 @@ export const NoticeData = [
   },
   {
     id: 11,
-    link: "/notice/detail/11",
+    link: "/intro/notice/detail/11",
     title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 진로취업 편",
     date: "2023-04-10",
     owner: "관리자",
@@ -1497,7 +1497,7 @@ export const NoticeData = [
   },
   {
     id: 10,
-    link: "/notice/detail/10",
+    link: "/intro/notice/detail/10",
     title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 상명봉사단 편",
     date: "2023-04-06",
     owner: "관리자",
@@ -1549,7 +1549,7 @@ export const NoticeData = [
   },
   {
     id: 9,
-    link: "/notice/detail/9",
+    link: "/intro/notice/detail/9",
     title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 장학제도 편",
     date: "2023-04-05",
     owner: "관리자",
@@ -1601,7 +1601,7 @@ export const NoticeData = [
   },
   {
     id: 8,
-    link: "/notice/detail/8",
+    link: "/intro/notice/detail/8",
     title: "상명대학교 제46대 총학생회 '선[先]' 학생-교원 간담회 설문조사 시행",
     date: "2023-04-03",
     owner: "관리자",
@@ -1626,7 +1626,7 @@ export const NoticeData = [
   },
   {
     id: 7,
-    link: "/notice/detail/7",
+    link: "/intro/notice/detail/7",
     title: "상명대학교 제46대 총학생회 '선[先]' SMCL 간담회 및 발대식 진행",
     date: "2023-04-03",
     owner: "관리자",
@@ -1643,7 +1643,7 @@ export const NoticeData = [
   },
   {
     id: 6,
-    link: "/notice/detail/6",
+    link: "/intro/notice/detail/6",
     title: "상명대학교 제46대 총학생회 '선[先]' 인스타그램 팔로우 이벤트",
     date: "2023-04-03",
     owner: "관리자",
@@ -1660,7 +1660,7 @@ export const NoticeData = [
   },
   {
     id: 5,
-    link: "/notice/detail/5",
+    link: "/intro/notice/detail/5",
     title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 학사정보 편",
     date: "2023-04-02",
     owner: "관리자",
@@ -1708,7 +1708,7 @@ export const NoticeData = [
   },
   {
     id: 4,
-    link: "/notice/detail/4",
+    link: "/intro/notice/detail/4",
     title: "상명대학교 제46대 총학생회 '선[先]' 4월 캘린더 출간",
     date: "2023-04-01",
     owner: "관리자",
@@ -1729,7 +1729,7 @@ export const NoticeData = [
   },
   {
     id: 3,
-    link: "/notice/detail/3",
+    link: "/intro/notice/detail/3",
     title: "상명대학교 제46대 총학생회 '선[先]' SMCL 간담회 개최",
     date: "2023-03-30",
     owner: "관리자",
@@ -1754,7 +1754,7 @@ export const NoticeData = [
   },
   {
     id: 2,
-    link: "/notice/detail/2",
+    link: "/intro/notice/detail/2",
     title: "상명대학교 제46대 총학생회 '선[先]' 신입국원 모집",
     date: "2023-03-27",
     owner: "관리자",
@@ -1783,7 +1783,7 @@ export const NoticeData = [
   },
   {
     id: 1,
-    link: "/notice/detail/1",
+    link: "/intro/notice/detail/1",
     title: "상명대학교 제46대 총학생회 '선[先]' 발족 안내",
     date: "2023-03-27",
     owner: "관리자",

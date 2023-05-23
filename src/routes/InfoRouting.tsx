@@ -45,9 +45,12 @@ const InfoRouting = () => {
         path="/info/education/foresight/detail/:id"
         element={<EducationForesightDetailPage />}
       />
-      <Route path="/info/education/notice" element={<EducationNoticePage />} />
       <Route
-        path="/info/education/notice/detail/:id"
+        path="/info/education/ednotice"
+        element={<EducationNoticePage />}
+      />
+      <Route
+        path="/info/education/ednotice/detail/:id"
         element={<EducationNoticeDetailPage />}
       />
       <Route path="/info/calendar" element={<CalendarPage />} />

@@ -173,9 +173,14 @@ export const TabData = [
     id: "education",
     sub_item: [
       {
-        id: "education",
+        id: "foresight",
         link: "/info/education/foresight",
         item: "선[先]견지명",
+      },
+      {
+        id: "ednotice",
+        link: "/info/education/ednotice",
+        item: "학사안내",
       },
     ],
   },

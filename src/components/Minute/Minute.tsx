@@ -83,7 +83,7 @@ const Minute = ({ state }: Props) => {
           </TabBox>
           {MinuteData.map((item, index) => (
             <Title key={index}>
-              {location.pathname.split("/")[2] === item.id ? item.title : ""}
+              {location.pathname.split("/")[3] === item.id ? item.title : ""}
             </Title>
           ))}
           <SearchBox>
@@ -123,7 +123,7 @@ const Minute = ({ state }: Props) => {
                     <TdTitle>
                       {MinuteData.map((item, index) => (
                         <TdLink>
-                          {location.pathname.split("/")[2] === item.id
+                          {location.pathname.split("/")[3] === item.id
                             ? item.title
                             : ""}
                         </TdLink>
@@ -140,7 +140,7 @@ const Minute = ({ state }: Props) => {
                     representative: <RepresentativeMinute />,
                     tution: <TutionMinute />,
                     administrative: <AdministrativeMinute />,
-                  }[location.pathname.split("/")[2]]
+                  }[location.pathname.split("/")[3]]
                 }
               </TBody>
             </Table>

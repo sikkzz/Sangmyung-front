@@ -55,22 +55,22 @@ export const MinuteData = [
   {
     id: "center",
     title: "중앙운영위원회 회의록",
-    link: "/minute/center",
+    link: "/info/minute/center",
   },
   {
     id: "representative",
     title: "전체학생대표자회의 회의록",
-    link: "/minute/representative",
+    link: "/info/minute/representative",
   },
   {
     id: "tution",
     title: "등록금심의위원회 회의록",
-    link: "/minute/tution",
+    link: "/info/minute/tution",
   },
   {
     id: "administrative",
     title: "행정부처 간담회 회의록",
-    link: "/minute/administrative",
+    link: "/info/minute/administrative",
   },
 ];
 
@@ -102,7 +102,7 @@ export const RepresentativeData = [
     id: 1,
     title: "2023학년도 제1차 전체학생대표자회의 회의록",
     date: "2023-04-11",
-    link: "/minute/representative/detail/1",
+    link: "/info/minute/representative/detail/1",
     owner: "관리자",
     content:
       "일시: 2023.04.10.(월) 18:30 ~ 19:30<br/>장소: 미래백년관 R103<br/>참석자: 학생 대표자(총학생회, 단과대학생회, 학과별 학생회) 34인<br/>안건: 1) 총학생회 집행부 소개<br/><p style='margin-left: 36px'>2) 총학생회 연간 계획 브리핑</p><p style='margin-left: 36px'>3) 총학생회 교원 간담회 안건 브리핑</p><p style='margin-left: 36px'>4) 대동제(학생축제) 시행 관련 초안 안내</p><p style='margin-left: 36px'>5) 대표자 질의</p>",
@@ -146,7 +146,7 @@ export const TutionData = [
     id: 3,
     title: "2023학년도 제3차 등록금심의위원회 회의록",
     date: "2023-01-20",
-    link: "/minute/tution/detail/3",
+    link: "/info/minute/tution/detail/3",
     owner: "관리자",
     downloadLink:
       "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
@@ -167,7 +167,7 @@ export const TutionData = [
     id: 2,
     title: "2023학년도 제2차 등록금심의위원회 회의록",
     date: "2023-01-10",
-    link: "/minute/tution/detail/2",
+    link: "/info/minute/tution/detail/2",
     owner: "관리자",
     downloadLink:
       "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
@@ -192,7 +192,7 @@ export const TutionData = [
     id: 1,
     title: "2023학년도 제1차 등록금심의위원회 회의록",
     date: "2023-01-05",
-    link: "/minute/tution/detail/1",
+    link: "/info/minute/tution/detail/1",
     owner: "관리자",
     downloadLink:
       "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
@@ -220,7 +220,7 @@ export const AdministrativeData = [
     id: 6,
     title: "2023학년도 제1차 총장간담회 회의록",
     date: "2023-04-13",
-    link: "/minute/administrative/detail/6",
+    link: "/info/minute/administrative/detail/6",
     owner: "관리자",
     downloadLink:
       "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
@@ -269,7 +269,7 @@ export const AdministrativeData = [
     id: 5,
     title: "2023학년도 제1차 정보통신팀 회의록",
     date: "2023-04-10",
-    link: "/minute/administrative/detail/5",
+    link: "/info/minute/administrative/detail/5",
     owner: "관리자",
     downloadLink:
       "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
@@ -290,7 +290,7 @@ export const AdministrativeData = [
     id: 4,
     title: "2022학년도 제2차 총장간담회 후속 조치 결과",
     date: "2022-10-28",
-    link: "/minute/administrative/detail/4",
+    link: "/info/minute/administrative/detail/4",
     owner: "관리자",
     downloadLink:
       "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
@@ -311,7 +311,7 @@ export const AdministrativeData = [
     id: 3,
     title: "2022학년도 제2차 총장간담회 회의록",
     date: "2022-10-12",
-    link: "/minute/administrative/detail/3",
+    link: "/info/minute/administrative/detail/3",
     owner: "관리자",
     downloadLink:
       "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
@@ -360,7 +360,7 @@ export const AdministrativeData = [
     id: 2,
     title: "2022학년도 제1차 정보통신팀 회의록",
     date: "2022-04-15",
-    link: "/minute/administrative/detail/2",
+    link: "/info/minute/administrative/detail/2",
     owner: "관리자",
     downloadLink:
       "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
@@ -377,7 +377,7 @@ export const AdministrativeData = [
     id: 1,
     title: "2022학년도 제1차 총장간담회 회의록",
     date: "2022-04-08",
-    link: "/minute/administrative/detail/1",
+    link: "/info/minute/administrative/detail/1",
     owner: "관리자",
     downloadLink:
       "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",

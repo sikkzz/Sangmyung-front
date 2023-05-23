@@ -163,7 +163,7 @@ import noImg4_6 from "../../assets/education/notice/4/6.jpg";
 export const EducationForesightData = [
   {
     id: 12,
-    link: "/education/foresight/detail/12",
+    link: "/info/education/foresight/detail/12",
     img: Img12_1,
     alt: "img12_1",
     title: "💙선[先]견지명 - 학석사 연계과정 편💙",
@@ -208,7 +208,7 @@ export const EducationForesightData = [
   },
   {
     id: 11,
-    link: "/education/foresight/detail/11",
+    link: "/info/education/foresight/detail/11",
     img: Img11_1,
     alt: "img11_1",
     title: "💙선[先]견지명 - 현장실습학기제 편💙",
@@ -257,7 +257,7 @@ export const EducationForesightData = [
   },
   {
     id: 10,
-    link: "/education/foresight/detail/10",
+    link: "/info/education/foresight/detail/10",
     img: Img10_1,
     alt: "img10_1",
     title: "💙선[先]견지명 - 일경험 프로그램 편💙",
@@ -306,7 +306,7 @@ export const EducationForesightData = [
   },
   {
     id: 9,
-    link: "/education/foresight/detail/9",
+    link: "/info/education/foresight/detail/9",
     img: Img9_1,
     alt: "img9_1",
     title: "💙선[先]견지명 - 전과신청 편💙",
@@ -355,7 +355,7 @@ export const EducationForesightData = [
   },
   {
     id: 8,
-    link: "/education/foresight/detail/8",
+    link: "/info/education/foresight/detail/8",
     img: Img8_1,
     alt: "img8_1",
     title: "💙선[先]견지명 - 다/부전공 신청 편💙",
@@ -408,7 +408,7 @@ export const EducationForesightData = [
   },
   {
     id: 7,
-    link: "/education/foresight/detail/7",
+    link: "/info/education/foresight/detail/7",
     img: Img7_1,
     alt: "img7_1",
     title: "💙선[先]견지명 - 공모전 편💙",
@@ -461,7 +461,7 @@ export const EducationForesightData = [
   },
   {
     id: 6,
-    link: "/education/foresight/detail/6",
+    link: "/info/education/foresight/detail/6",
     img: Img6_1,
     alt: "img6_1",
     title: "💙선[先]견지명 - 라이브커머스 편💙",
@@ -514,7 +514,7 @@ export const EducationForesightData = [
   },
   {
     id: 5,
-    link: "/education/foresight/detail/5",
+    link: "/info/education/foresight/detail/5",
     img: Img5_1,
     alt: "img5_1",
     title: "💙선[先]견지명 - 학사공지 편💙",
@@ -563,7 +563,7 @@ export const EducationForesightData = [
   },
   {
     id: 4,
-    link: "/education/foresight/detail/4",
+    link: "/info/education/foresight/detail/4",
     img: Img4_1,
     alt: "img4_1",
     title: "💙선[先]견지명 - 진로취업 편💙",
@@ -608,7 +608,7 @@ export const EducationForesightData = [
   },
   {
     id: 3,
-    link: "/education/foresight/detail/3",
+    link: "/info/education/foresight/detail/3",
     img: Img3_1,
     alt: "img3_1",
     title: "💙선[先]견지명 - 상명봉사단 편💙",
@@ -657,7 +657,7 @@ export const EducationForesightData = [
   },
   {
     id: 2,
-    link: "/education/foresight/detail/2",
+    link: "/info/education/foresight/detail/2",
     img: Img2_1,
     alt: "img2_1",
     title: "💙선[先]견지명 - 장학제도 편💙",
@@ -710,7 +710,7 @@ export const EducationForesightData = [
   },
   {
     id: 1,
-    link: "/education/foresight/detail/1",
+    link: "/info/education/foresight/detail/1",
     img: Img1_1,
     alt: "img1_1",
     title: "💙선[先]견지명 - 학사정보 편💙",
@@ -762,7 +762,7 @@ export const EducationForesightData = [
 export const EducationNoticeData = [
   {
     id: 4,
-    link: "/education/notice/detail/4",
+    link: "/info/education/ednotice/detail/4",
     img: noImg4_1,
     alt: "noImg4_1",
     title: "💙퀸텀AI - 잡메이트 멘토링 서비스💙",
@@ -799,7 +799,7 @@ export const EducationNoticeData = [
   },
   {
     id: 3,
-    link: "/education/notice/detail/3",
+    link: "/info/education/ednotice/detail/3",
     img: noImg3_1,
     alt: "noImg3_1",
     title: "💙어학연수 - 중국 Beijing Language & Culture University💙",
@@ -852,7 +852,7 @@ export const EducationNoticeData = [
   },
   {
     id: 2,
-    link: "/education/notice/detail/2",
+    link: "/info/education/ednotice/detail/2",
     img: noImg2_1,
     alt: "noImg2_1",
     title: "💙어학연수 - 캐나다 Vancouver Island University💙",
@@ -905,7 +905,7 @@ export const EducationNoticeData = [
   },
   {
     id: 1,
-    link: "/education/notice/detail/1",
+    link: "/info/education/ednotice/detail/1",
     img: noImg1_1,
     alt: "noImg1_1",
     title: "💙어학연수 - 미국 Stony Brook University💙",

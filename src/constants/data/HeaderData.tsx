@@ -109,7 +109,7 @@ export const HeaderTabData = [
           },
           {
             sub_item2: "학사안내",
-            link: "/info/education/notice",
+            link: "/info/education/ednotice",
           },
         ],
       },
@@ -262,7 +262,7 @@ export const MHeaderTabData = [
           },
           {
             sub_item2: "학사안내",
-            link: "/info/education/notice",
+            link: "/info/education/ednotice",
           },
         ],
       },
