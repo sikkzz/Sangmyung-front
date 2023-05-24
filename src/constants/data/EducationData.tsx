@@ -120,6 +120,28 @@ import Img12_6 from "../../assets/education/12/006.png";
 import Img12_7 from "../../assets/education/12/007.png";
 import Img12_8 from "../../assets/education/12/008.png";
 
+import Img13_1 from "../../assets/education/13/1.jpg";
+import Img13_2 from "../../assets/education/13/2.jpg";
+import Img13_3 from "../../assets/education/13/3.jpg";
+import Img13_4 from "../../assets/education/13/4.jpg";
+import Img13_5 from "../../assets/education/13/5.jpg";
+import Img13_6 from "../../assets/education/13/6.jpg";
+import Img13_7 from "../../assets/education/13/7.jpg";
+import Img13_8 from "../../assets/education/13/8.jpg";
+import Img13_9 from "../../assets/education/13/9.jpg";
+import Img13_10 from "../../assets/education/13/10.jpg";
+
+import Img14_1 from "../../assets/education/14/1.jpg";
+import Img14_2 from "../../assets/education/14/2.jpg";
+import Img14_3 from "../../assets/education/14/1.jpg";
+import Img14_4 from "../../assets/education/14/1.jpg";
+import Img14_5 from "../../assets/education/14/1.jpg";
+import Img14_6 from "../../assets/education/14/1.jpg";
+import Img14_7 from "../../assets/education/14/1.jpg";
+import Img14_8 from "../../assets/education/14/1.jpg";
+import Img14_9 from "../../assets/education/14/1.jpg";
+import Img14_10 from "../../assets/education/14/1.jpg";
+
 import noImg1_1 from "../../assets/education/notice/1/1-1.png";
 import noImg1_2 from "../../assets/education/notice/1/1-2.png";
 import noImg1_3 from "../../assets/education/notice/1/1-3.png";
@@ -161,6 +183,112 @@ import noImg4_5 from "../../assets/education/notice/4/5.jpg";
 import noImg4_6 from "../../assets/education/notice/4/6.jpg";
 
 export const EducationForesightData = [
+  {
+    id: 14,
+    link: "/info/education/foresight/detail/14",
+    img: Img14_1,
+    alt: "img14_1",
+    title: "💙선[先]견지명 - 하계 계절수업 편💙",
+    date: "2023-05-23",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분!<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>5월 넷째 주, 두 번째로 제공해드리는 정보는 '하계 계절수업 편'입니다.<br/><br/>2023학년도 하계 계절수업 개설 예정 교과목 및 수강신청 공지사항이 본교 홈페이지에 올라와 있습니다.<br/>⭐️금주 금요일까지⭐️ 수강신청 기간이니, 관심 있으신 분들은 공지사항을 확인하시기 바랍니다.<br/><br/>- 수강신청 기간 및 방법<br/>- 개설교과목 확정<br/>- 수강료 납부<br/>- 성적 관련 사항<br/>- 하계 계절수업 기간<br/>- 바이오헬스 개설 예정 교과목<br/>- 일반 개설 예정 교과목<br/>- 대학 e-러닝 학점인정 컨소시엄 개설 예정 교과목<br/><br/>* 자세한 사항은 상명대학교 홈페이지 '상명라운지(공지사항)'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다! 감사합니다.",
+    inImg: [
+      {
+        img: Img14_1,
+        alt: "img14_1",
+      },
+      {
+        img: Img14_2,
+        alt: "img14_2",
+      },
+      {
+        img: Img14_3,
+        alt: "img14_3",
+      },
+      {
+        img: Img14_4,
+        alt: "img14_4",
+      },
+      {
+        img: Img14_5,
+        alt: "img14_5",
+      },
+      {
+        img: Img14_6,
+        alt: "img14_6",
+      },
+      {
+        img: Img14_7,
+        alt: "img14_7",
+      },
+      {
+        img: Img14_8,
+        alt: "img14_8",
+      },
+      {
+        img: Img14_9,
+        alt: "img14_9",
+      },
+      {
+        img: Img14_10,
+        alt: "img14_10",
+      },
+    ],
+  },
+  {
+    id: 13,
+    link: "/info/education/foresight/detail/13",
+    img: Img13_1,
+    alt: "img13_1",
+    title: "💙선[先]견지명 - 에세이 경진대회 편💙",
+    date: "2023-05-22",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분!<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>5월 넷째 주, 제공해드리는 정보는 '에세이 경진대회 편'입니다.<br/><br/>학술적/비평적 에세이 경진대회, 두 종류가 있습니다.<br/>대회 세부 일정은 동일하나 대회 주제 및 제출 서류 등이 상이하니, 반드시 해당 공지사항을 확인해주세요!<br/><br/>- 참가대상 및 대회주제<br/>- 대회 일정<br/>- 신청 방법 및 제출 서류<br/><br/>* 자세한 사항은 상명대학교 홈페이지 '상명라운지(공지사항)'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다! 감사합니다.",
+    inImg: [
+      {
+        img: Img13_1,
+        alt: "img13_1",
+      },
+      {
+        img: Img13_2,
+        alt: "img13_2",
+      },
+      {
+        img: Img13_3,
+        alt: "img13_3",
+      },
+      {
+        img: Img13_4,
+        alt: "img13_4",
+      },
+      {
+        img: Img13_5,
+        alt: "img13_5",
+      },
+      {
+        img: Img13_6,
+        alt: "img13_6",
+      },
+      {
+        img: Img13_7,
+        alt: "img13_7",
+      },
+      {
+        img: Img13_8,
+        alt: "img13_8",
+      },
+      {
+        img: Img13_9,
+        alt: "img13_9",
+      },
+      {
+        img: Img13_10,
+        alt: "img13_10",
+      },
+    ],
+  },
   {
     id: 12,
     link: "/info/education/foresight/detail/12",

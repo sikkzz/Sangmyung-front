@@ -250,6 +250,9 @@ import Video1 from "../../assets/video/1.mp4";
 import Video2 from "../../assets/video/2.mp4";
 import Video3 from "../../assets/video/3.mp4";
 import Video4 from "../../assets/video/4.mp4";
+import Video5 from "../../assets/video/5.mp4";
+import Video6 from "../../assets/video/6.mp4";
+import Video7 from "../../assets/video/7.mp4";
 
 import Img38_1 from "../../assets/notice/38/1.jpg";
 import Img38_2 from "../../assets/notice/38/2.jpg";
@@ -283,360 +286,957 @@ import Img42_6 from "../../assets/education/12/006.png";
 import Img42_7 from "../../assets/education/12/007.png";
 import Img42_8 from "../../assets/education/12/008.png";
 
-import Img44_1 from '../../assets/notice/44/1.jpg'
-import Img44_2 from '../../assets/notice/44/2.jpg'
-import Img44_3 from '../../assets/notice/44/3.jpg'
-import Img44_4 from '../../assets/notice/44/4.jpg'
+import Img44_1 from "../../assets/notice/44/1.jpg";
+import Img44_2 from "../../assets/notice/44/2.jpg";
+import Img44_3 from "../../assets/notice/44/3.jpg";
+import Img44_4 from "../../assets/notice/44/4.jpg";
 
-import Img45_1 from '../../assets/notice/45/1.jpg'
-import Img45_2 from '../../assets/notice/45/2.jpg'
-import Img45_3 from '../../assets/notice/45/3.jpg'
+import Img45_1 from "../../assets/notice/45/1.jpg";
+import Img45_2 from "../../assets/notice/45/2.jpg";
+import Img45_3 from "../../assets/notice/45/3.jpg";
 
-import Img46_1 from '../../assets/notice/46/1.jpg'
-import Img46_2 from '../../assets/notice/46/2.jpg'
-import Img46_3 from '../../assets/notice/46/3.jpg'
+import Img46_1 from "../../assets/notice/46/1.jpg";
+import Img46_2 from "../../assets/notice/46/2.jpg";
+import Img46_3 from "../../assets/notice/46/3.jpg";
 
-import Img47_1 from '../../assets/notice/47/1.jpg'
-import Img47_2 from '../../assets/notice/47/2.jpg'
-import Img47_3 from '../../assets/notice/47/3.jpg'
-import Img47_4 from '../../assets/notice/47/4.jpg'
-import Img47_5 from '../../assets/notice/47/5.jpg'
-import Img47_6 from '../../assets/notice/47/6.jpg'
+import Img47_1 from "../../assets/notice/47/1.jpg";
+import Img47_2 from "../../assets/notice/47/2.jpg";
+import Img47_3 from "../../assets/notice/47/3.jpg";
+import Img47_4 from "../../assets/notice/47/4.jpg";
+import Img47_5 from "../../assets/notice/47/5.jpg";
+import Img47_6 from "../../assets/notice/47/6.jpg";
 
-import Img48_1 from '../../assets/notice/48/1.jpg'
-import Img48_2 from '../../assets/notice/48/2.jpg'
-import Img48_3 from '../../assets/notice/48/3.jpg'
-import Img48_4 from '../../assets/notice/48/4.jpg'
-import Img48_5 from '../../assets/notice/48/5.jpg'
-import Img48_6 from '../../assets/notice/48/6.jpg'
+import Img48_1 from "../../assets/notice/48/1.jpg";
+import Img48_2 from "../../assets/notice/48/2.jpg";
+import Img48_3 from "../../assets/notice/48/3.jpg";
+import Img48_4 from "../../assets/notice/48/4.jpg";
+import Img48_5 from "../../assets/notice/48/5.jpg";
+import Img48_6 from "../../assets/notice/48/6.jpg";
 
-import Img49_1 from '../../assets/notice/49/1.jpg'
-import Img49_2 from '../../assets/notice/49/2.jpg'
+import Img49_1 from "../../assets/notice/49/1.jpg";
+import Img49_2 from "../../assets/notice/49/2.jpg";
 
-import Img50_1 from '../../assets/notice/50/1.jpg'
-import Img50_2 from '../../assets/notice/50/2.jpg'
+import Img50_1 from "../../assets/notice/50/1.jpg";
+import Img50_2 from "../../assets/notice/50/2.jpg";
 
-import Img51_1 from '../../assets/notice/51/1.jpg'
-import Img51_2 from '../../assets/notice/51/2.jpg'
+import Img51_1 from "../../assets/notice/51/1.jpg";
+import Img51_2 from "../../assets/notice/51/2.jpg";
 
-import Img52_1 from '../../assets/notice/52/1.jpg'
-import Img52_2 from '../../assets/notice/52/2.jpg'
+import Img52_1 from "../../assets/notice/52/1.jpg";
+import Img52_2 from "../../assets/notice/52/2.jpg";
 
-import Img53_1 from '../../assets/notice/53/1.jpg'
-import Img53_2 from '../../assets/notice/53/2.jpg'
-import Img53_3 from '../../assets/notice/53/3.jpg'
+import Img53_1 from "../../assets/notice/53/1.jpg";
+import Img53_2 from "../../assets/notice/53/2.jpg";
+import Img53_3 from "../../assets/notice/53/3.jpg";
 
-import Img54_1 from '../../assets/notice/54/1.jpg'
-import Img54_2 from '../../assets/notice/54/2.jpg'
+import Img54_1 from "../../assets/notice/54/1.jpg";
+import Img54_2 from "../../assets/notice/54/2.jpg";
 
-import Img55_1 from '../../assets/notice/55/1.jpg'
-import Img55_2 from '../../assets/notice/55/2.jpg'
-import Img55_3 from '../../assets/notice/55/3.jpg'
-import Img55_4 from '../../assets/notice/55/4.jpg'
-import Img55_5 from '../../assets/notice/55/5.jpg'
-import Img55_6 from '../../assets/notice/55/6.jpg'
-import Img55_7 from '../../assets/notice/55/7.jpg'
+import Img55_1 from "../../assets/notice/55/1.jpg";
+import Img55_2 from "../../assets/notice/55/2.jpg";
+import Img55_3 from "../../assets/notice/55/3.jpg";
+import Img55_4 from "../../assets/notice/55/4.jpg";
+import Img55_5 from "../../assets/notice/55/5.jpg";
+import Img55_6 from "../../assets/notice/55/6.jpg";
+import Img55_7 from "../../assets/notice/55/7.jpg";
+
+import Img57_1 from "../../assets/notice/57/1.jpg";
+import Img57_2 from "../../assets/notice/57/2.jpg";
+import Img57_3 from "../../assets/notice/57/3.jpg";
+import Img57_4 from "../../assets/notice/57/4.jpg";
+import Img57_5 from "../../assets/notice/57/5.jpg";
+import Img57_6 from "../../assets/notice/57/6.jpg";
+import Img57_7 from "../../assets/notice/57/7.jpg";
+
+import Img58_1 from "../../assets/notice/58/1.jpg";
+import Img58_2 from "../../assets/notice/58/2.jpg";
+import Img58_3 from "../../assets/notice/58/3.jpg";
+import Img58_4 from "../../assets/notice/58/4.jpg";
+
+import Img59_1 from "../../assets/notice/59/1.jpg";
+import Img59_2 from "../../assets/notice/59/2.jpg";
+import Img59_3 from "../../assets/notice/59/3.jpg";
+import Img59_4 from "../../assets/notice/59/4.jpg";
+import Img59_5 from "../../assets/notice/59/5.jpg";
+import Img59_6 from "../../assets/notice/59/6.jpg";
+import Img59_7 from "../../assets/notice/59/7.jpg";
+
+import Img60_1 from "../../assets/notice/60/1.jpg";
+import Img60_2 from "../../assets/notice/60/2.jpg";
+import Img60_3 from "../../assets/notice/60/3.jpg";
+
+import Img63_1 from "../../assets/notice/63/1.jpg";
+import Img63_2 from "../../assets/notice/63/2.jpg";
+import Img63_3 from "../../assets/notice/63/3.jpg";
+import Img63_4 from "../../assets/notice/63/4.jpg";
+import Img63_5 from "../../assets/notice/63/5.jpg";
+import Img63_6 from "../../assets/notice/63/6.jpg";
+import Img63_7 from "../../assets/notice/63/7.jpg";
+import Img63_8 from "../../assets/notice/63/8.jpg";
+import Img63_9 from "../../assets/notice/63/9.jpg";
+
+import Img64_1 from "../../assets/notice/64/1.jpg";
+import Img64_2 from "../../assets/notice/64/2.jpg";
+import Img64_3 from "../../assets/notice/64/3.jpg";
+import Img64_4 from "../../assets/notice/64/4.jpg";
+import Img64_5 from "../../assets/notice/64/5.jpg";
+import Img64_6 from "../../assets/notice/64/6.jpg";
+import Img64_7 from "../../assets/notice/64/7.jpg";
+import Img64_8 from "../../assets/notice/64/8.jpg";
+import Img64_9 from "../../assets/notice/64/9.jpg";
+import Img64_10 from "../../assets/notice/64/10.jpg";
+
+import Img65_1 from "../../assets/notice/65/1.jpg";
+import Img65_2 from "../../assets/notice/65/2.jpg";
+import Img65_3 from "../../assets/notice/65/3.jpg";
+import Img65_4 from "../../assets/notice/65/4.jpg";
+import Img65_5 from "../../assets/notice/65/5.jpg";
+import Img65_6 from "../../assets/notice/65/6.jpg";
+import Img65_7 from "../../assets/notice/65/7.jpg";
+import Img65_8 from "../../assets/notice/65/8.jpg";
+import Img65_9 from "../../assets/notice/65/9.jpg";
+
+import Img66_1 from "../../assets/notice/66/1.jpg";
+import Img66_2 from "../../assets/notice/66/2.jpg";
+import Img66_3 from "../../assets/notice/66/3.jpg";
+import Img66_4 from "../../assets/notice/66/4.jpg";
+import Img66_5 from "../../assets/notice/66/5.jpg";
+import Img66_6 from "../../assets/notice/66/6.jpg";
+import Img66_7 from "../../assets/notice/66/7.jpg";
+import Img66_8 from "../../assets/notice/66/8.jpg";
+import Img66_9 from "../../assets/notice/66/9.jpg";
+
+import Img67_1 from "../../assets/education/13/1.jpg";
+import Img67_2 from "../../assets/education/13/2.jpg";
+import Img67_3 from "../../assets/education/13/3.jpg";
+import Img67_4 from "../../assets/education/13/4.jpg";
+import Img67_5 from "../../assets/education/13/5.jpg";
+import Img67_6 from "../../assets/education/13/6.jpg";
+import Img67_7 from "../../assets/education/13/7.jpg";
+import Img67_8 from "../../assets/education/13/8.jpg";
+import Img67_9 from "../../assets/education/13/9.jpg";
+import Img67_10 from "../../assets/education/13/10.jpg";
+
+import Img68_1 from "../../assets/education/14/1.jpg";
+import Img68_2 from "../../assets/education/14/2.jpg";
+import Img68_3 from "../../assets/education/14/3.jpg";
+import Img68_4 from "../../assets/education/14/4.jpg";
+import Img68_5 from "../../assets/education/14/5.jpg";
+import Img68_6 from "../../assets/education/14/6.jpg";
+import Img68_7 from "../../assets/education/14/7.jpg";
+import Img68_8 from "../../assets/education/14/8.jpg";
+import Img68_9 from "../../assets/education/14/9.jpg";
+import Img68_10 from "../../assets/education/14/10.jpg";
 
 export const NoticeData = [
   {
+    id: 68,
+    link: "/intro/notice/detail/68",
+    title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 하계 계절수업 편",
+    date: "2023-05-23",
+    owner: "관리자",
+    kind: "학사",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분!<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>5월 넷째 주, 두 번째로 제공해드리는 정보는 '하계 계절수업 편'입니다.<br/><br/>2023학년도 하계 계절수업 개설 예정 교과목 및 수강신청 공지사항이 본교 홈페이지에 올라와 있습니다.<br/>⭐️금주 금요일까지⭐️ 수강신청 기간이니, 관심 있으신 분들은 공지사항을 확인하시기 바랍니다.<br/><br/>- 수강신청 기간 및 방법<br/>- 개설교과목 확정<br/>- 수강료 납부<br/>- 성적 관련 사항<br/>- 하계 계절수업 기간<br/>- 바이오헬스 개설 예정 교과목<br/>- 일반 개설 예정 교과목<br/>- 대학 e-러닝 학점인정 컨소시엄 개설 예정 교과목<br/><br/>* 자세한 사항은 상명대학교 홈페이지 '상명라운지(공지사항)'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다! 감사합니다.",
+    inImg: [
+      {
+        img: Img68_1,
+        alt: "img68_1",
+      },
+      {
+        img: Img68_2,
+        alt: "img68_2",
+      },
+      {
+        img: Img68_3,
+        alt: "img68_3",
+      },
+      {
+        img: Img68_4,
+        alt: "img68_4",
+      },
+      {
+        img: Img68_5,
+        alt: "img68_5",
+      },
+      {
+        img: Img68_6,
+        alt: "img68_6",
+      },
+      {
+        img: Img68_7,
+        alt: "img68_7",
+      },
+      {
+        img: Img68_8,
+        alt: "img68_8",
+      },
+      {
+        img: Img68_9,
+        alt: "img68_9",
+      },
+      {
+        img: Img68_10,
+        alt: "img68_10",
+      },
+    ],
+  },
+  {
+    id: 67,
+    link: "/intro/notice/detail/67",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 에세이 경진대회 편",
+    date: "2023-05-22",
+    owner: "관리자",
+    kind: "학사",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분!<br/>제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>5월 넷째 주, 제공해드리는 정보는 '에세이 경진대회 편'입니다.<br/><br/>학술적/비평적 에세이 경진대회, 두 종류가 있습니다.<br/>대회 세부 일정은 동일하나 대회 주제 및 제출 서류 등이 상이하니, 반드시 해당 공지사항을 확인해주세요!<br/><br/>- 참가대상 및 대회주제<br/>- 대회 일정<br/>- 신청 방법 및 제출 서류<br/><br/>* 자세한 사항은 상명대학교 홈페이지 '상명라운지(공지사항)'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다! 감사합니다.",
+    inImg: [
+      {
+        img: Img67_1,
+        alt: "img67_1",
+      },
+      {
+        img: Img67_2,
+        alt: "img67_2",
+      },
+      {
+        img: Img67_3,
+        alt: "img67_3",
+      },
+      {
+        img: Img67_4,
+        alt: "img67_4",
+      },
+      {
+        img: Img67_5,
+        alt: "img67_5",
+      },
+      {
+        img: Img67_6,
+        alt: "img67_6",
+      },
+      {
+        img: Img67_7,
+        alt: "img67_7",
+      },
+      {
+        img: Img67_8,
+        alt: "img67_8",
+      },
+      {
+        img: Img67_9,
+        alt: "img67_9",
+      },
+      {
+        img: Img67_10,
+        alt: "img67_10",
+      },
+    ],
+  },
+  {
+    id: 66,
+    link: "/intro/notice/detail/66",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 Day2 Sketch Photo Ver. 공개",
+    date: "2023-05-21",
+    owner: "관리자",
+    kind: "축제",
+    content:
+      " 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>Day2 Photo Ver.<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]<br/><br/>제작 | 제46대 총학생회 선[先] 홍보국<br/>",
+    inImg: [
+      {
+        img: Img66_1,
+        alt: "img66_1",
+      },
+      {
+        img: Img66_2,
+        alt: "img66_2",
+      },
+      {
+        img: Img66_3,
+        alt: "img66_3",
+      },
+      {
+        img: Img66_4,
+        alt: "img66_4",
+      },
+      {
+        img: Img66_5,
+        alt: "img66_5",
+      },
+      {
+        img: Img66_6,
+        alt: "img66_6",
+      },
+      {
+        img: Img66_7,
+        alt: "img66_7",
+      },
+      {
+        img: Img66_8,
+        alt: "img66_8",
+      },
+      {
+        img: Img66_9,
+        alt: "img66_9",
+      },
+    ],
+  },
+  {
+    id: 65,
+    link: "/intro/notice/detail/65",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 Day2 Sketch Photo Ver. 공개",
+    date: "2023-05-21",
+    owner: "관리자",
+    kind: "축제",
+    content:
+      " 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>Day2 Photo Ver.<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]<br/><br/>제작 | 제46대 총학생회 선[先] 홍보국<br/>",
+    inImg: [
+      {
+        img: Img65_1,
+        alt: "img65_1",
+      },
+      {
+        img: Img65_2,
+        alt: "img65_2",
+      },
+      {
+        img: Img65_3,
+        alt: "img65_3",
+      },
+      {
+        img: Img65_4,
+        alt: "img65_4",
+      },
+      {
+        img: Img65_5,
+        alt: "img65_5",
+      },
+      {
+        img: Img65_6,
+        alt: "img65_6",
+      },
+      {
+        img: Img65_7,
+        alt: "img65_7",
+      },
+      {
+        img: Img65_8,
+        alt: "img65_8",
+      },
+      {
+        img: Img65_9,
+        alt: "img65_9",
+      },
+    ],
+  },
+  {
+    id: 64,
+    link: "/intro/notice/detail/64",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 Day1 Sketch Photo Ver. 공개",
+    date: "2023-05-21",
+    owner: "관리자",
+    kind: "축제",
+    content:
+      " 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>Day1 Photo Ver.<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]<br/><br/>제작 | 제46대 총학생회 선[先] 홍보국<br/>",
+    inImg: [
+      {
+        img: Img64_1,
+        alt: "img64_1",
+      },
+      {
+        img: Img64_2,
+        alt: "img64_2",
+      },
+      {
+        img: Img64_3,
+        alt: "img64_3",
+      },
+      {
+        img: Img64_4,
+        alt: "img64_4",
+      },
+      {
+        img: Img64_5,
+        alt: "img64_5",
+      },
+      {
+        img: Img64_6,
+        alt: "img64_6",
+      },
+      {
+        img: Img64_7,
+        alt: "img64_7",
+      },
+      {
+        img: Img64_8,
+        alt: "img64_8",
+      },
+      {
+        img: Img64_9,
+        alt: "img64_9",
+      },
+      {
+        img: Img64_10,
+        alt: "img64_10",
+      },
+    ],
+  },
+  {
+    id: 63,
+    link: "/intro/notice/detail/63",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 Day1 Sketch Photo Ver. 공개",
+    date: "2023-05-21",
+    owner: "관리자",
+    kind: "축제",
+    content:
+      " 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>Day1 Photo Ver.<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]<br/><br/>제작 | 제46대 총학생회 선[先] 홍보국<br/>",
+    inImg: [
+      {
+        img: Img63_1,
+        alt: "img63_1",
+      },
+      {
+        img: Img63_2,
+        alt: "img63_2",
+      },
+      {
+        img: Img63_3,
+        alt: "img63_3",
+      },
+      {
+        img: Img63_4,
+        alt: "img63_4",
+      },
+      {
+        img: Img63_5,
+        alt: "img63_5",
+      },
+      {
+        img: Img63_6,
+        alt: "img63_6",
+      },
+      {
+        img: Img63_7,
+        alt: "img63_7",
+      },
+      {
+        img: Img63_8,
+        alt: "img63_8",
+      },
+      {
+        img: Img63_9,
+        alt: "img63_9",
+      },
+    ],
+  },
+  {
+    id: 62,
+    link: "/intro/notice/detail/62",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 Day2 Sketch Short-form Ver. 공개",
+    date: "2023-05-20",
+    owner: "관리자",
+    kind: "축제",
+    content:
+      " 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>Day2 Sketch Short-form Ver.<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]<br/><br/>제작 | 제46대 총학생회 선[先] 홍보국<br/>",
+    inVideo: [
+      {
+        video: Video7,
+      },
+    ],
+  },
+  {
+    id: 61,
+    link: "/intro/notice/detail/61",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 Day1 Sketch Short-form Ver. 공개",
+    date: "2023-05-20",
+    owner: "관리자",
+    kind: "축제",
+    content:
+      " 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>Day1 Sketch Short-form Ver.<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]<br/><br/>제작 | 제46대 총학생회 선[先] 홍보국<br/>",
+    inVideo: [
+      {
+        video: Video6,
+      },
+    ],
+  },
+  {
+    id: 60,
+    link: "/intro/notice/detail/60",
+    title: "상명대학교 2023학년도 서울캠퍼스 대동제 아티스트 최종 LINE-UP 공개",
+    date: "2023-05-18",
+    owner: "관리자",
+    kind: "축제",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>아티스트 최종 Line-Up<br/>* 더욱 풍성한 무대를 위해 아티스트 허성현(Huh)이 다이나믹 듀오의 오프닝 게스트로 함께 찾아 옵니다!<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    inImg: [
+      {
+        img: Img60_1,
+        alt: "img60_1",
+      },
+      {
+        img: Img60_2,
+        alt: "img60_2",
+      },
+      {
+        img: Img60_3,
+        alt: "img60_3",
+      },
+    ],
+  },
+  {
+    id: 59,
+    link: "/intro/notice/detail/59",
+    title: "상명대학교 2023학년도 서울캠퍼스 대동제 필독 공지사항 안내",
+    date: "2023-05-18",
+    owner: "관리자",
+    kind: "축제",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>2023 대동제 필독 공지사항<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    inImg: [
+      {
+        img: Img59_1,
+        alt: "img59_1",
+      },
+      {
+        img: Img59_2,
+        alt: "img59_2",
+      },
+      {
+        img: Img59_3,
+        alt: "img59_3",
+      },
+      {
+        img: Img59_4,
+        alt: "img59_4",
+      },
+      {
+        img: Img59_5,
+        alt: "img59_5",
+      },
+      {
+        img: Img59_6,
+        alt: "img59_6",
+      },
+      {
+        img: Img59_7,
+        alt: "img59_7",
+      },
+    ],
+  },
+  {
+    id: 58,
+    link: "/intro/notice/detail/58",
+    title: "상명대학교 2023학년도 서울캠퍼스 대동제 웹사이트 운영 안내",
+    date: "2023-05-17",
+    owner: "관리자",
+    kind: "축제",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>대동제 웹사이트 운영<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    inImg: [
+      {
+        img: Img58_1,
+        alt: "img58_1",
+      },
+      {
+        img: Img58_2,
+        alt: "img58_2",
+      },
+      {
+        img: Img58_3,
+        alt: "img58_3",
+      },
+      {
+        img: Img58_4,
+        alt: "img58_4",
+      },
+    ],
+  },
+  {
+    id: 57,
+    link: "/intro/notice/detail/57",
+    title: "상명대학교 2023학년도 서울캠퍼스 대동제 캠퍼스 내 부스 배치도 안내",
+    date: "2023-05-17",
+    owner: "관리자",
+    kind: "축제",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>캠퍼스 내 부스 배치도<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    inImg: [
+      {
+        img: Img57_1,
+        alt: "img57_1",
+      },
+      {
+        img: Img57_2,
+        alt: "img57_2",
+      },
+      {
+        img: Img57_3,
+        alt: "img57_3",
+      },
+      {
+        img: Img57_4,
+        alt: "img57_4",
+      },
+      {
+        img: Img57_5,
+        alt: "img57_5",
+      },
+      {
+        img: Img57_6,
+        alt: "img57_6",
+      },
+      {
+        img: Img57_7,
+        alt: "img57_7",
+      },
+    ],
+  },
+  {
+    id: 56,
+    link: "/intro/notice/detail/56",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 Teaser. 3 - ⌜축’전(前)‘ 영상⌟ 공개",
+    date: "2023-05-17",
+    owner: "관리자",
+    kind: "축제",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>Teaser. 3 - ⌜축’전(前)‘ 영상⌟ 공개<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 '선[先]'<br/><br/>제작 | 제46대 총학생회 선[先] 홍보국<br/>영상 소스 | Youtube channel ”freeticon“<br/>배경음악 | BIGBANG - Last Dance (inst)",
+    inVideo: [
+      {
+        video: Video5,
+      },
+    ],
+  },
+  {
     id: 55,
     link: "/intro/notice/detail/55",
-    title: "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 포토에이스",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 포토에이스",
     date: "2023-05-17",
-    owner: '관리자',
+    owner: "관리자",
     kind: "축제",
-    content: "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 및 2023 대동제 프레임 - 포토에이스<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 및 2023 대동제 프레임 - 포토에이스<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
     inImg: [
       {
         img: Img55_1,
-        alt: "img55_1"
+        alt: "img55_1",
       },
       {
         img: Img55_2,
-        alt: "img55_2"
+        alt: "img55_2",
       },
       {
         img: Img55_3,
-        alt: "img55_3"
+        alt: "img55_3",
       },
       {
         img: Img55_4,
-        alt: "img55_4"
+        alt: "img55_4",
       },
       {
         img: Img55_5,
-        alt: "img55_5"
+        alt: "img55_5",
       },
       {
         img: Img55_6,
-        alt: "img55_6"
+        alt: "img55_6",
       },
       {
         img: Img55_7,
-        alt: "img55_7"
+        alt: "img55_7",
       },
-    ]
+    ],
   },
   {
     id: 54,
     link: "/intro/notice/detail/54",
-    title: "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 지평생쌀막걸리",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 지평생쌀막걸리",
     date: "2023-05-17",
-    owner: '관리자',
+    owner: "관리자",
     kind: "축제",
-    content: "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 - 지평생쌀막걸리<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 - 지평생쌀막걸리<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
     inImg: [
       {
         img: Img54_1,
-        alt: "img54_1"
+        alt: "img54_1",
       },
       {
         img: Img54_2,
-        alt: "img54_2"
+        alt: "img54_2",
       },
-    ]
+    ],
   },
   {
     id: 53,
     link: "/intro/notice/detail/53",
-    title: "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 인스탁스",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 인스탁스",
     date: "2023-05-17",
-    owner: '관리자',
+    owner: "관리자",
     kind: "축제",
-    content: "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 - 인스탁스<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 - 인스탁스<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
     inImg: [
       {
         img: Img53_1,
-        alt: "img53_1"
+        alt: "img53_1",
       },
       {
         img: Img53_2,
-        alt: "img53_2"
+        alt: "img53_2",
       },
       {
         img: Img53_3,
-        alt: "img53_3"
+        alt: "img53_3",
       },
-    ]
+    ],
   },
   {
     id: 52,
     link: "/intro/notice/detail/52",
-    title: "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 우주고래",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 우주고래",
     date: "2023-05-17",
-    owner: '관리자',
+    owner: "관리자",
     kind: "축제",
-    content: "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 - 우주고래<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 - 우주고래<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
     inImg: [
       {
         img: Img52_1,
-        alt: "img52_1"
+        alt: "img52_1",
       },
       {
         img: Img52_2,
-        alt: "img52_2"
+        alt: "img52_2",
       },
-    ]
+    ],
   },
   {
     id: 51,
     link: "/intro/notice/detail/51",
-    title: "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 오찌",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 오찌",
     date: "2023-05-17",
-    owner: '관리자',
+    owner: "관리자",
     kind: "축제",
-    content: "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 - 오찌<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 - 오찌<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
     inImg: [
       {
         img: Img51_1,
-        alt: "img51_1"
+        alt: "img51_1",
       },
       {
         img: Img51_2,
-        alt: "img51_2"
+        alt: "img51_2",
       },
-    ]
+    ],
   },
   {
     id: 50,
     link: "/intro/notice/detail/50",
-    title: "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 신세계 사주타로",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 신세계 사주타로",
     date: "2023-05-17",
-    owner: '관리자',
+    owner: "관리자",
     kind: "축제",
-    content: "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 - 신세계 사주타로<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 - 신세계 사주타로<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
     inImg: [
       {
         img: Img50_1,
-        alt: "img50_1"
+        alt: "img50_1",
       },
       {
         img: Img50_2,
-        alt: "img50_2"
+        alt: "img50_2",
       },
-    ]
+    ],
   },
   {
     id: 49,
     link: "/intro/notice/detail/49",
-    title: "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 상쾌환",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 기업 후원 프로모션 이벤트 - 상쾌환",
     date: "2023-05-17",
-    owner: '관리자',
+    owner: "관리자",
     kind: "축제",
-    content: "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 - 상쾌환<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>기업 후원 프로모션 이벤트 - 상쾌환<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
     inImg: [
       {
         img: Img49_1,
-        alt: "img49_1"
+        alt: "img49_1",
       },
       {
         img: Img49_2,
-        alt: "img49_2"
+        alt: "img49_2",
       },
-    ]
+    ],
   },
   {
     id: 48,
     link: "/intro/notice/detail/48",
-    title: "상명대학교 2023학년도 서울캠퍼스 대동제 캠퍼스 내 부스 운영 및 품목 안내 - 2",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 캠퍼스 내 부스 운영 및 품목 안내 - 2",
     date: "2023-05-17",
     owner: "관리자",
     kind: "축제",
-    content: "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>캠퍼스 내 부스 운영 및 품목<br/>- 경영경제대학관, 미술가정관 부근 -<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>캠퍼스 내 부스 운영 및 품목<br/>- 경영경제대학관, 미술가정관 부근 -<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
     inImg: [
       {
         img: Img48_1,
-        alt: "img48_1"
+        alt: "img48_1",
       },
       {
         img: Img48_2,
-        alt: "img48_2"
+        alt: "img48_2",
       },
       {
         img: Img48_3,
-        alt: "img48_3"
+        alt: "img48_3",
       },
       {
         img: Img48_4,
-        alt: "img48_4"
+        alt: "img48_4",
       },
       {
         img: Img48_5,
-        alt: "img48_5"
+        alt: "img48_5",
       },
       {
         img: Img48_6,
-        alt: "img48_6"
+        alt: "img48_6",
       },
-    ]
+    ],
   },
   {
     id: 47,
     link: "/intro/notice/detail/47",
-    title: "상명대학교 2023학년도 서울캠퍼스 대동제 캠퍼스 내 부스 운영 및 품목 안내 - 1",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 캠퍼스 내 부스 운영 및 품목 안내 - 1",
     date: "2023-05-17",
     owner: "관리자",
     kind: "축제",
-    content: "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>캠퍼스 내 부스 운영 및 품목<br/>- 대학본부, 학생회관, 사범대학관, 인문사회과학대학 부근 -<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>캠퍼스 내 부스 운영 및 품목<br/>- 대학본부, 학생회관, 사범대학관, 인문사회과학대학 부근 -<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
     inImg: [
       {
         img: Img47_1,
-        alt: "img47_1"
+        alt: "img47_1",
       },
       {
         img: Img47_2,
-        alt: "img47_2"
+        alt: "img47_2",
       },
       {
         img: Img47_3,
-        alt: "img47_3"
+        alt: "img47_3",
       },
       {
         img: Img47_4,
-        alt: "img47_4"
+        alt: "img47_4",
       },
       {
         img: Img47_5,
-        alt: "img47_5"
+        alt: "img47_5",
       },
       {
         img: Img47_6,
-        alt: "img47_6"
+        alt: "img47_6",
       },
-    ]
+    ],
   },
   {
     id: 46,
     link: "/intro/notice/detail/46",
-    title: "상명대학교 2023학년도 서울캠퍼스 대동제 캠퍼스 내 입점 푸드트럭 안내",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 캠퍼스 내 입점 푸드트럭 안내",
     date: "2023-05-17",
     owner: "관리자",
     kind: "축제",
-    content: "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>캠퍼스 내 입점 푸드트럭<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>캠퍼스 내 입점 푸드트럭<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
     inImg: [
       {
         img: Img46_1,
-        alt: "img46_1"
+        alt: "img46_1",
       },
       {
         img: Img46_2,
-        alt: "img46_2"
+        alt: "img46_2",
       },
       {
         img: Img46_3,
-        alt: "img46_3"
+        alt: "img46_3",
       },
-    ]
+    ],
   },
   {
     id: 45,
     link: "/intro/notice/detail/45",
-    title: "상명대학교 2023학년도 서울캠퍼스 대동제 총학생회 주관 행사 운영 안내",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 총학생회 주관 행사 운영 안내",
     date: "2023-05-16",
     owner: "관리자",
     kind: "축제",
-    content: "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>총학생회 주관 행사 운영<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>총학생회 주관 행사 운영<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
     inImg: [
       {
         img: Img45_1,
-        alt: "img45_1"
+        alt: "img45_1",
       },
       {
         img: Img45_2,
-        alt: "img45_2"
+        alt: "img45_2",
       },
       {
         img: Img45_3,
-        alt: "img45_3"
+        alt: "img45_3",
       },
-    ]
+    ],
   },
   {
     id: 44,
     link: "/intro/notice/detail/44",
-    title: "상명대학교 2023학년도 서울캠퍼스 대동제 총학생회 주관 부스 운영 안내",
+    title:
+      "상명대학교 2023학년도 서울캠퍼스 대동제 총학생회 주관 부스 운영 안내",
     date: "2023-05-16",
     owner: "관리자",
     kind: "축제",
-    content: "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>총학생회 주관 부스 운영<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>총학생회 주관 부스 운영<br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
     inImg: [
       {
         img: Img44_1,
-        alt: "img44_1"
+        alt: "img44_1",
       },
       {
         img: Img44_2,
-        alt: "img44_2"
+        alt: "img44_2",
       },
       {
         img: Img44_3,
-        alt: "img44_3"
+        alt: "img44_3",
       },
       {
         img: Img44_4,
-        alt: "img44_4"
+        alt: "img44_4",
       },
-    ]
+    ],
   },
   {
     id: 43,
