@@ -15,10 +15,10 @@ const DepartContent = () => {
 
   return (
     <>
-      <DepartIntroduce state={location.pathname.split("/")[2]} />
-      <DepartWork state={location.pathname.split("/")[2]} />
+      <DepartIntroduce state={location.pathname.split("/")[3]} />
+      <DepartWork state={location.pathname.split("/")[3]} />
       <DepartChart />
-      <DepartPromiss state={location.pathname.split("/")[2]} />
+      <DepartPromiss state={location.pathname.split("/")[3]} />
     </>
   );
 };

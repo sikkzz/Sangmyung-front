@@ -34,7 +34,7 @@ const DepartChart = () => {
           <ProfileBox>
             {DepartData.map((item, index) => (
               <>
-                {item.id === location.pathname.split("/")[2]
+                {item.id === location.pathname.split("/")[3]
                   ? item.subItem.map((item, index) => (
                       <ProfileItemBox key={index}>
                         <ImgBox>

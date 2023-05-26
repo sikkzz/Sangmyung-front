@@ -133,14 +133,14 @@ import Img13_10 from "../../assets/education/13/10.jpg";
 
 import Img14_1 from "../../assets/education/14/1.jpg";
 import Img14_2 from "../../assets/education/14/2.jpg";
-import Img14_3 from "../../assets/education/14/1.jpg";
-import Img14_4 from "../../assets/education/14/1.jpg";
-import Img14_5 from "../../assets/education/14/1.jpg";
-import Img14_6 from "../../assets/education/14/1.jpg";
-import Img14_7 from "../../assets/education/14/1.jpg";
-import Img14_8 from "../../assets/education/14/1.jpg";
-import Img14_9 from "../../assets/education/14/1.jpg";
-import Img14_10 from "../../assets/education/14/1.jpg";
+import Img14_3 from "../../assets/education/14/3.jpg";
+import Img14_4 from "../../assets/education/14/4.jpg";
+import Img14_5 from "../../assets/education/14/5.jpg";
+import Img14_6 from "../../assets/education/14/6.jpg";
+import Img14_7 from "../../assets/education/14/7.jpg";
+import Img14_8 from "../../assets/education/14/8.jpg";
+import Img14_9 from "../../assets/education/14/9.jpg";
+import Img14_10 from "../../assets/education/14/10.jpg";
 
 import noImg1_1 from "../../assets/education/notice/1/1-1.png";
 import noImg1_2 from "../../assets/education/notice/1/1-2.png";

@@ -27,7 +27,7 @@ const Rental = () => {
         <Box>
           <Title>물품대여매뉴얼</Title>
           <Location>총학생회실: 학생회관 2층 총학생회실(H212)</Location>
-          <DownloadBox href="https://student.skku.edu/_res/student/etc/물품_대여_매뉴얼_인사캠.pdf">
+          <DownloadBox>
             <Link>물품대여매뉴얼</Link>
             <IconBox>
               <Icons.FcDocument size={24} />
@@ -62,6 +62,31 @@ const Rental = () => {
                 <Td>노트북충전기</Td>
                 <Td>3</Td>
                 <Td>3</Td>
+              </Tr>
+              <Tr>
+                <Td>레이저 포인터</Td>
+                <Td>3</Td>
+                <Td>3</Td>
+              </Tr>
+              <Tr>
+                <Td>우산</Td>
+                <Td>30</Td>
+                <Td>30</Td>
+              </Tr>
+              <Tr>
+                <Td>인공눈물</Td>
+                <Td>100</Td>
+                <Td></Td>
+              </Tr>
+              <Tr>
+                <Td>여성용품</Td>
+                <Td>30</Td>
+                <Td></Td>
+              </Tr>
+              <Tr>
+                <Td>비상약</Td>
+                <Td></Td>
+                <Td></Td>
               </Tr>
             </TBody>
           </Table>
