@@ -1,10 +1,20 @@
-import Img from "../../assets/minute/center/1-1.jpg";
-import Img2 from "../../assets/minute/center/1-2.jpg";
-import Img3 from "../../assets/minute/center/1-3.jpg";
-import Img4 from "../../assets/minute/center/1-4.jpg";
-import Img5 from "../../assets/minute/center/1-5.jpg";
-import Img6 from "../../assets/minute/center/1-6.jpg";
-import Img7 from "../../assets/minute/center/1-7.jpg";
+import Img from "../../assets/minute/representative/1-1.jpg";
+import Img2 from "../../assets/minute/representative/1-2.jpg";
+import Img3 from "../../assets/minute/representative/1-3.jpg";
+import Img4 from "../../assets/minute/representative/1-4.jpg";
+import Img5 from "../../assets/minute/representative/1-5.jpg";
+import Img6 from "../../assets/minute/representative/1-6.jpg";
+import Img7 from "../../assets/minute/representative/1-7.jpg";
+
+import Img8 from "../../assets/minute/representative/2-1.jpg";
+import Img9 from "../../assets/minute/representative/2-2.jpg";
+import Img10 from "../../assets/minute/representative/2-3.jpg";
+import Img11 from "../../assets/minute/representative/2-4.jpg";
+import Img12 from "../../assets/minute/representative/2-5.jpg";
+import Img13 from "../../assets/minute/representative/2-6.jpg";
+import Img14 from "../../assets/minute/representative/2-7.jpg";
+import Img15 from "../../assets/minute/representative/2-8.jpg";
+import Img16 from "../../assets/minute/representative/2-9.jpg";
 
 import headImg from "../../assets/minute/administrative/head1-1.jpg";
 import headImg2 from "../../assets/minute/administrative/head1-2.jpg";
@@ -98,6 +108,53 @@ export const CenterData = [
 ];
 
 export const RepresentativeData = [
+  {
+    id: 2,
+    title: "2023학년도 제2차 전체학생대표자회의 회의록",
+    date: "2023-05-10",
+    link: "/info/minute/representative/detail/2",
+    owner: "관리자",
+    content:
+      "일시: 2023.05.10.(월) 18:30 ~ 19:30<br/>장소: 미래백년관 R103<br/>참석자: 학생 대표자(총학생회, 단과대학생회, 학과별 학생회, 중앙동아리) 63인<br/>안건: 1) 2023년도 대동제(학생축제) 관련 브리핑<br/><p style='margin-left: 36px'>2) 대표자 질의</p><p style='margin-left: 36px'>3) 특기사항</p>",
+    inImg: [
+      {
+        img: Img8,
+        alt: "img8",
+      },
+      {
+        img: Img9,
+        alt: "img9",
+      },
+      {
+        img: Img10,
+        alt: "img10",
+      },
+      {
+        img: Img11,
+        alt: "img11",
+      },
+      {
+        img: Img12,
+        alt: "img12",
+      },
+      {
+        img: Img13,
+        alt: "img13",
+      },
+      {
+        img: Img14,
+        alt: "img14",
+      },
+      {
+        img: Img15,
+        alt: "img15",
+      },
+      {
+        img: Img16,
+        alt: "img16",
+      },
+    ],
+  },
   {
     id: 1,
     title: "2023학년도 제1차 전체학생대표자회의 회의록",

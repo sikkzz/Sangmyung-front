@@ -20,7 +20,7 @@ const Path = () => {
     <Box>
       <List>
         <ListItem>
-          <ListLink>HOME</ListLink>
+          {/* <ListLink>HOME</ListLink> */}
         </ListItem>
       </List>
     </Box>
