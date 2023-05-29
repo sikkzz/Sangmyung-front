@@ -29,8 +29,29 @@ import {
 import Icons from "../../constants/icon";
 
 import { NoticeData } from "../../constants/data/NoticeData";
+import { useEffect, useState } from "react";
+import Pagination from "../Pagination/Pagination";
+
+type Props = {
+  id: number;
+  link: string;
+  title: string;
+  date: string;
+  owner: string;
+  kind: string;
+  content: string;
+};
 
 const Notice = () => {
+  const [posts, setPosts] = useState([] as any);
+  const [limit, setLimit] = useState(10);
+  const [page, setPage] = useState(1);
+  const offset = (page - 1) * limit;
+
+  useEffect(() => {
+    setPosts(NoticeData);
+  }, []);
+
   return (
     <Layout>
       <Col>
@@ -82,31 +103,39 @@ const Notice = () => {
                   <Td />
                   <Td />
                 </Tr>
-                {NoticeData.map((item, index) => (
-                  <Tr key={index}>
-                    <Td>{item.id}</Td>
-                    <Td>{item.kind}</Td>
-                    <Td>
-                      <TdTitle>
-                        <TdLink href={item.link}>{item.title}</TdLink>
-                      </TdTitle>
-                    </Td>
-                    <Td>{item.owner}</Td>
-                    <Td>{item.date}</Td>
-                    <MTd>
-                      <TdTitle>
-                        <TdLink href={item.link}>{item.title}</TdLink>
-                        <MTdInfoBox>
-                          <MTdInfo>{item.kind}</MTdInfo>
-                          <MTdInfo>상명대학교 총학생회</MTdInfo>
-                          <MTdInfo>{item.date}</MTdInfo>
-                        </MTdInfoBox>
-                      </TdTitle>
-                    </MTd>
-                  </Tr>
-                ))}
+                {posts
+                  .slice(offset, offset + limit)
+                  .map(({ id, kind, link, title, owner, date }: Props) => (
+                    <Tr key={id}>
+                      <Td>{id}</Td>
+                      <Td>{kind}</Td>
+                      <Td>
+                        <TdTitle>
+                          <TdLink href={link}>{title}</TdLink>
+                        </TdTitle>
+                      </Td>
+                      <Td>{owner}</Td>
+                      <Td>{date}</Td>
+                      <MTd>
+                        <TdTitle>
+                          <TdLink href={link}>{title}</TdLink>
+                          <MTdInfoBox>
+                            <MTdInfo>{kind}</MTdInfo>
+                            <MTdInfo>상명대학교 총학생회</MTdInfo>
+                            <MTdInfo>{date}</MTdInfo>
+                          </MTdInfoBox>
+                        </TdTitle>
+                      </MTd>
+                    </Tr>
+                  ))}
               </TBody>
             </Table>
+            <Pagination
+              total={posts.length}
+              limit={limit}
+              page={page}
+              setPage={setPage}
+            />
           </NoticeBox>
         </Box>
       </Col>
