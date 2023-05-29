@@ -1,6 +1,6 @@
-import Img1_1 from '../../assets/notice/1/1.jpeg'
-import Img1_2 from '../../assets/notice/1/2.jpeg'
-import Img1_3 from '../../assets/notice/1/3.jpeg'
+import Img1_1 from "../../assets/notice/1/1.jpeg";
+import Img1_2 from "../../assets/notice/1/2.jpeg";
+import Img1_3 from "../../assets/notice/1/3.jpeg";
 
 import Img2_1 from "../../assets/notice/2/1.jpg";
 import Img2_2 from "../../assets/notice/2/2.jpg";
@@ -440,7 +440,118 @@ import Img70_4 from "../../assets/notice/70/4.jpg";
 
 import Img71_1 from "../../assets/notice/71/1.jpg";
 
+import Img72_1 from "../../assets/notice/72/1.jpg";
+import Img72_2 from "../../assets/notice/72/2.jpg";
+import Img72_3 from "../../assets/notice/72/3.jpg";
+import Img72_4 from "../../assets/notice/72/4.jpg";
+import Img72_5 from "../../assets/notice/72/5.jpg";
+import Img72_6 from "../../assets/notice/72/6.jpg";
+import Img72_7 from "../../assets/notice/72/7.jpg";
+
+import Img73_1 from '../../assets/education/15/001.png'
+import Img73_2 from '../../assets/education/15/002.png'
+import Img73_3 from '../../assets/education/15/003.png'
+import Img73_4 from '../../assets/education/15/004.png'
+import Img73_5 from '../../assets/education/15/005.png'
+import Img73_6 from '../../assets/education/15/006.png'
+import Img73_7 from '../../assets/education/15/007.png'
+import Img73_8 from '../../assets/education/15/008.png'
+import Img73_9 from '../../assets/education/15/009.png'
+import Img73_10 from '../../assets/education/15/010.png'
+
 export const NoticeData = [
+  {
+    id: 73,
+    link: "/intro/notice/detail/73",
+    title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 창업활동 장려 편",
+    date: "2023-05-29",
+    owner: "관리자",
+    kind: "학사",
+    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>6월 첫째 주, 제공해드리는 정보는 ‘창업활동 장려 편’입니다.<br/><br/>본교 재학생을 대상으로 창업활동을 장려하는 두 가지 정보를 제공해드리려 합니다!<br/><br/>창업 사업계획서 경진대회는 사업(아이디어) 계획서를 제출하여 실현가능성, 시장성, 성장가능성 등에 대해 심사를 받는 대회입니다.<br/>제출서류가 많으니 해당 공지사항을 통해 놓치지 않도록 유의하시길 바랍니다!<br/><br/>창업장학금은 다양한 창업 활동 내역 참여를 통해 부여 받은 마일리지를 바탕으로 수여하는 제도입니다.<br/>창업 관련 실적을 제출하는 경우 관련 증빙서류는 필수로 제출해야 함을 참고해주세요!<br/><br/>1. 창업 사업계획서 경진대회<br/>- 기간별 진행 계획<br/>- 신청방법 및 제출서류<br/>- 대회 유의사항<br/>2. 2023-1학기 창업장학금<br/>- 지원자격<br/>- 창업지원금<br/>- 신청방법 및 제출서류<br/><br/>자세한 사항은 상명대학교 홈페이지 '상명라운지(공지사항)'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 또 다른💡선[先]견지명💡콘텐츠에도 많은 관심 부탁드립니다! 감사합니다.",
+    inimg: [
+      {
+        img: Img73_1,
+        alt: "img73_1"
+      },
+      {
+        img: Img73_2,
+        alt: "img73_2"
+      },
+      {
+        img: Img73_3,
+        alt: "img73_3"
+      },
+      {
+        img: Img73_4,
+        alt: "img73_4"
+      },
+      {
+        img: Img73_5,
+        alt: "img73_5"
+      },
+      {
+        img: Img73_6,
+        alt: "img73_6"
+      },
+      {
+        img: Img73_7,
+        alt: "img73_7"
+      },
+      {
+        img: Img73_8,
+        alt: "img73_8"
+      },
+      {
+        img: Img73_9,
+        alt: "img73_9"
+      },
+      {
+        img: Img73_10,
+        alt: "img73_10"
+      },
+    ]
+  },
+  {
+    id: 72,
+    link: "/intro/notice/detail/72",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 상대평가 비율 개편 설문조사 안내",
+    date: "2023-05-27",
+    owner: "관리자",
+    kind: "학사",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>본 설문은 본교 교무처로부터 전달받은 전공 교과목 상대평가 A등급 수혜기준 완화 및 비율 개편안에 관해 학생 전체 단위 의견 취합을 목적으로 작성됨을 알려드립니다.<br/><br/>본교 교무처에서는 현재 상명대학교 서울캠퍼스의 A 학점 수혜 비율이 타 대학 대비 낮은 기준 하에 진행되고 있다는 점에서 미루어보아,<br/>학생들이 추후 취업 시장 등에서 경쟁력을 확보하기 어려울 수 있다는 판단 아래 수혜기준을 완화하는 개편을 추진하고자 합니다. 변경 내용은 아래와 같습니다.<br/><br/>※ 기존 상대평가 성적 부여기준 및 비율 변경: A(30%) B(40%) C(30%) → A(45%) B, C(자율부여)<br/><br/>위 방식으로의 채택 이전 학우 여러분의 의사를 수렴하고자 하며 개정 과정에서 본 설문을 통해 상명대학교 행정처에 학생 의견을 전달함을 목적으로 실시됨을 알려드립니다.<br/><br/>학우 여러분의 많은 관심과 참여를 부탁드립니다. 감사합니다.<br/><br/>📍 설문조사 기간: 5/30(화) 자정까지<br/>🔗 설문조사 참여 <a href='https://forms.gle/hDfVBmVcPG6poELA8' style='color: blue'>https://forms.gle/hDfVBmVcPG6poELA8</a>",
+    inImg: [
+      {
+        img: Img72_1,
+        alt: "img72_1",
+      },
+      {
+        img: Img72_2,
+        alt: "img72_2",
+      },
+      {
+        img: Img72_3,
+        alt: "img72_3",
+      },
+      {
+        img: Img72_4,
+        alt: "img72_4",
+      },
+      {
+        img: Img72_5,
+        alt: "img72_5",
+      },
+      {
+        img: Img72_6,
+        alt: "img72_6",
+      },
+      {
+        img: Img72_7,
+        alt: "img72_7",
+      },
+    ],
+  },
   {
     id: 71,
     link: "/intro/notice/detail/71",
