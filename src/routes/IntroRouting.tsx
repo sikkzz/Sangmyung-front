@@ -9,6 +9,7 @@ import AccountPage from "../pages/AccountPage";
 import AccountDetailPage from "../pages/AccountDetailPage";
 import NoticePage from "../pages/NoticePage";
 import NoticeDetailPage from "../pages/NoticeDetailPage";
+import NotFoundPage from "../pages/NotFoundPage";
 
 
 const IntroRouting = () => {
@@ -27,6 +28,7 @@ const IntroRouting = () => {
       <Route path="/intro/account/detail/:id" element={<AccountDetailPage />} />
       <Route path="/intro/notice" element={<NoticePage />} />
       <Route path="/intro/notice/detail/:id" element={<NoticeDetailPage />} />
+      <Route path={"*"} element={<NotFoundPage />} />
     </Routes>
   );
 };
