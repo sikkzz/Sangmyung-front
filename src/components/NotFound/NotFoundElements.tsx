@@ -11,7 +11,11 @@ const Col = styled.div`
   margin: 0 auto;
 `;
 
-const Box = styled.div``;
+const Box = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+`;
 
 const HeadBox = styled.div`
   display: flex;
@@ -29,7 +33,7 @@ const Logo = styled.img`
 `;
 
 const ContentBox = styled.div`
-  margin-top: 100px;
+  margin-top: 120px;
 `;
 
 const Content = styled.div``;
@@ -48,7 +52,7 @@ const Text = styled.p`
 `;
 
 const LinkBox = styled.div`
-    margin-top: 80px;
+  margin-top: 80px;
 `;
 
 const Link = styled.a`
