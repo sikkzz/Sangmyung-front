@@ -57,7 +57,7 @@ const Title = styled.div`
   font-weight: 700;
   color: #fff;
   position: absolute;
-  top: 75%;
+  top: 65%;
   left: 3%;
   ${media.labtop`top:60%;left:3%;font-size:60px;`}
   ${media.tabletLarge`top:60%;left:3%;font-size:50px;`}
@@ -70,7 +70,7 @@ const Content = styled.div`
   color: #fff;
   font-weight: 700;
   position: absolute;
-  top: 85%;
+  top: 77%;
   left: 3%;
   ${media.labtop`top:75%;left:3%;font-size:30px;`}
   ${media.tabletLarge`top:75%;left:3%;font-size:24px;`}
