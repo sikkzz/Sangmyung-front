@@ -253,6 +253,7 @@ import Video4 from "../../assets/video/4.mp4";
 import Video5 from "../../assets/video/5.mp4";
 import Video6 from "../../assets/video/6.mp4";
 import Video7 from "../../assets/video/7.mp4";
+import Video8 from "../../assets/video/8.mp4";
 
 import Img38_1 from "../../assets/notice/38/1.jpg";
 import Img38_2 from "../../assets/notice/38/2.jpg";
@@ -448,18 +449,71 @@ import Img72_5 from "../../assets/notice/72/5.jpg";
 import Img72_6 from "../../assets/notice/72/6.jpg";
 import Img72_7 from "../../assets/notice/72/7.jpg";
 
-import Img73_1 from '../../assets/education/15/001.png'
-import Img73_2 from '../../assets/education/15/002.png'
-import Img73_3 from '../../assets/education/15/003.png'
-import Img73_4 from '../../assets/education/15/004.png'
-import Img73_5 from '../../assets/education/15/005.png'
-import Img73_6 from '../../assets/education/15/006.png'
-import Img73_7 from '../../assets/education/15/007.png'
-import Img73_8 from '../../assets/education/15/008.png'
-import Img73_9 from '../../assets/education/15/009.png'
-import Img73_10 from '../../assets/education/15/010.png'
+import Img73_1 from "../../assets/education/15/001.png";
+import Img73_2 from "../../assets/education/15/002.png";
+import Img73_3 from "../../assets/education/15/003.png";
+import Img73_4 from "../../assets/education/15/004.png";
+import Img73_5 from "../../assets/education/15/005.png";
+import Img73_6 from "../../assets/education/15/006.png";
+import Img73_7 from "../../assets/education/15/007.png";
+import Img73_8 from "../../assets/education/15/008.png";
+import Img73_9 from "../../assets/education/15/009.png";
+import Img73_10 from "../../assets/education/15/010.png";
+
+import Img75_1 from "../../assets/minute/administrative/national1.jpg";
+import Img75_2 from "../../assets/minute/administrative/national2.jpg";
+import Img75_3 from "../../assets/minute/administrative/national3.jpg";
+import Img75_4 from "../../assets/minute/administrative/national4.jpg";
+import Img75_5 from "../../assets/minute/administrative/national5.jpg";
 
 export const NoticeData = [
+  {
+    id: 75,
+    link: "/intro/notice/detail/75",
+    title: "상명대학교 제46대 총학생회 '선[先]' 국회의원 차담회 회의록 공지",
+    date: "2023-05-31",
+    owner: "관리자",
+    kind: "성과보고",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분. 제46대 총학생회 선[先]입니다.<br/><br/>지난 5월 3일, 국회의사당 최재형 국회의원실에서 상명대학교 서울캠퍼스 총학생회와 종로구 최재형 국회의원 간 차담회가 진행되었습니다.<br/>본 차담회에서는 5개의 안건 및 기타 안건을 논의하였습니다.<br/><br/>자세한 안건 및 회의 내용은 첨부된 회의록을 통해 확인하실 수 있습니다.<br/>학우 여러분의 참고를 부탁드립니다.<br/><br/>감사합니다.",
+    inImg: [
+      {
+        img: Img75_1,
+        alt: "img75_1",
+      },
+      {
+        img: Img75_2,
+        alt: "img75_2",
+      },
+      {
+        img: Img75_3,
+        alt: "img75_3",
+      },
+      {
+        img: Img75_4,
+        alt: "img75_4",
+      },
+      {
+        img: Img75_5,
+        alt: "img75_5",
+      },
+    ],
+  },
+  {
+    id: 74,
+    link: "/intro/notice/detail/74",
+    title: "상명대학교 2023학년도 서울캠퍼스 대동제 Sketch Video 공개",
+    date: "2023-05-31",
+    owner: "관리자",
+    kind: "축제",
+    content:
+      "[ 2023 상명대학교 서울캠퍼스 대동제 ]<br/><br/>『 아카이브: In my Camcorder 』<br/>Sketch Video Ver.<br/><br/>공식 유튜브 채널에서 시청하기<br/><a href='https://youtu.be/QR4Fm6PxeHo' style='color: blue'>https://youtu.be/QR4Fm6PxeHo</a><br/><br/>일시: 2023.05.18.(THU) - 2023.05.19.(FRI)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]<br/><br/>제작 | 제46대 총학생회 선[先] 홍보국<br/>BGM | The Rose-red (inst.)",
+    inVideo: [
+      {
+        video: Video8,
+      },
+    ],
+  },
   {
     id: 73,
     link: "/intro/notice/detail/73",
@@ -467,49 +521,50 @@ export const NoticeData = [
     date: "2023-05-29",
     owner: "관리자",
     kind: "학사",
-    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>6월 첫째 주, 제공해드리는 정보는 ‘창업활동 장려 편’입니다.<br/><br/>본교 재학생을 대상으로 창업활동을 장려하는 두 가지 정보를 제공해드리려 합니다!<br/><br/>창업 사업계획서 경진대회는 사업(아이디어) 계획서를 제출하여 실현가능성, 시장성, 성장가능성 등에 대해 심사를 받는 대회입니다.<br/>제출서류가 많으니 해당 공지사항을 통해 놓치지 않도록 유의하시길 바랍니다!<br/><br/>창업장학금은 다양한 창업 활동 내역 참여를 통해 부여 받은 마일리지를 바탕으로 수여하는 제도입니다.<br/>창업 관련 실적을 제출하는 경우 관련 증빙서류는 필수로 제출해야 함을 참고해주세요!<br/><br/>1. 창업 사업계획서 경진대회<br/>- 기간별 진행 계획<br/>- 신청방법 및 제출서류<br/>- 대회 유의사항<br/>2. 2023-1학기 창업장학금<br/>- 지원자격<br/>- 창업지원금<br/>- 신청방법 및 제출서류<br/><br/>자세한 사항은 상명대학교 홈페이지 '상명라운지(공지사항)'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 또 다른💡선[先]견지명💡콘텐츠에도 많은 관심 부탁드립니다! 감사합니다.",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>6월 첫째 주, 제공해드리는 정보는 ‘창업활동 장려 편’입니다.<br/><br/>본교 재학생을 대상으로 창업활동을 장려하는 두 가지 정보를 제공해드리려 합니다!<br/><br/>창업 사업계획서 경진대회는 사업(아이디어) 계획서를 제출하여 실현가능성, 시장성, 성장가능성 등에 대해 심사를 받는 대회입니다.<br/>제출서류가 많으니 해당 공지사항을 통해 놓치지 않도록 유의하시길 바랍니다!<br/><br/>창업장학금은 다양한 창업 활동 내역 참여를 통해 부여 받은 마일리지를 바탕으로 수여하는 제도입니다.<br/>창업 관련 실적을 제출하는 경우 관련 증빙서류는 필수로 제출해야 함을 참고해주세요!<br/><br/>1. 창업 사업계획서 경진대회<br/>- 기간별 진행 계획<br/>- 신청방법 및 제출서류<br/>- 대회 유의사항<br/>2. 2023-1학기 창업장학금<br/>- 지원자격<br/>- 창업지원금<br/>- 신청방법 및 제출서류<br/><br/>자세한 사항은 상명대학교 홈페이지 '상명라운지(공지사항)'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 또 다른💡선[先]견지명💡콘텐츠에도 많은 관심 부탁드립니다! 감사합니다.",
     inimg: [
       {
         img: Img73_1,
-        alt: "img73_1"
+        alt: "img73_1",
       },
       {
         img: Img73_2,
-        alt: "img73_2"
+        alt: "img73_2",
       },
       {
         img: Img73_3,
-        alt: "img73_3"
+        alt: "img73_3",
       },
       {
         img: Img73_4,
-        alt: "img73_4"
+        alt: "img73_4",
       },
       {
         img: Img73_5,
-        alt: "img73_5"
+        alt: "img73_5",
       },
       {
         img: Img73_6,
-        alt: "img73_6"
+        alt: "img73_6",
       },
       {
         img: Img73_7,
-        alt: "img73_7"
+        alt: "img73_7",
       },
       {
         img: Img73_8,
-        alt: "img73_8"
+        alt: "img73_8",
       },
       {
         img: Img73_9,
-        alt: "img73_9"
+        alt: "img73_9",
       },
       {
         img: Img73_10,
-        alt: "img73_10"
+        alt: "img73_10",
       },
-    ]
+    ],
   },
   {
     id: 72,

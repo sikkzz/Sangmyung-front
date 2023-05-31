@@ -45,6 +45,12 @@ import headImg25 from "../../assets/minute/administrative/head3-7.jpg";
 import headImg26 from "../../assets/minute/administrative/head3-8.jpg";
 import headImg27 from "../../assets/minute/administrative/head3-9.jpg";
 
+import nationalImg1 from "../../assets/minute/administrative/national1.jpg";
+import nationalImg2 from "../../assets/minute/administrative/national2.jpg";
+import nationalImg3 from "../../assets/minute/administrative/national3.jpg";
+import nationalImg4 from "../../assets/minute/administrative/national4.jpg";
+import nationalImg5 from "../../assets/minute/administrative/national5.jpg";
+
 import resultImg1 from "../../assets/minute/administrative/result2-1.jpg";
 import resultImg2 from "../../assets/minute/administrative/result2-2.jpg";
 
@@ -273,6 +279,37 @@ export const TutionData = [
 ];
 
 export const AdministrativeData = [
+  {
+    id: 7,
+    title: "2023학년도 제1차 종로구 국회의원 차담회 회의록",
+    date: "2023-05-31",
+    link: "/info/minute/administrative/detail/7",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분. 제46대 총학생회 선[先]입니다.<br/><br/>지난 5월 3일, 국회의사당 최재형 국회의원실에서 상명대학교 서울캠퍼스 총학생회와 종로구 최재형 국회의원 간 차담회가 진행되었습니다.<br/>본 차담회에서는 5개의 안건 및 기타 안건을 논의하였습니다.<br/><br/>자세한 안건 및 회의 내용은 첨부된 회의록을 통해 확인하실 수 있습니다.<br/>학우 여러분의 참고를 부탁드립니다.<br/><br/>감사합니다.",
+    inImg: [
+      {
+        img: nationalImg1,
+        alt: "nationalImg1",
+      },
+      {
+        img: nationalImg2,
+        alt: "nationalImg2",
+      },
+      {
+        img: nationalImg3,
+        alt: "nationalImg3",
+      },
+      {
+        img: nationalImg4,
+        alt: "nationalImg4",
+      },
+      {
+        img: nationalImg5,
+        alt: "nationalImg5",
+      },
+    ],
+  },
   {
     id: 6,
     title: "2023학년도 제1차 총장간담회 회의록",
