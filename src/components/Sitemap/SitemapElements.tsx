@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Layout = styled.div`
   padding-top: 30px;
   padding-bottom: 100px;
@@ -15,11 +17,15 @@ const Box = styled.div``;
 
 const ContentBox = styled.div`
   margin-top: 60px;
+  ${media.tablet`margin-top: 20px;`}
+  ${media.mobile`margin-top: 0;`}
 `;
 
 const List = styled.ul`
   display: flex;
   justify-content: space-between;
+  ${media.tablet`display: block;`}
+  ${media.mobile`display: block;`}
 `;
 
 const ListItem = styled.li`
@@ -27,6 +33,8 @@ const ListItem = styled.li`
   width: calc(100% / 3 - 24px);
   padding: 0 10px 60px 10px;
   vertical-align: top;
+  ${media.tablet`width: calc(50% - 2px);`}
+  ${media.mobile`width: 100%;`}
 `;
 
 const ListItemLink = styled.a`
