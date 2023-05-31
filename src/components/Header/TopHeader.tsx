@@ -33,7 +33,9 @@ const TopHeader = () => {
             <Menu>
               <MenuLink href="/">HOME</MenuLink>
             </Menu>
-            <Menu>사이트맵</Menu>      
+            <Menu>
+              <MenuLink href="/info/sitemap">사이트맵</MenuLink>
+            </Menu>
           </MenuList>
         </Box>
       </Col>

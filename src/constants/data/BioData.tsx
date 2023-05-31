@@ -105,5 +105,9 @@ export const BioData = [
     title: "건의/청원게시판",
     sub: "건의/청원게시판입니다",
     content: "건의/청원게시판입니다."
+  },
+  {
+    img: Img,
+    id: "sitemap",
   }
 ];

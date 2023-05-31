@@ -214,6 +214,16 @@ export const TabData = [
       },
     ],
   },
+  {
+    id: "sitemap",
+    sub_item: [
+      {
+        id: "sitemap",
+        link: "/info/sitemap",
+        item: "사이트맵",
+      },
+    ],
+  },
 ];
 
 export const MTabData = [

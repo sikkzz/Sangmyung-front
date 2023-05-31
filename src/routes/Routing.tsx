@@ -26,6 +26,7 @@ import PartnerDetailPage from "../pages/PartnerDetailPage";
 import MapPage from "../pages/MapPage";
 import RentalPage from "../pages/RentalPage";
 import BoardPage from "../pages/BoardPage";
+import SitemapPage from "../pages/SitemapPage";
 
 const Routing = () => {
   return (
@@ -95,6 +96,7 @@ const Routing = () => {
       <Route path="/facility/map" element={<MapPage />} />
       <Route path="/facility/rental" element={<RentalPage />} />
       <Route path="/info/board" element={<BoardPage />} />
+      <Route path="/info/sitemap" element={<SitemapPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
