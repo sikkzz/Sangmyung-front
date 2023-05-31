@@ -34,6 +34,8 @@ const Logo = styled.img`
 
 const ContentBox = styled.div`
   margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
 `;
 
 const Content = styled.div``;
@@ -58,12 +60,28 @@ const LinkBox = styled.div`
 const Link = styled.a`
   color: #fff;
   background-color: #191919;
-  padding: 16px 80px;
+  padding: 16px 70px;
   text-align: center;
   font-size: 16px;
   font-weight: 600;
   border-radius: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+
+  &:first-of-type{
+    margin-left: 0;
+  }
 `;
+
+const ImageBox = styled.div`
+  width: 550px;
+  height: 366px;
+`
+
+const Img = styled.img`
+  width: 100%;
+  height: 100%;
+`
 
 export {
   Layout,
@@ -78,4 +96,6 @@ export {
   Text,
   LinkBox,
   Link,
+  ImageBox,
+  Img
 };
