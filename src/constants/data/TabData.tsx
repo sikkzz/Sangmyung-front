@@ -204,6 +204,16 @@ export const TabData = [
       },
     ],
   },
+  {
+    id: "board",
+    sub_item: [
+      {
+        id: "board",
+        link: "/info/board",
+        item: "건의/청원게시판",
+      },
+    ],
+  },
 ];
 
 export const MTabData = [

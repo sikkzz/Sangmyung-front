@@ -157,7 +157,7 @@ export const HeaderTabData = [
   },
   {
     main_item: "건의/청원게시판",
-    link: "#!",
+    link: "/info/board",
   },
 ];
 
@@ -308,6 +308,6 @@ export const MHeaderTabData = [
   },
   {
     main_item: "건의/청원게시판",
-    link: "#!",
+    link: "/info/board",
   },
 ];
