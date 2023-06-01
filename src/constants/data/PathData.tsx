@@ -4,9 +4,71 @@ export const PathData = [
     item: "총학생회",
   },
   {
+    id: "info",
+    item: "학교정보",
+  },
+  {
+    id: "facility",
+    item: "학교시설",
+  },
+];
+
+export const PathData2 = [
+  {
     id: "introduce",
     item: "총학생회 소개",
   },
+  {
+    id: "department",
+    item: "집행부 소개",
+  },
+  {
+    id: "notice",
+    item: "공지사항",
+  },
+  {
+    id: "central",
+    item: "중앙운영위원회",
+  },
+  {
+    id: "pledge",
+    item: "공약 소개",
+  },
+  {
+    id: "account",
+    item: "결산 목록",
+  },
+  {
+    id: "rule",
+    item: "학생회칙",
+  },
+  {
+    id: "minute",
+    item: "회의록",
+  },
+  {
+    id: "calendar",
+    item: "학사일정",
+  },
+  {
+    id: "education",
+    item: "교육 및 학사",
+  },
+  {
+    id: "partnership",
+    item: "제휴",
+  },
+  {
+    id: "map",
+    item: "캠퍼스맵",
+  },
+  {
+    id: "rental",
+    item: "물품대여현황",
+  },
+];
+
+export const PathData3 = [
   {
     id: "greeting",
     item: "회장단 인사말",
@@ -14,10 +76,6 @@ export const PathData = [
   {
     id: "organizationchart",
     item: "조직도",
-  },
-  {
-    id: "department",
-    item: "집행국 소개",
   },
   {
     id: "planning",
@@ -47,18 +105,7 @@ export const PathData = [
     id: "promotion",
     item: "홍보국",
   },
-  {
-    id: "notice",
-    item: "공지사항",
-  },
-  {
-    id: "central",
-    item: "중앙운영위원회",
-  },
-  {
-    id: "pledge",
-    item: "공약 소개",
-  },
+
   {
     id: "simple",
     item: "공약집",
@@ -67,22 +114,7 @@ export const PathData = [
     id: "detail",
     item: "공약 상세보기",
   },
-  {
-    id: "account",
-    item: "결산 목록",
-  },
-  {
-    id: "info",
-    item: "학교정보",
-  },
-  {
-    id: "rule",
-    item: "학생회칙",
-  },
-  {
-    id: "minute",
-    item: "회의록",
-  },
+
   {
     id: "center",
     item: "중앙운영위원회 회의록",
@@ -99,14 +131,7 @@ export const PathData = [
     id: "administrative",
     item: "행정부처 간담회 회의록",
   },
-  {
-    id: "calendar",
-    item: "학사일정",
-  },
-  {
-    id: "education",
-    item: "교육 및 학사",
-  },
+
   {
     id: "foresight",
     item: "선[先]견지명",
@@ -114,21 +139,5 @@ export const PathData = [
   {
     id: "ednotice",
     item: "학사안내",
-  },
-  {
-    id: "facility",
-    item: "학교시설",
-  },
-  {
-    id: "partnership",
-    item: "제휴",
-  },
-  {
-    id: "map",
-    item: "캠퍼스맵",
-  },
-  {
-    id: "rental",
-    item: "물품대여현황",
   },
 ];
