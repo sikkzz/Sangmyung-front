@@ -45,6 +45,7 @@ import {
   IoShareSocialSharp,
   IoChevronDown,
   IoChevronUp,
+  IoChevronForward
 } from "react-icons/io5";
 import { GiPartyPopper, GiClothes } from "react-icons/gi";
 import { SiGooglecolab } from "react-icons/si";
@@ -104,7 +105,8 @@ const Icons = {
   AiOutlineLeft,
   AiOutlineCloudDownload,
   BsCircleFill,
-  AiOutlineMail
+  AiOutlineMail,
+  IoChevronForward
 };
 
 export default Icons;

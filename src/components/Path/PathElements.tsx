@@ -8,13 +8,20 @@ const Box = styled.div`
 const List = styled.ul``;
 
 const ListItem = styled.li`
-    display: inline-block;
-    font-size: 14px;
-    color: #666;
+  display: inline-block;
+  font-size: 14px;
+  color: #666;
+`;
+
+const ListIconBox = styled.div`
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 1px;
+  margin-right: 6px;
 `;
 
 const ListLink = styled.a`
-    margin-right: 24px;
+  margin-right: 6px;
 `;
 
-export { Box, List, ListItem, ListLink };
+export { Box, List, ListItem, ListIconBox, ListLink };

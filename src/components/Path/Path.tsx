@@ -1,8 +1,10 @@
-import { Box, List, ListItem, ListLink } from "./PathElements";
+import { Box, List, ListItem, ListIconBox, ListLink } from "./PathElements";
 
 import { useLocation } from "react-router-dom";
 
 import { PathData, PathData2, PathData3 } from "../../constants/data/PathData";
+
+import Icons from "../../constants/icon";
 
 const Path = () => {
   const location = useLocation();
@@ -11,7 +13,10 @@ const Path = () => {
     <Box>
       <List>
         <ListItem>
-          <ListLink>Home</ListLink>
+          <ListLink href="/">Home</ListLink>
+          <ListIconBox>
+            <Icons.IoChevronForward size={16} color="#666" />
+          </ListIconBox>
         </ListItem>
         {PathData.map((item, index) => (
           <ListItem
@@ -23,7 +28,10 @@ const Path = () => {
                   : "none",
             }}
           >
-            <ListLink>{item.item}</ListLink>
+            <ListLink href={item.link}>{item.item}</ListLink>
+            <ListIconBox>
+              <Icons.IoChevronForward size={16} color="#666" />
+            </ListIconBox>
           </ListItem>
         ))}
         {PathData2.map((item, index) => (
@@ -36,7 +44,7 @@ const Path = () => {
                   : "none",
             }}
           >
-            <ListLink>{item.item}</ListLink>
+            <ListLink href={item.link}>{item.item}</ListLink>
           </ListItem>
         ))}
         {PathData3.map((item, index) => (
@@ -49,7 +57,10 @@ const Path = () => {
                   : "none",
             }}
           >
-            <ListLink>{item.item}</ListLink>
+            <ListIconBox>
+              <Icons.IoChevronForward size={16} color="#666" />
+            </ListIconBox>
+            <ListLink href={item.link}>{item.item}</ListLink>
           </ListItem>
         ))}
       </List>
