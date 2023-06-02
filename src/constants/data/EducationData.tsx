@@ -193,6 +193,17 @@ import noImg4_4 from "../../assets/education/notice/4/4.jpg";
 import noImg4_5 from "../../assets/education/notice/4/5.jpg";
 import noImg4_6 from "../../assets/education/notice/4/6.jpg";
 
+import noImg5_1 from "../../assets/education/notice/5/1.jpg";
+import noImg5_2 from "../../assets/education/notice/5/2.jpg";
+import noImg5_3 from "../../assets/education/notice/5/3.jpg";
+import noImg5_4 from "../../assets/education/notice/5/4.jpg";
+import noImg5_5 from "../../assets/education/notice/5/5.jpg";
+import noImg5_6 from "../../assets/education/notice/5/6.jpg";
+import noImg5_7 from "../../assets/education/notice/5/7.jpg";
+import noImg5_8 from "../../assets/education/notice/5/8.jpg";
+import noImg5_9 from "../../assets/education/notice/5/9.jpg";
+import noImg5_10 from "../../assets/education/notice/5/10.jpg";
+
 export const EducationForesightData = [
   {
     id: 15,
@@ -952,6 +963,59 @@ export const EducationForesightData = [
 ];
 
 export const EducationNoticeData = [
+  {
+    id: 5,
+    link: "/info/education/ednotice/detail/5",
+    img: noImg5_1,
+    alt: "noImg5_1",
+    title: "💙교환학생 프로그램 한 눈에 보기💙",
+    date: "2023-06-02",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국은 학우 여러분이 유익한 학교 생활을 영위할 수 있도록 교내 학사 정보를 전달하고자 합니다.🤓<br/><br/>그렇기에 준비한 “국제교류 프로그램 콘텐츠“는 교환학생, 어학연수 등의 정보를 학우 여러분이 보다 편리하게 정보를 확인하는 데에 도움이 되고자 합니다.<br/><br/>그 중, 한 학기가 끝나가는 이 시점에 학우 여러분이 관심가지실 만한 🌐교환학생 프로그램 한 눈에 보기🌐를 준비했습니다!<br/><br/>해당 자료는 교내 홈페이지 '국제교류 프로그램'을 참고하여 작성된 자료임을 알려드립니다.💌<br/><br/>1. 정규교환학생<br/>- 프로그램 세부 설명<br/>- 지원자격<br/>- 지원 및 선발 정보<br/>2. 장학교환학생<br/>- 프로그램 세부 설명<br/>- 지원자격<br/>- 지원 및 선발 정보<br/><br/>자세한 사항은 상명대학교 홈페이지 ‘국제교류 프로그램'에서 확인하실 수 있습니다.<br/>(URL 바로가기: <a href='' style='color: blue'>https://url.kr/mjy39v</a>)",
+    inImg: [
+      {
+        img: noImg5_1,
+        alt: "noImg5_1",
+      },
+      {
+        img: noImg5_2,
+        alt: "noImg5_2",
+      },
+      {
+        img: noImg5_3,
+        alt: "noImg5_3",
+      },
+      {
+        img: noImg5_4,
+        alt: "noImg5_4",
+      },
+      {
+        img: noImg5_5,
+        alt: "noImg5_5",
+      },
+      {
+        img: noImg5_6,
+        alt: "noImg5_6",
+      },
+      {
+        img: noImg5_7,
+        alt: "noImg5_7",
+      },
+      {
+        img: noImg5_8,
+        alt: "noImg5_8",
+      },
+      {
+        img: noImg5_9,
+        alt: "noImg5_9",
+      },
+      {
+        img: noImg5_10,
+        alt: "noImg5_10",
+      },
+    ],
+  },
   {
     id: 4,
     link: "/info/education/ednotice/detail/4",

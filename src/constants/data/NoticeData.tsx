@@ -488,7 +488,70 @@ import Img81_1 from "../../assets/notice/81/1.jpg";
 import Img82_1 from "../../assets/partner/haribo/1.jpg";
 import Img82_2 from "../../assets/partner/haribo/1.jpg";
 
+import Img83_1 from "../../assets/education/notice/5/1.jpg";
+import Img83_2 from "../../assets/education/notice/5/2.jpg";
+import Img83_3 from "../../assets/education/notice/5/3.jpg";
+import Img83_4 from "../../assets/education/notice/5/4.jpg";
+import Img83_5 from "../../assets/education/notice/5/5.jpg";
+import Img83_6 from "../../assets/education/notice/5/6.jpg";
+import Img83_7 from "../../assets/education/notice/5/7.jpg";
+import Img83_8 from "../../assets/education/notice/5/8.jpg";
+import Img83_9 from "../../assets/education/notice/5/9.jpg";
+import Img83_10 from "../../assets/education/notice/5/10.jpg";
+
 export const NoticeData = [
+  {
+    id: 83,
+    link: "/intro/notice/detail/83",
+    title: "상명대학교 제46대 총학생회 '선[先]' 교환학생 프로그램 한 눈에 보기",
+    date: "2023-06-02",
+    owner: "관리자",
+    kind: "학사",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국은 학우 여러분이 유익한 학교 생활을 영위할 수 있도록 교내 학사 정보를 전달하고자 합니다.🤓<br/><br/>그렇기에 준비한 “국제교류 프로그램 콘텐츠“는 교환학생, 어학연수 등의 정보를 학우 여러분이 보다 편리하게 정보를 확인하는 데에 도움이 되고자 합니다.<br/><br/>그 중, 한 학기가 끝나가는 이 시점에 학우 여러분이 관심가지실 만한 🌐교환학생 프로그램 한 눈에 보기🌐를 준비했습니다!<br/><br/>해당 자료는 교내 홈페이지 '국제교류 프로그램'을 참고하여 작성된 자료임을 알려드립니다.💌<br/><br/>1. 정규교환학생<br/>- 프로그램 세부 설명<br/>- 지원자격<br/>- 지원 및 선발 정보<br/>2. 장학교환학생<br/>- 프로그램 세부 설명<br/>- 지원자격<br/>- 지원 및 선발 정보<br/><br/>자세한 사항은 상명대학교 홈페이지 ‘국제교류 프로그램'에서 확인하실 수 있습니다.<br/>(URL 바로가기: <a href='' style='color: blue'>https://url.kr/mjy39v</a>)",
+    inImg: [
+      {
+        img: Img83_1,
+        alt: "img83_1",
+      },
+      {
+        img: Img83_2,
+        alt: "img83_2",
+      },
+      {
+        img: Img83_3,
+        alt: "img83_3",
+      },
+      {
+        img: Img83_4,
+        alt: "img83_4",
+      },
+      {
+        img: Img83_5,
+        alt: "img83_5",
+      },
+      {
+        img: Img83_6,
+        alt: "img83_6",
+      },
+      {
+        img: Img83_7,
+        alt: "img83_7",
+      },
+      {
+        img: Img83_8,
+        alt: "img83_8",
+      },
+      {
+        img: Img83_9,
+        alt: "img83_9",
+      },
+      {
+        img: Img83_10,
+        alt: "img83_10",
+      },
+    ],
+  },
   {
     id: 82,
     link: "/intro/notice/detail/82",
