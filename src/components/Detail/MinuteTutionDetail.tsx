@@ -136,7 +136,7 @@ const MinuteTutionDetail = () => {
                   </PageCol>
                 </PageBox>
                 <ListBox>
-                  <ListButton href="/minute/center">목록</ListButton>
+                  <ListButton href="/info/minute/tution">목록</ListButton>
                 </ListBox>
               </>
             ) : (

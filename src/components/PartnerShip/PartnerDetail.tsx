@@ -143,7 +143,7 @@ const PartnerDetail = () => {
                   </PageCol>
                 </PageBox>
                 <ListBox>
-                  <ListButton href="/notice">목록</ListButton>
+                  <ListButton href="/facility/partnership/all">목록</ListButton>
                 </ListBox>
               </>
             ) : (

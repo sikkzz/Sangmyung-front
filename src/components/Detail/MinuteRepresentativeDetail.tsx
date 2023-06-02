@@ -135,7 +135,7 @@ const MinuteRepresentativeDetail = () => {
                   </PageCol>
                 </PageBox>
                 <ListBox>
-                  <ListButton href="/minute/center">목록</ListButton>
+                  <ListButton href="/info/minute/representative">목록</ListButton>
                 </ListBox>
               </>
             ) : (

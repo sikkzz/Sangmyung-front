@@ -151,7 +151,7 @@ const NoticeDetail = () => {
                   </PageCol>
                 </PageBox>
                 <ListBox>
-                  <ListButton href="/notice">목록</ListButton>
+                  <ListButton href="/intro/notice">목록</ListButton>
                 </ListBox>
               </>
             ) : (

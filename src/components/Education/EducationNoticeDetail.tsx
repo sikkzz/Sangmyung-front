@@ -132,7 +132,7 @@ const EducationNoticeDetail = () => {
                     </PageCol>
                   </PageBox>
                   <ListBox>
-                    <ListButton href="/notice">목록</ListButton>
+                    <ListButton href="/info/education/ednotice">목록</ListButton>
                   </ListBox>
                 </>
               ) : (
