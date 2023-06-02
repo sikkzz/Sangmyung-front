@@ -499,7 +499,75 @@ import Img83_8 from "../../assets/education/notice/5/8.jpg";
 import Img83_9 from "../../assets/education/notice/5/9.jpg";
 import Img83_10 from "../../assets/education/notice/5/10.jpg";
 
+import Img84_1 from "../../assets/notice/84/1.png";
+import Img84_2 from "../../assets/notice/84/2.png";
+import Img84_3 from "../../assets/notice/84/3.png";
+import Img84_4 from "../../assets/notice/84/4.png";
+import Img84_5 from "../../assets/notice/84/5.png";
+import Img84_6 from "../../assets/notice/84/6.png";
+import Img84_7 from "../../assets/notice/84/7.png";
+import Img84_8 from "../../assets/notice/84/8.png";
+import Img84_9 from "../../assets/notice/84/9.png";
+import Img84_10 from "../../assets/notice/84/10.png";
+import Img84_11 from "../../assets/notice/84/11.png";
+
 export const NoticeData = [
+  {
+    id: 84,
+    link: "/intro/notice/detail/84",
+    title: "상명대학교 제46대 총학생회 '선[先]' 교무처 - 총학생회 회의록 공지",
+    date: "2023-06-03",
+    owner: "관리자",
+    kind: "성과보고",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>어제 자인 06월 02일(금), 총학생회 선[先]은 본교 교무처와 최근 학우 여러분께 전해드리고 있는 학사 관련 안건에 대한 논의를 진행하고자 간담회를 시행한 바 있습니다.<br/>해당 회의 과정에서 논의되었던 안건은 아래 내용과 같습니다.<br/><br/>1) 상대평가 등급 비율 개편안 관련 논의<br/>2) 재수강 관련 개편 발의안 논의<br/>3) 수강 포기 제도 및 총장간담회 후속 조치 등 기타 학사 관련 안건 논의<br/><br/>위 안건과 관련하여 자세한 내용은 총학생회 측에서 정리하여 첨부한 회의록 원문 파일 및 카드뉴스를 통해 확인해주시면 감사하겠습니다.<br/><br/>제46대 총학생회 선[先]은, 학우 여러분께서 더 나은 학사제도 아래 학교생활을 영위하실 수 있도록 노력하겠습니다. 감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img84_1,
+        alt: "img84_1",
+      },
+      {
+        img: Img84_2,
+        alt: "img84_2",
+      },
+      {
+        img: Img84_3,
+        alt: "img84_3",
+      },
+      {
+        img: Img84_4,
+        alt: "img84_4",
+      },
+      {
+        img: Img84_5,
+        alt: "img84_5",
+      },
+      {
+        img: Img84_6,
+        alt: "img84_6",
+      },
+      {
+        img: Img84_7,
+        alt: "img84_7",
+      },
+      {
+        img: Img84_8,
+        alt: "img84_8",
+      },
+      {
+        img: Img84_9,
+        alt: "img84_9",
+      },
+      {
+        img: Img84_10,
+        alt: "img84_10",
+      },
+      {
+        img: Img84_11,
+        alt: "img84_11",
+      },
+    ],
+  },
   {
     id: 83,
     link: "/intro/notice/detail/83",
@@ -3227,24 +3295,24 @@ export const NoticeData = [
 
 export const NoticeKindData = [
   {
-    item: "전체"
+    item: "전체",
   },
   {
     item: "공지",
   },
   {
-    item: "학사"
+    item: "학사",
   },
   {
-    item: "제휴"
+    item: "제휴",
   },
   {
-    item: "행사"
+    item: "행사",
   },
   {
-    item: "축제"
+    item: "축제",
   },
   {
-    item: "성과보고"
-  }
-]
+    item: "성과보고",
+  },
+];

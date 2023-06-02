@@ -51,6 +51,13 @@ import nationalImg3 from "../../assets/minute/administrative/national3.jpg";
 import nationalImg4 from "../../assets/minute/administrative/national4.jpg";
 import nationalImg5 from "../../assets/minute/administrative/national5.jpg";
 
+import eduImg1 from "../../assets/minute/administrative/edu1-1.jpg";
+import eduImg2 from "../../assets/minute/administrative/edu1-2.jpg";
+import eduImg3 from "../../assets/minute/administrative/edu1-3.jpg";
+import eduImg4 from "../../assets/minute/administrative/edu1-4.jpg";
+import eduImg5 from "../../assets/minute/administrative/edu1-5.jpg";
+import eduImg6 from "../../assets/minute/administrative/edu1-6.jpg";
+
 import resultImg1 from "../../assets/minute/administrative/result2-1.jpg";
 import resultImg2 from "../../assets/minute/administrative/result2-2.jpg";
 
@@ -91,16 +98,6 @@ export const MinuteData = [
 ];
 
 export const CenterData = [
-  // {
-  //   id: 2,
-  //   title: "2023학년도 제2차 중앙운영위원회 회의록",
-  //   date: "2023-04-16",
-  //   view: "48",
-  //   link: "/minute/center/detail/2",
-  //   owner: "관리자",
-  //   downloadLink:
-  //     "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
-  // },
   // {
   //   id: 1,
   //   title: "2023학년도 제1차 중앙운영위원회 회의록",
@@ -279,6 +276,41 @@ export const TutionData = [
 ];
 
 export const AdministrativeData = [
+  {
+    id: 8,
+    title: "2023학년도 제1차 교무처 - 총학생회 간담회 회의록",
+    date: "2023-06-03",
+    link: "/info/minute/administrative/detail/8",
+    owner: "관리자",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>어제 자인 06월 02일(금), 총학생회 선[先]은 본교 교무처와 최근 학우 여러분께 전해드리고 있는 학사 관련 안건에 대한 논의를 진행하고자 간담회를 시행한 바 있습니다.<br/>해당 회의 과정에서 논의되었던 안건은 아래 내용과 같습니다.<br/><br/>1) 상대평가 등급 비율 개편안 관련 논의<br/>2) 재수강 관련 개편 발의안 논의<br/>3) 수강 포기 제도 및 총장간담회 후속 조치 등 기타 학사 관련 안건 논의<br/><br/>위 안건과 관련하여 자세한 내용은 총학생회 측에서 정리하여 첨부한 회의록 원문 파일 및 카드뉴스를 통해 확인해주시면 감사하겠습니다.<br/><br/>제46대 총학생회 선[先]은, 학우 여러분께서 더 나은 학사제도 아래 학교생활을 영위하실 수 있도록 노력하겠습니다. 감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: eduImg1,
+        alt: "eduImg1",
+      },
+      {
+        img: eduImg2,
+        alt: "eduImg2",
+      },
+      {
+        img: eduImg3,
+        alt: "eduImg3",
+      },
+      {
+        img: eduImg4,
+        alt: "eduImg4",
+      },
+      {
+        img: eduImg5,
+        alt: "eduImg5",
+      },
+      {
+        img: eduImg6,
+        alt: "eduImg6",
+      },
+    ],
+  },
   {
     id: 7,
     title: "2023학년도 제1차 종로구 국회의원 차담회 회의록",
