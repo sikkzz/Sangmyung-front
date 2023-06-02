@@ -82,6 +82,11 @@ export const PathData2 = [
     item: "물품대여현황",
     link: "/facility/rental",
   },
+  {
+    id: "board",
+    item: "건의/청원게시판",
+    link: "/info/board",
+  },
 ];
 
 export const PathData3 = [
