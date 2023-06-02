@@ -29,7 +29,7 @@ import {
 import Icons from "../../constants/icon";
 
 import { NoticeData } from "../../constants/data/NoticeData";
-import { useEffect, useState } from "react";
+import { ChangeEvent, useEffect, useState } from "react";
 import Pagination from "../Pagination/Pagination";
 
 type Props = {
@@ -48,9 +48,36 @@ const Notice = () => {
   const [page, setPage] = useState(1);
   const offset = (page - 1) * limit;
 
+  const [userInput, setUserInput] = useState<string>("");
+
+  const [isSearching, setIsSearching] = useState<boolean>(false);
+
+  const getSearchData = (e: ChangeEvent<HTMLInputElement>) => {
+    setUserInput(e.target.value);
+
+    if (userInput.length <= 1) {
+      setIsSearching(false);
+    }
+  };
+
+  const onSearchClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+
+    const search = posts.filter((item: any) => {
+      return item.title
+        .replace(" ", "")
+        .toLocaleLowerCase()
+        .includes(userInput.toLocaleLowerCase().replace(" ", ""));
+    });
+    setPosts(search);
+    setIsSearching(true);
+  };
+
   useEffect(() => {
-    setPosts(NoticeData);
-  }, []);
+    if (isSearching === false) {
+      setPosts(NoticeData);
+    }
+  }, [posts, isSearching]);
 
   return (
     <Layout>
@@ -62,8 +89,15 @@ const Notice = () => {
               <ListTitle>전체</ListTitle>
             </ListBox>
             <Search>
-              <Input type="text" placeholder="검색어를 입력해 주세요" />
-              <IconBox>
+              <Input
+                onChange={getSearchData}
+                type="text"
+                placeholder="검색어를 입력해 주세요"
+              />
+              <IconBox
+                onClick={onSearchClick}
+                disabled={userInput.length === 0}
+              >
                 <Icons.ImSearch size={24} color="#000" />
               </IconBox>
             </Search>

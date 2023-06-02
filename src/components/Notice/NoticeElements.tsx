@@ -73,13 +73,17 @@ const Input = styled.input`
   }
 `;
 
-const IconBox = styled.div`
+const IconBox = styled.button`
   width: 40px;
   height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: transparent;
 
   ::before {
     content: "";
