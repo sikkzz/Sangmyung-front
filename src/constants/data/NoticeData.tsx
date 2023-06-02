@@ -3224,3 +3224,27 @@ export const NoticeData = [
     ],
   },
 ];
+
+export const NoticeKindData = [
+  {
+    item: "전체"
+  },
+  {
+    item: "공지",
+  },
+  {
+    item: "학사"
+  },
+  {
+    item: "제휴"
+  },
+  {
+    item: "행사"
+  },
+  {
+    item: "축제"
+  },
+  {
+    item: "성과보고"
+  }
+]

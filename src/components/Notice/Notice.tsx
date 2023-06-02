@@ -4,6 +4,12 @@ import {
   Box,
   Title,
   SearchBox,
+  KindBox,
+  KindTitle,
+  KindList,
+  KindListItem,
+  KindListItemLink,
+  KindIconBox,
   ListBox,
   ListTitle,
   Search,
@@ -28,7 +34,7 @@ import {
 
 import Icons from "../../constants/icon";
 
-import { NoticeData } from "../../constants/data/NoticeData";
+import { NoticeData, NoticeKindData } from "../../constants/data/NoticeData";
 import { ChangeEvent, useEffect, useState } from "react";
 import Pagination from "../Pagination/Pagination";
 
@@ -73,11 +79,35 @@ const Notice = () => {
     setIsSearching(true);
   };
 
+  const [kindClick, isKindClick] = useState(false);
+  const [listClick, isListClick] = useState(false);
+  const [list, setList] = useState(false);
+
+  const onKindClick = () => {
+    isKindClick(!kindClick);
+  };
+
+  const onIsListClick = () => {
+    isListClick(!listClick);
+  };
+
+  const onItemClick = (items: string) => {
+    if (items === "전체") {
+      setPosts(NoticeData);
+    } else {
+      const list = posts.filter((item: any) => {
+        return item.kind === items;
+      });
+      setPosts(list);
+      setList(true);
+    }
+  };
+
   useEffect(() => {
-    if (isSearching === false) {
+    if (isSearching === false && list === false) {
       setPosts(NoticeData);
     }
-  }, [posts, isSearching]);
+  }, [list, posts, isSearching]);
 
   return (
     <Layout>
@@ -85,6 +115,27 @@ const Notice = () => {
         <Box>
           <Title>공지사항</Title>
           <SearchBox>
+            <KindBox onClick={onKindClick}>
+              <KindTitle>분류</KindTitle>
+              <KindList
+                style={{ display: kindClick === true ? "block" : "none" }}
+              >
+                {NoticeKindData.map((item, index) => (
+                  <KindListItem key={index}>
+                    <KindListItemLink
+                      onClick={() => {
+                        onItemClick(item.item);
+                      }}
+                    >
+                      {item.item}
+                    </KindListItemLink>
+                  </KindListItem>
+                ))}
+              </KindList>
+              <KindIconBox>
+                <Icons.IoChevronDown size={16} color="#D5D5D5" />
+              </KindIconBox>
+            </KindBox>
             <ListBox>
               <ListTitle>전체</ListTitle>
             </ListBox>

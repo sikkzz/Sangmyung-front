@@ -32,11 +32,67 @@ const SearchBox = styled.div`
   ${media.mobile`justify-content: flex-start;`}
 `;
 
+const KindBox = styled.div`
+  display: inline-block;
+  position: relative;
+  margin: 0 4px 0 0;
+  min-width: 140px;
+  text-align: left;
+  vertical-align: middle;
+  cursor: pointer;
+  ${media.tabletLarge`min-width: 120px;`};
+  ${media.tablet`min-width: 120px;`};
+  ${media.mobile`min-width: 100px;`};
+`;
+
+const KindTitle = styled.a`
+  padding: 13px 20px;
+  border: 1px solid #dedede;
+  font-size: 16px;
+  color: #999;
+  display: block;
+`;
+
+const KindList = styled.ul`
+  display: none;
+  height: 240px;
+  overflow-y: auto;
+  position: absolute;
+  top: 100%;
+  z-index: 10;
+  width: 100%;
+`
+
+const KindListItem = styled.li`
+  width: 100%;
+  border: 1px solid #dedede;
+  border-top: none;
+  background-color: #fff;
+  color: #666;
+`
+
+const KindListItemLink = styled.div`
+  display: block;
+  padding: 16px 20px;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  color: #666;
+`
+
+const KindIconBox = styled.div`
+  position: absolute;
+  left: 76%;
+  top: 31%;
+  width: 20px;
+  height: 20px;
+`
+
 const ListBox = styled.div`
   display: inline-block;
   position: relative;
-  margin: 0 2px 0 0;
-  min-width: 160px;
+  margin: 0 4px 0 0;
+  min-width: 140px;
   text-align: left;
   vertical-align: middle;
   ${media.tabletLarge`min-width: 120px;`};
@@ -235,6 +291,12 @@ export {
   Box,
   Title,
   SearchBox,
+  KindBox,
+  KindTitle,
+  KindList,
+  KindListItem,
+  KindListItemLink,
+  KindIconBox,
   ListBox,
   ListTitle,
   Search,
