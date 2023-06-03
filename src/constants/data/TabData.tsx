@@ -4,12 +4,12 @@ export const TabData = [
     sub_item: [
       {
         id: "greeting",
-        link: "/intro/introduce/greeting",
+        link: "/intro/greeting",
         item: "회장단 인사말",
       },
       {
         id: "organizationchart",
-        link: "/intro/introduce/organizationchart",
+        link: "/intro/organizationchart",
         item: "조직도",
       },
     ],
@@ -228,7 +228,7 @@ export const TabData = [
 
 export const MTabData = [
   {
-    id: "greeting",
+    id: "introduce",
     sub_item: [
       {
         id: "greeting",
@@ -242,21 +242,21 @@ export const MTabData = [
       },
     ],
   },
-  {
-    id: "organizationchart",
-    sub_item: [
-      {
-        id: "greeting",
-        title: "회장단 인사말",
-        link: "/intro/introduce/greeting",
-      },
-      {
-        id: "organizationchart",
-        title: "조직도",
-        link: "/intro/introduce/organizationchart",
-      },
-    ],
-  },
+  // {
+  //   id: "organizationchart",
+  //   sub_item: [
+  //     {
+  //       id: "greeting",
+  //       title: "회장단 인사말",
+  //       link: "/intro/introduce/greeting",
+  //     },
+  //     {
+  //       id: "organizationchart",
+  //       title: "조직도",
+  //       link: "/intro/introduce/organizationchart",
+  //     },
+  //   ],
+  // },
   {
     id: "department",
     sub_item: [

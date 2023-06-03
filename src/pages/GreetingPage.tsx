@@ -20,7 +20,7 @@ const GreetingPage = () => {
     >
       <TopHeader />
       <Header />
-      <Bio state={location.pathname.split("/")[3]} />
+      <Bio state={location.pathname.split("/")[2]} />
       <Greeting />
       <Footer />
     </motion.div>

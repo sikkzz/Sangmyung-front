@@ -71,7 +71,7 @@ const MTabList = styled.ul`
 const MTabItem = styled.li`
   display: inline-block;
   color: rgb(132, 134, 134);
-  margin: 0 20px;
+  margin: 10px 20px 0;
   padding-bottom: 10px;
   font-size: 14px;
   cursor: pointer;

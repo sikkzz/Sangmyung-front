@@ -20,7 +20,7 @@ const OrganizationPage = () => {
     >
       <TopHeader />
       <Header />
-      <Bio state={location.pathname.split("/")[3]} />
+      <Bio state={location.pathname.split("/")[2]} />
       <Organization />
       <Footer />
     </motion.div>
