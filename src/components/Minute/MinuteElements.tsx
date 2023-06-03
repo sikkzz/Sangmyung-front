@@ -34,25 +34,6 @@ const SearchBox = styled.div`
   ${media.mobile`justify-content: flex-start;`}
 `;
 
-const ListBox = styled.div`
-  display: inline-block;
-  position: relative;
-  margin: 0 2px 0 0;
-  min-width: 160px;
-  text-align: left;
-  vertical-align: middle;
-  ${media.tabletLarge`min-width: 120px;`};
-  ${media.tablet`min-width: 120px;`};
-  ${media.mobile`min-width: 100px;`};
-`;
-
-const ListTitle = styled.div`
-  padding: 13px 20px;
-  border: 1px solid #dedede;
-  font-size: 16px;
-  color: #999;
-`;
-
 const Search = styled.div`
   display: flex;
   align-items: center;
@@ -276,8 +257,6 @@ export {
   Box,
   Title,
   SearchBox,
-  ListBox,
-  ListTitle,
   Search,
   Input,
   IconBox,

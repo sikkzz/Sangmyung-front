@@ -61,7 +61,7 @@ const KindList = styled.ul`
   top: 100%;
   z-index: 10;
   width: 100%;
-`
+`;
 
 const KindListItem = styled.li`
   width: 100%;
@@ -69,7 +69,7 @@ const KindListItem = styled.li`
   border-top: none;
   background-color: #fff;
   color: #666;
-`
+`;
 
 const KindListItemLink = styled.div`
   display: block;
@@ -78,7 +78,7 @@ const KindListItemLink = styled.div`
   height: 100%;
   font-size: 16px;
   color: #666;
-`
+`;
 
 const KindIconBox = styled.div`
   position: absolute;
@@ -86,25 +86,6 @@ const KindIconBox = styled.div`
   top: 31%;
   width: 20px;
   height: 20px;
-`
-
-const ListBox = styled.div`
-  display: inline-block;
-  position: relative;
-  margin: 0 4px 0 0;
-  min-width: 140px;
-  text-align: left;
-  vertical-align: middle;
-  ${media.tabletLarge`min-width: 120px;`};
-  ${media.tablet`min-width: 120px;`};
-  ${media.mobile`min-width: 100px;`};
-`;
-
-const ListTitle = styled.div`
-  padding: 13px 20px;
-  border: 1px solid #dedede;
-  font-size: 16px;
-  color: #999;
 `;
 
 const Search = styled.div`
@@ -297,8 +278,6 @@ export {
   KindListItem,
   KindListItemLink,
   KindIconBox,
-  ListBox,
-  ListTitle,
   Search,
   Input,
   IconBox,

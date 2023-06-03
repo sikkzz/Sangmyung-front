@@ -25,77 +25,6 @@ const Title = styled.div`
   ${media.mobile`font-size: 24px;margin-top: 20px;`};
 `;
 
-const SearchBox = styled.div`
-  margin-top: 40px;
-  display: flex;
-  justify-content: flex-end;
-  ${media.mobile`justify-content: flex-start;`}
-`;
-
-const ListBox = styled.div`
-  display: inline-block;
-  position: relative;
-  margin: 0 2px 0 0;
-  min-width: 160px;
-  text-align: left;
-  vertical-align: middle;
-  ${media.tabletLarge`min-width: 120px;`};
-  ${media.tablet`min-width: 120px;`};
-  ${media.mobile`min-width: 100px;`};
-`;
-
-const ListTitle = styled.div`
-  padding: 13px 20px;
-  border: 1px solid #dedede;
-  font-size: 16px;
-  color: #999;
-`;
-
-const Search = styled.div`
-  display: flex;
-  align-items: center;
-  border: 1px solid #ddd;
-  ${media.mobile`width: calc(100% - 99px);`};
-`;
-
-const Input = styled.input`
-  display: inline-block;
-  padding: 13px 20px;
-  min-width: 305px;
-  font-size: 16px;
-  color: #999;
-  border: none;
-  outline: none;
-  ${media.mobile`width: calc(100% - 18px);min-width: auto;`}
-
-  &::placeholder {
-    color: #999;
-  }
-`;
-
-const IconBox = styled.div`
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-
-  ::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 5px;
-    left: 0;
-    width: 1px;
-    height: 28px;
-    background: #ddd;
-    ${media.mobile`top: 5px; height: 22px;`}
-  }
-
-  ${media.mobile`width: 30px;height: 30px;padding: 6px;`};
-`;
-
 const BoardBox = styled.div`
   margin-top: 30px;
 `;
@@ -132,12 +61,6 @@ export {
   Col,
   Box,
   Title,
-  SearchBox,
-  ListBox,
-  ListTitle,
-  Search,
-  Input,
-  IconBox,
   BoardBox,
   Board,
   BoardCol,

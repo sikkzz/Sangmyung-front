@@ -3,12 +3,6 @@ import {
   Col,
   Box,
   Title,
-  SearchBox,
-  ListBox,
-  ListTitle,
-  Search,
-  Input,
-  IconBox,
   NoticeBox,
   Table,
   ColGroup,
@@ -39,17 +33,6 @@ const Rule = () => {
       <Col>
         <Box>
           <Title>총학생회 회칙 및 세칙</Title>
-          <SearchBox>
-            <ListBox>
-              <ListTitle>전체</ListTitle>
-            </ListBox>
-            <Search>
-              <Input type="text" placeholder="검색어를 입력해 주세요" />
-              <IconBox>
-                <Icons.ImSearch size={24} color="#000" />
-              </IconBox>
-            </Search>
-          </SearchBox>
           <NoticeBox>
             <Table>
               <ColGroup>

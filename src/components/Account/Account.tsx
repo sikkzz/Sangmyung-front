@@ -3,12 +3,6 @@ import {
   Col,
   Box,
   Title,
-  SearchBox,
-  ListBox,
-  ListTitle,
-  Search,
-  Input,
-  IconBox,
   BoardBox,
   Board,
   BoardCol,
@@ -27,19 +21,6 @@ const Account = () => {
       <Col>
         <Box>
           <Title>결산 목록</Title>
-          <SearchBox>
-            <ListBox>
-              <ListTitle>
-                전체
-              </ListTitle>
-            </ListBox>
-            <Search>
-              <Input type="text" placeholder="검색어를 입력해 주세요" />
-              <IconBox>
-                <Icons.ImSearch size={24} color="#000" />
-              </IconBox>
-            </Search>
-          </SearchBox>
           <BoardBox>
             <Board>
               <BoardCol>

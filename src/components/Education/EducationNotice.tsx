@@ -4,8 +4,6 @@ import {
   Box,
   Title,
   SearchBox,
-  ListBox,
-  ListTitle,
   Search,
   Input,
   IconBox,
@@ -27,9 +25,6 @@ const EducationNotice = () => {
     <Box>
       <Title>학사 안내</Title>
       <SearchBox>
-        <ListBox>
-          <ListTitle>전체</ListTitle>
-        </ListBox>
         <Search>
           <Input type="text" placeholder="검색어를 입력해 주세요" />
           <IconBox>

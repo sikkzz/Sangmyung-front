@@ -4,8 +4,6 @@ import {
   Box,
   Title,
   SearchBox,
-  ListBox,
-  ListTitle,
   Search,
   Input,
   IconBox,
@@ -28,9 +26,6 @@ const EducationForesight = () => {
         <Box>
           <Title>선[先]견지명</Title>
           <SearchBox>
-            <ListBox>
-              <ListTitle>전체</ListTitle>
-            </ListBox>
             <Search>
               <Input type="text" placeholder="검색어를 입력해 주세요" />
               <IconBox>

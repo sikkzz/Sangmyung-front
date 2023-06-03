@@ -4,8 +4,6 @@ import {
   Box,
   Title,
   SearchBox,
-  ListBox,
-  ListTitle,
   Search,
   Input,
   IconBox,
@@ -26,9 +24,6 @@ import {
   TabItem,
   TabItemActive,
   MColStyle,
-  MTd,
-  MTdInfoBox,
-  MTdInfo,
 } from "./MinuteElements";
 
 import Icons from "../../constants/icon";
@@ -87,9 +82,6 @@ const Minute = ({ state }: Props) => {
             </Title>
           ))}
           <SearchBox>
-            <ListBox>
-              <ListTitle>전체</ListTitle>
-            </ListBox>
             <Search>
               <Input type="text" placeholder="검색어를 입력해 주세요" />
               <IconBox>

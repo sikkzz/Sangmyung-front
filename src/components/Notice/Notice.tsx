@@ -10,8 +10,6 @@ import {
   KindListItem,
   KindListItemLink,
   KindIconBox,
-  ListBox,
-  ListTitle,
   Search,
   Input,
   IconBox,
@@ -58,6 +56,9 @@ const Notice = () => {
 
   const [isSearching, setIsSearching] = useState<boolean>(false);
 
+  const [kindClick, isKindClick] = useState(false);
+  const [list, setList] = useState(false);
+
   const getSearchData = (e: ChangeEvent<HTMLInputElement>) => {
     setUserInput(e.target.value);
 
@@ -79,16 +80,8 @@ const Notice = () => {
     setIsSearching(true);
   };
 
-  const [kindClick, isKindClick] = useState(false);
-  const [listClick, isListClick] = useState(false);
-  const [list, setList] = useState(false);
-
   const onKindClick = () => {
     isKindClick(!kindClick);
-  };
-
-  const onIsListClick = () => {
-    isListClick(!listClick);
   };
 
   const onItemClick = (items: string) => {
@@ -136,9 +129,6 @@ const Notice = () => {
                 <Icons.IoChevronDown size={16} color="#D5D5D5" />
               </KindIconBox>
             </KindBox>
-            <ListBox>
-              <ListTitle>전체</ListTitle>
-            </ListBox>
             <Search>
               <Input
                 onChange={getSearchData}
