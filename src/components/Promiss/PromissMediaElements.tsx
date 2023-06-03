@@ -10,9 +10,9 @@ const MLayout = styled.div`
   margin: 40px 0;
   padding: 0 30px;
 
-  ${media.labtop`display: flex;padding:0 100px;margin:80px 0;`};
+  ${media.labtop`display: flex;padding:0 120px;margin:80px 0;`};
   ${media.tabletLarge`display: flex;padding:0 80px;margin:80px 0;`};
-  ${media.tablet`display: flex;padding:0 80px;margin:80px 0;`};
+  ${media.tablet`display: flex;padding:0 40px;margin:80px 0;`};
   ${media.mobile`display: flex;padding:0 30px;margin:40px 0;`};
 `;
 
@@ -29,7 +29,7 @@ const MTitleBox = styled.div`
   max-width: 240px;
   ${media.labtop`max-width:800px;`};
   ${media.tabletLarge`max-width:600px;`};
-  ${media.tablet`max-width:400px;`};
+  ${media.tablet`max-width:360px;`};
   ${media.mobile`max-width:240px;`};
 `;
 
