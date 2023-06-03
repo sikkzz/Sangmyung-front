@@ -109,5 +109,7 @@ export const BioData = [
   {
     img: Img,
     id: "sitemap",
+    title: "사이트맵",
+    content: "사이트맵입니다."
   }
 ];

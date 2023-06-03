@@ -1,11 +1,18 @@
 import styled from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Layout = styled.div`
   z-index: 100;
   top: 0;
   right: 0;
   left: 0;
   position: sticky;
+
+  ${media.labtop`display: none;`};
+  ${media.tabletLarge`display: none;`};
+  ${media.tablet`display: none;`};
+  ${media.mobile`display: none;`};
 `;
 
 const Col = styled.div`

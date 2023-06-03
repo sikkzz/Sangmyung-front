@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Layout = styled.div`
   padding-top: 30px;
   padding-bottom: 100px;
@@ -12,9 +14,9 @@ const Col = styled.div`
 `;
 
 const Box = styled.div`
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `;
 
 const HeadBox = styled.div`
@@ -25,6 +27,7 @@ const HeadBox = styled.div`
 const LogoBox = styled.div`
   width: 100px;
   height: 100px;
+  ${media.mobile`width: 80px;height: 80px;`}
 `;
 
 const Logo = styled.img`
@@ -36,14 +39,18 @@ const ContentBox = styled.div`
   margin-top: 120px;
   display: flex;
   justify-content: space-between;
+  ${media.mobile`margin-top: 60px;flex-direction: column;`}
 `;
 
-const Content = styled.div``;
+const Content = styled.div`
+  ${media.mobile`margin: 0 auto;`}
+`;
 
 const Title = styled.div`
   font-size: 58px;
   font-weight: 700;
   margin-bottom: 20px;
+  ${media.mobile`font-size: 36px;text-align: center;`}
 `;
 
 const Text = styled.p`
@@ -51,10 +58,12 @@ const Text = styled.p`
   font-weight: 400;
   color: #666;
   line-height: 32px;
+  ${media.mobile`font-size: 14px;text-align: center;`}
 `;
 
 const LinkBox = styled.div`
   margin-top: 80px;
+  ${media.mobile`margin-top: 40px;text-align: center;`}
 `;
 
 const Link = styled.a`
@@ -68,20 +77,23 @@ const Link = styled.a`
   margin-left: 30px;
   cursor: pointer;
 
-  &:first-of-type{
+  &:first-of-type {
     margin-left: 0;
   }
+
+  ${media.mobile`padding: 16px 30px;`}
 `;
 
 const ImageBox = styled.div`
   width: 550px;
   height: 366px;
-`
+  ${media.mobile`margin: 60px auto 0;;width: 300px;height: 100%;`}
+`;
 
 const Img = styled.img`
   width: 100%;
   height: 100%;
-`
+`;
 
 export {
   Layout,
@@ -97,5 +109,5 @@ export {
   LinkBox,
   Link,
   ImageBox,
-  Img
+  Img,
 };

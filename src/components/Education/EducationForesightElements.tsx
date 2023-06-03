@@ -27,14 +27,13 @@ const SearchBox = styled.div`
   margin-top: 40px;
   display: flex;
   justify-content: flex-end;
-  ${media.mobile`justify-content: flex-start;`}
 `;
 
 const Search = styled.div`
   display: flex;
   align-items: center;
   border: 1px solid #ddd;
-  ${media.mobile`width: calc(100% - 99px);`};
+  ${media.mobile`width: 100%;`};
 `;
 
 const Input = styled.input`
