@@ -3,9 +3,16 @@ import Img from "../../assets/background3-min.jpeg";
 export const BioData = [
   {
     img: Img,
-    id: "introduce",
+    id: "greeting",
     title: "총학생회 소개",
     sub: "상명대학교 제46대 총학생회 '선[先]'",
+    content: "항상 학생들을 위해 먼저 나서는 총학생회가 되겠습니다.",
+  },
+  {
+    img: Img,
+    id: "organizationchart",
+    title: "총학생회 조직도",
+    sub: "상명대학교 제46대 총학생회 '선[先]' 조직도",
     content: "항상 학생들을 위해 먼저 나서는 총학생회가 되겠습니다.",
   },
   {

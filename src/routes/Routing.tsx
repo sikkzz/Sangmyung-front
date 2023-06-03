@@ -1,7 +1,8 @@
 import { Routes, Route } from "react-router";
 import LandingPage from "../pages/LandingPage";
 import NotFoundPage from "../pages/NotFoundPage";
-import IntroducePage from "../pages/IntroducePage";
+import GreetingPage from "../pages/GreetingPage";
+import OrganizationPage from "../pages/OrganizationPage";
 import DepartmentPage from "../pages/DepartmentPage";
 import PledgeSimplePage from "../pages/PledgeSimplePage";
 import PledgeDetailPage from "../pages/PledgeDetailPage";
@@ -35,8 +36,11 @@ const Routing = () => {
     <AnimatePresence>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/intro/introduce" element={<IntroducePage />} />
-        <Route path="/intro/introduce/:param" element={<IntroducePage />} />
+        <Route path="/intro/introduce/greeting" element={<GreetingPage />} />
+        <Route
+          path="/intro/introduce/organizationchart"
+          element={<OrganizationPage />}
+        />
         <Route path="/intro/department" element={<DepartmentPage />} />
         <Route path="/intro/department/:param" element={<DepartmentPage />} />
         <Route path="/intro/pledge/simple" element={<PledgeSimplePage />} />

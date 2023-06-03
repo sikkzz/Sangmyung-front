@@ -228,17 +228,72 @@ export const TabData = [
 
 export const MTabData = [
   {
-    id: "introduce",
+    id: "greeting",
     sub_item: [
       {
         id: "greeting",
         title: "회장단 인사말",
-        link: "/introduce/greeting",
+        link: "/intro/introduce/greeting",
       },
       {
         id: "organizationchart",
         title: "조직도",
-        link: "/introduce/organizationchart",
+        link: "/intro/introduce/organizationchart",
+      },
+    ],
+  },
+  {
+    id: "organizationchart",
+    sub_item: [
+      {
+        id: "greeting",
+        title: "회장단 인사말",
+        link: "/intro/introduce/greeting",
+      },
+      {
+        id: "organizationchart",
+        title: "조직도",
+        link: "/intro/introduce/organizationchart",
+      },
+    ],
+  },
+  {
+    id: "department",
+    sub_item: [
+      {
+        id: "planning",
+        link: "/intro/department/planning",
+        title: "기획국",
+      },
+      {
+        id: "financialofficework",
+        link: "/intro/department/financialofficework",
+        title: "재정사무국",
+      },
+      {
+        id: "foreigncooperation",
+        link: "/intro/department/foreigncooperation",
+        title: "대외협력국",
+      },
+      {
+        id: "internalcommunication",
+        link: "/intro/department/internalcommunication",
+        title: "대내교류국",
+      },
+      {
+        id: "welfarework",
+        link: "/intro/department/welfarework",
+        title: "복지사업국",
+      },
+      {
+        id: "educationsupporting",
+        link: "/intro/department/educationsupporting",
+        title: "교육지원국",
+      },
+      {
+        id: "promotion",
+        link: "/intro/department/promotion",
+        title: "홍보국",
       },
     ],
   },
