@@ -3,10 +3,6 @@ import {
   Col,
   Box,
   Title,
-  SearchBox,
-  Search,
-  Input,
-  IconBox,
   NoticeBox,
   Table,
   ColGroup,
@@ -53,7 +49,7 @@ const Minute = ({ state }: Props) => {
             <TabInnerBox>
               <TabList>
                 {MinuteData.map((item, index) => (
-                  <>
+                  <div key={index} style={{ display: "inline-block" }}>
                     {state === item.id ? (
                       <TabItemActive
                         onClick={() => {
@@ -71,7 +67,7 @@ const Minute = ({ state }: Props) => {
                         {item.title}
                       </TabItem>
                     )}
-                  </>
+                  </div>
                 ))}
               </TabList>
             </TabInnerBox>
@@ -81,14 +77,6 @@ const Minute = ({ state }: Props) => {
               {location.pathname.split("/")[3] === item.id ? item.title : ""}
             </Title>
           ))}
-          <SearchBox>
-            <Search>
-              <Input type="text" placeholder="검색어를 입력해 주세요" />
-              <IconBox>
-                <Icons.ImSearch size={24} color="#000" />
-              </IconBox>
-            </Search>
-          </SearchBox>
           <NoticeBox>
             <Table>
               <ColGroup>
@@ -114,7 +102,7 @@ const Minute = ({ state }: Props) => {
                   <Td>
                     <TdTitle>
                       {MinuteData.map((item, index) => (
-                        <TdLink>
+                        <TdLink key={index}>
                           {location.pathname.split("/")[3] === item.id
                             ? item.title
                             : ""}

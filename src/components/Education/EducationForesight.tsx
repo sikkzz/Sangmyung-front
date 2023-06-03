@@ -19,7 +19,52 @@ import Icons from "../../constants/icon";
 
 import { EducationForesightData } from "../../constants/data/EducationData";
 
+import { useState, useEffect, ChangeEvent } from "react";
+
+type Props = {
+  id: number;
+  link: string;
+  img: string;
+  alt: string;
+};
+
 const EducationForesight = () => {
+  const [posts, setPosts] = useState([] as any);
+  const [limit, setLimit] = useState(10);
+  const page = 1;
+  const offset = (page - 1) * limit;
+
+  const [userInput, setUserInput] = useState<string>("");
+
+  const [isSearching, setIsSearching] = useState<boolean>(false);
+
+  const getSearchData = (e: ChangeEvent<HTMLInputElement>) => {
+    setUserInput(e.target.value);
+
+    if (userInput.length <= 1) {
+      setIsSearching(false);
+    }
+  };
+
+  const onSearchClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+
+    const search = posts.filter((item: any) => {
+      return item.content
+        .replace(" ", "")
+        .toLocaleLowerCase()
+        .includes(userInput.toLocaleLowerCase().replace(" ", ""));
+    });
+    setPosts(search);
+    setIsSearching(true);
+  };
+
+  useEffect(() => {
+    if (isSearching === false) {
+      setPosts(EducationForesightData);
+    }
+  }, [posts, isSearching]);
+
   return (
     <Layout>
       <Col>
@@ -27,8 +72,15 @@ const EducationForesight = () => {
           <Title>선[先]견지명</Title>
           <SearchBox>
             <Search>
-              <Input type="text" placeholder="검색어를 입력해 주세요" />
-              <IconBox>
+              <Input
+                onChange={getSearchData}
+                type="text"
+                placeholder="검색어를 입력해 주세요"
+              />
+              <IconBox
+                onClick={onSearchClick}
+                disabled={userInput.length === 0}
+              >
                 <Icons.ImSearch size={24} color="#000" />
               </IconBox>
             </Search>
@@ -36,13 +88,15 @@ const EducationForesight = () => {
           <BoardBox>
             <Board>
               <BoardCol>
-                {EducationForesightData.map((item, index) => (
-                  <BoardItem key={index}>
-                    <BoardLink href={item.link}>
-                      <BoardImg src={item.img} alt={item.alt} />
-                    </BoardLink>
-                  </BoardItem>
-                ))}
+                {posts
+                  .slice(offset, offset + limit)
+                  .map(({ id, link, img, alt }: Props) => (
+                    <BoardItem key={id}>
+                      <BoardLink href={link}>
+                        <BoardImg src={img} alt={alt} />
+                      </BoardLink>
+                    </BoardItem>
+                  ))}
               </BoardCol>
             </Board>
           </BoardBox>

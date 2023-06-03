@@ -26,61 +26,6 @@ const Title = styled.div`
   ${media.mobile`font-size: 24px;margin-top: 20px;`};
 `;
 
-const SearchBox = styled.div`
-  margin-top: 40px;
-  display: flex;
-  justify-content: flex-end;
-
-  ${media.mobile`justify-content: flex-start;`}
-`;
-
-const Search = styled.div`
-  display: flex;
-  align-items: center;
-  border: 1px solid #ddd;
-  ${media.mobile`width: calc(100%-99px);`}
-`;
-
-const Input = styled.input`
-  display: inline-block;
-  padding: 13px 20px;
-  min-width: 305px;
-  font-size: 16px;
-  color: #999;
-  border: none;
-  outline: none;
-
-  ${media.mobile`width: calc(100% - 18px);min-width: auto;`}
-
-  &::placeholder {
-    color: #999;
-  }
-`;
-
-const IconBox = styled.div`
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-
-  ::before {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 5px;
-    left: 0;
-    width: 1px;
-    height: 28px;
-    background: #ddd;
-
-    ${media.mobile`top: 5px;height: 22px;`};
-  }
-
-  ${media.mobile`width: 30px;height: 30px;padding: 6px;`}
-`;
-
 const NoticeBox = styled.div`
   margin-top: 10px;
 `;
@@ -256,10 +201,6 @@ export {
   Col,
   Box,
   Title,
-  SearchBox,
-  Search,
-  Input,
-  IconBox,
   NoticeBox,
   Table,
   ColGroup,
