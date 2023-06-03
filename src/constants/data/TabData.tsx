@@ -232,68 +232,113 @@ export const MTabData = [
     sub_item: [
       {
         id: "greeting",
-        title: "회장단 인사말",
         link: "/intro/introduce/greeting",
+        item: "회장단 인사말",
       },
       {
         id: "organizationchart",
-        title: "조직도",
         link: "/intro/introduce/organizationchart",
+        item: "조직도",
       },
     ],
   },
-  // {
-  //   id: "organizationchart",
-  //   sub_item: [
-  //     {
-  //       id: "greeting",
-  //       title: "회장단 인사말",
-  //       link: "/intro/introduce/greeting",
-  //     },
-  //     {
-  //       id: "organizationchart",
-  //       title: "조직도",
-  //       link: "/intro/introduce/organizationchart",
-  //     },
-  //   ],
-  // },
   {
     id: "department",
     sub_item: [
       {
         id: "planning",
         link: "/intro/department/planning",
-        title: "기획국",
+        item: "기획국",
       },
       {
         id: "financialofficework",
         link: "/intro/department/financialofficework",
-        title: "재정사무국",
+        item: "재정사무국",
       },
       {
         id: "foreigncooperation",
         link: "/intro/department/foreigncooperation",
-        title: "대외협력국",
+        item: "대외협력국",
       },
       {
         id: "internalcommunication",
         link: "/intro/department/internalcommunication",
-        title: "대내교류국",
+        item: "대내교류국",
       },
       {
         id: "welfarework",
         link: "/intro/department/welfarework",
-        title: "복지사업국",
+        item: "복지사업국",
       },
       {
         id: "educationsupporting",
         link: "/intro/department/educationsupporting",
-        title: "교육지원국",
+        item: "교육지원국",
       },
       {
         id: "promotion",
         link: "/intro/department/promotion",
-        title: "홍보국",
+        item: "홍보국",
+      },
+    ],
+  },
+  {
+    id: "pledge",
+    sub_item: [
+      {
+        id: "simple",
+        link: "/intro/pledge/simple",
+        item: "공약집",
+      },
+      {
+        id: "detail",
+        link: "/intro/pledge/detail/communication",
+        item: "공약 상세보기",
+      },
+    ],
+  },
+  {
+    id: "education",
+    sub_item: [
+      {
+        id: "foresight",
+        link: "/info/education/foresight",
+        item: "선[先]견지명",
+      },
+      {
+        id: "ednotice",
+        link: "/info/education/ednotice",
+        item: "학사안내",
+      },
+    ],
+  },
+  {
+    id: "partnership",
+    sub_item: [
+      {
+        id: "all",
+        link: "/facility/partnership/all",
+        item: "전체",
+      },
+      {
+        id: "medical",
+        link: "/facility/partnership/medical",
+        item: "의료",
+      },
+      {
+        id: "study",
+        link: "/facility/partnership/study",
+        item: "학업",
+      },
+      {
+        id: "convenience",
+        link: "/facility/partnership/convenience",
+        item: "편의시설",
+      },
+      {
+        id: "restaurant",
+        link: "/facility/partnership/restaurant",
+        item: "음식점",
       },
     ],
   },

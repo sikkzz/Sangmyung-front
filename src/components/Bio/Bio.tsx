@@ -67,7 +67,7 @@ const Bio = ({ state }: Props) => {
                             : "none",
                       }}
                     >
-                      {item.title}
+                      {item.item}
                     </MTabItem>
                   ))
                 : ""}
