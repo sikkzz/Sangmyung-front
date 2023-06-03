@@ -8,9 +8,16 @@ import Footer from "../components/Footer/Footer";
 
 import { PromissData } from "../constants/data/PromissData";
 
+import { motion } from "framer-motion";
+
 const LandingPage = () => {
   return (
-    <>
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ delay: 0.5 }}
+    >
       <TopHeader />
       <Header />
       <Slider />
@@ -29,7 +36,7 @@ const LandingPage = () => {
         />
       ))}
       <Footer />
-    </>
+    </motion.div>
   );
 };
 
