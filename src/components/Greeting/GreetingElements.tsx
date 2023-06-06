@@ -106,7 +106,6 @@ const TitleWrapper = styled.div`
 
 const Title = styled.div`
   font-size: 26px;
-  font-family: "pre black";
   font-weight: 700;
   color: #131b60;
   letter-spacing: -0.22px;
@@ -134,7 +133,6 @@ const SubWrapper = styled.div`
 
 const Sub = styled.div<{ weight: string }>`
   font-size: 18px;
-  font-family: "pre medium";
   font-weight: ${(props) => props.weight};
   line-height: 30px;
   ${media.labtop`font-size:16px;line-height:24px;`}
@@ -145,7 +143,6 @@ const Sub = styled.div<{ weight: string }>`
 
 const Text = styled.div`
   font-size: 18px;
-  font-family: "pre medium";
   font-weight: 500;
   line-height: 30px;
   margin-top: 30px;

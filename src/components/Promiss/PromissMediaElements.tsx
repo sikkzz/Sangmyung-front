@@ -46,7 +46,6 @@ const MTitle = styled.h1`
 
 const MSub = styled.h2`
   font-size: 12px;
-  font-family: "pre bold";
   font-weight: 700;
   line-height: 1.4;
   color: #191f28;

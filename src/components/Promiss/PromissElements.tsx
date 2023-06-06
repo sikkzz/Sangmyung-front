@@ -70,7 +70,6 @@ const Title = styled.h1`
 
 const Sub = styled.h2`
   font-size: 36px;
-  font-family: "pre bold";
   font-weight: 700;
   line-height: 1.4;
   color: #191f28;
