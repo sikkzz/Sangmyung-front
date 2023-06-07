@@ -4,22 +4,22 @@ export const PledgeTabData = [
   {
     id: "communication",
     title: "소통",
-    link: "/intro/pledge/detail/communication",
+    link: "/intro/pledge/pledgedetail/communication",
   },
   {
     id: "culture",
     title: "문화",
-    link: "/intro/pledge/detail/culture",
+    link: "/intro/pledge/pledgedetail/culture",
   },
   {
     id: "welfare",
     title: "복지",
-    link: "/intro/pledge/detail/welfare",
+    link: "/intro/pledge/pledgedetail/welfare",
   },
   {
     id: "bachelor",
     title: "학사",
-    link: "/intro/pledge/detail/bachelor",
+    link: "/intro/pledge/pledgedetail/bachelor",
   },
 ];
 

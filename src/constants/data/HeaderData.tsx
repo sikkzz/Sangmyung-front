@@ -61,7 +61,7 @@ export const HeaderTabData = [
           },
           {
             sub_item2: "공약 상세보기",
-            link: "/intro/pledge/detail/communication",
+            link: "/intro/pledge/pledgedetail/communication",
           },
         ],
       },
@@ -232,7 +232,7 @@ export const MHeaderTabData = [
           },
           {
             sub_item2: "공약 상세보기",
-            link: "/intro/pledge/detail/communication",
+            link: "/intro/pledge/pledgedetail/communication",
           },
         ],
       },

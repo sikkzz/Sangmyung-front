@@ -145,16 +145,15 @@ export const PathData3 = [
     item: "홍보국",
     link: "/intro/department/promotion",
   },
-
   {
     id: "simple",
     item: "공약집",
     link: "/intro/pledge/simple",
   },
   {
-    id: "detail",
+    id: "pledgedetail",
     item: "공약 상세보기",
-    link: "/intro/pledge/detail/communication",
+    link: "/intro/pledge/pledgedetail/communication",
   },
   {
     id: "center",

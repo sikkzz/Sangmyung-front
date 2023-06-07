@@ -63,8 +63,8 @@ export const TabData = [
         item: "공약집",
       },
       {
-        id: "detail",
-        link: "/intro/pledge/detail/communication",
+        id: "pledgedetail",
+        link: "/intro/pledge/pledgedetail/communication",
         item: "공약 상세보기",
       },
     ],
@@ -271,8 +271,8 @@ export const MTabData = [
         item: "공약집",
       },
       {
-        id: "detail",
-        link: "/intro/pledge/detail/communication",
+        id: "pledgedetail",
+        link: "/intro/pledge/pledgedetail/communication",
         item: "공약 상세보기",
       },
     ],

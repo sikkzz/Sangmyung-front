@@ -44,9 +44,9 @@ const Routing = () => {
         <Route path="/intro/department" element={<DepartmentPage />} />
         <Route path="/intro/department/:param" element={<DepartmentPage />} />
         <Route path="/intro/pledge/simple" element={<PledgeSimplePage />} />
-        <Route path="/intro/pledge/detail" element={<PledgeDetailPage />} />
+        <Route path="/intro/pledge/pledgedetail" element={<PledgeDetailPage />} />
         <Route
-          path="/intro/pledge/detail/:param"
+          path="/intro/pledge/pledgedetail/:param"
           element={<PledgeDetailPage />}
         />
         <Route path="/work/partnership" element={<PartnerPage />} />
