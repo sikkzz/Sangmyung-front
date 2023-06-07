@@ -72,7 +72,7 @@ export const HeaderTabData = [
     link: "/work/partnership/all",
     subItem: [
       {
-        sub_item: "제휴",
+        sub_item: "프로모션",
         link: "/work/partnership/all",
         subItem2: [
           {
@@ -98,7 +98,7 @@ export const HeaderTabData = [
         ],
       },
       {
-        sub_item: "행사",
+        sub_item: "제휴처 행사",
         link: "/work/event"
       },
       {
@@ -242,7 +242,7 @@ export const MHeaderTabData = [
     main_item: "총학생회 사업",
     subItem: [
       {
-        sub_item: "제휴",
+        sub_item: "프로모션",
         subItem2: [
           {
             sub_item2: "전체",
@@ -267,7 +267,7 @@ export const MHeaderTabData = [
         ]
       },
       {
-        sub_item: "행사",
+        sub_item: "제휴처 행사",
         link: "/work/event",
       },
       {

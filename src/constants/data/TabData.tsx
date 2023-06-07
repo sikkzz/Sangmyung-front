@@ -105,7 +105,7 @@ export const TabData = [
       {
         id: "event",
         link: "/work/event",
-        item: "행사"
+        item: "제휴처 행사"
       }
     ]
   },

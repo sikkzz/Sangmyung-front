@@ -75,12 +75,17 @@ export const PathData2 = [
   {
     id: "education",
     item: "교육 및 학사",
-    link: "/info/education/foresight",
+    link: "/work/education/foresight",
   },
   {
     id: "partnership",
-    item: "제휴",
-    link: "/facility/partnership/all",
+    item: "프로모션",
+    link: "/work/partnership/all",
+  },
+  {
+    id: "event",
+    item: "제휴처 행사",
+    link: "/work/event"
   },
   {
     id: "map",

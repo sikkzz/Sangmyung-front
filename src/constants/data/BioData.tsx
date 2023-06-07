@@ -99,4 +99,11 @@ export const BioData = [
     sub: "총학생회 예결산 목록입니다.",
     content: "총학생회 예결산 목록입니다.",
   },
+  {
+    img: Img,
+    id: "event",
+    title: "제휴처 행사",
+    sub: "제휴처 행사 소개",
+    content: "제휴처 행사를 소개합니다",
+  },
 ];

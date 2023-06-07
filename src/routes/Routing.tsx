@@ -21,6 +21,8 @@ import EducationForesightPage from "../pages/EducationForesightPage";
 import EducationForesightDetailPage from "../pages/EducationForesightDetailPage";
 import EducationNoticePage from "../pages/EducationNoticePage";
 import EducationNoticeDetailPage from "../pages/EducationNoticeDetailPage";
+import EventPage from "../pages/EventPage";
+import EventDetailPage from "../pages/EventDetailPage";
 import CalendarPage from "../pages/CalendarPage";
 import PartnerPage from "../pages/PartnerPage";
 import PartnerDetailPage from "../pages/PartnerDetailPage";
@@ -55,7 +57,8 @@ const Routing = () => {
           path="/work/partnership/detail/:id"
           element={<PartnerDetailPage />}
         />
-        <Route path="/work/event" element />
+        <Route path="/work/event" element={<EventPage/>} />
+        <Route path="/work/event/detail/:id" element={<EventDetailPage/>} />
         <Route
           path="/work/education/foresight"
           element={<EducationForesightPage />}

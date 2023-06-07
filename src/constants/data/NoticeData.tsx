@@ -177,7 +177,7 @@ import Img26_7 from "../../assets/education/9/9-7.png";
 import Img26_8 from "../../assets/education/9/9-8.png";
 import Img26_9 from "../../assets/education/9/9-9.png";
 
-import Img27_1 from "../../assets/notice/27/1.jpg";
+import Img27_1 from "../../assets/event/1/1.jpg";
 
 import Img28_1 from "../../assets/education/notice/2/2-1.png";
 import Img28_2 from "../../assets/education/notice/2/2-2.png";
@@ -314,32 +314,32 @@ import Img48_4 from "../../assets/notice/48/4.jpg";
 import Img48_5 from "../../assets/notice/48/5.jpg";
 import Img48_6 from "../../assets/notice/48/6.jpg";
 
-import Img49_1 from "../../assets/notice/49/1.jpg";
-import Img49_2 from "../../assets/notice/49/2.jpg";
+import Img49_1 from "../../assets/event/2/1.jpg";
+import Img49_2 from "../../assets/event/2/2.jpg";
 
-import Img50_1 from "../../assets/notice/50/1.jpg";
-import Img50_2 from "../../assets/notice/50/2.jpg";
+import Img50_1 from "../../assets/event/3/1.jpg";
+import Img50_2 from "../../assets/event/3/2.jpg";
 
-import Img51_1 from "../../assets/notice/51/1.jpg";
-import Img51_2 from "../../assets/notice/51/2.jpg";
+import Img51_1 from "../../assets/event/4/1.jpg";
+import Img51_2 from "../../assets/event/4/2.jpg";
 
-import Img52_1 from "../../assets/notice/52/1.jpg";
-import Img52_2 from "../../assets/notice/52/2.jpg";
+import Img52_1 from "../../assets/event/5/1.jpg";
+import Img52_2 from "../../assets/event/5/2.jpg";
 
-import Img53_1 from "../../assets/notice/53/1.jpg";
-import Img53_2 from "../../assets/notice/53/2.jpg";
-import Img53_3 from "../../assets/notice/53/3.jpg";
+import Img53_1 from "../../assets/event/6/1.jpg";
+import Img53_2 from "../../assets/event/6/2.jpg";
+import Img53_3 from "../../assets/event/6/3.jpg";
 
-import Img54_1 from "../../assets/notice/54/1.jpg";
-import Img54_2 from "../../assets/notice/54/2.jpg";
+import Img54_1 from "../../assets/event/7/1.jpg";
+import Img54_2 from "../../assets/event/7/2.jpg";
 
-import Img55_1 from "../../assets/notice/55/1.jpg";
-import Img55_2 from "../../assets/notice/55/2.jpg";
-import Img55_3 from "../../assets/notice/55/3.jpg";
-import Img55_4 from "../../assets/notice/55/4.jpg";
-import Img55_5 from "../../assets/notice/55/5.jpg";
-import Img55_6 from "../../assets/notice/55/6.jpg";
-import Img55_7 from "../../assets/notice/55/7.jpg";
+import Img55_1 from "../../assets/event/8/1.jpg";
+import Img55_2 from "../../assets/event/8/2.jpg";
+import Img55_3 from "../../assets/event/8/3.jpg";
+import Img55_4 from "../../assets/event/8/4.jpg";
+import Img55_5 from "../../assets/event/8/5.jpg";
+import Img55_6 from "../../assets/event/8/6.jpg";
+import Img55_7 from "../../assets/event/8/7.jpg";
 
 import Img57_1 from "../../assets/notice/57/1.jpg";
 import Img57_2 from "../../assets/notice/57/2.jpg";
@@ -477,11 +477,11 @@ import Img77_6 from "../../assets/notice/77/6.jpg";
 
 import Img78_1 from "../../assets/notice/78/1.jpg";
 
-import Img79_1 from "../../assets/notice/79/1.jpg";
-import Img79_2 from "../../assets/notice/79/2.jpg";
-import Img79_3 from "../../assets/notice/79/3.jpg";
+import Img79_1 from "../../assets/event/9/1.jpg";
+import Img79_2 from "../../assets/event/9/2.jpg";
+import Img79_3 from "../../assets/event/9/3.jpg";
 
-import Img80_1 from "../../assets/notice/80/1.jpg";
+import Img80_1 from "../../assets/event/10/1.jpg";
 
 import Img81_1 from "../../assets/notice/81/1.jpg";
 
@@ -549,7 +549,8 @@ export const NoticeData = [
   {
     id: 85,
     link: "/info/notice/detail/85",
-    title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 진로 취업 서비스 편",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 진로 취업 서비스 편",
     date: "2023-06-05",
     owner: "관리자",
     kind: "학사",
