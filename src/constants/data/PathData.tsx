@@ -5,14 +5,24 @@ export const PathData = [
     link: "/intro/introduce/greeting",
   },
   {
+    id: "work",
+    item: "총학생회 사업",
+    link: "/work/partnership/all",
+  },
+  {
     id: "info",
-    item: "학교정보",
-    link: "/info/rule",
+    item: "공지사항",
+    link: "/info/notice"
   },
   {
     id: "facility",
-    item: "학교시설",
-    link: "/facility/partnership/all",
+    item: "편의정보",
+    link: "/facility/map",
+  },
+  {
+    id: "government",
+    item: "자치기구",
+    link: "/government/central"
   },
 ];
 

@@ -49,17 +49,40 @@ const Routing = () => {
           path="/intro/pledge/detail/:param"
           element={<PledgeDetailPage />}
         />
-        <Route path="/intro/central" element={<CentralPage />} />
-        <Route path="/intro/account" element={<AccountPage />} />
+        <Route path="/work/partnership" element={<PartnerPage />} />
+        <Route path="/work/partnership/:param" element={<PartnerPage />} />
         <Route
-          path="/intro/account/detail/:id"
+          path="/work/partnership/detail/:id"
+          element={<PartnerDetailPage />}
+        />
+        <Route path="/work/event" element />
+        <Route
+          path="/work/education/foresight"
+          element={<EducationForesightPage />}
+        />
+        <Route
+          path="/work/education/foresight/detail/:id"
+          element={<EducationForesightDetailPage />}
+        />
+        <Route
+          path="/work/education/ednotice"
+          element={<EducationNoticePage />}
+        />
+        <Route
+          path="/work/education/ednotice/detail/:id"
+          element={<EducationNoticeDetailPage />}
+        />
+        <Route path="/work/account" element={<AccountPage />} />
+        <Route
+          path="/work/account/detail/:id"
           element={<AccountDetailPage />}
         />
-        <Route path="/intro/notice" element={<NoticePage />} />
-        <Route path="/intro/notice/detail/:id" element={<NoticeDetailPage />} />
+        <Route path="/info/notice" element={<NoticePage />} />
+        <Route path="/info/notice/detail/:id" element={<NoticeDetailPage />} />
+        <Route path="/info/calendar" element={<CalendarPage />} />
+        <Route path="/info/rule" element={<RulePage />} />
         <Route path="/info/minute" element={<MinutePage />} />
         <Route path="/info/minute/:param" element={<MinutePage />} />
-        <Route path="/info/rule" element={<RulePage />} />
         <Route
           path="/info/minute/center/detail"
           element={<MinuteCenterDetailPage />}
@@ -80,33 +103,11 @@ const Routing = () => {
           path="/info/minute/administrative/detail/:id"
           element={<MinuteAdministrativeDetailPage />}
         />
-        <Route
-          path="/info/education/foresight"
-          element={<EducationForesightPage />}
-        />
-        <Route
-          path="/info/education/foresight/detail/:id"
-          element={<EducationForesightDetailPage />}
-        />
-        <Route
-          path="/info/education/ednotice"
-          element={<EducationNoticePage />}
-        />
-        <Route
-          path="/info/education/ednotice/detail/:id"
-          element={<EducationNoticeDetailPage />}
-        />
-        <Route path="/info/calendar" element={<CalendarPage />} />
-        <Route path="/facility/partnership" element={<PartnerPage />} />
-        <Route path="/facility/partnership/:param" element={<PartnerPage />} />
-        <Route
-          path="/facility/partnership/detail/:id"
-          element={<PartnerDetailPage />}
-        />
         <Route path="/facility/map" element={<MapPage />} />
         <Route path="/facility/rental" element={<RentalPage />} />
-        <Route path="/info/board" element={<BoardPage />} />
-        <Route path="/info/sitemap" element={<SitemapPage />} />
+        <Route path="/government/central" element={<CentralPage />} />
+        <Route path="/board" element={<BoardPage />} />
+        <Route path="/sitemap" element={<SitemapPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </AnimatePresence>

@@ -129,7 +129,7 @@ export default function Header() {
                 <MNavListLink href="/">HOME</MNavListLink>
               </MNavListItem>
               <MNavListItem>
-                <MNavListLink href='/info/sitemap'>사이트맵</MNavListLink>
+                <MNavListLink href='/sitemap'>사이트맵</MNavListLink>
               </MNavListItem>
             </MNavList>
           </MNavUtilBox>

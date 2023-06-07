@@ -20,7 +20,7 @@ const BoardPage = () => {
     >
       <TopHeader />
       <Header />
-      <Bio state={location.pathname.split("/")[2]} />
+      <Bio state={location.pathname.split("/")[1]} />
       <Board />
       <Footer />
     </motion.div>

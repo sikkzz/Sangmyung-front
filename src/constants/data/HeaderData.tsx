@@ -1,9 +1,5 @@
 export const HeaderTabData = [
   {
-    main_item: "홈",
-    link: "/",
-  },
-  {
     main_item: "총학생회",
     link: "/intro/introduce/greeting",
     subItem: [
@@ -56,14 +52,6 @@ export const HeaderTabData = [
         ],
       },
       {
-        sub_item: "공지사항",
-        link: "/intro/notice",
-      },
-      {
-        sub_item: "중앙운영위원회",
-        link: "/intro/central",
-      },
-      {
         sub_item: "공약집",
         link: "/intro/pledge/simple",
         subItem2: [
@@ -77,51 +65,15 @@ export const HeaderTabData = [
           },
         ],
       },
-      {
-        sub_item: "예결산 목록",
-        link: "/intro/account",
-      },
     ],
   },
   {
-    main_item: "학교정보",
-    link: "/info/rule",
-    subItem: [
-      {
-        sub_item: "학생회칙",
-        link: "/info/rule",
-      },
-      {
-        sub_item: "회의록",
-        link: "/info/minute/center",
-      },
-      {
-        sub_item: "학사일정",
-        link: "/info/calendar",
-      },
-      {
-        sub_item: "교육 및 학사",
-        link: "/info/education/foresight",
-        subItem2: [
-          {
-            sub_item2: "선[先]견지명",
-            link: "/info/education/foresight",
-          },
-          {
-            sub_item2: "학사안내",
-            link: "/info/education/ednotice",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    main_item: "학교시설",
-    link: "/facility/partnership/all",
+    main_item: "총학생회 사업",
+    link: "/work/partnership/all",
     subItem: [
       {
         sub_item: "제휴",
-        link: "/facility/partnership/all",
+        link: "/work/partnership/all",
         subItem2: [
           {
             sub_item2: "전체",
@@ -146,18 +98,78 @@ export const HeaderTabData = [
         ],
       },
       {
-        sub_item: "캠퍼스맵",
-        link: "/facility/map",
+        sub_item: "행사",
+        link: "/work/event"
       },
       {
-        sub_item: "물품대여현황",
-        link: "/facility/rental",
+        sub_item: "교육 및 학사",
+        link: "/work/education/foresight",
+        subItem2: [
+          {
+            sub_item2: "선[先]견지명",
+            link: "/work/education/foresight",
+          },
+          {
+            sub_item2: "학사안내",
+            link: "/work/education/ednotice",
+          },
+        ]
       },
+      {
+        sub_item: "결산 목록",
+        link: "/work/account"
+      }
     ],
   },
   {
+    main_item: "공지사항",
+    link: "/info/notice",
+    subItem: [
+      {
+        sub_item: "공지사항",
+        link: "/info/notice"
+      },
+      {
+        sub_item: "학사일정",
+        link: "/info/calendar"
+      },
+      {
+        sub_item: "학생회칙",
+        link: "/info/rule"
+      },
+      {
+        sub_item: "회의록",
+        link: "/info/minute/center"
+      }
+    ]
+  },
+  {
+    main_item: "편의정보",
+    link: "/facility/map",
+    subItem: [
+      {
+        sub_item: "캠퍼스맵",
+        link: "/facility/map"
+      },
+      {
+        sub_item: "물품대여현황",
+        link: "/facility/rental"
+      }
+    ]
+  },
+  {
+    main_item: "자치기구",
+    link: "/government/central",
+    subItem: [
+      {
+        sub_item: "중앙운영위원회",
+        link: "/government/central"
+      },
+    ]
+  },
+  {
     main_item: "건의/청원게시판",
-    link: "/info/board",
+    link: "/board",
   },
 ];
 
@@ -212,14 +224,6 @@ export const MHeaderTabData = [
         ],
       },
       {
-        sub_item: "공지사항",
-        link: "/intro/notice",
-      },
-      {
-        sub_item: "중앙운영위원회",
-        link: "/intro/central",
-      },
-      {
         sub_item: "공약집",
         subItem2: [
           {
@@ -232,82 +236,104 @@ export const MHeaderTabData = [
           },
         ],
       },
-      {
-        sub_item: "예결산 목록",
-        link: "/intro/account",
-      },
     ],
   },
   {
-    main_item: "학교정보",
-    subItem: [
-      {
-        sub_item: "학생회칙",
-        link: "/info/rule",
-      },
-      {
-        sub_item: "회의록",
-        link: "/info/minute/center",
-      },
-      {
-        sub_item: "학사일정",
-        link: "/info/calendar",
-      },
-      {
-        sub_item: "교육 및 학사",
-        subItem2: [
-          {
-            sub_item2: "선[先]견지명",
-            link: "/info/education/foresight",
-          },
-          {
-            sub_item2: "학사안내",
-            link: "/info/education/ednotice",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    main_item: "학교시설",
+    main_item: "총학생회 사업",
     subItem: [
       {
         sub_item: "제휴",
         subItem2: [
           {
             sub_item2: "전체",
-            link: "/facility/partnership/all",
+            link: "/work/partnership/all",
           },
           {
             sub_item2: "의료",
-            link: "/facility/partnership/medical",
+            link: "/work/partnership/medical",
           },
           {
             sub_item2: "학업",
-            link: "/facility/partnership/study",
+            link: "/work/partnership/study",
           },
           {
             sub_item2: "편의시설",
-            link: "/facility/partnership/convenience",
+            link: "/work/partnership/convenience",
           },
           {
             sub_item2: "음식점",
-            link: "/facility/partnership/restaurant",
+            link: "/work/partnership/restaurant",
           },
-        ],
+        ]
       },
       {
-        sub_item: "캠퍼스맵",
-        link: "/facility/map",
+        sub_item: "행사",
+        link: "/work/event",
       },
       {
-        sub_item: "물품대여현황",
-        link: "/facility/rental",
+        sub_item: "교육 및 학사",
+        subItem2: [
+          {
+            sub_item2: "선[先]견지명",
+            link: "/work/education/foresight",
+          },
+          {
+            sub_item2: "학사안내",
+            link: "/work/education/ednotice",
+          },
+        ]
       },
+      {
+        sub_item: "결산 목록",
+        link: "/work/account"
+      }
     ],
   },
   {
+    main_item: "공지사항",
+    subItem: [
+      {
+        sub_item: "공지사항",
+        link: "/info/notice"
+      },
+      {
+        sub_item: "학사일정",
+        link: "/info/calendar"
+      },
+      {
+        sub_item: "학생회칙",
+        link: "/info/rule"
+      },
+      {
+        sub_item: "회의록",
+        link: "/info/minute/center"
+      }
+    ]
+  },
+  {
+    main_item: "편의정보",
+    subItem: [
+      {
+        sub_item: "캠퍼스맵",
+        link: "/facility/map"
+      },
+      {
+        sub_item: "물품대여현황",
+        link: "/facility/rental"
+      }
+    ]
+  },
+  {
+    main_item: "자치기구",
+    subItem: [
+      {
+        sub_item: "중앙운영위원회",
+        link: "/government/central"
+      }
+    ]
+  },
+  {
     main_item: "건의/청원게시판",
-    link: "/info/board",
+    link: "/board",
   },
 ];

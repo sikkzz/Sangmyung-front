@@ -55,16 +55,6 @@ export const TabData = [
     ],
   },
   {
-    id: "map",
-    sub_item: [
-      {
-        id: "map",
-        link: "/facility/map",
-        item: "캠퍼스맵",
-      },
-    ],
-  },
-  {
     id: "pledge",
     sub_item: [
       {
@@ -84,28 +74,73 @@ export const TabData = [
     sub_item: [
       {
         id: "all",
-        link: "/facility/partnership/all",
+        link: "/work/partnership/all",
         item: "전체",
       },
       {
         id: "medical",
-        link: "/facility/partnership/medical",
+        link: "/work/partnership/medical",
         item: "의료",
       },
       {
         id: "study",
-        link: "/facility/partnership/study",
+        link: "/work/partnership/study",
         item: "학업",
       },
       {
         id: "convenience",
-        link: "/facility/partnership/convenience",
+        link: "/work/partnership/convenience",
         item: "편의시설",
       },
       {
         id: "restaurant",
-        link: "/facility/partnership/restaurant",
+        link: "/work/partnership/restaurant",
         item: "음식점",
+      },
+    ],
+  },
+  {
+    id: "event",
+    sub_item: [
+      {
+        id: "event",
+        link: "/work/event",
+        item: "행사"
+      }
+    ]
+  },
+  {
+    id: "education",
+    sub_item: [
+      {
+        id: "foresight",
+        link: "/work/education/foresight",
+        item: "선[先]견지명",
+      },
+      {
+        id: "ednotice",
+        link: "/work/education/ednotice",
+        item: "학사안내",
+      },
+    ],
+  },
+  {
+    id: "account",
+    sub_item: [
+      {
+        id: "account",
+        link: "/work/account",
+        item: "결산 목록",
+      },
+    ],
+  },
+  {
+    id: "notice",
+    sub_item: [
+      {
+        id: "notice",
+        link: "/info/notice",
+        item: "공지사항",
       },
     ],
   },
@@ -120,12 +155,12 @@ export const TabData = [
     ],
   },
   {
-    id: "notice",
+    id: "rule",
     sub_item: [
       {
-        id: "notice",
-        link: "/intro/notice",
-        item: "공지사항",
+        id: "rule",
+        link: "/info/rule",
+        item: "학생회칙",
       },
     ],
   },
@@ -134,28 +169,18 @@ export const TabData = [
     sub_item: [
       {
         id: "minute",
-        link: "/info/minute",
+        link: "/info/minute/center",
         item: "회의록",
       },
     ],
   },
   {
-    id: "rule",
+    id: "map",
     sub_item: [
       {
-        id: "rule",
-        link: "/info/rule",
-        item: "회칙 및 세칙",
-      },
-    ],
-  },
-  {
-    id: "detail",
-    sub_item: [
-      {
-        id: "detail",
-        link: "/info/detail",
-        item: "회칙 및 세칙",
+        id: "map",
+        link: "/facility/map",
+        item: "캠퍼스맵",
       },
     ],
   },
@@ -170,57 +195,12 @@ export const TabData = [
     ],
   },
   {
-    id: "education",
-    sub_item: [
-      {
-        id: "foresight",
-        link: "/info/education/foresight",
-        item: "선[先]견지명",
-      },
-      {
-        id: "ednotice",
-        link: "/info/education/ednotice",
-        item: "학사안내",
-      },
-    ],
-  },
-  {
     id: "central",
     sub_item: [
       {
         id: "central",
-        link: "/intro/central",
+        link: "/government/central",
         item: "중앙운영위원회",
-      },
-    ],
-  },
-  {
-    id: "account",
-    sub_item: [
-      {
-        id: "account",
-        link: "/intro/account",
-        item: "예결산 목록",
-      },
-    ],
-  },
-  {
-    id: "board",
-    sub_item: [
-      {
-        id: "board",
-        link: "/info/board",
-        item: "건의/청원게시판",
-      },
-    ],
-  },
-  {
-    id: "sitemap",
-    sub_item: [
-      {
-        id: "sitemap",
-        link: "/info/sitemap",
-        item: "사이트맵",
       },
     ],
   },
@@ -302,12 +282,12 @@ export const MTabData = [
     sub_item: [
       {
         id: "foresight",
-        link: "/info/education/foresight",
+        link: "/work/education/foresight",
         item: "선[先]견지명",
       },
       {
         id: "ednotice",
-        link: "/info/education/ednotice",
+        link: "/work/education/ednotice",
         item: "학사안내",
       },
     ],
@@ -317,27 +297,27 @@ export const MTabData = [
     sub_item: [
       {
         id: "all",
-        link: "/facility/partnership/all",
+        link: "/work/partnership/all",
         item: "전체",
       },
       {
         id: "medical",
-        link: "/facility/partnership/medical",
+        link: "/work/partnership/medical",
         item: "의료",
       },
       {
         id: "study",
-        link: "/facility/partnership/study",
+        link: "/work/partnership/study",
         item: "학업",
       },
       {
         id: "convenience",
-        link: "/facility/partnership/convenience",
+        link: "/work/partnership/convenience",
         item: "편의시설",
       },
       {
         id: "restaurant",
-        link: "/facility/partnership/restaurant",
+        link: "/work/partnership/restaurant",
         item: "음식점",
       },
     ],

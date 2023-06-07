@@ -20,7 +20,7 @@ const SitemapPage = () => {
     >
       <TopHeader />
       <Header />
-      <Bio state={location.pathname.split("/")[2]} />
+      <Bio state={location.pathname.split("/")[1]} />
       <Sitemap />
       <Footer />
     </motion.div>
