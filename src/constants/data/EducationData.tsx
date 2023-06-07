@@ -153,6 +153,17 @@ import Img15_8 from "../../assets/education/15/008.png";
 import Img15_9 from "../../assets/education/15/009.png";
 import Img15_10 from "../../assets/education/15/010.png";
 
+import Img16_1 from "../../assets/education/16/001.png";
+import Img16_2 from "../../assets/education/16/002.png";
+import Img16_3 from "../../assets/education/16/003.png";
+import Img16_4 from "../../assets/education/16/004.png";
+import Img16_5 from "../../assets/education/16/005.png";
+import Img16_6 from "../../assets/education/16/006.png";
+import Img16_7 from "../../assets/education/16/007.png";
+import Img16_8 from "../../assets/education/16/008.png";
+import Img16_9 from "../../assets/education/16/009.png";
+import Img16_10 from "../../assets/education/16/010.png";
+
 import noImg1_1 from "../../assets/education/notice/1/1-1.png";
 import noImg1_2 from "../../assets/education/notice/1/1-2.png";
 import noImg1_3 from "../../assets/education/notice/1/1-3.png";
@@ -206,8 +217,61 @@ import noImg5_10 from "../../assets/education/notice/5/10.jpg";
 
 export const EducationForesightData = [
   {
+    id: 16,
+    link: "/work/education/foresight/detail/16",
+    img: Img16_1,
+    alt: "img16_1",
+    title: "💙선[先]견지명 - 진로 취업 서비스 편💙",
+    date: "2023-06-05",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>6월 둘째 주, 제공해드리는 정보는 ‘진로취업 서비스 편’입니다.<br/><br/>교내 대학일자리플러스센터에 상명대학교 학우들을 대상으로 다양한 진로취업 프로그램이 준비되어 있습니다.<br/>프로그램별 운영 시기가 상이하므로 확인해보시길 바랍니다!<br/><br/>- 대학일자리플러스센터<br/>- 어떤 지원을 받을 수 있나요?<br/>- 진로취업지원 제휴 서비스<br/>- SM-ACE 기반 진로취업 프로그램<br/>- 진로취업 컨설턴트 신청<br/><br/>자세한 사항은 'e-포트폴리오'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 또 다른💡선[先]견지명💡콘텐츠에도 많은 관심 부탁드립니다! 감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img16_1,
+        alt: "img16_1",
+      },
+      {
+        img: Img16_2,
+        alt: "img16_2",
+      },
+      {
+        img: Img16_3,
+        alt: "img16_3",
+      },
+      {
+        img: Img16_4,
+        alt: "img16_4",
+      },
+      {
+        img: Img16_5,
+        alt: "img16_5",
+      },
+      {
+        img: Img16_6,
+        alt: "img16_6",
+      },
+      {
+        img: Img16_7,
+        alt: "img16_7",
+      },
+      {
+        img: Img16_8,
+        alt: "img16_8",
+      },
+      {
+        img: Img16_9,
+        alt: "img16_9",
+      },
+      {
+        img: Img16_10,
+        alt: "img16_10",
+      },
+    ],
+  },
+  {
     id: 15,
-    link: "/info/education/foresight/detail/15",
+    link: "/work/education/foresight/detail/15",
     img: Img15_1,
     alt: "img15_1",
     title: "💙선[先]견지명 - 창업활동 장려 편💙",
@@ -260,7 +324,7 @@ export const EducationForesightData = [
   },
   {
     id: 14,
-    link: "/info/education/foresight/detail/14",
+    link: "/work/education/foresight/detail/14",
     img: Img14_1,
     alt: "img14_1",
     title: "💙선[先]견지명 - 하계 계절수업 편💙",
@@ -313,7 +377,7 @@ export const EducationForesightData = [
   },
   {
     id: 13,
-    link: "/info/education/foresight/detail/13",
+    link: "/work/education/foresight/detail/13",
     img: Img13_1,
     alt: "img13_1",
     title: "💙선[先]견지명 - 에세이 경진대회 편💙",
@@ -366,7 +430,7 @@ export const EducationForesightData = [
   },
   {
     id: 12,
-    link: "/info/education/foresight/detail/12",
+    link: "/work/education/foresight/detail/12",
     img: Img12_1,
     alt: "img12_1",
     title: "💙선[先]견지명 - 학석사 연계과정 편💙",
@@ -411,7 +475,7 @@ export const EducationForesightData = [
   },
   {
     id: 11,
-    link: "/info/education/foresight/detail/11",
+    link: "/work/education/foresight/detail/11",
     img: Img11_1,
     alt: "img11_1",
     title: "💙선[先]견지명 - 현장실습학기제 편💙",
@@ -460,7 +524,7 @@ export const EducationForesightData = [
   },
   {
     id: 10,
-    link: "/info/education/foresight/detail/10",
+    link: "/work/education/foresight/detail/10",
     img: Img10_1,
     alt: "img10_1",
     title: "💙선[先]견지명 - 일경험 프로그램 편💙",
@@ -509,7 +573,7 @@ export const EducationForesightData = [
   },
   {
     id: 9,
-    link: "/info/education/foresight/detail/9",
+    link: "/work/education/foresight/detail/9",
     img: Img9_1,
     alt: "img9_1",
     title: "💙선[先]견지명 - 전과신청 편💙",
@@ -558,7 +622,7 @@ export const EducationForesightData = [
   },
   {
     id: 8,
-    link: "/info/education/foresight/detail/8",
+    link: "/work/education/foresight/detail/8",
     img: Img8_1,
     alt: "img8_1",
     title: "💙선[先]견지명 - 다/부전공 신청 편💙",
@@ -611,7 +675,7 @@ export const EducationForesightData = [
   },
   {
     id: 7,
-    link: "/info/education/foresight/detail/7",
+    link: "/work/education/foresight/detail/7",
     img: Img7_1,
     alt: "img7_1",
     title: "💙선[先]견지명 - 공모전 편💙",
@@ -664,7 +728,7 @@ export const EducationForesightData = [
   },
   {
     id: 6,
-    link: "/info/education/foresight/detail/6",
+    link: "/work/education/foresight/detail/6",
     img: Img6_1,
     alt: "img6_1",
     title: "💙선[先]견지명 - 라이브커머스 편💙",
@@ -717,7 +781,7 @@ export const EducationForesightData = [
   },
   {
     id: 5,
-    link: "/info/education/foresight/detail/5",
+    link: "/work/education/foresight/detail/5",
     img: Img5_1,
     alt: "img5_1",
     title: "💙선[先]견지명 - 학사공지 편💙",
@@ -766,7 +830,7 @@ export const EducationForesightData = [
   },
   {
     id: 4,
-    link: "/info/education/foresight/detail/4",
+    link: "/work/education/foresight/detail/4",
     img: Img4_1,
     alt: "img4_1",
     title: "💙선[先]견지명 - 진로취업 편💙",
@@ -811,7 +875,7 @@ export const EducationForesightData = [
   },
   {
     id: 3,
-    link: "/info/education/foresight/detail/3",
+    link: "/work/education/foresight/detail/3",
     img: Img3_1,
     alt: "img3_1",
     title: "💙선[先]견지명 - 상명봉사단 편💙",
@@ -860,7 +924,7 @@ export const EducationForesightData = [
   },
   {
     id: 2,
-    link: "/info/education/foresight/detail/2",
+    link: "/work/education/foresight/detail/2",
     img: Img2_1,
     alt: "img2_1",
     title: "💙선[先]견지명 - 장학제도 편💙",
@@ -913,7 +977,7 @@ export const EducationForesightData = [
   },
   {
     id: 1,
-    link: "/info/education/foresight/detail/1",
+    link: "/work/education/foresight/detail/1",
     img: Img1_1,
     alt: "img1_1",
     title: "💙선[先]견지명 - 학사정보 편💙",
@@ -965,7 +1029,7 @@ export const EducationForesightData = [
 export const EducationNoticeData = [
   {
     id: 5,
-    link: "/info/education/ednotice/detail/5",
+    link: "/work/education/ednotice/detail/5",
     img: noImg5_1,
     alt: "noImg5_1",
     title: "💙교환학생 프로그램 한 눈에 보기💙",
@@ -1018,7 +1082,7 @@ export const EducationNoticeData = [
   },
   {
     id: 4,
-    link: "/info/education/ednotice/detail/4",
+    link: "/work/education/ednotice/detail/4",
     img: noImg4_1,
     alt: "noImg4_1",
     title: "💙퀸텀AI - 잡메이트 멘토링 서비스💙",
@@ -1055,7 +1119,7 @@ export const EducationNoticeData = [
   },
   {
     id: 3,
-    link: "/info/education/ednotice/detail/3",
+    link: "/work/education/ednotice/detail/3",
     img: noImg3_1,
     alt: "noImg3_1",
     title: "💙어학연수 - 중국 Beijing Language & Culture University💙",
@@ -1108,7 +1172,7 @@ export const EducationNoticeData = [
   },
   {
     id: 2,
-    link: "/info/education/ednotice/detail/2",
+    link: "/work/education/ednotice/detail/2",
     img: noImg2_1,
     alt: "noImg2_1",
     title: "💙어학연수 - 캐나다 Vancouver Island University💙",
@@ -1161,7 +1225,7 @@ export const EducationNoticeData = [
   },
   {
     id: 1,
-    link: "/info/education/ednotice/detail/1",
+    link: "/work/education/ednotice/detail/1",
     img: noImg1_1,
     alt: "noImg1_1",
     title: "💙어학연수 - 미국 Stony Brook University💙",
