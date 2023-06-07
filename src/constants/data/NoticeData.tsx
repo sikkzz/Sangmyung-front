@@ -525,7 +525,51 @@ import Img85_10 from "../../assets/education/16/010.png";
 import Img86_1 from "../../assets/partner/newface/1.jpg";
 import Img86_2 from "../../assets/partner/newface/2.jpg";
 
+import Img87_1 from '../../assets/notice/87/1.jpg'
+import Img87_2 from '../../assets/notice/87/2.jpg'
+import Img87_3 from '../../assets/notice/87/3.jpg'
+
+import Img88_1 from '../../assets/notice/88/1.jpg'
+
 export const NoticeData = [
+  {
+    id: 88,
+    link: "/info/notice/detail/88",
+    title: "상명대학교 제46대 총학생회 '선[先]' 상대평가 등급 비율 개편 교양 교과목 적용 안내",
+    date: "2023-06-07",
+    owner: "관리자",
+    kind: "학사",
+    content: "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회에서는 최근 A 학점 비율 개편안과 관련하여 ‘교양’ 교과목 또한 개편이 승인되어 이루어지는 경우<br/>‘전공’ 교과목과 동일하게 적용되는지를 학우분들께서 많이 궁금해하시는 점을 인지하였습니다.<br/><br/>교양 교과목의 경우 교무처 소관의 전공교육과정위원회와 달리, 계당교양교육원 소관의 교양교육과정위원회에서 논의가 이루어짐을 전달드린 바 있습니다.<br/> 그렇기에, 상기 내용을 계당교양교육원 측으로 문의드려 답변을 요청하였으며, 이에 발생한 답변은 아래와 같습니다.<br/><br/>“교양 교과목 또한 성적평가 시 전공 교과목의 개편내용과 동일한 입장을 유지하며,<br/>교무처의 결재요청을 통한 승인이 이루어질 경우 교양 교과목도 A 학점 비율 개편의 적용대상이 된다.”<br/><br/>그렇기에 최종적으로 총장 승인이 발생할 경우 전공, 교양 교과목 모두 A학점 비율 개편이 이루어질 것으로 보입니다.<br/><br/>다만, 현재 정보통신팀 측에서 전산 시스템을 수정 중에 있어, 총장 결재 시점이 조금 연기될 것으로 보입니다.<br/>해당 기간 연장에 따라 교무처 측에서는 성적입력 기간을 12일부터 하는 것으로 합의를 완료했다고 전달받았음을 학우 여러분께 전해드립니다.<br/><br/>최종 결재가 완료되어 교무처에서 승인을 공지 받으면, 학생 단위에 본 총학생회 측이 즉각 전달해드리도록 하겠습니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img88_1,
+        alt: "img88_1"
+      }
+    ]
+  },
+  {
+    id: 87,
+    link: "/info/notice/detail/87",
+    title: "상명대학교 제46대 총학생회 '선[先]' SMCL 결승전 안내",
+    date: "2023-06-07",
+    owner: "관리자",
+    kind: "공지",
+    content: "💙[총학생회] SMCL 결승전 안내💙<br/><br/>상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>내일 6월 8일(목) 19시 20분에 ‘상명대학교 축구 리그 SMCL 결승전’이 진행될 예정입니다.<br/>조별리그부터 본선 토너먼트 8강, 4강을 거쳐 결승까지 올라온 ‘IEMU11’와 ‘잘먹남’을 응원해주세요!<br/>과연 누가 SMCL-1 우승을 차지할 것인가!! 학우분들의 많은 관심 부탁드립니다.<br/><br/>🏅결승전 안내| IEMU11 VS 잘먹남<br/>🏅일시| 6월 8일(목) 19시 20분<br/>🏅장소| 상명대학교 서울캠퍼스 운동장 (아트센터 뒤 후문 운동장)<br/><br/>SMCL 관련 자세한 사항은 SMCL 인스타 계정에서 확인하실 수 있습니다.<br/>Instagram : <a href='https://www.instagram.com/smcl_2023/' style='color: blue'>smcl_2023</a><br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img87_1,
+        alt: "img87_1"
+      },
+      {
+        img: Img87_2,
+        alt: "img87_2"
+      },
+      {
+        img: Img87_3,
+        alt: "img87_3"
+      },
+    ]
+  },
   {
     id: 86,
     link: "/info/notice/detail/86",
