@@ -30,7 +30,7 @@ const DepartChart = () => {
     <Layout>
       <Col>
         <Box>
-          <Title>국원 소개</Title>
+          <Title>구성원 소개</Title>
           <ProfileBox>
             {DepartData.map((item, index) => (
               <>

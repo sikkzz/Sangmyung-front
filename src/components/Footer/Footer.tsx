@@ -144,7 +144,7 @@ const Footer = () => {
           </MDetail>
         </MDetailContainer>
         <MDetailContainer>
-          <MDetailContent>전화번호 : 010-3341-2053</MDetailContent>
+          <MDetailContent>전화번호 : 02-781-7840, 02-781-7841</MDetailContent>
           <MDetailContent>이메일 : smu.first2023@gmail.com</MDetailContent>
         </MDetailContainer>
         <MDetailContainer>

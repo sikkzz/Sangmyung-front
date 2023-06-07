@@ -4,12 +4,12 @@ export const TabData = [
     sub_item: [
       {
         id: "greeting",
-        link: "/intro/greeting",
+        link: "/intro/introduce/greeting",
         item: "회장단 인사말",
       },
       {
         id: "organizationchart",
-        link: "/intro/organizationchart",
+        link: "/intro/introduce/organizationchart",
         item: "조직도",
       },
     ],

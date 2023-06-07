@@ -685,7 +685,7 @@ export const DepartData = [
         img: Img38,
         alt: "img38",
         size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 대내교류국 국원 방호진입니다.",
+        content: "안녕하십니까, 총학생회 선[先] 대내교류국 국원 정세인입니다.",
       },
       {
         position: "국원",
