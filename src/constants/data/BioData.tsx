@@ -106,4 +106,8 @@ export const BioData = [
     sub: "제휴처 행사 소개",
     content: "제휴처 행사를 소개합니다",
   },
+  {
+    img: Img,
+    id: "producer"
+  }
 ];

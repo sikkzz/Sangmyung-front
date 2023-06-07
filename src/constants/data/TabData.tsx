@@ -204,6 +204,16 @@ export const TabData = [
       },
     ],
   },
+  {
+    id: "producer",
+    sub_item: [
+      {
+        id: "producer",
+        link: "/producer",
+        item: "만든사람"
+      }
+    ]
+  }
 ];
 
 export const MTabData = [

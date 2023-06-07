@@ -62,7 +62,11 @@ import ModalPortal from "../../Portal";
 import RuleModal from "../Modal/RuleModal";
 import PersonalModal from "../Modal/PersonalModal";
 
+import { useNavigate } from "react-router-dom";
+
 const Footer = () => {
+  const navigate = useNavigate()
+
   const [isActive, setIsActive] = useState(false);
 
   const [modalOn1, setModalOn1] = useState(false);
@@ -79,6 +83,10 @@ const Footer = () => {
   const handleModal2 = () => {
     setModalOn2(!modalOn2);
   };
+
+  const onProducerClick = () => {
+    navigate("/producer")
+  }
 
   return (
     <>
@@ -111,7 +119,7 @@ const Footer = () => {
             <MMenuListItem onClick={handleModal2}>
               개인정보처리방침
             </MMenuListItem>
-            <MMenuListItem>만든사람</MMenuListItem>
+            <MMenuListItem onClick={onProducerClick}>만든사람</MMenuListItem>
           </MMenuList>
 
           <MSelectContainer>
@@ -159,7 +167,7 @@ const Footer = () => {
           <MenuList>
             <MenuListItem onClick={handleModal1}>이용약관</MenuListItem>
             <MenuListItem onClick={handleModal2}>개인정보처리방침</MenuListItem>
-            <MenuListItem>만든사람</MenuListItem>
+            <MenuListItem onClick={onProducerClick}>만든사람</MenuListItem>
           </MenuList>
         </MenuContainer>
 
