@@ -15,6 +15,7 @@ import {
   RightBox,
   IntroBox,
   Title,
+  MediaTitle,
   BadgeBox,
   Badge,
   BadgeImg,
@@ -32,6 +33,9 @@ import HTMLReactParser from "html-react-parser";
 
 const Producer = () => {
   const text =
+    "상명대학교 서울캠퍼스 제46대 총학생회 선[先] 재정사무국장, FE Developer 김준식입니다. 학우분들의 불편함을 덜어드리고 소통 및 명확한 정보 전달을<br/>위해 홈페이지를 제작하게 되었습니다. 홈페이지를 이용하시면서 불편한 점이나 건의사항이 있으시면 언제든 편하신 창구를 통해 연락주시면 감사하겠습니다.";
+
+  const text2 =
     "상명대학교 서울캠퍼스 제46대 총학생회 선[先] 재정사무국장, FE Developer 김준식입니다. 학우분들의 불편함을 덜어드리고 소통 및 명확한 정보 전달을 위해 홈페이지를 제작하게 되었습니다. 홈페이지를 이용하시면서 불편한 점이나 건의사항이 있으시면 언제든 편하신 창구를 통해 연락주시면 감사하겠습니다.";
 
   return (
@@ -76,6 +80,7 @@ const Producer = () => {
           <RightBox>
             <IntroBox>
               <Title>{HTMLReactParser(text)}</Title>
+              <MediaTitle>{HTMLReactParser(text2)}</MediaTitle>
               <BadgeBox>
                 <Badge
                   href="https://www.instagram.com/sik_k_da"
@@ -137,7 +142,6 @@ const Producer = () => {
                 <Badge>
                   <BadgeImg src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black" />
                 </Badge>
-
                 <Badge>
                   <BadgeImg src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Gatsby&logoColor=white" />
                 </Badge>
