@@ -1,16 +1,12 @@
 import TopHeader from "../components/Header/TopHeader";
 import Header from "../components/Header/Header";
-import Bio from "../components/Bio/Bio";
+import BioSimple from "../components/Bio/BioSimple";
 import Sitemap from "../components/Sitemap/Sitemap";
 import Footer from "../components/Footer/Footer";
-
-import { useLocation } from "react-router-dom";
 
 import { motion } from "framer-motion";
 
 const SitemapPage = () => {
-  const location = useLocation();
-
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -20,7 +16,7 @@ const SitemapPage = () => {
     >
       <TopHeader />
       <Header />
-      <Bio state={location.pathname.split("/")[1]} />
+      <BioSimple />
       <Sitemap />
       <Footer />
     </motion.div>

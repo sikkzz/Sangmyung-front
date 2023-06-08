@@ -27,9 +27,6 @@ const HeadBox = styled.div`
 const LogoBox = styled.div`
   width: 100px;
   height: 100px;
-  ${media.labtop`width: 80px;height: 80px;`}
-  ${media.tabletLarge`width: 80px;height: 80px;`}
-  ${media.tablet`width: 80px;height: 80px;`}
   ${media.mobile`width: 80px;height: 80px;`}
 `;
 
@@ -59,9 +56,9 @@ const Title = styled.div`
   font-size: 58px;
   font-weight: 700;
   margin-bottom: 20px;
-  ${media.labtop`font-size: 36px;text-align: center;`}
-  ${media.tabletLarge`font-size: 36px;text-align: center;`}
-  ${media.tablet`font-size: 36px;text-align: center;`}
+  ${media.labtop`text-align: center;`}
+  ${media.tabletLarge`text-align: center;`}
+  ${media.tablet`text-align: center;`}
   ${media.mobile`font-size: 36px;text-align: center;`}
 `;
 
@@ -70,18 +67,18 @@ const Text = styled.p`
   font-weight: 400;
   color: #666;
   line-height: 32px;
-  ${media.labtop`font-size: 14px;text-align: center;`}
-  ${media.tabletLarge`font-size: 14px;text-align: center;`}
-  ${media.tablet`font-size: 14px;text-align: center;`}
+  ${media.labtop`text-align: center;`}
+  ${media.tabletLarge`text-align: center;`}
+  ${media.tablet`text-align: center;`}
   ${media.mobile`font-size: 14px;text-align: center;`}
 `;
 
 const LinkBox = styled.div`
   margin-top: 80px;
-  ${media.labtop`margin-top: 40px;text-align: center;`}
-  ${media.tabletLarge`margin-top: 40px;text-align: center;`}
-  ${media.tablet`margin-top: 40px;text-align: center;`}
-  ${media.mobile`margin-top: 40px;text-align: center;`}
+  ${media.labtop`text-align: center;`}
+  ${media.tabletLarge`text-align: center;`}
+  ${media.tablet`text-align: center;`}
+  ${media.mobile`text-align: center;`}
 `;
 
 const Link = styled.a`
@@ -99,18 +96,18 @@ const Link = styled.a`
     margin-left: 0;
   }
 
-  ${media.labtop`padding: 16px 30px;`}
-  ${media.tabletLarge`padding: 16px 30px;`}
-  ${media.tablet`padding: 16px 30px;`}
+  ${media.labtop`padding: 16px 40px;`}
+  ${media.tabletLarge`padding: 16px 40px;`}
+  ${media.tablet`padding: 16px 40px;`}
   ${media.mobile`padding: 16px 30px;`}
 `;
 
 const ImageBox = styled.div`
   width: 550px;
   height: 366px;
-  ${media.labtop`margin: 60px auto 0;;width: 300px;height: 100%;`}
-  ${media.tabletLarge`margin: 60px auto 0;;width: 300px;height: 100%;`}
-  ${media.tablet`margin: 60px auto 0;;width: 300px;height: 100%;`}
+  ${media.labtop`margin: 60px auto 0;`}
+  ${media.tabletLarge`margin: 60px auto 0;`}
+  ${media.tablet`margin: 60px auto 0;width: 400px;height: 100%;`}
   ${media.mobile`margin: 60px auto 0;;width: 300px;height: 100%;`}
 `;
 

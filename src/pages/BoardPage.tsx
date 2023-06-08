@@ -1,16 +1,12 @@
 import TopHeader from "../components/Header/TopHeader";
 import Header from "../components/Header/Header";
-import Bio from "../components/Bio/Bio";
+import BioSimple from "../components/Bio/BioSimple";
 import Board from "../components/Board/Board";
 import Footer from "../components/Footer/Footer";
-
-import { useLocation } from "react-router-dom";
 
 import { motion } from "framer-motion";
 
 const BoardPage = () => {
-  const location = useLocation();
-
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -20,7 +16,7 @@ const BoardPage = () => {
     >
       <TopHeader />
       <Header />
-      <Bio state={location.pathname.split("/")[1]} />
+      <BioSimple />
       <Board />
       <Footer />
     </motion.div>

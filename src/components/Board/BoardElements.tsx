@@ -35,9 +35,6 @@ const Title = styled.h1`
   font-size: 36px;
   font-weight: 700;
   margin-top: 30px;
-  ${media.labtop`font-size: 24px;`}
-  ${media.tabletLarge`font-size: 24px;`}
-  ${media.tablet`font-size: 24px;`}
   ${media.mobile`font-size: 24px;`}
 `;
 
@@ -45,18 +42,15 @@ const Sub = styled.h3`
   margin-top: 30px;
   font-size: 24px;
   font-weight: 600;
-  ${media.labtop`font-size: 16px;`}
-  ${media.tabletLarge`font-size: 16px;`}
-  ${media.tablet`font-size: 16px;`}
   ${media.mobile`font-size: 16px;`}
 `;
 
 const ImageBox = styled.div`
   width: 500px;
   height: 290px;
-  ${media.labtop`width: 300px;height: 100%;margin-top: 30px;`}
-  ${media.tabletLarge`width: 300px;height: 100%;margin-top: 30px;`}
-  ${media.tablet`width: 300px;height: 100%;margin-top: 30px;`}
+  ${media.labtop`margin-top: 60px;`}
+  ${media.tabletLarge`margin-top: 60px;`}
+  ${media.tablet`width: 400px;height: 100%;margin-top: 30px;`}
   ${media.mobile`width: 300px;height: 100%;margin-top: 30px;`}
 `;
 
