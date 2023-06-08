@@ -13,64 +13,78 @@ const Col = styled.div`
 
 const Box = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 100px;
+  /* align-items: center; */
+  /* margin-top: 100px; */
 `;
 
-const ProfileBox = styled.div`
-  display: flex;
-  justify-content: space-between;
-`;
-
-const ProfileImgBox = styled.div`
+const LeftBox = styled.div`
   display: flex;
   flex-direction: column;
 `;
+
+const ProfileBox = styled.div``;
 
 const ImgBox = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 300px;
-  margin-bottom: 30px;
+  height: 300px;
 `;
 
 const Img = styled.img`
-  width: 80%;
-  height: 108%;
-  border-radius: 10%;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
   object-fit: cover;
 `;
 
-const ProfileTextBox = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 100px;
-`;
-
-const Title = styled.div`
-  font-size: 24px;
+const Name = styled.div`
+  font-size: 36px;
   font-weight: 700;
-  line-height: 36px;
-  text-align: center;
+  margin-top: 20px;
+  /* text-align: center; */
 `;
 
-const Text = styled.div`
-  font-size: 18px;
-  line-height: 30px;
+const Sub = styled.div`
+  font-size: 24px;
+  /* text-align: center; */
+  font-weight: 600;
 `;
+
+const IconList = styled.ul`
+  margin-top: 10px;
+`;
+
+const IconListItem = styled.li`
+  margin-top: 2px;
+`;
+
+const Icon = styled.div`
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+`;
+
+const Text = styled.span`
+  padding-left: 10px;
+  vertical-align: middle;
+  font-weight: 500;
+`;
+
+const RightBox = styled.div``;
 
 export {
   Layout,
   Col,
   Box,
+  LeftBox,
   ProfileBox,
-  ProfileImgBox,
   ImgBox,
   Img,
-  ProfileTextBox,
-  Title,
+  Name,
+  Sub,
+  IconList,
+  IconListItem,
+  Icon,
   Text,
+  RightBox,
 };

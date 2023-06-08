@@ -18,6 +18,7 @@ import {
   FaSlideshare,
   FaThumbsUp,
   FaHandshake,
+  FaSchool,
 } from "react-icons/fa";
 import {
   AiFillCaretDown,
@@ -29,6 +30,7 @@ import {
   AiOutlineLeft,
   AiOutlineCloudDownload,
   AiOutlineMail,
+  AiFillGithub,
 } from "react-icons/ai";
 import {
   MdWorkOutline,
@@ -45,14 +47,18 @@ import {
   IoShareSocialSharp,
   IoChevronDown,
   IoChevronUp,
-  IoChevronForward
+  IoChevronForward,
 } from "react-icons/io5";
 import { GiPartyPopper, GiClothes } from "react-icons/gi";
 import { SiGooglecolab } from "react-icons/si";
 import { CgDanger } from "react-icons/cg";
 import { GrSystem } from "react-icons/gr";
 import { ImLibrary, ImSearch } from "react-icons/im";
-import { HiOutlineReceiptRefund, HiSpeakerphone } from "react-icons/hi";
+import {
+  HiOutlineReceiptRefund,
+  HiSpeakerphone,
+  HiOutlineOfficeBuilding,
+} from "react-icons/hi";
 import { FcDocument } from "react-icons/fc";
 
 const Icons = {
@@ -106,7 +112,10 @@ const Icons = {
   AiOutlineCloudDownload,
   BsCircleFill,
   AiOutlineMail,
-  IoChevronForward
+  IoChevronForward,
+  HiOutlineOfficeBuilding,
+  FaSchool,
+  AiFillGithub,
 };
 
 export default Icons;
