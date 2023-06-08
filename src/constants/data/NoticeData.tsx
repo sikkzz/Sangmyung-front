@@ -11,8 +11,8 @@ import Img3_1 from "../../assets/notice/3/1.jpg";
 import Img3_2 from "../../assets/notice/3/2.jpg";
 import Img3_3 from "../../assets/notice/3/3.jpg";
 
-import Img4_1 from "../../assets/notice/4/1.jpg";
-import Img4_2 from "../../assets/notice/4/2.jpg";
+import Img4_1 from '../../assets/calendar/4/1.jpg'
+import Img4_2 from '../../assets/calendar/4/2.jpg'
 
 import Img5_1 from "../../assets/education/1/1-1.png";
 import Img5_2 from "../../assets/education/1/1-2.png";
@@ -133,7 +133,7 @@ import Img21_8 from "../../assets/education/8/8-8.png";
 import Img21_9 from "../../assets/education/8/8-9.png";
 import Img21_10 from "../../assets/education/8/8-10.png";
 
-import Img22_1 from "../../assets/notice/22/1.jpg";
+import Img22_1 from '../../assets/calendar/5/1.jpg'
 
 import Img23_1 from "../../assets/notice/23/1.jpg";
 import Img23_2 from "../../assets/notice/23/2.jpg";
@@ -466,7 +466,7 @@ import Img75_3 from "../../assets/minute/administrative/national3.jpg";
 import Img75_4 from "../../assets/minute/administrative/national4.jpg";
 import Img75_5 from "../../assets/minute/administrative/national5.jpg";
 
-import Img76_1 from "../../assets/notice/76/1.jpg";
+import Img76_1 from '../../assets/calendar/6/1.jpg'
 
 import Img77_1 from "../../assets/notice/77/1.jpg";
 import Img77_2 from "../../assets/notice/77/2.jpg";

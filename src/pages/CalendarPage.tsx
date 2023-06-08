@@ -1,7 +1,8 @@
 import TopHeader from "../components/Header/TopHeader";
 import Header from "../components/Header/Header";
 import Bio from "../components/Bio/Bio";
-import Calendar from "../components/Calendar/Calendar";
+// import Calendar from "../components/Calendar/Calendar";
+import Calendar2 from "../components/Calendar/Calendar2";
 import Footer from "../components/Footer/Footer";
 // import Test from "../components/Schedule/Test";
 
@@ -22,7 +23,7 @@ const CalendarPage = () => {
       <TopHeader />
       <Header />
       <Bio state={location.pathname.split("/")[2]} />
-      <Calendar />
+      <Calendar2 />
       {/* <Test /> */}
       <Footer />
     </motion.div>
