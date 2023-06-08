@@ -13,8 +13,7 @@ const Col = styled.div`
 
 const Box = styled.div`
   display: flex;
-  /* align-items: center; */
-  /* margin-top: 100px; */
+  margin-top: 100px;
 `;
 
 const LeftBox = styled.div`
@@ -40,21 +39,19 @@ const Name = styled.div`
   font-size: 36px;
   font-weight: 700;
   margin-top: 20px;
-  /* text-align: center; */
 `;
 
 const Sub = styled.div`
   font-size: 24px;
-  /* text-align: center; */
   font-weight: 600;
 `;
 
 const IconList = styled.ul`
-  margin-top: 10px;
+  margin-top: 30px;
 `;
 
 const IconListItem = styled.li`
-  margin-top: 2px;
+  margin-top: 8px;
 `;
 
 const Icon = styled.div`
@@ -70,7 +67,48 @@ const Text = styled.span`
   font-weight: 500;
 `;
 
-const RightBox = styled.div``;
+const RightBox = styled.div`
+  margin-left: 100px;
+`;
+
+const IntroBox = styled.div`
+  border: 1px solid #e3eaf5;
+  box-shadow: 4px 4px 0 #e3eaf5;
+  padding: 60px;
+  border-radius: 30px;
+`;
+
+const Title = styled.div`
+  font-size: 18px;
+  line-height: 30px;
+`;
+
+const BadgeBox = styled.div`
+  margin-top: 20px;
+`;
+
+const Badge = styled.a`
+  margin-left: 3px;
+  &:first-of-type {
+    margin-left: 0;
+  }
+`;
+
+const BadgeImg = styled.img``;
+
+const HistoryBox = styled.div`
+  margin-top: 20px;
+`;
+
+const HistoryText = styled.div`
+  line-height: 24px;
+`;
+
+const TechBox = styled.div`
+  margin-top: 20px;
+`;
+
+const TechText = styled.div``;
 
 export {
   Layout,
@@ -87,4 +125,13 @@ export {
   Icon,
   Text,
   RightBox,
+  IntroBox,
+  Title,
+  BadgeBox,
+  Badge,
+  BadgeImg,
+  HistoryBox,
+  HistoryText,
+  TechBox,
+  TechText,
 };
