@@ -24,6 +24,7 @@ const ContentBox = styled.div`
 const List = styled.ul`
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   ${media.tablet`display: block;`}
   ${media.mobile`display: block;`}
 `;

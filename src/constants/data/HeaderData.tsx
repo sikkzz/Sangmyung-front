@@ -77,23 +77,23 @@ export const HeaderTabData = [
         subItem2: [
           {
             sub_item2: "전체",
-            link: "/facility/partnership/all",
+            link: "/work/partnership/all",
           },
           {
             sub_item2: "의료",
-            link: "/facility/partnership/medical",
+            link: "/work/partnership/medical",
           },
           {
             sub_item2: "학업",
-            link: "/facility/partnership/study",
+            link: "/work/partnership/study",
           },
           {
             sub_item2: "편의시설",
-            link: "/facility/partnership/convenience",
+            link: "/work/partnership/convenience",
           },
           {
             sub_item2: "음식점",
-            link: "/facility/partnership/restaurant",
+            link: "/work/partnership/restaurant",
           },
         ],
       },
