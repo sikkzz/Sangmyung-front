@@ -1,36 +1,40 @@
 import styled from "styled-components";
 
+import { media } from "../../styles/MediaQuery";
+
 const Nav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4px;
-  margin: 16px;
+  gap: 8px;
+  margin: 60px 0 0 0;
+  ${media.mobile`gap: 4px;`}
 `;
 
 const Button = styled.button`
   border: none;
-  border-radius: 8px;
-  padding: 8px;
-  margin: 0;
-  background: #000;
-  color: #fff;
+  outline: none;
+  border-radius: 100%;
+  background: transparent;
+  color: #000;
   font-size: 1rem;
+  width: 30px;
+  height: 30px;
+  ${media.mobile`font-size: 12px;width: 20px;height: 20px;`}
 
   &:hover {
-    background: tomato;
     cursor: pointer;
-    transform: translateY(-2px);
+    color: #fff;
+    background: #000;
   }
 
   &[disabled] {
-    background: grey;
-    cursor: revert;
-    transform: revert;
+    cursor: pointer;
   }
 
   &[aria-current] {
-    background: deeppink;
+    background: #000;
+    color: #fff;
     font-weight: bold;
     cursor: revert;
     transform: revert;
