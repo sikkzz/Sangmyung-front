@@ -18,6 +18,10 @@ import {
   TdActive,
   TdLink,
   TdIconBox,
+  MTableCol,
+  MTd,
+  MTdInfoBox,
+  MTdInfo,
 } from "./ClubElements";
 
 import HTMLReactParser from "html-react-parser";
@@ -39,6 +43,7 @@ const Club = () => {
               <TableCol size="auto"></TableCol>
               <TableCol size="12%"></TableCol>
               <TableCol size="8%"></TableCol>
+              <MTableCol />
             </ColGroup>
             <THead>
               <Tr>
@@ -77,6 +82,22 @@ const Club = () => {
                       ""
                     )}
                   </Td>
+                  <MTd>
+                    <MTdInfoBox>
+                      <MTdInfo>{item.title}</MTdInfo>
+
+                      <MTdInfo>{item.kind}</MTdInfo>
+                      {item.link ? (
+                        <TdLink href={item?.link}>
+                          <TdIconBox>
+                            <Icons.AiFillHome size={20} color="#000" />
+                          </TdIconBox>
+                        </TdLink>
+                      ) : (
+                        ""
+                      )}
+                    </MTdInfoBox>
+                  </MTd>
                 </Tr>
               ))}
             </TBody>
