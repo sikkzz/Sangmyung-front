@@ -89,6 +89,12 @@ export const BioData = [
     img: Img,
     id: "league",
     title: "SMCL 리그",
-    sub: "상명대학교 SMCL 리그 소개"
+    sub: "상명대학교 SMCL 리그 소개",
+  },
+  {
+    img: Img,
+    id: "club",
+    title: "중앙동아리",
+    sub: "상명대학교 중앙동아리 소개",
   },
 ];

@@ -105,9 +105,9 @@ export const TabData = [
       {
         id: "event",
         link: "/work/event",
-        item: "제휴처 행사"
-      }
-    ]
+        item: "제휴처 행사",
+      },
+    ],
   },
   {
     id: "education",
@@ -210,9 +210,9 @@ export const TabData = [
       {
         id: "producer",
         link: "/producer",
-        item: "만든사람"
-      }
-    ]
+        item: "만든사람",
+      },
+    ],
   },
   {
     id: "league",
@@ -220,10 +220,20 @@ export const TabData = [
       {
         id: "league",
         link: "/work/league",
-        item: "SMCL 리그"
-      }
-    ]
-  }
+        item: "SMCL 리그",
+      },
+    ],
+  },
+  {
+    id: "club",
+    sub_item: [
+      {
+        id: "club",
+        link: "/government/club",
+        item: "중앙동아리",
+      },
+    ],
+  },
 ];
 
 export const MTabData = [

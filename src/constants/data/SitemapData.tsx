@@ -186,6 +186,10 @@ export const SitemapData = [
       {
         item: "중앙운영위원회",
         link: "/government/central"
+      },
+      {
+        item: "중앙동아리",
+        link: "/government/club"
       }
     ]
   },

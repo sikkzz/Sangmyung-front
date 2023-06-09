@@ -45,7 +45,12 @@ export const PathData2 = [
   {
     id: "central",
     item: "중앙운영위원회",
-    link: "/intro/central",
+    link: "/government/central"
+  },
+  {
+    id: "club",
+    item: "중앙동아리",
+    link: "/government/club"
   },
   {
     id: "pledge",

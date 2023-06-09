@@ -32,6 +32,7 @@ import BoardPage from "../pages/BoardPage";
 import SitemapPage from "../pages/SitemapPage";
 import ProducerPage from "../pages/ProducerPage";
 import LeaguePage from "../pages/LeaguePage";
+import ClubPage from "../pages/ClubPage";
 
 import { AnimatePresence } from "framer-motion";
 
@@ -115,6 +116,7 @@ const Routing = () => {
         <Route path="/facility/map" element={<MapPage />} />
         <Route path="/facility/rental" element={<RentalPage />} />
         <Route path="/government/central" element={<CentralPage />} />
+        <Route path="/government/club" element={<ClubPage />} />
         <Route path="/board" element={<BoardPage />} />
         <Route path="/sitemap" element={<SitemapPage />} />
         <Route path="/producer" element={<ProducerPage />} />

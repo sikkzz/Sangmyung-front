@@ -99,7 +99,7 @@ export const HeaderTabData = [
       },
       {
         sub_item: "제휴처 행사",
-        link: "/work/event"
+        link: "/work/event",
       },
       {
         sub_item: "교육 및 학사",
@@ -113,16 +113,16 @@ export const HeaderTabData = [
             sub_item2: "학사안내",
             link: "/work/education/ednotice",
           },
-        ]
+        ],
       },
       {
         sub_item: "SMCL",
-        link: "/work/league"
+        link: "/work/league",
       },
       {
         sub_item: "결산 목록",
-        link: "/work/account"
-      }
+        link: "/work/account",
+      },
     ],
   },
   {
@@ -131,21 +131,21 @@ export const HeaderTabData = [
     subItem: [
       {
         sub_item: "공지사항",
-        link: "/info/notice"
+        link: "/info/notice",
       },
       {
         sub_item: "학사일정",
-        link: "/info/calendar"
+        link: "/info/calendar",
       },
       {
         sub_item: "학생회칙",
-        link: "/info/rule"
+        link: "/info/rule",
       },
       {
         sub_item: "회의록",
-        link: "/info/minute/center"
-      }
-    ]
+        link: "/info/minute/center",
+      },
+    ],
   },
   {
     main_item: "편의정보",
@@ -153,13 +153,13 @@ export const HeaderTabData = [
     subItem: [
       {
         sub_item: "캠퍼스맵",
-        link: "/facility/map"
+        link: "/facility/map",
       },
       {
         sub_item: "물품대여현황",
-        link: "/facility/rental"
-      }
-    ]
+        link: "/facility/rental",
+      },
+    ],
   },
   {
     main_item: "자치기구",
@@ -167,9 +167,13 @@ export const HeaderTabData = [
     subItem: [
       {
         sub_item: "중앙운영위원회",
-        link: "/government/central"
+        link: "/government/central",
       },
-    ]
+      {
+        sub_item: "중앙동아리",
+        link: "/government/club",
+      },
+    ],
   },
   {
     main_item: "건의/청원게시판",
@@ -268,7 +272,7 @@ export const MHeaderTabData = [
             sub_item2: "음식점",
             link: "/work/partnership/restaurant",
           },
-        ]
+        ],
       },
       {
         sub_item: "제휴처 행사",
@@ -285,16 +289,16 @@ export const MHeaderTabData = [
             sub_item2: "학사안내",
             link: "/work/education/ednotice",
           },
-        ]
+        ],
       },
       {
         sub_item: "SMCL",
-        link: "/work/league"
+        link: "/work/league",
       },
       {
         sub_item: "결산 목록",
-        link: "/work/account"
-      }
+        link: "/work/account",
+      },
     ],
   },
   {
@@ -302,43 +306,47 @@ export const MHeaderTabData = [
     subItem: [
       {
         sub_item: "공지사항",
-        link: "/info/notice"
+        link: "/info/notice",
       },
       {
         sub_item: "학사일정",
-        link: "/info/calendar"
+        link: "/info/calendar",
       },
       {
         sub_item: "학생회칙",
-        link: "/info/rule"
+        link: "/info/rule",
       },
       {
         sub_item: "회의록",
-        link: "/info/minute/center"
-      }
-    ]
+        link: "/info/minute/center",
+      },
+    ],
   },
   {
     main_item: "편의정보",
     subItem: [
       {
         sub_item: "캠퍼스맵",
-        link: "/facility/map"
+        link: "/facility/map",
       },
       {
         sub_item: "물품대여현황",
-        link: "/facility/rental"
-      }
-    ]
+        link: "/facility/rental",
+      },
+    ],
   },
   {
     main_item: "자치기구",
     subItem: [
       {
         sub_item: "중앙운영위원회",
-        link: "/government/central"
-      }
-    ]
+        link: "/government/central",
+      },
+      {
+        sub_item: "중앙동아리",
+        link: "/government/club",
+      },
+    ],
   },
   {
     main_item: "건의/청원게시판",
