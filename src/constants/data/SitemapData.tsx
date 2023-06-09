@@ -103,7 +103,7 @@ export const SitemapData = [
       },
       {
         item: "교육 및 학사",
-        link: "work/education/foresight",
+        link: "/work/education/foresight",
         subItem2: [
           {
             item: "선[先]견지명",
@@ -114,6 +114,10 @@ export const SitemapData = [
             link: "/work/education/ednotice",
           },
         ]
+      },
+      {
+        item: "SMCL",
+        link: "/work/league",
       },
       {
         item: "결산 목록",

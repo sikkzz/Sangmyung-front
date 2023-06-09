@@ -85,4 +85,10 @@ export const BioData = [
     title: "제휴처 행사",
     sub: "총학생회 선[先] 제휴처 행사",
   },
+  {
+    img: Img,
+    id: "league",
+    title: "SMCL 리그",
+    sub: "상명대학교 SMCL 리그 소개"
+  },
 ];

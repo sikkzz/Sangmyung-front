@@ -78,6 +78,11 @@ export const PathData2 = [
     link: "/work/education/foresight",
   },
   {
+    id: "league",
+    item: "SMCL",
+    link: "/work/league"
+  },
+  {
     id: "partnership",
     item: "프로모션",
     link: "/work/partnership/all",

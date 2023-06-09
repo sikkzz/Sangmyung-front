@@ -213,6 +213,16 @@ export const TabData = [
         item: "만든사람"
       }
     ]
+  },
+  {
+    id: "league",
+    sub_item: [
+      {
+        id: "league",
+        link: "/work/league",
+        item: "SMCL 리그"
+      }
+    ]
   }
 ];
 

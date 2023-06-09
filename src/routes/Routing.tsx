@@ -31,6 +31,7 @@ import RentalPage from "../pages/RentalPage";
 import BoardPage from "../pages/BoardPage";
 import SitemapPage from "../pages/SitemapPage";
 import ProducerPage from "../pages/ProducerPage";
+import LeaguePage from "../pages/LeaguePage";
 
 import { AnimatePresence } from "framer-motion";
 
@@ -47,7 +48,10 @@ const Routing = () => {
         <Route path="/intro/department" element={<DepartmentPage />} />
         <Route path="/intro/department/:param" element={<DepartmentPage />} />
         <Route path="/intro/pledge/simple" element={<PledgeSimplePage />} />
-        <Route path="/intro/pledge/pledgedetail" element={<PledgeDetailPage />} />
+        <Route
+          path="/intro/pledge/pledgedetail"
+          element={<PledgeDetailPage />}
+        />
         <Route
           path="/intro/pledge/pledgedetail/:param"
           element={<PledgeDetailPage />}
@@ -58,8 +62,8 @@ const Routing = () => {
           path="/work/partnership/detail/:id"
           element={<PartnerDetailPage />}
         />
-        <Route path="/work/event" element={<EventPage/>} />
-        <Route path="/work/event/detail/:id" element={<EventDetailPage/>} />
+        <Route path="/work/event" element={<EventPage />} />
+        <Route path="/work/event/detail/:id" element={<EventDetailPage />} />
         <Route
           path="/work/education/foresight"
           element={<EducationForesightPage />}
@@ -77,6 +81,7 @@ const Routing = () => {
           element={<EducationNoticeDetailPage />}
         />
         <Route path="/work/account" element={<AccountPage />} />
+        <Route path="/work/league" element={<LeaguePage />} />
         <Route
           path="/work/account/detail/:id"
           element={<AccountDetailPage />}

@@ -116,6 +116,10 @@ export const HeaderTabData = [
         ]
       },
       {
+        sub_item: "SMCL",
+        link: "/work/league"
+      },
+      {
         sub_item: "결산 목록",
         link: "/work/account"
       }
@@ -282,6 +286,10 @@ export const MHeaderTabData = [
             link: "/work/education/ednotice",
           },
         ]
+      },
+      {
+        sub_item: "SMCL",
+        link: "/work/league"
       },
       {
         sub_item: "결산 목록",
