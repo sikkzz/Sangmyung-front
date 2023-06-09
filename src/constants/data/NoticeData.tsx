@@ -11,8 +11,8 @@ import Img3_1 from "../../assets/notice/3/1.jpg";
 import Img3_2 from "../../assets/notice/3/2.jpg";
 import Img3_3 from "../../assets/notice/3/3.jpg";
 
-import Img4_1 from '../../assets/calendar/4/1.jpg'
-import Img4_2 from '../../assets/calendar/4/2.jpg'
+import Img4_1 from "../../assets/calendar/4/1.jpg";
+import Img4_2 from "../../assets/calendar/4/2.jpg";
 
 import Img5_1 from "../../assets/education/1/1-1.png";
 import Img5_2 from "../../assets/education/1/1-2.png";
@@ -133,7 +133,7 @@ import Img21_8 from "../../assets/education/8/8-8.png";
 import Img21_9 from "../../assets/education/8/8-9.png";
 import Img21_10 from "../../assets/education/8/8-10.png";
 
-import Img22_1 from '../../assets/calendar/5/1.jpg'
+import Img22_1 from "../../assets/calendar/5/1.jpg";
 
 import Img23_1 from "../../assets/notice/23/1.jpg";
 import Img23_2 from "../../assets/notice/23/2.jpg";
@@ -466,7 +466,7 @@ import Img75_3 from "../../assets/minute/administrative/national3.jpg";
 import Img75_4 from "../../assets/minute/administrative/national4.jpg";
 import Img75_5 from "../../assets/minute/administrative/national5.jpg";
 
-import Img76_1 from '../../assets/calendar/6/1.jpg'
+import Img76_1 from "../../assets/calendar/6/1.jpg";
 
 import Img77_1 from "../../assets/notice/77/1.jpg";
 import Img77_2 from "../../assets/notice/77/2.jpg";
@@ -531,7 +531,69 @@ import Img87_3 from "../../assets/notice/87/3.jpg";
 
 import Img88_1 from "../../assets/notice/88/1.jpg";
 
+import Img89_1 from "../../assets/notice/89/1.jpg";
+
+import Img90_1 from "../../assets/notice/90/1.jpg";
+
+import Img91_1 from "../../assets/notice/91/1.jpg";
+import Img91_2 from "../../assets/notice/91/2.jpg";
+
 export const NoticeData = [
+  {
+    id: 91,
+    link: "/info/notice/detail/91",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 상대평가 등급 비율 개편 최종 승인 및 시행 안내",
+    date: "2023-06-09",
+    owner: "관리자",
+    kind: "학사",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>최근, 상대평가 A 학점 비율 조정과 관련하여 전해드렸던 개편안 적용에 관한 모든 내용이, 금일(9일) 교무처로부터 총장 최종 결재가 발생하여 승인되었음을 전달받았습니다.<br/><br/>이로써 논의되었던 A 학점 비율 조정 개편안은 최종 확정되어 금학기부터 시행될 예정입니다. 승인된 변경사항을 최종적으로 정리해드리자면 아래와 같습니다.<br/><br/>◆ 적용 범위; 전공 / 교양 교과목 전체<br/>◆ 변경 사항: A+ ~ A : 45% 이하까지 부여 가능. 단, 등급 부여 시 A+ ~ B 등급을 80% 이하 부여하도록 권고함.<br/><br/>개편 확정 관련 세부사항은 함께 첨부드리는 자료를 통해 확인해주시면 감사하겠습니다.<br/><br/>이번 개편 확정안을 초석 삼아, 이전에 전해드렸던 재수강 관련 개편 발의안 및 학우 여러분께서 전해주신 기타 학사 안건들에 대해서도<br/>지속적으로 교무처 측과 논의를 진행하고자 합니다.<br/><br/>학우 여러분의 목소리가 학교 측에 명확히 반영될 수 있도록 한 걸음 앞에 먼저 서 있겠습니다.<br/><br/>총학생회 선[先]은 학우 여러분께서 더 나은 학사제도 아래에서 학교생활을 영위하실 수 있도록 최선을 다하겠습니다.<br/><br/>감사합니다.",
+    inImg: [
+      {
+        img: Img91_1,
+        alt: "img91_1",
+      },
+      {
+        img: Img91_2,
+        alt: "img91_2",
+      },
+    ],
+  },
+  {
+    id: 90,
+    link: "/info/notice/detail/90",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 2023년도 1학기 SMCL 준우승팀 안내",
+    date: "2023-06-08",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>2023학년도 1학기 SMCL 준우승팀을 안내 드립니다! 2023학년도 1학기 SMCL 준우승팀은 [잘먹남]입니다.<br/>잘먹남의 준우승을 축하드립니다!<br/><br/>🏆 준우승팀: <a href='https://www.instagram.com/jalmeoknam/' style='color: blue'>잘먹남</a><br/><br/>일시 : 2023.06.08(목) 19:20-20:30<br/>장소 : 상명대학교 서울캠퍼스 운동장<br/>주관 : 상명대학교 서울캠퍼스 제46대 총학생회 선[先]<br/><br/>🌐 문의 : <a href='https://open.kakao.com/o/sgJfUxcf' style='color: blue'>https://open.kakao.com/o/sgJfUxcf</a>",
+    inImg: [
+      {
+        img: Img90_1,
+        alt: "img90_1",
+      },
+    ],
+  },
+  {
+    id: 89,
+    link: "/info/notice/detail/89",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 2023년도 1학기 SMCL 우승팀 안내",
+    date: "2023-06-08",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>2023학년도 1학기 SMCL 최종 우승팀을 안내 드립니다! 2023학년도 1학기 SMCL 최종 우승팀은 [IEMU11]입니다.<br/>IEMU11의 우승을 축하드립니다!<br/><br/>🏆 최종 우승팀: <a href='https://www.instagram.com/iemu11/' style='color: blue'>IEMU11</a><br/><br/>일시 : 2023.06.08(목) 19:20-20:30<br/>장소 : 상명대학교 서울캠퍼스 운동장<br/>주관 : 상명대학교 서울캠퍼스 제46대 총학생회 선[先]<br/><br/>🌐 문의 : <a href='https://open.kakao.com/o/sgJfUxcf' style='color: blue'>https://open.kakao.com/o/sgJfUxcf</a>",
+    inImg: [
+      {
+        img: Img89_1,
+        alt: "img89_1",
+      },
+    ],
+  },
   {
     id: 88,
     link: "/info/notice/detail/88",
