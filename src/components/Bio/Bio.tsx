@@ -31,8 +31,7 @@ const Bio = ({ state }: Props) => {
               <Image src={item.img} alt="Bio" />
               <TextContainer>
                 <Title>{item.title}</Title>
-                <Text>{item.sub && item.sub}</Text>
-                <Text>{item.content}</Text>
+                <Text>{item.sub}</Text>
               </TextContainer>
             </ImageContainer>
           )

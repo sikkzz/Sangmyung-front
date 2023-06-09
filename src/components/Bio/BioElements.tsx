@@ -24,18 +24,19 @@ const Image = styled.img`
 
 const TextContainer = styled.div`
   position: absolute;
-  top: 157px;
+  top: 200px;
   left: 18%;
-  ${media.labtop`top: 140px;left: 10%;`};
-  ${media.tabletLarge`top: 140px;left: 10%;`};
-  ${media.tablet`top: 100px;left: 10%;`};
-  ${media.mobile`top: 100px;left: 10%;`};
+  ${media.labtop`top: 160px;left: 10%;`};
+  ${media.tabletLarge`top: 160px;left: 10%;`};
+  ${media.tablet`top: 130px;left: 10%;`};
+  ${media.mobile`top: 110px;left: 5%;`};
 `;
 
 const Title = styled.div`
   font-size: 50px;
   color: #fff;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-weight: 700;
   ${media.labtop`font-size: 42px;`};
   ${media.tabletLarge`font-size: 42px;`};
   ${media.tablet`font-size: 36px;`};
