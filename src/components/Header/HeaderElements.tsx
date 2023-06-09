@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 import { media } from "../../styles/MediaQuery";
 
@@ -78,7 +78,17 @@ const MenuIcon = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-`
+`;
+
+const opa = keyframes`
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+`;
 
 const DropDownContainer = styled.ul`
   display: block;
@@ -86,10 +96,14 @@ const DropDownContainer = styled.ul`
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
   position: relative;
   display: flex;
+  z-index: 90;
+  filter: drop-shadow(rgba(179, 182, 183, 0.5) 0px 4px 4px);
+  opacity: 0;
+  animation: 0.3s ease-in-out ${opa};
 `;
 
 const DropDownMenu = styled.li`
@@ -105,13 +119,15 @@ const DropDownMenuItem = styled.a`
 
 const DropDownSubContainer = styled.ul`
   flex-direction: column;
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
   left: 100%;
   top: 0;
   position: absolute;
   display: none;
   width: 160px;
+  filter: drop-shadow(rgba(179, 182, 183, 0.5) 0px 4px 4px 0px);
+  animation: 0.3s ease-in-out ${opa};
 `;
 
 const DropDownSubMenu = styled.li`

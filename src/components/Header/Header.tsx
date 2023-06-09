@@ -129,7 +129,7 @@ export default function Header() {
                 <MNavListLink href="/">HOME</MNavListLink>
               </MNavListItem>
               <MNavListItem>
-                <MNavListLink href='/sitemap'>사이트맵</MNavListLink>
+                <MNavListLink href="/sitemap">사이트맵</MNavListLink>
               </MNavListItem>
             </MNavList>
           </MNavUtilBox>
@@ -231,6 +231,7 @@ export default function Header() {
                       <DropDownContainer
                         style={{
                           display: display === index ? "block" : "none",
+                          opacity: display === index ? "1" : "0",
                         }}
                         onMouseOver={() => setDisplay(index)}
                         onMouseOut={() => setDisplay(9999)}
@@ -251,7 +252,7 @@ export default function Header() {
                                 <MenuIcon>
                                   <Icons.MdKeyboardArrowRight
                                     size={18}
-                                    color="#fff"
+                                    color="#000"
                                   />
                                 </MenuIcon>
                               ) : (
@@ -263,8 +264,6 @@ export default function Header() {
                                 style={{
                                   display:
                                     display2 === index ? "block" : "none",
-                                  visibility:
-                                    display2 === index ? "visible" : "hidden",
                                 }}
                                 onMouseOver={() => setDisplay2(index)}
                                 onMouseOut={() => setDisplay2(9999)}
