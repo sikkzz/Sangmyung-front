@@ -31,6 +31,7 @@ import {
   AiOutlineCloudDownload,
   AiOutlineMail,
   AiFillGithub,
+  AiFillHome,
 } from "react-icons/ai";
 import {
   MdWorkOutline,
@@ -116,6 +117,7 @@ const Icons = {
   HiOutlineOfficeBuilding,
   FaSchool,
   AiFillGithub,
+  AiFillHome,
 };
 
 export default Icons;
