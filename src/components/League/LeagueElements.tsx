@@ -13,4 +13,34 @@ const Col = styled.div`
 
 const Box = styled.div``;
 
-export { Layout, Col, Box };
+const DateBox = styled.div`
+  padding: 23px 0;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+`;
+
+const Month = styled.h2`
+  font-size: 35px;
+  font-weight: 700;
+  color: #000;
+  margin-right: 40px;
+  max-width: 220px;
+`;
+
+const IconBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: #f7f7f7;
+  border: 1px solid #e6e9ed;
+
+  /* &:first-of-type{
+    margin-left: 40px;
+  } */
+`;
+
+export { Layout, Col, Box, DateBox, Month, IconBox };

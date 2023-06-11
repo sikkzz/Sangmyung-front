@@ -43,7 +43,12 @@ import {
   MdVolunteerActivism,
   MdCorporateFare,
 } from "react-icons/md";
-import { BiLoaderCircle, BiDownload } from "react-icons/bi";
+import {
+  BiLoaderCircle,
+  BiDownload,
+  BiRightArrow,
+  BiLeftArrow,
+} from "react-icons/bi";
 import {
   IoShareSocialSharp,
   IoChevronDown,
@@ -118,6 +123,8 @@ const Icons = {
   FaSchool,
   AiFillGithub,
   AiFillHome,
+  BiRightArrow,
+  BiLeftArrow,
 };
 
 export default Icons;
