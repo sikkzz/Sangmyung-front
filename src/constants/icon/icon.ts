@@ -55,7 +55,7 @@ import {
   IoChevronUp,
   IoChevronForward,
 } from "react-icons/io5";
-import { GiPartyPopper, GiClothes } from "react-icons/gi";
+import { GiPartyPopper, GiClothes, GiSoccerBall } from "react-icons/gi";
 import { SiGooglecolab } from "react-icons/si";
 import { CgDanger } from "react-icons/cg";
 import { GrSystem } from "react-icons/gr";
@@ -125,6 +125,7 @@ const Icons = {
   AiFillHome,
   BiRightArrow,
   BiLeftArrow,
+  GiSoccerBall,
 };
 
 export default Icons;
