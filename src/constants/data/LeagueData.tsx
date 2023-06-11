@@ -12,6 +12,7 @@ import Img11 from "../../assets/league/logo/jalmuk.png";
 
 export const LeagueData = [
   {
+    id: 23,
     month: 6,
     date: "2023.06.08",
     time: "19:00",
@@ -26,6 +27,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 22,
     month: 6,
     date: "2023.06.08",
     time: "18:00",
@@ -40,6 +42,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 21,
     month: 6,
     date: "2023.06.05",
     time: "19:00",
@@ -54,6 +57,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 20,
     month: 6,
     date: "2023.06.05",
     time: "18:00",
@@ -68,6 +72,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 19,
     month: 6,
     date: "2023.06.02",
     time: "19:00",
@@ -82,6 +87,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 18,
     month: 6,
     date: "2023.06.02",
     time: "18:00",
@@ -96,6 +102,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 17,
     month: 5,
     date: "2023.05.30",
     time: "19:00",
@@ -108,8 +115,11 @@ export const LeagueData = [
     title2: "게놈",
     score2: "0",
     state: "경기종료",
+    score3: "6",
+    score4: "5",
   },
   {
+    id: 16,
     month: 5,
     date: "2023.05.30",
     time: "18:00",
@@ -122,8 +132,11 @@ export const LeagueData = [
     title2: "트리플S",
     score2: "0",
     state: "경기종료",
+    score3: "4",
+    score4: "2",
   },
   {
+    id: 15,
     month: 5,
     date: "2023.05.26",
     time: "19:00",
@@ -138,6 +151,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 14,
     month: 5,
     date: "2023.05.26",
     time: "18:00",
@@ -152,6 +166,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 13,
     month: 5,
     date: "2023.05.22",
     time: "19:00",
@@ -166,6 +181,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 12,
     month: 5,
     date: "2023.05.22",
     time: "18:00",
@@ -180,6 +196,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 11,
     month: 5,
     date: "2023.05.16",
     time: "18:00",
@@ -194,6 +211,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 10,
     month: 5,
     date: "2023.05.09",
     time: "19:00",
@@ -208,6 +226,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 9,
     month: 5,
     date: "2023.05.09",
     time: "18:00",
@@ -222,6 +241,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 8,
     month: 5,
     date: "2023.05.08",
     time: "19:00",
@@ -236,6 +256,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 7,
     month: 5,
     date: "2023.05.08",
     time: "18:00",
@@ -250,6 +271,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 6,
     month: 5,
     date: "2023.05.02",
     time: "19:00",
@@ -264,6 +286,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 5,
     month: 5,
     date: "2023.05.02",
     time: "18:00",
@@ -278,6 +301,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 4,
     month: 5,
     date: "2023.05.01",
     time: "19:00",
@@ -292,6 +316,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 3,
     month: 5,
     date: "2023.05.01",
     time: "18:00",
@@ -306,6 +331,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 2,
     month: 4,
     date: "2023.04.14",
     time: "19:00",
@@ -320,6 +346,7 @@ export const LeagueData = [
     state: "경기종료",
   },
   {
+    id: 1,
     month: 4,
     date: "2023.04.14",
     time: "18:00",

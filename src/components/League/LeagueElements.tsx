@@ -67,7 +67,7 @@ const Tr = styled.tr``;
 
 const Th = styled.th<{ size: string }>`
   width: ${(props) => props.size};
-  padding: 22px 10px;
+  padding: 14px 10px;
   border-bottom: 1px solid #e5e5e5;
   background-color: #f6f9ef;
   font-size: 18px;
@@ -123,6 +123,14 @@ const TdTitle2 = styled(TdTitle)`
   margin: 0 30px 0 0;
 `;
 
+const ScoreBox = styled.div`
+  /* vertical-align: bottom; */
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding-bottom: 10px;
+`
+
 const TdScore = styled.div`
   display: flex;
   align-items: center;
@@ -135,6 +143,11 @@ const TdScore = styled.div`
 const TdSpan = styled.span`
   margin: 0 6px;
 `;
+
+const TdScore2 = styled.div`
+  font-size: 12px;
+  height: 14px;
+`
 
 const TdEnd = styled.div`
   background-color: #ee2529;
@@ -187,8 +200,10 @@ export {
   TdImage,
   TdTitle,
   TdTitle2,
+  ScoreBox,
   TdScore,
   TdSpan,
+  TdScore2,
   TdEnd,
   Detail,
   DetailBox,
