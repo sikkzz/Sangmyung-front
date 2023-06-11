@@ -21,7 +21,6 @@ const DateBox = styled.div`
   padding: 23px 0;
   width: 100%;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
 `;
 
@@ -100,8 +99,8 @@ const TdTeam = styled.div`
 `;
 
 const TdImageBox = styled.div`
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
 `;
 
 const TdImage = styled.img`
@@ -115,7 +114,7 @@ const TdTitle = styled.div`
   font-size: 24px;
   font-weight: 700;
   margin-left: 30px;
-  min-width: 100px;
+  min-width: 120px;
 `;
 
 const TdTitle2 = styled(TdTitle)`
@@ -130,6 +129,7 @@ const TdScore = styled.div`
   font-size: 24px;
   font-weight: 700;
   width: auto;
+  margin: 0 20px;
 `;
 
 const TdSpan = styled.span`

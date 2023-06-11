@@ -36,6 +36,8 @@ import Icons from "../../constants/icon";
 import Image1 from "../../assets/league/logo/genome2.jpg";
 import Image2 from "../../assets/league/logo/iemu11.jpg";
 
+import { LeagueData } from "../../constants/data/LeagueData";
+
 const League = () => {
   const [currentMonth, setCurrentMonth] = useState(new Date());
 
@@ -79,38 +81,42 @@ const League = () => {
                 </Tr>
               </THead>
               <TBody>
-                <Tr>
-                  <Td>2023.05.05</Td>
-                  <Td>14:00</Td>
-                  <Td>
-                    <TdMatch>
-                      <TdTeam>
-                        <TdImageBox>
-                          <TdImage src={Image1} alt="image1" />
-                        </TdImageBox>
-                        <TdTitle>게놈</TdTitle>
-                      </TdTeam>
-                      <TdScore>
-                        0<TdSpan>:</TdSpan>3
-                      </TdScore>
-                      <TdTeam>
-                        <TdTitle2>HIEMU11</TdTitle2>
-                        <TdImageBox>
-                          <TdImage src={Image2} alt="image1" />
-                        </TdImageBox>
-                      </TdTeam>
-                    </TdMatch>
-                    <TdEnd>경기종료</TdEnd>
-                  </Td>
-                  <Td>
-                    <Detail>
-                      세부정보
-                      <DetailBox>
-                        <Icons.GiSoccerBall size={16} color="#fff" />
-                      </DetailBox>
-                    </Detail>
-                  </Td>
-                </Tr>
+                {LeagueData.map((item, index) => (
+                  <Tr key={index}>
+                    <Td>{item.date}</Td>
+                    <Td>{item.time}</Td>
+                    <Td>
+                      <TdMatch>
+                        <TdTeam>
+                          <TdImageBox>
+                            <TdImage src={item.img1} alt={item.alt1} />
+                          </TdImageBox>
+                          <TdTitle>{item.title1}</TdTitle>
+                        </TdTeam>
+                        <TdScore>
+                          {item.score1}
+                          <TdSpan>:</TdSpan>
+                          {item.score2}
+                        </TdScore>
+                        <TdTeam>
+                          <TdTitle2>{item.title2}</TdTitle2>
+                          <TdImageBox>
+                            <TdImage src={item.img2} alt={item.alt2} />
+                          </TdImageBox>
+                        </TdTeam>
+                      </TdMatch>
+                      <TdEnd>{item.state}</TdEnd>
+                    </Td>
+                    <Td>
+                      <Detail>
+                        세부정보
+                        <DetailBox>
+                          <Icons.GiSoccerBall size={16} color="#fff" />
+                        </DetailBox>
+                      </Detail>
+                    </Td>
+                  </Tr>
+                ))}
               </TBody>
             </Table>
           </ResultBox>
