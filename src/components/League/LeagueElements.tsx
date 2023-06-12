@@ -22,14 +22,16 @@ const DateBox = styled.div`
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;
 `;
 
 const Month = styled.h2`
   font-size: 35px;
   font-weight: 700;
   color: #000;
-  margin-right: 40px;
+  margin: 0 40px;
   max-width: 220px;
+  ${media.mobile`font-size: 24px;margin: 0 30px;`}
 `;
 
 const IconBox = styled.div`
@@ -38,8 +40,7 @@ const IconBox = styled.div`
   align-items: center;
   width: 40px;
   height: 40px;
-  background: #f7f7f7;
-  border: 1px solid #e6e9ed;
+  ${media.mobile`width: 30px;height: 30px;`}
 `;
 
 const ResultBox = styled.div``;
@@ -50,6 +51,9 @@ const Table = styled.table`
   border-spacing: 0;
   margin-top: 30px;
   border-top: 1px solid #000;
+  ${media.tabletLarge`display: none;`}
+  ${media.tablet`display: none;`}
+  ${media.mobile`display: none;`}
 `;
 
 const ColGroup = styled.colgroup``;
@@ -124,12 +128,11 @@ const TdTitle2 = styled(TdTitle)`
 `;
 
 const ScoreBox = styled.div`
-  /* vertical-align: bottom; */
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   padding-bottom: 10px;
-`
+`;
 
 const TdScore = styled.div`
   display: flex;
@@ -147,7 +150,7 @@ const TdSpan = styled.span`
 const TdScore2 = styled.div`
   font-size: 12px;
   height: 14px;
-`
+`;
 
 const TdEnd = styled.div`
   background-color: #ee2529;

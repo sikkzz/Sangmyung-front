@@ -29,6 +29,23 @@ import {
   DetailBox,
 } from "./LeagueElements";
 
+import {
+  GameBox,
+  Content,
+  Title,
+  LineUpBox,
+  TeamBox,
+  ImgBox,
+  Img,
+  Text,
+  MScoreBox,
+  Score,
+  ScoreSpan,
+  StateSpan,
+  InfoBox,
+  Info,
+} from "./LeagueMediaElements";
+
 import { addMonths, subMonths, format } from "date-fns";
 
 import { useEffect, useState } from "react";
@@ -36,6 +53,8 @@ import { useEffect, useState } from "react";
 import Icons from "../../constants/icon";
 
 import { LeagueData } from "../../constants/data/LeagueData";
+
+import image1 from "../../assets/league/logo/765.png";
 
 type Props = {
   id: number;
@@ -79,14 +98,14 @@ const League = () => {
       <Col>
         <Box>
           <DateBox>
+            <IconBox onClick={prevMonth}>
+              <Icons.AiOutlineLeft size={24} color="#808080" />
+            </IconBox>
             <Month>
               {format(currentMonth, "yyyy")}년 {format(currentMonth, "MM")}월
             </Month>
-            <IconBox onClick={prevMonth}>
-              <Icons.BiLeftArrow size={16} color="#808080" />
-            </IconBox>
             <IconBox onClick={nextMonth}>
-              <Icons.BiRightArrow size={16} color="#808080" />
+              <Icons.AiOutlineRight size={24} color="#808080" />
             </IconBox>
           </DateBox>
           <ResultBox>
@@ -180,6 +199,57 @@ const League = () => {
                 )}
               </TBody>
             </Table>
+            <GameBox>
+              {posts.map(
+                ({
+                  id,
+                  date,
+                  time,
+                  img1,
+                  alt1,
+                  title1,
+                  score1,
+                  score2,
+                  title2,
+                  img2,
+                  alt2,
+                  state,
+                }: Props) => (
+                  <Content key={id}>
+                    <Title>{date}</Title>
+                    <Title>{time}</Title>
+                    <LineUpBox>
+                      <TeamBox>
+                        <ImgBox>
+                          <Img src={img1} alt={alt1} />
+                        </ImgBox>
+                        <Text>{title1}</Text>
+                      </TeamBox>
+                      <MScoreBox>
+                        <Score>
+                          {score1}
+                          <ScoreSpan>:</ScoreSpan>
+                          {score2}
+                        </Score>
+                        <StateSpan>{state}</StateSpan>
+                      </MScoreBox>
+                      <TeamBox>
+                        <ImgBox>
+                          <Img src={img2} alt={alt2} />
+                        </ImgBox>
+                        <Text>{title2}</Text>
+                      </TeamBox>
+                    </LineUpBox>
+                    <InfoBox>
+                      세부정보
+                      <Info>
+                        <Icons.GiSoccerBall size={16} color="#fff" />
+                      </Info>
+                    </InfoBox>
+                  </Content>
+                )
+              )}
+            </GameBox>
           </ResultBox>
         </Box>
       </Col>

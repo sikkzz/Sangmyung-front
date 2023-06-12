@@ -46,8 +46,6 @@ import {
 import {
   BiLoaderCircle,
   BiDownload,
-  BiRightArrow,
-  BiLeftArrow,
 } from "react-icons/bi";
 import {
   IoShareSocialSharp,
@@ -123,8 +121,6 @@ const Icons = {
   FaSchool,
   AiFillGithub,
   AiFillHome,
-  BiRightArrow,
-  BiLeftArrow,
   GiSoccerBall,
 };
 
