@@ -25,11 +25,18 @@ const Title = styled.div`
   font-weight: 700;
 `;
 
-const MapBox = styled.div`
-    width: 800px;
-    height: 800px;
-    margin: 50px auto;
-    ${media.mobile`width: 300px;height: 300px;`}
-`
+const Sub = styled.div`
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #666;
+`;
 
-export { Layout, Col, Box, Title, MapBox };
+const MapBox = styled.div`
+  width: 800px;
+  height: 800px;
+  margin: 50px auto;
+  ${media.mobile`width: 300px;height: 300px;`}
+`;
+
+export { Layout, Col, Box, Title, Sub, MapBox };

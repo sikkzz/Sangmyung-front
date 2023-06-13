@@ -92,7 +92,6 @@ const BoardCol = styled.div`
   width: 100%;
   position: relative;
   margin-top: 30px;
-  justify-content: center;
 `;
 
 const BoardItem = styled.div`

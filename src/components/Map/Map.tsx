@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 
-import { Layout, Col, Box, Title, MapBox } from "./MapElements";
+import { Layout, Col, Box, Title, Sub, MapBox } from "./MapElements";
 
 const kakao = (window as any).kakao;
 
@@ -29,6 +29,7 @@ const Map = () => {
       <Col>
         <Box>
           <Title>총학생회실</Title>
+          <Sub>학생회관 H212호</Sub>
           <MapBox>
             <div
               id="map"
