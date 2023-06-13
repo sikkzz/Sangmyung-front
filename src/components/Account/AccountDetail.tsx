@@ -47,23 +47,23 @@ const AccountDetail = () => {
   const [prevLink, setPrevLink] = useState("");
   const [nextLink, setNextLink] = useState("");
 
-  // useEffect(() => {
-  //   setPrevNum(Number(param.id) - 1);
-  //   setNextNum(Number(param.id) + 1);
-  //   AccountData.map((item, index) => (
-  //     <>
-  //       {prevNum === item.id ? setPrevTitle(item.title) : ""}
-  //       {prevNum === item.id ? setPrevLink(item.link) : ""}
-  //       {nextNum === item.id ? setNextTitle(item.title) : ""}
-  //       {nextNum === item.id ? setNextLink(item.link) : ""}
-  //     </>
-  //   ));
-  // }, [nextNum, param.id, prevNum]);
+  useEffect(() => {
+    setPrevNum(Number(param.id) - 1);
+    setNextNum(Number(param.id) + 1);
+    AccountData.map((item, index) => (
+      <>
+        {prevNum === item.id ? setPrevTitle(item.title) : ""}
+        {prevNum === item.id ? setPrevLink(item.link) : ""}
+        {nextNum === item.id ? setNextTitle(item.title) : ""}
+        {nextNum === item.id ? setNextLink(item.link) : ""}
+      </>
+    ));
+  }, [nextNum, param.id, prevNum]);
 
   return (
     <Layout>
       <Col>
-        {/* {AccountData.map((item, index) => (
+        {AccountData.map((item, index) => (
           <Box key={index}>
             {Number(param.id) === item.id ? (
               <>
@@ -125,14 +125,14 @@ const AccountDetail = () => {
                   </PageCol>
                 </PageBox>
                 <ListBox>
-                  <ListButton href="/notice">목록</ListButton>
+                  <ListButton href="/work/account">목록</ListButton>
                 </ListBox>
               </>
             ) : (
               ""
             )}
           </Box>
-        ))} */}
+        ))}
       </Col>
     </Layout>
   );

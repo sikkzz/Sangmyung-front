@@ -254,6 +254,7 @@ import Video5 from "../../assets/video/5.mp4";
 import Video6 from "../../assets/video/6.mp4";
 import Video7 from "../../assets/video/7.mp4";
 import Video8 from "../../assets/video/8.mp4";
+import Video9 from "../../assets/video/9.mp4";
 
 import Img38_1 from "../../assets/notice/38/1.jpg";
 import Img38_2 from "../../assets/notice/38/2.jpg";
@@ -538,7 +539,211 @@ import Img90_1 from "../../assets/notice/90/1.jpg";
 import Img91_1 from "../../assets/notice/91/1.jpg";
 import Img91_2 from "../../assets/notice/91/2.jpg";
 
+import Img93_1 from "../../assets/education/17/001.png";
+import Img93_2 from "../../assets/education/17/002.png";
+import Img93_3 from "../../assets/education/17/003.png";
+import Img93_4 from "../../assets/education/17/004.png";
+import Img93_5 from "../../assets/education/17/005.png";
+import Img93_6 from "../../assets/education/17/006.png";
+import Img93_7 from "../../assets/education/17/007.png";
+import Img93_8 from "../../assets/education/17/008.png";
+import Img93_9 from "../../assets/education/17/009.png";
+import Img93_10 from "../../assets/education/17/010.png";
+
+import Img94_1 from "../../assets/education/18/001.png";
+import Img94_2 from "../../assets/education/18/002.png";
+import Img94_3 from "../../assets/education/18/003.png";
+import Img94_4 from "../../assets/education/18/004.png";
+import Img94_5 from "../../assets/education/18/005.png";
+import Img94_6 from "../../assets/education/18/006.png";
+import Img94_7 from "../../assets/education/18/007.png";
+import Img94_8 from "../../assets/education/18/008.png";
+import Img94_9 from "../../assets/education/18/009.png";
+import Img94_10 from "../../assets/education/18/010.png";
+
+import Img95_1 from "../../assets/notice/95/1.jpg";
+
+import Img96_1 from "../../assets/account/1/1.jpg";
+import Img96_2 from "../../assets/account/1/2.jpg";
+import Img96_3 from "../../assets/account/1/3.jpg";
+import Img96_4 from "../../assets/account/1/4.jpg";
+import Img96_5 from "../../assets/account/1/5.jpg";
+import Img96_6 from "../../assets/account/1/6.jpg";
+
 export const NoticeData = [
+  {
+    id: 96,
+    link: "/info/notice/detail/96",
+    title: "상명대학교 제46대 총학생회 '선[先]' 2023 대동제 결산 내역 공개",
+    date: "2023-06-13",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 재정사무국입니다.<br/><br/>재정사무국에서는 학우 여러분들이 납부하신 학생회비를 집행 및 관리하고 있습니다.<br/><br/>보다 공정하고 투명한 총학생회 운영을 위해 '2023년 대동제' 결산 내역을 다음과 같이 알려드립니다.<br/><br/>💵 총예산액 금7,727,000원<br/>💵 총결산액 금7,537,600원<br/><br/>※ 대동제 예산 총액: 17,500,000원(7,727,000원 + 9,773,000원으로 분할 집행)<br/>※ 총학생회측 집행/결산금액: 7,537,600원 (189,400원 학생처로 반납 완료)<br/>※ 이외 9,773,000원의 경우 본교 학생처에서 회계 처리 담당 및 결산 완료<br/><br/>제46대 총학생회 선[先] 재정사무국은 학우 여러분께서 납부하신 학생회비가 투명하게 쓰이기 위해 항상 노력할 것을 약속드립니다.<br/><br/>관련하여 추가적인 문의 사항이 있으시다면, 아래 소통 창구를 통해 연락해주시면 감사하겠습니다.<br/><br/>감사합니다 💙<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img96_1,
+        alt: "img96_1",
+      },
+      {
+        img: Img96_2,
+        alt: "img96_2",
+      },
+      {
+        img: Img96_3,
+        alt: "img96_3",
+      },
+      {
+        img: Img96_4,
+        alt: "img96_4",
+      },
+      {
+        img: Img96_5,
+        alt: "img96_5",
+      },
+      {
+        img: Img96_6,
+        alt: "img96_6",
+      },
+    ],
+  },
+  {
+    id: 95,
+    link: "/info/notice/detail/95",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 농촌 봉사 활동 Comming Soon 안내",
+    date: "2023-06-12",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]의 복지사업국입니다🍀<br/><br/>이번 하계 방학 중, 총학생회 주관 하계 농촌 봉사 활동이 예정되어 있습니다!<br/><br/>“ 선행[先行] : 어떠한 것보다 앞서 행함 ”의 의미를 담아, 학우 여러분과 함께 의미 있는 농촌 봉사 활동을 진행할 예정입니다🏃🏻‍♂️<br/><br/>자세한 일정과 참여 신청 방법 등 기타 사항은 이른 시일 내에 전달드릴 예정이니, 많은 관심 부탁드립니다 :)<br/><br/>앞으로도 다양한 방면에서, 학우 여러분의 복지를 위해 더욱 노력하도록 하겠습니다. 감사합니다💙<br/><br/>관련하여 문의 사항이 있으시다면, 아래 방법을 통해 연락해주시면 감사하겠습니다🙂<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img95_1,
+        alt: "img95_1",
+      },
+    ],
+  },
+  {
+    id: 94,
+    link: "/info/notice/detail/94",
+    title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 학술논문 이용 2편",
+    date: "2023-06-12",
+    owner: "관리자",
+    kind: "학사",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/>6월 셋째 주, 두 번째로 제공해드리는 정보는 ‘학술논문 이용 편 2’입니다.<br/><br/>지난 1편에 이어, 과제 혹은 시험공부를 할 때 필요한 논문, 학술자료를 상명대학교 학술정보관 홈페이지에서 이용 가능한 서비스를 안내해드리려 합니다.<br/><br/>학술논문 이용 편 2부터 4까지는 국외DB를 소개해드리겠습니다.💌<br/><br/>- 이용 가능한 학술 논문 찾기<br/>- 학문 전 분야<br/>- 예술 분야<br/><br/>자세한 사항은 '학술정보관 홈페이지'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 또 다른💡선[先]견지명💡콘텐츠에도 많은 관심 부탁드립니다! 감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img94_1,
+        alt: "img94_1",
+      },
+      {
+        img: Img94_2,
+        alt: "img94_2",
+      },
+      {
+        img: Img94_3,
+        alt: "img94_3",
+      },
+      {
+        img: Img94_4,
+        alt: "img94_4",
+      },
+      {
+        img: Img94_5,
+        alt: "img94_5",
+      },
+      {
+        img: Img94_6,
+        alt: "img94_6",
+      },
+      {
+        img: Img94_7,
+        alt: "img94_7",
+      },
+      {
+        img: Img94_8,
+        alt: "img94_8",
+      },
+      {
+        img: Img94_9,
+        alt: "img94_9",
+      },
+      {
+        img: Img94_10,
+        alt: "img94_10",
+      },
+    ],
+  },
+  {
+    id: 93,
+    link: "/info/notice/detail/93",
+    title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 학술논문 이용 1편",
+    date: "2023-06-12",
+    owner: "관리자",
+    kind: "학사",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>6월 셋째 주, 제공해드리는 정보는 ‘학술논문 이용 편 1’입니다.<br/><br/>과제 혹은 시험공부를 할 때 필요한 논문, 학술자료를 상명대학교 학술정보관 홈페이지에서 이용 가능한 서비스를 안내해드리려 합니다.<br/><br/>학술정보관에서 구독하는 학술DB를 정리해보았습니다.<br/>국내DB와 국외DB로 총 4편으로나누어 안내드릴 예정입니다. 카드뉴스를 통해 분야별 학술DB를 확인해보세요!💌<br/><br/>- 이용 가능한 학술 논문 찾기<br/>- 학문 전 분야<br/>- 세부 분야<br/>- 사회과학 분야<br/>- 학술자료 열람 사이트<br/><br/>자세한 사항은 '학술정보관 홈페이지'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 또 다른💡선[先]견지명💡콘텐츠에도 많은 관심 부탁드립니다! 감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img93_1,
+        alt: "img93_1",
+      },
+      {
+        img: Img93_2,
+        alt: "img93_2",
+      },
+      {
+        img: Img93_3,
+        alt: "img93_3",
+      },
+      {
+        img: Img93_4,
+        alt: "img93_4",
+      },
+      {
+        img: Img93_5,
+        alt: "img93_5",
+      },
+      {
+        img: Img93_6,
+        alt: "img93_6",
+      },
+      {
+        img: Img93_7,
+        alt: "img93_7",
+      },
+      {
+        img: Img93_8,
+        alt: "img93_8",
+      },
+      {
+        img: Img93_9,
+        alt: "img93_9",
+      },
+      {
+        img: Img93_10,
+        alt: "img93_10",
+      },
+    ],
+  },
+  {
+    id: 92,
+    link: "/info/notice/detail/92",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 2023년도 1학기 SMCL 결승전 영상",
+    date: "2023-06-10",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "[2023-1 상명대학교 서울캠퍼스 SMCL-1 결승]<br/><br/>『2023학년도 1학기 SMCL 결승전』<br/><br/>일시 : 2023.06.08(목)<br/>장소 : 상명대학교 서울캠퍼스 운동장<br/>주관 : 상명대학교 서울캠퍼스 제46대 총학생회 선[先]<br/><br/>상명대학교 학우 여러분의 많은 관심과 사랑 덕분에 성황리에 [SMCL-1] 대회가 종료되었습니다!<br/>참여해주신 모든 선수분들과 관계자 여러분께 진심 어린 감사의 인사를 전해드립니다.<br/><br/>본 총학생회에서는 재정비를 통해 이번 대회보다 더욱 발전된 모습으로, 2023학년도 2학기 SMCL 대회에서 다시 인사드리도록 하겠습니다.<br/><br/>[SMCL-2]에도 많은 기대와 관심 부탁드립니다. 감사합니다!<br/><br/>🌐 문의 : <a href='https://open.kakao.com/o/sgJfUxcf' style='color: blue'>https://open.kakao.com/o/sgJfUxcf</a>",
+    inVideo: [
+      {
+        video: Video9,
+      },
+    ],
+  },
   {
     id: 91,
     link: "/info/notice/detail/91",
