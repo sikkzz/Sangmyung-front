@@ -173,6 +173,7 @@ const Detail = styled.div`
   color: #fff;
   font-size: 16px;
   text-align: center;
+  /* cursor: pointer; */
 `;
 
 const DetailBox = styled.div`

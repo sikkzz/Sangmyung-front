@@ -54,7 +54,7 @@ import Icons from "../../constants/icon";
 
 import { LeagueData } from "../../constants/data/LeagueData";
 
-import image1 from "../../assets/league/logo/765.png";
+import { useNavigate } from "react-router-dom";
 
 type Props = {
   id: number;
@@ -76,6 +76,8 @@ type Props = {
 const League = () => {
   const [currentMonth, setCurrentMonth] = useState(new Date());
   const [posts, setPosts] = useState([] as any);
+
+  const navigate = useNavigate();
 
   useEffect(() => {
     setPosts(
@@ -187,7 +189,9 @@ const League = () => {
                         <TdEnd>{state}</TdEnd>
                       </Td>
                       <Td>
-                        <Detail>
+                        <Detail
+                          // onClick={() => navigate(`/work/league/detail/${id}`)}
+                        >
                           세부정보
                           <DetailBox>
                             <Icons.GiSoccerBall size={16} color="#fff" />
@@ -240,7 +244,9 @@ const League = () => {
                         <Text>{title2}</Text>
                       </TeamBox>
                     </LineUpBox>
-                    <InfoBox>
+                    <InfoBox
+                      // onClick={() => navigate(`/work/league/detail/${id}`)}
+                    >
                       세부정보
                       <Info>
                         <Icons.GiSoccerBall size={16} color="#fff" />

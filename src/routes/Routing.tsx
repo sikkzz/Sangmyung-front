@@ -32,6 +32,7 @@ import BoardPage from "../pages/BoardPage";
 import SitemapPage from "../pages/SitemapPage";
 import ProducerPage from "../pages/ProducerPage";
 import LeaguePage from "../pages/LeaguePage";
+import LeagueDetailPage from "../pages/LeagueDetailPage";
 import ClubPage from "../pages/ClubPage";
 
 import { AnimatePresence } from "framer-motion";
@@ -83,6 +84,7 @@ const Routing = () => {
         />
         <Route path="/work/account" element={<AccountPage />} />
         <Route path="/work/league" element={<LeaguePage />} />
+        <Route path="/work/league/detail/:id" element={<LeagueDetailPage />} />
         <Route
           path="/work/account/detail/:id"
           element={<AccountDetailPage />}
