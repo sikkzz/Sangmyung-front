@@ -164,6 +164,47 @@ import Img16_8 from "../../assets/education/16/008.png";
 import Img16_9 from "../../assets/education/16/009.png";
 import Img16_10 from "../../assets/education/16/010.png";
 
+import Img17_1 from "../../assets/education/17/001.png";
+import Img17_2 from "../../assets/education/17/002.png";
+import Img17_3 from "../../assets/education/17/003.png";
+import Img17_4 from "../../assets/education/17/004.png";
+import Img17_5 from "../../assets/education/17/005.png";
+import Img17_6 from "../../assets/education/17/006.png";
+import Img17_7 from "../../assets/education/17/007.png";
+import Img17_8 from "../../assets/education/17/008.png";
+import Img17_9 from "../../assets/education/17/009.png";
+import Img17_10 from "../../assets/education/17/010.png";
+
+import Img18_1 from "../../assets/education/18/001.png";
+import Img18_2 from "../../assets/education/18/002.png";
+import Img18_3 from "../../assets/education/18/003.png";
+import Img18_4 from "../../assets/education/18/004.png";
+import Img18_5 from "../../assets/education/18/005.png";
+import Img18_6 from "../../assets/education/18/006.png";
+import Img18_7 from "../../assets/education/18/007.png";
+import Img18_8 from "../../assets/education/18/008.png";
+import Img18_9 from "../../assets/education/18/009.png";
+import Img18_10 from "../../assets/education/18/010.png";
+
+import Img19_1 from "../../assets/education/19/001.png";
+import Img19_2 from "../../assets/education/19/002.png";
+import Img19_3 from "../../assets/education/19/003.png";
+import Img19_4 from "../../assets/education/19/004.png";
+import Img19_5 from "../../assets/education/19/005.png";
+import Img19_6 from "../../assets/education/19/006.png";
+import Img19_7 from "../../assets/education/19/007.png";
+import Img19_8 from "../../assets/education/19/008.png";
+import Img19_9 from "../../assets/education/19/009.png";
+
+import Img20_1 from "../../assets/education/20/001.png";
+import Img20_2 from "../../assets/education/20/002.png";
+import Img20_3 from "../../assets/education/20/003.png";
+import Img20_4 from "../../assets/education/20/004.png";
+import Img20_5 from "../../assets/education/20/005.png";
+import Img20_6 from "../../assets/education/20/006.png";
+import Img20_7 from "../../assets/education/20/007.png";
+import Img20_8 from "../../assets/education/20/008.png";
+
 import noImg1_1 from "../../assets/education/notice/1/1-1.png";
 import noImg1_2 from "../../assets/education/notice/1/1-2.png";
 import noImg1_3 from "../../assets/education/notice/1/1-3.png";
@@ -216,6 +257,206 @@ import noImg5_9 from "../../assets/education/notice/5/9.jpg";
 import noImg5_10 from "../../assets/education/notice/5/10.jpg";
 
 export const EducationForesightData = [
+  {
+    id: 20,
+    link: "/work/education/foresight/detail/20",
+    img: Img20_1,
+    alt: "img20_1",
+    title: "💙선[先]견지명 - 학술논문 이용 4편💙",
+    date: "2023-06-14",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>이번 학기 마지막으로 제공해드리는 정보는 ‘학술논문 이용 편 4’입니다.<br/><br/>지난 3편에 이어, 과제 혹은 시험공부를 할 때 필요한 논문, 학술자료를 상명대학교 학술정보관 홈페이지에서 이용 가능한 서비스를 안내해드리려 합니다.<br/><br/>학술논문 이용 편 2부터 4까지는 국외DB를 소개해드리고 있습니다.💌<br/><br/>- 이용 가능한 학술 논문 찾기<br/>- 의학 분야<br/>- 기사 제공<br/><br/>자세한 사항은 '학술정보관 홈페이지'에서 확인하실 수 있습니다.<br/><br/>4월 첫째 주부터 6월 셋째 주까지, 총 18편의 💡선[先]견지명💡콘텐츠를 통해 학우 여러분에게 유용한 학사 정보를 전달하기 위해 노력하였습니다.<br/><br/>2학기에는 더 나은 모습의💡선[先]견지명💡으로 돌아오겠습니다!🤓<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img20_1,
+        alt: "img20_1",
+      },
+      {
+        img: Img20_2,
+        alt: "img20_2",
+      },
+      {
+        img: Img20_3,
+        alt: "img20_3",
+      },
+      {
+        img: Img20_4,
+        alt: "img20_4",
+      },
+      {
+        img: Img20_5,
+        alt: "img20_5",
+      },
+      {
+        img: Img20_6,
+        alt: "img20_6",
+      },
+      {
+        img: Img20_7,
+        alt: "img20_7",
+      },
+      {
+        img: Img20_8,
+        alt: "img20_8",
+      },
+    ],
+  },
+  {
+    id: 19,
+    link: "/work/education/foresight/detail/19",
+    img: Img19_1,
+    alt: "img19_1",
+    title: "💙선[先]견지명 - 학술논문 이용 3편💙",
+    date: "2023-06-14",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]의 복지사업국입니다🍀<br/><br/>이번 하계 방학 중, 총학생회 주관 하계 농촌 봉사 활동이 예정되어 있습니다!<br/><br/>“ 선행[先行] : 어떠한 것보다 앞서 행함 ”의 의미를 담아, 학우 여러분과 함께 의미 있는 농촌 봉사 활동을 진행할 예정입니다🏃🏻‍♂️<br/><br/>자세한 일정과 참여 신청 방법 등 기타 사항은 이른 시일 내에 전달드릴 예정이니, 많은 관심 부탁드립니다 :)<br/><br/>앞으로도 다양한 방면에서, 학우 여러분의 복지를 위해 더욱 노력하도록 하겠습니다. 감사합니다💙<br/><br/>관련하여 문의 사항이 있으시다면, 아래 방법을 통해 연락해주시면 감사하겠습니다🙂<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img19_1,
+        alt: "img19_1",
+      },
+      {
+        img: Img19_2,
+        alt: "img19_2",
+      },
+      {
+        img: Img19_3,
+        alt: "img19_3",
+      },
+      {
+        img: Img19_4,
+        alt: "img19_4",
+      },
+      {
+        img: Img19_5,
+        alt: "img19_5",
+      },
+      {
+        img: Img19_6,
+        alt: "img19_6",
+      },
+      {
+        img: Img19_7,
+        alt: "img19_7",
+      },
+      {
+        img: Img19_8,
+        alt: "img19_8",
+      },
+      {
+        img: Img19_9,
+        alt: "img19_9",
+      },
+    ],
+  },
+  {
+    id: 18,
+    link: "/work/education/foresight/detail/18",
+    img: Img18_1,
+    alt: "img18_1",
+    title: "💙선[先]견지명 - 학술논문 이용 2편💙",
+    date: "2023-06-12",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/>6월 셋째 주, 두 번째로 제공해드리는 정보는 ‘학술논문 이용 편 2’입니다.<br/><br/>지난 1편에 이어, 과제 혹은 시험공부를 할 때 필요한 논문, 학술자료를 상명대학교 학술정보관 홈페이지에서 이용 가능한 서비스를 안내해드리려 합니다.<br/><br/>학술논문 이용 편 2부터 4까지는 국외DB를 소개해드리겠습니다.💌<br/><br/>- 이용 가능한 학술 논문 찾기<br/>- 학문 전 분야<br/>- 예술 분야<br/><br/>자세한 사항은 '학술정보관 홈페이지'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 또 다른💡선[先]견지명💡콘텐츠에도 많은 관심 부탁드립니다! 감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img18_1,
+        alt: "img18_1",
+      },
+      {
+        img: Img18_2,
+        alt: "img18_2",
+      },
+      {
+        img: Img18_3,
+        alt: "img18_3",
+      },
+      {
+        img: Img18_4,
+        alt: "img18_4",
+      },
+      {
+        img: Img18_5,
+        alt: "img18_5",
+      },
+      {
+        img: Img18_6,
+        alt: "img18_6",
+      },
+      {
+        img: Img18_7,
+        alt: "img18_7",
+      },
+      {
+        img: Img18_8,
+        alt: "img18_8",
+      },
+      {
+        img: Img18_9,
+        alt: "img18_9",
+      },
+      {
+        img: Img18_10,
+        alt: "img18_10",
+      },
+    ],
+  },
+  {
+    id: 17,
+    link: "/work/education/foresight/detail/17",
+    img: Img17_1,
+    alt: "img17_1",
+    title: "💙선[先]견지명 - 학술논문 이용 1편💙",
+    date: "2023-06-12",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>6월 셋째 주, 제공해드리는 정보는 ‘학술논문 이용 편 1’입니다.<br/><br/>과제 혹은 시험공부를 할 때 필요한 논문, 학술자료를 상명대학교 학술정보관 홈페이지에서 이용 가능한 서비스를 안내해드리려 합니다.<br/><br/>학술정보관에서 구독하는 학술DB를 정리해보았습니다.<br/>국내DB와 국외DB로 총 4편으로나누어 안내드릴 예정입니다. 카드뉴스를 통해 분야별 학술DB를 확인해보세요!💌<br/><br/>- 이용 가능한 학술 논문 찾기<br/>- 학문 전 분야<br/>- 세부 분야<br/>- 사회과학 분야<br/>- 학술자료 열람 사이트<br/><br/>자세한 사항은 '학술정보관 홈페이지'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 또 다른💡선[先]견지명💡콘텐츠에도 많은 관심 부탁드립니다! 감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img17_1,
+        alt: "img17_1",
+      },
+      {
+        img: Img17_2,
+        alt: "img17_2",
+      },
+      {
+        img: Img17_3,
+        alt: "img17_3",
+      },
+      {
+        img: Img17_4,
+        alt: "img17_4",
+      },
+      {
+        img: Img17_5,
+        alt: "img17_5",
+      },
+      {
+        img: Img17_6,
+        alt: "img17_6",
+      },
+      {
+        img: Img17_7,
+        alt: "img17_7",
+      },
+      {
+        img: Img17_8,
+        alt: "img17_8",
+      },
+      {
+        img: Img17_9,
+        alt: "img17_9",
+      },
+      {
+        img: Img17_10,
+        alt: "img17_10",
+      },
+    ],
+  },
   {
     id: 16,
     link: "/work/education/foresight/detail/16",

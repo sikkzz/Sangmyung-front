@@ -88,15 +88,13 @@ const EducationForesight = () => {
           <BoardBox>
             <Board>
               <BoardCol>
-                {posts
-                  .slice(offset, offset + limit)
-                  .map(({ id, link, img, alt }: Props) => (
-                    <BoardItem key={id}>
-                      <BoardLink href={link}>
-                        <BoardImg src={img} alt={alt} />
-                      </BoardLink>
-                    </BoardItem>
-                  ))}
+                {posts.map(({ id, link, img, alt }: Props) => (
+                  <BoardItem key={id}>
+                    <BoardLink href={link}>
+                      <BoardImg src={img} alt={alt} />
+                    </BoardLink>
+                  </BoardItem>
+                ))}
               </BoardCol>
             </Board>
           </BoardBox>
