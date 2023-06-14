@@ -589,7 +589,68 @@ import Img98_6 from "../../assets/education/20/006.png";
 import Img98_7 from "../../assets/education/20/007.png";
 import Img98_8 from "../../assets/education/20/008.png";
 
+import Img99_1 from "../../assets/notice/99/1.jpg";
+import Img99_2 from "../../assets/notice/99/2.jpg";
+import Img99_3 from "../../assets/notice/99/3.jpg";
+import Img99_4 from "../../assets/notice/99/4.jpg";
+import Img99_5 from "../../assets/notice/99/5.jpg";
+import Img99_6 from "../../assets/notice/99/6.jpg";
+
+import Img100_1 from "../../assets/notice/100/1.jpg";
+
 export const NoticeData = [
+  {
+    id: 100,
+    link: "/info/notice/detail/100",
+    title: "상명대학교 제46대 총학생회 '선[先]' 공식 홈페이지 개설 안내",
+    date: "2023-06-14",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 재정사무국장입니다.<br/><br/>학우 여러분께 보다 다양한 방면에서 정보를 제공하고, 소통하기 위하여 총학생회 홈페이지를 개설하였습니다.<br/><br/>금일 오픈된 홈페이지에서는 학우 여러분을 위한 많은 정보들과 총학생회에서 시행하고 있는 활동 내용을 확인하실 수 있습니다.<br/><br/>총학생회 홈페이지는 항상 최신화된 정보들을 제공하고, 팀 스뮤니티와의 협업을 통해 보다 편리한 서비스를 제공할 예정이니 학우 여러분의 많은 관심 부탁드립니다.<br/><br/>홈페이지를 이용하시면서 불편한 점이나 필요하신 내용, 기능들이 있으시다면 아래 소통 창구를 통해 연락해주시면 감사하겠습니다.<br/><br/>감사합니다 💙<br/><br/>※ 모바일, 태블릿에서도 이용이 가능하지만, 보다 명확한 정보 전달 및 편리한 사용을 위해 데스크탑 이용을 권장드립니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img100_1,
+        alt: "img100_1",
+      },
+    ],
+  },
+  {
+    id: 99,
+    link: "/info/notice/detail/99",
+    title: "상명대학교 제46대 총학생회 '선[先]' 리또리또 이벤또 결과 발표",
+    date: "2023-06-14",
+    owner: "관리자",
+    kind: "행사",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분. 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>약 한 달간 진행되었던 총학생회 X 리또리또 이벤트의 결과를 알려드립니다. (소수점 한 자리까지만 비율 계산)<br/><br/>🥇최종순위<br/><br/>1위 생명공학전공(105.3%)<br/><br/>2위 게임전공 (60.5%)<br/>3위 공간환경학부 (59.7%)<br/>4위 화학에너지공학전공 (57.2%)<br/>5위 조형예술전공 (54.5%)<br/><br/>🎁 1위를 한 생명공학전공에는 '믹스부리또 무료 쿠폰' 180개가 제공됩니다! 생명공학전공 학생회장님께 총학생회 측에서 직접 전달드릴 예정입니다.<br/>* 유효기간: 2023학년도 2학기 종강일(12월 22일)<br/><br/>이벤트에 참여해주신 모든 학우분들께 진심으로 감사드립니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img99_1,
+        alt: "img99_1",
+      },
+      {
+        img: Img99_2,
+        alt: "img99_2",
+      },
+      {
+        img: Img99_3,
+        alt: "img99_3",
+      },
+      {
+        img: Img99_4,
+        alt: "img99_4",
+      },
+      {
+        img: Img99_5,
+        alt: "img99_5",
+      },
+      {
+        img: Img99_6,
+        alt: "img99_6",
+      },
+    ],
+  },
   {
     id: 98,
     link: "/info/notice/detail/98",
