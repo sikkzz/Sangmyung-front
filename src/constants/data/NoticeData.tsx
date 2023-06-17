@@ -598,7 +598,34 @@ import Img99_6 from "../../assets/notice/99/6.jpg";
 
 import Img100_1 from "../../assets/notice/100/1.jpg";
 
+import Img101_1 from '../../assets/partner/boutique/1.jpg'
+import Img101_2 from '../../assets/partner/boutique/2.jpg'
+import Img101_3 from '../../assets/partner/boutique/3.jpg'
+
 export const NoticeData = [
+  {
+    id: 101,
+    link: "/info/notice/detail/101",
+    title: "상명대학교 제46대 총학생회 '선[先]' X 부띠크모나코뮤지엄 전시 제휴",
+    date: "2023-06-15",
+    owner: "관리자",
+    kind: "제휴",
+    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘네 번째 최선’으로 서울특별시 서초구에 위치한 부띠크모나코뮤지엄의 <렘브란트, 내면을 에칭하다> 전시 제휴를 안내드립니다! ⚡️ 인스타그램 댓글 이벤트 존재 ⚡️<br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘. 학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>[ 이벤트 내용 ]<br/><br/>⭐️ 전시명 : <렘브란트, 내면을 에칭하다><br/>⭐️ 전시 기간. : 2023.05.24 ~ 2023.06.25<br/>⭐️ 전시 장소 : 부띠크모나코뮤지엄 메인홀<br/><br/>🎁 제휴 혜택<br/><br/>1. 전시 종료 시까지 12000 -> 10000원 할인 적용<br/>(동반 1인까지 할인 적용 가능)<br/><br/>2. 인스타그램 댓글 기대평 이벤트를 통한 VIP 무료 티켓 30장 증정 [6/17(토)까지의 댓글을 기준으로 추첨을 진행합니다.]<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img101_1,
+        alt: "img101_1"
+      },
+      {
+        img: Img101_2,
+        alt: "img101_2"
+      },
+      {
+        img: Img101_3,
+        alt: "img101_3"
+      },
+    ]
+  },
   {
     id: 100,
     link: "/info/notice/detail/100",
