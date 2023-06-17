@@ -598,11 +598,102 @@ import Img99_6 from "../../assets/notice/99/6.jpg";
 
 import Img100_1 from "../../assets/notice/100/1.jpg";
 
-import Img101_1 from '../../assets/partner/boutique/1.jpg'
-import Img101_2 from '../../assets/partner/boutique/2.jpg'
-import Img101_3 from '../../assets/partner/boutique/3.jpg'
+import Img101_1 from "../../assets/partner/boutique/1.jpg";
+import Img101_2 from "../../assets/partner/boutique/2.jpg";
+import Img101_3 from "../../assets/partner/boutique/3.jpg";
+
+import Img102_1 from "../../assets/partner/opic/1.jpg";
+import Img102_2 from "../../assets/partner/opic/2.jpg";
+import Img102_3 from "../../assets/partner/opic/3.jpg";
+
+import Img103_1 from "../../assets/partner/hyper/1.jpg";
+import Img103_2 from "../../assets/partner/hyper/2.jpg";
+import Img103_3 from "../../assets/partner/hyper/3.jpg";
+import Img103_4 from "../../assets/partner/hyper/4.jpg";
+import Img103_5 from "../../assets/partner/hyper/5.jpg";
+import Img103_6 from "../../assets/partner/hyper/6.jpg";
+import Img103_7 from "../../assets/partner/hyper/7.jpg";
+import Img103_8 from "../../assets/partner/hyper/8.jpg";
+import Img103_9 from "../../assets/partner/hyper/9.jpg";
+import Img103_10 from "../../assets/partner/hyper/10.jpg";
 
 export const NoticeData = [
+  {
+    id: 103,
+    link: "/info/notice/detail/103",
+    title: "상명대학교 제46대 총학생회 '선[先]' X 하이퍼융합인재교육원 제휴",
+    date: "2023-06-16",
+    owner: "관리자",
+    kind: "제휴",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘여섯 번째 최선’으로 하이퍼융합인재교육원과 제휴를 맺게 되었습니다. <br/>상명대학교 서울캠퍼스 재/휴학생들은 3,000여개의 IT강좌와 매월 업데이트 되는 신규 강좌(연 300개의 강좌)를 선착순 150명에 한해, 무료로 수강하실 수 있습니다.<br/><br/>💡유의사항<br/><br/>❗️프로필 링크를 통한 구글폼 신청 필수❗️<br/><br/>✅ 6/17(토) 18:00 이후로 접수된 구글폼 답변부터 유효하게 산정될 예정입니다.<br/>✅ 수령 안내 문자를 받으신 학우분들께서는 6/19(월) 이후 총학실에서 멤버쉽카드를 직접 수령해주셔야 합니다.<br/>신청 구글폼 링크 : <a href='https://forms.gle/VUsi1p45akWJyoWc8' style='color: blue'>https://forms.gle/VUsi1p45akWJyoWc8</a><br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘. 학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>[ 제휴 내용 ]<br/><br/>📚하이퍼융합인재교육원<br/><br/>🎁 제휴 혜택<br/><br/>1. 상명대학교 서울캠퍼스 재/휴학생 중 선착순 150명 대상 강좌 무료 수강 멤버쉽카드 제공<br/>2. 선착순 150명 이외의 상명대학교 서울캠퍼스 재/휴학생분들께는 95% 할인 혜택 제공 (해당 내용은 추후에 게시글로 다시 한번 안내드릴 예정입니다.)<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img103_1,
+        alt: "img103_1",
+      },
+      {
+        img: Img103_2,
+        alt: "img103_2",
+      },
+      {
+        img: Img103_3,
+        alt: "img103_3",
+      },
+      {
+        img: Img103_4,
+        alt: "img103_4",
+      },
+      {
+        img: Img103_5,
+        alt: "img103_5",
+      },
+      {
+        img: Img103_6,
+        alt: "img103_6",
+      },
+      {
+        img: Img103_7,
+        alt: "img103_7",
+      },
+      {
+        img: Img103_8,
+        alt: "img103_8",
+      },
+      {
+        img: Img103_9,
+        alt: "img103_9",
+      },
+      {
+        img: Img103_10,
+        alt: "img103_10",
+      },
+    ],
+  },
+  {
+    id: 102,
+    link: "/info/notice/detail/102",
+    title: "상명대학교 제46대 총학생회 '선[先]' X OPIC 대학연합 정기평가 제휴",
+    date: "2023-06-15",
+    owner: "관리자",
+    kind: "제휴",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘다섯 번째 최선’으로 OPIc 대학연합 정기평가와 제휴를 맺게 되었습니다.<br/>상명대학교 서울캠퍼스 재학생들은 본래 84,000원인 응시료를 18% 할인을 받아 69,000원에 응시하실 수 있습니다! (1회 한정)<br/><br/>⚡️6월 한정 이벤트로는 1회 한정 횟수 차감없이 할인가인 69,000원에 시험 응시가 가능합니다!⚡️(자세한 내용 3페이지 참고)<br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘. 학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>[ 제휴 내용 ]<br/><br/>✍🏻 OPIc 대학연합 정기평가<br/><br/>🎁 제휴 혜택 : 상명대학교 서울캠퍼스 재학생 대상 할인<br/>84,000원 -> 69,000원 (18%할인) (1회 한정)<br/><br/>⚡️6월 한정 이벤트⚡️제휴 대학 소속인 상명대학교 서울캠퍼스 학생은 1회 한정 횟수 차감없이 할인가인 69,000원에 시험 응시가 가능<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img102_1,
+        alt: "img102_1",
+      },
+      {
+        img: Img102_2,
+        alt: "img102_2",
+      },
+      {
+        img: Img102_3,
+        alt: "img102_3",
+      },
+    ],
+  },
   {
     id: 101,
     link: "/info/notice/detail/101",
@@ -610,21 +701,22 @@ export const NoticeData = [
     date: "2023-06-15",
     owner: "관리자",
     kind: "제휴",
-    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘네 번째 최선’으로 서울특별시 서초구에 위치한 부띠크모나코뮤지엄의 <렘브란트, 내면을 에칭하다> 전시 제휴를 안내드립니다! ⚡️ 인스타그램 댓글 이벤트 존재 ⚡️<br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘. 학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>[ 이벤트 내용 ]<br/><br/>⭐️ 전시명 : <렘브란트, 내면을 에칭하다><br/>⭐️ 전시 기간. : 2023.05.24 ~ 2023.06.25<br/>⭐️ 전시 장소 : 부띠크모나코뮤지엄 메인홀<br/><br/>🎁 제휴 혜택<br/><br/>1. 전시 종료 시까지 12000 -> 10000원 할인 적용<br/>(동반 1인까지 할인 적용 가능)<br/><br/>2. 인스타그램 댓글 기대평 이벤트를 통한 VIP 무료 티켓 30장 증정 [6/17(토)까지의 댓글을 기준으로 추첨을 진행합니다.]<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘네 번째 최선’으로 서울특별시 서초구에 위치한 부띠크모나코뮤지엄의 <렘브란트, 내면을 에칭하다> 전시 제휴를 안내드립니다! ⚡️ 인스타그램 댓글 이벤트 존재 ⚡️<br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘. 학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>[ 이벤트 내용 ]<br/><br/>⭐️ 전시명 : <렘브란트, 내면을 에칭하다><br/>⭐️ 전시 기간. : 2023.05.24 ~ 2023.06.25<br/>⭐️ 전시 장소 : 부띠크모나코뮤지엄 메인홀<br/><br/>🎁 제휴 혜택<br/><br/>1. 전시 종료 시까지 12000 -> 10000원 할인 적용<br/>(동반 1인까지 할인 적용 가능)<br/><br/>2. 인스타그램 댓글 기대평 이벤트를 통한 VIP 무료 티켓 30장 증정 [6/17(토)까지의 댓글을 기준으로 추첨을 진행합니다.]<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
     inImg: [
       {
         img: Img101_1,
-        alt: "img101_1"
+        alt: "img101_1",
       },
       {
         img: Img101_2,
-        alt: "img101_2"
+        alt: "img101_2",
       },
       {
         img: Img101_3,
-        alt: "img101_3"
+        alt: "img101_3",
       },
-    ]
+    ],
   },
   {
     id: 100,
