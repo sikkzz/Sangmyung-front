@@ -93,7 +93,6 @@ const BoardCol = styled.div`
   flex-wrap: wrap;
   position: relative;
   margin-top: 30px;
-  justify-content: center;
 `;
 
 const BoardItem = styled.div`

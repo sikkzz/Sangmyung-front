@@ -1,34 +1,94 @@
-import Img1_1 from "../../assets/partner/safe/1.png";
-import Img1_2 from "../../assets/partner/safe/2.jpeg";
-import Img1_3 from "../../assets/partner/safe/3.jpeg";
-import Img1_4 from "../../assets/partner/safe/4.jpeg";
+import Img1_1 from "../../assets/partner/1/1.png";
+import Img1_2 from "../../assets/partner/1/2.jpeg";
+import Img1_3 from "../../assets/partner/1/3.jpeg";
+import Img1_4 from "../../assets/partner/1/4.jpeg";
 
-import Img2_1 from "../../assets/partner/haribo/1.jpg";
-import Img2_2 from "../../assets/partner/haribo/2.jpg";
+import Img2_1 from "../../assets/partner/2/1.jpg";
+import Img2_2 from "../../assets/partner/2/2.jpg";
 
-import Img3_1 from "../../assets/partner/newface/1.jpg";
-import Img3_2 from "../../assets/partner/newface/2.jpg";
+import Img3_1 from "../../assets/partner/3/1.jpg";
+import Img3_2 from "../../assets/partner/3/2.jpg";
 
-import Img4_1 from "../../assets/partner/boutique/1.jpg";
-import Img4_2 from "../../assets/partner/boutique/2.jpg";
-import Img4_3 from "../../assets/partner/boutique/3.jpg";
+import Img4_1 from "../../assets/partner/4/1.jpg";
+import Img4_2 from "../../assets/partner/4/2.jpg";
+import Img4_3 from "../../assets/partner/4/3.jpg";
 
-import Img5_1 from "../../assets/partner/opic/1.jpg";
-import Img5_2 from "../../assets/partner/opic/2.jpg";
-import Img5_3 from "../../assets/partner/opic/3.jpg";
+import Img5_1 from "../../assets/partner/5/1.jpg";
+import Img5_2 from "../../assets/partner/5/2.jpg";
+import Img5_3 from "../../assets/partner/5/3.jpg";
 
-import Img6_1 from "../../assets/partner/hyper/1.jpg";
-import Img6_2 from "../../assets/partner/hyper/2.jpg";
-import Img6_3 from "../../assets/partner/hyper/3.jpg";
-import Img6_4 from "../../assets/partner/hyper/4.jpg";
-import Img6_5 from "../../assets/partner/hyper/5.jpg";
-import Img6_6 from "../../assets/partner/hyper/6.jpg";
-import Img6_7 from "../../assets/partner/hyper/7.jpg";
-import Img6_8 from "../../assets/partner/hyper/8.jpg";
-import Img6_9 from "../../assets/partner/hyper/9.jpg";
-import Img6_10 from "../../assets/partner/hyper/10.jpg";
+import Img6_1 from "../../assets/partner/6/1.jpg";
+import Img6_2 from "../../assets/partner/6/2.jpg";
+import Img6_3 from "../../assets/partner/6/3.jpg";
+import Img6_4 from "../../assets/partner/6/4.jpg";
+import Img6_5 from "../../assets/partner/6/5.jpg";
+import Img6_6 from "../../assets/partner/6/6.jpg";
+import Img6_7 from "../../assets/partner/6/7.jpg";
+import Img6_8 from "../../assets/partner/6/8.jpg";
+import Img6_9 from "../../assets/partner/6/9.jpg";
+import Img6_10 from "../../assets/partner/6/10.jpg";
+
+import Img7_1 from "../../assets/partner/7/1.jpg";
+import Img7_2 from "../../assets/partner/7/2.jpg";
+import Img7_3 from "../../assets/partner/7/3.jpg";
+
+import Img8_1 from "../../assets/partner/8/1.jpg";
+import Img8_2 from "../../assets/partner/8/2.jpg";
+import Img8_3 from "../../assets/partner/8/3.jpg";
 
 export const PartnerData = [
+  {
+    id: 8,
+    link: "/work/partnership/detail/8",
+    img: Img8_1,
+    alt: "img8_1",
+    title: "총학생회 선[先] X 운전선생",
+    inTitle: "💙여덟 번째 최선(先), 운전선생",
+    date: "2023-06-18",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘여덟 번째 최선’으로 자동차 운전 전문 학원 온라인 예약 플랫폼, '운전선생'과 여름방학 특별 할인 제휴를 맺게 되었습니다.<br/><br/>상명대학교 서울캠퍼스 재/휴학생은 누구나 쿠폰 코드 'SMUXDT'를 입력하면 내 주변 운전면허학원 등록 금액 중 40,000원을 할인 받을 수 있습니다!<br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘. 학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>[ 제휴 내용 ]<br/><br/>🚗 자동차 운전 전문 학원 온라인 예약 플랫폼, '운전선생'<br/><br/>🎁 제휴 혜택<br/>- 상명대학교 서울캠퍼스 재/휴학생 모두<br/>- 'SMUXDT' 코드 입력 시 내 주변 운전 학원 등록비용 40,000원 할인<br/><br/>💡유의사항<br/><br/>✅ 앱 내에 등록되어 있는 자동차 운전학원에 한해 할인이 적용됩니다.(상시 업데이트)<br/>✅ 40,000원 할인 제휴의 기간은 23.08.31까지입니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img8_1,
+        alt: "img8_1",
+      },
+      {
+        img: Img8_2,
+        alt: "img8_2",
+      },
+      {
+        img: Img8_3,
+        alt: "img8_3",
+      },
+    ],
+  },
+  {
+    id: 7,
+    link: "/work/partnership/detail/7",
+    img: Img7_1,
+    alt: "img7_1",
+    title: "총학생회 선[先] X 오하운(OHHAUN)",
+    inTitle: "💙일곱 번째 최선(先), 오하운(OHHAUN)",
+    date: "2023-06-17",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘일곱 번째 최선’으로 비건 스킨케어 브랜드 '오하운'과 제휴를 맺게 되었습니다!<br/>상명대학교 서울캠퍼스 재/휴학생은 누구나 구매창에서 할인코드 'SMUPRIDE'를 입력하면 전제품 40% 할인 혜택을 받으실 수 있습니다.<br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘. 학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>[ 제휴 내용 ]<br/><br/>🍀 비건 스킨케어 브랜드 '오하운'<br/><br/>🎁 제휴 혜택<br/>- 상명대학교 서울캠퍼스 재/휴학생 모두<br/>- 'SMUPRIDE' 코드 입력 시 앰플, 톤업선크림, 미스트, 피부진정크림, 수분장벽크림 등 전 제품 40% 할인<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img7_1,
+        alt: "img7_1",
+      },
+      {
+        img: Img7_2,
+        alt: "img7_2",
+      },
+      {
+        img: Img7_3,
+        alt: "img7_3",
+      },
+    ],
+  },
   {
     id: 6,
     link: "/work/partnership/detail/6",
@@ -88,12 +148,12 @@ export const PartnerData = [
     link: "/work/partnership/detail/5",
     img: Img5_1,
     alt: "img5_1",
-    title: "총학생회 선[先] X OPIC 대학연합 정기평가",
-    inTitle: "💙다섯 번째 최선(先), OPIC 대학연합 정기평가",
+    title: "총학생회 선[先] X 5 대학연합 정기평가",
+    inTitle: "💙다섯 번째 최선(先), 5 대학연합 정기평가",
     date: "2023-06-15",
     owner: "관리자",
     content:
-      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘다섯 번째 최선’으로 OPIc 대학연합 정기평가와 제휴를 맺게 되었습니다.<br/>상명대학교 서울캠퍼스 재학생들은 본래 84,000원인 응시료를 18% 할인을 받아 69,000원에 응시하실 수 있습니다! (1회 한정)<br/><br/>⚡️6월 한정 이벤트로는 1회 한정 횟수 차감없이 할인가인 69,000원에 시험 응시가 가능합니다!⚡️(자세한 내용 3페이지 참고)<br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘. 학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>[ 제휴 내용 ]<br/><br/>✍🏻 OPIc 대학연합 정기평가<br/><br/>🎁 제휴 혜택 : 상명대학교 서울캠퍼스 재학생 대상 할인<br/>84,000원 -> 69,000원 (18%할인) (1회 한정)<br/><br/>⚡️6월 한정 이벤트⚡️제휴 대학 소속인 상명대학교 서울캠퍼스 학생은 1회 한정 횟수 차감없이 할인가인 69,000원에 시험 응시가 가능<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘다섯 번째 최선’으로 5 대학연합 정기평가와 제휴를 맺게 되었습니다.<br/>상명대학교 서울캠퍼스 재학생들은 본래 84,000원인 응시료를 18% 할인을 받아 69,000원에 응시하실 수 있습니다! (1회 한정)<br/><br/>⚡️6월 한정 이벤트로는 1회 한정 횟수 차감없이 할인가인 69,000원에 시험 응시가 가능합니다!⚡️(자세한 내용 3페이지 참고)<br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘. 학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>[ 제휴 내용 ]<br/><br/>✍🏻 5 대학연합 정기평가<br/><br/>🎁 제휴 혜택 : 상명대학교 서울캠퍼스 재학생 대상 할인<br/>84,000원 -> 69,000원 (18%할인) (1회 한정)<br/><br/>⚡️6월 한정 이벤트⚡️제휴 대학 소속인 상명대학교 서울캠퍼스 학생은 1회 한정 횟수 차감없이 할인가인 69,000원에 시험 응시가 가능<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
     inImg: [
       {
         img: Img5_1,
@@ -184,12 +244,12 @@ export const PartnerData = [
     link: "/work/partnership/detail/1",
     img: Img1_1,
     alt: "img1_1",
-    title: "총학생회 선[先] X 세이프닥(SafeDoc)",
+    title: "총학생회 선[先] X 세이프닥(1Doc)",
     inTitle: "💙첫 번째 최선(先), 세이프닥💙",
     date: "2023-03-27",
     owner: "관리자",
     content:
-      "🌟더 밝게 빛날 나를 위한 선택!🌟<br/>'안전하고 검증된 우리 학교 의료복지!'<br/><br/>✅ 대상: 상명대학교 총학생회 학생 및 가족 (졸업생, 휴학생 포함)<br/><br/>✅ 혜택 내용<br/>1) 전국 250개 제휴 병원 비급여 항목 우대 할인(최대 49%)<br/>2) 인기시술 : 가다실9가, 충치/임플란트, 치아교정, 스마일라식, 기능코, 눈매교정, 피부관리,<br/>점제거, 리프팅, 보톡스/필러, 도수치료, 한약, 반영구, 모발이식, 건강검진, 심리상담<br/>3) 기간: ~ 23.12.31<br/><br/>✅ 상명대학교 전용 혜택 링크: <a href='https://smu-seoul.safedoc1.com' style='color: blue'>https://smu-seoul.safedoc1.com</a><br/><br/>💙 제휴병원 이용 방법 및 앱 설치<br/>1) 전화예약 : 02 - 2088 - 8677<br/>2) 카톡채널 '세이프닥' 검색<br/>3) 어플로 언제 어디서나!<br/>📱구글스토어 - <a href='https://url.kr/jv1s2f' style='color: blue'>https://url.kr/jv1s2f</a><br/>📱앱스토어 - <a href='https://url.kr/kj4g7o' style='color: blue'>https://url.kr/kj4g7o</a><br/><br/>💙예약 신청 시, 꼭 “상명대학교”를 말씀해주셔야 제휴 혜택이 적용됩니다.💙<br/><br/>앞으로도 지속적으로 업로드 될 💡N 번째 최선(先)💡콘텐츠에 많은 관심과 이용 부탁드립니다! 감사합니다.",
+      "🌟더 밝게 빛날 나를 위한 선택!🌟<br/>'안전하고 검증된 우리 학교 의료복지!'<br/><br/>✅ 대상: 상명대학교 총학생회 학생 및 가족 (졸업생, 휴학생 포함)<br/><br/>✅ 혜택 내용<br/>1) 전국 250개 제휴 병원 비급여 항목 우대 할인(최대 49%)<br/>2) 인기시술 : 가다실9가, 충치/임플란트, 치아교정, 스마일라식, 기능코, 눈매교정, 피부관리,<br/>점제거, 리프팅, 보톡스/필러, 도수치료, 한약, 반영구, 모발이식, 건강검진, 심리상담<br/>3) 기간: ~ 23.12.31<br/><br/>✅ 상명대학교 전용 혜택 링크: <a href='https://smu-seoul.1doc1.com' style='color: blue'>https://smu-seoul.1doc1.com</a><br/><br/>💙 제휴병원 이용 방법 및 앱 설치<br/>1) 전화예약 : 02 - 2088 - 8677<br/>2) 카톡채널 '세이프닥' 검색<br/>3) 어플로 언제 어디서나!<br/>📱구글스토어 - <a href='https://url.kr/jv1s2f' style='color: blue'>https://url.kr/jv1s2f</a><br/>📱앱스토어 - <a href='https://url.kr/kj4g7o' style='color: blue'>https://url.kr/kj4g7o</a><br/><br/>💙예약 신청 시, 꼭 “상명대학교”를 말씀해주셔야 제휴 혜택이 적용됩니다.💙<br/><br/>앞으로도 지속적으로 업로드 될 💡N 번째 최선(先)💡콘텐츠에 많은 관심과 이용 부탁드립니다! 감사합니다.",
     inImg: [
       {
         img: Img1_1,
