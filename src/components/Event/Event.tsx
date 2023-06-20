@@ -13,26 +13,23 @@ import {
   BoardItem,
   BoardLink,
   BoardImg,
-} from './EventElements'
+} from "./EventElements";
 
-import Icons from '../../constants/icon'
+import Icons from "../../constants/icon";
 
-import { EventData } from '../../constants/data/EventData'
+import { EventData } from "../../constants/data/EventData";
 
 import { ChangeEvent, useState, useEffect } from "react";
 
 type Props = {
-  id: number
-  link: string
-  img: string
-  alt: string
-}
+  id: number;
+  link: string;
+  img: string;
+  alt: string;
+};
 
 const Event = () => {
   const [posts, setPosts] = useState([] as any);
-  const [limit, setLimit] = useState(10);
-  const page = 1;
-  const offset = (page - 1) * limit;
 
   const [userInput, setUserInput] = useState<string>("");
 
@@ -88,22 +85,20 @@ const Event = () => {
           <BoardBox>
             <Board>
               <BoardCol>
-                {posts
-                  .slice(offset, offset + limit)
-                  .map(({ id, link, img, alt }: Props) => (
-                    <BoardItem key={id}>
-                      <BoardLink href={link}>
-                        <BoardImg src={img} alt={alt} />
-                      </BoardLink>
-                    </BoardItem>
-                  ))}
+                {posts.map(({ id, link, img, alt }: Props) => (
+                  <BoardItem key={id}>
+                    <BoardLink href={link}>
+                      <BoardImg src={img} alt={alt} />
+                    </BoardLink>
+                  </BoardItem>
+                ))}
               </BoardCol>
             </Board>
           </BoardBox>
         </Box>
       </Col>
     </Layout>
-  )
-}
+  );
+};
 
-export default Event
+export default Event;

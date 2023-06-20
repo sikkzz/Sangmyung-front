@@ -625,7 +625,25 @@ import Img105_1 from "../../assets/partner/8/1.jpg";
 import Img105_2 from "../../assets/partner/8/2.jpg";
 import Img105_3 from "../../assets/partner/8/3.jpg";
 
+import Img106_1 from "../../assets/event/11/1.jpg";
+
 export const NoticeData = [
+  {
+    id: 106,
+    link: "/info/notice/detail/106",
+    title: "상명대학교 제46대 총학생회 '선[先]' 하리보 전시회 티켓 증정 이벤트",
+    date: "2023-06-19",
+    owner: "관리자",
+    kind: "행사",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>시험에 지친 학우 여러분께 종강일 깜짝 이벤트로 '하리보 골드베렌의 100주년 기념 전시회' 무료 티켓 100장을 드리는 이벤트를 진행합니다!<br/><br/>💡이벤트 상세 안내<br/><br/>✅ 날짜 : 2023년 6월 21일 (수)<br/>✅ 장소 : 중앙교수회관 앞 부스<br/>✅ 시간 : 12시 / 15시 (타임별 50장 선착순)<br/>✅ 수량 : '하리보 골든베렌의 100주년 기념 전시회' 무료 티켓 100장 (1인 1매 한정)<br/>✅ 참여방법 : 전시회 한 줄 기대평 작성 & 총학생회 인스타그램 팔로우 시 티켓 증정<br/><br/>🎉 많은 참여 부탁드리며, 종강을 진심으로 축하드립니다. 🎉<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img106_1,
+        alt: "img106_1",
+      },
+    ],
+  },
   {
     id: 105,
     link: "/info/notice/detail/105",
