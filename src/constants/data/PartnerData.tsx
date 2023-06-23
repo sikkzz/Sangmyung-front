@@ -36,7 +36,32 @@ import Img8_1 from "../../assets/partner/8/1.jpg";
 import Img8_2 from "../../assets/partner/8/2.jpg";
 import Img8_3 from "../../assets/partner/8/3.jpg";
 
+import Img9_1 from "../../assets/partner/9/1.jpg";
+import Img9_2 from "../../assets/partner/9/2.jpg";
+
 export const PartnerData = [
+  {
+    id: 9,
+    link: "/work/partnership/detail/9",
+    img: Img9_1,
+    alt: "img9_1",
+    title: "총학생회 선[先] X 에듀윌",
+    inTitle: "💙아홉 번째 최선(先), 에듀윌",
+    date: "2023-06-21",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘아홉 번째 최선’으로 공무원 시험은 합격은~🎶에듀윌🎶과 온라인 강의 제휴를 맺게 되었습니다.<br/><br/>상명대학교 서울캠퍼스 재/휴학생이라면 누구나!<br/><br/>1️⃣2페이지의 QR 코드 or 하단 링크 클릭하고,<br/>2️⃣상명대학교 서울캠퍼스 인증코드(875114)를 입력하여<br/>3️⃣15% 중복할인 쿠폰을 발급받아 해당 금액만큼 온라인 강의를 할인 받으실 수 있습니다.<br/><br/>🍀 제휴 대학 쿠폰 입력 링크 : <a href='https://event.eduwill.net/Event/2023/0/univ' style='color: blue'>https://event.eduwill.net/Event/2023/0/univ</a><br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘. 학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>[ 제휴 내용 ]<br/><br/>💛 '에듀윌'<br/><br/>🎁 제휴 혜택<br/>대상 : 상명대학교 서울캠퍼스 재/휴학생 모두<br/>혜택 : ‘상명대학교 서울캠퍼스 인증코드(875114)’ 입력 시 15% 중복할인 쿠폰 발급. (링크 및 2페이지의 QR코드 참조)<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img9_1,
+        alt: "img9_1",
+      },
+      {
+        img: Img9_2,
+        alt: "img9_2",
+      },
+    ],
+  },
   {
     id: 8,
     link: "/work/partnership/detail/8",

@@ -627,7 +627,68 @@ import Img105_3 from "../../assets/partner/8/3.jpg";
 
 import Img106_1 from "../../assets/event/11/1.jpg";
 
+import Img107_1 from "../../assets/notice/107/1.jpg";
+import Img107_2 from "../../assets/notice/107/2.jpg";
+import Img107_3 from "../../assets/notice/107/3.jpg";
+import Img107_4 from "../../assets/notice/107/4.jpg";
+import Img107_5 from "../../assets/notice/107/5.jpg";
+
+import Img108_1 from "../../assets/partner/9/1.jpg";
+import Img108_2 from "../../assets/partner/9/2.jpg";
+
 export const NoticeData = [
+  {
+    id: 108,
+    link: "/info/notice/detail/108",
+    title: "상명대학교 제46대 총학생회 '선[先]' X 에듀윌 제휴",
+    date: "2023-06-21",
+    owner: "관리자",
+    kind: "제휴",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘아홉 번째 최선’으로 공무원 시험은 합격은~🎶에듀윌🎶과 온라인 강의 제휴를 맺게 되었습니다.<br/><br/>상명대학교 서울캠퍼스 재/휴학생이라면 누구나!<br/><br/>1️⃣2페이지의 QR 코드 or 하단 링크 클릭하고,<br/>2️⃣상명대학교 서울캠퍼스 인증코드(875114)를 입력하여<br/>3️⃣15% 중복할인 쿠폰을 발급받아 해당 금액만큼 온라인 강의를 할인 받으실 수 있습니다.<br/><br/>🍀 제휴 대학 쿠폰 입력 링크 : <a href='https://event.eduwill.net/Event/2023/0/univ' style='color: blue'>https://event.eduwill.net/Event/2023/0/univ</a><br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘. 학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>[ 제휴 내용 ]<br/><br/>💛 '에듀윌'<br/><br/>🎁 제휴 혜택<br/>대상 : 상명대학교 서울캠퍼스 재/휴학생 모두<br/>혜택 : ‘상명대학교 서울캠퍼스 인증코드(875114)’ 입력 시 15% 중복할인 쿠폰 발급. (링크 및 2페이지의 QR코드 참조)<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img108_1,
+        alt: "img108_1",
+      },
+      {
+        img: Img108_2,
+        alt: "img108_2",
+      },
+    ],
+  },
+  {
+    id: 107,
+    link: "/info/notice/detail/107",
+    title: "상명대학교 제46대 총학생회 '선[先]' 농촌 봉사 활동 선[先]행 안내",
+    date: "2023-06-20",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 복지사업국입니다🍀<br/><br/>이번 하계 방학 중, 총학생회 주관 하에 농촌 봉사 활동을 진행합니다👨🏻‍🌾<br/><br/>“선행[先行] : 어떠한 것보다 앞서 행함”의 의미를 담아, 진행하는 농촌 봉사 활동을 함께 하실 학우분들을 모집합니다.<br/><br/>🌱 OT 일정 : 7/17 (월) * 필참 (안전교육 예정)<br/>🌱 활동 일정 : 7/18 (화) - 7/21 (금)<br/>🌱 활동 장소 : 경기도 이천시 대월면 군들로<br/>🌱 활동 내용 : 호박 농사, 마을 환경 정리 등<br/><br/>봉사 활동을 하면서 뜻깊은 체험을 하고 싶으신 학우분들께서는 다음과 같은 방법에 맞게 신청해주시면 됩니다.<br/><br/>📍모집 일정 : 6/23 (금) 오전 11시 ~ 선착순 마감 시까지<br/>📍모집 인원 : 40명<br/>📍신청 방법 : 총학생회 인스타그램 / 본문 내용 구글폼 링크<br/><br/>🪴농촌 봉사 활동 신청 구글폼 링크🪴<br/><a href='https://forms.gle/7ajKi2MajQzWaAMD8' style='color: blue'>https://forms.gle/7ajKi2MajQzWaAMD8</a><br/><br/>⚠️ 정시 이후 응답만 유효하므로, 참고 부탁드립니다.<br/><br/>앞으로도 다양한 방면에서, 학우분들의 복지를 위해 더욱 노력하도록 하겠습니다. 감사합니다💙<br/><br/>관련하여 문의 사항이 있으시다면, 아래 방법을 통해 연락해주시면 감사하겠습니다🙂<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img107_1,
+        alt: "img107_1",
+      },
+      {
+        img: Img107_2,
+        alt: "img107_2",
+      },
+      {
+        img: Img107_3,
+        alt: "img107_3",
+      },
+      {
+        img: Img107_4,
+        alt: "img107_4",
+      },
+      {
+        img: Img107_5,
+        alt: "img107_5",
+      },
+    ],
+  },
   {
     id: 106,
     link: "/info/notice/detail/106",
