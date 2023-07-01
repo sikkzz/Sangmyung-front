@@ -642,7 +642,25 @@ import Img109_3 from "../../assets/partner/10/3.jpg";
 import Img109_4 from "../../assets/partner/10/4.jpg";
 import Img109_5 from "../../assets/partner/10/5.jpg";
 
+import Img110_1 from "../../assets/notice/110/1.jpg";
+
 export const NoticeData = [
+  {
+    id: 110,
+    link: "/info/notice/detail/110",
+    title: "상명대학교 제46대 총학생회 '선[先]' 7월 캘린더 출간",
+    date: "2023-07-01",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분. 제46대 총학생회 선[先]입니다.<br/><br/>학우 여러분께 7월 주요 학사 일정을 담은 7월 달력을 전해드립니다.<br/>성적 확인 및 이의신청 기간을 포함하여 성적 확정, 2학기 휴/복학 신청기간 등 여러 교내 일정이 기재되어 있습니다.<br/><br/>7월에는 지난 2023학년도 1학기를 갈무리하며, 앞으로의 발걸음을 위한 여유로운 휴식과 재정비를 해보시면 어떨까요?<br/>잦은 빗방울이 찾아올 것으로 보이는 7월, 학우 여러분의 마음 속에는 따뜻한 햇볕이 푸른 잎을 피우는 여름의 한 달이 되시기를 기원합니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img110_1,
+        alt: "img110_1",
+      },
+    ],
+  },
   {
     id: 109,
     link: "/info/notice/detail/109",
