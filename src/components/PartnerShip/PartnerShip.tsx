@@ -89,7 +89,6 @@ const PartnerShip = () => {
             <Board>
               <BoardCol>
                 {posts
-                  .slice(offset, offset + limit)
                   .map(({ id, link, img, alt }: Props) => (
                     <BoardItem key={id}>
                       <BoardLink href={link}>

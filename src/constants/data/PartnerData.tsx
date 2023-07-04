@@ -45,7 +45,42 @@ import Img10_3 from "../../assets/partner/10/3.jpg";
 import Img10_4 from "../../assets/partner/10/4.jpg";
 import Img10_5 from "../../assets/partner/10/5.jpg";
 
+import Img11_1 from "../../assets/partner/11/1.jpg";
+import Img11_2 from "../../assets/partner/11/2.jpg";
+import Img11_3 from "../../assets/partner/11/3.jpg";
+import Img11_4 from "../../assets/partner/11/4.jpg";
+
 export const PartnerData = [
+  {
+    id: 11,
+    link: "/work/partnership/detail/11",
+    img: Img11_1,
+    alt: "img11_1",
+    title: "총학생회 선[先] X 스니커즈 언박스드 서울",
+    inTitle: "💙열한 번째 최선(先), 해커스",
+    date: "2023-07-04",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘열한 번째 최선’으로 서울특별시 종로구 세종문화회관에서 진행하고 있는 <스니커즈 언박스드 서울> 전시 제휴를 안내드립니다!<br/>(❗️ 인스타그램 댓글 + 구글폼 이벤트 존재❗️ )<br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘. 학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>🎁 전시 내용<br/><br/>⭐️ 전시명 : <스니커즈 언박스드 서울><br/>⭐️ 전시 기간. : 2023.05.31 ~ 2023.09.10<br/>⭐️ 전시 장소 : 서울특별시 종로구 세종문화회관<br/><br/>🎁 제휴 혜택<br/><br/>1. 상명대학교 서울캠퍼스 재/휴학생 모두 7월 한달간 방문 학생증 제시 시 20,000원 → 14,000원 할인 적용(학생 본인에 한하여 적용)<br/>2. 🍀 인스타그램 댓글 기대평 이벤트 진행 후 구글폼 참여를 통한 VIP 무료 티켓 30장 증정! 🍀<br/>→ 7/4(화)~7/8(토) 댓글+구글폼 인증 참여를 기준으로 추첨 진행합니다.<br/><br/>→ 구글폼 링크 <a href='https://forms.gle/EkoxVaY82kcCPkdT7' style='color: blue'>(https://forms.gle/EkoxVaY82kcCPkdT7)</a><br/><br/>→ 인스타그램 프로필 링크에도 구글폼 링크 존재합니다!<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img11_1,
+        alt: "img11_1",
+      },
+      {
+        img: Img11_2,
+        alt: "img11_2",
+      },
+      {
+        img: Img11_3,
+        alt: "img11_3",
+      },
+      {
+        img: Img11_4,
+        alt: "img11_4",
+      },
+    ],
+  },
   {
     id: 10,
     link: "/work/partnership/detail/10",
