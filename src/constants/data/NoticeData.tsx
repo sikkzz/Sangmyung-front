@@ -649,7 +649,30 @@ import Img111_2 from "../../assets/partner/11/2.jpg";
 import Img111_3 from "../../assets/partner/11/3.jpg";
 import Img111_4 from "../../assets/partner/11/4.jpg";
 
+import Img112_1 from "../../assets/notice/112/1.jpg";
+import Img112_2 from "../../assets/notice/112/2.jpg";
+
 export const NoticeData = [
+  {
+    id: 112,
+    link: "/info/notice/detail/112",
+    title: "상명대학교 제46대 총학생회 '선[先]' 선[先]문선[先]답 설문조사 시행",
+    date: "2023-07-10",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대내교류국입니다.<br/><br/>대내교류국에서는 학우 여러분과의 소통을 통해 학우분들의 의견과 목소리가 반영될 수 있도록 “선[先]문선[先]답” 설문조사를 실시하고자 합니다!<br/><br/>첫 번째 ‘선[先]문선[先]답’은 ‘1학기 총정리 설문조사’입니다.<br/>본 설문조사를 통해 1학기 동안의 총학생회 활동에 대한 학우분들의 다양한 의견을 듣고자 합니다.<br/>학우 여러분이 보내주신 소중한 의견을 바탕으로 2학기 총학생회의 나아갈 방향에 수렴해 나아가고자 합니다.<br/><br/>총학생회가 발전할 수 있도록 소중한 의견을 주시는 학우 여러분께 작지만, 감사의 의미로 추첨을 통해 20분의 학우 여러분께 🍧설빙 기프티콘🍧을 드리고자 합니다!<br/>이벤트 참여와 관련한 자세한 내용은 본 설문조사에 기재되어 있으니, 이 점 참고해주시면 감사하겠습니다.<br/><br/>앞으로도 ‘선[先]문선[先]답’을 통하여 학우분들의 의견과 목소리를 기반 삼아 더욱 발전된 총학생회가 될 수 있도록 항상 최선을 다하겠습니다💙<br/><br/>✅ 기간 : 2023. 07. 10(월) 12:00 - 2023. 07. 14(금) 18:00<br/>✅ 참여 : <a href='https://forms.gle/VQjTo3u9kLugvTSz5' style='color: blue'>https://forms.gle/VQjTo3u9kLugvTSz5</a><br/><br/>본 링크는 총학생회 인스타그램 프로필링크 및 학과별 단체채팅방에서 확인하실 수 있습니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img112_1,
+        alt: "img112_1",
+      },
+      {
+        img: Img112_2,
+        alt: "img112_2",
+      },
+    ],
+  },
   {
     id: 111,
     link: "/info/notice/detail/111",
