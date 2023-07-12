@@ -256,6 +256,25 @@ import noImg5_8 from "../../assets/education/notice/5/8.jpg";
 import noImg5_9 from "../../assets/education/notice/5/9.jpg";
 import noImg5_10 from "../../assets/education/notice/5/10.jpg";
 
+import noImg6_title from "../../assets/education/notice/6/title.png";
+import noImg6_1 from "../../assets/education/notice/6/001.png";
+import noImg6_2 from "../../assets/education/notice/6/002.png";
+import noImg6_3 from "../../assets/education/notice/6/003.png";
+import noImg6_4 from "../../assets/education/notice/6/004.png";
+import noImg6_5 from "../../assets/education/notice/6/005.png";
+import noImg6_6 from "../../assets/education/notice/6/006.png";
+import noImg6_7 from "../../assets/education/notice/6/007.png";
+import noImg6_8 from "../../assets/education/notice/6/008.png";
+import noImg6_9 from "../../assets/education/notice/6/009.png";
+import noImg6_10 from "../../assets/education/notice/6/010.png";
+import noImg6_11 from "../../assets/education/notice/6/011.png";
+import noImg6_12 from "../../assets/education/notice/6/012.png";
+import noImg6_13 from "../../assets/education/notice/6/013.png";
+import noImg6_14 from "../../assets/education/notice/6/014.png";
+import noImg6_15 from "../../assets/education/notice/6/015.png";
+import noImg6_16 from "../../assets/education/notice/6/016.png";
+import noImg6_17 from "../../assets/education/notice/6/017.png";
+
 export const EducationForesightData = [
   {
     id: 20,
@@ -1268,6 +1287,87 @@ export const EducationForesightData = [
 ];
 
 export const EducationNoticeData = [
+  {
+    id: 6,
+    link: "/work/education/ednotice/detail/6",
+    img: noImg6_title,
+    alt: "noimg6_title",
+    title: "💙교환학생 프로그램 자료 안내💙",
+    date: "2023-07-14",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록 학사 관련 정보를 제공해드리고 있습니다.<br/><br/>1학기에 진행되었던 💡선[先]견지명💡콘텐츠에 이어, 하계방학에는 학우 여러분께서 가장 궁금해하실만한 내용을 선정하여 자료로 만들고자 합니다!<br/><br/>그 첫 번째 자료로, 🌐교환학생 프로그램🌐을 준비해보았습니다.교환학생을 가기 위하여 준비할 서류는 무엇이 있는지, 파견조건은 어떻게 되는지,<br/>자매대학은 어떤 곳이 있는지 등 꼭 알아야 하는 정보들을 한 눈에 파악하실 수 있도록 제작하였습니다.🗂️<br/><br/>해당 자료를 포함하여 교육지원국에서 자체 제작한 학사 관련 자료를 총학생회 홈페이지<a href='http://www.student-smu.com/info/notice/detail/113' style='color: blue'>(http://www.student-smu.com/info/notice/detail/113)</a>에서 확인하실 수 있습니다.<br/><br/>1️⃣ 정규 교환학생, 장학 교환학생의 공통점 및 차이점<br/>2️⃣ 교환학생 프로그램의 장점<br/>3️⃣ 국가별 모집공고 시기<br/>4️⃣ 국가별 자매대학 위치<br/>5️⃣ 교환학생 프로그램 참여자 후기<br/><br/>자세한 사항은 국가별 모집공고 시기에 본교 홈페이지 [공지사항-글로벌] 탭에서 확인하실 수 있습니다.<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분에게 유용한 학사 정보를 전달하기 위하여 노력하겠습니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: noImg6_1,
+        alt: "noImg6_1",
+      },
+      {
+        img: noImg6_2,
+        alt: "noImg6_2",
+      },
+      {
+        img: noImg6_3,
+        alt: "noImg6_3",
+      },
+      {
+        img: noImg6_4,
+        alt: "noImg6_4",
+      },
+      {
+        img: noImg6_5,
+        alt: "noImg6_5",
+      },
+      {
+        img: noImg6_6,
+        alt: "noImg6_6",
+      },
+      {
+        img: noImg6_7,
+        alt: "noImg6_7",
+      },
+      {
+        img: noImg6_8,
+        alt: "noImg6_8",
+      },
+      {
+        img: noImg6_9,
+        alt: "noImg6_9",
+      },
+      {
+        img: noImg6_10,
+        alt: "noImg6_10",
+      },
+      {
+        img: noImg6_11,
+        alt: "noImg6_11",
+      },
+      {
+        img: noImg6_12,
+        alt: "noImg6_12",
+      },
+      {
+        img: noImg6_13,
+        alt: "noImg6_13",
+      },
+      {
+        img: noImg6_14,
+        alt: "noImg6_14",
+      },
+      {
+        img: noImg6_15,
+        alt: "noImg6_15",
+      },
+      {
+        img: noImg6_16,
+        alt: "noImg6_16",
+      },
+      {
+        img: noImg6_17,
+        alt: "noImg6_17",
+      },
+    ],
+  },
   {
     id: 5,
     link: "/work/education/ednotice/detail/5",
