@@ -652,7 +652,105 @@ import Img111_4 from "../../assets/partner/11/4.jpg";
 import Img112_1 from "../../assets/notice/112/1.jpg";
 import Img112_2 from "../../assets/notice/112/2.jpg";
 
+import Img113_1 from "../../assets/education/notice/6/001.png";
+import Img113_2 from "../../assets/education/notice/6/002.png";
+import Img113_3 from "../../assets/education/notice/6/003.png";
+import Img113_4 from "../../assets/education/notice/6/004.png";
+import Img113_5 from "../../assets/education/notice/6/005.png";
+import Img113_6 from "../../assets/education/notice/6/006.png";
+import Img113_7 from "../../assets/education/notice/6/007.png";
+import Img113_8 from "../../assets/education/notice/6/008.png";
+import Img113_9 from "../../assets/education/notice/6/009.png";
+import Img113_10 from "../../assets/education/notice/6/010.png";
+import Img113_11 from "../../assets/education/notice/6/011.png";
+import Img113_12 from "../../assets/education/notice/6/012.png";
+import Img113_13 from "../../assets/education/notice/6/013.png";
+import Img113_14 from "../../assets/education/notice/6/014.png";
+import Img113_15 from "../../assets/education/notice/6/015.png";
+import Img113_16 from "../../assets/education/notice/6/016.png";
+import Img113_17 from "../../assets/education/notice/6/017.png";
+
 export const NoticeData = [
+  {
+    id: 113,
+    link: "/info/notice/detail/113",
+    title: "상명대학교 제46대 총학생회 '선[先]' 교환학생 프로그램 자료 안내",
+    date: "2023-07-14",
+    owner: "관리자",
+    kind: "학사",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록 학사 관련 정보를 제공해드리고 있습니다.<br/><br/>1학기에 진행되었던 💡선[先]견지명💡콘텐츠에 이어, 하계방학에는 학우 여러분께서 가장 궁금해하실만한 내용을 선정하여 자료로 만들고자 합니다!<br/><br/>그 첫 번째 자료로, 🌐교환학생 프로그램🌐을 준비해보았습니다.교환학생을 가기 위하여 준비할 서류는 무엇이 있는지, 파견조건은 어떻게 되는지,<br/>자매대학은 어떤 곳이 있는지 등 꼭 알아야 하는 정보들을 한 눈에 파악하실 수 있도록 제작하였습니다.🗂️<br/><br/>해당 자료를 포함하여 교육지원국에서 자체 제작한 학사 관련 자료를 총학생회 홈페이지<a href='http://www.student-smu.com/info/notice/detail/113' style='color: blue'>(http://www.student-smu.com/info/notice/detail/113)</a>에서 확인하실 수 있습니다.<br/><br/>1️⃣ 정규 교환학생, 장학 교환학생의 공통점 및 차이점<br/>2️⃣ 교환학생 프로그램의 장점<br/>3️⃣ 국가별 모집공고 시기<br/>4️⃣ 국가별 자매대학 위치<br/>5️⃣ 교환학생 프로그램 참여자 후기<br/><br/>자세한 사항은 국가별 모집공고 시기에 본교 홈페이지 [공지사항-글로벌] 탭에서 확인하실 수 있습니다.<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분에게 유용한 학사 정보를 전달하기 위하여 노력하겠습니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img113_1,
+        alt: "img113_1",
+      },
+      {
+        img: Img113_2,
+        alt: "img113_2",
+      },
+      {
+        img: Img113_3,
+        alt: "img113_3",
+      },
+      {
+        img: Img113_4,
+        alt: "img113_4",
+      },
+      {
+        img: Img113_5,
+        alt: "img113_5",
+      },
+      {
+        img: Img113_6,
+        alt: "img113_6",
+      },
+      {
+        img: Img113_7,
+        alt: "img113_7",
+      },
+      {
+        img: Img113_8,
+        alt: "img113_8",
+      },
+      {
+        img: Img113_9,
+        alt: "img113_9",
+      },
+      {
+        img: Img113_10,
+        alt: "img113_10",
+      },
+      {
+        img: Img113_11,
+        alt: "img113_11",
+      },
+      {
+        img: Img113_12,
+        alt: "img113_12",
+      },
+      {
+        img: Img113_13,
+        alt: "img113_13",
+      },
+      {
+        img: Img113_14,
+        alt: "img113_14",
+      },
+      {
+        img: Img113_15,
+        alt: "img113_15",
+      },
+      {
+        img: Img113_16,
+        alt: "img113_16",
+      },
+      {
+        img: Img113_17,
+        alt: "img113_17",
+      },
+    ],
+  },
   {
     id: 112,
     link: "/info/notice/detail/112",
