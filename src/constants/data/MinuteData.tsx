@@ -74,6 +74,14 @@ import tutionImg6 from "../../assets/minute/tution/tution2-3.jpg";
 import tutionImg7 from "../../assets/minute/tution/tution3-1.jpg";
 import tutionImg8 from "../../assets/minute/tution/tution3-2.jpg";
 
+import libraryImg from "../../assets/minute/administrative/library1-1.jpg";
+import libraryImg2 from "../../assets/minute/administrative/library1-2.jpg";
+import libraryImg3 from "../../assets/minute/administrative/library1-3.jpg";
+import libraryImg4 from "../../assets/minute/administrative/library1-4.jpg";
+import libraryImg5 from "../../assets/minute/administrative/library1-5.jpg";
+import libraryImg6 from "../../assets/minute/administrative/library1-6.jpg";
+import libraryImg7 from "../../assets/minute/administrative/library1-7.jpg";
+
 export const MinuteData = [
   {
     id: "center",
@@ -276,6 +284,45 @@ export const TutionData = [
 ];
 
 export const AdministrativeData = [
+  {
+    id: 9,
+    title: "2023학년도 제1차 학술정보관 - 총학생회 간담회 회의록",
+    date: "2023-07-14",
+    link: "/info/minute/administrative/detail/9",
+    owner: "관리자",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회는, 학술정보관 열람실 및 어플리케이션에 대하여 학우분들이 느끼고 계신 불편함을 인지하였습니다.<br/>또한, 관련 안건에 대해 논의를 진행하고자 06월 09일(금) 학술정보관 측과 간담회를 시행한 바 있습니다.<br/>해당 회의 과정에서 논의되었던 안건은 아래와 같습니다.<br/><br/>1) 학술정보관 어플리케이션 관련 안건<br/>2) 학술정보관 열람실 이용 관련 논의<br/>3) 학술정보관 자료실 이용 관련 논의<br/><br/>위 안건과 관련하여 자세한 내용은 총학생회 측에서 정리하여 첨부한 회의록 카드뉴스를 통해 확인해주시면 감사하겠습니다.<br/><br/>제46대 총학생회 선[先]은, 학우 여러분께서 더 나은 학교생활을 영위하실 수 있도록 노력하겠습니다. 감사합니다.💙<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: libraryImg,
+        alt: "libraryImg",
+      },
+      {
+        img: libraryImg2,
+        alt: "libraryImg2",
+      },
+      {
+        img: libraryImg3,
+        alt: "libraryImg3",
+      },
+      {
+        img: libraryImg4,
+        alt: "libraryImg4",
+      },
+      {
+        img: libraryImg5,
+        alt: "libraryImg5",
+      },
+      {
+        img: libraryImg6,
+        alt: "libraryImg6",
+      },
+      {
+        img: libraryImg7,
+        alt: "libraryImg7",
+      },
+    ],
+  },
   {
     id: 8,
     title: "2023학년도 제1차 교무처 - 총학생회 간담회 회의록",
