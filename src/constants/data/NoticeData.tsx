@@ -678,7 +678,25 @@ import Img114_5 from "../../assets/minute/administrative/library1-5.jpg";
 import Img114_6 from "../../assets/minute/administrative/library1-6.jpg";
 import Img114_7 from "../../assets/minute/administrative/library1-7.jpg";
 
+import Img115_1 from "../../assets/notice/115/1.jpg";
+
 export const NoticeData = [
+  {
+    id: 115,
+    link: "/info/notice/detail/115",
+    title: "상명대학교 제46대 총학생회 '선[先]' 농촌 봉사 활동 선[先]행 안내",
+    date: "2023-07-15",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 복지사업국입니다🍀<br/><br/>🌿2023 하계 농촌 봉사 활동 선[先]행🌿이 얼마 남지 않았습니다.<br/><br/>이번 농촌 봉사 활동에 참가하시는 학우 여러분들을 위해 다양한 업체들과 제휴를 맺어, 보다 더 나은 환경을 제공하기 위한 준비를 완료하였습니다 !<br/><br/>“작은 순간들을 모아 큰 추억으로” 활동을 진행하면서, 각자의 추억의 한 페이지를 쌓으실 수 있도록 총학생회는 늘 최선을 다하겠습니다🌻<br/><br/>앞으로도 다양한 방면에서, 학우분들의 복지를 위해 더욱 노력하도록 하겠습니다. 감사합니다💙<br/><br/>관련하여 문의 사항이 있으시다면, 아래 방법을 통해 연락해주시면 감사하겠습니다🙂<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img115_1,
+        alt: "img115_1",
+      },
+    ],
+  },
   {
     id: 114,
     link: "/info/notice/detail/114",
