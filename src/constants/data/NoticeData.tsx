@@ -255,6 +255,7 @@ import Video6 from "../../assets/video/6.mp4";
 import Video7 from "../../assets/video/7.mp4";
 import Video8 from "../../assets/video/8.mp4";
 import Video9 from "../../assets/video/9.mp4";
+import Video10 from "../../assets/video/10.mp4";
 
 import Img38_1 from "../../assets/notice/38/1.jpg";
 import Img38_2 from "../../assets/notice/38/2.jpg";
@@ -680,7 +681,46 @@ import Img114_7 from "../../assets/minute/administrative/library1-7.jpg";
 
 import Img115_1 from "../../assets/notice/115/1.jpg";
 
+import Img117_1 from "../../assets/notice/117/1.jpg";
+import Img117_2 from "../../assets/notice/117/2.jpg";
+
 export const NoticeData = [
+  {
+    id: 117,
+    link: "/info/notice/detail/117",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 재수강 최대 학점 및 횟수 개편 확정 안내",
+    date: "2023-07-22",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>총학생회 선[先]은 2023학년도 1학기에 본교 교무처에 '재수강 시 부여 가능 최대 학점 및 횟수 제한 완화 개편안'을 발의하였습니다.<br/><br/>발의하였던 재수강 관련 개편안은 최종 확정되어, 다음 학기인 2023학년도 2학기부터 시행될 예정입니다.<br/>승인된 변경사항을 최종적으로 정리해드리자면 아래와 같습니다.<br/><br/>◆ 재수강 조건: C+ 이하 교과목 → B+ 이하 교과목<br/>◆ 재수강 가능 과목 수: 6과목 이내 → 제한 없음<br/>◆ 재수강 최대 취득 학점: B+ → A<br/><br/>개편 확정 관련 세부사항은 함께 첨부드리는 자료를 통해 확인해주시면 감사하겠습니다.<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분께서 더 나은 학사제도 아래에서 학교생활을 영위하실 수 있도록 최선을 다하겠습니다.<br/>학우 여러분의 목소리가 학교 측에 명확히 반영될 수 있도록 한 걸음 앞에 먼저 서 있겠습니다.💙<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img117_1,
+        alt: "img117_1",
+      },
+      {
+        img: Img117_2,
+        alt: "img117_2",
+      },
+    ],
+  },
+  {
+    id: 116,
+    link: "/info/notice/detail/116",
+    title: "상명대학교 제46대 총학생회 '선[先]' 농촌 봉사 활동 선[先]행 V-Log",
+    date: "2023-07-21",
+    owner: "관리자",
+    kind: "성과보고",
+    content:
+      "상명대학교 서울캠퍼스 🌿2023 하계 농촌 봉사 활동 ‘선[先]행’🌿<br/><br/>7월 18일부터 21일까지 경기도 이천시 대월면에서 상명대학교 서울캠퍼스 총학생회 주관 하에 농촌 봉사 활동이 진행되었습니다.<br/><br/>나흘 간의 봉사 활동을 통해 학우분들과 농촌 어르신들 모두 뜻깊은 시간이 되었길 바라겠습니다👨‍🌾<br/><br/>“초록을 거머쥔 우리들, 2023. 07. 21, 이천시 대월면에서”<br/><br/>제작 | 제46대 총학생회 선[先] 홍보국<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inVideo: [
+      {
+        video: Video10,
+      },
+    ],
+  },
   {
     id: 115,
     link: "/info/notice/detail/115",
