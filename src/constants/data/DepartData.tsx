@@ -11,8 +11,8 @@ import Img11 from "../../assets/profile/welhead.jpeg";
 import Img12 from "../../assets/profile/welsub.png";
 import Img13 from "../../assets/profile/fihead.jpeg";
 import Img14 from "../../assets/profile/fisub.jpg";
-import Img15 from "../../assets/profile/prohead.jpg";
-import Img16 from "../../assets/profile/prosub.png";
+import Img15 from "../../assets/profile/prohead.png";
+import Img16 from "../../assets/profile/prosub.jpeg";
 import Img17 from "../../assets/profile/songhee.jpeg";
 import Img18 from "../../assets/profile/hyun.jpeg";
 import Img19 from "../../assets/profile/gyuri.jpeg";
@@ -969,23 +969,23 @@ export const DepartData = [
     subItem: [
       {
         position: "국장",
-        name: "원가희",
-        major: "의류학전공 21",
+        name: "김슬찬",
+        major: "역사콘텐츠전공 22",
         img: Img15,
         alt: "img15",
         size: "rec",
         content:
-          "안녕하십니까, 총학생회 선[先] 홍보국 국장 원가희입니다.<br/>일을 아무리 잘 하더라도 학우분들에게 닿지 않는다면<br/>아무런 의미가 없습니다. 총학생회 선[先]과 상명대학교<br/>학우분들의 단단한 연결 다리가 되겠습니다.",
+          "안녕하십니까, 총학생회 선[先] 홍보국 국장 김슬찬입니다.<br/>긴 공백 끝에 제46대 총학생회 선[先]이 학우분들의 성원 덕분에 출범했습니다.<br/>홍보국 국장으로서 2023년 한 해동안 펼쳐질 상명대학교가 학교 구성원들에게,<br/>관심을 가져주시는 모든 분들에게 닿을 수 있도록 힘쓰겠습니다.",
       },
       {
         position: "차장",
-        name: "김슬찬",
-        major: "역사콘텐츠전공 22",
+        name: "김민정",
+        major: "국어교육과 22",
         img: Img16,
         alt: "img16",
         size: "rec",
         content:
-          "안녕하십니까, 총학생회 선[先] 홍보국 차장 김슬찬입니다.<br/>긴 공백 끝에 제46대 총학생회 선[先]이 학우분들의 성원 덕분에 출범했습니다.<br/>홍보국 차장으로서 2023년 한 해동안 펼쳐질 상명대학교가 학교 구성원들에게,<br/>관심을 가져주시는 모든 분들에게 닿을 수 있도록 힘쓰겠습니다.",
+          "안녕하십니까, 총학생회 선[先] 홍보국 차장 김민정입니다.<br/>상명대학교 학우들을 위해 열심히 일하겠습니다.",
       },
       {
         position: "국원",
@@ -1013,15 +1013,6 @@ export const DepartData = [
         alt: "img37",
         size: "squ",
         content: "안녕하십니까, 총학생회 선[先] 홍보국 국원 임경환입니다.",
-      },
-      {
-        position: "국원",
-        name: "김민정",
-        major: "국어교육과 22",
-        img: Img37,
-        alt: "img37",
-        size: "squ",
-        content: "안녕하십니까, 총학생회 선[先] 홍보국 국원 김민정입니다.",
       },
     ],
   },

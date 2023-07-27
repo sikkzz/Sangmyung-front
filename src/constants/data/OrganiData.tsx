@@ -12,8 +12,8 @@ import Img11 from "../../assets/profile/welhead.jpeg";
 import Img12 from "../../assets/profile/welsub.png";
 import Img13 from "../../assets/profile/fihead.jpeg";
 import Img14 from "../../assets/profile/fisub.jpg";
-import Img15 from "../../assets/profile/prohead.jpg";
-import Img16 from "../../assets/profile/prosub.png";
+import Img15 from "../../assets/profile/prohead.png";
+import Img16 from "../../assets/profile/prosub.jpeg";
 import Img17 from "../../assets/profile/songhee.jpeg";
 import Img18 from "../../assets/profile/hyun.jpeg";
 import Img19 from "../../assets/profile/gyuri.jpeg";
@@ -667,16 +667,16 @@ export const PromotionData = [
     headItem: [
       {
         position: "국장",
-        name: "원가희",
-        major: "의류학전공 21",
+        name: "김슬찬",
+        major: "역사콘텐츠전공 22",
         img: Img15,
         alt: "img15",
         size: "rec",
       },
       {
         position: "차장",
-        name: "김슬찬",
-        major: "역사콘텐츠전공 22",
+        name: "김민정",
+        major: "국어교육과 22",
         img: Img16,
         alt: "img16",
         size: "rec",
@@ -707,13 +707,6 @@ export const PromotionData = [
           {
             name: "임경환",
             major: "국가안보학과 20",
-            img: Img37,
-            alt: "img37",
-            size: "squ",
-          },
-          {
-            name: "김민정",
-            major: "국어교육과 22",
             img: Img37,
             alt: "img37",
             size: "squ",
