@@ -275,6 +275,23 @@ import noImg6_15 from "../../assets/education/notice/6/015.png";
 import noImg6_16 from "../../assets/education/notice/6/016.png";
 import noImg6_17 from "../../assets/education/notice/6/017.png";
 
+import noImg7_title from "../../assets/education/notice/7/title.png";
+import noImg7_1 from "../../assets/education/notice/7/001.png";
+import noImg7_2 from "../../assets/education/notice/7/002.png";
+import noImg7_3 from "../../assets/education/notice/7/003.png";
+import noImg7_4 from "../../assets/education/notice/7/004.png";
+import noImg7_5 from "../../assets/education/notice/7/005.png";
+import noImg7_6 from "../../assets/education/notice/7/006.png";
+import noImg7_7 from "../../assets/education/notice/7/007.png";
+import noImg7_8 from "../../assets/education/notice/7/008.png";
+import noImg7_9 from "../../assets/education/notice/7/009.png";
+import noImg7_10 from "../../assets/education/notice/7/010.png";
+import noImg7_11 from "../../assets/education/notice/7/011.png";
+import noImg7_12 from "../../assets/education/notice/7/012.png";
+import noImg7_13 from "../../assets/education/notice/7/013.png";
+import noImg7_14 from "../../assets/education/notice/7/014.png";
+import noImg7_15 from "../../assets/education/notice/7/015.png";
+
 export const EducationForesightData = [
   {
     id: 20,
@@ -1287,6 +1304,79 @@ export const EducationForesightData = [
 ];
 
 export const EducationNoticeData = [
+  {
+    id: 7,
+    link: "/work/education/ednotice/detail/7",
+    img: noImg7_title,
+    alt: "noImg7_title",
+    title: "💙학사제도 자료집 안내💙",
+    date: "2023-07-28",
+    owner: "관리자",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록 학사 관련 정보를 제공해드리고 있습니다.<br/><br/>1학기에 진행되었던 💡선[先]견지명💡콘텐츠에 이어, 하계방학에는 학우 여러분께서 가장 궁금해하실만한 내용을 선정하여 자료로 만들고자 합니다!<br/><br/>그 두 번째 자료로, 📚학사제도 정리📚를 준비해보았습니다.<br/>졸업하기 위해서는 교양 및 전공 교육과정을 어떻게 이수하여야 하는지, 우리 학교에는 어떤 전공 제도가 있는지 등 학우 여러분이 주로 헷갈리실만한 내용을 정리하였습니다.🗂️<br/><br/>해당 자료를 포함하여 교육지원국에서 자체 제작한 학사 관련 자료를 총학생회 홈페이지<a href='http://www.student-smu.com/info/notice/detail/118' style='color: blue'>(http://www.student-smu.com/info/notice/detail/118)</a>에서 확인할 수 있습니다.<br/><br/>1️⃣ 공통 졸업요건<br/>2️⃣ 교양 교육과정<br/>3️⃣ 전공 교육과정<br/>4️⃣ 전공제도 (다전공, 부전공, 심화전공)<br/>5️⃣ 다전공 세부 정리<br/>6️⃣ 전과제도<br/><br/>자세한 사항은 본교 홈페이지 → 대학생활 → 학사행정 → [학사제도 안내서]에서 확인하실 수 있습니다. <br/><br/>총학생회 선[先]은 앞으로도 학우 여러분에게 유용한 학사 정보를 전달하기 위하여 노력하겠습니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: noImg7_1,
+        alt: "noImg7_1",
+      },
+      {
+        img: noImg7_2,
+        alt: "noImg7_2",
+      },
+      {
+        img: noImg7_3,
+        alt: "noImg7_3",
+      },
+      {
+        img: noImg7_4,
+        alt: "noImg7_4",
+      },
+      {
+        img: noImg7_5,
+        alt: "noImg7_5",
+      },
+      {
+        img: noImg7_6,
+        alt: "noImg7_6",
+      },
+      {
+        img: noImg7_7,
+        alt: "noImg7_7",
+      },
+      {
+        img: noImg7_8,
+        alt: "noImg7_8",
+      },
+      {
+        img: noImg7_9,
+        alt: "noImg7_9",
+      },
+      {
+        img: noImg7_10,
+        alt: "noImg7_10",
+      },
+      {
+        img: noImg7_11,
+        alt: "noImg7_11",
+      },
+      {
+        img: noImg7_12,
+        alt: "noImg7_12",
+      },
+      {
+        img: noImg7_13,
+        alt: "noImg7_13",
+      },
+      {
+        img: noImg7_14,
+        alt: "noImg7_14",
+      },
+      {
+        img: noImg7_15,
+        alt: "noImg7_15",
+      },
+    ],
+  },
   {
     id: 6,
     link: "/work/education/ednotice/detail/6",

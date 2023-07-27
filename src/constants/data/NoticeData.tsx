@@ -684,7 +684,94 @@ import Img115_1 from "../../assets/notice/115/1.jpg";
 import Img117_1 from "../../assets/notice/117/1.jpg";
 import Img117_2 from "../../assets/notice/117/2.jpg";
 
+import Img118_1 from '../../assets/education/notice/7/001.png'
+import Img118_2 from '../../assets/education/notice/7/002.png'
+import Img118_3 from '../../assets/education/notice/7/003.png'
+import Img118_4 from '../../assets/education/notice/7/004.png'
+import Img118_5 from '../../assets/education/notice/7/005.png'
+import Img118_6 from '../../assets/education/notice/7/006.png'
+import Img118_7 from '../../assets/education/notice/7/007.png'
+import Img118_8 from '../../assets/education/notice/7/008.png'
+import Img118_9 from '../../assets/education/notice/7/009.png'
+import Img118_10 from '../../assets/education/notice/7/010.png'
+import Img118_11 from '../../assets/education/notice/7/011.png'
+import Img118_12 from '../../assets/education/notice/7/012.png'
+import Img118_13 from '../../assets/education/notice/7/013.png'
+import Img118_14 from '../../assets/education/notice/7/014.png'
+import Img118_15 from '../../assets/education/notice/7/015.png'
+
 export const NoticeData = [
+  {
+    id: 118,
+    link: "/info/notice/detail/118",
+    title: "상명대학교 제46대 총학생회 '선[先]' 학사제도 자료집 안내",
+    date: "2023-07-28",
+    owner: "관리자",
+    kind: "학사",
+    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록 학사 관련 정보를 제공해드리고 있습니다.<br/><br/>1학기에 진행되었던 💡선[先]견지명💡콘텐츠에 이어, 하계방학에는 학우 여러분께서 가장 궁금해하실만한 내용을 선정하여 자료로 만들고자 합니다!<br/><br/>그 두 번째 자료로, 📚학사제도 정리📚를 준비해보았습니다.<br/>졸업하기 위해서는 교양 및 전공 교육과정을 어떻게 이수하여야 하는지, 우리 학교에는 어떤 전공 제도가 있는지 등 학우 여러분이 주로 헷갈리실만한 내용을 정리하였습니다.🗂️<br/><br/>해당 자료를 포함하여 교육지원국에서 자체 제작한 학사 관련 자료를 총학생회 홈페이지<a href='http://www.student-smu.com/info/notice/detail/118' style='color: blue'>(http://www.student-smu.com/info/notice/detail/118)</a>에서 확인할 수 있습니다.<br/><br/>1️⃣ 공통 졸업요건<br/>2️⃣ 교양 교육과정<br/>3️⃣ 전공 교육과정<br/>4️⃣ 전공제도 (다전공, 부전공, 심화전공)<br/>5️⃣ 다전공 세부 정리<br/>6️⃣ 전과제도<br/><br/>자세한 사항은 본교 홈페이지 → 대학생활 → 학사행정 → [학사제도 안내서]에서 확인하실 수 있습니다. <br/><br/>총학생회 선[先]은 앞으로도 학우 여러분에게 유용한 학사 정보를 전달하기 위하여 노력하겠습니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img118_1,
+        alt: "img118_1"
+      },
+      {
+        img: Img118_2,
+        alt: "img118_2"
+      },
+      {
+        img: Img118_3,
+        alt: "img118_3"
+      },
+      {
+        img: Img118_4,
+        alt: "img118_4"
+      },
+      {
+        img: Img118_5,
+        alt: "img118_5"
+      },
+      {
+        img: Img118_6,
+        alt: "img118_6"
+      },
+      {
+        img: Img118_7,
+        alt: "img118_7"
+      },
+      {
+        img: Img118_8,
+        alt: "img118_8"
+      },
+      {
+        img: Img118_9,
+        alt: "img118_9"
+      },
+      {
+        img: Img118_10,
+        alt: "img118_10"
+      },
+      {
+        img: Img118_11,
+        alt: "img118_11"
+      },
+      {
+        img: Img118_12,
+        alt: "img118_12"
+      },
+      {
+        img: Img118_13,
+        alt: "img118_13"
+      },
+      {
+        img: Img118_14,
+        alt: "img118_14"
+      },
+      {
+        img: Img118_15,
+        alt: "img118_15"
+      },
+    ]
+  },
   {
     id: 117,
     link: "/info/notice/detail/117",
