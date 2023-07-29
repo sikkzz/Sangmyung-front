@@ -712,7 +712,7 @@ export const NoticeData = [
     owner: "관리자",
     kind: "공지",
     content:
-      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록 학사 관련 정보를 제공해드리고 있습니다!<br/><br/>학기 중에는 주요 학사공지 및 진로/취업 정보를 담은💡선[先]견지명💡을 통해 매주 새로운 소식을 확인하실 수 있습니다.<br/><br/>하계방학에는 학우 여러분께서 궁금해하실만한 내용을 선정하여 자료로 제작하고 있습니다.<br/><br/>교육지원국에서 자체 제작한 학사 관련 자료를 총학생회 홈페이지<a href='https://url.kr/w3dy8t' style='color: blue'>(https://url.kr/w3dy8t)</a>에서 확인하실 수 있습니다.<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분에게 유용한 학사 정보를 전달하기 위하여 노력하겠습니다<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록 학사 관련 정보를 제공해드리고 있습니다!<br/><br/>학기 중에는 주요 학사공지 및 진로/취업 정보를 담은💡선[先]견지명💡을 통해 매주 새로운 소식을 확인하실 수 있습니다.<br/><br/>하계방학에는 학우 여러분께서 궁금해하실만한 내용을 선정하여 자료로 제작하고 있습니다.<br/><br/>교육지원국에서 자체 제작한 학사 관련 자료를 총학생회 홈페이지에서 확인하실 수 있습니다.<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분에게 유용한 학사 정보를 전달하기 위하여 노력하겠습니다<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
     inImg: [
       {
         img: Img119_1,
