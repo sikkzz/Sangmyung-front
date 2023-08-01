@@ -703,7 +703,43 @@ import Img118_15 from "../../assets/education/notice/7/015.png";
 import Img119_1 from "../../assets/notice/119/1.jpg";
 import Img119_2 from "../../assets/notice/119/2.jpg";
 
+import Img120_1 from "../../assets/notice/120/1.jpg";
+
+import Img121_1 from "../../assets/notice/121/1.jpg";
+
 export const NoticeData = [
+  {
+    id: 121,
+    link: "/info/notice/detail/121",
+    title: "상명대학교 제46대 총학생회 '선[先]' 8월 캘린더 출간",
+    date: "2023-08-01",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분. 제46대 총학생회 선[先]입니다.<br/><br/>학우 여러분께 8월 주요 학사 일정을 담은 8월 달력을 전해드립니다.<br/>2학기 1차 수강신청 기간을 포함하여 캠퍼스 간 복수전공 신청 기간, 2학기 등록 기간 등 여러 교내 일정이 기재되어 있습니다.<br/><br/>어느새 여름의 한 가운데, 8월입니다. 학우 여러분께서는 무더운 날씨 속에서 즐거운 방학 보내고 계신가요?<br/>이런 날일 수록 충분한 휴식, 즐거운 휴가를 통해 몸과 마음에 활력을 불어넣어 보는 건 어떨까요? 얼마 남지 않은 여름, 시원하고 즐겁게 보내시기를 기원합니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img121_1,
+        alt: "img121_1",
+      },
+    ],
+  },
+  {
+    id: 120,
+    link: "/info/notice/detail/120",
+    title: "상명대학교 제46대 총학생회 '선[先]' 2학기 SMCL 참가 안내",
+    date: "2023-07-31",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 상명대학교 서울캠퍼스 제46대 총학생회 선[先]의 대내교류국입니다!<br/><br/>2학기 SMCL 개최와 관련하여, 참가 희망 축구동아리를 대상으로 신청을 받고자 합니다! SMCL에 관심이 있으신 교내 축구 동아리 및 소모임 대표 여러분께서는,<br/>아래의 오픈채팅방 링크를 통해 2학기 SMCL 참가 신청서를 작성하여 참여를 신청해주시면 감사하겠습니다.<br/><br/>감사합니다.<br/><br/>⚽️카카오톡 오픈채팅방 링크⚽️<br/><a href='https://open.kakao.com/o/sgJfUxcf' style='color: blue'>https://open.kakao.com/o/sgJfUxcf</a><br/><br/>[참가 신청 방법]<br/><br/>1. 아래의 링크를 통하여 참가 신청서 다운로드<br/>⚽️신청서 다운로드 링크⚽️<br/><a href='https://drive.google.com/file/d/1_TW7QaJlJZdGbnlZZ25rE8PdKzwhYS_C/view?usp=sharing' style='color: blue'>https://drive.google.com/file/d/1_TW7QaJlJZdGbnlZZ25rE8PdKzwhYS_C/view?usp=sharing</a><br/><br/>2. 참가 신청서 작성<br/><br/>3. 본 홍보물에 있는 카카오톡 오픈채팅방을 통해 참가 신청서 제출<br/><br/>4. 참가 신청자를 대상으로 ‘간담회 및 발대식’ 안내<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img120_1,
+        alt: "img120_1",
+      },
+    ],
+  },
   {
     id: 119,
     link: "/info/notice/detail/119",
