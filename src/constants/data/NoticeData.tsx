@@ -707,7 +707,30 @@ import Img120_1 from "../../assets/notice/120/1.jpg";
 
 import Img121_1 from "../../assets/notice/121/1.jpg";
 
+import Img122_1 from "../../assets/notice/122/1.jpg";
+import Img122_2 from "../../assets/notice/122/2.jpg";
+
 export const NoticeData = [
+  {
+    id: 122,
+    link: "/info/notice/detail/122",
+    title: "상명대학교 제46대 총학생회 '선[先]' 버스킹제 간담회 안내",
+    date: "2023-08-02",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>학내 문화 발전을 위한 공약사항으로 설정하였던 🥁버스킹제🥁가 2학기에 진행될 예정입니다!<br/>이에 ‘버스킹제 간담회’를 통하여 이와 관련한 학우 여러분의 의견을 수렴하고자 합니다.<br/>‘버스킹제’의 원활한 진행을 위하여 진행하는 간담회인 만큼, 학우 여러분의 많은 관심을 부탁드리며, 이후 시행될 ‘버스킹제’에도 많은 관심을 부탁드립니다!<br/><br/>학내 문화 발전을 위하여 더욱 최선을 다하겠습니다. 감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img122_1,
+        alt: "img122_1",
+      },
+      {
+        img: Img122_2,
+        alt: "img122_2",
+      },
+    ],
+  },
   {
     id: 121,
     link: "/info/notice/detail/121",
