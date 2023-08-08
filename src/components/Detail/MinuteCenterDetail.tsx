@@ -8,8 +8,8 @@ import {
   BoardTitle,
   InfoInnerBox,
   InfoLeft,
-  DownloadBox,
-  IconBox,
+  // DownloadBox,
+  // IconBox,
   InfoRight,
   PeopleBox,
   DateBox,
@@ -38,13 +38,7 @@ import { useParams } from "react-router-dom";
 
 import Icons from "../../constants/icon";
 
-import Img from "../../assets/minute/center/1-1.jpg";
-import Img2 from "../../assets/minute/center/1-2.jpg";
-import Img3 from "../../assets/minute/center/1-3.jpg";
-import Img4 from "../../assets/minute/center/1-4.jpg";
-import Img5 from "../../assets/minute/center/1-5.jpg";
-import Img6 from "../../assets/minute/center/1-6.jpg";
-import Img7 from "../../assets/minute/center/1-7.jpg";
+import HTMLReactParser from "html-react-parser";
 
 const MinuteCenterDetail = () => {
   const param = useParams();
@@ -56,23 +50,23 @@ const MinuteCenterDetail = () => {
   const [prevLink, setPrevLink] = useState("");
   const [nextLink, setNextLink] = useState("");
 
-  // useEffect(() => {
-  //   setPrevNum(Number(param.id) - 1);
-  //   setNextNum(Number(param.id) + 1);
-  //   CenterData.map((item, index) => (
-  //     <>
-  //       {prevNum === item.id ? setPrevTitle(item.title) : ""}
-  //       {prevNum === item.id ? setPrevLink(item.link) : ""}
-  //       {nextNum === item.id ? setNextTitle(item.title) : ""}
-  //       {nextNum === item.id ? setNextLink(item.link) : ""}
-  //     </>
-  //   ));
-  // }, [nextNum, param.id, prevNum]);
+  useEffect(() => {
+    setPrevNum(Number(param.id) - 1);
+    setNextNum(Number(param.id) + 1);
+    CenterData.map((item, index) => (
+      <>
+        {prevNum === item.id ? setPrevTitle(item.title) : ""}
+        {prevNum === item.id ? setPrevLink(item.link) : ""}
+        {nextNum === item.id ? setNextTitle(item.title) : ""}
+        {nextNum === item.id ? setNextLink(item.link) : ""}
+      </>
+    ));
+  }, [nextNum, param.id, prevNum]);
 
   return (
     <Layout>
       <Col>
-        {/* {CenterData.map((item, index) => (
+        {CenterData.map((item, index) => (
           <Box key={index}>
             {Number(param.id) === item.id ? (
               <>
@@ -83,52 +77,29 @@ const MinuteCenterDetail = () => {
                   </TitleBox>
                   <InfoInnerBox>
                     <InfoLeft>
-                      <DownloadBox href={item.downloadLink}>
+                      {/* <DownloadBox href={item.downloadLink}>
                         {item.title}
                       </DownloadBox>
                       <IconBox href={item.downloadLink}>
                         <Icons.BiDownload size={20} color="#000" />
-                      </IconBox>
-                    </InfoLeft>
-                    <InfoRight>
+                      </IconBox> */}
                       <PeopleBox>작성자 : {item.owner}</PeopleBox>
                       <DateBox>작성일 : {item.date}</DateBox>
-                    </InfoRight>
+                    </InfoLeft>
+                    <InfoRight></InfoRight>
                   </InfoInnerBox>
                 </InfoBox>
                 <ContentBox>
                   <ContentTextBox>
                     <ContentTitle>[{item.title}]</ContentTitle>
                     <ContentTextParagraph>
-                      <ContentText>
-                        일시: 2023.04.10.(월) 18:30 ~ 19:30
-                      </ContentText>
-                      <ContentText>장소: 미래백년관 R103</ContentText>
-                      <ContentText>
-                        참석자: 학생 대표자(총학생회, 단과대학생회, 학과별
-                        학생회) 34인
-                      </ContentText>
-                      <ContentText>안건: 1) 총학생회 집행부 소개</ContentText>
-                      <ContentTextIndent>
-                        2) 총학생회 연간 계획 브리핑
-                      </ContentTextIndent>
-                      <ContentTextIndent>
-                        3) 총학생회 교원 간담회 안건 브리핑
-                      </ContentTextIndent>
-                      <ContentTextIndent>
-                        4) 대동제(학생축제) 시행 관련 초안 안내
-                      </ContentTextIndent>
-                      <ContentTextIndent>5) 대표자 질의</ContentTextIndent>
+                      <ContentText>{HTMLReactParser(item.content)}</ContentText>
                     </ContentTextParagraph>
                   </ContentTextBox>
                   <ContentImgBox>
-                    <ContentImg src={Img} alt="img1" />
-                    <ContentImg src={Img2} alt="img2" />
-                    <ContentImg src={Img3} alt="img3" />
-                    <ContentImg src={Img4} alt="img4" />
-                    <ContentImg src={Img5} alt="img5" />
-                    <ContentImg src={Img6} alt="img6" />
-                    <ContentImg src={Img7} alt="img7" />
+                    {item.inImg.map((item, index) => (
+                      <ContentImg src={item.img} alt={item.alt} key={index} />
+                    ))}
                   </ContentImgBox>
                 </ContentBox>
                 <PageBox>
@@ -164,14 +135,14 @@ const MinuteCenterDetail = () => {
                   </PageCol>
                 </PageBox>
                 <ListBox>
-                  <ListButton href="/minute/center">목록</ListButton>
+                  <ListButton href="/info/minute/center">목록</ListButton>
                 </ListBox>
               </>
             ) : (
               ""
             )}
           </Box>
-        ))} */}
+        ))}
       </Col>
     </Layout>
   );

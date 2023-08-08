@@ -1,19 +1,19 @@
-// import { CenterData } from "../../constants/data/MinuteData";
+import { CenterData } from "../../constants/data/MinuteData";
 
-// import {
-//   Tr,
-//   Td,
-//   TdTitle,
-//   TdLink,
-//   MTd,
-//   MTdInfoBox,
-//   MTdInfo,
-// } from "./MinuteElements";
+import {
+  Tr,
+  Td,
+  TdTitle,
+  TdLink,
+  MTd,
+  MTdInfoBox,
+  MTdInfo,
+} from "./MinuteElements";
 
 const CenterMinute = () => {
   return (
     <>
-      {/* {CenterData.map((item, index) => (
+      {CenterData.map((item, index) => (
         <Tr key={index}>
           <Td>{item.id}</Td>
           <Td>
@@ -21,8 +21,8 @@ const CenterMinute = () => {
               <TdLink href={item.link}>{item.title}</TdLink>
             </TdTitle>
           </Td>
+          <Td>{item.owner}</Td>
           <Td>{item.date}</Td>
-          <Td>{item.view}</Td>
           <MTd>
             <TdTitle>
               <TdLink href={item.link}>{item.title}</TdLink>
@@ -33,7 +33,7 @@ const CenterMinute = () => {
             </TdTitle>
           </MTd>
         </Tr>
-      ))} */}
+      ))}
     </>
   );
 };

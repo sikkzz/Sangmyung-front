@@ -8,8 +8,8 @@ import {
   BoardTitle,
   InfoInnerBox,
   InfoLeft,
-  DownloadBox,
-  IconBox,
+  // DownloadBox,
+  // IconBox,
   InfoRight,
   PeopleBox,
   DateBox,
@@ -135,7 +135,9 @@ const MinuteAdministrativeDetail = () => {
                   </PageCol>
                 </PageBox>
                 <ListBox>
-                  <ListButton href="/info/minute/administrative">목록</ListButton>
+                  <ListButton href="/info/minute/administrative">
+                    목록
+                  </ListButton>
                 </ListBox>
               </>
             ) : (

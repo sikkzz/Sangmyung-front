@@ -82,6 +82,24 @@ import libraryImg5 from "../../assets/minute/administrative/library1-5.jpg";
 import libraryImg6 from "../../assets/minute/administrative/library1-6.jpg";
 import libraryImg7 from "../../assets/minute/administrative/library1-7.jpg";
 
+import centerImg1 from "../../assets/minute/center/1.jpg";
+import centerImg2 from "../../assets/minute/center/2.jpg";
+import centerImg3 from "../../assets/minute/center/3.jpg";
+import centerImg4 from "../../assets/minute/center/4.jpg";
+import centerImg5 from "../../assets/minute/center/5.jpg";
+import centerImg6 from "../../assets/minute/center/6.jpg";
+import centerImg7 from "../../assets/minute/center/7.jpg";
+import centerImg8 from "../../assets/minute/center/8.jpg";
+import centerImg9 from "../../assets/minute/center/9.jpg";
+import centerImg10 from "../../assets/minute/center/10.jpg";
+import centerImg11 from "../../assets/minute/center/1.jpg";
+import centerImg12 from "../../assets/minute/center/1.jpg";
+import centerImg13 from "../../assets/minute/center/1.jpg";
+import centerImg14 from "../../assets/minute/center/1.jpg";
+import centerImg15 from "../../assets/minute/center/1.jpg";
+import centerImg16 from "../../assets/minute/center/1.jpg";
+import centerImg17 from "../../assets/minute/center/1.jpg";
+
 export const MinuteData = [
   {
     id: "center",
@@ -106,16 +124,85 @@ export const MinuteData = [
 ];
 
 export const CenterData = [
-  // {
-  //   id: 1,
-  //   title: "2023학년도 제1차 중앙운영위원회 회의록",
-  //   date: "2023-04-11",
-  //   view: "28",
-  //   link: "/minute/center/detail/1",
-  //   owner: "관리자",
-  //   downloadLink:
-  //     "https://www.smu.ac.kr/cms/fileDownload.do?path=%2F_res%2Fko%2Fetc%2FRule(2022.09.28.).pdf",
-  // },
+  {
+    id: 1,
+    title: "2023학년도 제1차 중앙운영위원회 회의록",
+    date: "2023-08-07",
+    link: "/info/minute/center/detail/1",
+    owner: "관리자",
+    content:
+      "일시: 2023.07.14.(금) 15:00 ~ 17:00<br/>장소: 학생회관 2층 학생처 회의실(H214호)<br/>참석자: 학생 대표자(총학생회, 단과대학생회) 10인<br/>안건: 1) 각 학생자치기구 단위 1학기 사업보고 및 정리<br/><p style='margin-left: 36px'>2) 각 학생자치기구 단위 2학기 사업대비 일정 공유</p><p style='margin-left: 36px'>3) 2학기 체전(체육대회) 일정 협의 및 공동기획 과정 진행 협의</p>",
+    inImg: [
+      {
+        img: centerImg1,
+        alt: "centerImg1",
+      },
+      {
+        img: centerImg2,
+        alt: "centerImg2",
+      },
+      {
+        img: centerImg3,
+        alt: "centerImg3",
+      },
+      {
+        img: centerImg4,
+        alt: "centerImg4",
+      },
+      {
+        img: centerImg5,
+        alt: "centerImg5",
+      },
+      {
+        img: centerImg6,
+        alt: "centerImg6",
+      },
+      {
+        img: centerImg7,
+        alt: "centerImg7",
+      },
+      {
+        img: centerImg8,
+        alt: "centerImg8",
+      },
+      {
+        img: centerImg9,
+        alt: "centerImg9",
+      },
+      {
+        img: centerImg10,
+        alt: "centerImg10",
+      },
+      {
+        img: centerImg11,
+        alt: "centerImg11",
+      },
+      {
+        img: centerImg12,
+        alt: "centerImg12",
+      },
+      {
+        img: centerImg13,
+        alt: "centerImg13",
+      },
+      {
+        img: centerImg14,
+        alt: "centerImg14",
+      },
+      {
+        img: centerImg15,
+        alt: "centerImg15",
+      },
+      {
+        img: centerImg16,
+        alt: "centerImg16",
+      },
+      {
+        img: centerImg17,
+        alt: "centerImg17",
+      },
+    ],
+  },
 ];
 
 export const RepresentativeData = [
