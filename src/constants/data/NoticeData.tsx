@@ -710,7 +710,121 @@ import Img121_1 from "../../assets/notice/121/1.jpg";
 import Img122_1 from "../../assets/notice/122/1.jpg";
 import Img122_2 from "../../assets/notice/122/2.jpg";
 
+import Img123_1 from "../../assets/notice/123/1.jpg";
+import Img123_2 from "../../assets/notice/123/2.jpg";
+import Img123_3 from "../../assets/notice/123/3.jpg";
+import Img123_4 from "../../assets/notice/123/4.jpg";
+import Img123_5 from "../../assets/notice/123/5.jpg";
+import Img123_6 from "../../assets/notice/123/6.jpg";
+import Img123_7 from "../../assets/notice/123/7.jpg";
+import Img123_8 from "../../assets/notice/123/8.jpg";
+import Img123_9 from "../../assets/notice/123/9.jpg";
+import Img123_10 from "../../assets/notice/123/10.jpg";
+import Img123_11 from "../../assets/notice/123/11.jpg";
+import Img123_12 from "../../assets/notice/123/12.jpg";
+import Img123_13 from "../../assets/notice/123/13.jpg";
+import Img123_14 from "../../assets/notice/123/14.jpg";
+import Img123_15 from "../../assets/notice/123/15.jpg";
+import Img123_16 from "../../assets/notice/123/16.jpg";
+import Img123_17 from "../../assets/notice/123/17.jpg";
+import Img123_18 from "../../assets/notice/123/18.jpg";
+import Img123_19 from "../../assets/notice/123/19.jpg";
+import Img123_20 from "../../assets/notice/123/20.jpg";
+
 export const NoticeData = [
+  {
+    id: 123,
+    link: "/info/notice/detail/123",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 제1회 중앙운영위원회 회의록 공지",
+    date: "2023-08-07",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분. 제46대 총학생회 선[先]입니다.<br/><br/>지난 7월 14일, 본교 학생회관 H214호에서 제1차 상명대학교 서울캠퍼스 중앙운영위원회 회의가 시행되었습니다.<br/>총학생회 및 단과대학 학생회 대표자가 참석한 본 회의에서는 아래 3개의 안건을 논의하였습니다.<br/><br/>1. 각 학생자치기구 단위 1학기 사업보고 및 정리<br/>2. 각 학생자치기구 단위 2학기 사업대비 일정 공유<br/>3. 2학기 체전(체육대회) 일정 협의 및 공동기획 과정 진행 협의<br/><br/>자세한 안건 및 회의 내용은 첨부된 회의록을 통해 확인하실 수 있습니다. 학우 여러분의 참고를 부탁드립니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img123_1,
+        alt: "img123_1",
+      },
+      {
+        img: Img123_2,
+        alt: "img123_2",
+      },
+      {
+        img: Img123_3,
+        alt: "img123_3",
+      },
+      {
+        img: Img123_4,
+        alt: "img123_4",
+      },
+      {
+        img: Img123_5,
+        alt: "img123_5",
+      },
+      {
+        img: Img123_6,
+        alt: "img123_6",
+      },
+      {
+        img: Img123_7,
+        alt: "img123_7",
+      },
+      {
+        img: Img123_8,
+        alt: "img123_8",
+      },
+      {
+        img: Img123_9,
+        alt: "img123_9",
+      },
+      {
+        img: Img123_10,
+        alt: "img123_10",
+      },
+      {
+        img: Img123_11,
+        alt: "img123_11",
+      },
+      {
+        img: Img123_12,
+        alt: "img123_12",
+      },
+      {
+        img: Img123_13,
+        alt: "img123_13",
+      },
+      {
+        img: Img123_14,
+        alt: "img123_14",
+      },
+      {
+        img: Img123_15,
+        alt: "img123_15",
+      },
+      {
+        img: Img123_16,
+        alt: "img123_16",
+      },
+      {
+        img: Img123_17,
+        alt: "img123_17",
+      },
+      {
+        img: Img123_18,
+        alt: "img123_18",
+      },
+      {
+        img: Img123_19,
+        alt: "img123_19",
+      },
+      {
+        img: Img123_20,
+        alt: "img123_20",
+      },
+    ],
+  },
   {
     id: 122,
     link: "/info/notice/detail/122",
