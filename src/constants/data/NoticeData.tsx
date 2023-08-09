@@ -731,7 +731,55 @@ import Img123_18 from "../../assets/notice/123/18.jpg";
 import Img123_19 from "../../assets/notice/123/19.jpg";
 import Img123_20 from "../../assets/notice/123/20.jpg";
 
+import Img124_1 from "../../assets/notice/124/1.jpg";
+import Img124_2 from "../../assets/notice/124/2.jpg";
+import Img124_3 from "../../assets/notice/124/3.jpg";
+import Img124_4 from "../../assets/notice/124/4.jpg";
+import Img124_5 from "../../assets/notice/124/5.jpg";
+import Img124_6 from "../../assets/notice/124/6.jpg";
+import Img124_7 from "../../assets/notice/124/7.jpg";
+
 export const NoticeData = [
+  {
+    id: 124,
+    link: "/info/notice/detail/124",
+    title: "상명대학교 제46대 총학생회 '선[先]' 의류 공구 사업 선[先]의 안내",
+    date: "2023-08-09",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분 ! 제46대 총학생회 선[先] 홍보국, 복지사업국입니다💙<br/><br/>총학생회 주관 의류 공구 사업 “선의[先衣]”를 진행하려고 합니다🧶<br/><br/>이번 의류 공구 사업은 총학생회 자체 제작 디자인으로, 1차 수요 조사를 통해 말씀해주신 학우 여러분들의 의견을 최대한 반영하였습니다🙆🏻‍♀️<br/><br/>의류 공구 사업의 품목으로는 [ 학잠 / 후리스 ] 두 종류로 구성되어 있습니다🎨<br/><br/>의류 주문수량에 따라 가격이 변동되기 때문에, 구매의사를 정확히 확인하기 위해 학잠 / 후리스 모두❗️30,000원 선입금 방식❗️으로 진행됩니다.<br/><br/>구매 신청 기간 종료 후, 최종 수량에 따른 가격이 확정되면 추가 금액 납부가 진행될 예정입니다.<br/>최대한 저렴한 가격으로 구매하기 위함이니, 선입금 방식으로 진행한다는 점 양해부탁드립니다🙇🏻‍♂️<br/><br/>🪡 의류 공구 신청 구글폼 링크<br/><a href='https://forms.gle/avvdGWrSWY27FEHH6' style='color: blue'>https://forms.gle/avvdGWrSWY27FEHH6</a><br/><br/>🧵 구매 신청 기간 : 8/9 (수) 18:00 ~ 8/18 (금) 18:00<br/>🧵 수령 기간 : 9월 중순 예상 * 정확한 날짜는 추후 공지 예정<br/>🧵 선입금 금액 : 품목 당 30,000원<br/>ex) 학잠, 후리스 모두 구매 → 60,000원 선입금<br/>🧵 계좌번호 : 3333225554920 카카오뱅크, 김성미<br/>🧵 주문업체 : 하이쿱 * 의류 색감 및 재질은 해당 업체의 후기를 참고해주시기 바랍니다.<br/><br/>⚠️ 신청 기간 내 취소 및 변경 사항이 생기시는 분은 다음 번호로 연락주시면 됩니다.<br/>- 복지사업국장 김성미(010-4184-2487)<br/>⚠️ 신청 기간 종료 후 선입금 비용 환불은 최종 가격 변동 여부에 따라 어려울 수 있습니다.<br/>⚠️ 신청 기간 내 미입금 시, 구글폼 설문과는 별개로 신청이 완료되지 않으니 참고 부탁드립니다.<br/><br/>앞으로도 다양한 방면에서, 학우분들의 복지를 위해 더욱 노력하도록 하겠습니다. 감사합니다💙<br/><br/>관련하여 문의 사항이 있으시다면, 아래 방법을 통해 연락해주시면 감사하겠습니다🙂<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img124_1,
+        alt: "img124_1",
+      },
+      {
+        img: Img124_2,
+        alt: "img124_2",
+      },
+      {
+        img: Img124_3,
+        alt: "img124_3",
+      },
+      {
+        img: Img124_4,
+        alt: "img124_4",
+      },
+      {
+        img: Img124_5,
+        alt: "img124_5",
+      },
+      {
+        img: Img124_6,
+        alt: "img124_6",
+      },
+      {
+        img: Img124_7,
+        alt: "img124_7",
+      },
+    ],
+  },
   {
     id: 123,
     link: "/info/notice/detail/123",
