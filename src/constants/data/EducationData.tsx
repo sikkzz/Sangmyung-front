@@ -292,6 +292,18 @@ import noImg7_13 from "../../assets/education/notice/7/013.png";
 import noImg7_14 from "../../assets/education/notice/7/014.png";
 import noImg7_15 from "../../assets/education/notice/7/015.png";
 
+import noImg8_title from '../../assets/education/notice/8/title.png'
+import noImg8_1 from '../../assets/education/notice/8/001.png'
+import noImg8_2 from '../../assets/education/notice/8/002.png'
+import noImg8_3 from '../../assets/education/notice/8/003.png'
+import noImg8_4 from '../../assets/education/notice/8/004.png'
+import noImg8_5 from '../../assets/education/notice/8/005.png'
+import noImg8_6 from '../../assets/education/notice/8/006.png'
+import noImg8_7 from '../../assets/education/notice/8/007.png'
+import noImg8_8 from '../../assets/education/notice/8/008.png'
+import noImg8_9 from '../../assets/education/notice/8/009.png'
+import noImg8_10 from '../../assets/education/notice/8/010.png'
+
 export const EducationForesightData = [
   {
     id: 20,
@@ -1304,6 +1316,58 @@ export const EducationForesightData = [
 ];
 
 export const EducationNoticeData = [
+  {
+    id: 8,
+    link: "/work/education/ednotice/detail/8",
+    img: noImg8_title,
+    alt: "noImg8_title",
+    title: "💙취업 준비 과정 자료집 안내💙",
+    date: "2023-08-11",
+    owner: "관리자",
+    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록 학사 관련 정보를 제공해드리고 있습니다. <br/><br/>1학기에 진행되었던 💡선[先]견지명💡콘텐츠에 이어, 하계방학에는 학우 여러분께서 가장 궁금해하실만한 내용을 선정하여 자료로 만들고자 합니다!<br/><br/>그 세 번째 자료로, 📌취업 준비 과정📌을 준비해보았습니다.<br/>막상 준비하려니 어떤 과정을 거쳐야 하는지, 더 많은 정보를 얻기 위해서는 어느 사이트를 이용해야 하는지 등 취업 준비에 도움이 될만한 정보를 담았습니다.🗂️<br/><br/>해당 자료를 포함하여 교육지원국에서 자체 제작한 학사 관련 자료를 총학생회 홈페이지(<a href='' style='color: blue'>https://www.student-smu.com/work/education/ednotice</a>)에서 확인하실 수 있습니다.<br/><br/>1️⃣ 취업관련 사이트<br/>2️⃣ 취업준비 : 직무선택 및 분석 과정<br/>3️⃣ 입사지원서의 의미<br/>4️⃣ 자기소개서 평가 내용<br/>5️⃣ 면접 평가 내용<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분에게 유용한 학사 정보를 전달하기 위하여 노력하겠습니다.<br/><br/>※ 본 자료는 상명대학교 대학일자리플러스센터의 문현호 실장님의 도움을 받아 제작되었습니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: noImg8_1,
+        alt: "noImg8_1"
+      },
+      {
+        img: noImg8_2,
+        alt: "noImg8_2"
+      },
+      {
+        img: noImg8_3,
+        alt: "noImg8_3"
+      },
+      {
+        img: noImg8_4,
+        alt: "noImg8_4"
+      },
+      {
+        img: noImg8_5,
+        alt: "noImg8_5"
+      },
+      {
+        img: noImg8_6,
+        alt: "noImg8_6"
+      },
+      {
+        img: noImg8_7,
+        alt: "noImg8_7"
+      },
+      {
+        img: noImg8_8,
+        alt: "noImg8_8"
+      },
+      {
+        img: noImg8_9,
+        alt: "noImg8_9"
+      },
+      {
+        img: noImg8_10,
+        alt: "noImg8_10"
+      },
+    ]
+  },
   {
     id: 7,
     link: "/work/education/ednotice/detail/7",
