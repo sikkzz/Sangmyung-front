@@ -739,18 +739,51 @@ import Img124_5 from "../../assets/notice/124/5.jpg";
 import Img124_6 from "../../assets/notice/124/6.jpg";
 import Img124_7 from "../../assets/notice/124/7.jpg";
 
-import Img125_1 from '../../assets/education/notice/8/001.png'
-import Img125_2 from '../../assets/education/notice/8/002.png'
-import Img125_3 from '../../assets/education/notice/8/003.png'
-import Img125_4 from '../../assets/education/notice/8/004.png'
-import Img125_5 from '../../assets/education/notice/8/005.png'
-import Img125_6 from '../../assets/education/notice/8/006.png'
-import Img125_7 from '../../assets/education/notice/8/007.png'
-import Img125_8 from '../../assets/education/notice/8/008.png'
-import Img125_9 from '../../assets/education/notice/8/009.png'
-import Img125_10 from '../../assets/education/notice/8/010.png'
+import Img125_1 from "../../assets/education/notice/8/001.png";
+import Img125_2 from "../../assets/education/notice/8/002.png";
+import Img125_3 from "../../assets/education/notice/8/003.png";
+import Img125_4 from "../../assets/education/notice/8/004.png";
+import Img125_5 from "../../assets/education/notice/8/005.png";
+import Img125_6 from "../../assets/education/notice/8/006.png";
+import Img125_7 from "../../assets/education/notice/8/007.png";
+import Img125_8 from "../../assets/education/notice/8/008.png";
+import Img125_9 from "../../assets/education/notice/8/009.png";
+import Img125_10 from "../../assets/education/notice/8/010.png";
+
+import Img126_1 from "../../assets/notice/126/1.jpg";
+import Img126_2 from "../../assets/notice/126/2.jpg";
+import Img126_3 from "../../assets/notice/126/3.jpg";
+import Img126_4 from "../../assets/notice/126/4.jpg";
 
 export const NoticeData = [
+  {
+    id: 126,
+    link: "/info/notice/detail/126",
+    title: "상명대학교 제46대 총학생회 '선[先]' 슬로건 공모전 시행 안내",
+    date: "2023-08-13",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회는 교내 커뮤니케이션팀, 그리고 천안캠퍼스 총학생회와의 협업을 통해 학생 참여형 슬로건 공모전을 시행할 예정입니다.<br/>이를 통해 이전부터 학생 사회 내에서 변화를 희망하는 수요가 다수 존재했던 본교 슬로건 “Dream Hiker, SANGMYUNG”을 대체할 수 있는 새로운 아이디어를 받고자 합니다.<br/><br/>금일 공지를 통해서, 슬로건 공모전의 시행을 알려드림과 동시에 현시점 학우 여러분의 변경 희망 여부와 관련한 의견 재취합을 진행코자 함을 전해드립니다.<br/> 설문조사 응답 기간 종료 이후 작품 출품과 관련한 자세한 공지는 재전달해드릴 예정이며, 설문조사는 본문에 기재된 URL을 통해 참여하실 수 있으니 참고 부탁드립니다.<br/><br/>우리 대학의 정체성을 표현하고 대표하는 새로운 슬로건을 만들 수 있도록, 학우 여러분의 많은 관심과 참여 부탁드립니다.<br/>공모전 정보는 함께 첨부드린 카드뉴스 내용을 통해 확인해주시면 감사하겠습니다.<br/><br/>📍설문조사 응답 기간: 8월 13일(일)~8월 15일(화)<br/>📍설문조사 URL: <a href='https://forms.gle/eaNokroPRX7xzXJA6' style='color: blue'>https://forms.gle/eaNokroPRX7xzXJA6</a><br/><br/>감사합니다.<br/><br/>※ 세부일정 결재 과정에서 주관처 사정으로 일부 변동이 발생해 재업로드하게 되었으며, 자세한 공모전 일정은 설문조사 응답 기간이 끝나고 추후 재공지될 예정입니다. 학우 여러분의 너른 양해를 부탁드립니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img126_1,
+        alt: "img126_1",
+      },
+      {
+        img: Img126_2,
+        alt: "img126_2",
+      },
+      {
+        img: Img126_3,
+        alt: "img126_3",
+      },
+      {
+        img: Img126_4,
+        alt: "img126_4",
+      },
+    ],
+  },
   {
     id: 125,
     link: "/info/notice/detail/125",
@@ -758,49 +791,50 @@ export const NoticeData = [
     date: "2023-08-11",
     owner: "관리자",
     kind: "학사",
-    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록 학사 관련 정보를 제공해드리고 있습니다. <br/><br/>1학기에 진행되었던 💡선[先]견지명💡콘텐츠에 이어, 하계방학에는 학우 여러분께서 가장 궁금해하실만한 내용을 선정하여 자료로 만들고자 합니다!<br/><br/>그 세 번째 자료로, 📌취업 준비 과정📌을 준비해보았습니다.<br/>막상 준비하려니 어떤 과정을 거쳐야 하는지, 더 많은 정보를 얻기 위해서는 어느 사이트를 이용해야 하는지 등 취업 준비에 도움이 될만한 정보를 담았습니다.🗂️<br/><br/>해당 자료를 포함하여 교육지원국에서 자체 제작한 학사 관련 자료를 총학생회 홈페이지(<a href='' style='color: blue'>https://www.student-smu.com/work/education/ednotice</a>)에서 확인하실 수 있습니다.<br/><br/>1️⃣ 취업관련 사이트<br/>2️⃣ 취업준비 : 직무선택 및 분석 과정<br/>3️⃣ 입사지원서의 의미<br/>4️⃣ 자기소개서 평가 내용<br/>5️⃣ 면접 평가 내용<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분에게 유용한 학사 정보를 전달하기 위하여 노력하겠습니다.<br/><br/>※ 본 자료는 상명대학교 대학일자리플러스센터의 문현호 실장님의 도움을 받아 제작되었습니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록 학사 관련 정보를 제공해드리고 있습니다. <br/><br/>1학기에 진행되었던 💡선[先]견지명💡콘텐츠에 이어, 하계방학에는 학우 여러분께서 가장 궁금해하실만한 내용을 선정하여 자료로 만들고자 합니다!<br/><br/>그 세 번째 자료로, 📌취업 준비 과정📌을 준비해보았습니다.<br/>막상 준비하려니 어떤 과정을 거쳐야 하는지, 더 많은 정보를 얻기 위해서는 어느 사이트를 이용해야 하는지 등 취업 준비에 도움이 될만한 정보를 담았습니다.🗂️<br/><br/>해당 자료를 포함하여 교육지원국에서 자체 제작한 학사 관련 자료를 총학생회 홈페이지(<a href='' style='color: blue'>https://www.student-smu.com/work/education/ednotice</a>)에서 확인하실 수 있습니다.<br/><br/>1️⃣ 취업관련 사이트<br/>2️⃣ 취업준비 : 직무선택 및 분석 과정<br/>3️⃣ 입사지원서의 의미<br/>4️⃣ 자기소개서 평가 내용<br/>5️⃣ 면접 평가 내용<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분에게 유용한 학사 정보를 전달하기 위하여 노력하겠습니다.<br/><br/>※ 본 자료는 상명대학교 대학일자리플러스센터의 문현호 실장님의 도움을 받아 제작되었습니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
     inImg: [
       {
         img: Img125_1,
-        alt: "img125_1"
+        alt: "img125_1",
       },
       {
         img: Img125_2,
-        alt: "img125_2"
+        alt: "img125_2",
       },
       {
         img: Img125_3,
-        alt: "img125_3"
+        alt: "img125_3",
       },
       {
         img: Img125_4,
-        alt: "img125_4"
+        alt: "img125_4",
       },
       {
         img: Img125_5,
-        alt: "img125_5"
+        alt: "img125_5",
       },
       {
         img: Img125_6,
-        alt: "img125_6"
+        alt: "img125_6",
       },
       {
         img: Img125_7,
-        alt: "img125_7"
+        alt: "img125_7",
       },
       {
         img: Img125_8,
-        alt: "img125_8"
+        alt: "img125_8",
       },
       {
         img: Img125_9,
-        alt: "img125_9"
+        alt: "img125_9",
       },
       {
         img: Img125_10,
-        alt: "img125_10"
+        alt: "img125_10",
       },
-    ]
+    ],
   },
   {
     id: 124,
