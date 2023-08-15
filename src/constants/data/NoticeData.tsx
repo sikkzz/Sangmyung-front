@@ -755,7 +755,121 @@ import Img126_2 from "../../assets/notice/126/2.jpg";
 import Img126_3 from "../../assets/notice/126/3.jpg";
 import Img126_4 from "../../assets/notice/126/4.jpg";
 
+import Img127_1 from "../../assets/notice/127/1.jpg";
+import Img127_2 from "../../assets/notice/127/2.jpg";
+
+import Img128_1 from "../../assets/notice/128/1.jpg";
+import Img128_2 from "../../assets/notice/128/2.jpg";
+import Img128_3 from "../../assets/notice/128/3.jpg";
+import Img128_4 from "../../assets/notice/128/4.jpg";
+import Img128_5 from "../../assets/notice/128/5.jpg";
+import Img128_6 from "../../assets/notice/128/6.jpg";
+import Img128_7 from "../../assets/notice/128/7.jpg";
+import Img128_8 from "../../assets/notice/128/8.jpg";
+import Img128_9 from "../../assets/notice/128/9.jpg";
+import Img128_10 from "../../assets/notice/128/10.jpg";
+
+import Img129_1 from "../../assets/notice/129/1.jpg";
+import Img129_2 from "../../assets/notice/129/2.jpg";
+import Img129_3 from "../../assets/notice/129/3.jpg";
+
 export const NoticeData = [
+  {
+    id: 129,
+    link: "/info/notice/detail/129",
+    title: "상명대학교 제46대 총학생회 '선[先]' 2학기 SMCL 간담회 안내",
+    date: "2023-08-14",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제 46대 총학생회 선[先]입니다.<br/><br/>교내 축구 리그 ⚽️SMCL⚽️이 1학기에 이어, 2학기에도 개최될 예정입니다!<br/>이에 ‘SMCL-2 간담회’를 통하여 이와 관련한 학우 여러분의 의견을 수렴하고자 합니다.<br/>SMCL-2 참가 신청을 완료한 교내 축구 동아리 및 소모임 대표 여러분께서는 아래 내용을 확인하시어 SMCL-2 간담회에 참여해주시면 감사하겠습니다.<br/><br/>앞으로 진행될 SMCL-2에도 학우 여러분의 많은 관심을 부탁드립니다! 감사합니다.<br/><br/>SMCL 관련 문의<br/>🏟️SMCL_Kakao : <a href='https://open.kakao.com/o/sgJfUxcf' style='color: blue'>https://open.kakao.com/o/sgJfUxcf</a><br/>🏟️SMCL_Instagram : <a href='https://www.instagram.com/smcl_2023/' style='color: blue'>@smcl_2023</a><br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img129_1,
+        alt: "Img129_1",
+      },
+      {
+        img: Img129_2,
+        alt: "Img129_2",
+      },
+      {
+        img: Img129_3,
+        alt: "Img129_3",
+      },
+    ],
+  },
+  {
+    id: 128,
+    link: "/info/notice/detail/128",
+    title: "상명대학교 제46대 총학생회 '선[先]' 1학기 공약 이행 보고",
+    date: "2023-08-14",
+    owner: "관리자",
+    kind: "성과보고",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>금년도 3월 말, 총학생회가 발족된 이후 한 학기 동안 총학생회 선[先]은 학우 여러분께 약속했던 여러 공약 사업을 이행하였습니다.<br/><br/>금일은 현재까지 본 총학생회에서 이행한 공약 사업 및 이행 정도를 보고드립니다. 자세한 내용은 첨부된 홍보물을 참고해주시길 부탁드립니다.<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분을 위해 한 걸음 앞에 먼저 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img128_1,
+        alt: "Img128_1",
+      },
+      {
+        img: Img128_2,
+        alt: "Img128_2",
+      },
+      {
+        img: Img128_3,
+        alt: "Img128_3",
+      },
+      {
+        img: Img128_4,
+        alt: "Img128_4",
+      },
+      {
+        img: Img128_5,
+        alt: "Img128_5",
+      },
+      {
+        img: Img128_6,
+        alt: "Img128_6",
+      },
+      {
+        img: Img128_7,
+        alt: "Img128_7",
+      },
+      {
+        img: Img128_8,
+        alt: "Img128_8",
+      },
+      {
+        img: Img128_9,
+        alt: "Img128_9",
+      },
+      {
+        img: Img128_10,
+        alt: "Img128_10",
+      },
+    ],
+  },
+  {
+    id: 127,
+    link: "/info/notice/detail/127",
+    title: "상명대학교 제46대 총학생회 '선[先]' 무엇이든 물어보세요 Q&A",
+    date: "2023-08-14",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 홍보국입니다.<br/><br/>2학기 개강이 얼마 남지 않은 현시점! 상명대학교 학우분들의 가장 가까이에서 열심히 노력하는학생자치기구인 “총학생회 선[先]”에 대하여<br/>다양한 궁금증을 가지고 있을 여러분을 위해, 인스타그램 소통창구를 이용한 ❓무엇이든 물어보세요❓를 진행하고자 합니다!<br/><br/>8월 14일(월) 12:00부터 8월 16일(수) 24:00까지 선[先] 인스타그램 스토리에 ‘무물’ 스티커가 업로드됩니다.<br/>해당 질문란을 통해 총학생회 단체와 관련하여 다양한 방면에서 자유롭게 질문을 남겨주시면 감사하겠습니다!<br/><br/>보내주신 질문에 대해서는 재치있고 유익한 질문들을 선정한 후<br/>Q&A 형식의 영상물을 제작하여 인스타그램 및 유튜브 채널에 업로드하는 방식으로 답변드릴 예정인 점 참고 부탁드립니다.<br/><br/>학우 여러분들의 많은 관심과 참여 부탁드립니다😁<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img127_1,
+        alt: "Img127_1",
+      },
+      {
+        img: Img127_2,
+        alt: "Img127_2",
+      },
+    ],
+  },
   {
     id: 126,
     link: "/info/notice/detail/126",
