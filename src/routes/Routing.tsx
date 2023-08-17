@@ -28,7 +28,6 @@ import PartnerPage from "../pages/PartnerPage";
 import PartnerDetailPage from "../pages/PartnerDetailPage";
 import MapPage from "../pages/MapPage";
 import RentalPage from "../pages/RentalPage";
-import BoardPage from "../pages/BoardPage";
 import SitemapPage from "../pages/SitemapPage";
 import ProducerPage from "../pages/ProducerPage";
 import LeaguePage from "../pages/LeaguePage";
@@ -119,7 +118,6 @@ const Routing = () => {
         <Route path="/facility/rental" element={<RentalPage />} />
         <Route path="/government/central" element={<CentralPage />} />
         <Route path="/government/club" element={<ClubPage />} />
-        <Route path="/board" element={<BoardPage />} />
         <Route path="/sitemap" element={<SitemapPage />} />
         <Route path="/producer" element={<ProducerPage />} />
         <Route path="*" element={<NotFoundPage />} />

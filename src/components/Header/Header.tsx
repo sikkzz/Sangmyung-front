@@ -221,9 +221,10 @@ export default function Header() {
                     <MenuItem
                       onMouseOver={() => setDisplay(index)}
                       onMouseOut={() => setDisplay(9999)}
-                      onClick={() => {
-                        return item.link ? navigate(item.link) : "";
-                      }}
+                      href={item.link}
+                      // onClick={() => {
+                      //   return item.link ? navigate(item.link) : "";
+                      // }}
                     >
                       {item.main_item}
                     </MenuItem>

@@ -195,6 +195,6 @@ export const SitemapData = [
   },
   {
     item: "건의/청원게시판",
-    link: "/board"
+    link: "https://www.smu-petition.com/",
   }
 ];
