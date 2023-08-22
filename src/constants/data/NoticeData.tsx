@@ -773,7 +773,26 @@ import Img129_1 from "../../assets/notice/129/1.jpg";
 import Img129_2 from "../../assets/notice/129/2.jpg";
 import Img129_3 from "../../assets/notice/129/3.jpg";
 
+import Img130_1 from "../../assets/notice/130/1.jpg";
+
 export const NoticeData = [
+  {
+    id: 130,
+    link: "/info/notice/detail/130",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 슬로건 공모전 시행 및 접수 안내",
+    date: "2023-08-22",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회는 교내 커뮤니케이션팀, 그리고 천안캠퍼스 총학생회와의 협업을 통해 학생 참여형 슬로건 공모전을 시행하고자 합니다!<br/><br/>이를 통해 이전부터 학생 사회 내에서 변화를 희망하는 수요가 다수 존재했던<br/>본교 슬로건 “Dream Hiker, SANGMYUNG”을 대체할 수 있는 새로운 아이디어를 받고자 합니다.<br/><br/>작품 출품과 관련한 자세한 사항은 아래의 사항 및 위의 자료집을 참고해주시면 감사하겠습니다!<br/><br/>🔹참가대상: 상명대학교 서울캠퍼스 및 천안캠퍼스 소속 재, 휴학생 (개인참가)<br/>🔹작품규격: 슬로건(띄어쓰기 포함 50자 이내) / 및 의미(500자 이내)<br/>🔹접수방법: 서울/천안캠퍼스 총학생회 측에서 각 개설한 구글폼을 통해 접수<br/>🔸공모 접수용 구글폼 링크: <a href='https://forms.gle/qE7jWiNoNzBkei9g7' style='color: blue'>https://forms.gle/qE7jWiNoNzBkei9g7</a><br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img130_1,
+        alt: "img130_1",
+      },
+    ],
+  },
   {
     id: 129,
     link: "/info/notice/detail/129",
