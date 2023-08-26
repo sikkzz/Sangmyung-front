@@ -775,7 +775,80 @@ import Img129_3 from "../../assets/notice/129/3.jpg";
 
 import Img130_1 from "../../assets/notice/130/1.jpg";
 
+import Img131_1 from "../../assets/education/notice/9/1.png";
+import Img131_2 from "../../assets/education/notice/9/2.png";
+import Img131_3 from "../../assets/education/notice/9/3.png";
+import Img131_4 from "../../assets/education/notice/9/4.png";
+import Img131_5 from "../../assets/education/notice/9/5.png";
+import Img131_6 from "../../assets/education/notice/9/6.png";
+import Img131_7 from "../../assets/education/notice/9/7.png";
+import Img131_8 from "../../assets/education/notice/9/8.png";
+import Img131_9 from "../../assets/education/notice/9/9.png";
+import Img131_10 from "../../assets/education/notice/9/10.png";
+import Img131_11 from "../../assets/education/notice/9/11.png";
+import Img131_12 from "../../assets/education/notice/9/12.png";
+
 export const NoticeData = [
+  {
+    id: 131,
+    link: "/info/notice/detail/131",
+    title: "상명대학교 제46대 총학생회 '선[先]' 홈페이지 정보 자료집 안내",
+    date: "2023-08-25",
+    owner: "관리자",
+    kind: "학사",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록 학사 관련 정보를 제공해드리고 있습니다.<br/><br/>2학기 개강을 앞둔 지금, 하계방학 중에 학우 여러분께서 가장 궁금해하실만한 내용을 선정하여 만들고 있던 마지막 자료입니다.<br/><br/>장학금에 대해 궁금할 때, 교환학생을 다녀온 실제 학우들의 후기를 보고 싶을 때, 취∙창업 준비가 막막할 때 등 학교 홈페이지에서 정보를 찾는 방법을 담았습니다.🗂️<br/><br/>해당 자료를 포함하여 교육지원국에서 자체 제작한 학사 관련 자료를 총학생회 홈페이지(<a href='' style='color: blue'>https://www.student-smu.com/work/education/ednotice/detail/9</a>)에서 확인하실 수 있습니다.<br/><br/>1️⃣ 각종 학적 양식지<br/>2️⃣ 장학제도<br/>3️⃣ 교환학생 프로그램<br/>4️⃣ 취∙창업 프로그램(e-포트폴리오)<br/>5️⃣ 피어오름 서비스(비교과 프로그램)<br/>6️⃣ SW중심대학사업단<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분에게 유용한 학사 정보를 전달하기 위하여 노력하겠습니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img131_1,
+        alt: "img131_1",
+      },
+      {
+        img: Img131_2,
+        alt: "img131_2",
+      },
+      {
+        img: Img131_3,
+        alt: "img131_3",
+      },
+      {
+        img: Img131_4,
+        alt: "img131_4",
+      },
+      {
+        img: Img131_5,
+        alt: "img131_5",
+      },
+      {
+        img: Img131_6,
+        alt: "img131_6",
+      },
+      {
+        img: Img131_7,
+        alt: "img131_7",
+      },
+      {
+        img: Img131_8,
+        alt: "img131_8",
+      },
+      {
+        img: Img131_9,
+        alt: "img131_9",
+      },
+      {
+        img: Img131_10,
+        alt: "img131_10",
+      },
+      {
+        img: Img131_11,
+        alt: "img131_11",
+      },
+      {
+        img: Img131_12,
+        alt: "img131_12",
+      },
+    ],
+  },
   {
     id: 130,
     link: "/info/notice/detail/130",
