@@ -304,6 +304,7 @@ import noImg8_8 from "../../assets/education/notice/8/008.png";
 import noImg8_9 from "../../assets/education/notice/8/009.png";
 import noImg8_10 from "../../assets/education/notice/8/010.png";
 
+import noImg9_title from "../../assets/education/notice/9/title.png"
 import noImg9_1 from "../../assets/education/notice/9/1.png";
 import noImg9_2 from "../../assets/education/notice/9/2.png";
 import noImg9_3 from "../../assets/education/notice/9/3.png";
@@ -1332,8 +1333,8 @@ export const EducationNoticeData = [
   {
     id: 9,
     link: "/work/education/ednotice/detail/9",
-    img: noImg9_1,
-    alt: "noImg9_1",
+    img: noImg9_title,
+    alt: "noImg9_title",
     title: "💙홈페이지 정보 자료집 안내💙",
     date: "2023-08-25",
     owner: "관리자",
