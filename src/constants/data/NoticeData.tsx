@@ -788,7 +788,39 @@ import Img131_10 from "../../assets/education/notice/9/10.png";
 import Img131_11 from "../../assets/education/notice/9/11.png";
 import Img131_12 from "../../assets/education/notice/9/12.png";
 
+import Img132_1 from "../../assets/notice/132/1.jpg"
+import Img132_2 from "../../assets/notice/132/2.jpg"
+import Img132_3 from "../../assets/notice/132/3.jpg"
+import Img132_4 from "../../assets/notice/132/4.jpg"
+
 export const NoticeData = [
+  {
+    id: 132,
+    link: "/info/notice/detail/132",
+    title: "상명대학교 제46대 총학생회 '선[先]' 2학기 신입국원 모집 안내",
+    date: "2023-08-28",
+    owner: "관리자",
+    kind: "공지",
+    content: "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>제46대 총학생회 선[先]에서 2학기 신입국원을 모집합니다.<br/><br/>총학생회 선[先]과 함께 우리 대학을 직접 꾸려 나가실 학우 여러분의 많은 관심과 지원을 바랍니다.<br/><br/>🔹 모집 단위 🔹<br/>• 전 국별 국원 (기획국, 재정사무국, 대외협력국, 대내교류국, 복지사업국, 교육지원국, 홍보국)<br/><br/>🔹 모집 일정 🔹<br/>• 지원 기간 : 08.28(월) - 09.01(금)<br/>• 면접 기간 : 09.04(월) - 09.06(수) 18:00 - 21:00<br/>※ 지원자별 면접 일시는 추후 개별 안내 예정입니다.<br/><br/>🔹 지원 방법 🔹<br/>• 본문 혹은 총학생회 인스타그램 링크트리에 기재된 구글폼 응답 제출을 통한 지원<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img132_1,
+        alt: "img132_1"
+      },
+      {
+        img: Img132_2,
+        alt: "img132_2"
+      },
+      {
+        img: Img132_3,
+        alt: "img132_3"
+      },
+      {
+        img: Img132_4,
+        alt: "img132_4"
+      },
+    ]
+  },
   {
     id: 131,
     link: "/info/notice/detail/131",
