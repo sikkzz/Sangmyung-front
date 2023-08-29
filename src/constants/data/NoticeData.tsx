@@ -793,7 +793,24 @@ import Img132_2 from "../../assets/notice/132/2.jpg"
 import Img132_3 from "../../assets/notice/132/3.jpg"
 import Img132_4 from "../../assets/notice/132/4.jpg"
 
+import Img133_1 from "../../assets/notice/133/1.jpg"
+
 export const NoticeData = [
+  {
+    id: 133,
+    link: "/info/notice/detail/133",
+    title: "상명대학교 제46대 총학생회 '선[先]' 교육환경 소통창구 상시운영 안내",
+    date: "2023-08-28",
+    owner: "관리자",
+    kind: "공지",
+    content: "안녕하십니까. 상명대학교 서울캠퍼스 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>본 총학생회는 학우 여러분의 학교 생활과 밀접한 관련이 있는 교육환경에 대한 문제점을 파악하고 개선하고자 합니다.<br/>이에 학우 여러분께서 교육환경에 대한 의견을 수렴하고, 보다 효과적으로 이를 파악하여 학교측에 전달할 수 있도록 소통창구를 개설하였습니다.<br/><br/>📌 교육환경 소통창구 상시운영 링크 : <a href='https://forms.gle/yXufeGAJw9A62Nhd6' style='color: blue'>https://forms.gle/yXufeGAJw9A62Nhd6</a><br/>📌 교육환경 소통창구 문의<br/>- 교육지원국장 문수민 (010-4524-5116)<br/>- <a href='https://open.kakao.com/o/sgmeGkDf' style='color: blue'>https://open.kakao.com/o/sgmeGkDf</a><br/><br/>※ 소통창구는 상시 개방되어 있을 예정입니다. 학우 여러분께서는 언제든지 교육 환경에 대한 건의사항이 있을 시 이용 가능합니다.<br/>※ 내부 검토 및 전달 과정이 원활하게 이루어지기 위해서 건의하시는 내용을 최대한 상세하게 설명해주시면 감사하겠습니다.<br/><br/>학우 여러분께서 유익한 학교 생활을 영위할 수 있도록 언제나 학사, 진로 등의 고민 앞에 한 걸음 먼저 서 있겠습니다.💙<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img133_1,
+        alt: "img133_1"
+      }
+    ]
+  },
   {
     id: 132,
     link: "/info/notice/detail/132",
