@@ -788,28 +788,53 @@ import Img131_10 from "../../assets/education/notice/9/10.png";
 import Img131_11 from "../../assets/education/notice/9/11.png";
 import Img131_12 from "../../assets/education/notice/9/12.png";
 
-import Img132_1 from "../../assets/notice/132/1.jpg"
-import Img132_2 from "../../assets/notice/132/2.jpg"
-import Img132_3 from "../../assets/notice/132/3.jpg"
-import Img132_4 from "../../assets/notice/132/4.jpg"
+import Img132_1 from "../../assets/notice/132/1.jpg";
+import Img132_2 from "../../assets/notice/132/2.jpg";
+import Img132_3 from "../../assets/notice/132/3.jpg";
+import Img132_4 from "../../assets/notice/132/4.jpg";
 
-import Img133_1 from "../../assets/notice/133/1.jpg"
+import Img133_1 from "../../assets/notice/133/1.jpg";
+
+import Img134_1 from "../../assets/notice/134/1.jpg";
+import Img134_2 from "../../assets/notice/134/2.jpg";
 
 export const NoticeData = [
   {
-    id: 133,
-    link: "/info/notice/detail/133",
-    title: "상명대학교 제46대 총학생회 '선[先]' 교육환경 소통창구 상시운영 안내",
+    id: 134,
+    link: "/info/notice/detail/134",
+    title: "상명대학교 제46대 총학생회 '선[先]' 버스킹제 안내",
     date: "2023-08-28",
     owner: "관리자",
     kind: "공지",
-    content: "안녕하십니까. 상명대학교 서울캠퍼스 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>본 총학생회는 학우 여러분의 학교 생활과 밀접한 관련이 있는 교육환경에 대한 문제점을 파악하고 개선하고자 합니다.<br/>이에 학우 여러분께서 교육환경에 대한 의견을 수렴하고, 보다 효과적으로 이를 파악하여 학교측에 전달할 수 있도록 소통창구를 개설하였습니다.<br/><br/>📌 교육환경 소통창구 상시운영 링크 : <a href='https://forms.gle/yXufeGAJw9A62Nhd6' style='color: blue'>https://forms.gle/yXufeGAJw9A62Nhd6</a><br/>📌 교육환경 소통창구 문의<br/>- 교육지원국장 문수민 (010-4524-5116)<br/>- <a href='https://open.kakao.com/o/sgmeGkDf' style='color: blue'>https://open.kakao.com/o/sgmeGkDf</a><br/><br/>※ 소통창구는 상시 개방되어 있을 예정입니다. 학우 여러분께서는 언제든지 교육 환경에 대한 건의사항이 있을 시 이용 가능합니다.<br/>※ 내부 검토 및 전달 과정이 원활하게 이루어지기 위해서 건의하시는 내용을 최대한 상세하게 설명해주시면 감사하겠습니다.<br/><br/>학우 여러분께서 유익한 학교 생활을 영위할 수 있도록 언제나 학사, 진로 등의 고민 앞에 한 걸음 먼저 서 있겠습니다.💙<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회에서는 2학기 중, 교내 공연장 시설인 스뮤스퀘어를 이용한 다양한 사업을 고려 중에 있습니다.<br/>이에, 2학기의 시작과 동시에 교내 문화 발전 및 학생 공연 수요의 보장을 위한 첫 번째 사업, ‘버스킹제’를 정기적으로 개최하고자 함을 전해드립니다.<br/><br/>정기적인 버스킹제 사업의 포문을 여는 09월 12일 첫 번째 공연의 참가 신청을 전체 학우 여러분을 대상으로 받고자 합니다.<br/>공연 참여를 희망하신다면 아래 구글 폼 링크를 통해 신청해 주시기를 부탁드립니다.<br/><br/>🔸 공연 참여 신청 구글폼 링크<br/>• <a href='https://forms.gle/HgB3M5vJdP1Zg23v5' style='color: blue'>https://forms.gle/HgB3M5vJdP1Zg23v5</a><br/><br/>아래는 ‘버스킹제’ 공연과 관련한 세부사항이니 참고 부탁드립니다.<br/><br/>🔹 공연 참여 희망자 신청 기간<br/>• 8월 29일 (화) 18시 ~ 9월 3일 (일) 23시 59분<br/><br/>🔹 공연 참가팀 모집 관련 사항<br/>• 최대 4팀 모집 예정<br/>※ 러닝타임 편성 과정에서 주최 측 사정에 따라 공연 팀 추가 선발이 이루어질 수 있습니다.<br/><br/>🔹 리허설 일정 (가안)<br/>• 9월 12일 (화) 12시 ~13시 30분<br/>※ 공연 참여자 확정 및 공연 순서 확정 이후, 리허설 순서를 배정할 예정입니다.<br/><br/>🔹 일반 학우 본공연 일정 (가안)<br/>• 9월 12일 (화) 14시 ~ 15시<br/><br/>🔹 음원 파일 제출 기간 및 제출 방법<br/>• 음원 파일 수: 최대 3곡, 희망 시 제출<br/>• 음원 파일 제출 마감: 9월 8일 (금) 23시 59분<br/>※ 공연 참가 확정팀을 대상으로 세부 공지사항을 개별적으로 안내드릴 예정입니다.<br/>※ 참가 확정팀 연락 예정일: 9월 4일 (월) 18시<br/><br/>🔹 사용 가능한 기본 음향 장비<br/>• 마이크, 스피커, 음량 조절 믹스 장비<br/><br/>🔸 '버스킹제' 관련 문의<br/>•  대내교류국장 우윤기 (010-8708-1847)<br/>•  제46대 총학생회 선[先] 오픈채팅방 (<a href='' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>)<br/><br/>총학생회 선[先]은 캠퍼스 내에서 함께 만들어나가는 학생 문화의 제고를 위해 한 걸음 앞에 먼저 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img134_1,
+        alt: "img134_1",
+      },
+      {
+        img: Img134_2,
+        alt: "img134_2",
+      },
+    ],
+  },
+  {
+    id: 133,
+    link: "/info/notice/detail/133",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 교육환경 소통창구 상시운영 안내",
+    date: "2023-08-28",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까. 상명대학교 서울캠퍼스 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>본 총학생회는 학우 여러분의 학교 생활과 밀접한 관련이 있는 교육환경에 대한 문제점을 파악하고 개선하고자 합니다.<br/>이에 학우 여러분께서 교육환경에 대한 의견을 수렴하고, 보다 효과적으로 이를 파악하여 학교측에 전달할 수 있도록 소통창구를 개설하였습니다.<br/><br/>📌 교육환경 소통창구 상시운영 링크 : <a href='https://forms.gle/yXufeGAJw9A62Nhd6' style='color: blue'>https://forms.gle/yXufeGAJw9A62Nhd6</a><br/>📌 교육환경 소통창구 문의<br/>- 교육지원국장 문수민 (010-4524-5116)<br/>- <a href='https://open.kakao.com/o/sgmeGkDf' style='color: blue'>https://open.kakao.com/o/sgmeGkDf</a><br/><br/>※ 소통창구는 상시 개방되어 있을 예정입니다. 학우 여러분께서는 언제든지 교육 환경에 대한 건의사항이 있을 시 이용 가능합니다.<br/>※ 내부 검토 및 전달 과정이 원활하게 이루어지기 위해서 건의하시는 내용을 최대한 상세하게 설명해주시면 감사하겠습니다.<br/><br/>학우 여러분께서 유익한 학교 생활을 영위할 수 있도록 언제나 학사, 진로 등의 고민 앞에 한 걸음 먼저 서 있겠습니다.💙<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
     inImg: [
       {
         img: Img133_1,
-        alt: "img133_1"
-      }
-    ]
+        alt: "img133_1",
+      },
+    ],
   },
   {
     id: 132,
@@ -818,25 +843,26 @@ export const NoticeData = [
     date: "2023-08-28",
     owner: "관리자",
     kind: "공지",
-    content: "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>제46대 총학생회 선[先]에서 2학기 신입국원을 모집합니다.<br/><br/>총학생회 선[先]과 함께 우리 대학을 직접 꾸려 나가실 학우 여러분의 많은 관심과 지원을 바랍니다.<br/><br/>🔹 모집 단위 🔹<br/>• 전 국별 국원 (기획국, 재정사무국, 대외협력국, 대내교류국, 복지사업국, 교육지원국, 홍보국)<br/><br/>🔹 모집 일정 🔹<br/>• 지원 기간 : 08.28(월) - 09.01(금)<br/>• 면접 기간 : 09.04(월) - 09.06(수) 18:00 - 21:00<br/>※ 지원자별 면접 일시는 추후 개별 안내 예정입니다.<br/><br/>🔹 지원 방법 🔹<br/>• 본문 혹은 총학생회 인스타그램 링크트리에 기재된 구글폼 응답 제출을 통한 지원<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>제46대 총학생회 선[先]에서 2학기 신입국원을 모집합니다.<br/><br/>총학생회 선[先]과 함께 우리 대학을 직접 꾸려 나가실 학우 여러분의 많은 관심과 지원을 바랍니다.<br/><br/>🔹 모집 단위 🔹<br/>• 전 국별 국원 (기획국, 재정사무국, 대외협력국, 대내교류국, 복지사업국, 교육지원국, 홍보국)<br/><br/>🔹 모집 일정 🔹<br/>• 지원 기간 : 08.28(월) - 09.01(금)<br/>• 면접 기간 : 09.04(월) - 09.06(수) 18:00 - 21:00<br/>※ 지원자별 면접 일시는 추후 개별 안내 예정입니다.<br/><br/>🔹 지원 방법 🔹<br/>• 본문 혹은 총학생회 인스타그램 링크트리에 기재된 구글폼 응답 제출을 통한 지원<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
     inImg: [
       {
         img: Img132_1,
-        alt: "img132_1"
+        alt: "img132_1",
       },
       {
         img: Img132_2,
-        alt: "img132_2"
+        alt: "img132_2",
       },
       {
         img: Img132_3,
-        alt: "img132_3"
+        alt: "img132_3",
       },
       {
         img: Img132_4,
-        alt: "img132_4"
+        alt: "img132_4",
       },
-    ]
+    ],
   },
   {
     id: 131,
