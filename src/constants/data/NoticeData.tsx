@@ -818,7 +818,69 @@ import Img137_4 from "../../assets/notice/137/4.jpg"
 import Img137_5 from "../../assets/notice/137/5.jpg"
 import Img137_6 from "../../assets/notice/137/6.jpg"
 
+import Img138_1 from "../../assets/notice/138/1.jpg"
+import Img138_2 from "../../assets/notice/138/2.jpg"
+import Img138_3 from "../../assets/notice/138/3.jpg"
+import Img138_4 from "../../assets/notice/138/4.jpg"
+import Img138_5 from "../../assets/notice/138/5.jpg"
+import Img138_6 from "../../assets/notice/138/6.jpg"
+import Img138_7 from "../../assets/notice/138/7.jpg"
+import Img138_8 from "../../assets/notice/138/8.jpg"
+import Img138_9 from "../../assets/notice/138/9.jpg"
+import Img138_10 from "../../assets/notice/138/10.jpg"
+
 export const NoticeData = [
+  {
+    id: 138,
+    link: "/info/notice/detail/138",
+    title: "상명대학교 제46대 총학생회 '선[先]' 1학기 운영경비 결산 내역 공개",
+    date: "2023-08-31",
+    owner: "관리자",
+    kind: "공지",
+    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 재정사무국입니다.<br/><br/>재정사무국에서는 학우 여러분께서 납부하신 총학생회비의 집행 및 예결산 관리 업무를 담당하고 있습니다. <br/><br/>보다 공정하고 투명한 총학생회비 운용을 위해, '1학기 운영경비' 결산 내역을 다음과 같이 알려드립니다.<br/><br/>💵 총예산액 금800,000원<br/>💵 총결산액 금800,000원<br/><br/>제46대 총학생회 선[先] 재정사무국은 학우 여러분께서 납부하신 학생회비를 투명하게 관리 및 집행하기 위해 항상 노력할 것을 약속드립니다.<br/><br/>관련하여 추가적인 문의 사항이 있으실 경우, 아래 소통 창구를 통해 문의주시길 바랍니다. <br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img138_1,
+        alt: "img138_1"
+      },
+      {
+        img: Img138_2,
+        alt: "img138_2"
+      },
+      {
+        img: Img138_3,
+        alt: "img138_3"
+      },
+      {
+        img: Img138_4,
+        alt: "img138_4"
+      },
+      {
+        img: Img138_5,
+        alt: "img138_5"
+      },
+      {
+        img: Img138_6,
+        alt: "img138_6"
+      },
+      {
+        img: Img138_7,
+        alt: "img138_7"
+      },
+      {
+        img: Img138_8,
+        alt: "img138_8"
+      },
+      {
+        img: Img138_9,
+        alt: "img138_9"
+      },
+      {
+        img: Img138_10,
+        alt: "img138_10"
+      },
+    ]
+  },
   {
     id: 137,
     link: "/info/notice/detail/137",
