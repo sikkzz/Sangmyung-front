@@ -373,7 +373,7 @@ export const EducationForesightData = [
     date: "2023-06-14",
     owner: "관리자",
     content:
-      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]의 복지사업국입니다🍀<br/><br/>이번 하계 방학 중, 총학생회 주관 하계 농촌 봉사 활동이 예정되어 있습니다!<br/><br/>“ 선행[先行] : 어떠한 것보다 앞서 행함 ”의 의미를 담아, 학우 여러분과 함께 의미 있는 농촌 봉사 활동을 진행할 예정입니다🏃🏻‍♂️<br/><br/>자세한 일정과 참여 신청 방법 등 기타 사항은 이른 시일 내에 전달드릴 예정이니, 많은 관심 부탁드립니다 :)<br/><br/>앞으로도 다양한 방면에서, 학우 여러분의 복지를 위해 더욱 노력하도록 하겠습니다. 감사합니다💙<br/><br/>관련하여 문의 사항이 있으시다면, 아래 방법을 통해 연락해주시면 감사하겠습니다🙂<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>6월 셋째 주, 세 번째로 제공해드리는 정보는 ‘학술논문 이용 편 3’입니다.<br/><br/>지난 2편에 이어, 과제 혹은 시험공부를 할 때 필요한 논문, 학술자료를 상명대학교 학술정보관 홈페이지에서 이용 가능한 서비스를 안내해드리려 합니다.<br/><br/>학술논문 이용 편 2부터 4까지는 국외 DB를 소개해드리고 있습니다.💌<br/><br/>- 이용 가능한 학술 논문 찾기<br/>- 세부 분야<br/>- 과학 분야<br/>자세한 사항은 '학술정보관 홈페이지'에서 확인하실 수 있습니다.<br/><br/>추후 업로드 될 또 다른💡선[先]견지명💡콘텐츠에도 많은 관심 부탁드립니다!<br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
     inImg: [
       {
         img: Img19_1,

@@ -798,7 +798,128 @@ import Img133_1 from "../../assets/notice/133/1.jpg";
 import Img134_1 from "../../assets/notice/134/1.jpg";
 import Img134_2 from "../../assets/notice/134/2.jpg";
 
+import Img135_1 from "../../assets/notice/135/1.jpg"
+import Img135_2 from "../../assets/notice/135/2.jpg"
+import Img135_3 from "../../assets/notice/135/3.jpg"
+import Img135_4 from "../../assets/notice/135/4.jpg"
+
+import Img136_1 from "../../assets/notice/136/1.jpg"
+import Img136_2 from "../../assets/notice/136/2.jpg"
+import Img136_3 from "../../assets/notice/136/3.jpg"
+import Img136_4 from "../../assets/notice/136/4.jpg"
+import Img136_5 from "../../assets/notice/136/5.jpg"
+import Img136_6 from "../../assets/notice/136/6.jpg"
+import Img136_7 from "../../assets/notice/136/7.jpg"
+
+import Img137_1 from "../../assets/notice/137/1.jpg"
+import Img137_2 from "../../assets/notice/137/2.jpg"
+import Img137_3 from "../../assets/notice/137/3.jpg"
+import Img137_4 from "../../assets/notice/137/4.jpg"
+import Img137_5 from "../../assets/notice/137/5.jpg"
+import Img137_6 from "../../assets/notice/137/6.jpg"
+
 export const NoticeData = [
+  {
+    id: 137,
+    link: "/info/notice/detail/137",
+    title: "상명대학교 제46대 총학생회 '선[先]' 1학기 사업보고 안내 (복지, 문화)",
+    date: "2023-08-31",
+    owner: "관리자",
+    kind: "공지",
+    content: "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>올해 3월 말, 총학생회 발족 이후 8월 말까지 총학생회 임기의 절반이 지나갔습니다.<br/>총학생회 선[先]은 임기 기간 동안 학우 여러분을 위해 소통, 복지, 문화, 학사 등 폭 넓은 분야의 사업을 진행하였습니다.<br/><br/>지난 1학기 동안 총학생회 선[先]의 사업에 관심을 가져주신 학우 여러분께 감사의 말씀을 전하며, 지난 학기 동안 진행하였던 복지, 문화 관련 사업을 보고드립니다.<br/><br/>총학생회 선[先]은 2학기에도 다양한 사업을 시행하며, 더 나은 모습으로 학우 여러분 앞에 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img137_1,
+        alt: "img137_1"
+      },
+      {
+        img: Img137_2,
+        alt: "img137_2"
+      },
+      {
+        img: Img137_3,
+        alt: "img137_3"
+      },
+      {
+        img: Img137_4,
+        alt: "img137_4"
+      },
+      {
+        img: Img137_5,
+        alt: "img137_5"
+      },
+      {
+        img: Img137_6,
+        alt: "img137_6"
+      },
+    ]
+  },
+  {
+    id: 136,
+    link: "/info/notice/detail/136",
+    title: "상명대학교 제46대 총학생회 '선[先]' 1학기 사업보고 안내 (학사, 소통)",
+    date: "2023-08-31",
+    owner: "관리자",
+    kind: "공지",
+    content: "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>올해 3월 말, 총학생회 발족 이후 8월 말까지 총학생회 임기의 절반이 지나갔습니다.<br/>총학생회 선[先]은 임기 기간 동안 학우 여러분을 위해 소통, 복지, 문화, 학사 등 폭 넓은 분야의 사업을 진행하였습니다.<br/><br/>지난 1학기 동안 총학생회 선[先]의 사업에 관심을 가져주신 학우 여러분께 감사의 말씀을 전하며, 지난 학기 동안 진행하였던 학사, 소통 관련 사업을 보고드립니다.<br/><br/>총학생회 선[先]은 2학기에도 다양한 사업을 시행하며, 더 나은 모습으로 학우 여러분 앞에 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img136_1,
+        alt: "img136_1"
+      },
+      {
+        img: Img136_2,
+        alt: "img136_2"
+      },
+      {
+        img: Img136_3,
+        alt: "img136_3"
+      },
+      {
+        img: Img136_4,
+        alt: "img136_4"
+      },
+      {
+        img: Img136_5,
+        alt: "img136_5"
+      },
+      {
+        img: Img136_6,
+        alt: "img136_6"
+      },
+      {
+        img: Img136_7,
+        alt: "img136_7"
+      },
+    ]
+  },
+  {
+    id: 135,
+    link: "/info/notice/detail/135",
+    title: "상명대학교 제46대 총학생회 '선[先]' 2학기 천원의 아침밥 사업 안내",
+    date: "2023-08-30",
+    owner: "관리자",
+    kind: "공지",
+    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/> 9월 4일 월요일부터, 2학기 ‘천원의 아침밥’ 사업이 시행됩니다. 학우 여러분의 많은 관심 부탁드립니다.<br/><br/>자세한 사업 시행 기간 및 일시, 장소, 메뉴 등은 첨부된 이미지를 참고해주시길 바랍니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img135_1,
+        alt: "img135_1"
+      },
+      {
+        img: Img135_2,
+        alt: "img135_2"
+      },
+      {
+        img: Img135_3,
+        alt: "img135_3"
+      },
+      {
+        img: Img135_4,
+        alt: "img135_4"
+      },
+    ]
+  },
   {
     id: 134,
     link: "/info/notice/detail/134",
