@@ -1,3 +1,15 @@
+import Video1 from "../../assets/video/1.mp4";
+import Video2 from "../../assets/video/2.mp4";
+import Video3 from "../../assets/video/3.mp4";
+import Video4 from "../../assets/video/4.mp4";
+import Video5 from "../../assets/video/5.mp4";
+import Video6 from "../../assets/video/6.mp4";
+import Video7 from "../../assets/video/7.mp4";
+import Video8 from "../../assets/video/8.mp4";
+import Video9 from "../../assets/video/9.mp4";
+import Video10 from "../../assets/video/10.mp4";
+import Video11 from "../../assets/video/11.mp4"
+
 import Img1_1 from "../../assets/notice/1/1.jpeg";
 import Img1_2 from "../../assets/notice/1/2.jpeg";
 import Img1_3 from "../../assets/notice/1/3.jpeg";
@@ -245,17 +257,6 @@ import Img37_4 from "../../assets/notice/37/4.jpg";
 import Img37_5 from "../../assets/notice/37/5.jpg";
 import Img37_6 from "../../assets/notice/37/6.jpg";
 import Img37_7 from "../../assets/notice/37/7.jpg";
-
-import Video1 from "../../assets/video/1.mp4";
-import Video2 from "../../assets/video/2.mp4";
-import Video3 from "../../assets/video/3.mp4";
-import Video4 from "../../assets/video/4.mp4";
-import Video5 from "../../assets/video/5.mp4";
-import Video6 from "../../assets/video/6.mp4";
-import Video7 from "../../assets/video/7.mp4";
-import Video8 from "../../assets/video/8.mp4";
-import Video9 from "../../assets/video/9.mp4";
-import Video10 from "../../assets/video/10.mp4";
 
 import Img38_1 from "../../assets/notice/38/1.jpg";
 import Img38_2 from "../../assets/notice/38/2.jpg";
@@ -829,7 +830,38 @@ import Img138_8 from "../../assets/notice/138/8.jpg"
 import Img138_9 from "../../assets/notice/138/9.jpg"
 import Img138_10 from "../../assets/notice/138/10.jpg"
 
+import Img139_1 from "../../assets/notice/139/1.jpg"
+
 export const NoticeData = [
+  {
+    id: 140,
+    link: "/info/notice/detail/140",
+    title: "상명대학교 제46대 총학생회 '선[先]' 무엇이든 물어보세요 영상 공개",
+    date: "2023-09-01",
+    owner: "관리자",
+    kind: "공지",
+    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>지난 8월 14일부터 16일까지 3일 간, 총학생회 인스타그램 스토리 ‘무엇이든 물어보세요’ 스티커를 통해 학우분들께 다양한 질문들을 받았는데요❗️<br/><br/>학우분들께서 남겨주신 질문에 회장단이 직접 답변하는 시간을 가져보았습니다 💻💬<br/><br/>학우분들의 재치있는 질문과 회장단의 답변 내용이 궁금하시다면 영상을 통해 확인해주세요 💁🏻‍♂️💙<br/><br/>🔗 유튜브 링크 → <a href='https://youtu.be/iph1nEaomvI' style='color: blue'>https://youtu.be/iph1nEaomvI</a><br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/><br/>🎵ㅣ𝐌𝐨𝐳𝐚𝐫𝐭 - 𝐄𝐢𝐧𝐞 𝐊𝐥𝐞𝐢𝐧𝐞 𝐍𝐚𝐜𝐡𝐭𝐦𝐮𝐬𝐢𝐤<br/>🎵ㅣ𝐓𝐜𝐡𝐚𝐢𝐤𝐨𝐯𝐬𝐤𝐲 - 𝐖𝐚𝐥𝐭𝐳 𝐨𝐟 𝐭𝐡𝐞 𝐅𝐥𝐨𝐰𝐞𝐫𝐬<br/>🎵ㅣ𝐆𝐫𝐢𝐞𝐠 - 𝐌𝐨𝐫𝐧𝐢𝐧𝐠 𝐌𝐨𝐨𝐝<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inVideo: [
+      {
+        video: Video11
+      }
+    ]
+  },
+  {
+    id: 139,
+    link: "/info/notice/detail/139",
+    title: "상명대학교 제46대 총학생회 '선[先]' 9월 캘린더 출간",
+    date: "2023-09-01",
+    owner: "관리자",
+    kind: "공지",
+    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분. 제46대 총학생회 선[先]입니다.<br/><br/>학우 여러분께 9월 주요 학사 일정을 담은 9월 달력을 전해드립니다.<br/><br/>2학기 개강을 포함하여 수강신청 정정 및 취소기간, 재학생 및 대학원 추가 등록기간 등 여러 교내 일정이 기재되어 있습니다.<br/>뿐만 아니라, 9월에는 개강을 맞이한 학우분들을 위한 다양한 🍁총학생회 주관 행사🍁도 준비되어 있으니 많은 관심과 기대 부탁드립니다!<br/><br/>유난히도 뜨거웠던 여름을 보내고 나니 어느새 선선한 바람이 불어오는 가을이 왔습니다.<br/>개강이 훌쩍 다가온 지금, 다들 뜻깊은 방학을 보내셨나요? 풍요로운 결실의 계절 가을, 청명한 하늘처럼 맑고 높은 꿈을 향해 나아가는 9월 되시기를 바랍니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img139_1,
+        alt: "img139_1"
+      }
+    ]
+  },
   {
     id: 138,
     link: "/info/notice/detail/138",
