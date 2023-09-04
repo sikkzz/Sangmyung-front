@@ -8,7 +8,7 @@ import Video7 from "../../assets/video/7.mp4";
 import Video8 from "../../assets/video/8.mp4";
 import Video9 from "../../assets/video/9.mp4";
 import Video10 from "../../assets/video/10.mp4";
-import Video11 from "../../assets/video/11.mp4"
+import Video11 from "../../assets/video/11.mp4";
 
 import Img1_1 from "../../assets/notice/1/1.jpeg";
 import Img1_2 from "../../assets/notice/1/2.jpeg";
@@ -799,40 +799,116 @@ import Img133_1 from "../../assets/notice/133/1.jpg";
 import Img134_1 from "../../assets/notice/134/1.jpg";
 import Img134_2 from "../../assets/notice/134/2.jpg";
 
-import Img135_1 from "../../assets/notice/135/1.jpg"
-import Img135_2 from "../../assets/notice/135/2.jpg"
-import Img135_3 from "../../assets/notice/135/3.jpg"
-import Img135_4 from "../../assets/notice/135/4.jpg"
+import Img135_1 from "../../assets/notice/135/1.jpg";
+import Img135_2 from "../../assets/notice/135/2.jpg";
+import Img135_3 from "../../assets/notice/135/3.jpg";
+import Img135_4 from "../../assets/notice/135/4.jpg";
 
-import Img136_1 from "../../assets/notice/136/1.jpg"
-import Img136_2 from "../../assets/notice/136/2.jpg"
-import Img136_3 from "../../assets/notice/136/3.jpg"
-import Img136_4 from "../../assets/notice/136/4.jpg"
-import Img136_5 from "../../assets/notice/136/5.jpg"
-import Img136_6 from "../../assets/notice/136/6.jpg"
-import Img136_7 from "../../assets/notice/136/7.jpg"
+import Img136_1 from "../../assets/notice/136/1.jpg";
+import Img136_2 from "../../assets/notice/136/2.jpg";
+import Img136_3 from "../../assets/notice/136/3.jpg";
+import Img136_4 from "../../assets/notice/136/4.jpg";
+import Img136_5 from "../../assets/notice/136/5.jpg";
+import Img136_6 from "../../assets/notice/136/6.jpg";
+import Img136_7 from "../../assets/notice/136/7.jpg";
 
-import Img137_1 from "../../assets/notice/137/1.jpg"
-import Img137_2 from "../../assets/notice/137/2.jpg"
-import Img137_3 from "../../assets/notice/137/3.jpg"
-import Img137_4 from "../../assets/notice/137/4.jpg"
-import Img137_5 from "../../assets/notice/137/5.jpg"
-import Img137_6 from "../../assets/notice/137/6.jpg"
+import Img137_1 from "../../assets/notice/137/1.jpg";
+import Img137_2 from "../../assets/notice/137/2.jpg";
+import Img137_3 from "../../assets/notice/137/3.jpg";
+import Img137_4 from "../../assets/notice/137/4.jpg";
+import Img137_5 from "../../assets/notice/137/5.jpg";
+import Img137_6 from "../../assets/notice/137/6.jpg";
 
-import Img138_1 from "../../assets/notice/138/1.jpg"
-import Img138_2 from "../../assets/notice/138/2.jpg"
-import Img138_3 from "../../assets/notice/138/3.jpg"
-import Img138_4 from "../../assets/notice/138/4.jpg"
-import Img138_5 from "../../assets/notice/138/5.jpg"
-import Img138_6 from "../../assets/notice/138/6.jpg"
-import Img138_7 from "../../assets/notice/138/7.jpg"
-import Img138_8 from "../../assets/notice/138/8.jpg"
-import Img138_9 from "../../assets/notice/138/9.jpg"
-import Img138_10 from "../../assets/notice/138/10.jpg"
+import Img138_1 from "../../assets/notice/138/1.jpg";
+import Img138_2 from "../../assets/notice/138/2.jpg";
+import Img138_3 from "../../assets/notice/138/3.jpg";
+import Img138_4 from "../../assets/notice/138/4.jpg";
+import Img138_5 from "../../assets/notice/138/5.jpg";
+import Img138_6 from "../../assets/notice/138/6.jpg";
+import Img138_7 from "../../assets/notice/138/7.jpg";
+import Img138_8 from "../../assets/notice/138/8.jpg";
+import Img138_9 from "../../assets/notice/138/9.jpg";
+import Img138_10 from "../../assets/notice/138/10.jpg";
 
-import Img139_1 from "../../assets/notice/139/1.jpg"
+import Img139_1 from "../../assets/notice/139/1.jpg";
+
+import Img141_1 from "../../assets/notice/141/1.jpg";
+
+import Img142_1 from "../../assets/education/21/1.jpg";
+import Img142_2 from "../../assets/education/21/2.jpg";
+import Img142_3 from "../../assets/education/21/3.jpg";
+import Img142_4 from "../../assets/education/21/4.jpg";
+import Img142_5 from "../../assets/education/21/5.jpg";
+import Img142_6 from "../../assets/education/21/6.jpg";
+import Img142_7 from "../../assets/education/21/7.jpg";
+import Img142_8 from "../../assets/education/21/8.jpg";
+import Img142_9 from "../../assets/education/21/9.jpg";
 
 export const NoticeData = [
+  {
+    id: 142,
+    link: "/info/notice/detail/142",
+    title: "상명대학교 제46대 총학생회 '선[先]' 선견지명 개강맞이 꿀팁 편",
+    date: "2023-09-04",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 1학기에 이어, 2학기에도 제공해드리고자 합니다.<br/><br/>9월 첫째 주, 개강을 맞이하여 '개강맞이 꿀팁🍯 편'을 준비해보았습니다! 한 학기를 완벽하게 시작하기 위하여 꼭 알아두면 좋을 정보들을 모아보았습니다.🤓<br/><br/>1️⃣ 수강신청 정정 및 취소<br/>2️⃣ 강의계획서는 어디서 보나요?<br/>3️⃣ 강의계획서에 담긴 정보<br/>4️⃣ 2학기 학술정보관 사물함 신청<br/>5️⃣ 2학기 학술정보관 운영시간<br/>6️⃣ 캠퍼스맵 한 눈에 보기<br/>7️⃣ 프린트는 어디서 가능한가요?<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>교육지원국은 2학기에도 매주 유익한 정보로 찾아뵙겠습니다. 추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img142_1,
+        alt: "img142_1",
+      },
+      {
+        img: Img142_2,
+        alt: "img142_2",
+      },
+      {
+        img: Img142_3,
+        alt: "img142_3",
+      },
+      {
+        img: Img142_4,
+        alt: "img142_4",
+      },
+      {
+        img: Img142_5,
+        alt: "img142_5",
+      },
+      {
+        img: Img142_6,
+        alt: "img142_6",
+      },
+      {
+        img: Img142_7,
+        alt: "img142_7",
+      },
+      {
+        img: Img142_8,
+        alt: "img142_8",
+      },
+      {
+        img: Img142_9,
+        alt: "img142_9",
+      },
+    ],
+  },
+  {
+    id: 141,
+    link: "/info/notice/detail/141",
+    title: "상명대학교 제46대 총학생회 '선[先]' 2학기 SMCL 개막전 안내",
+    date: "2023-09-03",
+    owner: "관리자",
+    kind: "공지",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>2023학년도 제2학기 상명대학교 교내 축구리그 ‘SMCL’이 개최됩니다! 9월 4일 월요일 상명대학교 운동장에서 개막전이 열릴 예정이며<br/>이후 ‘SMCL’과 관련하여 매주 경기결과 및 차주 경기일정이 안내될 예정이오니 학우분들의 많은 관심 부탁드립니다.<br/><br/>2학기 동안 계속해서 진행될 SMCL에도 학우 여러분의 많은 기대와 관심 부탁드립니다!<br/><br/>⚽️개막전 일정⚽️<br/>1경기: IEMU11 VS 765KV<br/>2경기: 잘먹남 VS FC인싸<br/><br/>📍일시: 9월 4일(월) 18시 10분 ~ 20시 20분<br/>📍장소: 상명대학교 서울캠퍼스 운동장 (상명 아트센터 앞)<br/><br/>SMCL 관련 문의<br/>🏟️SMCL_Kakao : <a href='https://open.kakao.com/o/sgJfUxcf' style='color: blue'>https://open.kakao.com/o/sgJfUxcf</a><br/>🏟️SMCL_Instagram : @smcl_2023<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img141_1,
+        alt: "img141_1",
+      },
+    ],
+  },
   {
     id: 140,
     link: "/info/notice/detail/140",
@@ -840,12 +916,13 @@ export const NoticeData = [
     date: "2023-09-01",
     owner: "관리자",
     kind: "공지",
-    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>지난 8월 14일부터 16일까지 3일 간, 총학생회 인스타그램 스토리 ‘무엇이든 물어보세요’ 스티커를 통해 학우분들께 다양한 질문들을 받았는데요❗️<br/><br/>학우분들께서 남겨주신 질문에 회장단이 직접 답변하는 시간을 가져보았습니다 💻💬<br/><br/>학우분들의 재치있는 질문과 회장단의 답변 내용이 궁금하시다면 영상을 통해 확인해주세요 💁🏻‍♂️💙<br/><br/>🔗 유튜브 링크 → <a href='https://youtu.be/iph1nEaomvI' style='color: blue'>https://youtu.be/iph1nEaomvI</a><br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/><br/>🎵ㅣ𝐌𝐨𝐳𝐚𝐫𝐭 - 𝐄𝐢𝐧𝐞 𝐊𝐥𝐞𝐢𝐧𝐞 𝐍𝐚𝐜𝐡𝐭𝐦𝐮𝐬𝐢𝐤<br/>🎵ㅣ𝐓𝐜𝐡𝐚𝐢𝐤𝐨𝐯𝐬𝐤𝐲 - 𝐖𝐚𝐥𝐭𝐳 𝐨𝐟 𝐭𝐡𝐞 𝐅𝐥𝐨𝐰𝐞𝐫𝐬<br/>🎵ㅣ𝐆𝐫𝐢𝐞𝐠 - 𝐌𝐨𝐫𝐧𝐢𝐧𝐠 𝐌𝐨𝐨𝐝<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>지난 8월 14일부터 16일까지 3일 간, 총학생회 인스타그램 스토리 ‘무엇이든 물어보세요’ 스티커를 통해 학우분들께 다양한 질문들을 받았는데요❗️<br/><br/>학우분들께서 남겨주신 질문에 회장단이 직접 답변하는 시간을 가져보았습니다 💻💬<br/><br/>학우분들의 재치있는 질문과 회장단의 답변 내용이 궁금하시다면 영상을 통해 확인해주세요 💁🏻‍♂️💙<br/><br/>🔗 유튜브 링크 → <a href='https://youtu.be/iph1nEaomvI' style='color: blue'>https://youtu.be/iph1nEaomvI</a><br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/><br/>🎵ㅣ𝐌𝐨𝐳𝐚𝐫𝐭 - 𝐄𝐢𝐧𝐞 𝐊𝐥𝐞𝐢𝐧𝐞 𝐍𝐚𝐜𝐡𝐭𝐦𝐮𝐬𝐢𝐤<br/>🎵ㅣ𝐓𝐜𝐡𝐚𝐢𝐤𝐨𝐯𝐬𝐤𝐲 - 𝐖𝐚𝐥𝐭𝐳 𝐨𝐟 𝐭𝐡𝐞 𝐅𝐥𝐨𝐰𝐞𝐫𝐬<br/>🎵ㅣ𝐆𝐫𝐢𝐞𝐠 - 𝐌𝐨𝐫𝐧𝐢𝐧𝐠 𝐌𝐨𝐨𝐝<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
     inVideo: [
       {
-        video: Video11
-      }
-    ]
+        video: Video11,
+      },
+    ],
   },
   {
     id: 139,
@@ -854,13 +931,14 @@ export const NoticeData = [
     date: "2023-09-01",
     owner: "관리자",
     kind: "공지",
-    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분. 제46대 총학생회 선[先]입니다.<br/><br/>학우 여러분께 9월 주요 학사 일정을 담은 9월 달력을 전해드립니다.<br/><br/>2학기 개강을 포함하여 수강신청 정정 및 취소기간, 재학생 및 대학원 추가 등록기간 등 여러 교내 일정이 기재되어 있습니다.<br/>뿐만 아니라, 9월에는 개강을 맞이한 학우분들을 위한 다양한 🍁총학생회 주관 행사🍁도 준비되어 있으니 많은 관심과 기대 부탁드립니다!<br/><br/>유난히도 뜨거웠던 여름을 보내고 나니 어느새 선선한 바람이 불어오는 가을이 왔습니다.<br/>개강이 훌쩍 다가온 지금, 다들 뜻깊은 방학을 보내셨나요? 풍요로운 결실의 계절 가을, 청명한 하늘처럼 맑고 높은 꿈을 향해 나아가는 9월 되시기를 바랍니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분. 제46대 총학생회 선[先]입니다.<br/><br/>학우 여러분께 9월 주요 학사 일정을 담은 9월 달력을 전해드립니다.<br/><br/>2학기 개강을 포함하여 수강신청 정정 및 취소기간, 재학생 및 대학원 추가 등록기간 등 여러 교내 일정이 기재되어 있습니다.<br/>뿐만 아니라, 9월에는 개강을 맞이한 학우분들을 위한 다양한 🍁총학생회 주관 행사🍁도 준비되어 있으니 많은 관심과 기대 부탁드립니다!<br/><br/>유난히도 뜨거웠던 여름을 보내고 나니 어느새 선선한 바람이 불어오는 가을이 왔습니다.<br/>개강이 훌쩍 다가온 지금, 다들 뜻깊은 방학을 보내셨나요? 풍요로운 결실의 계절 가을, 청명한 하늘처럼 맑고 높은 꿈을 향해 나아가는 9월 되시기를 바랍니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
     inImg: [
       {
         img: Img139_1,
-        alt: "img139_1"
-      }
-    ]
+        alt: "img139_1",
+      },
+    ],
   },
   {
     id: 138,
@@ -869,123 +947,128 @@ export const NoticeData = [
     date: "2023-08-31",
     owner: "관리자",
     kind: "공지",
-    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 재정사무국입니다.<br/><br/>재정사무국에서는 학우 여러분께서 납부하신 총학생회비의 집행 및 예결산 관리 업무를 담당하고 있습니다. <br/><br/>보다 공정하고 투명한 총학생회비 운용을 위해, '1학기 운영경비' 결산 내역을 다음과 같이 알려드립니다.<br/><br/>💵 총예산액 금800,000원<br/>💵 총결산액 금800,000원<br/><br/>제46대 총학생회 선[先] 재정사무국은 학우 여러분께서 납부하신 학생회비를 투명하게 관리 및 집행하기 위해 항상 노력할 것을 약속드립니다.<br/><br/>관련하여 추가적인 문의 사항이 있으실 경우, 아래 소통 창구를 통해 문의주시길 바랍니다. <br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 재정사무국입니다.<br/><br/>재정사무국에서는 학우 여러분께서 납부하신 총학생회비의 집행 및 예결산 관리 업무를 담당하고 있습니다. <br/><br/>보다 공정하고 투명한 총학생회비 운용을 위해, '1학기 운영경비' 결산 내역을 다음과 같이 알려드립니다.<br/><br/>💵 총예산액 금800,000원<br/>💵 총결산액 금800,000원<br/><br/>제46대 총학생회 선[先] 재정사무국은 학우 여러분께서 납부하신 학생회비를 투명하게 관리 및 집행하기 위해 항상 노력할 것을 약속드립니다.<br/><br/>관련하여 추가적인 문의 사항이 있으실 경우, 아래 소통 창구를 통해 문의주시길 바랍니다. <br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
     inImg: [
       {
         img: Img138_1,
-        alt: "img138_1"
+        alt: "img138_1",
       },
       {
         img: Img138_2,
-        alt: "img138_2"
+        alt: "img138_2",
       },
       {
         img: Img138_3,
-        alt: "img138_3"
+        alt: "img138_3",
       },
       {
         img: Img138_4,
-        alt: "img138_4"
+        alt: "img138_4",
       },
       {
         img: Img138_5,
-        alt: "img138_5"
+        alt: "img138_5",
       },
       {
         img: Img138_6,
-        alt: "img138_6"
+        alt: "img138_6",
       },
       {
         img: Img138_7,
-        alt: "img138_7"
+        alt: "img138_7",
       },
       {
         img: Img138_8,
-        alt: "img138_8"
+        alt: "img138_8",
       },
       {
         img: Img138_9,
-        alt: "img138_9"
+        alt: "img138_9",
       },
       {
         img: Img138_10,
-        alt: "img138_10"
+        alt: "img138_10",
       },
-    ]
+    ],
   },
   {
     id: 137,
     link: "/info/notice/detail/137",
-    title: "상명대학교 제46대 총학생회 '선[先]' 1학기 사업보고 안내 (복지, 문화)",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 1학기 사업보고 안내 (복지, 문화)",
     date: "2023-08-31",
     owner: "관리자",
     kind: "공지",
-    content: "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>올해 3월 말, 총학생회 발족 이후 8월 말까지 총학생회 임기의 절반이 지나갔습니다.<br/>총학생회 선[先]은 임기 기간 동안 학우 여러분을 위해 소통, 복지, 문화, 학사 등 폭 넓은 분야의 사업을 진행하였습니다.<br/><br/>지난 1학기 동안 총학생회 선[先]의 사업에 관심을 가져주신 학우 여러분께 감사의 말씀을 전하며, 지난 학기 동안 진행하였던 복지, 문화 관련 사업을 보고드립니다.<br/><br/>총학생회 선[先]은 2학기에도 다양한 사업을 시행하며, 더 나은 모습으로 학우 여러분 앞에 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>올해 3월 말, 총학생회 발족 이후 8월 말까지 총학생회 임기의 절반이 지나갔습니다.<br/>총학생회 선[先]은 임기 기간 동안 학우 여러분을 위해 소통, 복지, 문화, 학사 등 폭 넓은 분야의 사업을 진행하였습니다.<br/><br/>지난 1학기 동안 총학생회 선[先]의 사업에 관심을 가져주신 학우 여러분께 감사의 말씀을 전하며, 지난 학기 동안 진행하였던 복지, 문화 관련 사업을 보고드립니다.<br/><br/>총학생회 선[先]은 2학기에도 다양한 사업을 시행하며, 더 나은 모습으로 학우 여러분 앞에 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
     inImg: [
       {
         img: Img137_1,
-        alt: "img137_1"
+        alt: "img137_1",
       },
       {
         img: Img137_2,
-        alt: "img137_2"
+        alt: "img137_2",
       },
       {
         img: Img137_3,
-        alt: "img137_3"
+        alt: "img137_3",
       },
       {
         img: Img137_4,
-        alt: "img137_4"
+        alt: "img137_4",
       },
       {
         img: Img137_5,
-        alt: "img137_5"
+        alt: "img137_5",
       },
       {
         img: Img137_6,
-        alt: "img137_6"
+        alt: "img137_6",
       },
-    ]
+    ],
   },
   {
     id: 136,
     link: "/info/notice/detail/136",
-    title: "상명대학교 제46대 총학생회 '선[先]' 1학기 사업보고 안내 (학사, 소통)",
+    title:
+      "상명대학교 제46대 총학생회 '선[先]' 1학기 사업보고 안내 (학사, 소통)",
     date: "2023-08-31",
     owner: "관리자",
     kind: "공지",
-    content: "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>올해 3월 말, 총학생회 발족 이후 8월 말까지 총학생회 임기의 절반이 지나갔습니다.<br/>총학생회 선[先]은 임기 기간 동안 학우 여러분을 위해 소통, 복지, 문화, 학사 등 폭 넓은 분야의 사업을 진행하였습니다.<br/><br/>지난 1학기 동안 총학생회 선[先]의 사업에 관심을 가져주신 학우 여러분께 감사의 말씀을 전하며, 지난 학기 동안 진행하였던 학사, 소통 관련 사업을 보고드립니다.<br/><br/>총학생회 선[先]은 2학기에도 다양한 사업을 시행하며, 더 나은 모습으로 학우 여러분 앞에 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>올해 3월 말, 총학생회 발족 이후 8월 말까지 총학생회 임기의 절반이 지나갔습니다.<br/>총학생회 선[先]은 임기 기간 동안 학우 여러분을 위해 소통, 복지, 문화, 학사 등 폭 넓은 분야의 사업을 진행하였습니다.<br/><br/>지난 1학기 동안 총학생회 선[先]의 사업에 관심을 가져주신 학우 여러분께 감사의 말씀을 전하며, 지난 학기 동안 진행하였던 학사, 소통 관련 사업을 보고드립니다.<br/><br/>총학생회 선[先]은 2학기에도 다양한 사업을 시행하며, 더 나은 모습으로 학우 여러분 앞에 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
     inImg: [
       {
         img: Img136_1,
-        alt: "img136_1"
+        alt: "img136_1",
       },
       {
         img: Img136_2,
-        alt: "img136_2"
+        alt: "img136_2",
       },
       {
         img: Img136_3,
-        alt: "img136_3"
+        alt: "img136_3",
       },
       {
         img: Img136_4,
-        alt: "img136_4"
+        alt: "img136_4",
       },
       {
         img: Img136_5,
-        alt: "img136_5"
+        alt: "img136_5",
       },
       {
         img: Img136_6,
-        alt: "img136_6"
+        alt: "img136_6",
       },
       {
         img: Img136_7,
-        alt: "img136_7"
+        alt: "img136_7",
       },
-    ]
+    ],
   },
   {
     id: 135,
@@ -994,25 +1077,26 @@ export const NoticeData = [
     date: "2023-08-30",
     owner: "관리자",
     kind: "공지",
-    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/> 9월 4일 월요일부터, 2학기 ‘천원의 아침밥’ 사업이 시행됩니다. 학우 여러분의 많은 관심 부탁드립니다.<br/><br/>자세한 사업 시행 기간 및 일시, 장소, 메뉴 등은 첨부된 이미지를 참고해주시길 바랍니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    content:
+      "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/> 9월 4일 월요일부터, 2학기 ‘천원의 아침밥’ 사업이 시행됩니다. 학우 여러분의 많은 관심 부탁드립니다.<br/><br/>자세한 사업 시행 기간 및 일시, 장소, 메뉴 등은 첨부된 이미지를 참고해주시길 바랍니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
     inImg: [
       {
         img: Img135_1,
-        alt: "img135_1"
+        alt: "img135_1",
       },
       {
         img: Img135_2,
-        alt: "img135_2"
+        alt: "img135_2",
       },
       {
         img: Img135_3,
-        alt: "img135_3"
+        alt: "img135_3",
       },
       {
         img: Img135_4,
-        alt: "img135_4"
+        alt: "img135_4",
       },
-    ]
+    ],
   },
   {
     id: 134,

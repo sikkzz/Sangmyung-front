@@ -205,6 +205,16 @@ import Img20_6 from "../../assets/education/20/006.png";
 import Img20_7 from "../../assets/education/20/007.png";
 import Img20_8 from "../../assets/education/20/008.png";
 
+import Img21_1 from "../../assets/education/21/1.jpg";
+import Img21_2 from "../../assets/education/21/2.jpg";
+import Img21_3 from "../../assets/education/21/3.jpg";
+import Img21_4 from "../../assets/education/21/4.jpg";
+import Img21_5 from "../../assets/education/21/5.jpg";
+import Img21_6 from "../../assets/education/21/6.jpg";
+import Img21_7 from "../../assets/education/21/7.jpg";
+import Img21_8 from "../../assets/education/21/8.jpg";
+import Img21_9 from "../../assets/education/21/9.jpg";
+
 import noImg1_1 from "../../assets/education/notice/1/1-1.png";
 import noImg1_2 from "../../assets/education/notice/1/1-2.png";
 import noImg1_3 from "../../assets/education/notice/1/1-3.png";
@@ -304,7 +314,7 @@ import noImg8_8 from "../../assets/education/notice/8/008.png";
 import noImg8_9 from "../../assets/education/notice/8/009.png";
 import noImg8_10 from "../../assets/education/notice/8/010.png";
 
-import noImg9_title from "../../assets/education/notice/9/title.png"
+import noImg9_title from "../../assets/education/notice/9/title.png";
 import noImg9_1 from "../../assets/education/notice/9/1.png";
 import noImg9_2 from "../../assets/education/notice/9/2.png";
 import noImg9_3 from "../../assets/education/notice/9/3.png";
@@ -319,6 +329,55 @@ import noImg9_11 from "../../assets/education/notice/9/11.png";
 import noImg9_12 from "../../assets/education/notice/9/12.png";
 
 export const EducationForesightData = [
+  {
+    id: 21,
+    link: "/work/education/foresight/detail/21",
+    img: Img21_1,
+    alt: "img21_1",
+    title: "💙선[先]견지명 - 개강맞이 꿀팁 편💙",
+    date: "2023-09-04",
+    owner: "관리자",
+    content:
+      "상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 1학기에 이어, 2학기에도 제공해드리고자 합니다.<br/><br/>9월 첫째 주, 개강을 맞이하여 '개강맞이 꿀팁🍯 편'을 준비해보았습니다! 한 학기를 완벽하게 시작하기 위하여 꼭 알아두면 좋을 정보들을 모아보았습니다.🤓<br/><br/>1️⃣ 수강신청 정정 및 취소<br/>2️⃣ 강의계획서는 어디서 보나요?<br/>3️⃣ 강의계획서에 담긴 정보<br/>4️⃣ 2학기 학술정보관 사물함 신청<br/>5️⃣ 2학기 학술정보관 운영시간<br/>6️⃣ 캠퍼스맵 한 눈에 보기<br/>7️⃣ 프린트는 어디서 가능한가요?<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>교육지원국은 2학기에도 매주 유익한 정보로 찾아뵙겠습니다. 추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img21_1,
+        alt: "img21_1",
+      },
+      {
+        img: Img21_2,
+        alt: "img21_2",
+      },
+      {
+        img: Img21_3,
+        alt: "img21_3",
+      },
+      {
+        img: Img21_4,
+        alt: "img21_4",
+      },
+      {
+        img: Img21_5,
+        alt: "img21_5",
+      },
+      {
+        img: Img21_6,
+        alt: "img21_6",
+      },
+      {
+        img: Img21_7,
+        alt: "img21_7",
+      },
+      {
+        img: Img21_8,
+        alt: "img21_8",
+      },
+      {
+        img: Img21_9,
+        alt: "img21_9",
+      },
+    ],
+  },
   {
     id: 20,
     link: "/work/education/foresight/detail/20",
