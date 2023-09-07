@@ -9,6 +9,9 @@ import Video8 from "../../assets/video/8.mp4";
 import Video9 from "../../assets/video/9.mp4";
 import Video10 from "../../assets/video/10.mp4";
 import Video11 from "../../assets/video/11.mp4";
+import Video12 from "../../assets/video/12.mp4";
+import Video13 from "../../assets/video/13.mp4"
+import Video14 from "../../assets/video/14.mp4"
 
 import Img1_1 from "../../assets/notice/1/1.jpeg";
 import Img1_2 from "../../assets/notice/1/2.jpeg";
@@ -844,7 +847,79 @@ import Img142_7 from "../../assets/education/21/7.jpg";
 import Img142_8 from "../../assets/education/21/8.jpg";
 import Img142_9 from "../../assets/education/21/9.jpg";
 
+import Img143_1 from "../../assets/notice/143/1.jpg"
+import Img143_2 from "../../assets/notice/143/2.jpg"
+import Img143_3 from "../../assets/notice/143/3.jpg"
+
+import Img144_1 from "../../assets/notice/144/1.jpg"
+
 export const NoticeData = [
+  {
+    id: 146,
+    link: "/info/notice/detail/146",
+    title: "상명대학교 제46대 총학생회 '선[先]' 코스모 폴리탄 행사 안내",
+    date: "2023-09-07",
+    owner: "관리자",
+    kind: "공지",
+    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선(先) 대외협력국입니다.<br/><br/>학우 여러분의 행복한 개강을 응원하기 위해, 코스모폴리탄과 함께 “코스모 트레일러” 행사를 준비하였습니다.<br/><br/>💝참여만 해도 꽝 없는 상품이 와르르<br/><br/>메디힐, 달바, 어반디케이, 프루팁스, 하루틴, 오스떼, 인테이크, 스킨1004, 빈티지헐리우드, 원오세븐, 클로즈업과 함께하는<br/>“코스모 트레일러” 행사! 학우 여러분의 많은 관심 부탁드립니다.<br/><br/>✅ 행사명 : 코스모 트레일러<br/>✅ 일시 : 9/12(화) 12시 ~ 17시<br/>✅ 행사 내용 : 코스모 트레일러 인증샷을 인스타그램 스토리 or 게시물 업로드 시 선착순 1000명 대상 구디백 증정 외 다양한 이벤트 진행 예정<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inVideo: [
+      {
+        video: Video13
+      }
+    ]
+  },
+  {
+    id: 145,
+    link: "/info/notice/detail/145",
+    title: "상명대학교 제46대 총학생회 '선[先]' 농활 V-Log 공개",
+    date: "2023-09-06",
+    owner: "관리자",
+    kind: "공지",
+    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>지난 7월 18일부터 21일까지 이천시 대월면에서 진행된 농촌 봉사활동 ‘선[先]행’의 모습을 브이로그로 담아보았습니다! 🎥<br/><br/>코로나 펜데믹 이후 처음으로 진행된 농활이라 더 기대가 컸는데요! 아직 여운이 가시지 않은 학우분들도 많이 계시겠죠?!🫧<br/><br/>총학생회 선[先]과 상명대학교 학우들이 3박 4일 간 농촌에서 어떤 활동을 하고 어떤 추억을 쌓았는지 궁금하신가요? 그렇다면 영상을 통해 확인해보세요!🌿<br/><br/>🔗 youtubeㅣ<a href='https://youtu.be/5ttohvQcewM?si=0Kiilj9UGYti9ZCH' style='color: blue'>https://youtu.be/5ttohvQcewM?si=0Kiilj9UGYti9ZCH</a><br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/><br/>🎵Intro BGMㅣ이진호 - 농번기랩(feat. 유성은)<br/>🎵Music provided by 브금대통령<br/>🎵Track: Happy family, 댕청댕청, 내가 만든 쿠키<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inVideo: [
+      {
+        video: Video12
+      }
+    ] 
+  },
+  {
+    id: 144,
+    link: "/info/notice/detail/144",
+    title: "상명대학교 제46대 총학생회 '선[先]' 교내 시설 점검 및 안전 관리 오픈 채팅 개설",
+    date: "2023-09-06",
+    owner: "관리자",
+    kind: "공지",
+    content: "안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 복지사업국입니다🍀<br/><br/>본 총학생회에서 교내 시설 점검 및 안전 관리를 위한 소통 창구를 개설 및 운영합니다.<br/><br/>교내 시설을 이용하시면서 안전 점검이 필요하다고 생각하시는 장소가 있거나,<br/>이와 관련한 건의를 하고자 하시는 학우분들께서는 아래 오픈채팅방 링크로 건의주시면 감사하겠습니다 🏫<br/><br/>앞으로도 다양한 방면에서, 학우분들의 복지를 위해 더욱 노력하도록 하겠습니다. 감사합니다💙<br/><br/>👣 오픈 채팅방 링크<br/><a href='' style='color: blue'>https://open.kakao.com/o/szE41yFf</a><br/><br/>관련하여 문의 사항이 있으시다면, 아래 방법을 통해 연락해주시면 감사하겠습니다🙂<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img144_1,
+        alt: "img144_1"
+      }
+    ]
+  },
+  {
+    id: 143,
+    link: "/info/notice/detail/143",
+    title: "상명대학교 제46대 총학생회 '선[先]' 2학기 개강 행사 안내",
+    date: "2023-09-05",
+    owner: "관리자",
+    kind: "공지",
+    content: "상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>여행, 자기계발, 휴식 등 각자의 많은 방법으로 자신을 발전시키는 방학이 모두 지나가고, 2023학년도 2학기 개강을 맞이했습니다!<br/><br/>본 총학생회에서 항상 즐거웠던 방학을 떠나보내기 아쉬운 학우 여러분을 위해! 개강을 맞이하여❓사라진 방학을 찾습니다❗️행사를 준비하였습니다.<br/><br/>간단한 미니게임들을 통해 학우 여러분께서 캠퍼스에서 간단하게 즐길 수 있도록 구성하였으니, 개강한💪 모습을 보여주세요!<br/><br/>2023학년도 2학기에도 언제나 학우 여러분들의 외침이 닿을 때까지, 한 걸음 앞에 먼저 서겠습니다.<br/><br/>※ 자세한 내용은 아래 본문과 카드뉴스를 함께 참고해주시면 감사하겠습니다.<br/><br/>⭐️ 행사일시: 9월 7일(목) 12시 ~ 17시<br/>⭐️ 행사장소: 상명대학교 서울캠퍼스 밀레니엄관 가는 길목<br/><br/>※ 총학생회비(12,000원) 미납부자는 행사 참여는 가능하지만, 상품 수령은 불가능합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+    inImg: [
+      {
+        img: Img143_1,
+        alt: "img143_1"
+      },
+      {
+        img: Img143_2,
+        alt: "img143_2"
+      },
+      {
+        img: Img143_3,
+        alt: "img143_3"
+      },
+    ]
+  },
   {
     id: 142,
     link: "/info/notice/detail/142",
