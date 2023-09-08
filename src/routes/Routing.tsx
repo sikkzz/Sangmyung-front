@@ -120,7 +120,7 @@ const Routing = () => {
         <Route path="/government/club" element={<ClubPage />} />
         <Route path="/sitemap" element={<SitemapPage />} />
         <Route path="/producer" element={<ProducerPage />} />
-        <Route path="*" element={<NotFoundPage />} />
+        <Route path="/*" element={<NotFoundPage />} />
       </Routes>
     </AnimatePresence>
   );
