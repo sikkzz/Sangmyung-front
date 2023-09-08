@@ -4,11 +4,6 @@
   "private": true,
   "dependencies": {
     "@iconify/react": "^4.1.0",
-    "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.12",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "date-fns": "^2.29.3",
@@ -20,23 +15,15 @@
     "react-ga": "^3.3.1",
     "react-icons": "^4.7.1",
     "react-router-dom": "^6.8.1",
-    "react-scripts": "5.0.1",
     "styled-components": "^5.3.6",
     "styled-reset": "^4.4.5",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false npx react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
   },
   "browserslist": {
     "production": [
@@ -52,7 +39,11 @@
   },
   "devDependencies": {
     "@types/styled-components": "^5.1.26",
+    "@vitejs/plugin-react": "^4.0.4",
     "file-loader": "^6.2.0",
-    "url-loader": "^4.1.1"
+    "url-loader": "^4.1.1",
+    "vite": "^4.4.9",
+    "vite-plugin-svgr": "^3.2.0",
+    "vite-tsconfig-paths": "^4.2.0"
   }
 }
