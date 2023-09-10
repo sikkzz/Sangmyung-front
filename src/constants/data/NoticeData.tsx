@@ -842,6 +842,13 @@ import Img143_2 from "../../assets/notice/143/2.jpg";
 import Img143_3 from "../../assets/notice/143/3.jpg";
 
 import Img144_1 from "../../assets/notice/144/1.jpg";
+
+import Img148_1 from "../../assets/notice/148/1.jpg";
+import Img148_2 from "../../assets/notice/148/2.jpg";
+import Img148_3 from "../../assets/notice/148/3.jpg";
+import Img148_4 from "../../assets/notice/148/4.jpg";
+import Img148_5 from "../../assets/notice/148/5.jpg";
+
 import Video1 from "../../assets/video/1.mp4";
 import Video10 from "../../assets/video/10.mp4";
 import Video2 from "../../assets/video/2.mp4";
@@ -854,6 +861,39 @@ import Video8 from "../../assets/video/8.mp4";
 import Video9 from "../../assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 148,
+		link: "/info/notice/detail/148",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' SMCL 9월 2주차 조별리그 결과 안내",
+		date: "2023-09-10",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>2023학년도 제2학기 상명대학교 교내 축구리그 ⚽️SMCL⚽️의 9월 둘째 주 조별리그 결과 안내드립니다!<br/>매주 월·목요일 상명대학교 운동장에서 진행되는 SMCL, 학우 여러분의 많은 기대와 관심 부탁드립니다!<br/><br/>📍일시: 9월 4일(월) / 9월 7일(목) 18시 10분 ~ 20시 20분<br/>📍장소: 상명대학교 서울캠퍼스 운동장<br/>📍주관: 제46대 총학생회 선[先]<br/><br/>SMCL 관련 문의<br/>🏟️SMCL_Kakao: <a href='' style='color: blue'>https://open.kakao.com/o/sgJfUxcf</a><br/>🏟️SMCL_instagram: @smcl_2023<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img148_1,
+				alt: "img148_1",
+			},
+			{
+				img: Img148_2,
+				alt: "img148_2",
+			},
+			{
+				img: Img148_3,
+				alt: "img148_3",
+			},
+			{
+				img: Img148_4,
+				alt: "img148_4",
+			},
+			{
+				img: Img148_5,
+				alt: "img148_5",
+			},
+		],
+	},
 	{
 		id: 147,
 		link: "/info/notice/detail/147",
