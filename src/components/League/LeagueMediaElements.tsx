@@ -96,6 +96,10 @@ const StateSpan = styled.span`
   ${media.mobile`width: 52px;height: 20px;font-size: 12px;line-height: 18px;`}
 `;
 
+const StateSpan2 = styled(StateSpan)`
+	background-color: #285fa9;
+`;
+
 const InfoBox = styled.div`
 	display: inline-block;
 	min-width: 104px;
@@ -128,6 +132,7 @@ export {
 	Score,
 	ScoreSpan,
 	StateSpan,
+	StateSpan2,
 	InfoBox,
 	Info,
 };

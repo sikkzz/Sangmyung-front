@@ -162,6 +162,10 @@ const TdEnd = styled.div`
 	line-height: 17px;
 `;
 
+const TdStart = styled(TdEnd)`
+	background-color: #285fa9;
+`;
+
 const Detail = styled.div`
 	display: inline-block;
 	min-width: 104px;
@@ -208,6 +212,7 @@ export {
 	TdSpan,
 	TdScore2,
 	TdEnd,
+	TdStart,
 	Detail,
 	DetailBox,
 };

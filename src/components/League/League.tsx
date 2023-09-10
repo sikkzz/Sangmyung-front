@@ -30,6 +30,7 @@ import {
 	TdSpan,
 	TdScore2,
 	TdEnd,
+	TdStart,
 	Detail,
 	DetailBox,
 } from "./LeagueElements";
@@ -46,6 +47,7 @@ import {
 	Score,
 	ScoreSpan,
 	StateSpan,
+	StateSpan2,
 	InfoBox,
 	Info,
 } from "./LeagueMediaElements";
@@ -73,11 +75,13 @@ function League() {
 	const [currentMonth, setCurrentMonth] = useState(new Date());
 	const [posts, setPosts] = useState([] as any);
 
+	const LeagueDataReverse = LeagueData.reverse();
+
 	const navigate = useNavigate();
 
 	useEffect(() => {
 		setPosts(
-			LeagueData.filter((item: any) => {
+			LeagueDataReverse.filter((item: any) => {
 				return item.month === Number(format(currentMonth, "M"));
 			}),
 		);
@@ -97,29 +101,29 @@ function League() {
 				<Box>
 					<DateBox>
 						<IconBox onClick={prevMonth}>
-							<Icons.AiOutlineLeft size={24} color='#808080' />
+							<Icons.AiOutlineLeft size={24} color="#808080" />
 						</IconBox>
 						<Month>
 							{format(currentMonth, "yyyy")}년 {format(currentMonth, "MM")}월
 						</Month>
 						<IconBox onClick={nextMonth}>
-							<Icons.AiOutlineRight size={24} color='#808080' />
+							<Icons.AiOutlineRight size={24} color="#808080" />
 						</IconBox>
 					</DateBox>
 					<ResultBox>
 						<Table>
 							<ColGroup>
-								<TableCol size='12%' />
-								<TableCol size='12%' />
-								<TableCol size='auto' />
-								<TableCol size='12%' />
+								<TableCol size="12%" />
+								<TableCol size="12%" />
+								<TableCol size="auto" />
+								<TableCol size="12%" />
 							</ColGroup>
 							<THead>
 								<Tr>
-									<Th size='12%'>날짜</Th>
-									<Th size='12%'>시간</Th>
-									<Th size='auto'>매치업</Th>
-									<Th size='12%'></Th>
+									<Th size="12%">날짜</Th>
+									<Th size="12%">시간</Th>
+									<Th size="auto">매치업</Th>
+									<Th size="12%"></Th>
 								</Tr>
 							</THead>
 							<TBody>
@@ -158,22 +162,26 @@ function League() {
 																<TdSpan>:</TdSpan>
 																{score2}
 															</TdScore>
-															{score3 ? (
-																<TdScore2>
-																	{score3}
-																	<TdSpan>:</TdSpan>
-																	{score4}
-																</TdScore2>
-															) : (
-																""
-															)}
+															<TdScore2>
+																{score3}
+																<TdSpan>:</TdSpan>
+																{score4}
+															</TdScore2>
 														</ScoreBox>
 													) : (
-														<TdScore>
-															{score1}
-															<TdSpan>:</TdSpan>
-															{score2}
-														</TdScore>
+														<>
+															{state === "경기전" ? (
+																<TdScore>
+																	<TdSpan>VS</TdSpan>
+																</TdScore>
+															) : (
+																<TdScore>
+																	{score1}
+																	<TdSpan>:</TdSpan>
+																	{score2}
+																</TdScore>
+															)}
+														</>
 													)}
 													<TdTeam>
 														<TdTitle2>{title2}</TdTitle2>
@@ -182,7 +190,11 @@ function League() {
 														</TdImageBox>
 													</TdTeam>
 												</TdMatch>
-												<TdEnd>{state}</TdEnd>
+												{state === "경기종료" ? (
+													<TdEnd>{state}</TdEnd>
+												) : (
+													<TdStart>{state}</TdStart>
+												)}
 											</Td>
 											<Td>
 												<Detail
@@ -190,7 +202,7 @@ function League() {
 												>
 													세부정보
 													<DetailBox>
-														<Icons.GiSoccerBall size={16} color='#fff' />
+														<Icons.GiSoccerBall size={16} color="#fff" />
 													</DetailBox>
 												</Detail>
 											</Td>
@@ -210,6 +222,8 @@ function League() {
 									title1,
 									score1,
 									score2,
+									score3,
+									score4,
 									title2,
 									img2,
 									alt2,
@@ -226,12 +240,20 @@ function League() {
 												<Text>{title1}</Text>
 											</TeamBox>
 											<MScoreBox>
-												<Score>
-													{score1}
-													<ScoreSpan>:</ScoreSpan>
-													{score2}
-												</Score>
-												<StateSpan>{state}</StateSpan>
+												{state === "경기전" ? (
+													<Score>VS</Score>
+												) : (
+													<Score>
+														{score1}
+														<ScoreSpan>:</ScoreSpan>
+														{score2}
+													</Score>
+												)}
+												{state === "경기종료" ? (
+													<StateSpan>{state}</StateSpan>
+												) : (
+													<StateSpan2>{state}</StateSpan2>
+												)}
 											</MScoreBox>
 											<TeamBox>
 												<ImgBox>
@@ -245,7 +267,7 @@ function League() {
 										>
 											세부정보
 											<Info>
-												<Icons.GiSoccerBall size={16} color='#fff' />
+												<Icons.GiSoccerBall size={16} color="#fff" />
 											</Info>
 										</InfoBox>
 									</Content>
