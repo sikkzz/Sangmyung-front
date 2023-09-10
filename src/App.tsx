@@ -3,13 +3,9 @@ import Routing from "./routes/Routing";
 import RouteChangeTracking from "./utils/RouteChangeTracking";
 
 function App() {
-  RouteChangeTracking();
+	RouteChangeTracking();
 
-  return (
-    <>
-      <Routing />
-    </>
-  );
+	return <Routing />;
 }
 
 export default App;

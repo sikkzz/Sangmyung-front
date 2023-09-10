@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import { reset } from "styled-reset";
+
 import { medias } from "./theme";
 
 export const GlobalStyle = createGlobalStyle`

@@ -1,11 +1,5 @@
-
-
-const LeagueDetail = () => {
-  return (
-    <>
-    
-    </>
-  )
+function LeagueDetail() {
+	return <></>;
 }
 
-export default LeagueDetail
+export default LeagueDetail;

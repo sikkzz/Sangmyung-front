@@ -43,5 +43,3 @@ import { media } from "../../styles/MediaQuery";
 // `;
 
 // export { TabBox, TabInnerBox, TabList, TabItem, TabItemActive };
-
-

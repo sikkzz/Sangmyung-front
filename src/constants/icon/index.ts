@@ -1,3 +1,3 @@
 import Icons from "./icon";
 
-export default Icons
+export default Icons;

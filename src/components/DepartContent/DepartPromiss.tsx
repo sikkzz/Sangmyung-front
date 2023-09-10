@@ -1,28 +1,27 @@
 import React from "react";
-import {
-  Layout,
-  Col,
-  Box,
-  Title,
-  PromissBox,
-  PromissInnerBox,
-  ItemBox,
-  IconBox,
-  IconSubBox,
-  PromissTitle,
-} from "./DepartPromissElements";
-
-import Icons from "../../constants/icon";
 
 import { Props } from "./DepartContent";
+import {
+	Layout,
+	Col,
+	Box,
+	Title,
+	PromissBox,
+	PromissInnerBox,
+	ItemBox,
+	IconBox,
+	IconSubBox,
+	PromissTitle,
+} from "./DepartPromissElements";
+import Icons from "../../constants/icon";
 
 // import { DepartPromissData } from "../../constants/data/DepartData";
 
 const DepartPromiss: React.FC<Props> = ({ state }) => {
-  return (
-    <Layout>
-      <Col>
-        {/* <Box>
+	return (
+		<Layout>
+			<Col>
+				{/* <Box>
           <Title>공약 이행 현황</Title>
           <PromissBox>
             {DepartPromissData.map((item, index) => (
@@ -46,9 +45,9 @@ const DepartPromiss: React.FC<Props> = ({ state }) => {
             ))}
           </PromissBox>
         </Box> */}
-      </Col>
-    </Layout>
-  );
+			</Col>
+		</Layout>
+	);
 };
 
 export default DepartPromiss;

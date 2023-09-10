@@ -1,26 +1,26 @@
 import React from "react";
-import DepartIntroduce from "./DepartIntroduce";
-import DepartWork from "./DepartWork";
-import DepartPromiss from "./DepartPromiss";
-import DepartChart from "./DepartChart";
-
 import { useLocation } from "react-router-dom";
 
+import DepartChart from "./DepartChart";
+import DepartIntroduce from "./DepartIntroduce";
+import DepartPromiss from "./DepartPromiss";
+import DepartWork from "./DepartWork";
+
 export type Props = {
-  state: string | undefined;
+	state: string | undefined;
 };
 
-const DepartContent = () => {
-  const location = useLocation();
+function DepartContent() {
+	const location = useLocation();
 
-  return (
-    <>
-      <DepartIntroduce state={location.pathname.split("/")[3]} />
-      <DepartWork state={location.pathname.split("/")[3]} />
-      <DepartChart />
-      <DepartPromiss state={location.pathname.split("/")[3]} />
-    </>
-  );
-};
+	return (
+		<>
+			<DepartIntroduce state={location.pathname.split("/")[3]} />
+			<DepartWork state={location.pathname.split("/")[3]} />
+			<DepartChart />
+			<DepartPromiss state={location.pathname.split("/")[3]} />
+		</>
+	);
+}
 
 export default DepartContent;
