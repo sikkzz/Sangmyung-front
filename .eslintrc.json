@@ -36,11 +36,16 @@
 		"react/jsx-boolean-value": "off",
 		"react/prop-types": "off",
 		"react/react-in-jsx-scope": "off",
+		"react/jsx-no-useless-fragment": "off",
 		"react/jsx-props-no-spreading": "off",
-		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+		"react/jsx-filename-extension": [
+			1,
+			{ "extensions": [".js", ".jsx", ".ts", "tsx"] }
+		],
 		"arrow-body-style": "off",
 		"no-param-reassign": "off",
 		"prettier/prettier": ["error", { "endOfLine": "auto" }],
+		"camelcase": "off",
 		"import/order": [
 			"error",
 			{
