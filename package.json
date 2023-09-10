@@ -1,57 +1,61 @@
 {
-  "name": "sangmyung-react",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@iconify/react": "^4.1.0",
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "date-fns": "^2.29.3",
-    "framer-motion": "^10.1.0",
-    "html-react-parser": "^3.0.16",
-    "moment": "^2.29.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-ga": "^3.3.1",
-    "react-icons": "^4.7.1",
-    "react-router-dom": "^6.8.1",
-    "styled-components": "^5.3.6",
-    "styled-reset": "^4.4.5",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "serve": "vite preview"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@types/styled-components": "^5.1.26",
-    "@typescript-eslint/eslint-plugin": "^6.6.0",
-    "@typescript-eslint/parser": "^6.6.0",
-    "@vitejs/plugin-react": "^4.0.4",
-    "eslint": "^8.49.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-react": "^7.33.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "file-loader": "^6.2.0",
-    "url-loader": "^4.1.1",
-    "vite": "^4.4.9",
-    "vite-plugin-svgr": "^3.2.0",
-    "vite-tsconfig-paths": "^4.2.0"
-  }
+	"name": "sangmyung-react",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@iconify/react": "^4.1.0",
+		"@types/react": "^18.0.28",
+		"@types/react-dom": "^18.0.11",
+		"date-fns": "^2.29.3",
+		"framer-motion": "^10.1.0",
+		"html-react-parser": "^3.0.16",
+		"moment": "^2.29.4",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-ga": "^3.3.1",
+		"react-icons": "^4.7.1",
+		"react-router-dom": "^6.8.1",
+		"styled-components": "^5.3.6",
+		"styled-reset": "^4.4.5",
+		"typescript": "^4.9.5",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"serve": "vite preview",
+		"lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
+		"lint:fix": "eslint 'src/**/*.{js,jsx,ts,tsx}' --fix"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@types/styled-components": "^5.1.26",
+		"@typescript-eslint/eslint-plugin": "^6.6.0",
+		"@typescript-eslint/parser": "^6.6.0",
+		"@vitejs/plugin-react": "^4.0.4",
+		"eslint": "^8.49.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-import": "^2.28.1",
+		"eslint-plugin-jsx-a11y": "^6.7.1",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-react": "^7.33.2",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"file-loader": "^6.2.0",
+		"url-loader": "^4.1.1",
+		"vite": "^4.4.9",
+		"vite-plugin-svgr": "^3.2.0",
+		"vite-tsconfig-paths": "^4.2.0"
+	}
 }
