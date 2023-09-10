@@ -77,24 +77,24 @@ function Minute({ state }: Props) {
 					<NoticeBox>
 						<Table>
 							<ColGroup>
-								<ColStyle size='8%' />
-								<ColStyle size='auto' />
-								<ColStyle size='12%' />
-								<ColStyle size='12%' />
+								<ColStyle size="8%" />
+								<ColStyle size="auto" />
+								<ColStyle size="12%" />
+								<ColStyle size="12%" />
 								<MColStyle />
 							</ColGroup>
 							<THead>
 								<Tr>
-									<Th size='8%'>번호</Th>
-									<Th size='auto'>제목</Th>
-									<Th size='12%'>작성자</Th>
-									<Th size='12%'>작성일</Th>
+									<Th size="8%">번호</Th>
+									<Th size="auto">제목</Th>
+									<Th size="12%">작성자</Th>
+									<Th size="12%">작성일</Th>
 								</Tr>
 							</THead>
 							<TBody>
 								<Tr>
 									<Td>
-										<Icons.HiSpeakerphone size={20} color='#000' />
+										<Icons.HiSpeakerphone size={20} color="#000" />
 									</Td>
 									<Td>
 										<TdTitle>

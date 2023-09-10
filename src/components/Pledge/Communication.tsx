@@ -17,7 +17,7 @@ function Communication() {
 						<PledgeInner>{item.icon}</PledgeInner>
 					</PledgeCircle>
 					<ContentBox>
-						<Text fontSize='30px'>{item.title}</Text>
+						<Text fontSize="30px">{item.title}</Text>
 						<PledgeContent>{item.content1}</PledgeContent>
 						<PledgeContent>{item.content2}</PledgeContent>
 						<PledgeContent>{item.content3}</PledgeContent>

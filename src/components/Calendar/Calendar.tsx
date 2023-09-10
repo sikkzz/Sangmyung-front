@@ -100,13 +100,13 @@ function Calendar() {
 					<CalendarBox>
 						<Header>
 							<IconBox onClick={prevMonth}>
-								<Icons.AiOutlineLeft size={24} color='#003d91' />
+								<Icons.AiOutlineLeft size={24} color="#003d91" />
 							</IconBox>
 							<Month>
 								{format(currentMonth, "yyyy")}년 {format(currentMonth, "M")}월
 							</Month>
 							<IconBox onClick={nextMonth}>
-								<Icons.AiOutlineRight size={24} color='#003d91' />
+								<Icons.AiOutlineRight size={24} color="#003d91" />
 							</IconBox>
 						</Header>
 						<WeekLayout>{dates}</WeekLayout>

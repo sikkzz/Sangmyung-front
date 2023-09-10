@@ -21,7 +21,7 @@ function RuleModal({ onClose }: Props) {
 			<RuleHeader>
 				<RuleTitle>이용약관</RuleTitle>
 				<IconBox onClick={onClose}>
-					<Icons.AiOutlineClose size={36} color='#000' />
+					<Icons.AiOutlineClose size={36} color="#000" />
 				</IconBox>
 			</RuleHeader>
 			{ModalData.map((item, index) => (

@@ -11,9 +11,9 @@ function Path() {
 		<Box>
 			<List>
 				<ListItem>
-					<ListLink href='/'>Home</ListLink>
+					<ListLink href="/">Home</ListLink>
 					<ListIconBox>
-						<Icons.IoChevronForward size={16} color='#666' />
+						<Icons.IoChevronForward size={16} color="#666" />
 					</ListIconBox>
 				</ListItem>
 				{PathData.map((item, index) => (
@@ -28,7 +28,7 @@ function Path() {
 					>
 						<ListLink href={item.link}>{item.item}</ListLink>
 						<ListIconBox>
-							<Icons.IoChevronForward size={16} color='#666' />
+							<Icons.IoChevronForward size={16} color="#666" />
 						</ListIconBox>
 					</ListItem>
 				))}
@@ -56,7 +56,7 @@ function Path() {
 						}}
 					>
 						<ListIconBox>
-							<Icons.IoChevronForward size={16} color='#666' />
+							<Icons.IoChevronForward size={16} color="#666" />
 						</ListIconBox>
 						<ListLink href={item.link}>{item.item}</ListLink>
 					</ListItem>

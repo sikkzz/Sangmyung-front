@@ -43,32 +43,32 @@ function Producer() {
 					<LeftBox>
 						<ProfileBox>
 							<ImgBox>
-								<Img src={Image2} alt='image' />
+								<Img src={Image2} alt="image" />
 							</ImgBox>
 							<Name>KimJunSik</Name>
 							<Sub>FE Developer</Sub>
 							<IconList>
 								<IconListItem>
 									<Icon>
-										<Icons.FaSchool size={20} color='#666' />
+										<Icons.FaSchool size={20} color="#666" />
 									</Icon>
 									<Text>SMU Computer Science</Text>
 								</IconListItem>
 								<IconListItem>
 									<Icon>
-										<Icons.HiOutlineOfficeBuilding size={20} color='#666' />
+										<Icons.HiOutlineOfficeBuilding size={20} color="#666" />
 									</Icon>
 									<Text>총학생회 선[先] 재정사무국장</Text>
 								</IconListItem>
 								<IconListItem>
 									<Icon>
-										<Icons.AiOutlineMail size={20} color='#666' />
+										<Icons.AiOutlineMail size={20} color="#666" />
 									</Icon>
 									<Text>sling0623@gmail.com</Text>
 								</IconListItem>
 								<IconListItem>
 									<Icon>
-										<Icons.AiFillGithub size={20} color='#666' />
+										<Icons.AiFillGithub size={20} color="#666" />
 									</Icon>
 									<Text>sikkzz</Text>
 								</IconListItem>
@@ -81,16 +81,16 @@ function Producer() {
 							<MediaTitle>{HTMLReactParser(text2)}</MediaTitle>
 							<BadgeBox>
 								<Badge
-									href='https://www.instagram.com/sik_k_da'
-									target='_blank'
+									href="https://www.instagram.com/sik_k_da"
+									target="_blank"
 								>
-									<BadgeImg src='https://img.shields.io/badge/Insta-E4405F?style=flat-square&logo=Instagram&logoColor=white' />
+									<BadgeImg src="https://img.shields.io/badge/Insta-E4405F?style=flat-square&logo=Instagram&logoColor=white" />
 								</Badge>
-								<Badge href='malito:sling0623@gmail.com'>
-									<BadgeImg src='https://img.shields.io/badge/sling0623@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white' />
+								<Badge href="malito:sling0623@gmail.com">
+									<BadgeImg src="https://img.shields.io/badge/sling0623@gmail.com-EA4335?style=flat-square&logo=Gmail&logoColor=white" />
 								</Badge>
-								<Badge href='https://github.com/sikkzz'>
-									<BadgeImg src='https://img.shields.io/badge/sikkzz-000?style=flat-square&logo=Github&logoColor=white' />
+								<Badge href="https://github.com/sikkzz">
+									<BadgeImg src="https://img.shields.io/badge/sikkzz-000?style=flat-square&logo=Github&logoColor=white" />
 								</Badge>
 							</BadgeBox>
 							<HistoryBox>
@@ -124,30 +124,30 @@ function Producer() {
 							</TechBox>
 							<BadgeBox>
 								<Badge>
-									<BadgeImg src='https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white' />
+									<BadgeImg src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white" />
 								</Badge>
 								<Badge>
-									<BadgeImg src='https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white' />
+									<BadgeImg src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white" />
 								</Badge>
 								<Badge>
-									<BadgeImg src='https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black' />
+									<BadgeImg src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black" />
 								</Badge>
 								<Badge>
-									<BadgeImg src='https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white' />
+									<BadgeImg src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white" />
 								</Badge>
 							</BadgeBox>
 							<BadgeBox>
 								<Badge>
-									<BadgeImg src='https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black' />
+									<BadgeImg src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=black" />
 								</Badge>
 								<Badge>
-									<BadgeImg src='https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Gatsby&logoColor=white' />
+									<BadgeImg src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Gatsby&logoColor=white" />
 								</Badge>
 								<Badge>
-									<BadgeImg src='https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat-square&logo=Tailwind CSS&logoColor=white' />
+									<BadgeImg src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=flat-square&logo=Tailwind CSS&logoColor=white" />
 								</Badge>
 								<Badge>
-									<BadgeImg src='https://img.shields.io/badge/Gatsby-663399?style=flat-square&logo=Gatsby&logoColor=white' />
+									<BadgeImg src="https://img.shields.io/badge/Gatsby-663399?style=flat-square&logo=Gatsby&logoColor=white" />
 								</Badge>
 							</BadgeBox>
 						</IntroBox>

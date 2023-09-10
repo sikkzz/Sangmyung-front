@@ -31,7 +31,6 @@ import Img6_6 from "../../assets/partner/6/6.jpg";
 import Img6_7 from "../../assets/partner/6/7.jpg";
 import Img6_8 from "../../assets/partner/6/8.jpg";
 import Img6_9 from "../../assets/partner/6/9.jpg";
-
 import Img7_1 from "../../assets/partner/7/1.jpg";
 import Img7_2 from "../../assets/partner/7/2.jpg";
 import Img7_3 from "../../assets/partner/7/3.jpg";

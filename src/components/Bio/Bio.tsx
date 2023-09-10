@@ -26,7 +26,7 @@ function Bio({ state }: Props) {
 				(item, index) =>
 					state === item.id && (
 						<ImageContainer key={index}>
-							<Image src={item.img} alt='Bio' />
+							<Image src={item.img} alt="Bio" />
 							<TextContainer>
 								<Title>{item.title}</Title>
 								<Text>{item.sub}</Text>

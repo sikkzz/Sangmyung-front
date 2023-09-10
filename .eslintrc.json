@@ -4,12 +4,12 @@
 		"es6": true
 	},
 	"parser": "@typescript-eslint/parser",
-	"plugins": ["@typescript-eslint", "import"],
+	"plugins": ["react", "prettier", "react-hooks", "import", "jsx-a11y"],
 	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
 		"airbnb",
-		"airbnb/hooks",
-		"plugin:@typescript-eslint/recommended",
-		"plugin:prettier/recommended"
+		"prettier"
 	],
 	"parserOptions": {
 		"ecmaFeatures": {
@@ -19,29 +19,28 @@
 		"sourceType": "module"
 	},
 	"rules": {
-		"linebreak-style": 0,
-		"import/no-dynamic-require": 0,
-		"import/no-unresolved": 0,
-		"import/prefer-default-export": 0,
-		"global-require": 0,
-		"import/no-extraneous-dependencies": 0,
-		"jsx-quotes": ["error", "prefer-single"],
-		"react/jsx-props-no-spreading": 0,
-		"react/forbid-prop-types": 0,
-		"react/jsx-filename-extension": [
+		"jsx-a11y/label-has-associated-control": [
 			2,
-			{ "extensions": [".js", ".jsx", ".ts", ".tsx"] }
+			{
+				"labelComponents": ["CustomInputLabel"],
+				"labelAttributes": ["inputLabel"],
+				"controlComponents": ["CustomInput"],
+				"depth": 3
+			}
 		],
-		"import/extensions": 0,
-		"no-use-before-define": 0,
-		"@typescript-eslint/no-empty-interface": 0,
-		"@typescript-eslint/no-explicit-any": 0,
-		"@typescript-eslint/no-var-requires": 0,
-		"no-shadow": "off",
-		"react/prop-types": 0,
-		"no-empty-pattern": 0,
-		"no-alert": 0,
-		"react-hooks/exhaustive-deps": 0,
+		"import/prefer-default-export": "off",
+		"import/no-extraneous-dependencies": "off",
+		"import/extensions": "off",
+		"import/no-unresolved": "off",
+		"react/function-component-definition": 0,
+		"react/jsx-boolean-value": "off",
+		"react/prop-types": "off",
+		"react/react-in-jsx-scope": "off",
+		"react/jsx-props-no-spreading": "off",
+		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+		"arrow-body-style": "off",
+		"no-param-reassign": "off",
+		"prettier/prettier": ["error", { "endOfLine": "auto" }],
 		"import/order": [
 			"error",
 			{

@@ -1,4 +1,5 @@
 import Img1 from "../../assets/league/logo/765.png";
+import Img12 from "../../assets/league/logo/cannon.png";
 import Img2 from "../../assets/league/logo/genome2.jpg";
 import Img5 from "../../assets/league/logo/hiemu.png";
 import Img9 from "../../assets/league/logo/history3.png";
@@ -9,7 +10,6 @@ import Img6 from "../../assets/league/logo/ns.jpeg";
 import Img7 from "../../assets/league/logo/pa.png";
 import Img3 from "../../assets/league/logo/saboom.jpeg";
 import Img8 from "../../assets/league/logo/tripple.png";
-import Img12 from "../../assets/league/logo/cannon.png";
 
 export const LeagueData = [
 	{

@@ -34,22 +34,22 @@ function Rule() {
 					<NoticeBox>
 						<Table>
 							<ColGroup>
-								<ColStyle size='8%' />
-								<ColStyle size='auto' />
-								<ColStyle size='15%' />
+								<ColStyle size="8%" />
+								<ColStyle size="auto" />
+								<ColStyle size="15%" />
 								<MColStyle />
 							</ColGroup>
 							<THead>
 								<Tr>
-									<Th size='8%'>번호</Th>
-									<Th size='auto'>제목</Th>
-									<Th size='15%'>다운로드</Th>
+									<Th size="8%">번호</Th>
+									<Th size="auto">제목</Th>
+									<Th size="15%">다운로드</Th>
 								</Tr>
 							</THead>
 							<TBody>
 								<Tr>
 									<Td>
-										<Icons.HiSpeakerphone size={20} color='#000' />
+										<Icons.HiSpeakerphone size={20} color="#000" />
 									</Td>
 									<Td>
 										<TdTitle>
@@ -71,7 +71,7 @@ function Rule() {
 												<DownLoadBox>
 													<Icons.AiOutlineCloudDownload
 														size={28}
-														color='#000'
+														color="#000"
 													/>
 												</DownLoadBox>
 											</DownLoadLink>

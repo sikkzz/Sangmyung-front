@@ -25,12 +25,12 @@ function Greeting() {
 			<Col>
 				<Box>
 					<ImgBox>
-						<Image src={Abc} alt='profile' />
+						<Image src={Abc} alt="profile" />
 					</ImgBox>
 					<GreetingBox>
 						<LogoBox>
 							<LogoInnerBox>
-								<Logo src={Img2} alt='Logo' />
+								<Logo src={Img2} alt="Logo" />
 							</LogoInnerBox>
 						</LogoBox>
 						<TextBox>
@@ -46,15 +46,15 @@ function Greeting() {
 								</Text>
 							</TextWrapper>
 							<SubWrapper>
-								<Sub weight='500'>- 총학생회장 : 이진(010-6577-5177)</Sub>
-								<Sub weight='500'>- 부학생회장 : 이사랑(010-8762-3370)</Sub>
-								<Sub weight='500'>- 홈페이지담당 : 김준식(010-3341-2053)</Sub>
+								<Sub weight="500">- 총학생회장 : 이진(010-6577-5177)</Sub>
+								<Sub weight="500">- 부학생회장 : 이사랑(010-8762-3370)</Sub>
+								<Sub weight="500">- 홈페이지담당 : 김준식(010-3341-2053)</Sub>
 							</SubWrapper>
 							<SubWrapper>
-								<Sub weight='500'>- 장소 : 학생회관 H212호 총학생회실</Sub>
+								<Sub weight="500">- 장소 : 학생회관 H212호 총학생회실</Sub>
 							</SubWrapper>
 							<SubWrapper>
-								<Sub weight='700'>
+								<Sub weight="700">
 									"그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先]"
 								</Sub>
 							</SubWrapper>

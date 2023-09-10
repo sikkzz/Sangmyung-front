@@ -110,7 +110,7 @@ function PartnerDetail() {
 								<PageBox>
 									<PageCol>
 										<PageIconBox>
-											<Icons.IoChevronUp size={16} color='#000' />
+											<Icons.IoChevronUp size={16} color="#000" />
 										</PageIconBox>
 										<PagePrev>이전글</PagePrev>
 										<PagePrevText>
@@ -125,7 +125,7 @@ function PartnerDetail() {
 									</PageCol>
 									<PageCol>
 										<PageIconBox>
-											<Icons.IoChevronDown size={16} color='#000' />
+											<Icons.IoChevronDown size={16} color="#000" />
 										</PageIconBox>
 										<PagePrev>다음글</PagePrev>
 										<PagePrevText>
@@ -140,7 +140,7 @@ function PartnerDetail() {
 									</PageCol>
 								</PageBox>
 								<ListBox>
-									<ListButton href='/facility/partnership/all'>목록</ListButton>
+									<ListButton href="/facility/partnership/all">목록</ListButton>
 								</ListBox>
 							</>
 						) : (

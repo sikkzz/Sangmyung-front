@@ -102,7 +102,7 @@ function MinuteTutionDetail() {
 								<PageBox>
 									<PageCol>
 										<PageIconBox>
-											<Icons.IoChevronUp size={16} color='#000' />
+											<Icons.IoChevronUp size={16} color="#000" />
 										</PageIconBox>
 										<PagePrev>이전글</PagePrev>
 										<PagePrevText>
@@ -117,7 +117,7 @@ function MinuteTutionDetail() {
 									</PageCol>
 									<PageCol>
 										<PageIconBox>
-											<Icons.IoChevronDown size={16} color='#000' />
+											<Icons.IoChevronDown size={16} color="#000" />
 										</PageIconBox>
 										<PagePrev>다음글</PagePrev>
 										<PagePrevText>
@@ -132,7 +132,7 @@ function MinuteTutionDetail() {
 									</PageCol>
 								</PageBox>
 								<ListBox>
-									<ListButton href='/info/minute/tution'>목록</ListButton>
+									<ListButton href="/info/minute/tution">목록</ListButton>
 								</ListBox>
 							</>
 						) : (

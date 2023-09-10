@@ -24,7 +24,7 @@ import { PlanningData } from "../../constants/data/OrganiData";
 
 function Planning() {
 	return (
-		<ProfileBox marginTop='50px'>
+		<ProfileBox marginTop="50px">
 			{PlanningData.map((item, index) => (
 				<ProfileInnerBox key={index}>
 					{item.headItem.map((item, index) => (
@@ -54,7 +54,7 @@ function Planning() {
 						</ProfileOuter>
 					))}
 
-					<ProfileBox marginTop='30px'>
+					<ProfileBox marginTop="30px">
 						{PlanningData.map((item, index) => (
 							<ProfileCol key={index}>
 								{item.subItem.map((item, index) => (
@@ -66,14 +66,14 @@ function Planning() {
 														src={item.img}
 														alt={item.alt}
 														width={item?.size === "squ" ? "100px" : "80px"}
-														height='100px'
+														height="100px"
 														radius={item?.size === "squ" ? "50%" : "50px"}
 													/>
 													<MSubImg
 														src={item.img}
 														alt={item.alt}
 														width={item?.size === "squ" ? "80px" : "68px"}
-														height='80px'
+														height="80px"
 														radius={item?.size === "squ" ? "50%" : "50px"}
 													/>
 												</ProfileImgSubBox>

@@ -125,46 +125,46 @@ function Notice() {
 								))}
 							</KindList>
 							<KindIconBox>
-								<Icons.IoChevronDown size={16} color='#D5D5D5' />
+								<Icons.IoChevronDown size={16} color="#D5D5D5" />
 							</KindIconBox>
 						</KindBox>
 						<Search>
 							<Input
 								onChange={getSearchData}
-								type='text'
-								placeholder='검색어를 입력해 주세요'
+								type="text"
+								placeholder="검색어를 입력해 주세요"
 							/>
 							<IconBox
 								onClick={onSearchClick}
 								disabled={userInput.length === 0}
 							>
-								<Icons.ImSearch size={24} color='#000' />
+								<Icons.ImSearch size={24} color="#000" />
 							</IconBox>
 						</Search>
 					</SearchBox>
 					<NoticeBox>
 						<Table>
 							<ColGroup>
-								<ColStyle size='8%' />
-								<ColStyle size='8%' />
-								<ColStyle size='auto' />
-								<ColStyle size='12%' />
-								<ColStyle size='12%' />
+								<ColStyle size="8%" />
+								<ColStyle size="8%" />
+								<ColStyle size="auto" />
+								<ColStyle size="12%" />
+								<ColStyle size="12%" />
 								<MColStyle />
 							</ColGroup>
 							<THead>
 								<Tr>
-									<Th size='8%'>번호</Th>
-									<Th size='8%'>분류</Th>
-									<Th size='auto'>제목</Th>
-									<Th size='12%'>작성자</Th>
-									<Th size='12%'>작성일</Th>
+									<Th size="8%">번호</Th>
+									<Th size="8%">분류</Th>
+									<Th size="auto">제목</Th>
+									<Th size="12%">작성자</Th>
+									<Th size="12%">작성일</Th>
 								</Tr>
 							</THead>
 							<TBody>
 								<Tr>
 									<Td>
-										<Icons.HiSpeakerphone size={20} color='#000' />
+										<Icons.HiSpeakerphone size={20} color="#000" />
 									</Td>
 									<Td />
 									<Td>

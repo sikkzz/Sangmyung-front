@@ -5,17 +5,6 @@ import eduImg4 from "../../assets/minute/administrative/edu1-4.jpg";
 import eduImg5 from "../../assets/minute/administrative/edu1-5.jpg";
 import eduImg6 from "../../assets/minute/administrative/edu1-6.jpg";
 import headImg from "../../assets/minute/administrative/head1-1.jpg";
-import Img4 from "../../assets/minute/representative/1-4.jpg";
-import Img5 from "../../assets/minute/representative/1-5.jpg";
-import Img6 from "../../assets/minute/representative/1-6.jpg";
-import Img7 from "../../assets/minute/representative/1-7.jpg";
-
-import Img8 from "../../assets/minute/representative/2-1.jpg";
-import Img9 from "../../assets/minute/representative/2-2.jpg";
-import Img10 from "../../assets/minute/representative/2-3.jpg";
-import Img11 from "../../assets/minute/representative/2-4.jpg";
-import Img12 from "../../assets/minute/representative/2-5.jpg";
-import Img13 from "../../assets/minute/representative/2-6.jpg";
 import Img14 from "../../assets/minute/representative/2-7.jpg";
 import Img15 from "../../assets/minute/representative/2-8.jpg";
 import Img16 from "../../assets/minute/representative/2-9.jpg";
@@ -91,6 +80,16 @@ import centerImg17 from "../../assets/minute/center/1.jpg";
 import Img from "../../assets/minute/representative/1-1.jpg";
 import Img2 from "../../assets/minute/representative/1-2.jpg";
 import Img3 from "../../assets/minute/representative/1-3.jpg";
+import Img4 from "../../assets/minute/representative/1-4.jpg";
+import Img5 from "../../assets/minute/representative/1-5.jpg";
+import Img6 from "../../assets/minute/representative/1-6.jpg";
+import Img7 from "../../assets/minute/representative/1-7.jpg";
+import Img8 from "../../assets/minute/representative/2-1.jpg";
+import Img9 from "../../assets/minute/representative/2-2.jpg";
+import Img10 from "../../assets/minute/representative/2-3.jpg";
+import Img11 from "../../assets/minute/representative/2-4.jpg";
+import Img12 from "../../assets/minute/representative/2-5.jpg";
+import Img13 from "../../assets/minute/representative/2-6.jpg";
 
 export const MinuteData = [
 	{

@@ -32,7 +32,7 @@ function Map() {
 					<Sub>학생회관 H212호</Sub>
 					<MapBox>
 						<div
-							id='map'
+							id="map"
 							style={{ width: "100%", height: "100%", marginTop: "50px" }}
 						/>
 					</MapBox>

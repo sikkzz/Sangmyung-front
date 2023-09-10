@@ -92,7 +92,7 @@ function Footer() {
 						<MLeftContainer>
 							<MLogoContainer>
 								<MLogoInnerContainer>
-									<MLogo src={LogoImg} alt='Logo' />
+									<MLogo src={LogoImg} alt="Logo" />
 								</MLogoInnerContainer>
 							</MLogoContainer>
 						</MLeftContainer>
@@ -123,9 +123,9 @@ function Footer() {
 							Family Site
 							<MArrow>
 								{isActive ? (
-									<Icons.AiFillCaretDown size={14} color='#fff' />
+									<Icons.AiFillCaretDown size={14} color="#fff" />
 								) : (
-									<Icons.AiFillCaretUp size={14} color='#fff' />
+									<Icons.AiFillCaretUp size={14} color="#fff" />
 								)}
 							</MArrow>
 							<MSelectList style={{ display: isActive ? "block" : "none" }}>
@@ -171,7 +171,7 @@ function Footer() {
 					<LeftContainer>
 						<LogoContainer>
 							<LogoInnerBox>
-								<Logo src={LogoImg} alt='Logo' />
+								<Logo src={LogoImg} alt="Logo" />
 							</LogoInnerBox>
 						</LogoContainer>
 					</LeftContainer>

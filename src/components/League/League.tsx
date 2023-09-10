@@ -123,7 +123,7 @@ function League() {
 									<Th size="12%">날짜</Th>
 									<Th size="12%">시간</Th>
 									<Th size="auto">매치업</Th>
-									<Th size="12%"></Th>
+									<Th size="12%" />
 								</Tr>
 							</THead>
 							<TBody>

@@ -21,7 +21,7 @@ function PersonalModal({ onClose }: Props) {
 			<RuleHeader>
 				<RuleTitle>개인정보처리방침</RuleTitle>
 				<IconBox onClick={onClose}>
-					<Icons.AiOutlineClose size={36} color='#000' />
+					<Icons.AiOutlineClose size={36} color="#000" />
 				</IconBox>
 			</RuleHeader>
 			{PersonalData.map((item, index) => (

@@ -35,7 +35,7 @@ function PledgeSimple() {
 						<Content>
 							'선[先]'이 원활하게 소통하고자 다짐하고 마련한 소통 공약
 						</Content>
-						<CommunicationBox padding='0 270px'>
+						<CommunicationBox padding="0 270px">
 							{PledgeCommunicationData1.map((item, index) => (
 								<CommunicationItemBox key={index}>
 									<CommunicationItem>
@@ -47,7 +47,7 @@ function PledgeSimple() {
 							))}
 						</CommunicationBox>
 
-						<CommunicationBox padding='0 120px'>
+						<CommunicationBox padding="0 120px">
 							{PledgeCommunicationData2.map((item, index) => (
 								<CommunicationItemBox key={index}>
 									<CommunicationItem>
@@ -65,7 +65,7 @@ function PledgeSimple() {
 							'선[先]'이 즐거운 학교생활을 위해 마련한 문화 공약
 						</Content>
 
-						<CommunicationBox padding='0 120px'>
+						<CommunicationBox padding="0 120px">
 							{PledgeCultureData1.map((item, index) => (
 								<CommunicationItemBox key={index}>
 									<CommunicationItem>
@@ -77,7 +77,7 @@ function PledgeSimple() {
 							))}
 						</CommunicationBox>
 
-						<CommunicationBox padding='0 120px'>
+						<CommunicationBox padding="0 120px">
 							{PledgeCultureData2.map((item, index) => (
 								<CommunicationItemBox key={index}>
 									<CommunicationItem>
@@ -95,7 +95,7 @@ function PledgeSimple() {
 							'선[先]'이 더 나은 학교생활을 책임지고자 마련한 복지 공약
 						</Content>
 
-						<CommunicationBox padding='0 120px'>
+						<CommunicationBox padding="0 120px">
 							{PledgWelfareData1.map((item, index) => (
 								<CommunicationItemBox key={index}>
 									<CommunicationItem>
@@ -107,7 +107,7 @@ function PledgeSimple() {
 							))}
 						</CommunicationBox>
 
-						<CommunicationBox padding='0 120px'>
+						<CommunicationBox padding="0 120px">
 							{PledgWelfareData2.map((item, index) => (
 								<CommunicationItemBox key={index}>
 									<CommunicationItem>
@@ -119,7 +119,7 @@ function PledgeSimple() {
 							))}
 						</CommunicationBox>
 
-						<CommunicationBox padding='0 120px'>
+						<CommunicationBox padding="0 120px">
 							{PledgWelfareData3.map((item, index) => (
 								<CommunicationItemBox key={index}>
 									<CommunicationItem>
@@ -137,7 +137,7 @@ function PledgeSimple() {
 							'선[先]'이 학사활동 및 진로지원을 위해 마련한 학사 공약
 						</Content>
 
-						<CommunicationBox padding='0 270px'>
+						<CommunicationBox padding="0 270px">
 							{PledgeBachelorData1.map((item, index) => (
 								<CommunicationItemBox key={index}>
 									<CommunicationItem>
@@ -149,7 +149,7 @@ function PledgeSimple() {
 							))}
 						</CommunicationBox>
 
-						<CommunicationBox padding='0 270px'>
+						<CommunicationBox padding="0 270px">
 							{PledgeBachelorData2.map((item, index) => (
 								<CommunicationItemBox key={index}>
 									<CommunicationItem>

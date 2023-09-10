@@ -10,8 +10,18 @@ import ClubPage from "../pages/ClubPage";
 import DepartmentPage from "../pages/DepartmentPage";
 import EducationForesightDetailPage from "../pages/EducationForesightDetailPage";
 import EducationForesightPage from "../pages/EducationForesightPage";
+import EducationNoticeDetailPage from "../pages/EducationNoticeDetailPage";
+import EducationNoticePage from "../pages/EducationNoticePage";
+import EventDetailPage from "../pages/EventDetailPage";
+import EventPage from "../pages/EventPage";
 import GreetingPage from "../pages/GreetingPage";
 import LandingPage from "../pages/LandingPage";
+import LeagueDetailPage from "../pages/LeagueDetailPage";
+import LeaguePage from "../pages/LeaguePage";
+import MapPage from "../pages/MapPage";
+import MinuteAdministrativeDetailPage from "../pages/MinuteAdministrativeDetailPage";
+import MinuteCenterDetailPage from "../pages/MinuteCenterDetailPage";
+import MinutePage from "../pages/MinutePage";
 import NotFoundPage from "../pages/NotFoundPage";
 import OrganizationPage from "../pages/OrganizationPage";
 import PledgeDetailPage from "../pages/PledgeDetailPage";
@@ -21,107 +31,97 @@ import NoticeDetailPage from "../pages/NoticeDetailPage";
 import ProducerPage from "../pages/ProducerPage";
 import RentalPage from "../pages/RentalPage";
 import RulePage from "../pages/RulePage";
-import MinutePage from "../pages/MinutePage";
-import MinuteCenterDetailPage from "../pages/MinuteCenterDetailPage";
 import MinuteRepresentativeDetailPage from "../pages/MinuteRepresentativeDetailPage";
 import MinuteTutuionDetailPage from "../pages/MinuteTutuionDetailPage";
-import MinuteAdministrativeDetailPage from "../pages/MinuteAdministrativeDetailPage";
-import EducationNoticePage from "../pages/EducationNoticePage";
-import EducationNoticeDetailPage from "../pages/EducationNoticeDetailPage";
-import EventPage from "../pages/EventPage";
-import EventDetailPage from "../pages/EventDetailPage";
 import PartnerPage from "../pages/PartnerPage";
 import PartnerDetailPage from "../pages/PartnerDetailPage";
-import MapPage from "../pages/MapPage";
 import SitemapPage from "../pages/SitemapPage";
-import LeaguePage from "../pages/LeaguePage";
-import LeagueDetailPage from "../pages/LeagueDetailPage";
 
 function Routing() {
 	return (
 		<AnimatePresence>
 			<Routes>
-				<Route path='/' element={<LandingPage />} />
-				<Route path='/intro/introduce/greeting' element={<GreetingPage />} />
+				<Route path="/" element={<LandingPage />} />
+				<Route path="/intro/introduce/greeting" element={<GreetingPage />} />
 				<Route
-					path='/intro/introduce/organizationchart'
+					path="/intro/introduce/organizationchart"
 					element={<OrganizationPage />}
 				/>
-				<Route path='/intro/department' element={<DepartmentPage />} />
-				<Route path='/intro/department/:param' element={<DepartmentPage />} />
-				<Route path='/intro/pledge/simple' element={<PledgeSimplePage />} />
+				<Route path="/intro/department" element={<DepartmentPage />} />
+				<Route path="/intro/department/:param" element={<DepartmentPage />} />
+				<Route path="/intro/pledge/simple" element={<PledgeSimplePage />} />
 				<Route
-					path='/intro/pledge/pledgedetail'
+					path="/intro/pledge/pledgedetail"
 					element={<PledgeDetailPage />}
 				/>
 				<Route
-					path='/intro/pledge/pledgedetail/:param'
+					path="/intro/pledge/pledgedetail/:param"
 					element={<PledgeDetailPage />}
 				/>
-				<Route path='/work/partnership' element={<PartnerPage />} />
-				<Route path='/work/partnership/:param' element={<PartnerPage />} />
+				<Route path="/work/partnership" element={<PartnerPage />} />
+				<Route path="/work/partnership/:param" element={<PartnerPage />} />
 				<Route
-					path='/work/partnership/detail/:id'
+					path="/work/partnership/detail/:id"
 					element={<PartnerDetailPage />}
 				/>
-				<Route path='/work/event' element={<EventPage />} />
-				<Route path='/work/event/detail/:id' element={<EventDetailPage />} />
+				<Route path="/work/event" element={<EventPage />} />
+				<Route path="/work/event/detail/:id" element={<EventDetailPage />} />
 				<Route
-					path='/work/education/foresight'
+					path="/work/education/foresight"
 					element={<EducationForesightPage />}
 				/>
 				<Route
-					path='/work/education/foresight/detail/:id'
+					path="/work/education/foresight/detail/:id"
 					element={<EducationForesightDetailPage />}
 				/>
 				<Route
-					path='/work/education/ednotice'
+					path="/work/education/ednotice"
 					element={<EducationNoticePage />}
 				/>
 				<Route
-					path='/work/education/ednotice/detail/:id'
+					path="/work/education/ednotice/detail/:id"
 					element={<EducationNoticeDetailPage />}
 				/>
-				<Route path='/work/account' element={<AccountPage />} />
-				<Route path='/work/league' element={<LeaguePage />} />
-				<Route path='/work/league/detail/:id' element={<LeagueDetailPage />} />
+				<Route path="/work/account" element={<AccountPage />} />
+				<Route path="/work/league" element={<LeaguePage />} />
+				<Route path="/work/league/detail/:id" element={<LeagueDetailPage />} />
 				<Route
-					path='/work/account/detail/:id'
+					path="/work/account/detail/:id"
 					element={<AccountDetailPage />}
 				/>
-				<Route path='/info/notice' element={<NoticePage />} />
-				<Route path='/info/notice/detail/:id' element={<NoticeDetailPage />} />
-				<Route path='/info/calendar' element={<CalendarPage />} />
-				<Route path='/info/rule' element={<RulePage />} />
-				<Route path='/info/minute' element={<MinutePage />} />
-				<Route path='/info/minute/:param' element={<MinutePage />} />
+				<Route path="/info/notice" element={<NoticePage />} />
+				<Route path="/info/notice/detail/:id" element={<NoticeDetailPage />} />
+				<Route path="/info/calendar" element={<CalendarPage />} />
+				<Route path="/info/rule" element={<RulePage />} />
+				<Route path="/info/minute" element={<MinutePage />} />
+				<Route path="/info/minute/:param" element={<MinutePage />} />
 				<Route
-					path='/info/minute/center/detail'
+					path="/info/minute/center/detail"
 					element={<MinuteCenterDetailPage />}
 				/>
 				<Route
-					path='/info/minute/center/detail/:id'
+					path="/info/minute/center/detail/:id"
 					element={<MinuteCenterDetailPage />}
 				/>
 				<Route
-					path='/info/minute/representative/detail/:id'
+					path="/info/minute/representative/detail/:id"
 					element={<MinuteRepresentativeDetailPage />}
 				/>
 				<Route
-					path='/info/minute/tution/detail/:id'
+					path="/info/minute/tution/detail/:id"
 					element={<MinuteTutuionDetailPage />}
 				/>
 				<Route
-					path='/info/minute/administrative/detail/:id'
+					path="/info/minute/administrative/detail/:id"
 					element={<MinuteAdministrativeDetailPage />}
 				/>
-				<Route path='/facility/map' element={<MapPage />} />
-				<Route path='/facility/rental' element={<RentalPage />} />
-				<Route path='/government/central' element={<CentralPage />} />
-				<Route path='/government/club' element={<ClubPage />} />
-				<Route path='/sitemap' element={<SitemapPage />} />
-				<Route path='/producer' element={<ProducerPage />} />
-				<Route path='/*' element={<NotFoundPage />} />
+				<Route path="/facility/map" element={<MapPage />} />
+				<Route path="/facility/rental" element={<RentalPage />} />
+				<Route path="/government/central" element={<CentralPage />} />
+				<Route path="/government/club" element={<ClubPage />} />
+				<Route path="/sitemap" element={<SitemapPage />} />
+				<Route path="/producer" element={<ProducerPage />} />
+				<Route path="/*" element={<NotFoundPage />} />
 			</Routes>
 		</AnimatePresence>
 	);

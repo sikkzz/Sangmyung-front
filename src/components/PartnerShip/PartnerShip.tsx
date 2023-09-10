@@ -72,14 +72,14 @@ function PartnerShip() {
 						<Search>
 							<Input
 								onChange={getSearchData}
-								type='text'
-								placeholder='검색어를 입력해 주세요'
+								type="text"
+								placeholder="검색어를 입력해 주세요"
 							/>
 							<IconBox
 								onClick={onSearchClick}
 								disabled={userInput.length === 0}
 							>
-								<Icons.ImSearch size={24} color='#000' />
+								<Icons.ImSearch size={24} color="#000" />
 							</IconBox>
 						</Search>
 					</SearchBox>

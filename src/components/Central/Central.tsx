@@ -49,12 +49,12 @@ function Central() {
 							약속드립니다.
 						</IntroText>
 					</IntroBox>
-					<ContentBox padding='0'>
+					<ContentBox padding="0">
 						{CentralData1.map((item, index) => (
 							<ItemBox key={index}>
 								<ItemTitleBox>
 									<ItemIcon>
-										<Icons.BsCircleFill size={12} color='#000' />
+										<Icons.BsCircleFill size={12} color="#000" />
 									</ItemIcon>
 									<ItemTitle>{item.title}</ItemTitle>
 								</ItemTitleBox>
@@ -72,12 +72,12 @@ function Central() {
 							</ItemBox>
 						))}
 					</ContentBox>
-					<ContentBox padding='0 160px'>
+					<ContentBox padding="0 160px">
 						{CentralData2.map((item, index) => (
 							<ItemBox key={index}>
 								<ItemTitleBox>
 									<ItemIcon>
-										<Icons.BsCircleFill size={12} color='#000' />
+										<Icons.BsCircleFill size={12} color="#000" />
 									</ItemIcon>
 									<ItemTitle>{item.title}</ItemTitle>
 								</ItemTitleBox>

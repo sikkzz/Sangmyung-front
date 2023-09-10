@@ -36,20 +36,20 @@ function Club() {
 					<Title>중앙동아리</Title>
 					<Table>
 						<ColGroup>
-							<TableCol size='12%'></TableCol>
-							<TableCol size='10%'></TableCol>
-							<TableCol size='auto'></TableCol>
-							<TableCol size='12%'></TableCol>
-							<TableCol size='8%'></TableCol>
+							<TableCol size="12%" />
+							<TableCol size="10%" />
+							<TableCol size="auto" />
+							<TableCol size="12%" />
+							<TableCol size="8%" />
 							<MTableCol />
 						</ColGroup>
 						<THead>
 							<Tr>
-								<Th size='12%'>프로필</Th>
-								<Th size='15%'>동아리명</Th>
-								<Th size='12%'>종류</Th>
-								<Th size='20%'>주요활동</Th>
-								<Th size='8%'>홈페이지</Th>
+								<Th size="12%">프로필</Th>
+								<Th size="15%">동아리명</Th>
+								<Th size="12%">종류</Th>
+								<Th size="20%">주요활동</Th>
+								<Th size="8%">홈페이지</Th>
 							</Tr>
 						</THead>
 						<TBody>
@@ -73,7 +73,7 @@ function Club() {
 										{item.link ? (
 											<TdLink href={item?.link}>
 												<TdIconBox>
-													<Icons.AiFillHome size={20} color='#000' />
+													<Icons.AiFillHome size={20} color="#000" />
 												</TdIconBox>
 											</TdLink>
 										) : (
@@ -88,7 +88,7 @@ function Club() {
 											{item.link ? (
 												<TdLink href={item?.link}>
 													<TdIconBox>
-														<Icons.AiFillHome size={20} color='#000' />
+														<Icons.AiFillHome size={20} color="#000" />
 													</TdIconBox>
 												</TdLink>
 											) : (
