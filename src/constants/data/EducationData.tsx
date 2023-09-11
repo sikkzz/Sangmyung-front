@@ -7,67 +7,6 @@ import Img1_6 from "../../assets/education/1/1-6.png";
 import Img1_7 from "../../assets/education/1/1-7.png";
 import Img1_8 from "../../assets/education/1/1-8.png";
 import Img1_9 from "../../assets/education/1/1-9.png";
-import Img4_1 from "../../assets/education/4/4-1.png";
-import Img4_3 from "../../assets/education/4/4-3.png";
-import Img4_4 from "../../assets/education/4/4-4.png";
-import Img4_5 from "../../assets/education/4/4-5.png";
-import Img4_6 from "../../assets/education/4/4-6.png";
-import Img4_7 from "../../assets/education/4/4-7.png";
-import Img4_8 from "../../assets/education/4/4-8.png";
-
-import Img5_1 from "../../assets/education/5/5-1.png";
-import Img5_2 from "../../assets/education/5/5-2.png";
-import Img5_3 from "../../assets/education/5/5-3.png";
-import Img5_4 from "../../assets/education/5/5-4.png";
-import Img5_5 from "../../assets/education/5/5-5.png";
-import Img5_6 from "../../assets/education/5/5-6.png";
-import Img5_7 from "../../assets/education/5/5-7.png";
-import Img5_8 from "../../assets/education/5/5-8.png";
-import Img5_9 from "../../assets/education/5/5-9.png";
-
-import Img6_1 from "../../assets/education/6/6-1.png";
-import Img6_2 from "../../assets/education/6/6-2.png";
-import Img6_3 from "../../assets/education/6/6-3.png";
-import Img6_4 from "../../assets/education/6/6-4.png";
-import Img6_5 from "../../assets/education/6/6-5.png";
-import Img6_6 from "../../assets/education/6/6-6.png";
-import Img6_7 from "../../assets/education/6/6-7.png";
-import Img6_8 from "../../assets/education/6/6-8.png";
-import Img6_9 from "../../assets/education/6/6-9.png";
-import Img6_10 from "../../assets/education/6/6-10.png";
-
-import Img7_1 from "../../assets/education/7/7-1.png";
-import Img7_2 from "../../assets/education/7/7-2.png";
-import Img7_3 from "../../assets/education/7/7-3.png";
-import Img7_4 from "../../assets/education/7/7-4.png";
-import Img7_5 from "../../assets/education/7/7-5.png";
-import Img7_6 from "../../assets/education/7/7-6.png";
-import Img7_7 from "../../assets/education/7/7-7.png";
-import Img7_8 from "../../assets/education/7/7-8.png";
-import Img7_9 from "../../assets/education/7/7-9.png";
-import Img7_10 from "../../assets/education/7/7-10.png";
-
-import Img8_1 from "../../assets/education/8/8-1.png";
-import Img8_2 from "../../assets/education/8/8-2.png";
-import Img8_3 from "../../assets/education/8/8-3.png";
-import Img8_4 from "../../assets/education/8/8-4.png";
-import Img8_5 from "../../assets/education/8/8-5.png";
-import Img8_6 from "../../assets/education/8/8-6.png";
-import Img8_7 from "../../assets/education/8/8-7.png";
-import Img8_8 from "../../assets/education/8/8-8.png";
-import Img8_9 from "../../assets/education/8/8-9.png";
-import Img8_10 from "../../assets/education/8/8-10.png";
-
-import Img9_1 from "../../assets/education/9/9-1.png";
-import Img9_2 from "../../assets/education/9/9-2.png";
-import Img9_3 from "../../assets/education/9/9-3.png";
-import Img9_4 from "../../assets/education/9/9-4.png";
-import Img9_5 from "../../assets/education/9/9-5.png";
-import Img9_6 from "../../assets/education/9/9-6.png";
-import Img9_7 from "../../assets/education/9/9-7.png";
-import Img9_8 from "../../assets/education/9/9-8.png";
-import Img9_9 from "../../assets/education/9/9-9.png";
-
 import Img10_1 from "../../assets/education/10/001.png";
 import Img10_2 from "../../assets/education/10/002.png";
 import Img10_3 from "../../assets/education/10/003.png";
@@ -77,7 +16,6 @@ import Img10_6 from "../../assets/education/10/006.png";
 import Img10_7 from "../../assets/education/10/007.png";
 import Img10_8 from "../../assets/education/10/008.png";
 import Img10_9 from "../../assets/education/10/009.png";
-
 import Img11_1 from "../../assets/education/11/001.png";
 import Img11_2 from "../../assets/education/11/002.png";
 import Img11_3 from "../../assets/education/11/003.png";
@@ -87,7 +25,6 @@ import Img11_6 from "../../assets/education/11/006.png";
 import Img11_7 from "../../assets/education/11/007.png";
 import Img11_8 from "../../assets/education/11/008.png";
 import Img11_9 from "../../assets/education/11/009.png";
-
 import Img12_1 from "../../assets/education/12/001.png";
 import Img12_2 from "../../assets/education/12/002.png";
 import Img12_3 from "../../assets/education/12/003.png";
@@ -96,8 +33,8 @@ import Img12_5 from "../../assets/education/12/005.png";
 import Img12_6 from "../../assets/education/12/006.png";
 import Img12_7 from "../../assets/education/12/007.png";
 import Img12_8 from "../../assets/education/12/008.png";
-
 import Img13_1 from "../../assets/education/13/1.jpg";
+import Img13_10 from "../../assets/education/13/10.jpg";
 import Img13_2 from "../../assets/education/13/2.jpg";
 import Img13_3 from "../../assets/education/13/3.jpg";
 import Img13_4 from "../../assets/education/13/4.jpg";
@@ -106,9 +43,8 @@ import Img13_6 from "../../assets/education/13/6.jpg";
 import Img13_7 from "../../assets/education/13/7.jpg";
 import Img13_8 from "../../assets/education/13/8.jpg";
 import Img13_9 from "../../assets/education/13/9.jpg";
-import Img13_10 from "../../assets/education/13/10.jpg";
-
 import Img14_1 from "../../assets/education/14/1.jpg";
+import Img14_10 from "../../assets/education/14/10.jpg";
 import Img14_2 from "../../assets/education/14/2.jpg";
 import Img14_3 from "../../assets/education/14/3.jpg";
 import Img14_4 from "../../assets/education/14/4.jpg";
@@ -117,8 +53,6 @@ import Img14_6 from "../../assets/education/14/6.jpg";
 import Img14_7 from "../../assets/education/14/7.jpg";
 import Img14_8 from "../../assets/education/14/8.jpg";
 import Img14_9 from "../../assets/education/14/9.jpg";
-import Img14_10 from "../../assets/education/14/10.jpg";
-
 import Img15_1 from "../../assets/education/15/001.png";
 import Img15_2 from "../../assets/education/15/002.png";
 import Img15_3 from "../../assets/education/15/003.png";
@@ -129,7 +63,6 @@ import Img15_7 from "../../assets/education/15/007.png";
 import Img15_8 from "../../assets/education/15/008.png";
 import Img15_9 from "../../assets/education/15/009.png";
 import Img15_10 from "../../assets/education/15/010.png";
-
 import Img16_1 from "../../assets/education/16/001.png";
 import Img16_2 from "../../assets/education/16/002.png";
 import Img16_3 from "../../assets/education/16/003.png";
@@ -140,7 +73,6 @@ import Img16_7 from "../../assets/education/16/007.png";
 import Img16_8 from "../../assets/education/16/008.png";
 import Img16_9 from "../../assets/education/16/009.png";
 import Img16_10 from "../../assets/education/16/010.png";
-
 import Img17_1 from "../../assets/education/17/001.png";
 import Img17_2 from "../../assets/education/17/002.png";
 import Img17_3 from "../../assets/education/17/003.png";
@@ -151,7 +83,6 @@ import Img17_7 from "../../assets/education/17/007.png";
 import Img17_8 from "../../assets/education/17/008.png";
 import Img17_9 from "../../assets/education/17/009.png";
 import Img17_10 from "../../assets/education/17/010.png";
-
 import Img18_1 from "../../assets/education/18/001.png";
 import Img18_2 from "../../assets/education/18/002.png";
 import Img18_3 from "../../assets/education/18/003.png";
@@ -162,7 +93,6 @@ import Img18_7 from "../../assets/education/18/007.png";
 import Img18_8 from "../../assets/education/18/008.png";
 import Img18_9 from "../../assets/education/18/009.png";
 import Img18_10 from "../../assets/education/18/010.png";
-
 import Img19_1 from "../../assets/education/19/001.png";
 import Img19_2 from "../../assets/education/19/002.png";
 import Img19_3 from "../../assets/education/19/003.png";
@@ -199,6 +129,15 @@ import Img21_6 from "../../assets/education/21/6.jpg";
 import Img21_7 from "../../assets/education/21/7.jpg";
 import Img21_8 from "../../assets/education/21/8.jpg";
 import Img21_9 from "../../assets/education/21/9.jpg";
+import Img22_1 from "../../assets/education/22/1.jpg";
+import Img22_2 from "../../assets/education/22/2.jpg";
+import Img22_3 from "../../assets/education/22/3.jpg";
+import Img22_4 from "../../assets/education/22/4.jpg";
+import Img22_5 from "../../assets/education/22/5.jpg";
+import Img22_6 from "../../assets/education/22/6.jpg";
+import Img22_7 from "../../assets/education/22/7.jpg";
+import Img22_8 from "../../assets/education/22/8.jpg";
+import Img22_9 from "../../assets/education/22/9.jpg";
 import Img3_1 from "../../assets/education/3/3-1.png";
 import Img3_2 from "../../assets/education/3/3-2.png";
 import Img3_3 from "../../assets/education/3/3-3.png";
@@ -208,7 +147,62 @@ import Img3_6 from "../../assets/education/3/3-6.png";
 import Img3_7 from "../../assets/education/3/3-7.png";
 import Img3_8 from "../../assets/education/3/3-8.png";
 import Img3_9 from "../../assets/education/3/3-9.png";
+import Img4_1 from "../../assets/education/4/4-1.png";
 import Img4_2 from "../../assets/education/4/4-2.png";
+import Img4_3 from "../../assets/education/4/4-3.png";
+import Img4_4 from "../../assets/education/4/4-4.png";
+import Img4_5 from "../../assets/education/4/4-5.png";
+import Img4_6 from "../../assets/education/4/4-6.png";
+import Img4_7 from "../../assets/education/4/4-7.png";
+import Img4_8 from "../../assets/education/4/4-8.png";
+import Img5_1 from "../../assets/education/5/5-1.png";
+import Img5_2 from "../../assets/education/5/5-2.png";
+import Img5_3 from "../../assets/education/5/5-3.png";
+import Img5_4 from "../../assets/education/5/5-4.png";
+import Img5_5 from "../../assets/education/5/5-5.png";
+import Img5_6 from "../../assets/education/5/5-6.png";
+import Img5_7 from "../../assets/education/5/5-7.png";
+import Img5_8 from "../../assets/education/5/5-8.png";
+import Img5_9 from "../../assets/education/5/5-9.png";
+import Img6_1 from "../../assets/education/6/6-1.png";
+import Img6_10 from "../../assets/education/6/6-10.png";
+import Img6_2 from "../../assets/education/6/6-2.png";
+import Img6_3 from "../../assets/education/6/6-3.png";
+import Img6_4 from "../../assets/education/6/6-4.png";
+import Img6_5 from "../../assets/education/6/6-5.png";
+import Img6_6 from "../../assets/education/6/6-6.png";
+import Img6_7 from "../../assets/education/6/6-7.png";
+import Img6_8 from "../../assets/education/6/6-8.png";
+import Img6_9 from "../../assets/education/6/6-9.png";
+import Img7_1 from "../../assets/education/7/7-1.png";
+import Img7_10 from "../../assets/education/7/7-10.png";
+import Img7_2 from "../../assets/education/7/7-2.png";
+import Img7_3 from "../../assets/education/7/7-3.png";
+import Img7_4 from "../../assets/education/7/7-4.png";
+import Img7_5 from "../../assets/education/7/7-5.png";
+import Img7_6 from "../../assets/education/7/7-6.png";
+import Img7_7 from "../../assets/education/7/7-7.png";
+import Img7_8 from "../../assets/education/7/7-8.png";
+import Img7_9 from "../../assets/education/7/7-9.png";
+import Img8_1 from "../../assets/education/8/8-1.png";
+import Img8_10 from "../../assets/education/8/8-10.png";
+import Img8_2 from "../../assets/education/8/8-2.png";
+import Img8_3 from "../../assets/education/8/8-3.png";
+import Img8_4 from "../../assets/education/8/8-4.png";
+import Img8_5 from "../../assets/education/8/8-5.png";
+import Img8_6 from "../../assets/education/8/8-6.png";
+import Img8_7 from "../../assets/education/8/8-7.png";
+import Img8_8 from "../../assets/education/8/8-8.png";
+import Img8_9 from "../../assets/education/8/8-9.png";
+import Img9_1 from "../../assets/education/9/9-1.png";
+import Img9_2 from "../../assets/education/9/9-2.png";
+import Img9_3 from "../../assets/education/9/9-3.png";
+import Img9_4 from "../../assets/education/9/9-4.png";
+import Img9_5 from "../../assets/education/9/9-5.png";
+import Img9_6 from "../../assets/education/9/9-6.png";
+import Img9_7 from "../../assets/education/9/9-7.png";
+import Img9_8 from "../../assets/education/9/9-8.png";
+import Img9_9 from "../../assets/education/9/9-9.png";
 import noImg1_1 from "../../assets/education/notice/1/1-1.png";
 import noImg1_10 from "../../assets/education/notice/1/1-10.png";
 import noImg1_2 from "../../assets/education/notice/1/1-2.png";
@@ -315,6 +309,55 @@ import noImg9_9 from "../../assets/education/notice/9/9.png";
 import noImg9_title from "../../assets/education/notice/9/title.png";
 
 export const EducationForesightData = [
+	{
+		id: 22,
+		link: "/work/education/foresight/detail/22",
+		img: Img22_1,
+		alt: "img22_1",
+		title: "💙선[先]견지명 - 비교과 프로그램 편💙",
+		date: "2023-09-11",
+		owner: "관리자",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 1학기에 이어, 2학기에도 제공해드리고자 합니다.<br/><br/>9월 둘째 주, '비교과 프로그램 편'을 통해 다양한 교내 활동을 확인해보세요! 새로운 마음가짐으로 학업 외 역량을 쌓아보는 건 어떨까요? 🧐<br/><br/>1️⃣ 교양 워크숍 참가자 모집 - 토론면접 전략<br/>2️⃣ 상명튜터링<br/>3️⃣ 독서모임 : 책 나눔 인생 나눔<br/>4️⃣ 토론모임 : 생각 나눔 가치 나눔<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>교육지원국은 2학기에도 매주 유익한 정보로 찾아뵙겠습니다. 추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img22_1,
+				alt: "img22_1",
+			},
+			{
+				img: Img22_2,
+				alt: "img22_2",
+			},
+			{
+				img: Img22_3,
+				alt: "img22_3",
+			},
+			{
+				img: Img22_4,
+				alt: "img22_4",
+			},
+			{
+				img: Img22_5,
+				alt: "img22_5",
+			},
+			{
+				img: Img22_6,
+				alt: "img22_6",
+			},
+			{
+				img: Img22_7,
+				alt: "img22_7",
+			},
+			{
+				img: Img22_8,
+				alt: "img22_8",
+			},
+			{
+				img: Img22_9,
+				alt: "img22_9",
+			},
+		],
+	},
 	{
 		id: 21,
 		link: "/work/education/foresight/detail/21",
