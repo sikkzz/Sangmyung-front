@@ -465,6 +465,14 @@ import Img138_9 from "../../assets/notice/138/9.jpg";
 import Img139_1 from "../../assets/notice/139/1.jpg";
 import Img141_1 from "../../assets/notice/141/1.jpg";
 import Img143_1 from "../../assets/notice/143/1.jpg";
+import Img143_2 from "../../assets/notice/143/2.jpg";
+import Img143_3 from "../../assets/notice/143/3.jpg";
+import Img144_1 from "../../assets/notice/144/1.jpg";
+import Img148_1 from "../../assets/notice/148/1.jpg";
+import Img148_2 from "../../assets/notice/148/2.jpg";
+import Img148_3 from "../../assets/notice/148/3.jpg";
+import Img148_4 from "../../assets/notice/148/4.jpg";
+import Img148_5 from "../../assets/notice/148/5.jpg";
 import Img15_1 from "../../assets/notice/15/1.jpg";
 import Img150_1 from "../../assets/notice/150/1.jpg";
 import Img150_2 from "../../assets/notice/150/2.jpg";
@@ -714,20 +722,13 @@ import Img105_2 from "../../assets/partner/8/2.jpg";
 import Img105_3 from "../../assets/partner/8/3.jpg";
 import Img108_1 from "../../assets/partner/9/1.jpg";
 import Img108_2 from "../../assets/partner/9/2.jpg";
-import Img143_2 from "../../assets/notice/143/2.jpg";
-import Img143_3 from "../../assets/notice/143/3.jpg";
-import Img144_1 from "../../assets/notice/144/1.jpg";
-import Img148_1 from "../../assets/notice/148/1.jpg";
-import Img148_2 from "../../assets/notice/148/2.jpg";
-import Img148_3 from "../../assets/notice/148/3.jpg";
-import Img148_4 from "../../assets/notice/148/4.jpg";
-import Img148_5 from "../../assets/notice/148/5.jpg";
 import Video1 from "../../assets/video/1.mp4";
 import Video10 from "../../assets/video/10.mp4";
 import Video11 from "../../assets/video/11.mp4";
 import Video12 from "../../assets/video/12.mp4";
 import Video13 from "../../assets/video/13.mp4";
 import Video14 from "../../assets/video/14.mp4";
+import Video15 from "../../assets/video/15.mp4";
 import Video2 from "../../assets/video/2.mp4";
 import Video3 from "../../assets/video/3.mp4";
 import Video4 from "../../assets/video/4.mp4";
@@ -738,6 +739,22 @@ import Video8 from "../../assets/video/8.mp4";
 import Video9 from "../../assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 151,
+		link: "/info/notice/detail/151",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 코스모폴리탄 행사 Sketch 영상 공개",
+		date: "2023-09-13",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"💙 총학생회 선(先) X 코스모폴리탄 💝<br/><br/>지난 9월 12일, 다양한 선물을 담은 코스모 트레일러가 상명대 서울캠퍼스에 등장했습니다!<br/><br/>여러분의 뜨거운 참여 덕분에 준비한 수량이 전량 소진되었으며, 앞으로 있을 다양한 행사에도 많은 관심 부탁드립니다 💙<br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inVideo: [
+			{
+				video: Video15,
+			},
+		],
+	},
 	{
 		id: 150,
 		link: "/info/notice/detail/150",
