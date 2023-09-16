@@ -729,6 +729,7 @@ import Video12 from "../../assets/video/12.mp4";
 import Video13 from "../../assets/video/13.mp4";
 import Video14 from "../../assets/video/14.mp4";
 import Video15 from "../../assets/video/15.mp4";
+import Video16 from "../../assets/video/16.mp4";
 import Video2 from "../../assets/video/2.mp4";
 import Video3 from "../../assets/video/3.mp4";
 import Video4 from "../../assets/video/4.mp4";
@@ -739,6 +740,22 @@ import Video8 from "../../assets/video/8.mp4";
 import Video9 from "../../assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 152,
+		link: "/info/notice/detail/152",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' LG전자 XBOOM 파티 스피커 X 9월 버스킹제 '선[先]의바람'",
+		date: "2023-09-15",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"LG전자 XBOOM 파티 스피커📻💥와 함께한 9월 버스킹제 ”선의 바람“ 잘 즐기셨나요?<br/><br/>📢 최대 250W 출력으로 풍부한 스피커의 울림을 느낄 수 있게.<br/>🛞 캐리어 방식으로 제작되어 언제 어디서나 편리하게.<br/>📱XBOOM 어플리케이션을 통한 다양한 모드 조작까지.<br/><br/>2학기 동안 총학생회 선(先)의 행사에 끊임없이 등장할<br/>LG XBOOM 파티 스피커의 다양한 모습‼️<br/>여러분의 많은 관심 부탁드립니다.🫧<br/><br/>🎵 Groovin'187- ALL IN<br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inVideo: [
+			{
+				video: Video16,
+			},
+		],
+	},
 	{
 		id: 151,
 		link: "/info/notice/detail/151",
