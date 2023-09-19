@@ -1,3 +1,13 @@
+import Img153_1 from "@/assets/education/23/1.jpg";
+import Img153_2 from "@/assets/education/23/2.jpg";
+import Img153_3 from "@/assets/education/23/3.jpg";
+import Img153_4 from "@/assets/education/23/4.jpg";
+import Img153_5 from "@/assets/education/23/5.jpg";
+import Img153_6 from "@/assets/education/23/6.jpg";
+import Img153_7 from "@/assets/education/23/7.jpg";
+import Img153_8 from "@/assets/education/23/8.jpg";
+import Img153_9 from "@/assets/education/23/9.jpg";
+
 import Img96_1 from "../../assets/account/1/1.jpg";
 import Img96_2 from "../../assets/account/1/2.jpg";
 import Img96_3 from "../../assets/account/1/3.jpg";
@@ -740,6 +750,55 @@ import Video8 from "../../assets/video/8.mp4";
 import Video9 from "../../assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 153,
+		link: "/info/notice/detail/153",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 증명서 발급정보 편",
+		date: "2023-09-18",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 1학기에 이어, 2학기에도 제공해드리고자 합니다.<br/><br/>9월 셋째 주, '증명서 발급정보'를 준비해보았습니다.<br/>취업 준비를 하거나, 자격증 발급을 하거나, 기타 신분증명이 필요할 때! 증명서를 어디서, 어떻게 발급받아야 하는지 모르시겠다면 확인해보세요🤓💌<br/><br/>1️⃣ 발급 가능한 증명서 종류<br/>2️⃣ 증명서 사용처<br/>3️⃣ 온라인 발급방법<br/>4️⃣ 오프라인 발급방법<br/>5️⃣ 수수료 및 기타사항<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>교육지원국은 2학기에도 매주 유익한 정보로 찾아뵙겠습니다. 추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img153_1,
+				alt: "img153_1",
+			},
+			{
+				img: Img153_2,
+				alt: "img153_2",
+			},
+			{
+				img: Img153_3,
+				alt: "img153_3",
+			},
+			{
+				img: Img153_4,
+				alt: "img153_4",
+			},
+			{
+				img: Img153_5,
+				alt: "img153_5",
+			},
+			{
+				img: Img153_6,
+				alt: "img153_6",
+			},
+			{
+				img: Img153_7,
+				alt: "img153_7",
+			},
+			{
+				img: Img153_8,
+				alt: "img153_8",
+			},
+			{
+				img: Img153_9,
+				alt: "img153_9",
+			},
+		],
+	},
 	{
 		id: 152,
 		link: "/info/notice/detail/152",

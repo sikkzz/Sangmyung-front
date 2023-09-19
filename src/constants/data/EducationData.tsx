@@ -1,3 +1,13 @@
+import Img23_1 from "@/assets/education/23/1.jpg";
+import Img23_2 from "@/assets/education/23/2.jpg";
+import Img23_3 from "@/assets/education/23/3.jpg";
+import Img23_4 from "@/assets/education/23/4.jpg";
+import Img23_5 from "@/assets/education/23/5.jpg";
+import Img23_6 from "@/assets/education/23/6.jpg";
+import Img23_7 from "@/assets/education/23/7.jpg";
+import Img23_8 from "@/assets/education/23/8.jpg";
+import Img23_9 from "@/assets/education/23/9.jpg";
+
 import Img1_1 from "../../assets/education/1/1-1.png";
 import Img1_2 from "../../assets/education/1/1-2.png";
 import Img1_3 from "../../assets/education/1/1-3.png";
@@ -309,6 +319,55 @@ import noImg9_9 from "../../assets/education/notice/9/9.png";
 import noImg9_title from "../../assets/education/notice/9/title.png";
 
 export const EducationForesightData = [
+	{
+		id: 23,
+		link: "/work/education/foresight/detail/23",
+		img: Img23_1,
+		alt: "img23_1",
+		title: "💙선[先]견지명 - 증명서 발급정보 편💙",
+		date: "2023-09-18",
+		owner: "관리자",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 1학기에 이어, 2학기에도 제공해드리고자 합니다.<br/><br/>9월 셋째 주, '증명서 발급정보'를 준비해보았습니다.<br/>취업 준비를 하거나, 자격증 발급을 하거나, 기타 신분증명이 필요할 때! 증명서를 어디서, 어떻게 발급받아야 하는지 모르시겠다면 확인해보세요🤓💌<br/><br/>1️⃣ 발급 가능한 증명서 종류<br/>2️⃣ 증명서 사용처<br/>3️⃣ 온라인 발급방법<br/>4️⃣ 오프라인 발급방법<br/>5️⃣ 수수료 및 기타사항<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>교육지원국은 2학기에도 매주 유익한 정보로 찾아뵙겠습니다. 추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img23_1,
+				alt: "img23_1",
+			},
+			{
+				img: Img23_2,
+				alt: "img23_2",
+			},
+			{
+				img: Img23_3,
+				alt: "img23_3",
+			},
+			{
+				img: Img23_4,
+				alt: "img23_4",
+			},
+			{
+				img: Img23_5,
+				alt: "img23_5",
+			},
+			{
+				img: Img23_6,
+				alt: "img23_6",
+			},
+			{
+				img: Img23_7,
+				alt: "img23_7",
+			},
+			{
+				img: Img23_8,
+				alt: "img23_8",
+			},
+			{
+				img: Img23_9,
+				alt: "img23_9",
+			},
+		],
+	},
 	{
 		id: 22,
 		link: "/work/education/foresight/detail/22",
