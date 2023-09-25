@@ -1,3 +1,153 @@
+import Img96_1 from "@/assets/account/1/1.jpg";
+import Img96_2 from "@/assets/account/1/2.jpg";
+import Img96_3 from "@/assets/account/1/3.jpg";
+import Img96_4 from "@/assets/account/1/4.jpg";
+import Img96_5 from "@/assets/account/1/5.jpg";
+import Img96_6 from "@/assets/account/1/6.jpg";
+import Img4_1 from "@/assets/calendar/4/1.jpg";
+import Img4_2 from "@/assets/calendar/4/2.jpg";
+import Img22_1 from "@/assets/calendar/5/1.jpg";
+import Img76_1 from "@/assets/calendar/6/1.jpg";
+import Img5_1 from "@/assets/education/1/1-1.png";
+import Img5_2 from "@/assets/education/1/1-2.png";
+import Img5_3 from "@/assets/education/1/1-3.png";
+import Img5_4 from "@/assets/education/1/1-4.png";
+import Img5_5 from "@/assets/education/1/1-5.png";
+import Img5_6 from "@/assets/education/1/1-6.png";
+import Img5_7 from "@/assets/education/1/1-7.png";
+import Img5_8 from "@/assets/education/1/1-8.png";
+import Img5_9 from "@/assets/education/1/1-9.png";
+import Img30_1 from "@/assets/education/10/001.png";
+import Img30_2 from "@/assets/education/10/002.png";
+import Img30_3 from "@/assets/education/10/003.png";
+import Img30_4 from "@/assets/education/10/004.png";
+import Img30_5 from "@/assets/education/10/005.png";
+import Img30_6 from "@/assets/education/10/006.png";
+import Img30_7 from "@/assets/education/10/007.png";
+import Img30_8 from "@/assets/education/10/008.png";
+import Img30_9 from "@/assets/education/10/009.png";
+import Img35_1 from "@/assets/education/11/001.png";
+import Img35_2 from "@/assets/education/11/002.png";
+import Img35_3 from "@/assets/education/11/003.png";
+import Img35_4 from "@/assets/education/11/004.png";
+import Img35_5 from "@/assets/education/11/005.png";
+import Img35_6 from "@/assets/education/11/006.png";
+import Img35_7 from "@/assets/education/11/007.png";
+import Img35_8 from "@/assets/education/11/008.png";
+import Img35_9 from "@/assets/education/11/009.png";
+import Img42_1 from "@/assets/education/12/001.png";
+import Img42_2 from "@/assets/education/12/002.png";
+import Img42_3 from "@/assets/education/12/003.png";
+import Img42_4 from "@/assets/education/12/004.png";
+import Img42_5 from "@/assets/education/12/005.png";
+import Img42_6 from "@/assets/education/12/006.png";
+import Img42_7 from "@/assets/education/12/007.png";
+import Img42_8 from "@/assets/education/12/008.png";
+import Img67_1 from "@/assets/education/13/1.jpg";
+import Img67_10 from "@/assets/education/13/10.jpg";
+import Img67_2 from "@/assets/education/13/2.jpg";
+import Img67_3 from "@/assets/education/13/3.jpg";
+import Img67_4 from "@/assets/education/13/4.jpg";
+import Img67_5 from "@/assets/education/13/5.jpg";
+import Img67_6 from "@/assets/education/13/6.jpg";
+import Img67_7 from "@/assets/education/13/7.jpg";
+import Img67_8 from "@/assets/education/13/8.jpg";
+import Img67_9 from "@/assets/education/13/9.jpg";
+import Img68_1 from "@/assets/education/14/1.jpg";
+import Img68_10 from "@/assets/education/14/10.jpg";
+import Img68_2 from "@/assets/education/14/2.jpg";
+import Img68_3 from "@/assets/education/14/3.jpg";
+import Img68_4 from "@/assets/education/14/4.jpg";
+import Img68_5 from "@/assets/education/14/5.jpg";
+import Img68_6 from "@/assets/education/14/6.jpg";
+import Img68_7 from "@/assets/education/14/7.jpg";
+import Img68_8 from "@/assets/education/14/8.jpg";
+import Img68_9 from "@/assets/education/14/9.jpg";
+import Img73_1 from "@/assets/education/15/001.png";
+import Img73_2 from "@/assets/education/15/002.png";
+import Img73_3 from "@/assets/education/15/003.png";
+import Img73_4 from "@/assets/education/15/004.png";
+import Img73_5 from "@/assets/education/15/005.png";
+import Img73_6 from "@/assets/education/15/006.png";
+import Img73_7 from "@/assets/education/15/007.png";
+import Img73_8 from "@/assets/education/15/008.png";
+import Img73_9 from "@/assets/education/15/009.png";
+import Img73_10 from "@/assets/education/15/010.png";
+import Img85_1 from "@/assets/education/16/001.png";
+import Img85_2 from "@/assets/education/16/002.png";
+import Img85_3 from "@/assets/education/16/003.png";
+import Img85_4 from "@/assets/education/16/004.png";
+import Img85_5 from "@/assets/education/16/005.png";
+import Img85_6 from "@/assets/education/16/006.png";
+import Img85_7 from "@/assets/education/16/007.png";
+import Img85_8 from "@/assets/education/16/008.png";
+import Img85_9 from "@/assets/education/16/009.png";
+import Img85_10 from "@/assets/education/16/010.png";
+import Img93_1 from "@/assets/education/17/001.png";
+import Img93_2 from "@/assets/education/17/002.png";
+import Img93_3 from "@/assets/education/17/003.png";
+import Img93_4 from "@/assets/education/17/004.png";
+import Img93_5 from "@/assets/education/17/005.png";
+import Img93_6 from "@/assets/education/17/006.png";
+import Img93_7 from "@/assets/education/17/007.png";
+import Img93_8 from "@/assets/education/17/008.png";
+import Img93_9 from "@/assets/education/17/009.png";
+import Img93_10 from "@/assets/education/17/010.png";
+import Img94_1 from "@/assets/education/18/001.png";
+import Img94_2 from "@/assets/education/18/002.png";
+import Img94_3 from "@/assets/education/18/003.png";
+import Img94_4 from "@/assets/education/18/004.png";
+import Img94_5 from "@/assets/education/18/005.png";
+import Img94_6 from "@/assets/education/18/006.png";
+import Img94_7 from "@/assets/education/18/007.png";
+import Img94_8 from "@/assets/education/18/008.png";
+import Img94_9 from "@/assets/education/18/009.png";
+import Img94_10 from "@/assets/education/18/010.png";
+import Img97_1 from "@/assets/education/19/001.png";
+import Img97_2 from "@/assets/education/19/002.png";
+import Img97_3 from "@/assets/education/19/003.png";
+import Img97_4 from "@/assets/education/19/004.png";
+import Img97_5 from "@/assets/education/19/005.png";
+import Img97_6 from "@/assets/education/19/006.png";
+import Img97_7 from "@/assets/education/19/007.png";
+import Img97_8 from "@/assets/education/19/008.png";
+import Img97_9 from "@/assets/education/19/009.png";
+import Img9_1 from "@/assets/education/2/2-1.png";
+import Img9_10 from "@/assets/education/2/2-10.png";
+import Img9_2 from "@/assets/education/2/2-2.png";
+import Img9_3 from "@/assets/education/2/2-3.png";
+import Img9_4 from "@/assets/education/2/2-4.png";
+import Img9_5 from "@/assets/education/2/2-5.png";
+import Img9_6 from "@/assets/education/2/2-6.png";
+import Img9_7 from "@/assets/education/2/2-7.png";
+import Img9_8 from "@/assets/education/2/2-8.png";
+import Img9_9 from "@/assets/education/2/2-9.png";
+import Img98_1 from "@/assets/education/20/001.png";
+import Img98_2 from "@/assets/education/20/002.png";
+import Img98_3 from "@/assets/education/20/003.png";
+import Img98_4 from "@/assets/education/20/004.png";
+import Img98_5 from "@/assets/education/20/005.png";
+import Img98_6 from "@/assets/education/20/006.png";
+import Img98_7 from "@/assets/education/20/007.png";
+import Img98_8 from "@/assets/education/20/008.png";
+import Img142_1 from "@/assets/education/21/1.jpg";
+import Img142_2 from "@/assets/education/21/2.jpg";
+import Img142_3 from "@/assets/education/21/3.jpg";
+import Img142_4 from "@/assets/education/21/4.jpg";
+import Img142_5 from "@/assets/education/21/5.jpg";
+import Img142_6 from "@/assets/education/21/6.jpg";
+import Img142_7 from "@/assets/education/21/7.jpg";
+import Img142_8 from "@/assets/education/21/8.jpg";
+import Img142_9 from "@/assets/education/21/9.jpg";
+import Img149_1 from "@/assets/education/22/1.jpg";
+import Img149_2 from "@/assets/education/22/2.jpg";
+import Img149_3 from "@/assets/education/22/3.jpg";
+import Img149_4 from "@/assets/education/22/4.jpg";
+import Img149_5 from "@/assets/education/22/5.jpg";
+import Img149_6 from "@/assets/education/22/6.jpg";
+import Img149_7 from "@/assets/education/22/7.jpg";
+import Img149_8 from "@/assets/education/22/8.jpg";
+import Img149_9 from "@/assets/education/22/9.jpg";
 import Img153_1 from "@/assets/education/23/1.jpg";
 import Img153_2 from "@/assets/education/23/2.jpg";
 import Img153_3 from "@/assets/education/23/3.jpg";
@@ -7,749 +157,769 @@ import Img153_6 from "@/assets/education/23/6.jpg";
 import Img153_7 from "@/assets/education/23/7.jpg";
 import Img153_8 from "@/assets/education/23/8.jpg";
 import Img153_9 from "@/assets/education/23/9.jpg";
-
-import Img96_1 from "../../assets/account/1/1.jpg";
-import Img96_2 from "../../assets/account/1/2.jpg";
-import Img96_3 from "../../assets/account/1/3.jpg";
-import Img96_4 from "../../assets/account/1/4.jpg";
-import Img96_5 from "../../assets/account/1/5.jpg";
-import Img96_6 from "../../assets/account/1/6.jpg";
-import Img4_1 from "../../assets/calendar/4/1.jpg";
-import Img4_2 from "../../assets/calendar/4/2.jpg";
-import Img22_1 from "../../assets/calendar/5/1.jpg";
-import Img76_1 from "../../assets/calendar/6/1.jpg";
-import Img5_1 from "../../assets/education/1/1-1.png";
-import Img5_2 from "../../assets/education/1/1-2.png";
-import Img5_3 from "../../assets/education/1/1-3.png";
-import Img5_4 from "../../assets/education/1/1-4.png";
-import Img5_5 from "../../assets/education/1/1-5.png";
-import Img5_6 from "../../assets/education/1/1-6.png";
-import Img5_7 from "../../assets/education/1/1-7.png";
-import Img5_8 from "../../assets/education/1/1-8.png";
-import Img5_9 from "../../assets/education/1/1-9.png";
-import Img30_1 from "../../assets/education/10/001.png";
-import Img30_2 from "../../assets/education/10/002.png";
-import Img30_3 from "../../assets/education/10/003.png";
-import Img30_4 from "../../assets/education/10/004.png";
-import Img30_5 from "../../assets/education/10/005.png";
-import Img30_6 from "../../assets/education/10/006.png";
-import Img30_7 from "../../assets/education/10/007.png";
-import Img30_8 from "../../assets/education/10/008.png";
-import Img30_9 from "../../assets/education/10/009.png";
-import Img35_1 from "../../assets/education/11/001.png";
-import Img35_2 from "../../assets/education/11/002.png";
-import Img35_3 from "../../assets/education/11/003.png";
-import Img35_4 from "../../assets/education/11/004.png";
-import Img35_5 from "../../assets/education/11/005.png";
-import Img35_6 from "../../assets/education/11/006.png";
-import Img35_7 from "../../assets/education/11/007.png";
-import Img35_8 from "../../assets/education/11/008.png";
-import Img35_9 from "../../assets/education/11/009.png";
-import Img42_1 from "../../assets/education/12/001.png";
-import Img42_2 from "../../assets/education/12/002.png";
-import Img42_3 from "../../assets/education/12/003.png";
-import Img42_4 from "../../assets/education/12/004.png";
-import Img42_5 from "../../assets/education/12/005.png";
-import Img42_6 from "../../assets/education/12/006.png";
-import Img42_7 from "../../assets/education/12/007.png";
-import Img42_8 from "../../assets/education/12/008.png";
-import Img67_1 from "../../assets/education/13/1.jpg";
-import Img67_10 from "../../assets/education/13/10.jpg";
-import Img67_2 from "../../assets/education/13/2.jpg";
-import Img67_3 from "../../assets/education/13/3.jpg";
-import Img67_4 from "../../assets/education/13/4.jpg";
-import Img67_5 from "../../assets/education/13/5.jpg";
-import Img67_6 from "../../assets/education/13/6.jpg";
-import Img67_7 from "../../assets/education/13/7.jpg";
-import Img67_8 from "../../assets/education/13/8.jpg";
-import Img67_9 from "../../assets/education/13/9.jpg";
-import Img68_1 from "../../assets/education/14/1.jpg";
-import Img68_10 from "../../assets/education/14/10.jpg";
-import Img68_2 from "../../assets/education/14/2.jpg";
-import Img68_3 from "../../assets/education/14/3.jpg";
-import Img68_4 from "../../assets/education/14/4.jpg";
-import Img68_5 from "../../assets/education/14/5.jpg";
-import Img68_6 from "../../assets/education/14/6.jpg";
-import Img68_7 from "../../assets/education/14/7.jpg";
-import Img68_8 from "../../assets/education/14/8.jpg";
-import Img68_9 from "../../assets/education/14/9.jpg";
-import Img73_1 from "../../assets/education/15/001.png";
-import Img73_2 from "../../assets/education/15/002.png";
-import Img73_3 from "../../assets/education/15/003.png";
-import Img73_4 from "../../assets/education/15/004.png";
-import Img73_5 from "../../assets/education/15/005.png";
-import Img73_6 from "../../assets/education/15/006.png";
-import Img73_7 from "../../assets/education/15/007.png";
-import Img73_8 from "../../assets/education/15/008.png";
-import Img73_9 from "../../assets/education/15/009.png";
-import Img73_10 from "../../assets/education/15/010.png";
-import Img85_1 from "../../assets/education/16/001.png";
-import Img85_2 from "../../assets/education/16/002.png";
-import Img85_3 from "../../assets/education/16/003.png";
-import Img85_4 from "../../assets/education/16/004.png";
-import Img85_5 from "../../assets/education/16/005.png";
-import Img85_6 from "../../assets/education/16/006.png";
-import Img85_7 from "../../assets/education/16/007.png";
-import Img85_8 from "../../assets/education/16/008.png";
-import Img85_9 from "../../assets/education/16/009.png";
-import Img85_10 from "../../assets/education/16/010.png";
-import Img93_1 from "../../assets/education/17/001.png";
-import Img93_2 from "../../assets/education/17/002.png";
-import Img93_3 from "../../assets/education/17/003.png";
-import Img93_4 from "../../assets/education/17/004.png";
-import Img93_5 from "../../assets/education/17/005.png";
-import Img93_6 from "../../assets/education/17/006.png";
-import Img93_7 from "../../assets/education/17/007.png";
-import Img93_8 from "../../assets/education/17/008.png";
-import Img93_9 from "../../assets/education/17/009.png";
-import Img93_10 from "../../assets/education/17/010.png";
-import Img94_1 from "../../assets/education/18/001.png";
-import Img94_2 from "../../assets/education/18/002.png";
-import Img94_3 from "../../assets/education/18/003.png";
-import Img94_4 from "../../assets/education/18/004.png";
-import Img94_5 from "../../assets/education/18/005.png";
-import Img94_6 from "../../assets/education/18/006.png";
-import Img94_7 from "../../assets/education/18/007.png";
-import Img94_8 from "../../assets/education/18/008.png";
-import Img94_9 from "../../assets/education/18/009.png";
-import Img94_10 from "../../assets/education/18/010.png";
-import Img97_1 from "../../assets/education/19/001.png";
-import Img97_2 from "../../assets/education/19/002.png";
-import Img97_3 from "../../assets/education/19/003.png";
-import Img97_4 from "../../assets/education/19/004.png";
-import Img97_5 from "../../assets/education/19/005.png";
-import Img97_6 from "../../assets/education/19/006.png";
-import Img97_7 from "../../assets/education/19/007.png";
-import Img97_8 from "../../assets/education/19/008.png";
-import Img97_9 from "../../assets/education/19/009.png";
-import Img9_1 from "../../assets/education/2/2-1.png";
-import Img9_10 from "../../assets/education/2/2-10.png";
-import Img9_2 from "../../assets/education/2/2-2.png";
-import Img9_3 from "../../assets/education/2/2-3.png";
-import Img9_4 from "../../assets/education/2/2-4.png";
-import Img9_5 from "../../assets/education/2/2-5.png";
-import Img9_6 from "../../assets/education/2/2-6.png";
-import Img9_7 from "../../assets/education/2/2-7.png";
-import Img9_8 from "../../assets/education/2/2-8.png";
-import Img9_9 from "../../assets/education/2/2-9.png";
-import Img98_1 from "../../assets/education/20/001.png";
-import Img98_2 from "../../assets/education/20/002.png";
-import Img98_3 from "../../assets/education/20/003.png";
-import Img98_4 from "../../assets/education/20/004.png";
-import Img98_5 from "../../assets/education/20/005.png";
-import Img98_6 from "../../assets/education/20/006.png";
-import Img98_7 from "../../assets/education/20/007.png";
-import Img98_8 from "../../assets/education/20/008.png";
-import Img142_1 from "../../assets/education/21/1.jpg";
-import Img142_2 from "../../assets/education/21/2.jpg";
-import Img142_3 from "../../assets/education/21/3.jpg";
-import Img142_4 from "../../assets/education/21/4.jpg";
-import Img142_5 from "../../assets/education/21/5.jpg";
-import Img142_6 from "../../assets/education/21/6.jpg";
-import Img142_7 from "../../assets/education/21/7.jpg";
-import Img142_8 from "../../assets/education/21/8.jpg";
-import Img142_9 from "../../assets/education/21/9.jpg";
-import Img149_1 from "../../assets/education/22/1.jpg";
-import Img149_2 from "../../assets/education/22/2.jpg";
-import Img149_3 from "../../assets/education/22/3.jpg";
-import Img149_4 from "../../assets/education/22/4.jpg";
-import Img149_5 from "../../assets/education/22/5.jpg";
-import Img149_6 from "../../assets/education/22/6.jpg";
-import Img149_7 from "../../assets/education/22/7.jpg";
-import Img149_8 from "../../assets/education/22/8.jpg";
-import Img149_9 from "../../assets/education/22/9.jpg";
-import Img10_1 from "../../assets/education/3/3-1.png";
-import Img10_2 from "../../assets/education/3/3-2.png";
-import Img10_3 from "../../assets/education/3/3-3.png";
-import Img10_4 from "../../assets/education/3/3-4.png";
-import Img10_5 from "../../assets/education/3/3-5.png";
-import Img10_6 from "../../assets/education/3/3-6.png";
-import Img10_7 from "../../assets/education/3/3-7.png";
-import Img10_8 from "../../assets/education/3/3-8.png";
-import Img10_9 from "../../assets/education/3/3-9.png";
-import Img11_1 from "../../assets/education/4/4-1.png";
-import Img11_2 from "../../assets/education/4/4-2.png";
-import Img11_3 from "../../assets/education/4/4-3.png";
-import Img11_4 from "../../assets/education/4/4-4.png";
-import Img11_5 from "../../assets/education/4/4-5.png";
-import Img11_6 from "../../assets/education/4/4-6.png";
-import Img11_7 from "../../assets/education/4/4-7.png";
-import Img11_8 from "../../assets/education/4/4-8.png";
-import Img14_1 from "../../assets/education/5/5-1.png";
-import Img14_2 from "../../assets/education/5/5-2.png";
-import Img14_3 from "../../assets/education/5/5-3.png";
-import Img14_4 from "../../assets/education/5/5-4.png";
-import Img14_5 from "../../assets/education/5/5-5.png";
-import Img14_6 from "../../assets/education/5/5-6.png";
-import Img14_7 from "../../assets/education/5/5-7.png";
-import Img14_8 from "../../assets/education/5/5-8.png";
-import Img14_9 from "../../assets/education/5/5-9.png";
-import Img16_1 from "../../assets/education/6/6-1.png";
-import Img16_10 from "../../assets/education/6/6-10.png";
-import Img16_2 from "../../assets/education/6/6-2.png";
-import Img16_3 from "../../assets/education/6/6-3.png";
-import Img16_4 from "../../assets/education/6/6-4.png";
-import Img16_5 from "../../assets/education/6/6-5.png";
-import Img16_6 from "../../assets/education/6/6-6.png";
-import Img16_7 from "../../assets/education/6/6-7.png";
-import Img16_8 from "../../assets/education/6/6-8.png";
-import Img16_9 from "../../assets/education/6/6-9.png";
-import Img18_1 from "../../assets/education/7/7-1.png";
-import Img18_10 from "../../assets/education/7/7-10.png";
-import Img18_2 from "../../assets/education/7/7-2.png";
-import Img18_3 from "../../assets/education/7/7-3.png";
-import Img18_4 from "../../assets/education/7/7-4.png";
-import Img18_5 from "../../assets/education/7/7-5.png";
-import Img18_6 from "../../assets/education/7/7-6.png";
-import Img18_7 from "../../assets/education/7/7-7.png";
-import Img18_8 from "../../assets/education/7/7-8.png";
-import Img18_9 from "../../assets/education/7/7-9.png";
-import Img21_1 from "../../assets/education/8/8-1.png";
-import Img21_10 from "../../assets/education/8/8-10.png";
-import Img21_2 from "../../assets/education/8/8-2.png";
-import Img21_3 from "../../assets/education/8/8-3.png";
-import Img21_4 from "../../assets/education/8/8-4.png";
-import Img21_5 from "../../assets/education/8/8-5.png";
-import Img21_6 from "../../assets/education/8/8-6.png";
-import Img21_7 from "../../assets/education/8/8-7.png";
-import Img21_8 from "../../assets/education/8/8-8.png";
-import Img21_9 from "../../assets/education/8/8-9.png";
-import Img26_1 from "../../assets/education/9/9-1.png";
-import Img26_2 from "../../assets/education/9/9-2.png";
-import Img26_3 from "../../assets/education/9/9-3.png";
-import Img26_4 from "../../assets/education/9/9-4.png";
-import Img26_5 from "../../assets/education/9/9-5.png";
-import Img26_6 from "../../assets/education/9/9-6.png";
-import Img26_7 from "../../assets/education/9/9-7.png";
-import Img26_8 from "../../assets/education/9/9-8.png";
-import Img26_9 from "../../assets/education/9/9-9.png";
-import Img24_1 from "../../assets/education/notice/1/1-1.png";
-import Img24_10 from "../../assets/education/notice/1/1-10.png";
-import Img24_2 from "../../assets/education/notice/1/1-2.png";
-import Img24_3 from "../../assets/education/notice/1/1-3.png";
-import Img24_4 from "../../assets/education/notice/1/1-4.png";
-import Img24_5 from "../../assets/education/notice/1/1-5.png";
-import Img24_6 from "../../assets/education/notice/1/1-6.png";
-import Img24_7 from "../../assets/education/notice/1/1-7.png";
-import Img24_8 from "../../assets/education/notice/1/1-8.png";
-import Img24_9 from "../../assets/education/notice/1/1-9.png";
-import Img28_1 from "../../assets/education/notice/2/2-1.png";
-import Img28_10 from "../../assets/education/notice/2/2-10.png";
-import Img28_2 from "../../assets/education/notice/2/2-2.png";
-import Img28_3 from "../../assets/education/notice/2/2-3.png";
-import Img28_4 from "../../assets/education/notice/2/2-4.png";
-import Img28_5 from "../../assets/education/notice/2/2-5.png";
-import Img28_6 from "../../assets/education/notice/2/2-6.png";
-import Img28_7 from "../../assets/education/notice/2/2-7.png";
-import Img28_8 from "../../assets/education/notice/2/2-8.png";
-import Img28_9 from "../../assets/education/notice/2/2-9.png";
-import Img29_1 from "../../assets/education/notice/3/1.png";
-import Img29_10 from "../../assets/education/notice/3/10.png";
-import Img29_2 from "../../assets/education/notice/3/2.png";
-import Img29_3 from "../../assets/education/notice/3/3.png";
-import Img29_4 from "../../assets/education/notice/3/4.png";
-import Img29_5 from "../../assets/education/notice/3/5.png";
-import Img29_6 from "../../assets/education/notice/3/6.png";
-import Img29_7 from "../../assets/education/notice/3/7.png";
-import Img29_8 from "../../assets/education/notice/3/8.png";
-import Img29_9 from "../../assets/education/notice/3/9.png";
-import Img31_1 from "../../assets/education/notice/4/1.jpg";
-import Img31_2 from "../../assets/education/notice/4/2.jpg";
-import Img31_3 from "../../assets/education/notice/4/3.jpg";
-import Img31_4 from "../../assets/education/notice/4/4.jpg";
-import Img31_5 from "../../assets/education/notice/4/5.jpg";
-import Img31_6 from "../../assets/education/notice/4/6.jpg";
-import Img83_1 from "../../assets/education/notice/5/1.jpg";
-import Img83_10 from "../../assets/education/notice/5/10.jpg";
-import Img83_2 from "../../assets/education/notice/5/2.jpg";
-import Img83_3 from "../../assets/education/notice/5/3.jpg";
-import Img83_4 from "../../assets/education/notice/5/4.jpg";
-import Img83_5 from "../../assets/education/notice/5/5.jpg";
-import Img83_6 from "../../assets/education/notice/5/6.jpg";
-import Img83_7 from "../../assets/education/notice/5/7.jpg";
-import Img83_8 from "../../assets/education/notice/5/8.jpg";
-import Img83_9 from "../../assets/education/notice/5/9.jpg";
-import Img113_1 from "../../assets/education/notice/6/001.png";
-import Img113_2 from "../../assets/education/notice/6/002.png";
-import Img113_3 from "../../assets/education/notice/6/003.png";
-import Img113_4 from "../../assets/education/notice/6/004.png";
-import Img113_5 from "../../assets/education/notice/6/005.png";
-import Img113_6 from "../../assets/education/notice/6/006.png";
-import Img113_7 from "../../assets/education/notice/6/007.png";
-import Img113_8 from "../../assets/education/notice/6/008.png";
-import Img113_9 from "../../assets/education/notice/6/009.png";
-import Img113_10 from "../../assets/education/notice/6/010.png";
-import Img113_11 from "../../assets/education/notice/6/011.png";
-import Img113_12 from "../../assets/education/notice/6/012.png";
-import Img113_13 from "../../assets/education/notice/6/013.png";
-import Img113_14 from "../../assets/education/notice/6/014.png";
-import Img113_15 from "../../assets/education/notice/6/015.png";
-import Img113_16 from "../../assets/education/notice/6/016.png";
-import Img113_17 from "../../assets/education/notice/6/017.png";
-import Img118_1 from "../../assets/education/notice/7/001.png";
-import Img118_2 from "../../assets/education/notice/7/002.png";
-import Img118_3 from "../../assets/education/notice/7/003.png";
-import Img118_4 from "../../assets/education/notice/7/004.png";
-import Img118_5 from "../../assets/education/notice/7/005.png";
-import Img118_6 from "../../assets/education/notice/7/006.png";
-import Img118_7 from "../../assets/education/notice/7/007.png";
-import Img118_8 from "../../assets/education/notice/7/008.png";
-import Img118_9 from "../../assets/education/notice/7/009.png";
-import Img118_10 from "../../assets/education/notice/7/010.png";
-import Img118_11 from "../../assets/education/notice/7/011.png";
-import Img118_12 from "../../assets/education/notice/7/012.png";
-import Img118_13 from "../../assets/education/notice/7/013.png";
-import Img118_14 from "../../assets/education/notice/7/014.png";
-import Img118_15 from "../../assets/education/notice/7/015.png";
-import Img125_1 from "../../assets/education/notice/8/001.png";
-import Img125_2 from "../../assets/education/notice/8/002.png";
-import Img125_3 from "../../assets/education/notice/8/003.png";
-import Img125_4 from "../../assets/education/notice/8/004.png";
-import Img125_5 from "../../assets/education/notice/8/005.png";
-import Img125_6 from "../../assets/education/notice/8/006.png";
-import Img125_7 from "../../assets/education/notice/8/007.png";
-import Img125_8 from "../../assets/education/notice/8/008.png";
-import Img125_9 from "../../assets/education/notice/8/009.png";
-import Img125_10 from "../../assets/education/notice/8/010.png";
-import Img131_1 from "../../assets/education/notice/9/1.png";
-import Img131_10 from "../../assets/education/notice/9/10.png";
-import Img131_11 from "../../assets/education/notice/9/11.png";
-import Img131_12 from "../../assets/education/notice/9/12.png";
-import Img131_2 from "../../assets/education/notice/9/2.png";
-import Img131_3 from "../../assets/education/notice/9/3.png";
-import Img131_4 from "../../assets/education/notice/9/4.png";
-import Img131_5 from "../../assets/education/notice/9/5.png";
-import Img131_6 from "../../assets/education/notice/9/6.png";
-import Img131_7 from "../../assets/education/notice/9/7.png";
-import Img131_8 from "../../assets/education/notice/9/8.png";
-import Img131_9 from "../../assets/education/notice/9/9.png";
-import Img27_1 from "../../assets/event/1/1.jpg";
-import Img80_1 from "../../assets/event/10/1.jpg";
-import Img106_1 from "../../assets/event/11/1.jpg";
-import Img49_1 from "../../assets/event/2/1.jpg";
-import Img49_2 from "../../assets/event/2/2.jpg";
-import Img50_1 from "../../assets/event/3/1.jpg";
-import Img50_2 from "../../assets/event/3/2.jpg";
-import Img51_1 from "../../assets/event/4/1.jpg";
-import Img51_2 from "../../assets/event/4/2.jpg";
-import Img52_1 from "../../assets/event/5/1.jpg";
-import Img52_2 from "../../assets/event/5/2.jpg";
-import Img53_1 from "../../assets/event/6/1.jpg";
-import Img53_2 from "../../assets/event/6/2.jpg";
-import Img53_3 from "../../assets/event/6/3.jpg";
-import Img54_1 from "../../assets/event/7/1.jpg";
-import Img54_2 from "../../assets/event/7/2.jpg";
-import Img55_1 from "../../assets/event/8/1.jpg";
-import Img55_2 from "../../assets/event/8/2.jpg";
-import Img55_3 from "../../assets/event/8/3.jpg";
-import Img55_4 from "../../assets/event/8/4.jpg";
-import Img55_5 from "../../assets/event/8/5.jpg";
-import Img55_6 from "../../assets/event/8/6.jpg";
-import Img55_7 from "../../assets/event/8/7.jpg";
-import Img79_1 from "../../assets/event/9/1.jpg";
-import Img79_2 from "../../assets/event/9/2.jpg";
-import Img79_3 from "../../assets/event/9/3.jpg";
-import Img114_1 from "../../assets/minute/administrative/library1-1.jpg";
-import Img114_2 from "../../assets/minute/administrative/library1-2.jpg";
-import Img114_3 from "../../assets/minute/administrative/library1-3.jpg";
-import Img114_4 from "../../assets/minute/administrative/library1-4.jpg";
-import Img114_5 from "../../assets/minute/administrative/library1-5.jpg";
-import Img114_6 from "../../assets/minute/administrative/library1-6.jpg";
-import Img114_7 from "../../assets/minute/administrative/library1-7.jpg";
-import Img75_1 from "../../assets/minute/administrative/national1.jpg";
-import Img75_2 from "../../assets/minute/administrative/national2.jpg";
-import Img75_3 from "../../assets/minute/administrative/national3.jpg";
-import Img75_4 from "../../assets/minute/administrative/national4.jpg";
-import Img75_5 from "../../assets/minute/administrative/national5.jpg";
-import Img1_1 from "../../assets/notice/1/1.jpeg";
-import Img1_2 from "../../assets/notice/1/2.jpeg";
-import Img1_3 from "../../assets/notice/1/3.jpeg";
-import Img100_1 from "../../assets/notice/100/1.jpg";
-import Img107_1 from "../../assets/notice/107/1.jpg";
-import Img107_2 from "../../assets/notice/107/2.jpg";
-import Img107_3 from "../../assets/notice/107/3.jpg";
-import Img107_4 from "../../assets/notice/107/4.jpg";
-import Img107_5 from "../../assets/notice/107/5.jpg";
-import Img110_1 from "../../assets/notice/110/1.jpg";
-import Img112_1 from "../../assets/notice/112/1.jpg";
-import Img112_2 from "../../assets/notice/112/2.jpg";
-import Img115_1 from "../../assets/notice/115/1.jpg";
-import Img117_1 from "../../assets/notice/117/1.jpg";
-import Img117_2 from "../../assets/notice/117/2.jpg";
-import Img119_1 from "../../assets/notice/119/1.jpg";
-import Img119_2 from "../../assets/notice/119/2.jpg";
-import Img12_1 from "../../assets/notice/12/1.jpg";
-import Img12_2 from "../../assets/notice/12/2.jpg";
-import Img12_3 from "../../assets/notice/12/3.jpg";
-import Img12_4 from "../../assets/notice/12/4.jpg";
-import Img12_5 from "../../assets/notice/12/5.jpg";
-import Img12_6 from "../../assets/notice/12/6.jpg";
-import Img12_7 from "../../assets/notice/12/7.jpg";
-import Img12_8 from "../../assets/notice/12/8.jpg";
-import Img12_9 from "../../assets/notice/12/9.jpg";
-import Img120_1 from "../../assets/notice/120/1.jpg";
-import Img121_1 from "../../assets/notice/121/1.jpg";
-import Img122_1 from "../../assets/notice/122/1.jpg";
-import Img122_2 from "../../assets/notice/122/2.jpg";
-import Img123_1 from "../../assets/notice/123/1.jpg";
-import Img123_10 from "../../assets/notice/123/10.jpg";
-import Img123_11 from "../../assets/notice/123/11.jpg";
-import Img123_12 from "../../assets/notice/123/12.jpg";
-import Img123_13 from "../../assets/notice/123/13.jpg";
-import Img123_14 from "../../assets/notice/123/14.jpg";
-import Img123_15 from "../../assets/notice/123/15.jpg";
-import Img123_16 from "../../assets/notice/123/16.jpg";
-import Img123_17 from "../../assets/notice/123/17.jpg";
-import Img123_18 from "../../assets/notice/123/18.jpg";
-import Img123_19 from "../../assets/notice/123/19.jpg";
-import Img123_2 from "../../assets/notice/123/2.jpg";
-import Img123_20 from "../../assets/notice/123/20.jpg";
-import Img123_3 from "../../assets/notice/123/3.jpg";
-import Img123_4 from "../../assets/notice/123/4.jpg";
-import Img123_5 from "../../assets/notice/123/5.jpg";
-import Img123_6 from "../../assets/notice/123/6.jpg";
-import Img123_7 from "../../assets/notice/123/7.jpg";
-import Img123_8 from "../../assets/notice/123/8.jpg";
-import Img123_9 from "../../assets/notice/123/9.jpg";
-import Img124_1 from "../../assets/notice/124/1.jpg";
-import Img124_2 from "../../assets/notice/124/2.jpg";
-import Img124_3 from "../../assets/notice/124/3.jpg";
-import Img124_4 from "../../assets/notice/124/4.jpg";
-import Img124_5 from "../../assets/notice/124/5.jpg";
-import Img124_6 from "../../assets/notice/124/6.jpg";
-import Img124_7 from "../../assets/notice/124/7.jpg";
-import Img126_1 from "../../assets/notice/126/1.jpg";
-import Img126_2 from "../../assets/notice/126/2.jpg";
-import Img126_3 from "../../assets/notice/126/3.jpg";
-import Img126_4 from "../../assets/notice/126/4.jpg";
-import Img127_1 from "../../assets/notice/127/1.jpg";
-import Img127_2 from "../../assets/notice/127/2.jpg";
-import Img128_1 from "../../assets/notice/128/1.jpg";
-import Img128_10 from "../../assets/notice/128/10.jpg";
-import Img128_2 from "../../assets/notice/128/2.jpg";
-import Img128_3 from "../../assets/notice/128/3.jpg";
-import Img128_4 from "../../assets/notice/128/4.jpg";
-import Img128_5 from "../../assets/notice/128/5.jpg";
-import Img128_6 from "../../assets/notice/128/6.jpg";
-import Img128_7 from "../../assets/notice/128/7.jpg";
-import Img128_8 from "../../assets/notice/128/8.jpg";
-import Img128_9 from "../../assets/notice/128/9.jpg";
-import Img129_1 from "../../assets/notice/129/1.jpg";
-import Img129_2 from "../../assets/notice/129/2.jpg";
-import Img129_3 from "../../assets/notice/129/3.jpg";
-import Img130_1 from "../../assets/notice/130/1.jpg";
-import Img132_1 from "../../assets/notice/132/1.jpg";
-import Img132_2 from "../../assets/notice/132/2.jpg";
-import Img132_3 from "../../assets/notice/132/3.jpg";
-import Img132_4 from "../../assets/notice/132/4.jpg";
-import Img133_1 from "../../assets/notice/133/1.jpg";
-import Img134_1 from "../../assets/notice/134/1.jpg";
-import Img134_2 from "../../assets/notice/134/2.jpg";
-import Img135_1 from "../../assets/notice/135/1.jpg";
-import Img135_2 from "../../assets/notice/135/2.jpg";
-import Img135_3 from "../../assets/notice/135/3.jpg";
-import Img135_4 from "../../assets/notice/135/4.jpg";
-import Img136_1 from "../../assets/notice/136/1.jpg";
-import Img136_2 from "../../assets/notice/136/2.jpg";
-import Img136_3 from "../../assets/notice/136/3.jpg";
-import Img136_4 from "../../assets/notice/136/4.jpg";
-import Img136_5 from "../../assets/notice/136/5.jpg";
-import Img136_6 from "../../assets/notice/136/6.jpg";
-import Img136_7 from "../../assets/notice/136/7.jpg";
-import Img137_1 from "../../assets/notice/137/1.jpg";
-import Img137_2 from "../../assets/notice/137/2.jpg";
-import Img137_3 from "../../assets/notice/137/3.jpg";
-import Img137_4 from "../../assets/notice/137/4.jpg";
-import Img137_5 from "../../assets/notice/137/5.jpg";
-import Img137_6 from "../../assets/notice/137/6.jpg";
-import Img138_1 from "../../assets/notice/138/1.jpg";
-import Img138_10 from "../../assets/notice/138/10.jpg";
-import Img138_2 from "../../assets/notice/138/2.jpg";
-import Img138_3 from "../../assets/notice/138/3.jpg";
-import Img138_4 from "../../assets/notice/138/4.jpg";
-import Img138_5 from "../../assets/notice/138/5.jpg";
-import Img138_6 from "../../assets/notice/138/6.jpg";
-import Img138_7 from "../../assets/notice/138/7.jpg";
-import Img138_8 from "../../assets/notice/138/8.jpg";
-import Img138_9 from "../../assets/notice/138/9.jpg";
-import Img139_1 from "../../assets/notice/139/1.jpg";
-import Img141_1 from "../../assets/notice/141/1.jpg";
-import Img143_1 from "../../assets/notice/143/1.jpg";
-import Img143_2 from "../../assets/notice/143/2.jpg";
-import Img143_3 from "../../assets/notice/143/3.jpg";
-import Img144_1 from "../../assets/notice/144/1.jpg";
-import Img148_1 from "../../assets/notice/148/1.jpg";
-import Img148_2 from "../../assets/notice/148/2.jpg";
-import Img148_3 from "../../assets/notice/148/3.jpg";
-import Img148_4 from "../../assets/notice/148/4.jpg";
-import Img148_5 from "../../assets/notice/148/5.jpg";
-import Img15_1 from "../../assets/notice/15/1.jpg";
-import Img150_1 from "../../assets/notice/150/1.jpg";
-import Img150_2 from "../../assets/notice/150/2.jpg";
-import Img150_3 from "../../assets/notice/150/3.jpg";
-import Img150_4 from "../../assets/notice/150/4.jpg";
-import Img17_1 from "../../assets/notice/17/1.jpg";
-import Img17_2 from "../../assets/notice/17/2.jpg";
-import Img17_3 from "../../assets/notice/17/3.jpg";
-import Img19_1 from "../../assets/notice/19/1.jpg";
-import Img2_1 from "../../assets/notice/2/1.jpg";
-import Img2_2 from "../../assets/notice/2/2.jpg";
-import Img2_3 from "../../assets/notice/2/3.jpg";
-import Img2_4 from "../../assets/notice/2/4.jpg";
-import Img20_1 from "../../assets/notice/20/1.jpg";
-import Img20_2 from "../../assets/notice/20/2.jpg";
-import Img20_3 from "../../assets/notice/20/3.jpg";
-import Img20_4 from "../../assets/notice/20/4.jpg";
-import Img23_1 from "../../assets/notice/23/1.jpg";
-import Img23_10 from "../../assets/notice/23/10.jpg";
-import Img23_2 from "../../assets/notice/23/2.jpg";
-import Img23_3 from "../../assets/notice/23/3.jpg";
-import Img23_4 from "../../assets/notice/23/4.jpg";
-import Img23_5 from "../../assets/notice/23/5.jpg";
-import Img23_6 from "../../assets/notice/23/6.jpg";
-import Img23_7 from "../../assets/notice/23/7.jpg";
-import Img23_8 from "../../assets/notice/23/8.jpg";
-import Img23_9 from "../../assets/notice/23/9.jpg";
-import Img25_1 from "../../assets/notice/25/1.jpg";
-import Img25_2 from "../../assets/notice/25/2.jpg";
-import Img25_3 from "../../assets/notice/25/3.jpg";
-import Img25_4 from "../../assets/notice/25/4.jpg";
-import Img25_5 from "../../assets/notice/25/5.jpg";
-import Img25_6 from "../../assets/notice/25/6.jpg";
-import Img25_7 from "../../assets/notice/25/7.jpg";
-import Img25_8 from "../../assets/notice/25/8.jpg";
-import Img25_9 from "../../assets/notice/25/9.jpg";
-import Img3_1 from "../../assets/notice/3/1.jpg";
-import Img3_2 from "../../assets/notice/3/2.jpg";
-import Img3_3 from "../../assets/notice/3/3.jpg";
-import Img32_1 from "../../assets/notice/32/1.png";
-import Img33_1 from "../../assets/notice/33/1.jpg";
-import Img33_2 from "../../assets/notice/33/2.jpg";
-import Img33_3 from "../../assets/notice/33/3.jpg";
-import Img34_1 from "../../assets/notice/34/1.jpg";
-import Img34_2 from "../../assets/notice/34/2.jpg";
-import Img34_3 from "../../assets/notice/34/3.jpg";
-import Img37_1 from "../../assets/notice/37/1.jpg";
-import Img37_2 from "../../assets/notice/37/2.jpg";
-import Img37_3 from "../../assets/notice/37/3.jpg";
-import Img37_4 from "../../assets/notice/37/4.jpg";
-import Img37_5 from "../../assets/notice/37/5.jpg";
-import Img37_6 from "../../assets/notice/37/6.jpg";
-import Img37_7 from "../../assets/notice/37/7.jpg";
-import Img38_1 from "../../assets/notice/38/1.jpg";
-import Img38_2 from "../../assets/notice/38/2.jpg";
-import Img38_3 from "../../assets/notice/38/3.jpg";
-import Img38_4 from "../../assets/notice/38/4.jpg";
-import Img38_5 from "../../assets/notice/38/5.jpg";
-import Img38_6 from "../../assets/notice/38/6.jpg";
-import Img38_7 from "../../assets/notice/38/7.jpg";
-import Img40_1 from "../../assets/notice/40/1.jpg";
-import Img40_2 from "../../assets/notice/40/2.jpg";
-import Img40_3 from "../../assets/notice/40/3.jpg";
-import Img40_4 from "../../assets/notice/40/4.jpg";
-import Img40_5 from "../../assets/notice/40/5.jpg";
-import Img41_1 from "../../assets/notice/41/1.jpg";
-import Img41_2 from "../../assets/notice/41/2.jpg";
-import Img41_3 from "../../assets/notice/41/3.jpg";
-import Img41_4 from "../../assets/notice/41/4.jpg";
-import Img41_5 from "../../assets/notice/41/5.jpg";
-import Img41_6 from "../../assets/notice/41/6.jpg";
-import Img41_7 from "../../assets/notice/41/7.jpg";
-import Img41_8 from "../../assets/notice/41/8.jpg";
-import Img44_1 from "../../assets/notice/44/1.jpg";
-import Img44_2 from "../../assets/notice/44/2.jpg";
-import Img44_3 from "../../assets/notice/44/3.jpg";
-import Img44_4 from "../../assets/notice/44/4.jpg";
-import Img45_1 from "../../assets/notice/45/1.jpg";
-import Img45_2 from "../../assets/notice/45/2.jpg";
-import Img45_3 from "../../assets/notice/45/3.jpg";
-import Img46_1 from "../../assets/notice/46/1.jpg";
-import Img46_2 from "../../assets/notice/46/2.jpg";
-import Img46_3 from "../../assets/notice/46/3.jpg";
-import Img47_1 from "../../assets/notice/47/1.jpg";
-import Img47_2 from "../../assets/notice/47/2.jpg";
-import Img47_3 from "../../assets/notice/47/3.jpg";
-import Img47_4 from "../../assets/notice/47/4.jpg";
-import Img47_5 from "../../assets/notice/47/5.jpg";
-import Img47_6 from "../../assets/notice/47/6.jpg";
-import Img48_1 from "../../assets/notice/48/1.jpg";
-import Img48_2 from "../../assets/notice/48/2.jpg";
-import Img48_3 from "../../assets/notice/48/3.jpg";
-import Img48_4 from "../../assets/notice/48/4.jpg";
-import Img48_5 from "../../assets/notice/48/5.jpg";
-import Img48_6 from "../../assets/notice/48/6.jpg";
-import Img57_1 from "../../assets/notice/57/1.jpg";
-import Img57_2 from "../../assets/notice/57/2.jpg";
-import Img57_3 from "../../assets/notice/57/3.jpg";
-import Img57_4 from "../../assets/notice/57/4.jpg";
-import Img57_5 from "../../assets/notice/57/5.jpg";
-import Img57_6 from "../../assets/notice/57/6.jpg";
-import Img57_7 from "../../assets/notice/57/7.jpg";
-import Img58_1 from "../../assets/notice/58/1.jpg";
-import Img58_2 from "../../assets/notice/58/2.jpg";
-import Img58_3 from "../../assets/notice/58/3.jpg";
-import Img58_4 from "../../assets/notice/58/4.jpg";
-import Img59_1 from "../../assets/notice/59/1.jpg";
-import Img59_2 from "../../assets/notice/59/2.jpg";
-import Img59_3 from "../../assets/notice/59/3.jpg";
-import Img59_4 from "../../assets/notice/59/4.jpg";
-import Img59_5 from "../../assets/notice/59/5.jpg";
-import Img59_6 from "../../assets/notice/59/6.jpg";
-import Img59_7 from "../../assets/notice/59/7.jpg";
-import Img6_1 from "../../assets/notice/6/1.jpg";
-import Img60_1 from "../../assets/notice/60/1.jpg";
-import Img60_2 from "../../assets/notice/60/2.jpg";
-import Img60_3 from "../../assets/notice/60/3.jpg";
-import Img63_1 from "../../assets/notice/63/1.jpg";
-import Img63_2 from "../../assets/notice/63/2.jpg";
-import Img63_3 from "../../assets/notice/63/3.jpg";
-import Img63_4 from "../../assets/notice/63/4.jpg";
-import Img63_5 from "../../assets/notice/63/5.jpg";
-import Img63_6 from "../../assets/notice/63/6.jpg";
-import Img63_7 from "../../assets/notice/63/7.jpg";
-import Img63_8 from "../../assets/notice/63/8.jpg";
-import Img63_9 from "../../assets/notice/63/9.jpg";
-import Img64_1 from "../../assets/notice/64/1.jpg";
-import Img64_10 from "../../assets/notice/64/10.jpg";
-import Img64_2 from "../../assets/notice/64/2.jpg";
-import Img64_3 from "../../assets/notice/64/3.jpg";
-import Img64_4 from "../../assets/notice/64/4.jpg";
-import Img64_5 from "../../assets/notice/64/5.jpg";
-import Img64_6 from "../../assets/notice/64/6.jpg";
-import Img64_7 from "../../assets/notice/64/7.jpg";
-import Img64_8 from "../../assets/notice/64/8.jpg";
-import Img64_9 from "../../assets/notice/64/9.jpg";
-import Img65_1 from "../../assets/notice/65/1.jpg";
-import Img65_2 from "../../assets/notice/65/2.jpg";
-import Img65_3 from "../../assets/notice/65/3.jpg";
-import Img65_4 from "../../assets/notice/65/4.jpg";
-import Img65_5 from "../../assets/notice/65/5.jpg";
-import Img65_6 from "../../assets/notice/65/6.jpg";
-import Img65_7 from "../../assets/notice/65/7.jpg";
-import Img65_8 from "../../assets/notice/65/8.jpg";
-import Img65_9 from "../../assets/notice/65/9.jpg";
-import Img66_1 from "../../assets/notice/66/1.jpg";
-import Img66_2 from "../../assets/notice/66/2.jpg";
-import Img66_3 from "../../assets/notice/66/3.jpg";
-import Img66_4 from "../../assets/notice/66/4.jpg";
-import Img66_5 from "../../assets/notice/66/5.jpg";
-import Img66_6 from "../../assets/notice/66/6.jpg";
-import Img66_7 from "../../assets/notice/66/7.jpg";
-import Img66_8 from "../../assets/notice/66/8.jpg";
-import Img66_9 from "../../assets/notice/66/9.jpg";
-import Img69_1 from "../../assets/notice/69/1.jpg";
-import Img69_2 from "../../assets/notice/69/2.jpg";
-import Img69_3 from "../../assets/notice/69/3.jpg";
-import Img69_4 from "../../assets/notice/69/4.jpg";
-import Img7_1 from "../../assets/notice/7/1.jpg";
-import Img70_1 from "../../assets/notice/70/1.jpg";
-import Img70_2 from "../../assets/notice/70/2.jpg";
-import Img70_3 from "../../assets/notice/70/3.jpg";
-import Img70_4 from "../../assets/notice/70/4.jpg";
-import Img71_1 from "../../assets/notice/71/1.jpg";
-import Img72_1 from "../../assets/notice/72/1.jpg";
-import Img72_2 from "../../assets/notice/72/2.jpg";
-import Img72_3 from "../../assets/notice/72/3.jpg";
-import Img72_4 from "../../assets/notice/72/4.jpg";
-import Img72_5 from "../../assets/notice/72/5.jpg";
-import Img72_6 from "../../assets/notice/72/6.jpg";
-import Img72_7 from "../../assets/notice/72/7.jpg";
-import Img77_1 from "../../assets/notice/77/1.jpg";
-import Img77_2 from "../../assets/notice/77/2.jpg";
-import Img77_3 from "../../assets/notice/77/3.jpg";
-import Img77_4 from "../../assets/notice/77/4.jpg";
-import Img77_5 from "../../assets/notice/77/5.jpg";
-import Img77_6 from "../../assets/notice/77/6.jpg";
-import Img78_1 from "../../assets/notice/78/1.jpg";
-import Img8_1 from "../../assets/notice/8/1.jpg";
-import Img8_2 from "../../assets/notice/8/2.jpg";
-import Img8_3 from "../../assets/notice/8/3.jpg";
-import Img81_1 from "../../assets/notice/81/1.jpg";
-import Img84_1 from "../../assets/notice/84/1.png";
-import Img84_10 from "../../assets/notice/84/10.png";
-import Img84_11 from "../../assets/notice/84/11.png";
-import Img84_2 from "../../assets/notice/84/2.png";
-import Img84_3 from "../../assets/notice/84/3.png";
-import Img84_4 from "../../assets/notice/84/4.png";
-import Img84_5 from "../../assets/notice/84/5.png";
-import Img84_6 from "../../assets/notice/84/6.png";
-import Img84_7 from "../../assets/notice/84/7.png";
-import Img84_8 from "../../assets/notice/84/8.png";
-import Img84_9 from "../../assets/notice/84/9.png";
-import Img87_1 from "../../assets/notice/87/1.jpg";
-import Img87_2 from "../../assets/notice/87/2.jpg";
-import Img87_3 from "../../assets/notice/87/3.jpg";
-import Img88_1 from "../../assets/notice/88/1.jpg";
-import Img89_1 from "../../assets/notice/89/1.jpg";
-import Img90_1 from "../../assets/notice/90/1.jpg";
-import Img91_1 from "../../assets/notice/91/1.jpg";
-import Img91_2 from "../../assets/notice/91/2.jpg";
-import Img95_1 from "../../assets/notice/95/1.jpg";
-import Img99_1 from "../../assets/notice/99/1.jpg";
-import Img99_2 from "../../assets/notice/99/2.jpg";
-import Img99_3 from "../../assets/notice/99/3.jpg";
-import Img99_4 from "../../assets/notice/99/4.jpg";
-import Img99_5 from "../../assets/notice/99/5.jpg";
-import Img99_6 from "../../assets/notice/99/6.jpg";
-import Img13_1 from "../../assets/partner/1/1.png";
-import Img13_2 from "../../assets/partner/1/2.jpeg";
-import Img13_3 from "../../assets/partner/1/3.jpeg";
-import Img13_4 from "../../assets/partner/1/4.jpeg";
-import Img109_1 from "../../assets/partner/10/1.jpg";
-import Img109_2 from "../../assets/partner/10/2.jpg";
-import Img109_3 from "../../assets/partner/10/3.jpg";
-import Img109_4 from "../../assets/partner/10/4.jpg";
-import Img109_5 from "../../assets/partner/10/5.jpg";
-import Img111_1 from "../../assets/partner/11/1.jpg";
-import Img111_2 from "../../assets/partner/11/2.jpg";
-import Img111_3 from "../../assets/partner/11/3.jpg";
-import Img111_4 from "../../assets/partner/11/4.jpg";
-import Img82_1 from "../../assets/partner/2/1.jpg";
-import Img82_2 from "../../assets/partner/2/1.jpg";
-import Img86_1 from "../../assets/partner/3/1.jpg";
-import Img86_2 from "../../assets/partner/3/2.jpg";
-import Img101_1 from "../../assets/partner/4/1.jpg";
-import Img101_2 from "../../assets/partner/4/2.jpg";
-import Img101_3 from "../../assets/partner/4/3.jpg";
-import Img102_1 from "../../assets/partner/5/1.jpg";
-import Img102_2 from "../../assets/partner/5/2.jpg";
-import Img102_3 from "../../assets/partner/5/3.jpg";
-import Img103_1 from "../../assets/partner/6/1.jpg";
-import Img103_10 from "../../assets/partner/6/10.jpg";
-import Img103_2 from "../../assets/partner/6/2.jpg";
-import Img103_3 from "../../assets/partner/6/3.jpg";
-import Img103_4 from "../../assets/partner/6/4.jpg";
-import Img103_5 from "../../assets/partner/6/5.jpg";
-import Img103_6 from "../../assets/partner/6/6.jpg";
-import Img103_7 from "../../assets/partner/6/7.jpg";
-import Img103_8 from "../../assets/partner/6/8.jpg";
-import Img103_9 from "../../assets/partner/6/9.jpg";
-import Img104_1 from "../../assets/partner/7/1.jpg";
-import Img104_2 from "../../assets/partner/7/2.jpg";
-import Img104_3 from "../../assets/partner/7/3.jpg";
-import Img105_1 from "../../assets/partner/8/1.jpg";
-import Img105_2 from "../../assets/partner/8/2.jpg";
-import Img105_3 from "../../assets/partner/8/3.jpg";
-import Img108_1 from "../../assets/partner/9/1.jpg";
-import Img108_2 from "../../assets/partner/9/2.jpg";
-import Video1 from "../../assets/video/1.mp4";
-import Video10 from "../../assets/video/10.mp4";
-import Video11 from "../../assets/video/11.mp4";
-import Video12 from "../../assets/video/12.mp4";
-import Video13 from "../../assets/video/13.mp4";
-import Video14 from "../../assets/video/14.mp4";
-import Video15 from "../../assets/video/15.mp4";
-import Video16 from "../../assets/video/16.mp4";
-import Video2 from "../../assets/video/2.mp4";
-import Video3 from "../../assets/video/3.mp4";
-import Video4 from "../../assets/video/4.mp4";
-import Video5 from "../../assets/video/5.mp4";
-import Video6 from "../../assets/video/6.mp4";
-import Video7 from "../../assets/video/7.mp4";
-import Video8 from "../../assets/video/8.mp4";
-import Video9 from "../../assets/video/9.mp4";
+import Img10_1 from "@/assets/education/3/3-1.png";
+import Img10_2 from "@/assets/education/3/3-2.png";
+import Img10_3 from "@/assets/education/3/3-3.png";
+import Img10_4 from "@/assets/education/3/3-4.png";
+import Img10_5 from "@/assets/education/3/3-5.png";
+import Img10_6 from "@/assets/education/3/3-6.png";
+import Img10_7 from "@/assets/education/3/3-7.png";
+import Img10_8 from "@/assets/education/3/3-8.png";
+import Img10_9 from "@/assets/education/3/3-9.png";
+import Img11_1 from "@/assets/education/4/4-1.png";
+import Img11_2 from "@/assets/education/4/4-2.png";
+import Img11_3 from "@/assets/education/4/4-3.png";
+import Img11_4 from "@/assets/education/4/4-4.png";
+import Img11_5 from "@/assets/education/4/4-5.png";
+import Img11_6 from "@/assets/education/4/4-6.png";
+import Img11_7 from "@/assets/education/4/4-7.png";
+import Img11_8 from "@/assets/education/4/4-8.png";
+import Img14_1 from "@/assets/education/5/5-1.png";
+import Img14_2 from "@/assets/education/5/5-2.png";
+import Img14_3 from "@/assets/education/5/5-3.png";
+import Img14_4 from "@/assets/education/5/5-4.png";
+import Img14_5 from "@/assets/education/5/5-5.png";
+import Img14_6 from "@/assets/education/5/5-6.png";
+import Img14_7 from "@/assets/education/5/5-7.png";
+import Img14_8 from "@/assets/education/5/5-8.png";
+import Img14_9 from "@/assets/education/5/5-9.png";
+import Img16_1 from "@/assets/education/6/6-1.png";
+import Img16_10 from "@/assets/education/6/6-10.png";
+import Img16_2 from "@/assets/education/6/6-2.png";
+import Img16_3 from "@/assets/education/6/6-3.png";
+import Img16_4 from "@/assets/education/6/6-4.png";
+import Img16_5 from "@/assets/education/6/6-5.png";
+import Img16_6 from "@/assets/education/6/6-6.png";
+import Img16_7 from "@/assets/education/6/6-7.png";
+import Img16_8 from "@/assets/education/6/6-8.png";
+import Img16_9 from "@/assets/education/6/6-9.png";
+import Img18_1 from "@/assets/education/7/7-1.png";
+import Img18_10 from "@/assets/education/7/7-10.png";
+import Img18_2 from "@/assets/education/7/7-2.png";
+import Img18_3 from "@/assets/education/7/7-3.png";
+import Img18_4 from "@/assets/education/7/7-4.png";
+import Img18_5 from "@/assets/education/7/7-5.png";
+import Img18_6 from "@/assets/education/7/7-6.png";
+import Img18_7 from "@/assets/education/7/7-7.png";
+import Img18_8 from "@/assets/education/7/7-8.png";
+import Img18_9 from "@/assets/education/7/7-9.png";
+import Img21_1 from "@/assets/education/8/8-1.png";
+import Img21_10 from "@/assets/education/8/8-10.png";
+import Img21_2 from "@/assets/education/8/8-2.png";
+import Img21_3 from "@/assets/education/8/8-3.png";
+import Img21_4 from "@/assets/education/8/8-4.png";
+import Img21_5 from "@/assets/education/8/8-5.png";
+import Img21_6 from "@/assets/education/8/8-6.png";
+import Img21_7 from "@/assets/education/8/8-7.png";
+import Img21_8 from "@/assets/education/8/8-8.png";
+import Img21_9 from "@/assets/education/8/8-9.png";
+import Img26_1 from "@/assets/education/9/9-1.png";
+import Img26_2 from "@/assets/education/9/9-2.png";
+import Img26_3 from "@/assets/education/9/9-3.png";
+import Img26_4 from "@/assets/education/9/9-4.png";
+import Img26_5 from "@/assets/education/9/9-5.png";
+import Img26_6 from "@/assets/education/9/9-6.png";
+import Img26_7 from "@/assets/education/9/9-7.png";
+import Img26_8 from "@/assets/education/9/9-8.png";
+import Img26_9 from "@/assets/education/9/9-9.png";
+import Img24_1 from "@/assets/education/notice/1/1-1.png";
+import Img24_10 from "@/assets/education/notice/1/1-10.png";
+import Img24_2 from "@/assets/education/notice/1/1-2.png";
+import Img24_3 from "@/assets/education/notice/1/1-3.png";
+import Img24_4 from "@/assets/education/notice/1/1-4.png";
+import Img24_5 from "@/assets/education/notice/1/1-5.png";
+import Img24_6 from "@/assets/education/notice/1/1-6.png";
+import Img24_7 from "@/assets/education/notice/1/1-7.png";
+import Img24_8 from "@/assets/education/notice/1/1-8.png";
+import Img24_9 from "@/assets/education/notice/1/1-9.png";
+import Img28_1 from "@/assets/education/notice/2/2-1.png";
+import Img28_10 from "@/assets/education/notice/2/2-10.png";
+import Img28_2 from "@/assets/education/notice/2/2-2.png";
+import Img28_3 from "@/assets/education/notice/2/2-3.png";
+import Img28_4 from "@/assets/education/notice/2/2-4.png";
+import Img28_5 from "@/assets/education/notice/2/2-5.png";
+import Img28_6 from "@/assets/education/notice/2/2-6.png";
+import Img28_7 from "@/assets/education/notice/2/2-7.png";
+import Img28_8 from "@/assets/education/notice/2/2-8.png";
+import Img28_9 from "@/assets/education/notice/2/2-9.png";
+import Img29_1 from "@/assets/education/notice/3/1.png";
+import Img29_10 from "@/assets/education/notice/3/10.png";
+import Img29_2 from "@/assets/education/notice/3/2.png";
+import Img29_3 from "@/assets/education/notice/3/3.png";
+import Img29_4 from "@/assets/education/notice/3/4.png";
+import Img29_5 from "@/assets/education/notice/3/5.png";
+import Img29_6 from "@/assets/education/notice/3/6.png";
+import Img29_7 from "@/assets/education/notice/3/7.png";
+import Img29_8 from "@/assets/education/notice/3/8.png";
+import Img29_9 from "@/assets/education/notice/3/9.png";
+import Img31_1 from "@/assets/education/notice/4/1.jpg";
+import Img31_2 from "@/assets/education/notice/4/2.jpg";
+import Img31_3 from "@/assets/education/notice/4/3.jpg";
+import Img31_4 from "@/assets/education/notice/4/4.jpg";
+import Img31_5 from "@/assets/education/notice/4/5.jpg";
+import Img31_6 from "@/assets/education/notice/4/6.jpg";
+import Img83_1 from "@/assets/education/notice/5/1.jpg";
+import Img83_10 from "@/assets/education/notice/5/10.jpg";
+import Img83_2 from "@/assets/education/notice/5/2.jpg";
+import Img83_3 from "@/assets/education/notice/5/3.jpg";
+import Img83_4 from "@/assets/education/notice/5/4.jpg";
+import Img83_5 from "@/assets/education/notice/5/5.jpg";
+import Img83_6 from "@/assets/education/notice/5/6.jpg";
+import Img83_7 from "@/assets/education/notice/5/7.jpg";
+import Img83_8 from "@/assets/education/notice/5/8.jpg";
+import Img83_9 from "@/assets/education/notice/5/9.jpg";
+import Img113_1 from "@/assets/education/notice/6/001.png";
+import Img113_2 from "@/assets/education/notice/6/002.png";
+import Img113_3 from "@/assets/education/notice/6/003.png";
+import Img113_4 from "@/assets/education/notice/6/004.png";
+import Img113_5 from "@/assets/education/notice/6/005.png";
+import Img113_6 from "@/assets/education/notice/6/006.png";
+import Img113_7 from "@/assets/education/notice/6/007.png";
+import Img113_8 from "@/assets/education/notice/6/008.png";
+import Img113_9 from "@/assets/education/notice/6/009.png";
+import Img113_10 from "@/assets/education/notice/6/010.png";
+import Img113_11 from "@/assets/education/notice/6/011.png";
+import Img113_12 from "@/assets/education/notice/6/012.png";
+import Img113_13 from "@/assets/education/notice/6/013.png";
+import Img113_14 from "@/assets/education/notice/6/014.png";
+import Img113_15 from "@/assets/education/notice/6/015.png";
+import Img113_16 from "@/assets/education/notice/6/016.png";
+import Img113_17 from "@/assets/education/notice/6/017.png";
+import Img118_1 from "@/assets/education/notice/7/001.png";
+import Img118_2 from "@/assets/education/notice/7/002.png";
+import Img118_3 from "@/assets/education/notice/7/003.png";
+import Img118_4 from "@/assets/education/notice/7/004.png";
+import Img118_5 from "@/assets/education/notice/7/005.png";
+import Img118_6 from "@/assets/education/notice/7/006.png";
+import Img118_7 from "@/assets/education/notice/7/007.png";
+import Img118_8 from "@/assets/education/notice/7/008.png";
+import Img118_9 from "@/assets/education/notice/7/009.png";
+import Img118_10 from "@/assets/education/notice/7/010.png";
+import Img118_11 from "@/assets/education/notice/7/011.png";
+import Img118_12 from "@/assets/education/notice/7/012.png";
+import Img118_13 from "@/assets/education/notice/7/013.png";
+import Img118_14 from "@/assets/education/notice/7/014.png";
+import Img118_15 from "@/assets/education/notice/7/015.png";
+import Img125_1 from "@/assets/education/notice/8/001.png";
+import Img125_2 from "@/assets/education/notice/8/002.png";
+import Img125_3 from "@/assets/education/notice/8/003.png";
+import Img125_4 from "@/assets/education/notice/8/004.png";
+import Img125_5 from "@/assets/education/notice/8/005.png";
+import Img125_6 from "@/assets/education/notice/8/006.png";
+import Img125_7 from "@/assets/education/notice/8/007.png";
+import Img125_8 from "@/assets/education/notice/8/008.png";
+import Img125_9 from "@/assets/education/notice/8/009.png";
+import Img125_10 from "@/assets/education/notice/8/010.png";
+import Img131_1 from "@/assets/education/notice/9/1.png";
+import Img131_10 from "@/assets/education/notice/9/10.png";
+import Img131_11 from "@/assets/education/notice/9/11.png";
+import Img131_12 from "@/assets/education/notice/9/12.png";
+import Img131_2 from "@/assets/education/notice/9/2.png";
+import Img131_3 from "@/assets/education/notice/9/3.png";
+import Img131_4 from "@/assets/education/notice/9/4.png";
+import Img131_5 from "@/assets/education/notice/9/5.png";
+import Img131_6 from "@/assets/education/notice/9/6.png";
+import Img131_7 from "@/assets/education/notice/9/7.png";
+import Img131_8 from "@/assets/education/notice/9/8.png";
+import Img131_9 from "@/assets/education/notice/9/9.png";
+import Img27_1 from "@/assets/event/1/1.jpg";
+import Img80_1 from "@/assets/event/10/1.jpg";
+import Img106_1 from "@/assets/event/11/1.jpg";
+import Img49_1 from "@/assets/event/2/1.jpg";
+import Img49_2 from "@/assets/event/2/2.jpg";
+import Img50_1 from "@/assets/event/3/1.jpg";
+import Img50_2 from "@/assets/event/3/2.jpg";
+import Img51_1 from "@/assets/event/4/1.jpg";
+import Img51_2 from "@/assets/event/4/2.jpg";
+import Img52_1 from "@/assets/event/5/1.jpg";
+import Img52_2 from "@/assets/event/5/2.jpg";
+import Img53_1 from "@/assets/event/6/1.jpg";
+import Img53_2 from "@/assets/event/6/2.jpg";
+import Img53_3 from "@/assets/event/6/3.jpg";
+import Img54_1 from "@/assets/event/7/1.jpg";
+import Img54_2 from "@/assets/event/7/2.jpg";
+import Img55_1 from "@/assets/event/8/1.jpg";
+import Img55_2 from "@/assets/event/8/2.jpg";
+import Img55_3 from "@/assets/event/8/3.jpg";
+import Img55_4 from "@/assets/event/8/4.jpg";
+import Img55_5 from "@/assets/event/8/5.jpg";
+import Img55_6 from "@/assets/event/8/6.jpg";
+import Img55_7 from "@/assets/event/8/7.jpg";
+import Img79_1 from "@/assets/event/9/1.jpg";
+import Img79_2 from "@/assets/event/9/2.jpg";
+import Img79_3 from "@/assets/event/9/3.jpg";
+import Img114_1 from "@/assets/minute/administrative/library1-1.jpg";
+import Img114_2 from "@/assets/minute/administrative/library1-2.jpg";
+import Img114_3 from "@/assets/minute/administrative/library1-3.jpg";
+import Img114_4 from "@/assets/minute/administrative/library1-4.jpg";
+import Img114_5 from "@/assets/minute/administrative/library1-5.jpg";
+import Img114_6 from "@/assets/minute/administrative/library1-6.jpg";
+import Img114_7 from "@/assets/minute/administrative/library1-7.jpg";
+import Img75_1 from "@/assets/minute/administrative/national1.jpg";
+import Img75_2 from "@/assets/minute/administrative/national2.jpg";
+import Img75_3 from "@/assets/minute/administrative/national3.jpg";
+import Img75_4 from "@/assets/minute/administrative/national4.jpg";
+import Img75_5 from "@/assets/minute/administrative/national5.jpg";
+import Img1_1 from "@/assets/notice/1/1.jpeg";
+import Img1_2 from "@/assets/notice/1/2.jpeg";
+import Img1_3 from "@/assets/notice/1/3.jpeg";
+import Img100_1 from "@/assets/notice/100/1.jpg";
+import Img107_1 from "@/assets/notice/107/1.jpg";
+import Img107_2 from "@/assets/notice/107/2.jpg";
+import Img107_3 from "@/assets/notice/107/3.jpg";
+import Img107_4 from "@/assets/notice/107/4.jpg";
+import Img107_5 from "@/assets/notice/107/5.jpg";
+import Img110_1 from "@/assets/notice/110/1.jpg";
+import Img112_1 from "@/assets/notice/112/1.jpg";
+import Img112_2 from "@/assets/notice/112/2.jpg";
+import Img115_1 from "@/assets/notice/115/1.jpg";
+import Img117_1 from "@/assets/notice/117/1.jpg";
+import Img117_2 from "@/assets/notice/117/2.jpg";
+import Img119_1 from "@/assets/notice/119/1.jpg";
+import Img119_2 from "@/assets/notice/119/2.jpg";
+import Img12_1 from "@/assets/notice/12/1.jpg";
+import Img12_2 from "@/assets/notice/12/2.jpg";
+import Img12_3 from "@/assets/notice/12/3.jpg";
+import Img12_4 from "@/assets/notice/12/4.jpg";
+import Img12_5 from "@/assets/notice/12/5.jpg";
+import Img12_6 from "@/assets/notice/12/6.jpg";
+import Img12_7 from "@/assets/notice/12/7.jpg";
+import Img12_8 from "@/assets/notice/12/8.jpg";
+import Img12_9 from "@/assets/notice/12/9.jpg";
+import Img120_1 from "@/assets/notice/120/1.jpg";
+import Img121_1 from "@/assets/notice/121/1.jpg";
+import Img122_1 from "@/assets/notice/122/1.jpg";
+import Img122_2 from "@/assets/notice/122/2.jpg";
+import Img123_1 from "@/assets/notice/123/1.jpg";
+import Img123_10 from "@/assets/notice/123/10.jpg";
+import Img123_11 from "@/assets/notice/123/11.jpg";
+import Img123_12 from "@/assets/notice/123/12.jpg";
+import Img123_13 from "@/assets/notice/123/13.jpg";
+import Img123_14 from "@/assets/notice/123/14.jpg";
+import Img123_15 from "@/assets/notice/123/15.jpg";
+import Img123_16 from "@/assets/notice/123/16.jpg";
+import Img123_17 from "@/assets/notice/123/17.jpg";
+import Img123_18 from "@/assets/notice/123/18.jpg";
+import Img123_19 from "@/assets/notice/123/19.jpg";
+import Img123_2 from "@/assets/notice/123/2.jpg";
+import Img123_20 from "@/assets/notice/123/20.jpg";
+import Img123_3 from "@/assets/notice/123/3.jpg";
+import Img123_4 from "@/assets/notice/123/4.jpg";
+import Img123_5 from "@/assets/notice/123/5.jpg";
+import Img123_6 from "@/assets/notice/123/6.jpg";
+import Img123_7 from "@/assets/notice/123/7.jpg";
+import Img123_8 from "@/assets/notice/123/8.jpg";
+import Img123_9 from "@/assets/notice/123/9.jpg";
+import Img124_1 from "@/assets/notice/124/1.jpg";
+import Img124_2 from "@/assets/notice/124/2.jpg";
+import Img124_3 from "@/assets/notice/124/3.jpg";
+import Img124_4 from "@/assets/notice/124/4.jpg";
+import Img124_5 from "@/assets/notice/124/5.jpg";
+import Img124_6 from "@/assets/notice/124/6.jpg";
+import Img124_7 from "@/assets/notice/124/7.jpg";
+import Img126_1 from "@/assets/notice/126/1.jpg";
+import Img126_2 from "@/assets/notice/126/2.jpg";
+import Img126_3 from "@/assets/notice/126/3.jpg";
+import Img126_4 from "@/assets/notice/126/4.jpg";
+import Img127_1 from "@/assets/notice/127/1.jpg";
+import Img127_2 from "@/assets/notice/127/2.jpg";
+import Img128_1 from "@/assets/notice/128/1.jpg";
+import Img128_10 from "@/assets/notice/128/10.jpg";
+import Img128_2 from "@/assets/notice/128/2.jpg";
+import Img128_3 from "@/assets/notice/128/3.jpg";
+import Img128_4 from "@/assets/notice/128/4.jpg";
+import Img128_5 from "@/assets/notice/128/5.jpg";
+import Img128_6 from "@/assets/notice/128/6.jpg";
+import Img128_7 from "@/assets/notice/128/7.jpg";
+import Img128_8 from "@/assets/notice/128/8.jpg";
+import Img128_9 from "@/assets/notice/128/9.jpg";
+import Img129_1 from "@/assets/notice/129/1.jpg";
+import Img129_2 from "@/assets/notice/129/2.jpg";
+import Img129_3 from "@/assets/notice/129/3.jpg";
+import Img130_1 from "@/assets/notice/130/1.jpg";
+import Img132_1 from "@/assets/notice/132/1.jpg";
+import Img132_2 from "@/assets/notice/132/2.jpg";
+import Img132_3 from "@/assets/notice/132/3.jpg";
+import Img132_4 from "@/assets/notice/132/4.jpg";
+import Img133_1 from "@/assets/notice/133/1.jpg";
+import Img134_1 from "@/assets/notice/134/1.jpg";
+import Img134_2 from "@/assets/notice/134/2.jpg";
+import Img135_1 from "@/assets/notice/135/1.jpg";
+import Img135_2 from "@/assets/notice/135/2.jpg";
+import Img135_3 from "@/assets/notice/135/3.jpg";
+import Img135_4 from "@/assets/notice/135/4.jpg";
+import Img136_1 from "@/assets/notice/136/1.jpg";
+import Img136_2 from "@/assets/notice/136/2.jpg";
+import Img136_3 from "@/assets/notice/136/3.jpg";
+import Img136_4 from "@/assets/notice/136/4.jpg";
+import Img136_5 from "@/assets/notice/136/5.jpg";
+import Img136_6 from "@/assets/notice/136/6.jpg";
+import Img136_7 from "@/assets/notice/136/7.jpg";
+import Img137_1 from "@/assets/notice/137/1.jpg";
+import Img137_2 from "@/assets/notice/137/2.jpg";
+import Img137_3 from "@/assets/notice/137/3.jpg";
+import Img137_4 from "@/assets/notice/137/4.jpg";
+import Img137_5 from "@/assets/notice/137/5.jpg";
+import Img137_6 from "@/assets/notice/137/6.jpg";
+import Img138_1 from "@/assets/notice/138/1.jpg";
+import Img138_10 from "@/assets/notice/138/10.jpg";
+import Img138_2 from "@/assets/notice/138/2.jpg";
+import Img138_3 from "@/assets/notice/138/3.jpg";
+import Img138_4 from "@/assets/notice/138/4.jpg";
+import Img138_5 from "@/assets/notice/138/5.jpg";
+import Img138_6 from "@/assets/notice/138/6.jpg";
+import Img138_7 from "@/assets/notice/138/7.jpg";
+import Img138_8 from "@/assets/notice/138/8.jpg";
+import Img138_9 from "@/assets/notice/138/9.jpg";
+import Img139_1 from "@/assets/notice/139/1.jpg";
+import Img141_1 from "@/assets/notice/141/1.jpg";
+import Img143_1 from "@/assets/notice/143/1.jpg";
+import Img143_2 from "@/assets/notice/143/2.jpg";
+import Img143_3 from "@/assets/notice/143/3.jpg";
+import Img144_1 from "@/assets/notice/144/1.jpg";
+import Img148_1 from "@/assets/notice/148/1.jpg";
+import Img148_2 from "@/assets/notice/148/2.jpg";
+import Img148_3 from "@/assets/notice/148/3.jpg";
+import Img148_4 from "@/assets/notice/148/4.jpg";
+import Img148_5 from "@/assets/notice/148/5.jpg";
+import Img15_1 from "@/assets/notice/15/1.jpg";
+import Img150_1 from "@/assets/notice/150/1.jpg";
+import Img150_2 from "@/assets/notice/150/2.jpg";
+import Img150_3 from "@/assets/notice/150/3.jpg";
+import Img150_4 from "@/assets/notice/150/4.jpg";
+import Img154_1 from "@/assets/notice/154/1.jpg";
+import Img154_2 from "@/assets/notice/154/2.jpg";
+import Img154_3 from "@/assets/notice/154/3.jpg";
+import Img154_4 from "@/assets/notice/154/4.jpg";
+import Img155_1 from "@/assets/notice/155/1.jpg";
+import Img155_2 from "@/assets/notice/155/2.jpg";
+import Img155_3 from "@/assets/notice/155/3.jpg";
+import Img155_4 from "@/assets/notice/155/4.jpg";
+import Img155_5 from "@/assets/notice/155/5.jpg";
+import Img155_6 from "@/assets/notice/155/6.jpg";
+import Img155_7 from "@/assets/notice/155/7.jpg";
+import Img155_8 from "@/assets/notice/155/8.jpg";
+import Img155_9 from "@/assets/notice/155/9.jpg";
+import Img156_1 from "@/assets/notice/156/1.jpg";
+import Img156_10 from "@/assets/notice/156/10.jpg";
+import Img156_2 from "@/assets/notice/156/2.jpg";
+import Img156_3 from "@/assets/notice/156/3.jpg";
+import Img156_4 from "@/assets/notice/156/4.jpg";
+import Img156_5 from "@/assets/notice/156/5.jpg";
+import Img156_6 from "@/assets/notice/156/6.jpg";
+import Img156_7 from "@/assets/notice/156/7.jpg";
+import Img156_8 from "@/assets/notice/156/8.jpg";
+import Img156_9 from "@/assets/notice/156/9.jpg";
+import Img17_1 from "@/assets/notice/17/1.jpg";
+import Img17_2 from "@/assets/notice/17/2.jpg";
+import Img17_3 from "@/assets/notice/17/3.jpg";
+import Img19_1 from "@/assets/notice/19/1.jpg";
+import Img2_1 from "@/assets/notice/2/1.jpg";
+import Img2_2 from "@/assets/notice/2/2.jpg";
+import Img2_3 from "@/assets/notice/2/3.jpg";
+import Img2_4 from "@/assets/notice/2/4.jpg";
+import Img20_1 from "@/assets/notice/20/1.jpg";
+import Img20_2 from "@/assets/notice/20/2.jpg";
+import Img20_3 from "@/assets/notice/20/3.jpg";
+import Img20_4 from "@/assets/notice/20/4.jpg";
+import Img23_1 from "@/assets/notice/23/1.jpg";
+import Img23_10 from "@/assets/notice/23/10.jpg";
+import Img23_2 from "@/assets/notice/23/2.jpg";
+import Img23_3 from "@/assets/notice/23/3.jpg";
+import Img23_4 from "@/assets/notice/23/4.jpg";
+import Img23_5 from "@/assets/notice/23/5.jpg";
+import Img23_6 from "@/assets/notice/23/6.jpg";
+import Img23_7 from "@/assets/notice/23/7.jpg";
+import Img23_8 from "@/assets/notice/23/8.jpg";
+import Img23_9 from "@/assets/notice/23/9.jpg";
+import Img25_1 from "@/assets/notice/25/1.jpg";
+import Img25_2 from "@/assets/notice/25/2.jpg";
+import Img25_3 from "@/assets/notice/25/3.jpg";
+import Img25_4 from "@/assets/notice/25/4.jpg";
+import Img25_5 from "@/assets/notice/25/5.jpg";
+import Img25_6 from "@/assets/notice/25/6.jpg";
+import Img25_7 from "@/assets/notice/25/7.jpg";
+import Img25_8 from "@/assets/notice/25/8.jpg";
+import Img25_9 from "@/assets/notice/25/9.jpg";
+import Img3_1 from "@/assets/notice/3/1.jpg";
+import Img3_2 from "@/assets/notice/3/2.jpg";
+import Img3_3 from "@/assets/notice/3/3.jpg";
+import Img32_1 from "@/assets/notice/32/1.png";
+import Img33_1 from "@/assets/notice/33/1.jpg";
+import Img33_2 from "@/assets/notice/33/2.jpg";
+import Img33_3 from "@/assets/notice/33/3.jpg";
+import Img34_1 from "@/assets/notice/34/1.jpg";
+import Img34_2 from "@/assets/notice/34/2.jpg";
+import Img34_3 from "@/assets/notice/34/3.jpg";
+import Img37_1 from "@/assets/notice/37/1.jpg";
+import Img37_2 from "@/assets/notice/37/2.jpg";
+import Img37_3 from "@/assets/notice/37/3.jpg";
+import Img37_4 from "@/assets/notice/37/4.jpg";
+import Img37_5 from "@/assets/notice/37/5.jpg";
+import Img37_6 from "@/assets/notice/37/6.jpg";
+import Img37_7 from "@/assets/notice/37/7.jpg";
+import Img38_1 from "@/assets/notice/38/1.jpg";
+import Img38_2 from "@/assets/notice/38/2.jpg";
+import Img38_3 from "@/assets/notice/38/3.jpg";
+import Img38_4 from "@/assets/notice/38/4.jpg";
+import Img38_5 from "@/assets/notice/38/5.jpg";
+import Img38_6 from "@/assets/notice/38/6.jpg";
+import Img38_7 from "@/assets/notice/38/7.jpg";
+import Img40_1 from "@/assets/notice/40/1.jpg";
+import Img40_2 from "@/assets/notice/40/2.jpg";
+import Img40_3 from "@/assets/notice/40/3.jpg";
+import Img40_4 from "@/assets/notice/40/4.jpg";
+import Img40_5 from "@/assets/notice/40/5.jpg";
+import Img41_1 from "@/assets/notice/41/1.jpg";
+import Img41_2 from "@/assets/notice/41/2.jpg";
+import Img41_3 from "@/assets/notice/41/3.jpg";
+import Img41_4 from "@/assets/notice/41/4.jpg";
+import Img41_5 from "@/assets/notice/41/5.jpg";
+import Img41_6 from "@/assets/notice/41/6.jpg";
+import Img41_7 from "@/assets/notice/41/7.jpg";
+import Img41_8 from "@/assets/notice/41/8.jpg";
+import Img44_1 from "@/assets/notice/44/1.jpg";
+import Img44_2 from "@/assets/notice/44/2.jpg";
+import Img44_3 from "@/assets/notice/44/3.jpg";
+import Img44_4 from "@/assets/notice/44/4.jpg";
+import Img45_1 from "@/assets/notice/45/1.jpg";
+import Img45_2 from "@/assets/notice/45/2.jpg";
+import Img45_3 from "@/assets/notice/45/3.jpg";
+import Img46_1 from "@/assets/notice/46/1.jpg";
+import Img46_2 from "@/assets/notice/46/2.jpg";
+import Img46_3 from "@/assets/notice/46/3.jpg";
+import Img47_1 from "@/assets/notice/47/1.jpg";
+import Img47_2 from "@/assets/notice/47/2.jpg";
+import Img47_3 from "@/assets/notice/47/3.jpg";
+import Img47_4 from "@/assets/notice/47/4.jpg";
+import Img47_5 from "@/assets/notice/47/5.jpg";
+import Img47_6 from "@/assets/notice/47/6.jpg";
+import Img48_1 from "@/assets/notice/48/1.jpg";
+import Img48_2 from "@/assets/notice/48/2.jpg";
+import Img48_3 from "@/assets/notice/48/3.jpg";
+import Img48_4 from "@/assets/notice/48/4.jpg";
+import Img48_5 from "@/assets/notice/48/5.jpg";
+import Img48_6 from "@/assets/notice/48/6.jpg";
+import Img57_1 from "@/assets/notice/57/1.jpg";
+import Img57_2 from "@/assets/notice/57/2.jpg";
+import Img57_3 from "@/assets/notice/57/3.jpg";
+import Img57_4 from "@/assets/notice/57/4.jpg";
+import Img57_5 from "@/assets/notice/57/5.jpg";
+import Img57_6 from "@/assets/notice/57/6.jpg";
+import Img57_7 from "@/assets/notice/57/7.jpg";
+import Img58_1 from "@/assets/notice/58/1.jpg";
+import Img58_2 from "@/assets/notice/58/2.jpg";
+import Img58_3 from "@/assets/notice/58/3.jpg";
+import Img58_4 from "@/assets/notice/58/4.jpg";
+import Img59_1 from "@/assets/notice/59/1.jpg";
+import Img59_2 from "@/assets/notice/59/2.jpg";
+import Img59_3 from "@/assets/notice/59/3.jpg";
+import Img59_4 from "@/assets/notice/59/4.jpg";
+import Img59_5 from "@/assets/notice/59/5.jpg";
+import Img59_6 from "@/assets/notice/59/6.jpg";
+import Img59_7 from "@/assets/notice/59/7.jpg";
+import Img6_1 from "@/assets/notice/6/1.jpg";
+import Img60_1 from "@/assets/notice/60/1.jpg";
+import Img60_2 from "@/assets/notice/60/2.jpg";
+import Img60_3 from "@/assets/notice/60/3.jpg";
+import Img63_1 from "@/assets/notice/63/1.jpg";
+import Img63_2 from "@/assets/notice/63/2.jpg";
+import Img63_3 from "@/assets/notice/63/3.jpg";
+import Img63_4 from "@/assets/notice/63/4.jpg";
+import Img63_5 from "@/assets/notice/63/5.jpg";
+import Img63_6 from "@/assets/notice/63/6.jpg";
+import Img63_7 from "@/assets/notice/63/7.jpg";
+import Img63_8 from "@/assets/notice/63/8.jpg";
+import Img63_9 from "@/assets/notice/63/9.jpg";
+import Img64_1 from "@/assets/notice/64/1.jpg";
+import Img64_10 from "@/assets/notice/64/10.jpg";
+import Img64_2 from "@/assets/notice/64/2.jpg";
+import Img64_3 from "@/assets/notice/64/3.jpg";
+import Img64_4 from "@/assets/notice/64/4.jpg";
+import Img64_5 from "@/assets/notice/64/5.jpg";
+import Img64_6 from "@/assets/notice/64/6.jpg";
+import Img64_7 from "@/assets/notice/64/7.jpg";
+import Img64_8 from "@/assets/notice/64/8.jpg";
+import Img64_9 from "@/assets/notice/64/9.jpg";
+import Img65_1 from "@/assets/notice/65/1.jpg";
+import Img65_2 from "@/assets/notice/65/2.jpg";
+import Img65_3 from "@/assets/notice/65/3.jpg";
+import Img65_4 from "@/assets/notice/65/4.jpg";
+import Img65_5 from "@/assets/notice/65/5.jpg";
+import Img65_6 from "@/assets/notice/65/6.jpg";
+import Img65_7 from "@/assets/notice/65/7.jpg";
+import Img65_8 from "@/assets/notice/65/8.jpg";
+import Img65_9 from "@/assets/notice/65/9.jpg";
+import Img66_1 from "@/assets/notice/66/1.jpg";
+import Img66_2 from "@/assets/notice/66/2.jpg";
+import Img66_3 from "@/assets/notice/66/3.jpg";
+import Img66_4 from "@/assets/notice/66/4.jpg";
+import Img66_5 from "@/assets/notice/66/5.jpg";
+import Img66_6 from "@/assets/notice/66/6.jpg";
+import Img66_7 from "@/assets/notice/66/7.jpg";
+import Img66_8 from "@/assets/notice/66/8.jpg";
+import Img66_9 from "@/assets/notice/66/9.jpg";
+import Img69_1 from "@/assets/notice/69/1.jpg";
+import Img69_2 from "@/assets/notice/69/2.jpg";
+import Img69_3 from "@/assets/notice/69/3.jpg";
+import Img69_4 from "@/assets/notice/69/4.jpg";
+import Img7_1 from "@/assets/notice/7/1.jpg";
+import Img70_1 from "@/assets/notice/70/1.jpg";
+import Img70_2 from "@/assets/notice/70/2.jpg";
+import Img70_3 from "@/assets/notice/70/3.jpg";
+import Img70_4 from "@/assets/notice/70/4.jpg";
+import Img71_1 from "@/assets/notice/71/1.jpg";
+import Img72_1 from "@/assets/notice/72/1.jpg";
+import Img72_2 from "@/assets/notice/72/2.jpg";
+import Img72_3 from "@/assets/notice/72/3.jpg";
+import Img72_4 from "@/assets/notice/72/4.jpg";
+import Img72_5 from "@/assets/notice/72/5.jpg";
+import Img72_6 from "@/assets/notice/72/6.jpg";
+import Img72_7 from "@/assets/notice/72/7.jpg";
+import Img77_1 from "@/assets/notice/77/1.jpg";
+import Img77_2 from "@/assets/notice/77/2.jpg";
+import Img77_3 from "@/assets/notice/77/3.jpg";
+import Img77_4 from "@/assets/notice/77/4.jpg";
+import Img77_5 from "@/assets/notice/77/5.jpg";
+import Img77_6 from "@/assets/notice/77/6.jpg";
+import Img78_1 from "@/assets/notice/78/1.jpg";
+import Img8_1 from "@/assets/notice/8/1.jpg";
+import Img8_2 from "@/assets/notice/8/2.jpg";
+import Img8_3 from "@/assets/notice/8/3.jpg";
+import Img81_1 from "@/assets/notice/81/1.jpg";
+import Img84_1 from "@/assets/notice/84/1.png";
+import Img84_10 from "@/assets/notice/84/10.png";
+import Img84_11 from "@/assets/notice/84/11.png";
+import Img84_2 from "@/assets/notice/84/2.png";
+import Img84_3 from "@/assets/notice/84/3.png";
+import Img84_4 from "@/assets/notice/84/4.png";
+import Img84_5 from "@/assets/notice/84/5.png";
+import Img84_6 from "@/assets/notice/84/6.png";
+import Img84_7 from "@/assets/notice/84/7.png";
+import Img84_8 from "@/assets/notice/84/8.png";
+import Img84_9 from "@/assets/notice/84/9.png";
+import Img87_1 from "@/assets/notice/87/1.jpg";
+import Img87_2 from "@/assets/notice/87/2.jpg";
+import Img87_3 from "@/assets/notice/87/3.jpg";
+import Img88_1 from "@/assets/notice/88/1.jpg";
+import Img89_1 from "@/assets/notice/89/1.jpg";
+import Img90_1 from "@/assets/notice/90/1.jpg";
+import Img91_1 from "@/assets/notice/91/1.jpg";
+import Img91_2 from "@/assets/notice/91/2.jpg";
+import Img95_1 from "@/assets/notice/95/1.jpg";
+import Img99_1 from "@/assets/notice/99/1.jpg";
+import Img99_2 from "@/assets/notice/99/2.jpg";
+import Img99_3 from "@/assets/notice/99/3.jpg";
+import Img99_4 from "@/assets/notice/99/4.jpg";
+import Img99_5 from "@/assets/notice/99/5.jpg";
+import Img99_6 from "@/assets/notice/99/6.jpg";
+import Img13_1 from "@/assets/partner/1/1.png";
+import Img13_2 from "@/assets/partner/1/2.jpeg";
+import Img13_3 from "@/assets/partner/1/3.jpeg";
+import Img13_4 from "@/assets/partner/1/4.jpeg";
+import Img109_1 from "@/assets/partner/10/1.jpg";
+import Img109_2 from "@/assets/partner/10/2.jpg";
+import Img109_3 from "@/assets/partner/10/3.jpg";
+import Img109_4 from "@/assets/partner/10/4.jpg";
+import Img109_5 from "@/assets/partner/10/5.jpg";
+import Img111_1 from "@/assets/partner/11/1.jpg";
+import Img111_2 from "@/assets/partner/11/2.jpg";
+import Img111_3 from "@/assets/partner/11/3.jpg";
+import Img111_4 from "@/assets/partner/11/4.jpg";
+import Img82_1 from "@/assets/partner/2/1.jpg";
+import Img82_2 from "@/assets/partner/2/2.jpg";
+import Img86_1 from "@/assets/partner/3/1.jpg";
+import Img86_2 from "@/assets/partner/3/2.jpg";
+import Img101_1 from "@/assets/partner/4/1.jpg";
+import Img101_2 from "@/assets/partner/4/2.jpg";
+import Img101_3 from "@/assets/partner/4/3.jpg";
+import Img102_1 from "@/assets/partner/5/1.jpg";
+import Img102_2 from "@/assets/partner/5/2.jpg";
+import Img102_3 from "@/assets/partner/5/3.jpg";
+import Img103_1 from "@/assets/partner/6/1.jpg";
+import Img103_10 from "@/assets/partner/6/10.jpg";
+import Img103_2 from "@/assets/partner/6/2.jpg";
+import Img103_3 from "@/assets/partner/6/3.jpg";
+import Img103_4 from "@/assets/partner/6/4.jpg";
+import Img103_5 from "@/assets/partner/6/5.jpg";
+import Img103_6 from "@/assets/partner/6/6.jpg";
+import Img103_7 from "@/assets/partner/6/7.jpg";
+import Img103_8 from "@/assets/partner/6/8.jpg";
+import Img103_9 from "@/assets/partner/6/9.jpg";
+import Img104_1 from "@/assets/partner/7/1.jpg";
+import Img104_2 from "@/assets/partner/7/2.jpg";
+import Img104_3 from "@/assets/partner/7/3.jpg";
+import Img105_1 from "@/assets/partner/8/1.jpg";
+import Img105_2 from "@/assets/partner/8/2.jpg";
+import Img105_3 from "@/assets/partner/8/3.jpg";
+import Img108_1 from "@/assets/partner/9/1.jpg";
+import Img108_2 from "@/assets/partner/9/2.jpg";
+import Video1 from "@/assets/video/1.mp4";
+import Video10 from "@/assets/video/10.mp4";
+import Video11 from "@/assets/video/11.mp4";
+import Video12 from "@/assets/video/12.mp4";
+import Video13 from "@/assets/video/13.mp4";
+import Video14 from "@/assets/video/14.mp4";
+import Video15 from "@/assets/video/15.mp4";
+import Video16 from "@/assets/video/16.mp4";
+import Video17 from "@/assets/video/17.mp4";
+import Video2 from "@/assets/video/2.mp4";
+import Video3 from "@/assets/video/3.mp4";
+import Video4 from "@/assets/video/4.mp4";
+import Video5 from "@/assets/video/5.mp4";
+import Video6 from "@/assets/video/6.mp4";
+import Video7 from "@/assets/video/7.mp4";
+import Video8 from "@/assets/video/8.mp4";
+import Video9 from "@/assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 157,
+		link: "/info/notice/detail/157",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 대학로 차 없는 거리 행사 Sketch Video ver.",
+		date: "2023-09-23",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[ 또 놀러와! 대학로, 차없는 거리로 ]<br/><br/>🎥 sketch video ver.<br/><br/>📍장소: 대학로 혜화역 인근<br/>📍일시: 9/23 (토요일) 13:00~19:00<br/>📍주관: 상명대학교 서울캠퍼스 제46대 총학생회 선[先], 종로구청<br/>상명대학교 학우분들의 많은 관심과 참여 부탁드립니다‼️<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inVideo: [
+			{
+				video: Video17,
+			},
+		],
+	},
+	{
+		id: 156,
+		link: "/info/notice/detail/156",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 대학로 차 없는 거리 행사 Sketch Photo ver.",
+		date: "2023-09-23",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[ 또 놀러와! 대학로, 차없는 거리로 ]<br/><br/>📷 sketch photo ver.<br/><br/>📍장소: 대학로 혜화역 인근<br/>📍일시: 9/23 (토요일) 13:00~19:00<br/>📍주관: 상명대학교 서울캠퍼스 제46대 총학생회 선[先], 종로구청<br/><br/>상명대학교 학우분들의 많은 관심과 참여부탁드립니다‼️<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img156_1,
+				alt: "img156_1",
+			},
+			{
+				img: Img156_2,
+				alt: "img156_2",
+			},
+			{
+				img: Img156_3,
+				alt: "img156_3",
+			},
+			{
+				img: Img156_4,
+				alt: "img156_4",
+			},
+			{
+				img: Img156_5,
+				alt: "img156_5",
+			},
+			{
+				img: Img156_6,
+				alt: "img156_6",
+			},
+			{
+				img: Img156_7,
+				alt: "img156_7",
+			},
+			{
+				img: Img156_8,
+				alt: "img156_8",
+			},
+			{
+				img: Img156_9,
+				alt: "img156_9",
+			},
+			{
+				img: Img156_10,
+				alt: "img156_10",
+			},
+		],
+	},
+	{
+		id: 155,
+		link: "/info/notice/detail/155",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 대학로 차 없는 거리 행사 콘텐츠, 섹션 안내",
+		date: "2023-09-20",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>본 공지는 저희 총학생회가 지역사회와 상생, 연계함을 위해 주관하는 행사의 홍보와 참여 독려를 위해 작성되었음을 전해드립니다.<br/><br/>대한민국 젊음의 상징 대학로 일대에서, 종로구와 상명대학교 서울캠퍼스 총학생회가 공동주관으로 개최하는<br/>대학로 🚗차 없는 거리🚗 행사가 금주 토요일인 23일에 진행됩니다.<br/><br/>🔹행사명: 『또 놀러와! 대학로, 차 없는 거리로』<br/>🔹행사일시: 2023. 09. 23(토) 12:00 – 19:30 ※ 차량통제는 10:00 – 21:00<br/>🔹주관/주최: 종로구청, 상명대학교 서울캠퍼스 총학생회<br/>🔹장소: 대학로 대로변 (혜화역 1번 출구부터 서울대학교 병원 입구까지 약 350M 거리 전역)<br/><br/>🔸주요내용: 테마별 세부 구획을 정해 콘텐츠 편성, 행사 운영<br/>- 캐스팅 스폿 운영, 사랑슛팅 스포츠존 운영, 스타워즈 501군단 및 레벨리젼 참가 존, 상명대학교 총학생회 영플레이어존, 거리미술관,<br/>해피 추석 전통놀이존, 열린무대, 버블밤 EDM DJ존, 퍼포먼스 프리존, 그린파크 쉼터 등. 세부 내용 함께 첨부한 홍보자료 참조.<br/><br/>행사 당일, 대학로에 행사장 전역에는 상명대학교의 현수기가 걸릴 예정입니다.<br/>상명대학교의 브랜딩을 도모, 제고할 수 있는 본 사업을 기회로 삼아 본교의 위상과 지위를 헌양하고자 합니다. 상명대학교 재학생 여러분의 많은 관심과 방문 부탁드립니다.💙<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img155_1,
+				alt: "img155_1",
+			},
+			{
+				img: Img155_2,
+				alt: "img155_2",
+			},
+			{
+				img: Img155_3,
+				alt: "img155_3",
+			},
+			{
+				img: Img155_4,
+				alt: "img155_4",
+			},
+			{
+				img: Img155_5,
+				alt: "img155_5",
+			},
+			{
+				img: Img155_6,
+				alt: "img155_6",
+			},
+			{
+				img: Img155_7,
+				alt: "img155_7",
+			},
+			{
+				img: Img155_8,
+				alt: "img155_8",
+			},
+			{
+				img: Img155_9,
+				alt: "img155_9",
+			},
+		],
+	},
+	{
+		id: 154,
+		link: "/info/notice/detail/154",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 대학로 차 없는 거리 행사 시행 안내",
+		date: "2023-09-19",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>9월 23일 토요일, 혜화역 1번 출구에서 서울대학교 입구 병원 구간 내 차량 통행을 통제하고 🚘대학로 차 없는 거리🚘 행사가 진행됩니다.<br/><br/>해당 행사에서 본 총학생회는 차 없는 거리 행사 전반을 총괄하며 '영플레이어존' 섹션을 직접 운영합니다.<br/>섹션 내에서는 플리마켓, 폴라로이드 사진 촬영, 길거리 캐리커쳐, 마술 공연 등 다양한 콘텐츠가 운영될 예정입니다.<br/><br/>더불어 메인 무대에서는 우리 대학 무용학전공 학우들의 K-pop 무대, 흑인음악동아리 'Groovin'187'의 힙합 무대가 함께 꾸며질 예정입니다.<br/><br/>행사에 방문하시는 분들을 대상으로 대학로 인근 상권의 🎟️할인 바우처🎟️를 증정해드릴 예정입니다.<br/>우리 대학 학우 여러분께서도 많은 관심과 참여를 부탁드립니다!<br/><br/>행사 세부 안내사항은 추후 공개되는 홍보물을 함께 참고해주시길 바랍니다.<br/><br/>감사합니다.<br/><br/>📍 행사일정 : 2023.09.23 (토) 13:00 - 19:00<br/>📍 행사장소 : 혜화역 1번 출구 - 서울대학교 병원 입구<br/>주최 및 주관 | 종로구청, 상명대학교 서울캠퍼스 총학생회<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img154_1,
+				alt: "img154_1",
+			},
+			{
+				img: Img154_2,
+				alt: "img154_2",
+			},
+			{
+				img: Img154_3,
+				alt: "img154_3",
+			},
+			{
+				img: Img154_4,
+				alt: "img154_4",
+			},
+		],
+	},
 	{
 		id: 153,
 		link: "/info/notice/detail/153",
@@ -808,7 +978,7 @@ export const NoticeData = [
 		owner: "관리자",
 		kind: "공지",
 		content:
-			"LG전자 XBOOM 파티 스피커📻💥와 함께한 9월 버스킹제 ”선의 바람“ 잘 즐기셨나요?<br/><br/>📢 최대 250W 출력으로 풍부한 스피커의 울림을 느낄 수 있게.<br/>🛞 캐리어 방식으로 제작되어 언제 어디서나 편리하게.<br/>📱XBOOM 어플리케이션을 통한 다양한 모드 조작까지.<br/><br/>2학기 동안 총학생회 선(先)의 행사에 끊임없이 등장할<br/>LG XBOOM 파티 스피커의 다양한 모습‼️<br/>여러분의 많은 관심 부탁드립니다.🫧<br/><br/>🎵 Groovin'187- ALL IN<br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+			"LG전자 XBOOM 파티 스피커📻💥와 함께한 9월 버스킹제 ”선의 바람“ 잘 즐기셨나요?<br/><br/>📢 최대 250W 출력으로 풍부한 스피커의 울림을 느낄 수 있게.<br/>🛞 캐리어 방식으로 제작되어 언제 어디서나 편리하게.<br/>📱XBOOM 어플리케이션을 통한 다양한 모드 조작까지.<br/><br/>2학기 동안 총학생회 선(先)의 행사에 끊임없이 등장할<br/>LG XBOOM 파티 스피커의 다양한 모습‼️<br/>여러분의 많은 관심 부탁드립니다.🫧<br/><br/>🎵 Groovin'187- ALL IN<br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
 		inVideo: [
 			{
 				video: Video16,
@@ -824,7 +994,7 @@ export const NoticeData = [
 		owner: "관리자",
 		kind: "공지",
 		content:
-			"💙 총학생회 선(先) X 코스모폴리탄 💝<br/><br/>지난 9월 12일, 다양한 선물을 담은 코스모 트레일러가 상명대 서울캠퍼스에 등장했습니다!<br/><br/>여러분의 뜨거운 참여 덕분에 준비한 수량이 전량 소진되었으며, 앞으로 있을 다양한 행사에도 많은 관심 부탁드립니다 💙<br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+			"💙 총학생회 선(先) X 코스모폴리탄 💝<br/><br/>지난 9월 12일, 다양한 선물을 담은 코스모 트레일러가 상명대 서울캠퍼스에 등장했습니다!<br/><br/>여러분의 뜨거운 참여 덕분에 준비한 수량이 전량 소진되었으며, 앞으로 있을 다양한 행사에도 많은 관심 부탁드립니다 💙<br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
 		inVideo: [
 			{
 				video: Video15,
@@ -839,7 +1009,7 @@ export const NoticeData = [
 		owner: "관리자",
 		kind: "학사",
 		content:
-			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대내교류국입니다.<br/><br/>학내 문화 발전 및 교내 공연 희망 수요를 실현하고, 여러분의 개강을 응원하기 위해 9월 12일(화) 상명대학교 ‘스뮤스퀘어’에서 🥁9월 버스킹제🥁를 진행합니다!<br/><br/>'버스킹제'를 시행하는 동시에 학우분들의 학습권 또한 최우선으로 고려해야할 가치이기 때문에 소음과 관련하여 더욱 주의를 하여 행사를 진행할 수 있도록 하겠습니다!<br/><br/>일반 학우분들과 공연동아리 소속 학우분들이 다양하고 많은 공연을 준비해주셨으니, 학우 여러분의 많은 관심을 부탁드립니다!<br/><br/>또한, 동시에 버스정류장 앞에서는 코스모폴리탄과 함께하는 💖코스모 트레일러💖에서 다양한 이벤트가 진행될 예정입니다! 코스모 트레일러와 함께 더 다채로운 버스킹제를 즐기시길 바랍니다. :)<br/><br/>2학기에도 언제나 학우 여러분의 외침이 닿을 때까지, 한 걸음 앞에 먼저 서겠습니다!<br/><br/>📍행사일시: 9월 12일(화) 14시 ~ 17시<br/>📍행사장소: 상명대학교 서울캠퍼스 버스정류장 뒤 ‘스뮤스퀘어’<br/>📍행사주관: 제46대 총학생회 선[先]<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대내교류국입니다.<br/><br/>학내 문화 발전 및 교내 공연 희망 수요를 실현하고, 여러분의 개강을 응원하기 위해 9월 12일(화) 상명대학교 ‘스뮤스퀘어’에서 🥁9월 버스킹제🥁를 진행합니다!<br/><br/>'버스킹제'를 시행하는 동시에 학우분들의 학습권 또한 최우선으로 고려해야할 가치이기 때문에 소음과 관련하여 더욱 주의를 하여 행사를 진행할 수 있도록 하겠습니다!<br/><br/>일반 학우분들과 공연동아리 소속 학우분들이 다양하고 많은 공연을 준비해주셨으니, 학우 여러분의 많은 관심을 부탁드립니다!<br/><br/>또한, 동시에 버스정류장 앞에서는 코스모폴리탄과 함께하는 💖코스모 트레일러💖에서 다양한 이벤트가 진행될 예정입니다! 코스모 트레일러와 함께 더 다채로운 버스킹제를 즐기시길 바랍니다. :)<br/><br/>2학기에도 언제나 학우 여러분의 외침이 닿을 때까지, 한 걸음 앞에 먼저 서겠습니다!<br/><br/>📍행사일시: 9월 12일(화) 14시 ~ 17시<br/>📍행사장소: 상명대학교 서울캠퍼스 버스정류장 뒤 ‘스뮤스퀘어’<br/>📍행사주관: 제46대 총학생회 선[先]<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
 		inImg: [
 			{
 				img: Img150_1,
@@ -917,7 +1087,7 @@ export const NoticeData = [
 		owner: "관리자",
 		kind: "공지",
 		content:
-			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>2023학년도 제2학기 상명대학교 교내 축구리그 ⚽️SMCL⚽️의 9월 둘째 주 조별리그 결과 안내드립니다!<br/>매주 월·목요일 상명대학교 운동장에서 진행되는 SMCL, 학우 여러분의 많은 기대와 관심 부탁드립니다!<br/><br/>📍일시: 9월 4일(월) / 9월 7일(목) 18시 10분 ~ 20시 20분<br/>📍장소: 상명대학교 서울캠퍼스 운동장<br/>📍주관: 제46대 총학생회 선[先]<br/><br/>SMCL 관련 문의<br/>🏟️SMCL_Kakao: <a href='' style='color: blue'>https://open.kakao.com/o/sgJfUxcf</a><br/>🏟️SMCL_instagram: @smcl_2023<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>2023학년도 제2학기 상명대학교 교내 축구리그 ⚽️SMCL⚽️의 9월 둘째 주 조별리그 결과 안내드립니다!<br/>매주 월·목요일 상명대학교 운동장에서 진행되는 SMCL, 학우 여러분의 많은 기대와 관심 부탁드립니다!<br/><br/>📍일시: 9월 4일(월) / 9월 7일(목) 18시 10분 ~ 20시 20분<br/>📍장소: 상명대학교 서울캠퍼스 운동장<br/>📍주관: 제46대 총학생회 선[先]<br/><br/>SMCL 관련 문의<br/>🏟️SMCL_Kakao: <a href='' style='color: blue'>https://open.kakao.com/o/sgJfUxcf</a><br/>🏟️SMCL_instagram: @smcl_2023<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
 		inImg: [
 			{
 				img: Img148_1,
@@ -964,7 +1134,7 @@ export const NoticeData = [
 		owner: "관리자",
 		kind: "공지",
 		content:
-			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선(先) 대외협력국입니다.<br/><br/>학우 여러분의 행복한 개강을 응원하기 위해, 코스모폴리탄과 함께 “코스모 트레일러” 행사를 준비하였습니다.<br/><br/>💝참여만 해도 꽝 없는 상품이 와르르<br/><br/>메디힐, 달바, 어반디케이, 프루팁스, 하루틴, 오스떼, 인테이크, 스킨1004, 빈티지헐리우드, 원오세븐, 클로즈업과 함께하는<br/>“코스모 트레일러” 행사! 학우 여러분의 많은 관심 부탁드립니다.<br/><br/>✅ 행사명 : 코스모 트레일러<br/>✅ 일시 : 9/12(화) 12시 ~ 17시<br/>✅ 행사 내용 : 코스모 트레일러 인증샷을 인스타그램 스토리 or 게시물 업로드 시 선착순 1000명 대상 구디백 증정 외 다양한 이벤트 진행 예정<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선(先) 대외협력국입니다.<br/><br/>학우 여러분의 행복한 개강을 응원하기 위해, 코스모폴리탄과 함께 “코스모 트레일러” 행사를 준비하였습니다.<br/><br/>💝참여만 해도 꽝 없는 상품이 와르르<br/><br/>메디힐, 달바, 어반디케이, 프루팁스, 하루틴, 오스떼, 인테이크, 스킨1004, 빈티지헐리우드, 원오세븐, 클로즈업과 함께하는<br/>“코스모 트레일러” 행사! 학우 여러분의 많은 관심 부탁드립니다.<br/><br/>✅ 행사명 : 코스모 트레일러<br/>✅ 일시 : 9/12(화) 12시 ~ 17시<br/>✅ 행사 내용 : 코스모 트레일러 인증샷을 인스타그램 스토리 or 게시물 업로드 시 선착순 1000명 대상 구디백 증정 외 다양한 이벤트 진행 예정<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
 		inVideo: [
 			{
 				video: Video13,
@@ -979,7 +1149,7 @@ export const NoticeData = [
 		owner: "관리자",
 		kind: "공지",
 		content:
-			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>지난 7월 18일부터 21일까지 이천시 대월면에서 진행된 농촌 봉사활동 ‘선[先]행’의 모습을 브이로그로 담아보았습니다! 🎥<br/><br/>코로나 펜데믹 이후 처음으로 진행된 농활이라 더 기대가 컸는데요! 아직 여운이 가시지 않은 학우분들도 많이 계시겠죠?!🫧<br/><br/>총학생회 선[先]과 상명대학교 학우들이 3박 4일 간 농촌에서 어떤 활동을 하고 어떤 추억을 쌓았는지 궁금하신가요? 그렇다면 영상을 통해 확인해보세요!🌿<br/><br/>🔗 youtubeㅣ<a href='https://youtu.be/5ttohvQcewM?si=0Kiilj9UGYti9ZCH' style='color: blue'>https://youtu.be/5ttohvQcewM?si=0Kiilj9UGYti9ZCH</a><br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/><br/>🎵Intro BGMㅣ이진호 - 농번기랩(feat. 유성은)<br/>🎵Music provided by 브금대통령<br/>🎵Track: Happy family, 댕청댕청, 내가 만든 쿠키<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>지난 7월 18일부터 21일까지 이천시 대월면에서 진행된 농촌 봉사활동 ‘선[先]행’의 모습을 브이로그로 담아보았습니다! 🎥<br/><br/>코로나 펜데믹 이후 처음으로 진행된 농활이라 더 기대가 컸는데요! 아직 여운이 가시지 않은 학우분들도 많이 계시겠죠?!🫧<br/><br/>총학생회 선[先]과 상명대학교 학우들이 3박 4일 간 농촌에서 어떤 활동을 하고 어떤 추억을 쌓았는지 궁금하신가요? 그렇다면 영상을 통해 확인해보세요!🌿<br/><br/>🔗 youtubeㅣ<a href='https://youtu.be/5ttohvQcewM?si=0Kiilj9UGYti9ZCH' style='color: blue'>https://youtu.be/5ttohvQcewM?si=0Kiilj9UGYti9ZCH</a><br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/><br/>🎵Intro BGMㅣ이진호 - 농번기랩(feat. 유성은)<br/>🎵Music provided by 브금대통령<br/>🎵Track: Happy family, 댕청댕청, 내가 만든 쿠키<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
 		inVideo: [
 			{
 				video: Video12,
@@ -995,7 +1165,7 @@ export const NoticeData = [
 		owner: "관리자",
 		kind: "공지",
 		content:
-			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 복지사업국입니다🍀<br/><br/>본 총학생회에서 교내 시설 점검 및 안전 관리를 위한 소통 창구를 개설 및 운영합니다.<br/><br/>교내 시설을 이용하시면서 안전 점검이 필요하다고 생각하시는 장소가 있거나,<br/>이와 관련한 건의를 하고자 하시는 학우분들께서는 아래 오픈채팅방 링크로 건의주시면 감사하겠습니다 🏫<br/><br/>앞으로도 다양한 방면에서, 학우분들의 복지를 위해 더욱 노력하도록 하겠습니다. 감사합니다💙<br/><br/>👣 오픈 채팅방 링크<br/><a href='' style='color: blue'>https://open.kakao.com/o/szE41yFf</a><br/><br/>관련하여 문의 사항이 있으시다면, 아래 방법을 통해 연락해주시면 감사하겠습니다🙂<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 복지사업국입니다🍀<br/><br/>본 총학생회에서 교내 시설 점검 및 안전 관리를 위한 소통 창구를 개설 및 운영합니다.<br/><br/>교내 시설을 이용하시면서 안전 점검이 필요하다고 생각하시는 장소가 있거나,<br/>이와 관련한 건의를 하고자 하시는 학우분들께서는 아래 오픈채팅방 링크로 건의주시면 감사하겠습니다 🏫<br/><br/>앞으로도 다양한 방면에서, 학우분들의 복지를 위해 더욱 노력하도록 하겠습니다. 감사합니다💙<br/><br/>👣 오픈 채팅방 링크<br/><a href='' style='color: blue'>https://open.kakao.com/o/szE41yFf</a><br/><br/>관련하여 문의 사항이 있으시다면, 아래 방법을 통해 연락해주시면 감사하겠습니다🙂<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
 		inImg: [
 			{
 				img: Img144_1,
@@ -1011,7 +1181,7 @@ export const NoticeData = [
 		owner: "관리자",
 		kind: "공지",
 		content:
-			"상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>여행, 자기계발, 휴식 등 각자의 많은 방법으로 자신을 발전시키는 방학이 모두 지나가고, 2023학년도 2학기 개강을 맞이했습니다!<br/><br/>본 총학생회에서 항상 즐거웠던 방학을 떠나보내기 아쉬운 학우 여러분을 위해! 개강을 맞이하여❓사라진 방학을 찾습니다❗️행사를 준비하였습니다.<br/><br/>간단한 미니게임들을 통해 학우 여러분께서 캠퍼스에서 간단하게 즐길 수 있도록 구성하였으니, 개강한💪 모습을 보여주세요!<br/><br/>2023학년도 2학기에도 언제나 학우 여러분들의 외침이 닿을 때까지, 한 걸음 앞에 먼저 서겠습니다.<br/><br/>※ 자세한 내용은 아래 본문과 카드뉴스를 함께 참고해주시면 감사하겠습니다.<br/><br/>⭐️ 행사일시: 9월 7일(목) 12시 ~ 17시<br/>⭐️ 행사장소: 상명대학교 서울캠퍼스 밀레니엄관 가는 길목<br/><br/>※ 총학생회비(12,000원) 미납부자는 행사 참여는 가능하지만, 상품 수령은 불가능합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+			"상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>여행, 자기계발, 휴식 등 각자의 많은 방법으로 자신을 발전시키는 방학이 모두 지나가고, 2023학년도 2학기 개강을 맞이했습니다!<br/><br/>본 총학생회에서 항상 즐거웠던 방학을 떠나보내기 아쉬운 학우 여러분을 위해! 개강을 맞이하여❓사라진 방학을 찾습니다❗️행사를 준비하였습니다.<br/><br/>간단한 미니게임들을 통해 학우 여러분께서 캠퍼스에서 간단하게 즐길 수 있도록 구성하였으니, 개강한💪 모습을 보여주세요!<br/><br/>2023학년도 2학기에도 언제나 학우 여러분들의 외침이 닿을 때까지, 한 걸음 앞에 먼저 서겠습니다.<br/><br/>※ 자세한 내용은 아래 본문과 카드뉴스를 함께 참고해주시면 감사하겠습니다.<br/><br/>⭐️ 행사일시: 9월 7일(목) 12시 ~ 17시<br/>⭐️ 행사장소: 상명대학교 서울캠퍼스 밀레니엄관 가는 길목<br/><br/>※ 총학생회비(12,000원) 미납부자는 행사 참여는 가능하지만, 상품 수령은 불가능합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
 		inImg: [
 			{
 				img: Img143_1,
