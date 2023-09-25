@@ -157,6 +157,16 @@ import Img153_6 from "@/assets/education/23/6.jpg";
 import Img153_7 from "@/assets/education/23/7.jpg";
 import Img153_8 from "@/assets/education/23/8.jpg";
 import Img153_9 from "@/assets/education/23/9.jpg";
+import Img158_1 from "@/assets/education/24/1.jpg";
+import Img158_10 from "@/assets/education/24/10.jpg";
+import Img158_2 from "@/assets/education/24/2.jpg";
+import Img158_3 from "@/assets/education/24/3.jpg";
+import Img158_4 from "@/assets/education/24/4.jpg";
+import Img158_5 from "@/assets/education/24/5.jpg";
+import Img158_6 from "@/assets/education/24/6.jpg";
+import Img158_7 from "@/assets/education/24/7.jpg";
+import Img158_8 from "@/assets/education/24/8.jpg";
+import Img158_9 from "@/assets/education/24/9.jpg";
 import Img10_1 from "@/assets/education/3/3-1.png";
 import Img10_2 from "@/assets/education/3/3-2.png";
 import Img10_3 from "@/assets/education/3/3-3.png";
@@ -773,6 +783,59 @@ import Video8 from "@/assets/video/8.mp4";
 import Video9 from "@/assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 158,
+		link: "/info/notice/detail/158",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 학술정보관 어플 편",
+		date: "2023-09-25",
+		owner: "관리자",
+		kind: "학사",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 1학기에 이어, 2학기에도 제공해드리고자 합니다.<br/><br/>9월 넷째 주, '학술정보관 어플'에 대한 사용법을 담았습니다.📚<br/><br/>읽고 싶은 책이 있으면 자료구입 신청을, 대출중인 도서를 더 읽고 싶다면 간편하게 대출기간 연장을!<br/>열람실 좌석 및 스터디룸 예약과 다양한 전자책 및 온라인 강의를📱학술정보관 어플📱로 간편하게 이용 가능합니다.<br/>자세한 내용은 카드뉴스를 확인해주세요.💌<br/><br/>1️⃣ 학술정보관 어플 안내<br/>2️⃣ 자료구입 신청<br/>3️⃣ 대출 관련 사항<br/>4️⃣ 열람실 좌석 예약<br/>5️⃣ 스터디룸 예약<br/>6️⃣ e-contents<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>교육지원국은 2학기에도 매주 유익한 정보로 찾아뵙겠습니다. 추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>💙",
+		inImg: [
+			{
+				img: Img158_1,
+				alt: "img158_1",
+			},
+			{
+				img: Img158_2,
+				alt: "img158_2",
+			},
+			{
+				img: Img158_3,
+				alt: "img158_3",
+			},
+			{
+				img: Img158_4,
+				alt: "img158_4",
+			},
+			{
+				img: Img158_5,
+				alt: "img158_5",
+			},
+			{
+				img: Img158_6,
+				alt: "img158_6",
+			},
+			{
+				img: Img158_7,
+				alt: "img158_7",
+			},
+			{
+				img: Img158_8,
+				alt: "img158_8",
+			},
+			{
+				img: Img158_9,
+				alt: "img158_9",
+			},
+			{
+				img: Img158_10,
+				alt: "img158_10",
+			},
+		],
+	},
 	{
 		id: 157,
 		link: "/info/notice/detail/157",

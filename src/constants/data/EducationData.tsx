@@ -7,6 +7,16 @@ import Img23_6 from "@/assets/education/23/6.jpg";
 import Img23_7 from "@/assets/education/23/7.jpg";
 import Img23_8 from "@/assets/education/23/8.jpg";
 import Img23_9 from "@/assets/education/23/9.jpg";
+import Img24_1 from "@/assets/education/24/1.jpg";
+import Img24_10 from "@/assets/education/24/10.jpg";
+import Img24_2 from "@/assets/education/24/2.jpg";
+import Img24_3 from "@/assets/education/24/3.jpg";
+import Img24_4 from "@/assets/education/24/4.jpg";
+import Img24_5 from "@/assets/education/24/5.jpg";
+import Img24_6 from "@/assets/education/24/6.jpg";
+import Img24_7 from "@/assets/education/24/7.jpg";
+import Img24_8 from "@/assets/education/24/8.jpg";
+import Img24_9 from "@/assets/education/24/9.jpg";
 
 import Img1_1 from "../../assets/education/1/1-1.png";
 import Img1_2 from "../../assets/education/1/1-2.png";
@@ -319,6 +329,59 @@ import noImg9_9 from "../../assets/education/notice/9/9.png";
 import noImg9_title from "../../assets/education/notice/9/title.png";
 
 export const EducationForesightData = [
+	{
+		id: 24,
+		link: "/work/education/foresight/detail/24",
+		img: Img24_1,
+		alt: "img24_1",
+		title: "💙선[先]견지명 - 학술정보관 어플 편💙",
+		date: "2023-09-25",
+		owner: "관리자",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 1학기에 이어, 2학기에도 제공해드리고자 합니다.<br/><br/>9월 넷째 주, '학술정보관 어플'에 대한 사용법을 담았습니다.📚<br/><br/>읽고 싶은 책이 있으면 자료구입 신청을, 대출중인 도서를 더 읽고 싶다면 간편하게 대출기간 연장을!<br/>열람실 좌석 및 스터디룸 예약과 다양한 전자책 및 온라인 강의를📱학술정보관 어플📱로 간편하게 이용 가능합니다.<br/>자세한 내용은 카드뉴스를 확인해주세요.💌<br/><br/>1️⃣ 학술정보관 어플 안내<br/>2️⃣ 자료구입 신청<br/>3️⃣ 대출 관련 사항<br/>4️⃣ 열람실 좌석 예약<br/>5️⃣ 스터디룸 예약<br/>6️⃣ e-contents<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>교육지원국은 2학기에도 매주 유익한 정보로 찾아뵙겠습니다. 추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>💙",
+		inImg: [
+			{
+				img: Img24_1,
+				alt: "img24_1",
+			},
+			{
+				img: Img24_2,
+				alt: "img24_2",
+			},
+			{
+				img: Img24_3,
+				alt: "img24_3",
+			},
+			{
+				img: Img24_4,
+				alt: "img24_4",
+			},
+			{
+				img: Img24_5,
+				alt: "img24_5",
+			},
+			{
+				img: Img24_6,
+				alt: "img24_6",
+			},
+			{
+				img: Img24_7,
+				alt: "img24_7",
+			},
+			{
+				img: Img24_8,
+				alt: "img24_8",
+			},
+			{
+				img: Img24_9,
+				alt: "img24_9",
+			},
+			{
+				img: Img24_10,
+				alt: "img24_10",
+			},
+		],
+	},
 	{
 		id: 23,
 		link: "/work/education/foresight/detail/23",
