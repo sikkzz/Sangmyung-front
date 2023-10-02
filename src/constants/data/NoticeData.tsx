@@ -167,6 +167,16 @@ import Img158_6 from "@/assets/education/24/6.jpg";
 import Img158_7 from "@/assets/education/24/7.jpg";
 import Img158_8 from "@/assets/education/24/8.jpg";
 import Img158_9 from "@/assets/education/24/9.jpg";
+import Img161_1 from "@/assets/education/25/1.jpg";
+import Img161_10 from "@/assets/education/25/10.jpg";
+import Img161_2 from "@/assets/education/25/2.jpg";
+import Img161_3 from "@/assets/education/25/3.jpg";
+import Img161_4 from "@/assets/education/25/4.jpg";
+import Img161_5 from "@/assets/education/25/5.jpg";
+import Img161_6 from "@/assets/education/25/6.jpg";
+import Img161_7 from "@/assets/education/25/7.jpg";
+import Img161_8 from "@/assets/education/25/8.jpg";
+import Img161_9 from "@/assets/education/25/9.jpg";
 import Img10_1 from "@/assets/education/3/3-1.png";
 import Img10_2 from "@/assets/education/3/3-2.png";
 import Img10_3 from "@/assets/education/3/3-3.png";
@@ -520,6 +530,9 @@ import Img156_6 from "@/assets/notice/156/6.jpg";
 import Img156_7 from "@/assets/notice/156/7.jpg";
 import Img156_8 from "@/assets/notice/156/8.jpg";
 import Img156_9 from "@/assets/notice/156/9.jpg";
+import Img159_1 from "@/assets/notice/159/1.jpg";
+import Img159_2 from "@/assets/notice/159/2.jpg";
+import Img160_1 from "@/assets/notice/160/1.jpg";
 import Img17_1 from "@/assets/notice/17/1.jpg";
 import Img17_2 from "@/assets/notice/17/2.jpg";
 import Img17_3 from "@/assets/notice/17/3.jpg";
@@ -783,6 +796,96 @@ import Video8 from "@/assets/video/8.mp4";
 import Video9 from "@/assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 161,
+		link: "/info/notice/detail/161",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 동계 어학연수 프로그램 편",
+		date: "2023-10-02",
+		owner: "관리자",
+		kind: "학사",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 1학기에 이어, 2학기에도 제공해드리고자 합니다.<br/><br/>10월 첫째 주, '동계 어학연수 프로그램'에 대한 모집 공고 사항을 담았습니다.✈️<br/><br/>동계방학 기간에 해외에서 실용 외국어 능력 향상을 위해 경험해보고 싶거나, 외국어 및 외국 문화에 관심이 많다면, 해당 모집 공고를 확인하시어 준비해보면 어떨까요?<br/><br/>1️⃣ 어학연수 프로그램 안내<br/>2️⃣ 장학금 지원<br/>3️⃣ 프로그램 지원자격<br/>4️⃣ 선발방법<br/>5️⃣ 신청방법<br/>6️⃣ 서류 제출방법<br/><br/>총학생회 선[先] 홈페이지(<a href='' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>교육지원국은 2학기에도 매주 유익한 정보로 찾아뵙겠습니다. 추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>💙",
+		inImg: [
+			{
+				img: Img161_1,
+				alt: "img161_1",
+			},
+			{
+				img: Img161_2,
+				alt: "img161_2",
+			},
+			{
+				img: Img161_3,
+				alt: "img161_3",
+			},
+			{
+				img: Img161_4,
+				alt: "img161_4",
+			},
+			{
+				img: Img161_5,
+				alt: "img161_5",
+			},
+			{
+				img: Img161_6,
+				alt: "img161_6",
+			},
+			{
+				img: Img161_7,
+				alt: "img161_7",
+			},
+			{
+				img: Img161_8,
+				alt: "img161_8",
+			},
+			{
+				img: Img161_9,
+				alt: "img161_9",
+			},
+			{
+				img: Img161_10,
+				alt: "img161_10",
+			},
+		],
+	},
+	{
+		id: 160,
+		link: "/info/notice/detail/160",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 10월 첫째 주 학생 청원 답변 안내",
+		date: "2023-10-01",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회에서 학우 여러분과 더욱 적극적으로 소통하고자 팀 스뮤니티와 공동 개설하였던 '학생 청원 게시판'에 10월 첫째 주 답변 등록이 완료되었습니다.<br/><br/>각 청원의 세부 내용과 총학생회 답변 내용은 아래 청원별 링크를 통해 확인해주시길 바랍니다.<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분의 목소리가 닿을 때까지, 한 걸음 앞에 먼저 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>1. 졸업식 가운 + 학사모 변경<br/><a href='https://www.smu-petition.com/petitions/1/' style='color: blue'>https://www.smu-petition.com/petitions/1/</a><br/><br/>※ 100개 이상의 동의를 받은 학생 청원에 대한 답변은 특별한 사정이 없는 한, 본회 내 유관부서 담당자 확인을 통해 청원 동의 기간 만료 후 2주 이내에 게시됩니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img160_1,
+				alt: "img160_1",
+			},
+		],
+	},
+	{
+		id: 159,
+		link: "/info/notice/detail/159",
+		title: "상명대학교 제46대 총학생회 '선[先]' 10월 버스킹제 안내",
+		date: "2023-09-27",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대내교류국입니다.<br/><br/>학내 문화 발전 및 교내 공연 희망 수요를 실현하고, 학내 활발한 문화 발전을 위하여 10월 11일 수요일 상명대학교 ‘스뮤스퀘어’에서 🍁10월 버스킹제🍁를 진행합니다!<br/><br/>저희 총학생회 선[先]은 학우 여러분들의 공연 희망 수요 실현 및 문화 발전을 위하여 정기적인 사업으로 ‘버스킹제’를 시행하고 있습니다.<br/>지난 ‘9월 버스킹 – 선의 바람’에 이어 이번 🍁10월 버스킹제🍁를 개최함을 알려드림과 동시에 학우 여러분들의 많은 관심을 부탁드립니다!<br/><br/>이에 정기적인 버스킹제, ‘10월 버스킹제’의 공연 참가 신청을 전체 학우 여러분을 대상으로 받고자 합니다.<br/>공연 참여를 희망하신다면 아래 구글 폼 링크를 통해 신청해 주시기를 부탁드립니다!<br/><br/>🔸 공연 참여 신청 구글폼 링크<br/>• <a href='https://forms.gle/DNsiubnjSSibgxX9A' style='color: blue'>https://forms.gle/DNsiubnjSSibgxX9A</a><br/><br/>아래는 ‘버스킹제’ 공연과 관련한 세부사항이니 참고 부탁드립니다.<br/><br/>🔹 공연 참여 희망자 신청 기간<br/>• 9월 27일 (수) 20시 ~ 10월 4일 (수) 23시 59분<br/><br/>🔹 공연 참가팀 모집 관련 사항<br/>• 최대 4팀 모집 예정<br/>※ 러닝타임 편성 과정에서 주최 측 사정에 따라 공연 팀 추가 선발이 이루어질 수 있습니다.<br/><br/>🔹 리허설 일정 (가안)<br/>• 10월 11일 (수) 12시 ~13시 30분<br/>※ 공연 참여자 확정 및 공연 순서 확정 이후, 리허설 순서를 배정할 예정입니다.<br/><br/>🔹 일반 학우 본공연 일정 (가안)<br/>• 10월 11일 (수) 14시 ~ 15시<br/><br/>🔹 음원 파일 제출 기간 및 제출 방법<br/>• 음원 파일 수: 최대 3곡, 희망 시 제출<br/>• 음원 파일 제출 마감: 10월 7일 (토) 23시 59분<br/>※ 공연 참가 확정팀을 대상으로 세부 공지사항을 개별적으로 안내드릴 예정입니다.<br/>※ 참가 확정팀 연락 예정일: 10월 5일 (월) 18시<br/><br/>🔹 사용 가능한 기본 음향 장비<br/>• 마이크, 스피커, 음량 조절 믹스 장비<br/><br/>🔸 '버스킹제' 관련 문의<br/>•  대내교류국장 우윤기 (010-8708-1847)<br/>•  제46대 총학생회 선[先] 오픈채팅방 <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>(https://open.kakao.com/o/sXKtjVbf)</a><br/><br/>총학생회 선[先]은 캠퍼스 내에서 함께 만들어나가는 학생 문화의 제고를 위해 한 걸음 앞에 먼저 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img159_1,
+				alt: "img159_1",
+			},
+			{
+				img: Img159_2,
+				alt: "img159_2",
+			},
+		],
+	},
 	{
 		id: 158,
 		link: "/info/notice/detail/158",

@@ -1,23 +1,3 @@
-import Img23_1 from "@/assets/education/23/1.jpg";
-import Img23_2 from "@/assets/education/23/2.jpg";
-import Img23_3 from "@/assets/education/23/3.jpg";
-import Img23_4 from "@/assets/education/23/4.jpg";
-import Img23_5 from "@/assets/education/23/5.jpg";
-import Img23_6 from "@/assets/education/23/6.jpg";
-import Img23_7 from "@/assets/education/23/7.jpg";
-import Img23_8 from "@/assets/education/23/8.jpg";
-import Img23_9 from "@/assets/education/23/9.jpg";
-import Img24_1 from "@/assets/education/24/1.jpg";
-import Img24_10 from "@/assets/education/24/10.jpg";
-import Img24_2 from "@/assets/education/24/2.jpg";
-import Img24_3 from "@/assets/education/24/3.jpg";
-import Img24_4 from "@/assets/education/24/4.jpg";
-import Img24_5 from "@/assets/education/24/5.jpg";
-import Img24_6 from "@/assets/education/24/6.jpg";
-import Img24_7 from "@/assets/education/24/7.jpg";
-import Img24_8 from "@/assets/education/24/8.jpg";
-import Img24_9 from "@/assets/education/24/9.jpg";
-
 import Img1_1 from "../../assets/education/1/1-1.png";
 import Img1_2 from "../../assets/education/1/1-2.png";
 import Img1_3 from "../../assets/education/1/1-3.png";
@@ -328,7 +308,90 @@ import noImg9_8 from "../../assets/education/notice/9/8.png";
 import noImg9_9 from "../../assets/education/notice/9/9.png";
 import noImg9_title from "../../assets/education/notice/9/title.png";
 
+import Img23_1 from "@/assets/education/23/1.jpg";
+import Img23_2 from "@/assets/education/23/2.jpg";
+import Img23_3 from "@/assets/education/23/3.jpg";
+import Img23_4 from "@/assets/education/23/4.jpg";
+import Img23_5 from "@/assets/education/23/5.jpg";
+import Img23_6 from "@/assets/education/23/6.jpg";
+import Img23_7 from "@/assets/education/23/7.jpg";
+import Img23_8 from "@/assets/education/23/8.jpg";
+import Img23_9 from "@/assets/education/23/9.jpg";
+import Img24_1 from "@/assets/education/24/1.jpg";
+import Img24_10 from "@/assets/education/24/10.jpg";
+import Img24_2 from "@/assets/education/24/2.jpg";
+import Img24_3 from "@/assets/education/24/3.jpg";
+import Img24_4 from "@/assets/education/24/4.jpg";
+import Img24_5 from "@/assets/education/24/5.jpg";
+import Img24_6 from "@/assets/education/24/6.jpg";
+import Img24_7 from "@/assets/education/24/7.jpg";
+import Img24_8 from "@/assets/education/24/8.jpg";
+import Img24_9 from "@/assets/education/24/9.jpg";
+import Img25_1 from "@/assets/education/25/1.jpg";
+import Img25_10 from "@/assets/education/25/10.jpg";
+import Img25_2 from "@/assets/education/25/2.jpg";
+import Img25_3 from "@/assets/education/25/3.jpg";
+import Img25_4 from "@/assets/education/25/4.jpg";
+import Img25_5 from "@/assets/education/25/5.jpg";
+import Img25_6 from "@/assets/education/25/6.jpg";
+import Img25_7 from "@/assets/education/25/7.jpg";
+import Img25_8 from "@/assets/education/25/8.jpg";
+import Img25_9 from "@/assets/education/25/9.jpg";
+
 export const EducationForesightData = [
+	{
+		id: 25,
+		link: "/work/education/foresight/detail/25",
+		img: Img25_1,
+		alt: "img25_1",
+		title: "💙선[先]견지명 - 동계 어학연수 프로그램 편💙",
+		date: "2023-10-02",
+		owner: "관리자",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 1학기에 이어, 2학기에도 제공해드리고자 합니다.<br/><br/>10월 첫째 주, '동계 어학연수 프로그램'에 대한 모집 공고 사항을 담았습니다.✈️<br/><br/>동계방학 기간에 해외에서 실용 외국어 능력 향상을 위해 경험해보고 싶거나, 외국어 및 외국 문화에 관심이 많다면, 해당 모집 공고를 확인하시어 준비해보면 어떨까요?<br/><br/>1️⃣ 어학연수 프로그램 안내<br/>2️⃣ 장학금 지원<br/>3️⃣ 프로그램 지원자격<br/>4️⃣ 선발방법<br/>5️⃣ 신청방법<br/>6️⃣ 서류 제출방법<br/><br/>총학생회 선[先] 홈페이지(<a href='' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>교육지원국은 2학기에도 매주 유익한 정보로 찾아뵙겠습니다. 추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>💙",
+		inImg: [
+			{
+				img: Img25_1,
+				alt: "img25_1",
+			},
+			{
+				img: Img25_2,
+				alt: "img25_2",
+			},
+			{
+				img: Img25_3,
+				alt: "img25_3",
+			},
+			{
+				img: Img25_4,
+				alt: "img25_4",
+			},
+			{
+				img: Img25_5,
+				alt: "img25_5",
+			},
+			{
+				img: Img25_6,
+				alt: "img25_6",
+			},
+			{
+				img: Img25_7,
+				alt: "img25_7",
+			},
+			{
+				img: Img25_8,
+				alt: "img25_8",
+			},
+			{
+				img: Img25_9,
+				alt: "img25_9",
+			},
+			{
+				img: Img25_10,
+				alt: "img25_10",
+			},
+		],
+	},
 	{
 		id: 24,
 		link: "/work/education/foresight/detail/24",
