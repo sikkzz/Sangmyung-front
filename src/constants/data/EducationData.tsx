@@ -337,8 +337,66 @@ import Img25_6 from "@/assets/education/25/6.jpg";
 import Img25_7 from "@/assets/education/25/7.jpg";
 import Img25_8 from "@/assets/education/25/8.jpg";
 import Img25_9 from "@/assets/education/25/9.jpg";
+import Img26_1 from "@/assets/education/26/1.jpg";
+import Img26_2 from "@/assets/education/26/2.jpg";
+import Img26_3 from "@/assets/education/26/3.jpg";
+import Img26_4 from "@/assets/education/26/4.jpg";
+import Img26_5 from "@/assets/education/26/5.jpg";
+import Img26_6 from "@/assets/education/26/6.jpg";
+import Img26_7 from "@/assets/education/26/7.jpg";
+import Img26_8 from "@/assets/education/26/8.jpg";
+import Img26_9 from "@/assets/education/26/9.jpg";
 
 export const EducationForesightData = [
+	{
+		id: 26,
+		link: "/work/education/foresight/detail/26",
+		img: Img26_1,
+		alt: "img26_1",
+		title: "💙선[先]견지명 - 해외 봉사활동 편💙",
+		date: "2023-10-09",
+		owner: "관리자",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 1학기에 이어, 2학기에도 제공해드리고자 합니다.<br/><br/>10월 둘째 주, '해외 봉사활동'에 대하여 안내드리려 합니다.🌎<br/><br/>학업 외의 다양한 활동을 통해 2학기를 알차게 보내고 싶으신 학우 분들! 해외 봉사활동에 참여해보시는 건 어떨까요?<br/>현재 모집 중인 해외 봉사활동을 카드뉴스를 통해 확인해보세요!💌<br/><br/>1️⃣ 서울시 청년해외봉사단<br/>2️⃣ 라오스 대학생 해외봉사단<br/><br/>※ 서울시 청년해외봉사단은 '청년 몽땅 정보통 홈페이지'를 통해 온라인 신청을, 라오스 대학생 해외봉사단은 '공고글 내 신청 폼'을 통해 신청할 수 있습니다.<br/><br/>총학생회 선[先] 홈페이지(<a href='' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>교육지원국은 2학기에도 매주 유익한 정보로 찾아뵙겠습니다. 추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>💙",
+		inImg: [
+			{
+				img: Img26_1,
+				alt: "img26_1",
+			},
+			{
+				img: Img26_2,
+				alt: "img26_2",
+			},
+			{
+				img: Img26_3,
+				alt: "img26_3",
+			},
+			{
+				img: Img26_4,
+				alt: "img26_4",
+			},
+			{
+				img: Img26_5,
+				alt: "img26_5",
+			},
+			{
+				img: Img26_6,
+				alt: "img26_6",
+			},
+			{
+				img: Img26_7,
+				alt: "img26_7",
+			},
+			{
+				img: Img26_8,
+				alt: "img26_8",
+			},
+			{
+				img: Img26_9,
+				alt: "img26_9",
+			},
+		],
+	},
 	{
 		id: 25,
 		link: "/work/education/foresight/detail/25",

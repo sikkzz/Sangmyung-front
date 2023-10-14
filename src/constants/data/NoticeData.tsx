@@ -177,6 +177,15 @@ import Img161_6 from "@/assets/education/25/6.jpg";
 import Img161_7 from "@/assets/education/25/7.jpg";
 import Img161_8 from "@/assets/education/25/8.jpg";
 import Img161_9 from "@/assets/education/25/9.jpg";
+import Img162_1 from "@/assets/education/26/1.jpg";
+import Img162_2 from "@/assets/education/26/2.jpg";
+import Img162_3 from "@/assets/education/26/3.jpg";
+import Img162_4 from "@/assets/education/26/4.jpg";
+import Img162_5 from "@/assets/education/26/5.jpg";
+import Img162_6 from "@/assets/education/26/6.jpg";
+import Img162_7 from "@/assets/education/26/7.jpg";
+import Img162_8 from "@/assets/education/26/8.jpg";
+import Img162_9 from "@/assets/education/26/9.jpg";
 import Img10_1 from "@/assets/education/3/3-1.png";
 import Img10_2 from "@/assets/education/3/3-2.png";
 import Img10_3 from "@/assets/education/3/3-3.png";
@@ -533,6 +542,15 @@ import Img156_9 from "@/assets/notice/156/9.jpg";
 import Img159_1 from "@/assets/notice/159/1.jpg";
 import Img159_2 from "@/assets/notice/159/2.jpg";
 import Img160_1 from "@/assets/notice/160/1.jpg";
+import Img163_1 from "@/assets/notice/163/1.jpg";
+import Img163_2 from "@/assets/notice/163/2.jpg";
+import Img163_3 from "@/assets/notice/163/3.jpg";
+import Img163_4 from "@/assets/notice/163/4.jpg";
+import Img163_5 from "@/assets/notice/163/5.jpg";
+import Img164_1 from "@/assets/notice/164/1.jpg";
+import Img164_2 from "@/assets/notice/164/2.jpg";
+import Img164_3 from "@/assets/notice/164/3.jpg";
+import Img164_4 from "@/assets/notice/164/4.jpg";
 import Img17_1 from "@/assets/notice/17/1.jpg";
 import Img17_2 from "@/assets/notice/17/2.jpg";
 import Img17_3 from "@/assets/notice/17/3.jpg";
@@ -786,6 +804,7 @@ import Video14 from "@/assets/video/14.mp4";
 import Video15 from "@/assets/video/15.mp4";
 import Video16 from "@/assets/video/16.mp4";
 import Video17 from "@/assets/video/17.mp4";
+import Video18 from "@/assets/video/18.mp4";
 import Video2 from "@/assets/video/2.mp4";
 import Video3 from "@/assets/video/3.mp4";
 import Video4 from "@/assets/video/4.mp4";
@@ -796,6 +815,130 @@ import Video8 from "@/assets/video/8.mp4";
 import Video9 from "@/assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 165,
+		link: "/info/notice/detail/165",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 10월 버스킹제 Sketch Video ver.",
+		date: "2023-10-12",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[10월 버스킹제, 선의 가을🍂]<br/><br/>🎥 video sketch<br/><br/>버스킹제와 총학생회에서 준비한 행사에 참여해주신 학우 여러분들께 감사다는 말씀 전해드리며, 앞으로 남은 이벤트 및 학생자치사업에도 많은 관심 부탁드립니다 💙<br/><br/>제작ㅣ홍보국<br/>🎵BGMㅣEd Sheeran - Castle On The Hill<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inVideo: [
+			{
+				video: Video18,
+			},
+		],
+	},
+	{
+		id: 164,
+		link: "/info/notice/detail/164",
+		title: "상명대학교 제46대 총학생회 '선[先]' 10월 버스킹제 타임라인 안내",
+		date: "2023-10-10",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대내교류국입니다.<br/><br/>학내 문화 발전 및 교내 공연 희망 수요를 실현하고, 여러분의 ‘중간고사’를 응원하기 위해<br/>10월 11일(수) 상명대학교 ‘스뮤스퀘어’에서 🍁10월 버스킹제🍁를 진행합니다!<br/><br/>‘버스킹제’를 시행하는 동시에 학우분들의 학습권 또한 최우선으로 고려해야 할 가치이기 때문에 소음과 관련하여 더욱 주의를 하여 행사를 진행할 수 있도록 하겠습니다!<br/><br/>일반 학우분들과 공연동아리 소속 학우분들이 다양하고 많은 공연을 준비해주셨습니다!<br/>또한, 함께 진행하는 행사에서 여러 상품과 따뜻한 핫초코☕️, 빵🥨도 준비되어 있으니, 학우 여러분의 많은 관심을 부탁드립니다!<br/><br/>2학기에도 언제나 학우 여러분의 외침이 닿을 때까지, 한 걸음 앞에 먼저 서있겠습니다!<br/><br/>행사일시: 10월 11일(수) 14시~16시<br/>행사장소: 상명대학교 서울캠퍼스 버스정류장 뒤 ‘스뮤스퀘어’<br/>행사주관: 제46대 총학생회 선[先]<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img164_1,
+				alt: "img164_1",
+			},
+			{
+				img: Img164_2,
+				alt: "img164_2",
+			},
+			{
+				img: Img164_3,
+				alt: "img164_3",
+			},
+			{
+				img: Img164_4,
+				alt: "img164_4",
+			},
+		],
+	},
+	{
+		id: 163,
+		link: "/info/notice/detail/163",
+		title: "상명대학교 제46대 총학생회 '선[先]' 10월 버스킹제 프로그램 안내",
+		date: "2023-10-10",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]의 대내교류국입니다.<br/><br/>학내 문화 발전 및 교내 공연 희망 수요를 실현하고, 여러분의 ‘중간고사’를 응원하기 위해<br/>10월 11일(수) 14시부터 상명대학교 ‘스뮤스퀘어’에서 🍁10월 버스킹제🍁를 진행합니다!<br/><br/>일반 학우분들과 공연동아리 소속 학우분들이 다양하고 많은 공연을 준비해주셨으니, 학우 여러분의 많은 관심을 부탁드립니다!<br/><br/>또한, 동시에 ‘스뮤스퀘어’에 방문해주신 학우분들을 대상으로 👊주먹감자라면🍜과<br/>🥨보리지 베이커리🥨의 빵 및 핫초코를 선착순으로 드리니, 다채로운 버스킹제를 즐겨주시길 바랍니다!<br/><br/>2학기에도 언제나 학우 여러분의 외침이 닿을 때까지, 한 걸음 앞에 먼저 서겠습니다!<br/><br/>🔹 행사일시: 10월 11일(수) 14시 ~ 15시 30분<br/>🔹 행사장소: 상명대학교 서울캠퍼스 버스정류장 뒤 ‘스뮤스퀘어’<br/>🔹 행사주관: 제46대 총학생회 선[先]<br/><br/>💙 행사내용<br/>1. 뽑기판 참여하고 선물 받아가자!<br/>: 꽝 없는 추억의 문방구 뽑기를 진행하신 후, 다양한 상품을 받아가세요!<br/>- 1등 상품: 롯데월드 어드벤쳐 대인 종일권(1명)<br/>- 2등 상품: 메가커피 상품권 2만원권(2명)<br/>- 3등 상품: 주먹감자라면(30명)<br/>- 4등, 5등 상품: 수뭉이 스티커, 수뭉이 포스트잇<br/>✔️ 1, 2등 상품의 경우 학생회비 납부자만 수령 가능합니다.<br/><br/>2. 응모 참여하고 핫초코&보리지 베이커리 받아가자!<br/>: 모든 공연 종료 이후(15시 20분 예정) 🥇상품 응모🥇를 진행합니다!<br/>- 1등 상품: 신세계 상품권 100,000원권(1명)<br/>- 2등 상품: 농협안심한우 세트(1명)<br/>- 3등 상품: 뿌링클 + 콜라 세트(2명)<br/>✔️ 버스킹제 관람 시 학우분들을 대상으로 핫초코 및 보리지 베이커리를 드립니다!<br/>✔️ 핫초코 및 보리지 베이커리의 경우 한정된 수량으로 인하여 조기에 소진될 수 있습니다.<br/><br/>3. 주먹감자라면 받아가자!<br/>: 인스타그램 스토리 참여하고 주먹감자라면 받아가자!<br/>1️⃣스뮤스퀘어 내부 주먹감자라면 부스 사진 찍기<br/>2️⃣ #주먹감자라면 태그하여 인스타 스토리 업로드<br/>3️⃣스토리 인증 후 주먹감자라면 수령<br/>✔️ 50개 한정으로 진행하기 때문에 조기에 소진될 수 있습니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img163_1,
+				alt: "img163_1",
+			},
+			{
+				img: Img163_2,
+				alt: "img163_2",
+			},
+			{
+				img: Img163_3,
+				alt: "img163_3",
+			},
+			{
+				img: Img163_4,
+				alt: "img163_4",
+			},
+			{
+				img: Img163_5,
+				alt: "img163_5",
+			},
+		],
+	},
+	{
+		id: 162,
+		link: "/info/notice/detail/162",
+		title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 해외 봉사활동 편",
+		date: "2023-10-09",
+		owner: "관리자",
+		kind: "학사",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 1학기에 이어, 2학기에도 제공해드리고자 합니다.<br/><br/>10월 둘째 주, '해외 봉사활동'에 대하여 안내드리려 합니다.🌎<br/><br/>학업 외의 다양한 활동을 통해 2학기를 알차게 보내고 싶으신 학우 분들! 해외 봉사활동에 참여해보시는 건 어떨까요?<br/>현재 모집 중인 해외 봉사활동을 카드뉴스를 통해 확인해보세요!💌<br/><br/>1️⃣ 서울시 청년해외봉사단<br/>2️⃣ 라오스 대학생 해외봉사단<br/><br/>※ 서울시 청년해외봉사단은 '청년 몽땅 정보통 홈페이지'를 통해 온라인 신청을, 라오스 대학생 해외봉사단은 '공고글 내 신청 폼'을 통해 신청할 수 있습니다.<br/><br/>총학생회 선[先] 홈페이지(<a href='' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>교육지원국은 2학기에도 매주 유익한 정보로 찾아뵙겠습니다. 추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>💙",
+		inImg: [
+			{
+				img: Img162_1,
+				alt: "img162_1",
+			},
+			{
+				img: Img162_2,
+				alt: "img162_2",
+			},
+			{
+				img: Img162_3,
+				alt: "img162_3",
+			},
+			{
+				img: Img162_4,
+				alt: "img162_4",
+			},
+			{
+				img: Img162_5,
+				alt: "img162_5",
+			},
+			{
+				img: Img162_6,
+				alt: "img162_6",
+			},
+			{
+				img: Img162_7,
+				alt: "img162_7",
+			},
+			{
+				img: Img162_8,
+				alt: "img162_8",
+			},
+			{
+				img: Img162_9,
+				alt: "img162_9",
+			},
+		],
+	},
 	{
 		id: 161,
 		link: "/info/notice/detail/161",
@@ -869,7 +1012,7 @@ export const NoticeData = [
 	{
 		id: 159,
 		link: "/info/notice/detail/159",
-		title: "상명대학교 제46대 총학생회 '선[先]' 10월 버스킹제 안내",
+		title: "상명대학교 제46대 총학생회 '선[先]' 10월 버스킹제 신청 안내",
 		date: "2023-09-27",
 		owner: "관리자",
 		kind: "공지",
