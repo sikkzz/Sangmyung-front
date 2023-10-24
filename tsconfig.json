@@ -1,25 +1,26 @@
 {
 	"compilerOptions": {
 		"target": "ESNext",
-		"lib": ["dom", "dom.iterable", "esnext"],
+		"lib": ["ESNext", "DOM", "DOM.Iterable"],
 		"types": ["vite/client", "vite-plugin-svgr/client"],
-		"allowJs": true,
+		"module": "ESNext",
 		"skipLibCheck": true,
-		"esModuleInterop": true,
-		"allowSyntheticDefaultImports": true,
-		"strict": true,
-		"forceConsistentCasingInFileNames": true,
-		"noFallthroughCasesInSwitch": true,
-		"module": "esnext",
-		"moduleResolution": "node",
+		"useDefineForClassFields": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["./src/*"]
+		},
 		"resolveJsonModule": true,
 		"isolatedModules": true,
 		"noEmit": true,
 		"jsx": "react-jsx",
-		"baseUrl": ".",
-		"paths": {
-			"@/*": ["./src/*"]
-		}
+		"strict": true,
+		"moduleResolution": "node",
+		"allowImportingTsExtensions": true,
+		"allowSyntheticDefaultImports": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true
 	},
 	"include": ["src"]
 }
