@@ -186,6 +186,22 @@ import Img162_6 from "@/assets/education/26/6.jpg";
 import Img162_7 from "@/assets/education/26/7.jpg";
 import Img162_8 from "@/assets/education/26/8.jpg";
 import Img162_9 from "@/assets/education/26/9.jpg";
+import Img168_1 from "@/assets/education/27/1.jpg";
+import Img168_2 from "@/assets/education/27/2.jpg";
+import Img168_3 from "@/assets/education/27/3.jpg";
+import Img168_4 from "@/assets/education/27/4.jpg";
+import Img168_5 from "@/assets/education/27/5.jpg";
+import Img168_6 from "@/assets/education/27/6.jpg";
+import Img168_7 from "@/assets/education/27/7.jpg";
+import Img173_1 from "@/assets/education/28/1.jpg";
+import Img173_2 from "@/assets/education/28/2.jpg";
+import Img173_3 from "@/assets/education/28/3.jpg";
+import Img173_4 from "@/assets/education/28/4.jpg";
+import Img173_5 from "@/assets/education/28/5.jpg";
+import Img173_6 from "@/assets/education/28/6.jpg";
+import Img173_7 from "@/assets/education/28/7.jpg";
+import Img173_8 from "@/assets/education/28/8.jpg";
+import Img173_9 from "@/assets/education/28/9.jpg";
 import Img10_1 from "@/assets/education/3/3-1.png";
 import Img10_2 from "@/assets/education/3/3-2.png";
 import Img10_3 from "@/assets/education/3/3-3.png";
@@ -551,9 +567,23 @@ import Img164_1 from "@/assets/notice/164/1.jpg";
 import Img164_2 from "@/assets/notice/164/2.jpg";
 import Img164_3 from "@/assets/notice/164/3.jpg";
 import Img164_4 from "@/assets/notice/164/4.jpg";
+import Img166_1 from "@/assets/notice/166/1.jpg";
+import Img166_2 from "@/assets/notice/166/2.jpg";
+import Img167_1 from "@/assets/notice/167/1.jpg";
+import Img169_1 from "@/assets/notice/169/1.jpg";
+import Img169_2 from "@/assets/notice/169/2.jpg";
 import Img17_1 from "@/assets/notice/17/1.jpg";
 import Img17_2 from "@/assets/notice/17/2.jpg";
 import Img17_3 from "@/assets/notice/17/3.jpg";
+import Img170_1 from "@/assets/notice/170/1.jpg";
+import Img170_2 from "@/assets/notice/170/2.jpg";
+import Img170_3 from "@/assets/notice/170/3.jpg";
+import Img170_4 from "@/assets/notice/170/4.jpg";
+import Img172_1 from "@/assets/notice/172/1.jpg";
+import Img174_1 from "@/assets/notice/174/1.jpg";
+import Img175_1 from "@/assets/notice/175/1.jpg";
+import Img176_1 from "@/assets/notice/176/1.jpg";
+import Img177_1 from "@/assets/notice/177/1.jpg";
 import Img19_1 from "@/assets/notice/19/1.jpg";
 import Img2_1 from "@/assets/notice/2/1.jpg";
 import Img2_2 from "@/assets/notice/2/2.jpg";
@@ -767,6 +797,10 @@ import Img111_1 from "@/assets/partner/11/1.jpg";
 import Img111_2 from "@/assets/partner/11/2.jpg";
 import Img111_3 from "@/assets/partner/11/3.jpg";
 import Img111_4 from "@/assets/partner/11/4.jpg";
+import Img171_1 from "@/assets/partner/12/1.jpg";
+import Img171_2 from "@/assets/partner/12/2.jpg";
+import Img171_3 from "@/assets/partner/12/3.jpg";
+import Img171_4 from "@/assets/partner/12/4.jpg";
 import Img82_1 from "@/assets/partner/2/1.jpg";
 import Img82_2 from "@/assets/partner/2/2.jpg";
 import Img86_1 from "@/assets/partner/3/1.jpg";
@@ -815,6 +849,293 @@ import Video8 from "@/assets/video/8.mp4";
 import Video9 from "@/assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 177,
+		link: "/info/notice/detail/177",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] 시행 안내",
+		date: "2023-11-01",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[2023 동아리 문화제]<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>🍂 2023년 11월, 교내 동아리와 학우들이 함께 즐기는 동아리문화제가 시행됩니다!<br/><br/>✒️ 'Epilogue : 이야기의 마지막, 새로운 시작‘은 2023년 우리들의 소중했던 순간들을 회상함과 동시에, 교내 동아리와 학우들이 함께 어우러지는 우리들만의 시간을 의미합니다.<br/><br/>'Epilogue'를 통해 소중했던 2023년의 여정을 추억과 함께 마무리하시길 기대하겠습니다!<br/><br/>📍행사명: ‘Epilogue : 이야기의 마지막, 새로운 시작’<br/>📍일시: 2023년 11월 9일 10:00~18:00<br/>📍장소: 상명대학교 서울캠퍼스<br/><br/>행사와 관련된 자세한 정보는 차후 업로드 될 예정이오니, 학우 여러분의 많은 관심 부탁드립니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img177_1,
+				alt: "img177_1",
+			},
+		],
+	},
+	{
+		id: 176,
+		link: "/info/notice/detail/176",
+		title: "상명대학교 제46대 총학생회 '선[先]' 10월 캘린더 출간",
+		date: "2023-10-30",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분. 제46대 총학생회 선[先]입니다.<br/><br/>학우 여러분께 11월 주요 학사 일정을 담은 11월 달력을 전해드립니다.<br/>동계 계절수업 교과목 수요조사, 수강신청을 포함하여 중간성적확인 마감일, 다(부)전공, 마이크로 전공 신청/취소 기간 등 여러 교내 일정이 기재되어 있습니다.<br/>뿐만 아니라 중간고사가 끝난 기쁨을 즐길 수 있는 동아리 문화제, 교육지원국X해커스 행사 등 다양한 총학생회 주관 행사도 준비되어 있으니 많은 관심과 기대 부탁드립니다!<br/><br/>가을에서 겨울로 접어드는 11월입니다. 벌써 올해도 두 달밖에 남지 않았는데, 올해 초에 세웠던 계획들은 다 이루셨나요?<br/>아직 이루지 못하셨다면 남은 두 달동안 열심히 노력하여 원하는 바를 이룰 수 있기를 기원합니다.<br/>11월, 깊어가는 가을 풍경처럼 당신의 삶도 아름답게 물들어가는 그런 멋진 날들이길 기대하겠습니다.<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img176_1,
+				alt: "img176_1",
+			},
+		],
+	},
+	{
+		id: 175,
+		link: "/info/notice/detail/175",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 10월 셋째 주 학생 청원 답변 안내",
+		date: "2023-10-30",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회에서 학우 여러분과 더욱 적극적으로 소통하고자 팀 스뮤니티와 공동 개설하였던 '학생 청원 게시판'에 10월 넷째 주 답변 등록이 완료되었습니다.<br/><br/>각 청원의 세부 내용과 총학생회 답변 내용은 아래 청원별 링크를 통해 확인해주시길 바랍니다.<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분의 목소리가 닿을 때까지, 한 걸음 앞에 먼저 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>1. 축제에 대한 학교 입장이 듣고 싶습니다<br/><a href='https://www.smu-petition.com/petitions/6/' style='color: blue'>https://www.smu-petition.com/petitions/6/</a><br/><br/>2. 미술학부의 환경 개선을 요청합니다.<br/><a href='https://www.smu-petition.com/petitions/7/' style='color: blue'>https://www.smu-petition.com/petitions/7/</a><br/><br/>※ 100개 이상의 동의를 받은 학생 청원에 대한 답변은 특별한 사정이 없는 한, 본회 내 유관부서 담당자 확인을 통해 청원 동의 기간 만료 후 2주 이내에 게시됩니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img175_1,
+				alt: "img175_1",
+			},
+		],
+	},
+	{
+		id: 174,
+		link: "/info/notice/detail/174",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 2차 선[先]문선[先]답 설문조사 시행",
+		date: "2023-10-30",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까. 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대내교류국입니다.<br/><br/>대내교류국에서는 학우 여러분과의 소통을 통해 학우분들의 의견과 목소리가 반영될 수 있도록 “선[先]문선[先]답”을 실시하고 있습니다!<br/><br/>두 번째 ‘선[先]문선[先]답’은 ‘학생대표자-총장 간담회 설문 조사’입니다!<br/>2023학년도 2학기 시행 예정인 ‘학생대표자-총장/교무위원 간담회’의 안건을 발의하고 의견을 개진할 목적으로 시행되며, 학우 여러분의 의견을 수렴하여 간담회 시행 이전 최종 안건 정리에 활용하고자 합니다.<br/><br/>학우 여러분들의 목소리를 듣고, 교원 간담회를 통해 학교 측과 더욱 명확하게 소통을 진행한 이후 후속 답안을 여러분께 공유해 드릴 예정입니다.<br/>본 설문 또한 간담회 전 과정을 위한 자료를 수집하고자 제작된 만큼, 학우 여러분의 많은 관심과 참여 부탁드립니다!<br/><br/>앞으로도 ‘선[先]문선[先]답’을 통하여 학우분들의 의견과 목소리를 기반 삼아 더욱 발전된 총학생회가 될 수 있도록 항상 최선을 다하겠습니다💙<br/><br/>🔹설문기간 : 2023.10.30(월) 18시 - 2023.11.03.(금) 24시<br/>🔹설문대상 : 상명대학교 서울캠퍼스 학부생 전원 (휴학생 포함)<br/>🔹참여링크 : <a href='https://forms.gle/JZrPhAZPbjAbHJ3o6' style='color: blue'>https://forms.gle/JZrPhAZPbjAbHJ3o6</a><br/>※ 본 링크는 총학생회 인스타그램 링크트리 및 학과별 단체채팅방에서 확인하실 수 있습니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img174_1,
+				alt: "img174_1",
+			},
+		],
+	},
+	{
+		id: 173,
+		link: "/info/notice/detail/173",
+		title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 동계 계절수업 편",
+		date: "2023-10-30",
+		owner: "관리자",
+		kind: "학사",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>11월 첫째 주, '동계 계절수업'에 대하여 안내드리겠습니다.❄️<br/><br/>2023학년도 제2학기 재학생으로서 계절수업을 통해 학점취득을 희망하는 학우 분들은 카드뉴스를 확인해보세요.💌<br/><br/>1️⃣ 주요 시행방안 : 성적평가, 수업운영 등<br/>2️⃣ 개설희망 교과목 수요조사<br/>3️⃣ 주요 일정 : 수강신청, 개설교과목 공지 등<br/>4️⃣ 성적 관련 일정<br/>5️⃣ 일정 한 눈에 보기<br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img173_1,
+				alt: "img173_1",
+			},
+			{
+				img: Img173_2,
+				alt: "img173_2",
+			},
+			{
+				img: Img173_3,
+				alt: "img173_3",
+			},
+			{
+				img: Img173_4,
+				alt: "img173_4",
+			},
+			{
+				img: Img173_5,
+				alt: "img173_5",
+			},
+			{
+				img: Img173_6,
+				alt: "img173_6",
+			},
+			{
+				img: Img173_7,
+				alt: "img173_7",
+			},
+			{
+				img: Img173_8,
+				alt: "img173_8",
+			},
+			{
+				img: Img173_9,
+				alt: "img173_9",
+			},
+		],
+	},
+	{
+		id: 172,
+		link: "/info/notice/detail/172",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 10월 셋째 주 학생 청원 답변 안내",
+		date: "2023-10-22",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회에서 학우 여러분과 더욱 적극적으로 소통하고자 팀 스뮤니티와 공동 개설하였던 '학생 청원 게시판'에 10월 셋째 주 답변 등록이 완료되었습니다.<br/><br/>각 청원의 세부 내용과 총학생회 답변 내용은 아래 청원별 링크를 통해 확인해주시길 바랍니다.<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분의 목소리가 닿을 때까지, 한 걸음 앞에 먼저 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>1. 열람실 상시 24시간 운영화 건의<br/><a href='https://www.smu-petition.com/petitions/5/' style='color: blue'>https://www.smu-petition.com/petitions/5/</a><br/><br/>※ 100개 이상의 동의를 받은 학생 청원에 대한 답변은 특별한 사정이 없는 한, 본회 내 유관부서 담당자 확인을 통해 청원 동의 기간 만료 후 2주 이내에 게시됩니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img172_1,
+				alt: "img172_1",
+			},
+		],
+	},
+	{
+		id: 171,
+		link: "/info/notice/detail/171",
+		title: "상명대학교 제46대 총학생회 '선[先]' X 티켓 링크 제휴",
+		date: "2023-10-18",
+		owner: "관리자",
+		kind: "제휴",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘열두 번째 최선’으로 티켓링크의 두 가지 공연상품과 제휴를 맺었습니다.<br/><br/>🔹 대상 : 상명대학교 서울캠퍼스 재/휴학생이라면 누구나<br/><br/>학과별 카카오톡 단체 채팅방으로 전달되는 시크릿코드를 입력하면,<br/>뮤지컬 <22년 2개월>과 뮤지컬 <타오르는 어둠 속에서> 2개의 공연 모두 R석 30,000원에 관람하실 수 있습니다!<br/><br/>* 할인기간은 10월 22일까지, 1인 2매에 한함.<br/>* 예매자 상명대학교 서울캠퍼스 학생증 증빙 필수<br/>* 학년별 카카오톡 채팅방을 통한 시크릿코드 확인 필수<br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘. 학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img171_1,
+				alt: "img171_1",
+			},
+			{
+				img: Img171_2,
+				alt: "img171_2",
+			},
+			{
+				img: Img171_3,
+				alt: "img171_3",
+			},
+			{
+				img: Img171_4,
+				alt: "img171_4",
+			},
+		],
+	},
+	{
+		id: 170,
+		link: "/info/notice/detail/170",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 슬로건 공모전 1차 선발작 및 2차 투표 안내",
+		date: "2023-10-17",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회는 교내 커뮤니케이션팀, 천안캠퍼스 총학생회와의 협업을 통해 학생 참여형 슬로건 공모전을 진행 중인 바 있습니다.<br/>내일부터 🗳️1차 심사 선발작에 대한 학우 여러분의 2차 투표🗳️를 시행합니다!<br/><br/>1차 심사를 통과한 아래의 슬로건 선발작 10선 중, 학우 여러분께서 직접 우리 대학의 슬로건으로 선정되기를 원하시는 공모작에 투표해주시면 됩니다.<br/>투표와 관련한 자세한 사항은 아래의 내용 및 자료집을 참고해주시면 감사하겠습니다!<br/><br/>우리 대학의 대표성 있는 슬로건 선정을 위해, 학우 여러분의 많은 투표와 관심을 부탁드립니다. 🫧<br/><br/>🔹 투표 참여 대상: 상명대학교 서울캠퍼스 및 천안캠퍼스 소속 재, 휴학생<br/>🔹 투표 방법: 샘물포털시스템을 통한 투표 (샘물 PUSH 알림 발송 예정)<br/>🔹 투표 기간: 10월 18일 수요일 12시 ~ 10월 29일 일요일 18시<br/><br/>※ 투표 링크는 투표 가능 기간부터 총학생회 공식 인스타그램 프로필 링크에 게재될 예정입니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img170_1,
+				alt: "img170_1",
+			},
+			{
+				img: Img170_2,
+				alt: "img170_2",
+			},
+			{
+				img: Img170_3,
+				alt: "img170_3",
+			},
+			{
+				img: Img170_4,
+				alt: "img170_4",
+			},
+		],
+	},
+	{
+		id: 169,
+		link: "/info/notice/detail/169",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 리또리또 이벤트 시즌2 시행 안내",
+		date: "2023-10-17",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>현재 리또리또에서 리또리또 이벤트 시즌2 “🌡리또의 온도🌡”가 진행되고 있습니다.<br/>이벤트 참여방법은 아래와 같으며, 학우 여러분의 많은 참여 부탁드립니다!<br/><br/>😎 아는 선배의 ~ 아는 후배의 ~ 아는 동기까지 모두 한팀이오~<br/><br/>💡 이벤트 참여방법<br/><br/>✅ 10/17(화) ~ 11/14(화) 이벤트 기간 동안<br/>✅ 상명대학교 서울캠퍼스 구성원 모두가 한 팀이 되어<br/>✅ 리또리또 주문량 일정 개수 달성 시(단계별 CLEAR) 아래와 같은 보상 제공<br/><br/>💝 1단계 클리어 - 1일간 포테이토 토핑 1회 추가 무료<br/>💝 2단계 클리어 - 1일간 음료수 한 캔 무료<br/>💝 3단계 클리어 - 2일간 부리또 50% 할인<br/><br/>💡 유의사항<br/><br/>* 혜택 제공 일자는 이벤트 종료 후 추후 상세 안내드릴 예정입니다.<br/>* 단계별 혜택의 일자는 상이할 예정입니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img169_1,
+				alt: "img169_1",
+			},
+			{
+				img: Img169_2,
+				alt: "img169_2",
+			},
+		],
+	},
+	{
+		id: 168,
+		link: "/info/notice/detail/168",
+		title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 온라인 PSSAP 편",
+		date: "2023-10-16",
+		owner: "관리자",
+		kind: "학사",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 1학기에 이어, 2학기에도 제공해드리고자 합니다.<br/><br/>10월 셋째 주, 현재 모집 중인 교내 외국어 능력향상 프로그램인 'PSSAP'를 안내드리겠습니다.🤓<br/><br/>국내 메이저 외국어 교육 기관인 시원스쿨, YBM과의 협업을 통하여 온라인 교육을 받을 수 있는 프로그램입니다.<br/>우리 대학 재학생이라면 수강료 특별할인이 제공되고, 수료학생에게 교내 장학금 혜택까지 제공되어 보다 저렴한 가격으로 질 높은 교육을 받을 수 있다는 장점이 있습니다!<br/>더 자세한 사항은 해당 카드뉴스를 확인해보세요.💌<br/><br/>1️⃣ PSSAP란?<br/>2️⃣ 프로그램 안내<br/>3️⃣ 유의사항<br/>4️⃣ 시원스쿨 외국어 교육 프로그램<br/>5️⃣ YBM 외국어 교육 프로그램<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img168_1,
+				alt: "img168_1",
+			},
+			{
+				img: Img168_2,
+				alt: "img168_2",
+			},
+			{
+				img: Img168_3,
+				alt: "img168_3",
+			},
+			{
+				img: Img168_4,
+				alt: "img168_4",
+			},
+			{
+				img: Img168_5,
+				alt: "img168_5",
+			},
+			{
+				img: Img168_6,
+				alt: "img168_6",
+			},
+			{
+				img: Img168_7,
+				alt: "img168_7",
+			},
+		],
+	},
+	{
+		id: 167,
+		link: "/info/notice/detail/167",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 10월 둘째 주 학생 청원 답변 안내",
+		date: "2023-10-16",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회에서 학우 여러분과 더욱 적극적으로 소통하고자 팀 스뮤니티와 공동 개설하였던 '학생 청원 게시판'에 10월 둘째 주 답변 등록이 완료되었습니다.<br/><br/>각 청원의 세부 내용과 총학생회 답변 내용은 아래 청원별 링크를 통해 확인해주시길 바랍니다.<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분의 목소리가 닿을 때까지, 한 걸음 앞에 먼저 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>1. 학교가 언제부터 흡연가능구역이었습니까<br/><a href='https://www.smu-petition.com/petitions/4/' style='color: blue'>https://www.smu-petition.com/petitions/4/</a><br/><br/>※ 100개 이상의 동의를 받은 학생 청원에 대한 답변은 특별한 사정이 없는 한, 본회 내 유관부서 담당자 확인을 통해 청원 동의 기간 만료 후 2주 이내에 게시됩니다.<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img167_1,
+				alt: "img167_1",
+			},
+		],
+	},
+	{
+		id: 166,
+		link: "/info/notice/detail/166",
+		title: "상명대학교 제46대 총학생회 '선[先]' 텀블러 캠페인 시행 안내",
+		date: "2023-10-15",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>유난히도 뜨겁던 여름이 지나고, 어느덧 쌀쌀한 가을이 다가와 벌써 2학기 중간고사를 앞두고 있습니다.<br/>본 총학생회에서는 각자의 위치에서 시험을 준비하시느라 전력을 다하고 계신 학우 여러분을 응원하고,<br/>고사기간 중 청결한 학습환경을 조성하기 위해, 교내에 위치한 카페와 함께🌿텀블러 캠페인🌿을 진행하게 되었습니다!<br/><br/>고사기간의 성격상 학우 여러분께서 학교에 남아계시는 시간이 길어질 수 있는 만큼, 배출하는 일회용품의 양 또한 늘어날 가능성이 높을 것으로 보여집니다.<br/> 교내 일회용품 사용을 줄여 원활한 분리수거도 도모하고, 절약된 가격 아래 더욱 편리하게 음료를 보관하실 수 있는 본 텀블러 캠페인 행사에 많은 관심 부탁드립니다.<br/><br/>📍캠페인 일시 : 2023.10.16.(월) - 10.27.(금)<br/>※ 2주간 한시적 시행<br/>📍캠페인 내용 : 텀블러 지참 시 카페 내 모든 음료 할인 적용<br/><br/>☕️ KB 카페드림 300원 할인 (키오스크X, 카운터 주문 필수)<br/>🍶 블루포트 100원 할인<br/><br/>선[先]이 학우 여러분의 시험 기간을 응원하겠습니다. 중간고사 기간 모두 힘내시고, 좋은 결과 있으시길 바랍니다! 💙<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img166_1,
+				alt: "img166_1",
+			},
+			{
+				img: Img166_2,
+				alt: "img166_2",
+			},
+		],
+	},
 	{
 		id: 165,
 		link: "/info/notice/detail/165",
