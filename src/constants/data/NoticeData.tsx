@@ -869,8 +869,8 @@ export const NoticeData = [
 	{
 		id: 176,
 		link: "/info/notice/detail/176",
-		title: "상명대학교 제46대 총학생회 '선[先]' 10월 캘린더 출간",
-		date: "2023-10-30",
+		title: "상명대학교 제46대 총학생회 '선[先]' 11월 캘린더 출간",
+		date: "2023-11-01",
 		owner: "관리자",
 		kind: "공지",
 		content:
