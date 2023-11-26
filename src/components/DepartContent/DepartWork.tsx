@@ -22,7 +22,7 @@ const DepartWork: React.FC<Props> = ({ state }) => {
 				<Box>
 					<Title>주요업무</Title>
 					<WorkBox>
-						{DepartWorkData.map((item, index) => (
+						{DepartWorkData.map((item) => (
 							<>
 								{item.id === state
 									? item.work.map((item, index) => (

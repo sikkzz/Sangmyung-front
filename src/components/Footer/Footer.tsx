@@ -153,7 +153,7 @@ function Footer() {
 				</MDetailContainer>
 				<MDetailContainer>
 					<MDetail>
-						Copyright © Sangmyung university general student council. All
+						Copyright © Sangmyung university general student council. All
 						rights reserved.
 					</MDetail>
 				</MDetailContainer>
@@ -186,7 +186,7 @@ function Footer() {
 							<Detail>이메일 : smu.first2023@gmail.com</Detail>
 						</DetailContainer>
 						<DetailContainer>
-							Copyright © Sangmyung university general student council. All
+							Copyright © Sangmyung university general student council. All
 							rights reserved.
 						</DetailContainer>
 					</CenterContainer>

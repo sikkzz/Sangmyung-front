@@ -50,7 +50,7 @@ function MinuteAdministrativeDetail() {
 	useEffect(() => {
 		setPrevNum(Number(param.id) - 1);
 		setNextNum(Number(param.id) + 1);
-		AdministrativeData.map((item, index) => (
+		AdministrativeData.map((item) => (
 			<>
 				{prevNum === item.id ? setPrevTitle(item.title) : ""}
 				{prevNum === item.id ? setPrevLink(item.link) : ""}

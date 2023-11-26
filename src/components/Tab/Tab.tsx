@@ -17,10 +17,10 @@ const Tab: React.FC<Props> = ({ state }) => {
 			<InnerBox>
 				<FlexBox>
 					<Wrapper>
-						{TabData.map((item, index) => (
+						{TabData.map((item) => (
 							<>
 								{item.id === state
-									? item.sub_item.map((item, index) => (
+									? item.sub_item.map((item) => (
 											<Item
 												onClick={() => {
 													navigate(item.link);

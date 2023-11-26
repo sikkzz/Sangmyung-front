@@ -18,5 +18,6 @@ export const media = (Object.keys(sizes) as Array<keyof typeof sizes>).reduce(
 			`@media (max-width: ${sizes[label] / 16}em) {${style}}`;
 		return acc;
 	},
+	// eslint-disable-next-line @typescript-eslint/ban-types
 	{} as { [index: string]: Function },
 );

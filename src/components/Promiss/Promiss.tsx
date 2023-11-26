@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 import {
 	Layout,
@@ -31,15 +31,7 @@ type PromissProps = {
 	sub2: string;
 };
 
-function Promiss({
-	primary,
-	scroll,
-	id,
-	title,
-	sub,
-	mark,
-	sub2,
-}: PromissProps) {
+function Promiss({ primary, scroll, title, sub, mark, sub2 }: PromissProps) {
 	const [position, setPosition] = useState(0);
 
 	function onScroll() {

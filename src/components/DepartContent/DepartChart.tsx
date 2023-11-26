@@ -31,7 +31,7 @@ function DepartChart() {
 				<Box>
 					<Title>구성원 소개</Title>
 					<ProfileBox>
-						{DepartData.map((item, index) => (
+						{DepartData.map((item) => (
 							<>
 								{item.id === location.pathname.split("/")[3]
 									? item.subItem.map((item, index) => (

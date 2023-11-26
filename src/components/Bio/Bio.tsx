@@ -42,7 +42,7 @@ function Bio({ state }: Props) {
 
 			<MTabBox>
 				<MTabList>
-					{MTabData.map((item, index) => (
+					{MTabData.map((item) => (
 						<>
 							{item.id === state
 								? item.sub_item.map((item, index) => (

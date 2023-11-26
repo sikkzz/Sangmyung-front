@@ -30,7 +30,7 @@ function PledgeDetail({ state }: Props) {
 					<TabBox>
 						<TabInnerBox>
 							<TabList>
-								{PledgeTabData.map((item, index) => (
+								{PledgeTabData.map((item) => (
 									<>
 										{state === item.id ? (
 											<TabItemActive

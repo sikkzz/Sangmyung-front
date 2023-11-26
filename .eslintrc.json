@@ -12,17 +12,6 @@
 		"plugin:prettier/recommended"
 	],
 	"rules": {
-		// "import/extensions": "off",
-		// "import/no-unresolved": "off",
-		// "react/jsx-boolean-value": "off",
-		// "react/prop-types": "off",
-		// "react/react-in-jsx-scope": "off",
-		// "react/jsx-no-useless-fragment": "off",
-		// "react/jsx-props-no-spreading": "off",
-		// "arrow-body-style": "off",
-		// "no-param-reassign": "off",
-		// "prettier/prettier": ["error", { "endOfLine": "auto" }],
-		// "camelcase": "off",
 		"import/order": [
 			"error",
 			{

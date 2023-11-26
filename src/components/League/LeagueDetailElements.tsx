@@ -1,6 +1,6 @@
-import styled from "styled-components";
+// import styled from "styled-components";
 
-import { media } from "../../styles/MediaQuery";
+// import { media } from "../../styles/MediaQuery";
 
 // const TabBox = styled.div``;
 

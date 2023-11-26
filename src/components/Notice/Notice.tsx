@@ -46,8 +46,9 @@ type Props = {
 };
 
 function Notice() {
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const [posts, setPosts] = useState([] as any);
-	const [limit, setLimit] = useState(10);
+	const limit = 10;
 	const [page, setPage] = useState(1);
 	const offset = (page - 1) * limit;
 
@@ -69,6 +70,7 @@ function Notice() {
 	const onSearchClick = (e: React.MouseEvent) => {
 		e.preventDefault();
 
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		const search = posts.filter((item: any) => {
 			return item.title
 				.replace(" ", "")
@@ -87,6 +89,7 @@ function Notice() {
 		if (items === "전체") {
 			setPosts(NoticeData);
 		} else {
+			// eslint-disable-next-line @typescript-eslint/no-explicit-any
 			const list = posts.filter((item: any) => {
 				return item.kind === items;
 			});

@@ -27,6 +27,7 @@ type Props = {
 };
 
 function Event() {
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const [posts, setPosts] = useState([] as any);
 
 	const [userInput, setUserInput] = useState<string>("");
@@ -44,6 +45,7 @@ function Event() {
 	const onSearchClick = (e: React.MouseEvent) => {
 		e.preventDefault();
 
+		// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		const search = posts.filter((item: any) => {
 			return item.content
 				.replace(" ", "")

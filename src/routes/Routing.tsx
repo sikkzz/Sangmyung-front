@@ -22,19 +22,19 @@ import MapPage from "../pages/MapPage";
 import MinuteAdministrativeDetailPage from "../pages/MinuteAdministrativeDetailPage";
 import MinuteCenterDetailPage from "../pages/MinuteCenterDetailPage";
 import MinutePage from "../pages/MinutePage";
+import MinuteRepresentativeDetailPage from "../pages/MinuteRepresentativeDetailPage";
+import MinuteTutuionDetailPage from "../pages/MinuteTutuionDetailPage";
 import NotFoundPage from "../pages/NotFoundPage";
+import NoticeDetailPage from "../pages/NoticeDetailPage";
+import NoticePage from "../pages/NoticePage";
 import OrganizationPage from "../pages/OrganizationPage";
+import PartnerDetailPage from "../pages/PartnerDetailPage";
+import PartnerPage from "../pages/PartnerPage";
 import PledgeDetailPage from "../pages/PledgeDetailPage";
 import PledgeSimplePage from "../pages/PledgeSimplePage";
-import NoticePage from "../pages/NoticePage";
-import NoticeDetailPage from "../pages/NoticeDetailPage";
 import ProducerPage from "../pages/ProducerPage";
 import RentalPage from "../pages/RentalPage";
 import RulePage from "../pages/RulePage";
-import MinuteRepresentativeDetailPage from "../pages/MinuteRepresentativeDetailPage";
-import MinuteTutuionDetailPage from "../pages/MinuteTutuionDetailPage";
-import PartnerPage from "../pages/PartnerPage";
-import PartnerDetailPage from "../pages/PartnerDetailPage";
 import SitemapPage from "../pages/SitemapPage";
 
 function Routing() {

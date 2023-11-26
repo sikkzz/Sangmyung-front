@@ -13,8 +13,6 @@ import {
 	BoardTitle,
 	InfoInnerBox,
 	InfoLeft,
-	DownloadBox,
-	IconBox,
 	InfoRight,
 	PeopleBox,
 	DateBox,
@@ -50,7 +48,7 @@ function MinuteTutionDetail() {
 	useEffect(() => {
 		setPrevNum(Number(param.id) - 1);
 		setNextNum(Number(param.id) + 1);
-		TutionData.map((item, index) => (
+		TutionData.map((item) => (
 			<>
 				{prevNum === item.id ? setPrevTitle(item.title) : ""}
 				{prevNum === item.id ? setPrevLink(item.link) : ""}
@@ -73,14 +71,7 @@ function MinuteTutionDetail() {
 										<BoardTitle>{item.title}</BoardTitle>
 									</TitleBox>
 									<InfoInnerBox>
-										<InfoLeft>
-											{/* <DownloadBox href={item.downloadLink}>
-                        {item.title}
-                      </DownloadBox>
-                      <IconBox href={item.downloadLink}>
-                        <Icons.BiDownload size={20} color="#000" />
-                      </IconBox> */}
-										</InfoLeft>
+										<InfoLeft></InfoLeft>
 										<PeopleBox>작성자 : {item.owner}</PeopleBox>
 										<DateBox>작성일 : {item.date}</DateBox>
 										<InfoRight />

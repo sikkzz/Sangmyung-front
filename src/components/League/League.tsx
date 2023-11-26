@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 import { addMonths, subMonths, format } from "date-fns";
 
@@ -73,14 +72,14 @@ type Props = {
 
 function League() {
 	const [currentMonth, setCurrentMonth] = useState(new Date());
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
 	const [posts, setPosts] = useState([] as any);
 
 	const LeagueDataReverse = LeagueData.reverse();
 
-	const navigate = useNavigate();
-
 	useEffect(() => {
 		setPosts(
+			// eslint-disable-next-line @typescript-eslint/no-explicit-any
 			LeagueDataReverse.filter((item: any) => {
 				return item.month === Number(format(currentMonth, "M"));
 			}),
@@ -222,8 +221,6 @@ function League() {
 									title1,
 									score1,
 									score2,
-									score3,
-									score4,
 									title2,
 									img2,
 									alt2,

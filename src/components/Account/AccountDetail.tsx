@@ -47,7 +47,7 @@ function AccountDetail() {
 	useEffect(() => {
 		setPrevNum(Number(param.id) - 1);
 		setNextNum(Number(param.id) + 1);
-		AccountData.map((item, index) => (
+		AccountData.map((item) => (
 			<>
 				{prevNum === item.id ? setPrevTitle(item.title) : ""}
 				{prevNum === item.id ? setPrevLink(item.link) : ""}

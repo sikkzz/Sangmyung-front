@@ -2,6 +2,7 @@ import { useEffect } from "react";
 
 import { Layout, Col, Box, Title, Sub, MapBox } from "./MapElements";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const { kakao } = window as any;
 
 function Map() {

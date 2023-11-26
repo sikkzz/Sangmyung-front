@@ -13,8 +13,6 @@ import {
 	BoardTitle,
 	InfoInnerBox,
 	InfoLeft,
-	DownloadBox,
-	IconBox,
 	InfoRight,
 	PeopleBox,
 	DateBox,
@@ -52,7 +50,7 @@ function PartnerDetail() {
 	useEffect(() => {
 		setPrevNum(Number(param.id) - 1);
 		setNextNum(Number(param.id) + 1);
-		PartnerData.map((item, index) => (
+		PartnerData.map((item) => (
 			<>
 				{prevNum === item.id ? setPrevTitle(item.title) : ""}
 				{prevNum === item.id ? setPrevLink(item.link) : ""}
@@ -76,18 +74,6 @@ function PartnerDetail() {
 									</TitleBox>
 									<InfoInnerBox>
 										<InfoLeft>
-											{/* {item.download ? (
-                        <>
-                          <DownloadBox href={item.downloadLink}>
-                            {item.downloadTitle}
-                          </DownloadBox>
-                          <IconBox href={item.downloadLink}>
-                            <Icons.BiDownload size={20} color="#000" />
-                          </IconBox>
-                        </>
-                      ) : (
-                        ""
-                      )} */}
 											<PeopleBox>작성자 : {item.owner}</PeopleBox>
 											<DateBox>작성일 : {item.date}</DateBox>
 										</InfoLeft>

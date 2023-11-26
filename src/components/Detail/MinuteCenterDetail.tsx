@@ -50,7 +50,7 @@ function MinuteCenterDetail() {
 	useEffect(() => {
 		setPrevNum(Number(param.id) - 1);
 		setNextNum(Number(param.id) + 1);
-		CenterData.map((item, index) => (
+		CenterData.map((item) => (
 			<>
 				{prevNum === item.id ? setPrevTitle(item.title) : ""}
 				{prevNum === item.id ? setPrevLink(item.link) : ""}

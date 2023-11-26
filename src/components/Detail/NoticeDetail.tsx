@@ -13,8 +13,6 @@ import {
 	BoardTitle,
 	InfoInnerBox,
 	InfoLeft,
-	DownloadBox,
-	IconBox,
 	InfoRight,
 	PeopleBox,
 	DateBox,
@@ -51,7 +49,7 @@ function NoticeDetail() {
 	useEffect(() => {
 		setPrevNum(Number(param.id) - 1);
 		setNextNum(Number(param.id) + 1);
-		NoticeData.map((item, index) => (
+		NoticeData.map((item) => (
 			<>
 				{prevNum === item.id ? setPrevTitle(item.title) : ""}
 				{prevNum === item.id ? setPrevLink(item.link) : ""}

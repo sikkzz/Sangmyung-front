@@ -1,5 +1,6 @@
 import { Nav, Button } from "./PaginationElements";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 function Pagination({ total, limit, page, setPage }: any) {
 	const numPages = Math.ceil(total / limit);
 	const pageArray = new Array(numPages).fill(0);
