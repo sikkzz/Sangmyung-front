@@ -584,6 +584,26 @@ import Img174_1 from "@/assets/notice/174/1.jpg";
 import Img175_1 from "@/assets/notice/175/1.jpg";
 import Img176_1 from "@/assets/notice/176/1.jpg";
 import Img177_1 from "@/assets/notice/177/1.jpg";
+import Img179_1 from "@/assets/notice/179/1.jpg";
+import Img179_2 from "@/assets/notice/179/2.jpg";
+import Img180_1 from "@/assets/notice/180/1.jpg";
+import Img180_10 from "@/assets/notice/180/10.jpg";
+import Img180_2 from "@/assets/notice/180/2.jpg";
+import Img180_3 from "@/assets/notice/180/3.jpg";
+import Img180_4 from "@/assets/notice/180/4.jpg";
+import Img180_5 from "@/assets/notice/180/5.jpg";
+import Img180_6 from "@/assets/notice/180/6.jpg";
+import Img180_7 from "@/assets/notice/180/7.jpg";
+import Img180_8 from "@/assets/notice/180/8.jpg";
+import Img180_9 from "@/assets/notice/180/9.jpg";
+import Img181_1 from "@/assets/notice/181/1.jpg";
+import Img181_2 from "@/assets/notice/181/2.jpg";
+import Img181_3 from "@/assets/notice/181/3.jpg";
+import Img181_4 from "@/assets/notice/181/4.jpg";
+import Img181_5 from "@/assets/notice/181/5.jpg";
+import Img181_6 from "@/assets/notice/181/6.jpg";
+import Img181_7 from "@/assets/notice/181/7.jpg";
+import Img182_1 from "@/assets/notice/182/1.jpg";
 import Img19_1 from "@/assets/notice/19/1.jpg";
 import Img2_1 from "@/assets/notice/2/1.jpg";
 import Img2_2 from "@/assets/notice/2/2.jpg";
@@ -839,6 +859,7 @@ import Video15 from "@/assets/video/15.mp4";
 import Video16 from "@/assets/video/16.mp4";
 import Video17 from "@/assets/video/17.mp4";
 import Video18 from "@/assets/video/18.mp4";
+import Video19 from "@/assets/video/19.mp4";
 import Video2 from "@/assets/video/2.mp4";
 import Video3 from "@/assets/video/3.mp4";
 import Video4 from "@/assets/video/4.mp4";
@@ -849,6 +870,152 @@ import Video8 from "@/assets/video/8.mp4";
 import Video9 from "@/assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 182,
+		link: "/info/notice/detail/182",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 11월 첫째 주 학생 청원 답변 안내",
+		date: "2023-11-05",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회에서 학우 여러분과 더욱 적극적으로 소통하고자 팀 스뮤니티와 공동 개설하였던 '학생 청원 게시판'에 11월 첫째 주 답변 등록이 완료되었습니다.<br/><br/>각 청원의 세부 내용과 총학생회 답변 내용은 아래 청원별 링크를 통해 확인해주시길 바랍니다.<br/><br/>총학생회 선[先]은 앞으로도 학우 여러분의 목소리가 닿을 때까지, 한 걸음 앞에 먼저 서 있겠습니다.<br/><br/>감사합니다.<br/><br/>1. 미술학부의 철야 신청을 요청합니다.<br/>https://www.smu-petition.com/petitions/8/<br/><br/>※ 100개 이상의 동의를 받은 학생 청원에 대한 답변은 특별한 사정이 없는 한, 본회 내 유관부서 담당자 확인을 통해 청원 동의 기간 만료 후 2주 이내에 게시됩니다.",
+		inImg: [
+			{
+				img: Img182_1,
+				alt: "img182_1",
+			},
+		],
+	},
+	{
+		id: 181,
+		link: "/info/notice/detail/181",
+		title: "상명대학교 제46대 총학생회 '선[先]' 9월 버스킹제 결산 내역 공개",
+		date: "2023-11-05",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 재정사무국입니다.<br/><br/>재정사무국에서는 학우 여러분께서 납부하신 학생회비를 집행 및 관리하고 있습니다.<br/><br/>보다 공정하고 투명한 총학생회를 위해, [9월 버스킹제] 결산 내역을 다음과 같이 알려드립니다.<br/><br/>💵 총예산액 금545,200원<br/>💵 총결산액 금545,200원<br/><br/>제46대 총학생회 선[先] 재정사무국은 학우 여러분께서 납부하신 학생회비를 공정하게 집행하고, 투명하게 운영하기 위해 항상 노력할 것을 약속드립니다.<br/><br/>관련하여 추가적인 문의 사항이 있으시다면, 아래 소통 창구를 통해 문의주시길 바랍니다.<br/><br/>감사합니다.<br/><br/>",
+		inImg: [
+			{
+				img: Img181_1,
+				alt: "img181_1",
+			},
+			{
+				img: Img181_2,
+				alt: "img181_2",
+			},
+			{
+				img: Img181_3,
+				alt: "img181_3",
+			},
+			{
+				img: Img181_4,
+				alt: "img181_4",
+			},
+			{
+				img: Img181_5,
+				alt: "img181_5",
+			},
+			{
+				img: Img181_6,
+				alt: "img181_6",
+			},
+			{
+				img: Img181_7,
+				alt: "img181_7",
+			},
+		],
+	},
+	{
+		id: 180,
+		link: "/info/notice/detail/180",
+		title: "상명대학교 제46대 총학생회 '선[先]' 2학기 개강행사 결산 내역 공개",
+		date: "2023-11-05",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 재정사무국입니다.<br/><br/>재정사무국에서는 학우 여러분께서 납부하신 학생회비를 집행 및 관리하고 있습니다.<br/><br/>보다 공정하고 투명한 총학생회를 위해, [2학기 개강행사] 결산 내역을 다음과 같이 알려드립니다.<br/><br/>💵 총예산액 금1,154,500원<br/>💵 총결산액 금1,154,500원<br/><br/>제46대 총학생회 선[先] 재정사무국은 학우 여러분께서 납부하신 학생회비를 공정하게 집행하고, 투명하게 운영하기 위해 항상 노력할 것을 약속드립니다.<br/><br/>관련하여 추가적인 문의 사항이 있으시다면, 아래 소통 창구를 통해 문의주시길 바랍니다.<br/><br/>감사합니다.<br/><br/>",
+		inImg: [
+			{
+				img: Img180_1,
+				alt: "img180_1",
+			},
+			{
+				img: Img180_2,
+				alt: "img180_2",
+			},
+			{
+				img: Img180_3,
+				alt: "img180_3",
+			},
+			{
+				img: Img180_4,
+				alt: "img180_4",
+			},
+			{
+				img: Img180_5,
+				alt: "img180_5",
+			},
+			{
+				img: Img180_6,
+				alt: "img180_6",
+			},
+			{
+				img: Img180_7,
+				alt: "img180_7",
+			},
+			{
+				img: Img180_8,
+				alt: "img180_8",
+			},
+			{
+				img: Img180_9,
+				alt: "img180_9",
+			},
+			{
+				img: Img180_10,
+				alt: "img180_10",
+			},
+		],
+	},
+	{
+		id: 179,
+		link: "/info/notice/detail/179",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] Preview",
+		date: "2023-11-09",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[2023 동아리문화제 콘텐츠 Preview]<br/><br/>각 콘텐츠와 관련된 세부사항은 추후 총학생회 인스타그램(@smu_1st)에 업로드될 예정입니다.<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>📍일시: 2023년 11월 9일 (목요일) 10:00~18:00<br/>📍장소: 상명대학교 서울캠퍼스<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inImg: [
+			{
+				img: Img179_1,
+				alt: "img179_1",
+			},
+			{
+				img: Img179_2,
+				alt: "img179_2",
+			},
+		],
+	},
+	{
+		id: 178,
+		link: "/info/notice/detail/178",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] Teaser release",
+		date: "2023-11-04",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[2023 동아리문화제 Teaser release]<br/><br/>”여러분의 올해는 어땠나요?“<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>곧 다가올 동아리문화제에서 따뜻한 추억을 만들 수 있길 기대하겠습니다 🍂<br/><br/>📍일시: 2023년 11월 9일 (목요일) 10:00~18:00<br/>📍장소: 상명대학교 서울캠퍼스<br/><br/>행사와 관련된 자세한 정보는 차후 업로드 될 예정이오니, 학우 여러분의 많은 관심 부탁드립니다.<br/><br/>제작 ㅣ 제46대 총학생회 선[先] 홍보국<br/><br/>🎵 ㅣ 등대(inst) - 하현상<br/><br/>🫧 그대 외침 닿을 때까지, 한 걸음 앞에 먼저 선[先] 🫧<br/><br/>🌐 Homepage : <a href='https://www.student-smu.com' style='color: blue'>https://www.student-smu.com</a><br/>🌐 Instagram : <a href='https://www.instagram.com/smu_1st' style='color: blue'>smu_1st</a><br/>🌐 Kakao : <a href='https://open.kakao.com/o/sXKtjVbf' style='color: blue'>https://open.kakao.com/o/sXKtjVbf</a>",
+		inVideo: [
+			{
+				video: Video19,
+			},
+		],
+	},
 	{
 		id: 177,
 		link: "/info/notice/detail/177",
