@@ -202,6 +202,14 @@ import Img173_6 from "@/assets/education/28/6.jpg";
 import Img173_7 from "@/assets/education/28/7.jpg";
 import Img173_8 from "@/assets/education/28/8.jpg";
 import Img173_9 from "@/assets/education/28/9.jpg";
+import Img183_1 from "@/assets/education/29/1.jpg";
+import Img183_2 from "@/assets/education/29/2.jpg";
+import Img183_3 from "@/assets/education/29/3.jpg";
+import Img183_4 from "@/assets/education/29/4.jpg";
+import Img183_5 from "@/assets/education/29/5.jpg";
+import Img183_6 from "@/assets/education/29/6.jpg";
+import Img183_7 from "@/assets/education/29/7.jpg";
+import Img183_8 from "@/assets/education/29/8.jpg";
 import Img10_1 from "@/assets/education/3/3-1.png";
 import Img10_2 from "@/assets/education/3/3-2.png";
 import Img10_3 from "@/assets/education/3/3-3.png";
@@ -604,6 +612,36 @@ import Img181_5 from "@/assets/notice/181/5.jpg";
 import Img181_6 from "@/assets/notice/181/6.jpg";
 import Img181_7 from "@/assets/notice/181/7.jpg";
 import Img182_1 from "@/assets/notice/182/1.jpg";
+import Img184_1 from "@/assets/notice/184/1.jpg";
+import Img184_2 from "@/assets/notice/184/2.jpg";
+import Img184_3 from "@/assets/notice/184/3.jpg";
+import Img185_1 from "@/assets/notice/185/1.jpg";
+import Img185_2 from "@/assets/notice/185/2.jpg";
+import Img185_3 from "@/assets/notice/185/3.jpg";
+import Img186_1 from "@/assets/notice/186/1.jpg";
+import Img186_2 from "@/assets/notice/186/2.jpg";
+import Img186_3 from "@/assets/notice/186/3.jpg";
+import Img186_4 from "@/assets/notice/186/4.jpg";
+import Img186_5 from "@/assets/notice/186/5.jpg";
+import Img186_6 from "@/assets/notice/186/6.jpg";
+import Img186_7 from "@/assets/notice/186/7.jpg";
+import Img186_8 from "@/assets/notice/186/8.jpg";
+import Img186_9 from "@/assets/notice/186/9.jpg";
+import Img187_1 from "@/assets/notice/187/1.jpg";
+import Img187_2 from "@/assets/notice/187/2.jpg";
+import Img187_3 from "@/assets/notice/187/3.jpg";
+import Img188_1 from "@/assets/notice/188/1.jpg";
+import Img188_2 from "@/assets/notice/188/2.jpg";
+import Img188_3 from "@/assets/notice/188/3.jpg";
+import Img188_4 from "@/assets/notice/188/4.jpg";
+import Img188_5 from "@/assets/notice/188/5.jpg";
+import Img188_6 from "@/assets/notice/188/6.jpg";
+import Img189_1 from "@/assets/notice/189/1.jpg";
+import Img189_2 from "@/assets/notice/189/2.jpg";
+import Img189_3 from "@/assets/notice/189/3.jpg";
+import Img189_4 from "@/assets/notice/189/4.jpg";
+import Img189_5 from "@/assets/notice/189/5.jpg";
+import Img189_6 from "@/assets/notice/189/6.jpg";
 import Img19_1 from "@/assets/notice/19/1.jpg";
 import Img2_1 from "@/assets/notice/2/1.jpg";
 import Img2_2 from "@/assets/notice/2/2.jpg";
@@ -870,6 +908,248 @@ import Video8 from "@/assets/video/8.mp4";
 import Video9 from "@/assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 189,
+		link: "/info/notice/detail/189",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] 운영 부스 콘텐츠 안내",
+		date: "2023-11-07",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[2023 동아리문화제 총학생회 운영 부스 콘텐츠]<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>📍일시 : 2023년 11월 9일 (목요일) 10:00~18:00<br/>📍장소 : 상명대학교 서울캠퍼스",
+		inImg: [
+			{
+				img: Img189_1,
+				alt: "img189_1",
+			},
+			{
+				img: Img189_2,
+				alt: "img189_2",
+			},
+			{
+				img: Img189_3,
+				alt: "img189_3",
+			},
+			{
+				img: Img189_4,
+				alt: "img189_4",
+			},
+			{
+				img: Img189_5,
+				alt: "img189_5",
+			},
+			{
+				img: Img189_6,
+				alt: "img189_6",
+			},
+		],
+	},
+	{
+		id: 188,
+		link: "/info/notice/detail/188",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] 당일 배치도 및 부스별 운영 콘텐츠",
+		date: "2023-11-07",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[2023 동아리문화제 당일 배치도 및 부스별 운영 콘텐츠]<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>📍일시 : 2023년 11월 9일 (목요일) 10:00~18:00<br/>📍장소 : 상명대학교 서울캠퍼스<br/><br/>각 콘텐츠와 관련된 세부사항은 추후 총학생회 인스타그램(@smu_1st)을 통해 업로드될 예정입니다.",
+		inImg: [
+			{
+				img: Img188_1,
+				alt: "img188_1",
+			},
+			{
+				img: Img188_2,
+				alt: "img188_2",
+			},
+			{
+				img: Img188_3,
+				alt: "img188_3",
+			},
+			{
+				img: Img188_4,
+				alt: "img188_4",
+			},
+			{
+				img: Img188_5,
+				alt: "img188_5",
+			},
+			{
+				img: Img188_6,
+				alt: "img188_6",
+			},
+		],
+	},
+	{
+		id: 187,
+		link: "/info/notice/detail/187",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] 굿즈 판매 안내",
+		date: "2023-11-07",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[2023 동아리문화제 총학생회 굿즈 판매]<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>📍일시 : 2023년 11월 9일 (목요일) 10:00~18:00<br/>📍장소 : 상명대학교 서울캠퍼스",
+		inImg: [
+			{
+				img: Img187_1,
+				alt: "img187_1",
+			},
+			{
+				img: Img187_2,
+				alt: "img187_2",
+			},
+			{
+				img: Img187_3,
+				alt: "img187_3",
+			},
+		],
+	},
+	{
+		id: 186,
+		link: "/info/notice/detail/186",
+		title: "상명대학교 제46대 총학생회 '선[先]' 10월 버스킹제 결산 내역 공개",
+		date: "2023-11-06",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 재정사무국입니다.<br/><br/>재정사무국에서는 학우 여러분께서 납부하신 학생회비를 집행 및 관리하고 있습니다.<br/><br/>보다 공정하고 투명한 총학생회를 위해, [10월 버스킹제] 결산 내역을 다음과 같이 알려드립니다.<br/><br/>💵 총예산액 금700,000원<br/>💵 총결산액 금700,000원<br/><br/>제46대 총학생회 선[先] 재정사무국은 학우 여러분께서 납부하신 학생회비를 공정하게 집행하고, 투명하게 운영하기 위해 항상 노력할 것을 약속드립니다.<br/><br/>관련하여 추가적인 문의 사항이 있으시다면, 아래 소통 창구를 통해 문의주시길 바랍니다.<br/><br/>감사합니다.",
+		inImg: [
+			{
+				img: Img186_1,
+				alt: "img186_1",
+			},
+			{
+				img: Img186_2,
+				alt: "img186_2",
+			},
+			{
+				img: Img186_3,
+				alt: "img186_3",
+			},
+			{
+				img: Img186_4,
+				alt: "img186_4",
+			},
+			{
+				img: Img186_5,
+				alt: "img186_5",
+			},
+			{
+				img: Img186_6,
+				alt: "img186_6",
+			},
+			{
+				img: Img186_7,
+				alt: "img186_7",
+			},
+			{
+				img: Img186_8,
+				alt: "img186_8",
+			},
+			{
+				img: Img186_9,
+				alt: "img186_9",
+			},
+		],
+	},
+	{
+		id: 185,
+		link: "/info/notice/detail/185",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] 리플렛 이벤트 안내",
+		date: "2023-11-06",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[2023 동아리문화제 총학생회 리플렛 이벤트]<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>📍일시 : 2023년 11월 9일 (목요일) 10:00~18:00<br/>📍장소 : 상명대학교 서울캠퍼스",
+		inImg: [
+			{
+				img: Img185_1,
+				alt: "img185_1",
+			},
+			{
+				img: Img185_2,
+				alt: "img185_2",
+			},
+			{
+				img: Img185_3,
+				alt: "img185_3",
+			},
+		],
+	},
+	{
+		id: 184,
+		link: "/info/notice/detail/184",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] 공연 타임테이블 안내",
+		date: "2023-11-06",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[2023 동아리문화제 공연 타임테이블]<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>📍일시 : 2023년 11월 9일 (목요일) 10:00~18:00<br/>📍장소 : 상명대학교 서울캠퍼스",
+		inImg: [
+			{
+				img: Img184_1,
+				alt: "img184_1",
+			},
+			{
+				img: Img184_2,
+				alt: "img184_2",
+			},
+			{
+				img: Img184_3,
+				alt: "img184_3",
+			},
+		],
+	},
+	{
+		id: 183,
+		link: "/info/notice/detail/183",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 온라인 직무박람회 편",
+		date: "2023-11-06",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>11월 둘째 주, '온라인 직무박람회(JOB FAIR)'에 대하여 안내드리겠습니다.<br/><br/>1학기에 미래백년관에서 오프라인으로 진행했던 잡페어가, 2학기에는 온라인으로 진행됩니다!<br/>11월 6일(월)~11월 14일(화)까지 행사 홈페이지에서 해당 시간에 실시간으로 진행되며, 박람회 기간 중 언제든지 다시보기(VOD) 서비스가 가능합니다. 관심 있으신 분들은 카드뉴스를 참고해주세요.💌<br/><br/>1️⃣ 온라인 직무박람회 안내<br/>2️⃣ 직무설명회 일정<br/>3️⃣ 참여혜택<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙",
+		inImg: [
+			{
+				img: Img183_1,
+				alt: "img183_1",
+			},
+			{
+				img: Img183_2,
+				alt: "img183_2",
+			},
+			{
+				img: Img183_3,
+				alt: "img183_3",
+			},
+			{
+				img: Img183_4,
+				alt: "img183_4",
+			},
+			{
+				img: Img183_5,
+				alt: "img183_5",
+			},
+			{
+				img: Img183_6,
+				alt: "img183_6",
+			},
+			{
+				img: Img183_7,
+				alt: "img183_7",
+			},
+			{
+				img: Img183_8,
+				alt: "img183_8",
+			},
+		],
+	},
 	{
 		id: 182,
 		link: "/info/notice/detail/182",
