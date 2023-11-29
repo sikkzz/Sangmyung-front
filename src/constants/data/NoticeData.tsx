@@ -219,6 +219,16 @@ import Img10_6 from "@/assets/education/3/3-6.png";
 import Img10_7 from "@/assets/education/3/3-7.png";
 import Img10_8 from "@/assets/education/3/3-8.png";
 import Img10_9 from "@/assets/education/3/3-9.png";
+import Img198_1 from "@/assets/education/30/1.jpg";
+import Img198_10 from "@/assets/education/30/10.jpg";
+import Img198_2 from "@/assets/education/30/2.jpg";
+import Img198_3 from "@/assets/education/30/3.jpg";
+import Img198_4 from "@/assets/education/30/4.jpg";
+import Img198_5 from "@/assets/education/30/5.jpg";
+import Img198_6 from "@/assets/education/30/6.jpg";
+import Img198_7 from "@/assets/education/30/7.jpg";
+import Img198_8 from "@/assets/education/30/8.jpg";
+import Img198_9 from "@/assets/education/30/9.jpg";
 import Img11_1 from "@/assets/education/4/4-1.png";
 import Img11_2 from "@/assets/education/4/4-2.png";
 import Img11_3 from "@/assets/education/4/4-3.png";
@@ -643,6 +653,29 @@ import Img189_4 from "@/assets/notice/189/4.jpg";
 import Img189_5 from "@/assets/notice/189/5.jpg";
 import Img189_6 from "@/assets/notice/189/6.jpg";
 import Img19_1 from "@/assets/notice/19/1.jpg";
+import Img190_1 from "@/assets/notice/190/1.jpg";
+import Img190_2 from "@/assets/notice/190/2.jpg";
+import Img190_3 from "@/assets/notice/190/3.jpg";
+import Img190_4 from "@/assets/notice/190/4.jpg";
+import Img190_5 from "@/assets/notice/190/5.jpg";
+import Img191_1 from "@/assets/notice/191/1.jpg";
+import Img191_2 from "@/assets/notice/191/2.jpg";
+import Img192_1 from "@/assets/notice/192/1.jpg";
+import Img192_2 from "@/assets/notice/192/2.jpg";
+import Img193_1 from "@/assets/notice/193/1.jpg";
+import Img193_2 from "@/assets/notice/193/2.jpg";
+import Img194_1 from "@/assets/notice/194/1.jpg";
+import Img194_2 from "@/assets/notice/194/2.jpg";
+import Img195_1 from "@/assets/notice/195/1.jpg";
+import Img195_2 from "@/assets/notice/195/2.jpg";
+import Img195_3 from "@/assets/notice/195/3.jpg";
+import Img196_1 from "@/assets/notice/196/1.jpg";
+import Img197_1 from "@/assets/notice/197/1.jpg";
+import Img199_1 from "@/assets/notice/199/1.jpg";
+import Img199_2 from "@/assets/notice/199/2.jpg";
+import Img199_3 from "@/assets/notice/199/3.jpg";
+import Img199_4 from "@/assets/notice/199/4.jpg";
+import Img199_5 from "@/assets/notice/199/5.jpg";
 import Img2_1 from "@/assets/notice/2/1.jpg";
 import Img2_2 from "@/assets/notice/2/2.jpg";
 import Img2_3 from "@/assets/notice/2/3.jpg";
@@ -859,6 +892,13 @@ import Img171_1 from "@/assets/partner/12/1.jpg";
 import Img171_2 from "@/assets/partner/12/2.jpg";
 import Img171_3 from "@/assets/partner/12/3.jpg";
 import Img171_4 from "@/assets/partner/12/4.jpg";
+import Img200_1 from "@/assets/partner/13/1.jpg";
+import Img200_2 from "@/assets/partner/13/2.jpg";
+import Img200_3 from "@/assets/partner/13/3.jpg";
+import Img200_4 from "@/assets/partner/13/4.jpg";
+import Img200_5 from "@/assets/partner/13/5.jpg";
+import Img200_6 from "@/assets/partner/13/6.jpg";
+import Img200_7 from "@/assets/partner/13/7.jpg";
 import Img82_1 from "@/assets/partner/2/1.jpg";
 import Img82_2 from "@/assets/partner/2/2.jpg";
 import Img86_1 from "@/assets/partner/3/1.jpg";
@@ -908,6 +948,307 @@ import Video8 from "@/assets/video/8.mp4";
 import Video9 from "@/assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 200,
+		link: "/info/notice/detail/200",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' X 대림 미술관 《MSCHF: NOTHING IS SACRED》 제휴",
+		date: "2023-11-14",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘열세 번째 최선’으로 서촌 대림미술관의 《MSCHF: NOTHING IS SACRED》와 전시 제휴를 맺었습니다.<br/><br/>상명대학교 서울캠퍼스 재/휴학생이라면 누구나 대림미술관 홈페이지 및 app을 통해 쿠폰코드 mschfsmu23 입력 시 선착순 200명에 한해 전시를 0원에 관람하실 수 있습니다.<br/><br/>✅ (게시물 모든 내용 꼭 필독 부탁드립니다!)<br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘.<br/>학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>[ 제휴 내용 ]<br/><br/>💙 대림미술관 《MSCHF: NOTHING IS SACRED》<br/><br/>🎁 제휴 혜택<br/>대상 : 상명대학교 서울캠퍼스 재/휴학생 모두<br/>혜택 : 선착순 200명에 한해 쿠폰코드 mschfsmu23<br/>입력 시 0원에 관람 가능(1인 1매에 한함)(게시물 내용 필독)",
+		inImg: [
+			{
+				img: Img200_1,
+				alt: "img200_1",
+			},
+			{
+				img: Img200_2,
+				alt: "img200_2",
+			},
+			{
+				img: Img200_3,
+				alt: "img200_3",
+			},
+			{
+				img: Img200_4,
+				alt: "img200_4",
+			},
+			{
+				img: Img200_5,
+				alt: "img200_5",
+			},
+			{
+				img: Img200_6,
+				alt: "img200_6",
+			},
+			{
+				img: Img200_7,
+				alt: "img200_7",
+			},
+		],
+	},
+	{
+		id: 199,
+		link: "/info/notice/detail/199",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 방학선[先]물 행사 프로그램 상세 안내",
+		date: "2023-11-13",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"🎁 해커스와 함께하는 방학선[先]물! 🎁<br/><br/>안녕하십니까, 상명대학교 서울캠퍼스 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>슴우 여러분들! 추워지는 날씨와 함께 종강이 다가오고 있는데요☃️ 이번 겨울방학 계획은 세우셨나요?<br/><br/>겨울방학에는 무엇을 하며 알찬 시간을 보낼지 막막하시다면, 11월 14일 화요일에 열리는 행사에 참여해보세요!<br/><br/>1학기에 왔던 해커스의 캠퍼스 어택이, 이번에는 교육지원국의 행사와 함께 더욱 풍부해졌습니다🥳<br/><br/>📚 해커스 부스에서 단어게임 참여하고 무료 교재도 받고!<br/>🎁 교육지원국 부스에서 4종 자격증 게임에 참여하고 방학선물을 받아가세요! 게임 참여만 해도 선착순 150명에게 방학 선물을 증정합니다!<br/>※ 교육지원국 부스 상품은 2023학년도 2학기 학생회비(12,000원) 납부자만 수령 가능합니다.<br/><br/>📚해커스 캠퍼스어택 : 11월 14일(화) 9시~18시<br/>🎁교육지원국 행사 : 11월 14일(화) 12시~16시<br/>→ 위치 : 밀레니엄관 가는 길목<br/><br/>많은 관심 부탁드립니다. 감사합니다.💙",
+		inImg: [
+			{
+				img: Img199_1,
+				alt: "img199_1",
+			},
+			{
+				img: Img199_2,
+				alt: "img199_2",
+			},
+			{
+				img: Img199_3,
+				alt: "img199_3",
+			},
+			{
+				img: Img199_4,
+				alt: "img199_4",
+			},
+			{
+				img: Img199_5,
+				alt: "img199_5",
+			},
+		],
+	},
+	{
+		id: 198,
+		link: "/info/notice/detail/198",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 자기설계융합전공,학기 편",
+		date: "2023-11-13",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>11월 셋째 주, '자기설계융합전공∙학기'에 대하여 알려드리겠습니다!<br/><br/>자기설계융합전공과 자기설계학기(학점)는 모두 학생이 스스로 본인의 교육과정을 설계하여 이수하는 제도입니다.<br/>'다전공'으로 이수하는 것과 '학기(학점)'로 인정받는 차이점이 있으니 반드시 공지사항을 확인하여 착오가 없으시길 바랍니다!<br/><br/>✔️자기설계융합전공 : 학생 스스로 2개 이상의 전공을 하나의 교육과정으로 융합하여 자신만의 전공교육과정 설계 후 다전공으로 이수하는 제도<br/>✔️자기설계학기(학점) : 학생 스스로 3학점~18학점 이내로 프로그램 설계 후, 교육과정으로 편성∙이수하여 학점 및 학기를 인정받는 제도<br/><br/>1️⃣ 자기설계융합전공이 무엇인가요?<br/>2️⃣ 신청 안내사항 및 절차<br/>3️⃣ 진행 절차<br/>4️⃣ 자기설계학기(학점)가 무엇인가요?<br/>5️⃣ 프로그램 설계 시 유의사항<br/>6️⃣ 프로그램 이수 기간 내 제출 양식<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙",
+		inImg: [
+			{
+				img: Img198_1,
+				alt: "img198_1",
+			},
+			{
+				img: Img198_2,
+				alt: "img198_2",
+			},
+			{
+				img: Img198_3,
+				alt: "img198_3",
+			},
+			{
+				img: Img198_4,
+				alt: "img198_4",
+			},
+			{
+				img: Img198_5,
+				alt: "img198_5",
+			},
+			{
+				img: Img198_6,
+				alt: "img198_6",
+			},
+			{
+				img: Img198_7,
+				alt: "img198_7",
+			},
+			{
+				img: Img198_8,
+				alt: "img198_8",
+			},
+			{
+				img: Img198_9,
+				alt: "img198_9",
+			},
+			{
+				img: Img198_10,
+				alt: "img198_10",
+			},
+		],
+	},
+	{
+		id: 197,
+		link: "/info/notice/detail/197",
+		title: "상명대학교 제46대 총학생회 '선[先]' 방학선[先]물 행사 안내",
+		date: "2023-11-10",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"🎁 해커스와 함께하는 방학선[先]물! 🎁<br/><br/>안녕하십니까, 상명대학교 서울캠퍼스 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>슴우 여러분들! 추워지는 날씨와 함께 종강이 다가오고 있는데요☃️ 이번 겨울방학 계획은 세우셨나요?<br/><br/>겨울방학에는 무엇을 하며 알찬 시간을 보낼지 막막하시다면, 11월 14일 화요일에 열리는 행사에 참여해보세요!<br/><br/>1학기에 왔던 해커스의 캠퍼스 어택이, 이번에는 교육지원국의 행사와 함께 더욱 풍부해졌습니다🥳<br/><br/>📚 해커스 부스에서 단어게임 참여하고 무료 교재도 받고!<br/>🎁 교육지원국 부스에서 4종 자격증 게임에 참여하고 방학선물을 받아가세요!<br/><br/>※ 해커스 캠퍼스 어택 : 11월 14일(화) 9시~18시<br/>※ 교육지원국 행사 : 11월 14일(화) 12시~16시<br/>※ 위치 : 밀레니엄관 가는 길목<br/><br/>많은 관심 부탁드립니다. 감사합니다. 💙",
+		inImg: [
+			{
+				img: Img197_1,
+				alt: "img197_1",
+			},
+		],
+	},
+	{
+		id: 196,
+		link: "/info/notice/detail/196",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] 최종 포스터 Release",
+		date: "2023-11-09",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[2023 동아리문화제 최종 포스터]<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>📍일시 : 2023년 11월 9일 (목요일) 10:00~18:00<br/>📍장소 : 상명대학교 서울캠퍼스<br/><br/>오늘, 동아리문화제가 시행됩니다. 학우 여러분의 많은 관심과 참여 부탁드립니다! 🫧💙",
+		inImg: [
+			{
+				img: Img196_1,
+				alt: "img196_1",
+			},
+		],
+	},
+	{
+		id: 195,
+		link: "/info/notice/detail/195",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] 주먹감자라면 굿즈 이벤트 안내",
+		date: "2023-11-08",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[ 2023 동아리 문화제 ]<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>주먹감자라면 굿즈 이벤트<br/>[나비처럼 날아서 🔥불처럼 쏘라]<br/><br/>일시: 2023.11.09.(THU) 11:00 ~ 18:00<br/>장소: 상명대학교 서울캠퍼스 밀레니엄관 앞 프로모션 부스<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+		inImg: [
+			{
+				img: Img195_1,
+				alt: "img195_1",
+			},
+			{
+				img: Img195_2,
+				alt: "img195_2",
+			},
+			{
+				img: Img195_3,
+				alt: "img195_3",
+			},
+		],
+	},
+	{
+		id: 194,
+		link: "/info/notice/detail/194",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] 외부 기업 협찬 - 유리프",
+		date: "2023-11-08",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[ 2023 동아리 문화제 ]<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>외부 기업 협찬 - 유리프<br/><br/>일시: 2023.11.09.(THU)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+		inImg: [
+			{
+				img: Img194_1,
+				alt: "img194_1",
+			},
+			{
+				img: Img194_2,
+				alt: "img194_2",
+			},
+		],
+	},
+	{
+		id: 193,
+		link: "/info/notice/detail/193",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] 외부 기업 협찬 - 어노브",
+		date: "2023-11-08",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[ 2023 동아리 문화제 ]<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>외부 기업 협찬 - 어노브<br/><br/>일시: 2023.11.09.(THU)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+		inImg: [
+			{
+				img: Img193_1,
+				alt: "img193_1",
+			},
+			{
+				img: Img193_2,
+				alt: "img193_2",
+			},
+		],
+	},
+	{
+		id: 192,
+		link: "/info/notice/detail/192",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] 외부 기업 협찬 - 주먹감자라면",
+		date: "2023-11-08",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[ 2023 동아리 문화제 ]<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>외부 기업 협찬 - 주먹감자라면<br/><br/>일시: 2023.11.09.(THU)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+		inImg: [
+			{
+				img: Img192_1,
+				alt: "img192_1",
+			},
+			{
+				img: Img192_2,
+				alt: "img192_2",
+			},
+		],
+	},
+	{
+		id: 191,
+		link: "/info/notice/detail/191",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] 외부 기업 협찬 - 닥터포헤어",
+		date: "2023-11-08",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[ 2023 동아리 문화제 ]<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>외부 기업 협찬 - 닥터포헤어<br/><br/>일시: 2023.11.09.(THU)<br/>장소: 상명대학교 서울캠퍼스 전역<br/><br/>제46대 상명대학교 서울캠퍼스 총학생회 선[先]",
+		inImg: [
+			{
+				img: Img191_1,
+				alt: "img191_1",
+			},
+			{
+				img: Img191_2,
+				alt: "img191_2",
+			},
+		],
+	},
+	{
+		id: 190,
+		link: "/info/notice/detail/190",
+		title: "상명대학교 제46대 총학생회 '선[先]' 슬로건 공모전 당선작 안내",
+		date: "2023-11-08",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다!<br/><br/>본 총학생회는 교내 커뮤니케이션팀, 천안캠퍼스 총학생회와의 협업을 통해 학생 참여형 슬로건 공모전을 진행하였습니다.<br/>이에 대한 최종 투표가 종료됨과 동시에 최종 수상작을 공유해드리고자 합니다!<br/><br/>수상 확정된 슬로건은 아래 첨부된 이미지를 참고해주시면 감사하겠습니다.<br/><br/>긴 시간 동안 진행된 슬로건 공모전에 많은 관심과 참여를 해주신 학우분들께 진심으로 감사의 인사를 드리며,<br/>저희 총학생회는 학우분들의 의견이 학교에 전달될 수 있도록 앞으로도 최선을 다하겠습니다!<br/><br/>감사합니다. :D<br/><br/>※ 서울캠퍼스/천안캠퍼스 재, 휴학생 및 교직원 포함 전체 유권자 18,416명 중 1,524명이 응답하였습니다.<br/>※ 학생 투표 60%, 교직원 투표 40%의 비율로 슬로건에 점수를 책정한 결과임을 알려드립니다.",
+		inImg: [
+			{
+				img: Img190_1,
+				alt: "img190_1",
+			},
+			{
+				img: Img190_2,
+				alt: "img190_2",
+			},
+			{
+				img: Img190_3,
+				alt: "img190_3",
+			},
+			{
+				img: Img190_4,
+				alt: "img190_4",
+			},
+			{
+				img: Img190_5,
+				alt: "img190_5",
+			},
+		],
+	},
 	{
 		id: 189,
 		link: "/info/notice/detail/189",
