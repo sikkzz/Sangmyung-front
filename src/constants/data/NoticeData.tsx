@@ -229,6 +229,24 @@ import Img198_6 from "@/assets/education/30/6.jpg";
 import Img198_7 from "@/assets/education/30/7.jpg";
 import Img198_8 from "@/assets/education/30/8.jpg";
 import Img198_9 from "@/assets/education/30/9.jpg";
+import Img203_1 from "@/assets/education/31/1.jpg";
+import Img203_2 from "@/assets/education/31/2.jpg";
+import Img203_3 from "@/assets/education/31/3.jpg";
+import Img203_4 from "@/assets/education/31/4.jpg";
+import Img203_5 from "@/assets/education/31/5.jpg";
+import Img203_6 from "@/assets/education/31/6.jpg";
+import Img203_7 from "@/assets/education/31/7.jpg";
+import Img203_8 from "@/assets/education/31/8.jpg";
+import Img203_9 from "@/assets/education/31/9.jpg";
+import Img208_1 from "@/assets/education/32/1.jpg";
+import Img208_2 from "@/assets/education/32/2.jpg";
+import Img208_3 from "@/assets/education/32/3.jpg";
+import Img208_4 from "@/assets/education/32/4.jpg";
+import Img208_5 from "@/assets/education/32/5.jpg";
+import Img208_6 from "@/assets/education/32/6.jpg";
+import Img208_7 from "@/assets/education/32/7.jpg";
+import Img208_8 from "@/assets/education/32/8.jpg";
+import Img208_9 from "@/assets/education/32/9.jpg";
 import Img11_1 from "@/assets/education/4/4-1.png";
 import Img11_2 from "@/assets/education/4/4-2.png";
 import Img11_3 from "@/assets/education/4/4-3.png";
@@ -684,6 +702,81 @@ import Img20_1 from "@/assets/notice/20/1.jpg";
 import Img20_2 from "@/assets/notice/20/2.jpg";
 import Img20_3 from "@/assets/notice/20/3.jpg";
 import Img20_4 from "@/assets/notice/20/4.jpg";
+import Img202_1 from "@/assets/notice/202/1.jpg";
+import Img202_2 from "@/assets/notice/202/2.jpg";
+import Img202_3 from "@/assets/notice/202/3.jpg";
+import Img202_4 from "@/assets/notice/202/4.jpg";
+import Img202_5 from "@/assets/notice/202/5.jpg";
+import Img202_6 from "@/assets/notice/202/6.jpg";
+import Img205_1 from "@/assets/notice/205/1.jpg";
+import Img205_2 from "@/assets/notice/205/2.jpg";
+import Img205_3 from "@/assets/notice/205/3.jpg";
+import Img205_4 from "@/assets/notice/205/4.jpg";
+import Img205_5 from "@/assets/notice/205/5.jpg";
+import Img205_6 from "@/assets/notice/205/6.jpg";
+import Img205_7 from "@/assets/notice/205/7.jpg";
+import Img206_1 from "@/assets/notice/206/1.jpg";
+import Img206_2 from "@/assets/notice/206/2.jpg";
+import Img206_3 from "@/assets/notice/206/3.jpg";
+import Img206_4 from "@/assets/notice/206/4.jpg";
+import Img207_1 from "@/assets/notice/207/1.jpg";
+import Img207_2 from "@/assets/notice/207/2.jpg";
+import Img207_3 from "@/assets/notice/207/3.jpg";
+import Img209_1 from "@/assets/notice/209/1.jpg";
+import Img209_2 from "@/assets/notice/209/2.jpg";
+import Img209_3 from "@/assets/notice/209/3.jpg";
+import Img209_4 from "@/assets/notice/209/4.jpg";
+import Img210_1 from "@/assets/notice/210/1.jpg";
+import Img211_1 from "@/assets/notice/211/1.jpg";
+import Img211_2 from "@/assets/notice/211/2.jpg";
+import Img211_3 from "@/assets/notice/211/3.jpg";
+import Img211_4 from "@/assets/notice/211/4.jpg";
+import Img211_5 from "@/assets/notice/211/5.jpg";
+import Img211_6 from "@/assets/notice/211/6.jpg";
+import Img211_7 from "@/assets/notice/211/7.jpg";
+import Img211_8 from "@/assets/notice/211/8.jpg";
+import Img211_9 from "@/assets/notice/211/9.jpg";
+import Img212_1 from "@/assets/notice/212/1.jpg";
+import Img212_2 from "@/assets/notice/212/2.jpg";
+import Img212_3 from "@/assets/notice/212/3.jpg";
+import Img213_1 from "@/assets/notice/213/1.jpg";
+import Img214_1 from "@/assets/notice/214/1.jpg";
+import Img214_10 from "@/assets/notice/214/10.jpg";
+import Img214_2 from "@/assets/notice/214/2.jpg";
+import Img214_3 from "@/assets/notice/214/3.jpg";
+import Img214_4 from "@/assets/notice/214/4.jpg";
+import Img214_5 from "@/assets/notice/214/5.jpg";
+import Img214_6 from "@/assets/notice/214/6.jpg";
+import Img214_7 from "@/assets/notice/214/7.jpg";
+import Img214_8 from "@/assets/notice/214/8.jpg";
+import Img214_9 from "@/assets/notice/214/9.jpg";
+import Img215_1 from "@/assets/notice/215/1.jpg";
+import Img215_2 from "@/assets/notice/215/2.jpg";
+import Img215_3 from "@/assets/notice/215/3.jpg";
+import Img215_4 from "@/assets/notice/215/4.jpg";
+import Img215_5 from "@/assets/notice/215/5.jpg";
+import Img215_6 from "@/assets/notice/215/6.jpg";
+import Img216_1 from "@/assets/notice/216/1.jpg";
+import Img217_1 from "@/assets/notice/217/1.jpg";
+import Img217_10 from "@/assets/notice/217/10.jpg";
+import Img217_2 from "@/assets/notice/217/2.jpg";
+import Img217_3 from "@/assets/notice/217/3.jpg";
+import Img217_4 from "@/assets/notice/217/4.jpg";
+import Img217_5 from "@/assets/notice/217/5.jpg";
+import Img217_6 from "@/assets/notice/217/6.jpg";
+import Img217_7 from "@/assets/notice/217/7.jpg";
+import Img217_8 from "@/assets/notice/217/8.jpg";
+import Img217_9 from "@/assets/notice/217/9.jpg";
+import Img218_1 from "@/assets/notice/218/1.jpg";
+import Img218_10 from "@/assets/notice/218/10.jpg";
+import Img218_2 from "@/assets/notice/218/2.jpg";
+import Img218_3 from "@/assets/notice/218/3.jpg";
+import Img218_4 from "@/assets/notice/218/4.jpg";
+import Img218_5 from "@/assets/notice/218/5.jpg";
+import Img218_6 from "@/assets/notice/218/6.jpg";
+import Img218_7 from "@/assets/notice/218/7.jpg";
+import Img218_8 from "@/assets/notice/218/8.jpg";
+import Img218_9 from "@/assets/notice/218/9.jpg";
 import Img23_1 from "@/assets/notice/23/1.jpg";
 import Img23_10 from "@/assets/notice/23/10.jpg";
 import Img23_2 from "@/assets/notice/23/2.jpg";
@@ -939,6 +1032,8 @@ import Video17 from "@/assets/video/17.mp4";
 import Video18 from "@/assets/video/18.mp4";
 import Video19 from "@/assets/video/19.mp4";
 import Video2 from "@/assets/video/2.mp4";
+import Video20 from "@/assets/video/20.mp4";
+import Video21 from "@/assets/video/21.mp4";
 import Video3 from "@/assets/video/3.mp4";
 import Video4 from "@/assets/video/4.mp4";
 import Video5 from "@/assets/video/5.mp4";
@@ -948,6 +1043,607 @@ import Video8 from "@/assets/video/8.mp4";
 import Video9 from "@/assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 218,
+		link: "/info/notice/detail/218",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 동아리 문화제 결산 내역 공개 - 2",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 재정사무국입니다.<br/><br/>재정사무국에서는 학우 여러분께서 납부하신 학생회비를 집행 및 관리하고 있습니다.<br/><br/>보다 공정하고 투명한 총학생회를 위해, [동아리 문화제] 결산 내역을 다음과 같이 알려드립니다.<br/><br/>💵 총예산액 금5,854,500원<br/>💵 총결산액 금5,022,100원<br/><br/>제46대 총학생회 선[先] 재정사무국은 학우 여러분께서 납부하신 학생회비를 공정하게 집행하고, 투명하게 운영하기 위해 항상 노력할 것을 약속드립니다.<br/><br/>관련하여 추가적인 문의 사항이 있으시다면, 아래 소통 창구를 통해 문의주시길 바랍니다.<br/><br/>감사합니다.",
+		inImg: [
+			{
+				img: Img218_1,
+				alt: "img218_1",
+			},
+			{
+				img: Img218_2,
+				alt: "img218_2",
+			},
+			{
+				img: Img218_3,
+				alt: "img218_3",
+			},
+			{
+				img: Img218_4,
+				alt: "img218_4",
+			},
+			{
+				img: Img218_5,
+				alt: "img218_5",
+			},
+			{
+				img: Img218_6,
+				alt: "img218_6",
+			},
+			{
+				img: Img218_7,
+				alt: "img218_7",
+			},
+			{
+				img: Img218_8,
+				alt: "img218_8",
+			},
+			{
+				img: Img218_9,
+				alt: "img218_9",
+			},
+			{
+				img: Img218_10,
+				alt: "img218_10",
+			},
+		],
+	},
+	{
+		id: 217,
+		link: "/info/notice/detail/217",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 동아리 문화제 결산 내역 공개 - 1",
+		date: "2023-11-30",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 재정사무국입니다.<br/><br/>재정사무국에서는 학우 여러분께서 납부하신 학생회비를 집행 및 관리하고 있습니다.<br/><br/>보다 공정하고 투명한 총학생회를 위해, [동아리 문화제] 결산 내역을 다음과 같이 알려드립니다.<br/><br/>💵 총예산액 금5,854,500원<br/>💵 총결산액 금5,022,100원<br/><br/>제46대 총학생회 선[先] 재정사무국은 학우 여러분께서 납부하신 학생회비를 공정하게 집행하고, 투명하게 운영하기 위해 항상 노력할 것을 약속드립니다.<br/><br/>관련하여 추가적인 문의 사항이 있으시다면, 아래 소통 창구를 통해 문의주시길 바랍니다.<br/><br/>감사합니다.",
+		inImg: [
+			{
+				img: Img217_1,
+				alt: "img217_1",
+			},
+			{
+				img: Img217_2,
+				alt: "img217_2",
+			},
+			{
+				img: Img217_3,
+				alt: "img217_3",
+			},
+			{
+				img: Img217_4,
+				alt: "img217_4",
+			},
+			{
+				img: Img217_5,
+				alt: "img217_5",
+			},
+			{
+				img: Img217_6,
+				alt: "img217_6",
+			},
+			{
+				img: Img217_7,
+				alt: "img217_7",
+			},
+			{
+				img: Img217_8,
+				alt: "img217_8",
+			},
+			{
+				img: Img217_9,
+				alt: "img217_9",
+			},
+			{
+				img: Img217_10,
+				alt: "img217_10",
+			},
+		],
+	},
+	{
+		id: 216,
+		link: "/info/notice/detail/216",
+		title: "상명대학교 제46대 총학생회 '선[先]' SMCL 상리그 결승 안내",
+		date: "2023-11-30",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>2023학년도 제2학기 상명대학교 교내 축구리그 ⚽️SMCL⚽️의 상리그 결승전 일정을 안내드립니다!<br/>금일 18시 10분부터 상명대학교 운동장에서 진행될 예정이오니 학우 여러분의 많은 관심과 기대 부탁드립니다!<br/><br/>결승전 직후 🏆트로피 수여식🏆 또한 함께 진행될 예정이오니 함께 참석하시어 우승팀을 빛내주시면 감사하겠습니다!<br/><br/>🏁상리그 결승전 안내🏁<br/>🎖️IEMU11 VS NS🎖️<br/><br/>📍일시: 11월 30일 목요일 18시 10분 ~ 19시 30분<br/>📍장소: 상명대학교 서울캠퍼스 운동장 (상명 아트센터 앞)<br/>📍주관: 제46대 총학생회 선[先]",
+		inImg: [
+			{
+				img: Img216_1,
+				alt: "img216_1",
+			},
+		],
+	},
+	{
+		id: 215,
+		link: "/info/notice/detail/215",
+		title: "상명대학교 제46대 총학생회 '선[先]' 학위복 디자인 공모전 시행 안내",
+		date: "2023-11-29",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회는 지난 15일, 교무위원/총장 -학생대표자 간담회 과정에서 학우 여러분을 대표하여 5개의 주요 안건을 발의하였습니다.<br/><br/>그 중, 재학생 소속감 고취를 목적으로, 그리고 앞으로 졸업 시기를 마주할 모든 학우 여러분께서 긍정적이고 행복한 추억 아래 교정에서의 마지막 기억을 남기실 수 있도록,<br/>우리 대학만의 자체적이고 개성 있는 디자인을 가진 학위복과 학사모의 신규 제작 및 학위수여식 시 무료 대여를 요청드린 바 있습니다.<br/><br/>해당 안건 발의 전후로, 본교 학사운영팀과의 추가 논의 및 검토를 통해 학위복 신규 제작을 확정, 총장 승인을 받을 수 있었습니다.<br/><br/>이에, 앞으로의 학위수여식에서 새롭게 마주하게 될 우리만의 학위복을 재학생 단위 디자인 공모전을 통해 접수받고자 합니다.<br/><br/>상명대학교만의 자체적인 학위복 디자인 개발을 위해, 본 공모전에도 많은 학우 여러분의 관심과 참여를 부탁드립니다.<br/><br/>감사합니다.",
+		inImg: [
+			{
+				img: Img215_1,
+				alt: "img215_1",
+			},
+			{
+				img: Img215_2,
+				alt: "img215_2",
+			},
+			{
+				img: Img215_3,
+				alt: "img215_3",
+			},
+			{
+				img: Img215_4,
+				alt: "img215_4",
+			},
+			{
+				img: Img215_5,
+				alt: "img215_5",
+			},
+			{
+				img: Img215_6,
+				alt: "img215_6",
+			},
+		],
+	},
+	{
+		id: 214,
+		link: "/info/notice/detail/214",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' SMCL 명리그 경기 하이라이트 모음",
+		date: "2023-11-29",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[2023 SangMyung Champions League: 명리그 결승]<br/><br/>📷 photo sketch<br/><br/>⚽️사붐 vs 765kV<br/>🏆명리그 우승팀: [765kV]<br/><br/>학우 여러분의 많은 관심과 사랑 덕분에 성황리에 2023학년도 제2학기 교내 축구 리그 [SMCL 명리그]가 종료되었습니다!<br/><br/>마지막까지 힘차게 달려주신 선수분들과 관계자분들, 진심 어린 응원으로 다채로운 SMCL을 만들어주신 관중분들께 깊은 감사의 인사 드립니다.<br/><br/>이후 11월 30일 (목)에 진행될 상리그 결승전에도 학우 여러분의 많은 관심과 기대 부탁드립니다!<br/><br/>🔹장소: 상명대학교 서울캠퍼스 운동장<br/>🔹일시: 11월 27일 (월) 18:10-19:30<br/>🔹주관: 상명대학교 서울캠퍼스 제46대 총학생회 선[先]<br/><br/>촬영 | 제46대 총학생회 선[先] 홍보국",
+		inImg: [
+			{
+				img: Img214_1,
+				alt: "img214_1",
+			},
+			{
+				img: Img214_2,
+				alt: "img214_2",
+			},
+			{
+				img: Img214_3,
+				alt: "img214_3",
+			},
+			{
+				img: Img214_4,
+				alt: "img214_4",
+			},
+			{
+				img: Img214_5,
+				alt: "img214_5",
+			},
+			{
+				img: Img214_6,
+				alt: "img214_6",
+			},
+			{
+				img: Img214_7,
+				alt: "img214_7",
+			},
+			{
+				img: Img214_8,
+				alt: "img214_8",
+			},
+			{
+				img: Img214_9,
+				alt: "img214_9",
+			},
+			{
+				img: Img214_10,
+				alt: "img214_10",
+			},
+		],
+	},
+	{
+		id: 213,
+		link: "/info/notice/detail/213",
+		title: "상명대학교 제46대 총학생회 '선[先]' SMCL 명리그 우승팀 안내",
+		date: "2023-11-28",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>2023학년도 제2학기 상명대학교 교내 축구리그 ⚽️SMCL⚽️ 명리그의 우승팀을 안내 드립니다!<br/><br/>2023학년도 제2학기 SMCL 명리그의 최종 우승팀은 [765kV]입니다. 765kV의 명리그 우승을 진심으로 축하드립니다!<br/><br/>이후 11월 30일 (목)에 진행될 🏅상리그 결승전🏅에도 학우 여러분의 많은 기대와 관심 부탁드립니다!<br/><br/>🏆명리그 최종 우승팀: 765kV",
+		inImg: [
+			{
+				img: Img213_1,
+				alt: "img213_1",
+			},
+		],
+	},
+	{
+		id: 212,
+		link: "/info/notice/detail/212",
+		title: "상명대학교 제46대 총학생회 '선[先]' adobe 공동구매 프로모션 안내",
+		date: "2023-11-28",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까. 상명대학교 서울캠퍼스 총학생회 선[先]입니다.<br/><br/>학우 여러분께서 꾸준히 어도비 크리에이티브 클라우드 관련 수요를 언급해주셨습니다.<br/>이에, 🎨 어도비 전 제품을 사용할 수 있는 학생용 라이센스를 정가보다 32% 할인된 가격인 1년 189,000원에 만나볼 수 있는 기회를 제공해드리고자 합니다!<br/><br/>📋 설문기간은 11/28(화)부터 12/5(화)까지 7일간 진행될 예정입니다. 설문 링크는 본문, QR코드, 인스타그램 프로필링크 참고 부탁드립니다.<br/><br/>❗️설문 링크 : <a href='https://forms.gle/6KfzgEGzE3i4w2tU6' style='color: blue'>https://forms.gle/6KfzgEGzE3i4w2tU6</a><br/><br/>💙 또한, 설문 이후의 진행과정에 있어서 100명 이상의 실수요가 있어야만 진행이 가능하므로,<br/>❗️꼭 실제 구매 수요가 있으신 학우분들께서만 설문 응답 부탁드립니다!<br/><br/>💙 특히 기존에 할인 혜택없이 해당 제품을 구독하고 계셨던 학우분들께서는 해당 공동구매 프로모션을 통해 결제를 진행하실 경우<br/>위약금 없이 기존 제품을 환불하실 수 있습니다.(추후 상세 안내 예정)<br/><br/>학우 여러분의 많은 관심 부탁드리며, 저희 상명대학교 서울캠퍼스 총학생회 선[先]은<br/>학우 여러분의 만족스러운 학교 생활을 위해 임기 끝까지 최선을 다할 것임을 약속드립니다. 감사합니다.<br/><br/>📞관련 문의사항 : 대외협력국장 이지훈 010-8546-6901",
+		inImg: [
+			{
+				img: Img212_1,
+				alt: "img212_1",
+			},
+			{
+				img: Img212_2,
+				alt: "img212_2",
+			},
+			{
+				img: Img212_3,
+				alt: "img212_3",
+			},
+		],
+	},
+	{
+		id: 211,
+		link: "/info/notice/detail/211",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 23-2 총장/교무위원 - 총학생회 간담회 회의록 안내",
+		date: "2023-11-28",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회에서는 11월 15일자로 시행되었던 '2023년도 제2학기 총장/교무위원 - 학생대표자 간담회'에서<br/>본교 학우 여러분을 대표하여 총 5개의 대표 안건을 발의한 바 있습니다. 본 간담회 회의록을 통해 회의 내용 및 답변 등 조치사항을 학우 여러분께 전해드립니다.<br/><br/>자세한 내용은 첨부된 이미지 파일을 통해 확인해주시면 감사하겠습니다.<br/><br/>※ 본 간담회 과정에서 발의되지 않은 학생 건의 및 요청안에 관해서는 유관 행정처와 별도로 소통하여 답변 발생시마다 공지 예정인 점 참고 부탁드립니다.<br/><br/>제46대 총학생회 선[先]은 학우 여러분께서 더 나은 학교생활을 영위하실 수 있도록, 학교의 발전을 위해 끝까지 최선을 다해 목소리를 내며 노력하도록 하겠습니다.<br/><br/>감사합니다.",
+		inImg: [
+			{
+				img: Img211_1,
+				alt: "img211_1",
+			},
+			{
+				img: Img211_2,
+				alt: "img211_2",
+			},
+			{
+				img: Img211_3,
+				alt: "img211_3",
+			},
+			{
+				img: Img211_4,
+				alt: "img211_4",
+			},
+			{
+				img: Img211_5,
+				alt: "img211_5",
+			},
+			{
+				img: Img211_6,
+				alt: "img211_6",
+			},
+			{
+				img: Img211_7,
+				alt: "img211_7",
+			},
+			{
+				img: Img211_8,
+				alt: "img211_8",
+			},
+			{
+				img: Img211_9,
+				alt: "img211_9",
+			},
+		],
+	},
+	{
+		id: 210,
+		link: "/info/notice/detail/210",
+		title: "상명대학교 제46대 총학생회 '선[先]' SMCL 명리그 결승전 안내",
+		date: "2023-11-27",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>2023학년도 제2학기 상명대학교 교내 축구리그 ⚽️SMCL⚽️의 명리그 결승전 일정을 안내드립니다!<br/>금일 18시 10분부터 상명대학교 운동장에서 진행될 예정이오니 학우 여러분의 많은 관심과 기대 부탁드립니다!<br/>결승전 직후 🏆트로피 수여식🏆 또한 함께 진행될 예정이오니 함께 참석하시어 우승팀을 빛내주시면 감사하겠습니다!<br/><br/>이후 목요일에는 🏅상리그 결승전🏅 또한 진행될 예정이오니 학우 여러분의 많은 관심 부탁드립니다!<br/><br/>🏁명리그 결승전 안내🏁<br/>🎖️사붐 VS 765kV🎖️<br/><br/>📍일시: 11월 27일 월요일 18시 10분 ~ 19시 30분<br/>📍장소: 상명대학교 서울캠퍼스 운동장 (상명 아트센터 앞)<br/>📍주관: 제46대 총학생회 선[先]<br/><br/>SMCL 관련 문의<br/>🏟️SMCL_Kakao: https://open.kakao.com/o/sgJfUxcf<br/>🏟️SMCL_instagram: @smcl_2023",
+		inImg: [
+			{
+				img: Img210_1,
+				alt: "img210_1",
+			},
+		],
+	},
+	{
+		id: 209,
+		link: "/info/notice/detail/209",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' SMCL 본선 경기 및 3,4위전 결과 안내",
+		date: "2023-11-27",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>2023학년도 제2학기 상명대학교 교내 축구리그 ⚽️SMCL⚽️의 본선 리그 및 3·4위전 결과를 알려드립니다!<br/>이후 이번 주부터는 상/명리그 결승이 진행될 예정이오니 학우 여러분의 많은 관심 부탁드립니다.<br/><br/>🏁결승전 일정<br/>🏅상리그: IEMU11 VS NS | 11월 30일(목) 18:10<br/>🎖️명리그: 사붐 VS 765kV | 11월 27일(월) 18:10<br/><br/>📍일시: 매주 월·목요일 18시 10분 ~ 19시 30분<br/>📍장소: 상명대학교 서울캠퍼스 운동장<br/>📍주관: 제46대 총학생회 선[先]<br/><br/>SMCL 관련 문의<br/>🏟️SMCL_Kakao: https://open.kakao.com/o/sgJfUxcf<br/>🏟️SMCL_instagram: @smcl_2023",
+		inImg: [
+			{
+				img: Img209_1,
+				alt: "img209_1",
+			},
+			{
+				img: Img209_2,
+				alt: "img209_2",
+			},
+			{
+				img: Img209_3,
+				alt: "img209_3",
+			},
+			{
+				img: Img209_4,
+				alt: "img209_4",
+			},
+		],
+	},
+	{
+		id: 208,
+		link: "/info/notice/detail/208",
+		title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 대외활동 편",
+		date: "2023-11-27",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>12월 첫째 주, 다양한 대외활동 정보를 가져왔습니다!<br/><br/>🗣️ SK 행복재단 Sunny Scholoar 3기<br/>🎬 대학생 크리에이터 YBM 프렌즈 1기<br/>🎅🏻 KT&G 복지재단 일일산타 봉사자<br/><br/>자세한 내용은 카드뉴스를 참고해주세요.💌<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙",
+		inImg: [
+			{
+				img: Img208_1,
+				alt: "img208_1",
+			},
+			{
+				img: Img208_2,
+				alt: "img208_2",
+			},
+			{
+				img: Img208_3,
+				alt: "img208_3",
+			},
+			{
+				img: Img208_4,
+				alt: "img208_4",
+			},
+			{
+				img: Img208_5,
+				alt: "img208_5",
+			},
+			{
+				img: Img208_6,
+				alt: "img208_6",
+			},
+			{
+				img: Img208_7,
+				alt: "img208_7",
+			},
+			{
+				img: Img208_8,
+				alt: "img208_8",
+			},
+			{
+				img: Img208_9,
+				alt: "img208_9",
+			},
+		],
+	},
+	{
+		id: 207,
+		link: "/info/notice/detail/207",
+		title: "상명대학교 제46대 총학생회 '선[先]' 굿즈 상시 판매 안내",
+		date: "2023-11-24",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>종강을 약 한 달 정도 앞두고 있는 지금, 총학생회에서 자체제작한 굿즈 3종을 상시판매합니다!<br/>자세한 사항은 아래 본문과 첨부된 이미지를 참고해주시면 감사하겠습니다.<br/><br/>🛍️ 판매 기간 : 11.23(목) - 12.15(금), 평일 12시 - 18시<br/>🛍️ 판매 장소 : 학생회관 2층 총학생회실 (H212호)<br/><br/>✔️ 판매 품목 및 가격 : 담요 5,000원 / 뱃지 4,000원 / 스티커 2,500원<br/><br/>※ 구매 방법 및 품목 사진은 첨부된 이미지를 참고해주시길 부탁드립니다.<br/><br/>총학생회 굿즈와 함께 따뜻한 겨울 나시길 바랍니다! ☃️ 감사합니다.",
+		inImg: [
+			{
+				img: Img207_1,
+				alt: "img207_1",
+			},
+			{
+				img: Img207_2,
+				alt: "img207_2",
+			},
+			{
+				img: Img207_3,
+				alt: "img207_3",
+			},
+		],
+	},
+	{
+		id: 206,
+		link: "/info/notice/detail/206",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 리또리또 이벤트 시즌2 결과 안내",
+		date: "2023-11-21",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>10/17(화)부터 11/14(화)까지 진행한 리또리또 이벤트 시즌2 “🌡리또의 온도🌡”가 여러분들의 많은 성원 속에 마무리되었습니다.<br/>이벤트에 참여해주신 학우분들 모두 감사드립니다!<br/><br/>이벤트의 결과를 안내드립니다!<br/><br/>💡이벤트 결과안내<br/><br/>✅ 1단계(3,200개) 클리어<br/>💝 혜택 : 1일간 포테이토 토핑 1회 추가 무료<br/><br/>🎁 깜짝 추가 이벤트<br/><br/>✅ 리또리또 사장님께서 감사의 의미로 1일간 부리또 50% 할인을 진행하고 싶다는 의사를 전달해주셨습니다!<br/><br/>💡이벤트 일정안내<br/><br/>11/22(수) : 포테이토 토핑 1회 추가 무료<br/>11/23(목) : 부리또 50% 할인 (300개 한정)<br/><br/>💡유의사항<br/><br/>* 부리또 1개 50% 할인은 닭/소/믹스(닭,소)/치킨텐더에만 해당(토핑 추가 별도 금액)<br/>* 모든 혜택은 1인 1회에 한합니다.",
+		inImg: [
+			{
+				img: Img206_1,
+				alt: "img206_1",
+			},
+			{
+				img: Img206_2,
+				alt: "img206_2",
+			},
+			{
+				img: Img206_3,
+				alt: "img206_3",
+			},
+			{
+				img: Img206_4,
+				alt: "img206_4",
+			},
+		],
+	},
+	{
+		id: 205,
+		link: "/info/notice/detail/205",
+		title: "상명대학교 제46대 총학생회 '선[先]' 학생 건의 진행 프로세스 안내",
+		date: "2023-11-20",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>본 공지는 2학기 개강 이후, 본 총학생회가 운영하는 소통창구를 통해 접수받았던 안건들을 정리하여 알려드리고,<br/>답변 발생 및 앞으로의 후속 조치가 이루어지기까지 어떤 프로세스를 통해 이루어질 예정인지를 명확히 전해드리기 위해 작성되었습니다.<br/><br/>또한, 해당 내용을 통해 전달받은 건의내용을 취합하여, 본 총학생회에서는 지난 15일(수) 시행되었던<br/>23-2학기 총장/교무위원 – 학생 간담회 과정에서 대표적인 안건을 정리, 발의했음을 안내드리는 바입니다.<br/><br/>자세한 내용은 함께 첨부드린 카드뉴스를 참고해주시면 감사하겠습니다.<br/><br/>감사합니다.",
+		inImg: [
+			{
+				img: Img205_1,
+				alt: "img205_1",
+			},
+			{
+				img: Img205_2,
+				alt: "img205_2",
+			},
+			{
+				img: Img205_3,
+				alt: "img205_3",
+			},
+			{
+				img: Img205_4,
+				alt: "img205_4",
+			},
+			{
+				img: Img205_5,
+				alt: "img205_5",
+			},
+			{
+				img: Img205_6,
+				alt: "img205_6",
+			},
+			{
+				img: Img205_7,
+				alt: "img205_7",
+			},
+		],
+	},
+	{
+		id: 204,
+		link: "/info/notice/detail/204",
+		title: "상명대학교 제46대 총학생회 '선[先]' SMCL 본선 Teaser 영상 안내",
+		date: "2023-11-20",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[2023 SangMyung Champions League]<br/><br/>슴우 여러분 혹시 ’SMCL‘을 알고 계신가요?<br/><br/>⚽️ SMCL은 sangmyung champions league의 약자로, 학과와 동아리 등 여러 팀들이 참여하는 교내 축구리그입니다.<br/><br/>🏟️ 올해 1학기에 이어 2학기에도 SMCL이 진행되고 있는데요, 예선을 통과한 8개의 팀들이 경쟁하는 토너먼트가 11월 20일(월)부터 시작됩니다!<br/><br/>비록 쌀쌀한 날씨지만, 우승을 향하여 열심히 뛰는 선후배 혹은 동기들을 위해 뜨겁게 응원하며 즐겁게 경기를 관람해보는 건 어떨까요? 🏆<br/><br/>📍일시: 11월 20일(월요일)부터 결승전까지 [ 매주 월, 목요일 18:10(1경기)•19:20(2경기) ]<br/><br/>📍장소: 상명대학교 서울캠퍼스 운동장 (상명 아트센터 앞)<br/><br/>※ 토너먼트는 ‘상’ 리그와 ‘명’ 리그로 나누어 진행됩니다.<br/>※ 경기 일정은 기상에 따라 변경될 수 있습니다.<br/>※ 자세한 사항은 @smcl_2023 을 통해 확인하실 수 있습니다.<br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/>🎵 ㅣ war*hall - Ready or Not",
+		inVideo: [
+			{
+				video: Video21,
+			},
+		],
+	},
+	{
+		id: 203,
+		link: "/info/notice/detail/203",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 ISIC 국제학생증 편",
+		date: "2023-11-20",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>11월 넷째 주, 'ISIC 국제학생증'과 각종 혜택에 대해 모아보았습니다.🤓<br/><br/>해외에서 신분을 증명할 수 있는 국제학생증으로 항공권, 교통패스, 보험, 해외여행 등 다양한 혜택을 제공받을 수 있어 발급받으면 활용도가 높을 것으로 보입니다!<br/> 해당 카드를 발급받기 위한 인증비 17,000원을 하나카드에서 지원하고 있으니, 관심있으신 분들은 카드뉴스를 확인해주세요.💌<br/><br/>1️⃣ ISIC 국제학생증이란?<br/>2️⃣ 하나은행 국제학생증 인증비 지원 행사 안내<br/>3️⃣ 국제학생증 발급 유의사항<br/>4️⃣ 혜택 모아보기_항공권, 교통패스, 보험, 해외여행<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙",
+		inImg: [
+			{
+				img: Img203_1,
+				alt: "img203_1",
+			},
+			{
+				img: Img203_2,
+				alt: "img203_2",
+			},
+			{
+				img: Img203_3,
+				alt: "img203_3",
+			},
+			{
+				img: Img203_4,
+				alt: "img203_4",
+			},
+			{
+				img: Img203_5,
+				alt: "img203_5",
+			},
+			{
+				img: Img203_6,
+				alt: "img203_6",
+			},
+			{
+				img: Img203_7,
+				alt: "img203_7",
+			},
+			{
+				img: Img203_8,
+				alt: "img203_8",
+			},
+			{
+				img: Img203_9,
+				alt: "img203_9",
+			},
+		],
+	},
+	{
+		id: 202,
+		link: "/info/notice/detail/202",
+		title: "상명대학교 제46대 총학생회 '선[先]' SMCL 예선 종료 안내",
+		date: "2023-11-18",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>2023학년도 제2학기 상명대학교 교내 축구리그 ⚽️SMCL⚽️의 예선 조별 리그가 종료됨을 알려드립니다!<br/>예선 조별 리그가 종료 됨에 따라 조별 리그 최종 승점, 상/명리그 최종 진출팀, 상/명리그 대진표 또한 함께 안내드리니 학우 여러분의 많은 관심 부탁드립니다.<br/><br/>다음 주 월·목요일부터 진행 예정인 SMCL 🥇상/명리그🥇에도 많은 관심과 기대 부탁드립니다!<br/><br/>📍일시: 매주 월·목요일 18시 10분 ~ 20시 20분<br/>📍장소: 상명대학교 서울캠퍼스 운동장<br/>📍주관: 제46대 총학생회 선[先]<br/><br/>SMCL 관련 문의<br/>🏟️SMCL_Kakao: https://open.kakao.com/o/sgJfUxcf<br/>🏟️SMCL_instagram: @smcl_2023",
+		inImg: [
+			{
+				img: Img202_1,
+				alt: "img202_1",
+			},
+			{
+				img: Img202_2,
+				alt: "img202_2",
+			},
+			{
+				img: Img202_3,
+				alt: "img202_3",
+			},
+			{
+				img: Img202_4,
+				alt: "img202_4",
+			},
+			{
+				img: Img202_5,
+				alt: "img202_5",
+			},
+			{
+				img: Img202_6,
+				alt: "img202_6",
+			},
+		],
+	},
+	{
+		id: 201,
+		link: "/info/notice/detail/201",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' [2023 동아리 문화제 Epilogue] video sketch",
+		date: "2023-11-15",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[2023 동아리문화제 video sketch]<br/><br/>🎞️ Epilogue : 이야기의 마지막, 새로운 시작 🎞️<br/><br/>행사에 참여해주신 학우분들께 감사의 말씀 전해드리며 뜻깊은 시간이 되었길 바라봅니다🍂<br/><br/>※ 갑작스러운 기상 악화로 인해 무대 공연을 진행하지 못하게 된 공연동아리 소속원 여러분께 심심한 위로의 말씀을 함께 전해드립니다.<br/><br/>악천후 속에서 공연 재개 시 누전 등 안전상 위험이 있었던 만큼, 공연을 중단할 수밖에 없었던 점 너른 양해를 부탁드립니다.<br/><br/>제작ㅣ제46대 총학생회 선[先] 홍보국<br/>🎵 ㅣ 에필로그 - 정승환<br/>🎵 ㅣ 비가 와 - 소유, 백현",
+		inVideo: [
+			{
+				video: Video20,
+			},
+		],
+	},
 	{
 		id: 200,
 		link: "/info/notice/detail/200",
@@ -1031,7 +1727,7 @@ export const NoticeData = [
 		owner: "관리자",
 		kind: "공지",
 		content:
-			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>11월 셋째 주, '자기설계융합전공∙학기'에 대하여 알려드리겠습니다!<br/><br/>자기설계융합전공과 자기설계학기(학점)는 모두 학생이 스스로 본인의 교육과정을 설계하여 이수하는 제도입니다.<br/>'다전공'으로 이수하는 것과 '학기(학점)'로 인정받는 차이점이 있으니 반드시 공지사항을 확인하여 착오가 없으시길 바랍니다!<br/><br/>✔️자기설계융합전공 : 학생 스스로 2개 이상의 전공을 하나의 교육과정으로 융합하여 자신만의 전공교육과정 설계 후 다전공으로 이수하는 제도<br/>✔️자기설계학기(학점) : 학생 스스로 3학점~18학점 이내로 프로그램 설계 후, 교육과정으로 편성∙이수하여 학점 및 학기를 인정받는 제도<br/><br/>1️⃣ 자기설계융합전공이 무엇인가요?<br/>2️⃣ 신청 안내사항 및 절차<br/>3️⃣ 진행 절차<br/>4️⃣ 자기설계학기(학점)가 무엇인가요?<br/>5️⃣ 프로그램 설계 시 유의사항<br/>6️⃣ 프로그램 이수 기간 내 제출 양식<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙",
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>11월 셋째 주, '자기설계융합전공∙학기'에 대하여 알려드리겠습니다!<br/><br/>자기설계융합전공과 자기설계학기(학점)는 모두 학생이 스스로 본인의 교육과정을 설계하여 이수하는 제도입니다.<br/>'다전공'으로 이수하는 것과 '학기(학점)'로 인정받는 차이점이 있으니 반드시 공지사항을 확인하여 착오가 없으시길 바랍니다!<br/><br/>✔️자기설계융합전공 : 학생 스스로 2개 이상의 전공을 하나의 교육과정으로 융합하여 자신만의 전공교육과정 설계 후 다전공으로 이수하는 제도<br/>✔️자기설계학기(학점) : 학생 스스로 3학점~18학점 이내로 프로그램 설계 후, 교육과정으로 편성∙이수하여 학점 및 학기를 인정받는 제도<br/><br/>1️⃣ 자기설계융합전공이 무엇인가요?<br/>2️⃣ 신청 안내사항 및 절차<br/>3️⃣ 진행 절차<br/>4️⃣ 자기설계학기(학점)가 무엇인가요?<br/>5️⃣ 프로그램 설계 시 유의사항<br/>6️⃣ 프로그램 이수 기간 내 제출 양식<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙",
 		inImg: [
 			{
 				img: Img198_1,
@@ -1455,7 +2151,7 @@ export const NoticeData = [
 		owner: "관리자",
 		kind: "공지",
 		content:
-			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>11월 둘째 주, '온라인 직무박람회(JOB FAIR)'에 대하여 안내드리겠습니다.<br/><br/>1학기에 미래백년관에서 오프라인으로 진행했던 잡페어가, 2학기에는 온라인으로 진행됩니다!<br/>11월 6일(월)~11월 14일(화)까지 행사 홈페이지에서 해당 시간에 실시간으로 진행되며, 박람회 기간 중 언제든지 다시보기(VOD) 서비스가 가능합니다. 관심 있으신 분들은 카드뉴스를 참고해주세요.💌<br/><br/>1️⃣ 온라인 직무박람회 안내<br/>2️⃣ 직무설명회 일정<br/>3️⃣ 참여혜택<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙",
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>11월 둘째 주, '온라인 직무박람회(JOB FAIR)'에 대하여 안내드리겠습니다.<br/><br/>1학기에 미래백년관에서 오프라인으로 진행했던 잡페어가, 2학기에는 온라인으로 진행됩니다!<br/>11월 6일(월)~11월 14일(화)까지 행사 홈페이지에서 해당 시간에 실시간으로 진행되며, 박람회 기간 중 언제든지 다시보기(VOD) 서비스가 가능합니다. 관심 있으신 분들은 카드뉴스를 참고해주세요.💌<br/><br/>1️⃣ 온라인 직무박람회 안내<br/>2️⃣ 직무설명회 일정<br/>3️⃣ 참여혜택<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙",
 		inImg: [
 			{
 				img: Img183_1,
