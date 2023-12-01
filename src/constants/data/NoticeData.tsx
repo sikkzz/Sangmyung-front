@@ -777,6 +777,15 @@ import Img218_6 from "@/assets/notice/218/6.jpg";
 import Img218_7 from "@/assets/notice/218/7.jpg";
 import Img218_8 from "@/assets/notice/218/8.jpg";
 import Img218_9 from "@/assets/notice/218/9.jpg";
+import Img219_1 from "@/assets/notice/219/1.jpg";
+import Img219_2 from "@/assets/notice/219/2.jpg";
+import Img220_1 from "@/assets/notice/220/1.jpg";
+import Img221_1 from "@/assets/notice/221/1.jpg";
+import Img221_2 from "@/assets/notice/221/2.jpg";
+import Img221_3 from "@/assets/notice/221/3.jpg";
+import Img221_4 from "@/assets/notice/221/4.jpg";
+import Img221_5 from "@/assets/notice/221/5.jpg";
+import Img221_6 from "@/assets/notice/221/6.jpg";
 import Img23_1 from "@/assets/notice/23/1.jpg";
 import Img23_10 from "@/assets/notice/23/10.jpg";
 import Img23_2 from "@/assets/notice/23/2.jpg";
@@ -1044,10 +1053,83 @@ import Video9 from "@/assets/video/9.mp4";
 
 export const NoticeData = [
 	{
+		id: 221,
+		link: "/info/notice/detail/221",
+		title: "상명대학교 제46대 총학생회 '선[先]' 방학선[先]물 결산 내역 공개",
+		date: "2023-12-01",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 재정사무국입니다.<br/><br/>재정사무국에서는 학우 여러분께서 납부하신 학생회비를 집행 및 관리하고 있습니다.<br/><br/>보다 공정하고 투명한 총학생회를 위해, [방학선[先]물 행사] 결산 내역을 다음과 같이 알려드립니다.<br/><br/>💵 총예산액 금800,000원<br/>💵 총결산액 금800,000원<br/><br/>제46대 총학생회 선[先] 재정사무국은 학우 여러분께서 납부하신 학생회비를 공정하게 집행하고, 투명하게 운영하기 위해 항상 노력할 것을 약속드립니다.<br/><br/>관련하여 추가적인 문의 사항이 있으시다면, 아래 소통 창구를 통해 문의주시길 바랍니다.<br/><br/>감사합니다.",
+		inImg: [
+			{
+				img: Img221_1,
+				alt: "img221_1",
+			},
+			{
+				img: Img221_2,
+				alt: "img221_2",
+			},
+			{
+				img: Img221_3,
+				alt: "img221_3",
+			},
+			{
+				img: Img221_4,
+				alt: "img221_4",
+			},
+			{
+				img: Img221_5,
+				alt: "img221_5",
+			},
+			{
+				img: Img221_6,
+				alt: "img221_6",
+			},
+		],
+	},
+	{
+		id: 220,
+		link: "/info/notice/detail/220",
+		title: "상명대학교 제46대 총학생회 '선[先]' 선[先]타클로스 행사 안내",
+		date: "2023-12-01",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까. 상명대학교 서울캠퍼스 학우 여러분 ! 제46대 총학생회 선[先]입니다💙<br/><br/>2023년이 가기 전! 선[先]에서 학우 여러분과 크리스마스를 함께 즐기기 위해 선물을 준비하였습니다.☃️<br/><br/>🎅🏻 행사명 : 선[先]타클로스<br/>🎅🏻 부제 : 선물을 부르는 착한 아이 대작전<br/><br/>🧩 행사 일정 : 12/5 (화)<br/>🧩 행사 시간 : 11시 ~ 18시<br/>🧩 행사 장소 : 버스정류장 앞<br/><br/>🎲 다양한 컨셉의 게임을 통해 선물을 받아가세요 !<br/><br/>🎅🫎 산타 수뭉이가 학우 여러분을 위해 특별한 시간도 준비하였으니 학우 여러분의 많은 관심 부탁드립니다 !<br/><br/>또한, 여러 업체와의 제휴를 통해 많은 선물도 준비하고 있으니 많은 기대와 참여 부탁드립니다🤹🏻‍♀️<br/><br/>관련하여 문의 사항이 있으시다면, 아래 방법을 통해 연락해주시면 감사하겠습니다🙂",
+		inImg: [
+			{
+				img: Img220_1,
+				alt: "img220_1",
+			},
+		],
+	},
+	{
+		id: 219,
+		link: "/info/notice/detail/219",
+		title: "상명대학교 제46대 총학생회 '선[先]' 천원의 아침밥 사업 종료 안내",
+		date: "2023-11-30",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>지난 1학기 이래로 진행되어왔던 천원의 아침밥 사업이 금일을 기점으로 종료됩니다.<br/><br/>그동안 천원의 아침밥 사업에 많은 관심 가져주신 우리 대학 학우 여러분께 깊은 감사의 인사를 전해드리며,<br/>내년에도 더 나은 모습으로 본 사업이 재운영될 수 있도록 목소리를 내는 데 최선을 다하도록 하겠습니다.<br/><br/>자세한 내용은 함께 첨부해드린 이미지를 참고해주시기를 부탁드립니다.<br/><br/>감사합니다.",
+		inImg: [
+			{
+				img: Img219_1,
+				alt: "img219_1",
+			},
+			{
+				img: Img219_2,
+				alt: "img219_2",
+			},
+		],
+	},
+	{
 		id: 218,
 		link: "/info/notice/detail/218",
 		title:
 			"상명대학교 제46대 총학생회 '선[先]' 동아리 문화제 결산 내역 공개 - 2",
+		date: "2023-11-30",
 		owner: "관리자",
 		kind: "공지",
 		content:

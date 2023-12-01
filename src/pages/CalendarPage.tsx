@@ -3,11 +3,8 @@ import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 
 import Bio from "@/components/Bio/Bio";
-import Calendar2 from "@/components/Calendar/Calendar2";
+import Calendar from "@/components/Calendar/Calendar";
 import Footer from "@/components/Footer/Footer";
-
-// import Calendar from "../components/Calendar/Calendar";
-// import Test from "../components/Schedule/Test";
 
 import Header from "../components/Header/Header";
 import TopHeader from "../components/Header/TopHeader";
@@ -25,8 +22,7 @@ function CalendarPage() {
 			<TopHeader />
 			<Header />
 			<Bio state={location.pathname.split("/")[2]} />
-			<Calendar2 />
-			{/* <Test /> */}
+			<Calendar />
 			<Footer />
 		</motion.div>
 	);
