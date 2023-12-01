@@ -2,6 +2,13 @@ import Img12_1 from "@/assets/partner/12/1.jpg";
 import Img12_2 from "@/assets/partner/12/2.jpg";
 import Img12_3 from "@/assets/partner/12/3.jpg";
 import Img12_4 from "@/assets/partner/12/4.jpg";
+import Img13_1 from "@/assets/partner/13/1.jpg";
+import Img13_2 from "@/assets/partner/13/2.jpg";
+import Img13_3 from "@/assets/partner/13/3.jpg";
+import Img13_4 from "@/assets/partner/13/4.jpg";
+import Img13_5 from "@/assets/partner/13/5.jpg";
+import Img13_6 from "@/assets/partner/13/6.jpg";
+import Img13_7 from "@/assets/partner/13/7.jpg";
 
 import Img1_1 from "../../assets/partner/1/1.png";
 import Img1_2 from "../../assets/partner/1/2.jpeg";
@@ -46,6 +53,48 @@ import Img9_1 from "../../assets/partner/9/1.jpg";
 import Img9_2 from "../../assets/partner/9/2.jpg";
 
 export const PartnerData = [
+	{
+		id: 13,
+		link: "/work/partnership/detail/13",
+		img: Img13_1,
+		alt: "img13_1",
+		title: "총학생회 선[先] X 대림 미술관 《MSCHF: NOTHING IS SACRED》",
+		inTitle: "💙열세 번째 최선(先), 대림 미술관 《MSCHF: NOTHING IS SACRED》",
+		date: "2023-11-14",
+		owner: "관리자",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先] 대외협력국입니다.<br/><br/>대외협력국에서는 학우 여러분들이 문화, 복지, 교육 등 다양한 분야에서 좋은 혜택을 누릴 수 있도록 제휴를 맺고 있습니다.<br/><br/>이런 제휴 내용들을 ‘최선’이라는 이름 하에 학우 여러분들께 전달드리고 있습니다!<br/><br/>‘열세 번째 최선’으로 서촌 대림미술관의 《MSCHF: NOTHING IS SACRED》와 전시 제휴를 맺었습니다.<br/><br/>상명대학교 서울캠퍼스 재/휴학생이라면 누구나 대림미술관 홈페이지 및 app을 통해 쿠폰코드 mschfsmu23 입력 시 선착순 200명에 한해 전시를 0원에 관람하실 수 있습니다.<br/><br/>✅ (게시물 모든 내용 꼭 필독 부탁드립니다!)<br/><br/>지속적으로 업로드 될 대외협력국 제휴 콘텐츠 ‘최선‘.<br/>학우 여러분들의 많은 관심 부탁드립니다!<br/><br/>[ 제휴 내용 ]<br/><br/>💙 대림미술관 《MSCHF: NOTHING IS SACRED》<br/><br/>🎁 제휴 혜택<br/>대상 : 상명대학교 서울캠퍼스 재/휴학생 모두<br/>혜택 : 선착순 200명에 한해 쿠폰코드 mschfsmu23<br/>입력 시 0원에 관람 가능(1인 1매에 한함)(게시물 내용 필독)",
+		inImg: [
+			{
+				img: Img13_1,
+				alt: "img13_1",
+			},
+			{
+				img: Img13_2,
+				alt: "img13_2",
+			},
+			{
+				img: Img13_3,
+				alt: "img13_3",
+			},
+			{
+				img: Img13_4,
+				alt: "img13_4",
+			},
+			{
+				img: Img13_5,
+				alt: "img13_5",
+			},
+			{
+				img: Img13_6,
+				alt: "img13_6",
+			},
+			{
+				img: Img13_7,
+				alt: "img13_7",
+			},
+		],
+	},
 	{
 		id: 12,
 		link: "/work/partnership/detail/12",

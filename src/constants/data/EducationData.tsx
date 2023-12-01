@@ -52,6 +52,42 @@ import Img28_6 from "@/assets/education/28/6.jpg";
 import Img28_7 from "@/assets/education/28/7.jpg";
 import Img28_8 from "@/assets/education/28/8.jpg";
 import Img28_9 from "@/assets/education/28/9.jpg";
+import Img29_1 from "@/assets/education/29/1.jpg";
+import Img29_2 from "@/assets/education/29/2.jpg";
+import Img29_3 from "@/assets/education/29/3.jpg";
+import Img29_4 from "@/assets/education/29/4.jpg";
+import Img29_5 from "@/assets/education/29/5.jpg";
+import Img29_6 from "@/assets/education/29/6.jpg";
+import Img29_7 from "@/assets/education/29/7.jpg";
+import Img29_8 from "@/assets/education/29/8.jpg";
+import Img30_1 from "@/assets/education/30/1.jpg";
+import Img30_10 from "@/assets/education/30/10.jpg";
+import Img30_2 from "@/assets/education/30/2.jpg";
+import Img30_3 from "@/assets/education/30/3.jpg";
+import Img30_4 from "@/assets/education/30/4.jpg";
+import Img30_5 from "@/assets/education/30/5.jpg";
+import Img30_6 from "@/assets/education/30/6.jpg";
+import Img30_7 from "@/assets/education/30/7.jpg";
+import Img30_8 from "@/assets/education/30/8.jpg";
+import Img30_9 from "@/assets/education/30/9.jpg";
+import Img31_1 from "@/assets/education/31/1.jpg";
+import Img31_2 from "@/assets/education/31/2.jpg";
+import Img31_3 from "@/assets/education/31/3.jpg";
+import Img31_4 from "@/assets/education/31/4.jpg";
+import Img31_5 from "@/assets/education/31/5.jpg";
+import Img31_6 from "@/assets/education/31/6.jpg";
+import Img31_7 from "@/assets/education/31/7.jpg";
+import Img31_8 from "@/assets/education/31/8.jpg";
+import Img31_9 from "@/assets/education/31/9.jpg";
+import Img32_1 from "@/assets/education/32/1.jpg";
+import Img32_2 from "@/assets/education/32/2.jpg";
+import Img32_3 from "@/assets/education/32/3.jpg";
+import Img32_4 from "@/assets/education/32/4.jpg";
+import Img32_5 from "@/assets/education/32/5.jpg";
+import Img32_6 from "@/assets/education/32/6.jpg";
+import Img32_7 from "@/assets/education/32/7.jpg";
+import Img32_8 from "@/assets/education/32/8.jpg";
+import Img32_9 from "@/assets/education/32/9.jpg";
 
 import Img1_1 from "../../assets/education/1/1-1.png";
 import Img1_2 from "../../assets/education/1/1-2.png";
@@ -364,6 +400,202 @@ import noImg9_9 from "../../assets/education/notice/9/9.png";
 import noImg9_title from "../../assets/education/notice/9/title.png";
 
 export const EducationForesightData = [
+	{
+		id: 32,
+		link: "/work/education/foresight/detail/32",
+		img: Img32_1,
+		alt: "img32_1",
+		title: "💙선[先]견지명 - 대외활동 편💙",
+		date: "2023-11-27",
+		owner: "관리자",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>12월 첫째 주, 다양한 대외활동 정보를 가져왔습니다!<br/><br/>🗣️ SK 행복재단 Sunny Scholoar 3기<br/>🎬 대학생 크리에이터 YBM 프렌즈 1기<br/>🎅🏻 KT&G 복지재단 일일산타 봉사자<br/><br/>자세한 내용은 카드뉴스를 참고해주세요.💌<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙",
+		inImg: [
+			{
+				img: Img32_1,
+				alt: "img32_1",
+			},
+			{
+				img: Img32_2,
+				alt: "img32_2",
+			},
+			{
+				img: Img32_3,
+				alt: "img32_3",
+			},
+			{
+				img: Img32_4,
+				alt: "img32_4",
+			},
+			{
+				img: Img32_5,
+				alt: "img32_5",
+			},
+			{
+				img: Img32_6,
+				alt: "img32_6",
+			},
+			{
+				img: Img32_7,
+				alt: "img32_7",
+			},
+			{
+				img: Img32_8,
+				alt: "img32_8",
+			},
+			{
+				img: Img32_9,
+				alt: "img32_9",
+			},
+		],
+	},
+	{
+		id: 31,
+		link: "/work/education/foresight/detail/31",
+		img: Img31_1,
+		alt: "img31_1",
+		title: "💙선[先]견지명 - ISIC 국제학생증 편💙",
+		date: "2023-11-20",
+		owner: "관리자",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>11월 넷째 주, 'ISIC 국제학생증'과 각종 혜택에 대해 모아보았습니다.🤓<br/><br/>해외에서 신분을 증명할 수 있는 국제학생증으로 항공권, 교통패스, 보험, 해외여행 등 다양한 혜택을 제공받을 수 있어 발급받으면 활용도가 높을 것으로 보입니다!<br/> 해당 카드를 발급받기 위한 인증비 17,000원을 하나카드에서 지원하고 있으니, 관심있으신 분들은 카드뉴스를 확인해주세요.💌<br/><br/>1️⃣ ISIC 국제학생증이란?<br/>2️⃣ 하나은행 국제학생증 인증비 지원 행사 안내<br/>3️⃣ 국제학생증 발급 유의사항<br/>4️⃣ 혜택 모아보기_항공권, 교통패스, 보험, 해외여행<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙",
+		inImg: [
+			{
+				img: Img31_1,
+				alt: "img31_1",
+			},
+			{
+				img: Img31_2,
+				alt: "img31_2",
+			},
+			{
+				img: Img31_3,
+				alt: "img31_3",
+			},
+			{
+				img: Img31_4,
+				alt: "img31_4",
+			},
+			{
+				img: Img31_5,
+				alt: "img31_5",
+			},
+			{
+				img: Img31_6,
+				alt: "img31_6",
+			},
+			{
+				img: Img31_7,
+				alt: "img31_7",
+			},
+			{
+				img: Img31_8,
+				alt: "img31_8",
+			},
+			{
+				img: Img31_9,
+				alt: "img31_9",
+			},
+		],
+	},
+	{
+		id: 30,
+		link: "/work/education/foresight/detail/30",
+		img: Img30_1,
+		alt: "img30_1",
+		title: "💙선[先]견지명 - 자기설계융합전공,학기 편💙",
+		date: "2023-11-13",
+		owner: "관리자",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>11월 셋째 주, '자기설계융합전공∙학기'에 대하여 알려드리겠습니다!<br/><br/>자기설계융합전공과 자기설계학기(학점)는 모두 학생이 스스로 본인의 교육과정을 설계하여 이수하는 제도입니다.<br/>'다전공'으로 이수하는 것과 '학기(학점)'로 인정받는 차이점이 있으니 반드시 공지사항을 확인하여 착오가 없으시길 바랍니다!<br/><br/>✔️자기설계융합전공 : 학생 스스로 2개 이상의 전공을 하나의 교육과정으로 융합하여 자신만의 전공교육과정 설계 후 다전공으로 이수하는 제도<br/>✔️자기설계학기(학점) : 학생 스스로 3학점~18학점 이내로 프로그램 설계 후, 교육과정으로 편성∙이수하여 학점 및 학기를 인정받는 제도<br/><br/>1️⃣ 자기설계융합전공이 무엇인가요?<br/>2️⃣ 신청 안내사항 및 절차<br/>3️⃣ 진행 절차<br/>4️⃣ 자기설계학기(학점)가 무엇인가요?<br/>5️⃣ 프로그램 설계 시 유의사항<br/>6️⃣ 프로그램 이수 기간 내 제출 양식<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙",
+		inImg: [
+			{
+				img: Img30_1,
+				alt: "img30_1",
+			},
+			{
+				img: Img30_2,
+				alt: "img30_2",
+			},
+			{
+				img: Img30_3,
+				alt: "img30_3",
+			},
+			{
+				img: Img30_4,
+				alt: "img30_4",
+			},
+			{
+				img: Img30_5,
+				alt: "img30_5",
+			},
+			{
+				img: Img30_6,
+				alt: "img30_6",
+			},
+			{
+				img: Img30_7,
+				alt: "img30_7",
+			},
+			{
+				img: Img30_8,
+				alt: "img30_8",
+			},
+			{
+				img: Img30_9,
+				alt: "img30_9",
+			},
+			{
+				img: Img30_10,
+				alt: "img30_10",
+			},
+		],
+	},
+	{
+		id: 29,
+		link: "/work/education/foresight/detail/29",
+		img: Img29_1,
+		alt: "img29_1",
+		title: "💙선[先]견지명 - 온라인 직무박람회 편💙",
+		date: "2023-11-06",
+		owner: "관리자",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>11월 둘째 주, '온라인 직무박람회(JOB FAIR)'에 대하여 안내드리겠습니다.<br/><br/>1학기에 미래백년관에서 오프라인으로 진행했던 잡페어가, 2학기에는 온라인으로 진행됩니다!<br/>11월 6일(월)~11월 14일(화)까지 행사 홈페이지에서 해당 시간에 실시간으로 진행되며, 박람회 기간 중 언제든지 다시보기(VOD) 서비스가 가능합니다. 관심 있으신 분들은 카드뉴스를 참고해주세요.💌<br/><br/>1️⃣ 온라인 직무박람회 안내<br/>2️⃣ 직무설명회 일정<br/>3️⃣ 참여혜택<br/><br/>총학생회 선[先] 홈페이지(<a href='https://www.student-smu.com/work/education/foresight' style='color: blue'>https://www.student-smu.com/work/education/foresight</a>)에서 다른 학사 정보도 확인하실 수 있습니다. :)<br/><br/>추후 업로드 될💡선[先]견지명💡콘텐츠에 많은 관심 부탁드립니다!<br/><br/>감사합니다.💙",
+		inImg: [
+			{
+				img: Img29_1,
+				alt: "img29_1",
+			},
+			{
+				img: Img29_2,
+				alt: "img29_2",
+			},
+			{
+				img: Img29_3,
+				alt: "img29_3",
+			},
+			{
+				img: Img29_4,
+				alt: "img29_4",
+			},
+			{
+				img: Img29_5,
+				alt: "img29_5",
+			},
+			{
+				img: Img29_6,
+				alt: "img29_6",
+			},
+			{
+				img: Img29_7,
+				alt: "img29_7",
+			},
+			{
+				img: Img29_8,
+				alt: "img29_8",
+			},
+		],
+	},
 	{
 		id: 28,
 		link: "/work/education/foresight/detail/28",
