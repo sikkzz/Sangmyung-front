@@ -247,6 +247,15 @@ import Img208_6 from "@/assets/education/32/6.jpg";
 import Img208_7 from "@/assets/education/32/7.jpg";
 import Img208_8 from "@/assets/education/32/8.jpg";
 import Img208_9 from "@/assets/education/32/9.jpg";
+import Img223_1 from "@/assets/education/33/1.jpg";
+import Img223_2 from "@/assets/education/33/2.jpg";
+import Img223_3 from "@/assets/education/33/3.jpg";
+import Img223_4 from "@/assets/education/33/4.jpg";
+import Img223_5 from "@/assets/education/33/5.jpg";
+import Img223_6 from "@/assets/education/33/6.jpg";
+import Img223_7 from "@/assets/education/33/7.jpg";
+import Img223_8 from "@/assets/education/33/8.jpg";
+import Img223_9 from "@/assets/education/33/9.jpg";
 import Img11_1 from "@/assets/education/4/4-1.png";
 import Img11_2 from "@/assets/education/4/4-2.png";
 import Img11_3 from "@/assets/education/4/4-3.png";
@@ -786,6 +795,36 @@ import Img221_3 from "@/assets/notice/221/3.jpg";
 import Img221_4 from "@/assets/notice/221/4.jpg";
 import Img221_5 from "@/assets/notice/221/5.jpg";
 import Img221_6 from "@/assets/notice/221/6.jpg";
+import Img222_1 from "@/assets/notice/222/1.jpg";
+import Img222_2 from "@/assets/notice/222/2.jpg";
+import Img222_3 from "@/assets/notice/222/3.jpg";
+import Img222_4 from "@/assets/notice/222/4.jpg";
+import Img222_5 from "@/assets/notice/222/5.jpg";
+import Img222_6 from "@/assets/notice/222/6.jpg";
+import Img224_1 from "@/assets/notice/224/1.jpg";
+import Img224_2 from "@/assets/notice/224/2.jpg";
+import Img224_3 from "@/assets/notice/224/3.jpg";
+import Img224_4 from "@/assets/notice/224/4.jpg";
+import Img225_1 from "@/assets/notice/225/1.jpg";
+import Img225_2 from "@/assets/notice/225/2.jpg";
+import Img225_3 from "@/assets/notice/225/3.jpg";
+import Img225_4 from "@/assets/notice/225/4.jpg";
+import Img225_5 from "@/assets/notice/225/5.jpg";
+import Img225_6 from "@/assets/notice/225/6.jpg";
+import Img225_7 from "@/assets/notice/225/7.jpg";
+import Img225_8 from "@/assets/notice/225/8.jpg";
+import Img226_1 from "@/assets/notice/226/1.jpg";
+import Img226_2 from "@/assets/notice/226/2.jpg";
+import Img226_3 from "@/assets/notice/226/3.jpg";
+import Img226_4 from "@/assets/notice/226/4.jpg";
+import Img226_5 from "@/assets/notice/226/5.jpg";
+import Img226_6 from "@/assets/notice/226/6.jpg";
+import Img226_7 from "@/assets/notice/226/7.jpg";
+import Img228_1 from "@/assets/notice/228/1.jpg";
+import Img228_2 from "@/assets/notice/228/2.jpg";
+import Img228_3 from "@/assets/notice/228/3.jpg";
+import Img228_4 from "@/assets/notice/228/4.jpg";
+import Img229_1 from "@/assets/notice/229/1.jpg";
 import Img23_1 from "@/assets/notice/23/1.jpg";
 import Img23_10 from "@/assets/notice/23/10.jpg";
 import Img23_2 from "@/assets/notice/23/2.jpg";
@@ -796,6 +835,23 @@ import Img23_6 from "@/assets/notice/23/6.jpg";
 import Img23_7 from "@/assets/notice/23/7.jpg";
 import Img23_8 from "@/assets/notice/23/8.jpg";
 import Img23_9 from "@/assets/notice/23/9.jpg";
+import Img230_1 from "@/assets/notice/230/1.jpg";
+import Img230_10 from "@/assets/notice/230/10.jpg";
+import Img230_2 from "@/assets/notice/230/2.jpg";
+import Img230_3 from "@/assets/notice/230/3.jpg";
+import Img230_4 from "@/assets/notice/230/4.jpg";
+import Img230_5 from "@/assets/notice/230/5.jpg";
+import Img230_6 from "@/assets/notice/230/6.jpg";
+import Img230_7 from "@/assets/notice/230/7.jpg";
+import Img230_8 from "@/assets/notice/230/8.jpg";
+import Img230_9 from "@/assets/notice/230/9.jpg";
+import Img231_1 from "@/assets/notice/231/1.jpg";
+import Img231_2 from "@/assets/notice/231/2.jpg";
+import Img231_3 from "@/assets/notice/231/3.jpg";
+import Img231_4 from "@/assets/notice/231/4.jpg";
+import Img231_5 from "@/assets/notice/231/5.jpg";
+import Img233_1 from "@/assets/notice/233/1.jpg";
+import Img233_2 from "@/assets/notice/233/2.jpg";
 import Img25_1 from "@/assets/notice/25/1.jpg";
 import Img25_2 from "@/assets/notice/25/2.jpg";
 import Img25_3 from "@/assets/notice/25/3.jpg";
@@ -1043,6 +1099,8 @@ import Video19 from "@/assets/video/19.mp4";
 import Video2 from "@/assets/video/2.mp4";
 import Video20 from "@/assets/video/20.mp4";
 import Video21 from "@/assets/video/21.mp4";
+import Video22 from "@/assets/video/22.mp4";
+import Video23 from "@/assets/video/23.mp4";
 import Video3 from "@/assets/video/3.mp4";
 import Video4 from "@/assets/video/4.mp4";
 import Video5 from "@/assets/video/5.mp4";
@@ -1052,6 +1110,387 @@ import Video8 from "@/assets/video/8.mp4";
 import Video9 from "@/assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 233,
+		link: "/info/notice/detail/233",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 어도비 공동구매 실수요조사 결과 안내",
+		date: "2023-12-12",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까. 상명대학교 서울캠퍼스 학우 여러분. 제46대 총학생회 선[先]입니다.<br/><br/>지난 11/28(화)부터 ~ 12/5(화)까지 일주일간 총학생회 주관의 Adobe Creative Cloud 최저가 공구 실수요조사를 진행했습니다.<br/>이에 따른 해당 설문 조사의 결과 및 후속 진행 여부를 전해드리고자 합니다.<br/><br/>정말 아쉽게도, 제휴를 진행하고자 한 업체 측에서 제시하였던 최소 인원 조건인 100명 이상의 충분한 수요가 확보되지 않아,<br/>실수요조사 이후의 구매 과정은 진행하지 못하게 되었음을 학우 여러분께 전해드립니다.<br/><br/>본 총학생회는 담당자 분과 최대한 적극적으로 소통을 진행, 이번 실수요조사 참여자만이라도 구매 진행이 불가한지 재검토를 요청드린 바 있으나,<br/>실제 구매 과정 단계에 있어서 수요조사 참여자 전원만큼의 구매량도 확정적으로 확보되지 않을 수 있는 만큼, 협업처 측에서는 본 제휴 진행이 어려울 것 같다는 의견을 전해주셨습니다.<br/><br/>그동안 Adobe Creative Cloud 설문조사에 참여해주시고, 관심 보여주신 학우 여러분께 감사의 인사를 전해드립니다.<br/><br/>임기가 종료되는 그 순간까지도 총학생회 선(先)은 학우 여러분의 더 나은 학교생활을 위해 외부 기업 및 단체와의 교류 및 논의를 최선을 다해 진행할 수 있도록 하겠습니다.<br/><br/>감사합니다.",
+		inImg: [
+			{
+				img: Img233_1,
+				alt: "img233_1",
+			},
+			{
+				img: Img233_2,
+				alt: "img233_2",
+			},
+		],
+	},
+	{
+		id: 232,
+		link: "/info/notice/detail/232",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' SMCL 상리그 결승 하이라이트 공개",
+		date: "2023-12-11",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"[2023 SangMyung Champions League: 상리그 결승 하이라이트]<br/><br/>📷 video highlight<br/><br/>⚽️IEMU11 vs NS<br/>🏆상리그 우승팀: [IEMU11]<br/><br/>안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>저희 총학생회는 지난 1년 동안 상명대학교 학우 여러분의 운동장 사용 및 축구 대회를 보장해 드리고자 2023학년도 상명대학교 교내 축구 리그 “SMCL”을 주최하였습니다.<br/>그동안 SMCL에 출전하고 임해주신 모든 소속 팀의 대표님과 선수분들께 진심으로 감사의 인사를 드립니다.<br/><br/>저희 총학생회도 SMCL을 개최하고 진행하면서 학우 여러분의 열정과 관심 덕분에 더욱 즐겁게 경기를 진행할 수 있었습니다.<br/>운동장에서 흘린 땀과 시간 만큼 학우분들에게도 즐거운 추억으로 남으셨길 바라며, 금일 부로 1년 동안 진행 되었던 모든 SMCL의 정식 사업은 종료되었음을 알려드립니다.<br/><br/>그동안 SMCL에 많은 관심을 가져주신 모든 학우분들께 진심으로 감사드립니다.<br/><br/>감사합니다.",
+		inVideo: [
+			{
+				video: Video23,
+			},
+		],
+	},
+	{
+		id: 231,
+		link: "/info/notice/detail/231",
+		title: "상명대학교 제46대 총학생회 '선[先]' 취업지원팀 미팅 회의록 안내",
+		date: "2023-12-08",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회에서는 지난 23-2 간담회 발의 안건의 후속 계획 확인을 위해, 아래 사항을 안건으로 하여 지난 12월 5일 화요일, 취업지원팀과의 미팅을 진행하였습니다.<br/><br/>자세한 논의 내용은 첨부된 이미지를 참고해주시길 바랍니다. 감사합니다.<br/><br/>[ 논의 안건 ]<br/><br/>1. ’코멘토‘ 제휴 협약 요청에 대한 차후 계획 후속 질의",
+		inImg: [
+			{
+				img: Img231_1,
+				alt: "img231_1",
+			},
+			{
+				img: Img231_2,
+				alt: "img231_2",
+			},
+			{
+				img: Img231_3,
+				alt: "img231_3",
+			},
+			{
+				img: Img231_4,
+				alt: "img231_4",
+			},
+			{
+				img: Img231_5,
+				alt: "img231_5",
+			},
+		],
+	},
+	{
+		id: 230,
+		link: "/info/notice/detail/230",
+		title: "상명대학교 제46대 총학생회 '선[先]' 관리팀 미팅 회의록 안내",
+		date: "2023-12-08",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회에서는 총학생회에서 취합한 학생 건의 전달을 위해, 아래 사항을 안건으로 하여 지난 11월 24일 금요일, 관리팀과의 미팅을 진행하였습니다.<br/><br/>자세한 논의 내용은 첨부된 이미지를 참고해주시길 바랍니다. 감사합니다.<br/><br/>[ 논의 안건 ]<br/><br/>1. 공학관 내 4, 5층 샤워실 점검<br/>2. 돌계단 안전관리 점검<br/>3. 생활예술관 - 미술가정관 사이 화장실 타일 시설 보수<br/>4. 언덕(경사면) 손잡이 및 울타리<br/>5. 자하관 냉/난방 중앙제어 문제<br/>6. 열람실 냉/난방 문제<br/>7. 일부 강의실 의자 교체 요청",
+		inImg: [
+			{
+				img: Img230_1,
+				alt: "img230_1",
+			},
+			{
+				img: Img230_2,
+				alt: "img230_2",
+			},
+			{
+				img: Img230_3,
+				alt: "img230_3",
+			},
+			{
+				img: Img230_4,
+				alt: "img230_4",
+			},
+			{
+				img: Img230_5,
+				alt: "img230_5",
+			},
+			{
+				img: Img230_6,
+				alt: "img230_6",
+			},
+			{
+				img: Img230_7,
+				alt: "img230_7",
+			},
+			{
+				img: Img230_8,
+				alt: "img230_8",
+			},
+			{
+				img: Img230_9,
+				alt: "img230_9",
+			},
+			{
+				img: Img230_10,
+				alt: "img230_10",
+			},
+		],
+	},
+	{
+		id: 229,
+		link: "/info/notice/detail/229",
+		title: "상명대학교 제46대 총학생회 '선[先]' 학술정보관 시설 운영연장 안내",
+		date: "2023-12-08",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>이번 학기도 학우 여러분께서 보다 편안하게 시험공부를 하실 수 있도록, 기말고사 기간 동안 학술정보관의 시설 운영 시간이 연장됨을 전해드립니다.<br/><br/>총학생회 선[先]이 공약으로 내걸었고, 23-1 총장/교무위원-학생 간담회에서 안건화하여 발의하였던 ’학술정보관 운영 시간 정상화‘가 수용되어,<br/>본 고사기간 동안 학술정보관 시설의 운영 시간이 24시간으로 확대되었습니다.<br/><br/>선[先]이 마지막까지 모든 학우 여러분을 응원하겠습니다. 고사 기간 힘내시고, 좋은 결과 있으시길 바랍니다!<br/><br/>감사합니다.💙<br/><br/>🔹 2023.12.11.(월) 06시 - 2023.12.22.(금) 24시 (24시간 운영)<br/>🔹 학술정보관 리딩라운지 및 4층 열람실",
+		inImg: [
+			{
+				img: Img229_1,
+				alt: "img229_1",
+			},
+		],
+	},
+	{
+		id: 228,
+		link: "/info/notice/detail/228",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 공식 학생 청원게시판 운영 종료 안내",
+		date: "2023-12-07",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까. 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회는 금년도 2학기부터 학내 구성원이 학교 운영과 관련한 의견을 공유하고,<br/>이에 대한 개선 요구를 총학생회를 통해 학교 측에 제시, 답변받을 수 있도록 하고자 팀 스뮤니티와 공동으로 학생 건의/청원 게시판을 운영해왔습니다.<br/><br/>그리고 이를 통해, 한 학기 동안 학우 여러분들의 동의를 가장 많이 받은 총 6개의 청원 답변을 유관 행정처와 소통하여 학생 전체 단위에 공표할 수 있었습니다.<br/>또한, 접수된 건의 사항 중 대표적인 안건의 경우 교무위원/총장 간담회 등에서 발의하여, 적극적으로 개선을 촉구할 수 있었습니다.<br/><br/>본 학생 건의, 청원 서비스의 운영은 현재 진행 중인 청원의 동의 기간 만료일인 금년도 12월 11일까지를 마지막으로 하여 종료될 계획입니다.<br/><br/>사유는 다음과 같습니다. 현 학생회 임기가 금월 말일을 기준으로 종료되는 상황이며,<br/>청원 동의 진행 기간이 2주 가량 소요됨에 더해 동의 기간 이후 유관 행정처와 소통, 미팅을 진행하는 기간까지 고려한다면 이후 게시되는 청원 건에 대해서는 임기 내 답변 및 처리가 어려울 것이라 판단하였기 때문입니다.<br/>임기 종료 이후에는 본 서비스 운영을 도모할 수 있는 대표성 및 권한이 없어지는 만큼 주관 및 관리가 어려워지는 점, 학우 여러분의 너른 양해를 부탁드리고자 합니다.<br/><br/>그동안 팀 스뮤니티와 총학생회가 공동 운영했던 학생 건의/청원 서비스에 많은 관심 가져주신 우리 대학 학우 여러분,<br/>특히 본교 발전에 도움이 되었던 다양한 건의안을 전해주신 분들에게 진심 어린 감사의 인사를 전해드립니다.<br/>또한, 학생들의 의견을 귀담아 들어주시고 적극 반영해 개선을 도모해주신 여러 행정 부처 교직원 분들의 노고에 경의를 표합니다.<br/>학우 여러분들의 목소리를 가장 최전선에서 더욱 명확히 듣고, 긍정적인 방향으로 변화를 만들어낼 수 있어 영광이었습니다.<br/><br/>본 서비스는 11일자로 종료되지만, 학우 여러분의 목소리가 닿을 때까지 늘 한 걸음 앞에 먼저 서 있기로 한 약속,<br/>임기 마지막까지 지킬 수 있도록 제46대 총학생회 선[先]은 끊임없이 노력하겠습니다.<br/><br/>감사합니다.<br/><br/>🖥️ 청원게시판 운영 종료일 : 2023.12.11(월)",
+		inImg: [
+			{
+				img: Img228_1,
+				alt: "img228_1",
+			},
+			{
+				img: Img228_2,
+				alt: "img228_2",
+			},
+			{
+				img: Img228_3,
+				alt: "img228_3",
+			},
+			{
+				img: Img228_4,
+				alt: "img228_4",
+			},
+		],
+	},
+	{
+		id: 227,
+		link: "/info/notice/detail/227",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 선[先]타클로스 행사 Video Sketch 공개",
+		date: "2023-12-06",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"🎅🏻 선[先]타클로스 : 선물을 부르는 착한 아이 대작전 🎁<br/><br/>🎥 Video sketch<br/><br/>12월 5일, 중앙교수회관 앞에서 총학생회 선[先]의 마지막 오프라인 행사인 ‘선[先]타클로스’가 진행됐습니다! 🎄<br/><br/>선[先]타클로스가 야심차게 준비한 크리스마스 선물은 마음에 드셨나요? 루돌프 수뭉이의 겨울 인사와 함께 따뜻한 하루를 보내셨길 바랍니다 ❤️💚<br/><br/>제작 : 제46대 총학생회 선[先] 홍보국",
+		inVideo: [
+			{
+				video: Video22,
+			},
+		],
+	},
+	{
+		id: 226,
+		link: "/info/notice/detail/226",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 선[先]타클로스 행사 Photo Sketch 공개",
+		date: "2023-12-05",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"🎅🏻 선[先]타클로스 : 선물을 부르는 착한 아이 대작전 🎁<br/><br/>12월 5일, 중앙교수회관 앞에서 총학생회 선[先]의 마지막 오프라인 행사인 ‘선[先]타클로스’가 진행됐습니다! 🎄<br/><br/>선[先]타클로스가 야심차게 준비한 크리스마스 선물은 마음에 드셨나요? 루돌프 수뭉이의 겨울 인사와 함께 따뜻한 하루를 보내셨길 바랍니다 ❤️💚<br/><br/>제작 : 제46대 총학생회 선[先] 홍보국",
+		inImg: [
+			{
+				img: Img226_1,
+				alt: "img226_1",
+			},
+			{
+				img: Img226_2,
+				alt: "img226_2",
+			},
+			{
+				img: Img226_3,
+				alt: "img226_3",
+			},
+			{
+				img: Img226_4,
+				alt: "img226_4",
+			},
+			{
+				img: Img226_5,
+				alt: "img226_5",
+			},
+			{
+				img: Img226_6,
+				alt: "img226_6",
+			},
+			{
+				img: Img226_7,
+				alt: "img226_7",
+			},
+		],
+	},
+	{
+		id: 225,
+		link: "/info/notice/detail/225",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 선[先]타클로스 행사 제휴 업체 안내",
+		date: "2023-12-04",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분 ! 제46대 총학생회 선[先]입니다💙<br/><br/>“선[先]타클로스 : 선물을 부르는 착한 아이 대작전”과 선물로서 함께 하는 브랜드들을 소개합니다.<br/>다양한 브랜드에서 준비한 선물 받아가시면서 모두모두 행복한 하루 보내요🎄<br/><br/>학생회비 미납부자도 무료로 샘플링 받아가실 수 있으며, 샘플링 시간대는 아래와 같습니다 !<br/><br/>📍 시간<br/>1️⃣ 12:00 ~ 15:00 - 닥터포헤어 샴푸, 오끼뜨 수면양말, 유리프 폼클렌징<br/>2️⃣ 15:00 ~ 18:00 - CJ제일제당 푸드업사이클링 브랜드 EXCYCLE 바삭칩, 서주 젤리,쿠키<br/><br/>📍 장소 : 버스정류장 앞 총학생회 부스<br/><br/>관련하여 문의 사항이 있으시다면, 아래 방법을 통해 연락해주시면 감사하겠습니다🙂",
+		inImg: [
+			{
+				img: Img225_1,
+				alt: "img225_1",
+			},
+			{
+				img: Img225_2,
+				alt: "img225_2",
+			},
+			{
+				img: Img225_3,
+				alt: "img225_3",
+			},
+			{
+				img: Img225_4,
+				alt: "img225_4",
+			},
+			{
+				img: Img225_5,
+				alt: "img225_5",
+			},
+			{
+				img: Img225_6,
+				alt: "img225_6",
+			},
+			{
+				img: Img225_7,
+				alt: "img225_7",
+			},
+			{
+				img: Img225_8,
+				alt: "img225_8",
+			},
+		],
+	},
+	{
+		id: 224,
+		link: "/info/notice/detail/224",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 선[先]타클로스 행사 추가 이벤트 안내",
+		date: "2023-12-04",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분 ! 제46대 총학생회 선[先]입니다💙<br/><br/>“선[先]타클로스 : 선물을 부르는 착한 아이 대작전” D-1을 기념하여 수뭉이가 선물을 준비하고 있습니다.<br/><br/>게임 참여와 더불어 매 타임마다 약 10개의 선물을 선착순으로 받을 수 있는 단 세 번의 기회 꼭 기억해주세요🎄<br/><br/>❗️수뭉이의 선물은 총학생회 게임 부스에 참여하여 스탬프 1개 이상을 받은 학생회비 납부자 학우 여러분만 선물을 받을 수 있습니다❗️<br/><br/>♥️🫎 미리 크리스마수뭉 🫎♥️<br/><br/>❄️ 크리스마수뭉 랜덤 선물 장소 : 버스정류장 총학생회 부스<br/><br/>❄️ 크리스마수뭉 랜덤 선물 시간<br/><br/>1️⃣ 12:40 ~ 13:00<br/>2️⃣ 14:40 ~ 15:00<br/>3️⃣ 16:40 ~ 17:00<br/><br/>총학생회 게임 부스에 참여하고, 학생회비를 납부한 학우 여러분만 선물을 받을 수 있는 기회가 생긴다는 점, 꼭 유념해주시길 바랍니다 !<br/><br/>관련하여 문의 사항이 있으시다면, 아래 방법을 통해 연락해주시면 감사하겠습니다🙂",
+		inImg: [
+			{
+				img: Img224_1,
+				alt: "img224_1",
+			},
+			{
+				img: Img224_2,
+				alt: "img224_2",
+			},
+			{
+				img: Img224_3,
+				alt: "img224_3",
+			},
+			{
+				img: Img224_4,
+				alt: "img224_4",
+			},
+		],
+	},
+	{
+		id: 223,
+		link: "/info/notice/detail/223",
+		title: "상명대학교 제46대 총학생회 '선[先]' 선[先]견지명 SM-CDR 편",
+		date: "2023-12-04",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先] 교육지원국입니다.<br/><br/>교육지원국에서는 올해 4월 첫째 주부터 매주 월요일마다, 학우 여러분께서 학업에 집중하고 학술적 역량을 원활히 도모할 수 있도록💡선[先]견지명💡콘텐츠를 제공해드리고 있습니다.<br/><br/>어느덧, 12월 둘째 주로 전해드리는 'SM-CDR 편'으로💡선[先]견지명💡의 종료를 알려드립니다.<br/><br/>SM-CDR이란, 학우 여러분의 학부(과) 전공단위별 진출 분야를 선정하고, 분야별 전략적 교육과정을 로드맵하여 제공하는 경력개발 프로그램입니다.🎨<br/><br/>미래를 설계하여 전문 직종으로의 취업을 용이하게 하는 본 프로그램에 대한 온라인 설명회를 🖥️e-Campus🖥️를 통해 시청이 가능합니다.<br/>학생들이 직접 참여하여 제작한 타 학부(과)의 교육과정과 장점 등 유익한 정보를 확인할 수 있습니다!<br/><br/>1️⃣ SM-CDR 프로그램 안내<br/>2️⃣ SM-CDR 온라인 설명회 안내<br/><br/>2023년 4월 2일부터 12월 4일까지 1학기 20편, 2학기 13편, 총 33편의💡선[先]견지명💡을 제공하였습니다. 학우 여러분에게 조금이나마 도움이 되었기를 바랍니다.<br/><br/>감사합니다.🩵",
+		inImg: [
+			{
+				img: Img223_1,
+				alt: "img223_1",
+			},
+			{
+				img: Img223_2,
+				alt: "img223_2",
+			},
+			{
+				img: Img223_3,
+				alt: "img223_3",
+			},
+			{
+				img: Img223_4,
+				alt: "img223_4",
+			},
+			{
+				img: Img223_5,
+				alt: "img223_5",
+			},
+			{
+				img: Img223_6,
+				alt: "img223_6",
+			},
+			{
+				img: Img223_7,
+				alt: "img223_7",
+			},
+			{
+				img: Img223_8,
+				alt: "img223_8",
+			},
+			{
+				img: Img223_9,
+				alt: "img223_9",
+			},
+		],
+	},
+	{
+		id: 222,
+		link: "/info/notice/detail/222",
+		title: "상명대학교 제46대 총학생회 '선[先]' 선[先]타클로스 행사 게임 안내",
+		date: "2023-12-02",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분 ! 제46대 총학생회 선[先]입니다💙<br/><br/>“선[先]타클로스 : 선물을 부르는 착한 아이 대작전” 개봉 ❗<br/>D - 3❗️을 맞이해 착한 아이가 되기 위한 여러가지 게임들을 안내드립니다 :)<br/><br/>스탬프를 모아 모두 🌟짱🌟착한 아이가 되어보아요 ! 짱착한 아이에게는 산타 할아버지의 선물이 기다리고 있어요🎅🏻<br/><br/>모두모두 12/5 (화) 버스정류장 앞에서 만나요🗣️<br/><br/>관련하여 문의 사항이 있으시다면, 아래 방법을 통해 연락해주시면 감사하겠습니다🙂<br/><br/>",
+		inImg: [
+			{
+				img: Img222_1,
+				alt: "img222_1",
+			},
+			{
+				img: Img222_2,
+				alt: "img222_2",
+			},
+			{
+				img: Img222_3,
+				alt: "img222_3",
+			},
+			{
+				img: Img222_4,
+				alt: "img222_4",
+			},
+			{
+				img: Img222_5,
+				alt: "img222_5",
+			},
+			{
+				img: Img222_6,
+				alt: "img222_6",
+			},
+		],
+	},
 	{
 		id: 221,
 		link: "/info/notice/detail/221",
