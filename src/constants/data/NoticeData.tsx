@@ -852,6 +852,65 @@ import Img231_4 from "@/assets/notice/231/4.jpg";
 import Img231_5 from "@/assets/notice/231/5.jpg";
 import Img233_1 from "@/assets/notice/233/1.jpg";
 import Img233_2 from "@/assets/notice/233/2.jpg";
+import Img234_1 from "@/assets/notice/234/1.jpg";
+import Img234_2 from "@/assets/notice/234/2.jpg";
+import Img234_3 from "@/assets/notice/234/3.jpg";
+import Img234_4 from "@/assets/notice/234/4.jpg";
+import Img234_5 from "@/assets/notice/234/5.jpg";
+import Img235_1 from "@/assets/notice/235/1.jpg";
+import Img235_10 from "@/assets/notice/235/10.jpg";
+import Img235_11 from "@/assets/notice/235/11.jpg";
+import Img235_12 from "@/assets/notice/235/12.jpg";
+import Img235_13 from "@/assets/notice/235/13.jpg";
+import Img235_14 from "@/assets/notice/235/14.jpg";
+import Img235_15 from "@/assets/notice/235/15.jpg";
+import Img235_16 from "@/assets/notice/235/16.jpg";
+import Img235_2 from "@/assets/notice/235/2.jpg";
+import Img235_3 from "@/assets/notice/235/3.jpg";
+import Img235_4 from "@/assets/notice/235/4.jpg";
+import Img235_5 from "@/assets/notice/235/5.jpg";
+import Img235_6 from "@/assets/notice/235/6.jpg";
+import Img235_7 from "@/assets/notice/235/7.jpg";
+import Img235_8 from "@/assets/notice/235/8.jpg";
+import Img235_9 from "@/assets/notice/235/9.jpg";
+import Img236_1 from "@/assets/notice/236/1.jpg";
+import Img236_2 from "@/assets/notice/236/2.jpg";
+import Img237_1 from "@/assets/notice/237/1.jpg";
+import Img237_2 from "@/assets/notice/237/2.jpg";
+import Img239_1 from "@/assets/notice/239/1.jpg";
+import Img240_1 from "@/assets/notice/240/1.jpg";
+import Img240_2 from "@/assets/notice/240/2.jpg";
+import Img240_3 from "@/assets/notice/240/3.jpg";
+import Img240_4 from "@/assets/notice/240/4.jpg";
+import Img240_5 from "@/assets/notice/240/5.jpg";
+import Img241_1 from "@/assets/notice/241/1.jpg";
+import Img241_2 from "@/assets/notice/241/2.jpg";
+import Img241_3 from "@/assets/notice/241/3.jpg";
+import Img241_4 from "@/assets/notice/241/4.jpg";
+import Img241_5 from "@/assets/notice/241/5.jpg";
+import Img241_6 from "@/assets/notice/241/6.jpg";
+import Img241_7 from "@/assets/notice/241/7.jpg";
+import Img241_8 from "@/assets/notice/241/8.jpg";
+import Img241_9 from "@/assets/notice/241/9.jpg";
+import Img242_1 from "@/assets/notice/242/1.jpg";
+import Img242_10 from "@/assets/notice/242/10.jpg";
+import Img242_2 from "@/assets/notice/242/2.jpg";
+import Img242_3 from "@/assets/notice/242/3.jpg";
+import Img242_4 from "@/assets/notice/242/4.jpg";
+import Img242_5 from "@/assets/notice/242/5.jpg";
+import Img242_6 from "@/assets/notice/242/6.jpg";
+import Img242_7 from "@/assets/notice/242/7.jpg";
+import Img242_8 from "@/assets/notice/242/8.jpg";
+import Img242_9 from "@/assets/notice/242/9.jpg";
+import Img243_1 from "@/assets/notice/243/1.jpg";
+import Img243_2 from "@/assets/notice/243/2.jpg";
+import Img243_3 from "@/assets/notice/243/3.jpg";
+import Img243_4 from "@/assets/notice/243/4.jpg";
+import Img243_5 from "@/assets/notice/243/5.jpg";
+import Img243_6 from "@/assets/notice/243/6.jpg";
+import Img243_7 from "@/assets/notice/243/7.jpg";
+import Img243_8 from "@/assets/notice/243/8.jpg";
+import Img243_9 from "@/assets/notice/243/9.jpg";
 import Img25_1 from "@/assets/notice/25/1.jpg";
 import Img25_2 from "@/assets/notice/25/2.jpg";
 import Img25_3 from "@/assets/notice/25/3.jpg";
@@ -1101,6 +1160,7 @@ import Video20 from "@/assets/video/20.mp4";
 import Video21 from "@/assets/video/21.mp4";
 import Video22 from "@/assets/video/22.mp4";
 import Video23 from "@/assets/video/23.mp4";
+import Video24 from "@/assets/video/24.mp4";
 import Video3 from "@/assets/video/3.mp4";
 import Video4 from "@/assets/video/4.mp4";
 import Video5 from "@/assets/video/5.mp4";
@@ -1110,6 +1170,371 @@ import Video8 from "@/assets/video/8.mp4";
 import Video9 from "@/assets/video/9.mp4";
 
 export const NoticeData = [
+	{
+		id: 243,
+		link: "/info/notice/detail/243",
+		title: "상명대학교 제46대 총학생회 '선[先]' 퇴임사",
+		date: "2023-12-31",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 ‘선[先]’의 총학생회장 이진, 부총학생회장 이사랑입니다.<br/><br/>1년이 채 되지 않았던 약 열 달간의 임기를 갈무리하는 지금, 수많은 생각이 머릿속을 스칩니다.<br/>학우 여러분께 총학생회 선[先]이 어떤 기억의 조각으로 남았을지 궁금해지기도 합니다.<br/><br/>총학생회 선[先]은 올해 3월, 항상 학우 여러분의 한 걸음 앞에 서 있겠다는 약속과 함께 출범하였습니다.<br/>학생 자치 기구로서 기본에 집중하며 열심히, 더 나아가 잘하기 위해 노력했습니다. 이러한 한 해 동안의 노력이 학우 여러분께도 조금이나마 보탬이 되었길 바라는 마음입니다.<br/><br/>서울의 중심, 종로의 정상에서 육천 상명인을 대표할 수 있어 영광이었습니다.<br/><br/>총학생회 선[先]이 부디 학우 여러분의 기억 속에서 대학 시절 향기로운 꽃으로, 푸르른 초엽으로, 찬란한 낙엽으로, 포근한 눈으로 자리매김하기를 바라며<br/>마지막 인사를 전합니다.<br/><br/>지금까지 총학생회장 이진, 부총학생회장 이사랑이었습니다. 감사합니다.",
+		inImg: [
+			{
+				img: Img243_1,
+				alt: "img243_1",
+			},
+			{
+				img: Img243_2,
+				alt: "img243_2",
+			},
+			{
+				img: Img243_3,
+				alt: "img243_3",
+			},
+			{
+				img: Img243_4,
+				alt: "img243_4",
+			},
+			{
+				img: Img243_5,
+				alt: "img243_5",
+			},
+			{
+				img: Img243_6,
+				alt: "img243_6",
+			},
+			{
+				img: Img243_7,
+				alt: "img243_7",
+			},
+			{
+				img: Img243_8,
+				alt: "img243_8",
+			},
+			{
+				img: Img243_9,
+				alt: "img243_9",
+			},
+		],
+	},
+	{
+		id: 242,
+		link: "/info/notice/detail/242",
+		title: "상명대학교 제46대 총학생회 '선[先]' 최종 공약 이행 보고",
+		date: "2023-12-31",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>금년도 3월 말, 총학생회가 발족된 이후 한 해 동안 총학생회 선[先]은 학우 여러분께 약속했던 여러 공약 사업을 이행하였습니다.<br/><br/>임기 마지막인 오늘, 본 총학생회에서 이행한 공약 사업 및 이행 정도를 보고드립니다. 자세한 내용은 첨부된 홍보물을 참고해주시길 부탁드립니다.<br/><br/>모든 공약의 이행 과정에 관심을 가지고 함께해주셨던 학우분들께 감사의 말씀을 전합니다.<br/><br/>감사합니다.<br/><br/>💙 최종 공약 이행률 : 90.84%",
+		inImg: [
+			{
+				img: Img242_1,
+				alt: "img242_1",
+			},
+			{
+				img: Img242_2,
+				alt: "img242_2",
+			},
+			{
+				img: Img242_3,
+				alt: "img242_3",
+			},
+			{
+				img: Img242_4,
+				alt: "img242_4",
+			},
+			{
+				img: Img242_5,
+				alt: "img242_5",
+			},
+			{
+				img: Img242_6,
+				alt: "img242_6",
+			},
+			{
+				img: Img242_7,
+				alt: "img242_7",
+			},
+			{
+				img: Img242_8,
+				alt: "img242_8",
+			},
+			{
+				img: Img242_9,
+				alt: "img242_9",
+			},
+			{
+				img: Img242_10,
+				alt: "img242_10",
+			},
+		],
+	},
+	{
+		id: 241,
+		link: "/info/notice/detail/241",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 2학기 사업보고 안내 (복지, 문화)",
+		date: "2023-12-31",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>올해 3월 말, 총학생회 발족 이후 임기가 마무리 되는 시기가 다가왔습니다.<br/>총학생회 선[先]은 1학기에 이어 2학기에도 학우 여러분을 위해 소통, 복지, 문화, 학사 등 폭 넓은 분야의 사업을 진행하였습니다.<br/><br/>2학기에도 총학생회 선[先]의 사업에 관심을 가져주신 학우 여러분께 감사의 말씀 전하며, 이번 학기 동안 진행하였던 복지, 문화 관련 사업을 보고드립니다.<br/><br/>총학생회 선[先]이 1년간 다양한 사업을 시행할 수 있게 많은 관심과 지지 보내주신 학우 여러분께 감사의 말씀 드립니다.<br/><br/>2024년, 새해 복 많이 받으시고 학우 여러분도 하시는일 다 잘되기를 기원합니다.<br/><br/>감사합니다.",
+		inImg: [
+			{
+				img: Img241_1,
+				alt: "img241_1",
+			},
+			{
+				img: Img241_2,
+				alt: "img241_2",
+			},
+			{
+				img: Img241_3,
+				alt: "img241_3",
+			},
+			{
+				img: Img241_4,
+				alt: "img241_4",
+			},
+			{
+				img: Img241_5,
+				alt: "img241_5",
+			},
+			{
+				img: Img241_6,
+				alt: "img241_6",
+			},
+			{
+				img: Img241_7,
+				alt: "img241_7",
+			},
+			{
+				img: Img241_8,
+				alt: "img241_8",
+			},
+			{
+				img: Img241_9,
+				alt: "img241_9",
+			},
+		],
+	},
+	{
+		id: 240,
+		link: "/info/notice/detail/240",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 2학기 사업보고 안내 (학사, 소통)",
+		date: "2023-12-31",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분, 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>올해 3월 말, 총학생회 발족 이후 임기가 마무리 되는 시기가 다가왔습니다.<br/>총학생회 선[先]은 1학기에 이어 2학기에도 학우 여러분을 위해 소통, 복지, 문화, 학사 등 폭 넓은 분야의 사업을 진행하였습니다.<br/><br/>2학기에도 총학생회 선[先]의 사업에 관심을 가져주신 학우 여러분께 감사의 말씀 전하며, 이번 학기 동안 진행하였던 학사, 소통 관련 사업을 보고드립니다.<br/><br/>총학생회 선[先]이 1년간 다양한 사업을 시행할 수 있게 많은 관심과 지지 보내주신 학우 여러분께 감사의 말씀 드립니다.<br/><br/>2024년, 새해 복 많이 받으시고 학우 여러분도 하시는일 다 잘되기를 기원합니다.<br/><br/>감사합니다.",
+		inImg: [
+			{
+				img: Img240_1,
+				alt: "img240_1",
+			},
+			{
+				img: Img240_2,
+				alt: "img240_2",
+			},
+			{
+				img: Img240_3,
+				alt: "img240_3",
+			},
+			{
+				img: Img240_4,
+				alt: "img240_4",
+			},
+			{
+				img: Img240_5,
+				alt: "img240_5",
+			},
+		],
+	},
+	{
+		id: 239,
+		link: "/info/notice/detail/239",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 2023 총정리 선[先]문선[先]답 시행 안내",
+		date: "2023-12-27",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"상명대학교 서울캠퍼스 학우 여러분 안녕하십니까. 제46대 총학생회 선[先]입니다.<br/><br/>2023년, 한 해 동안 저희 총학생회는 학우분들의 목소리와 의견이 학교 측에 명확히 반영될 수 있도록, 항상 한 걸음 앞에 먼저 서고자 노력해왔습니다.<br/>그리고 이제는 시간이 흘러, 올해의 마지막 날짜인 12월 31일을 끝으로 모든 임기를 마치게 되었습니다.<br/>이에, 마지막 학생 만족도 설문조사인 “선문선답”을 통하여 총학생회 선[先]으로서 마지막으로 여러분의 목소리를 듣게 될 것 같습니다.<br/><br/>비록 총학생회 선[先]의 발걸음은 멈추지만, 앞으로도 계속해서 이어질 상명대학교의 소중한 학생 자치를 위해,<br/>그리고 학우 여러분의 목소리가 앞으로도 계속 닿을 수 있도록 마지막 발자국을 남기고자 본 설문조사의 결과를 학교에 남겨두고 떠나고자 합니다.<br/>상명대학교 서울캠퍼스 학생자치기구의 무궁한 발전을 위하여 여러분의 소중한 의견을 전달해주시면 감사하겠습니다.<br/><br/>또한, 설문조사에 참여해주시는 학우분들 중 10명을 랜덤으로 추첨하여, 감사의 마음을 담아 ☕스타벅스 기프티콘☕ 을 전달해 드리고자 합니다.<br/>참여 이벤트와 관련한 세부 사항은 정보 입력 문항 설명란에 기재되어 있으니 참고해 주시면 감사하겠습니다.<br/><br/>그동안 총학생회 선[先]에 많은 관심과 지지를 보내주신 학우 여러분께 진심 어린 감사의 인사를 전해드립니다.<br/>2023년도의 한 해를 상명인 여러분들과 함께할 수 있어 영광이었습니다. 이제는 한 걸음 뒤에서 학우 여러분을 묵묵히 응원하고 지지하겠습니다.<br/><br/>감사합니다.<br/><br/>✔️ 설문 기간 : 12/27(수) 21:00 - 12/31(일) 23:59<br/>✔️ 설문 링크 : https://forms.gle/ygY1PEGNvY5adqUw7",
+		inImg: [
+			{
+				img: Img239_1,
+				alt: "img239_1",
+			},
+		],
+	},
+	{
+		id: 238,
+		link: "/info/notice/detail/238",
+		title: "상명대학교 제46대 총학생회 '선[先]' 굿바이 선[先] 영상 공개",
+		date: "2023-12-25",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>지난 봄, 우리는 학우 여러분의 권익 확보와 학생 자치 실현을 꿈꾸며 야심차게 한 발을 내딛었습니다.<br/>오랫동안 총학생회가 단절되었던만큼 크고 작은 어려움도 많았지만, 학우 여러분의 뜨거운 관심 속에서 더욱 열정적으로 임할 수 있었던 한 해였습니다.<br/><br/>그대 외침 닿을 때까지, 한 걸음 앞에 먼저 서 있고자 했던 총학생회 선[先]은 어느덧 금일을 기점으로 일주일 후 임기를 마치게 됩니다.<br/>이에 임기 종료를 앞둔 시점에서, 총학생회가 나아가고자 했던 방향을 되돌아보며 학우 여러분과 함께 올해를 마무리해보고자 합니다.<br/><br/>총학생회 선[先]과 함께 보냈던 한 해를 회고하며 후기를 남겨주시는 분에게는<br/>추첨을 통하여 총 10명에게 ‘스타벅스 e카드 2만 원 교환권’을 드릴 예정이오니, 많은 참여 부탁드립니다! 🎁<br/><br/>감사합니다.<br/><br/>📍 참여기간 : 12/25(월) 업로드 시점 ~ 12/27(수) 23:59까지<br/>📍 참여대상 : 상명대학교 서울캠퍼스 재•휴학생<br/>📍 참여방법 : 총학생회 선[先]과 함께한 1년을 돌아보며, 하고 싶은 말 한마디를 자유롭게 댓글로 작성<br/>📍 당첨자 발표 : 12/31(일) ※ 당첨자 개별 DM 송부 예정(중복 추첨 방지를 위해 연락처와 재•휴학생 여부를 확인할 예정이오니 당일까지 회신 부탁드립니다.)<br/>📍 당첨상품 : 스타벅스 e카드 2만 원 교환권<br/><br/>‼️ 유의사항<br/>※ 상품 당첨자에게는 개별 DM을 통해 안내드릴 예정입니다. 이에, 본 이벤트는 DM 수신이 가능한 ‘공개 계정’만 참여가 가능합니다.<br/>※ 미당첨자 분들에게는 별도로 안내가 발송되지 않는 점 양해 부탁드립니다.<br/>※ 중복 추첨 방지와 재•휴학생 확인을 위해, 상품 수령 희망 시 DM을 통해 꼭 당일 내 회신을 부탁드립니다.<br/>※ 상품 교환권은 연락처 확인 후 문자로 발송 예정입니다.<br/><br/>🎵 BGMㅣ시한부(Leellarmarz, Loco) - TOIL<br/>🎥 제작ㅣ홍보국",
+		inVideo: [
+			{
+				video: Video24,
+			},
+		],
+	},
+	{
+		id: 237,
+		link: "/info/notice/detail/237",
+		title: "상명대학교 제46대 총학생회 '선[先]' 학위복 디자인 공모전 투표 안내",
+		date: "2023-12-18",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>지난 11월 27일부터 12월 10일까지, 본교에서 학위복 디자인 공모전을 진행한 바 있습니다. 해당 공모전을 통해 선정된 9개의 공모작에 대하여 4일간 투표를 진행합니다.<br/><br/>우리가 직접 선정한 디자인의 학위복을 입으며 보다 만족스러운 학위수여식이 이루어질 수 있도록, 우리 대학 학우 여러분의 많은 관심과 참여를감사합니다 :)<br/><br/>🎓 투표 기간 : 12/18(월) - 12/21(목) 24:00<br/>🎓 투표 링크 : 학교 홈페이지 통합공지 또는 총학생회 인스타그램 프로필 링크트리를 통해 확인 가능",
+		inImg: [
+			{
+				img: Img237_1,
+				alt: "img237_1",
+			},
+			{
+				img: Img237_2,
+				alt: "img237_2",
+			},
+		],
+	},
+	{
+		id: 236,
+		link: "/info/notice/detail/236",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 학사운영 관련 설문조사 실시 안내",
+		date: "2023-12-18",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>본 공지는 이번 2학기 이후 개선을 예정하고 있는 대표적인 학사 운영 개편 내용을 학우 여러분께 소개드리고,<br/>개편안과 관련한 학우 여러분의 의견을 본 설문조사를 통해 수렴하기 위해 작성되었음을 알려드립니다.<br/><br/>저희 총학생회에서는 이번 2학기 동안,<br/>학생 건의 진행 프로세스 아래 다양한 학교 행정처와 지속적으로 소통하며 학우 여러분께서 더 나은 학교생활을 하실 수 있도록 노력해왔습니다.<br/><br/>본교 교무처 및 학사운영팀과 총학생회가 적극 소통하며, 학사 운영 관련 변경 필요성이 느껴지는 학생 건의 내용에 대해 지속적인 검토를 진행했습니다.<br/>그 과정에서 현재 개선을 고려하고 있는 방향성이 일부 구체화가 완료되었습니다. 본 설문조사에서 다루고자 하는 안건의 개편 내용은 아래와 같습니다.<br/><br/>1. 기존 학사일정 관련 개편 (보강주차 및 고사기간)<br/>2. 주전공자 교과목 우선 수강신청 관련 개편<br/><br/>자세한 내용은 아래 설문조사 URL을 통해 확인해주시면 감사하겠습니다.<br/>상명대학교의 더 나은 학사운영 방안 마련을 위해, 많은 학우 여러분의 관심과 설문 참여를 부탁드리겠습니다.<br/><br/>감사합니다.<br/><br/>✔️ 설문 기간 : 12/18(월) - 12/22(금)<br/>✔️ 설문 링크 : https://forms.gle/bwtMxp8SDPPv6W5k8",
+		inImg: [
+			{
+				img: Img236_1,
+				alt: "img236_1",
+			},
+			{
+				img: Img236_2,
+				alt: "img236_2",
+			},
+		],
+	},
+	{
+		id: 235,
+		link: "/info/notice/detail/235",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 2학기 학사운영팀 미팅 회의록 안내",
+		date: "2023-12-18",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회에서는 총학생회에서 취합한 학생 건의 전달을 위해, 아래 사항을 안건으로 하여 지난 12월 1일 금요일, 학사운영팀과의 미팅을 진행하였습니다.<br/><br/>자세한 논의 내용은 첨부된 이미지를 참고해주시길 바랍니다. 감사합니다.<br/><br/>[ 논의 안건 ]<br/><br/>1. 본전공자의 교과목 우선 수강신청 관련<br/>2. 교과목 전임교수 안식년 계획 사전 공지 요청<br/>3. 교수자 평가 방식 일원화 요청<br/>4. 과목 폐강 시, 대체 과목(재수강 가능 교과목) 개설 요청<br/>5. 수강 포기 제도 시행 요청<br/>6. 간담회 발의 안건 관련 (카피킬러 제휴 협약, 학위복 제작)<br/>※ (학사운영팀 발의 안건) 보강주차 및 고사기간 변경 관련",
+		inImg: [
+			{
+				img: Img235_1,
+				alt: "img235_1",
+			},
+			{
+				img: Img235_2,
+				alt: "img235_2",
+			},
+			{
+				img: Img235_3,
+				alt: "img235_3",
+			},
+			{
+				img: Img235_4,
+				alt: "img235_4",
+			},
+			{
+				img: Img235_5,
+				alt: "img235_5",
+			},
+			{
+				img: Img235_6,
+				alt: "img235_6",
+			},
+			{
+				img: Img235_7,
+				alt: "img235_7",
+			},
+			{
+				img: Img235_8,
+				alt: "img235_8",
+			},
+			{
+				img: Img235_9,
+				alt: "img235_9",
+			},
+			{
+				img: Img235_10,
+				alt: "img235_10",
+			},
+			{
+				img: Img235_11,
+				alt: "img235_11",
+			},
+			{
+				img: Img235_12,
+				alt: "img235_12",
+			},
+			{
+				img: Img235_13,
+				alt: "img235_13",
+			},
+			{
+				img: Img235_14,
+				alt: "img235_14",
+			},
+			{
+				img: Img235_15,
+				alt: "img235_15",
+			},
+			{
+				img: Img235_16,
+				alt: "img235_16",
+			},
+		],
+	},
+	{
+		id: 234,
+		link: "/info/notice/detail/234",
+		title:
+			"상명대학교 제46대 총학생회 '선[先]' 2학기 정보통신팀 미팅 회의록 안내",
+		date: "2023-12-18",
+		owner: "관리자",
+		kind: "공지",
+		content:
+			"안녕하십니까, 상명대학교 서울캠퍼스 학우 여러분! 제46대 총학생회 선[先]입니다.<br/><br/>본 총학생회에서는 학교 홈페이지 UX/UI 개선 의견 및 학생 건의 전달을 안건으로 하여 지난 11월 24일 금요일, 정보통신팀과의 미팅을 진행하였습니다.<br/><br/>자세한 논의 내용은 첨부된 이미지를 참고해주시길 바랍니다. 감사합니다.<br/><br/>[ 논의 안건 ]<br/><br/>1. 상명대학교 홈페이지 기능 개편 관련 건의안<br/>※ 세부 안건은 이미지 참고",
+		inImg: [
+			{
+				img: Img234_1,
+				alt: "img234_1",
+			},
+			{
+				img: Img234_2,
+				alt: "img234_2",
+			},
+			{
+				img: Img234_3,
+				alt: "img234_3",
+			},
+			{
+				img: Img234_4,
+				alt: "img234_4",
+			},
+			{
+				img: Img234_5,
+				alt: "img234_5",
+			},
+		],
+	},
 	{
 		id: 233,
 		link: "/info/notice/detail/233",
